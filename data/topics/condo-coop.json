@@ -306,5 +306,1097 @@
     "answer": 2,
     "explanation": "IRC § 216 lets tenant-stockholders of a qualifying cooperative deduct their proportionate share of the corporation's real estate taxes and mortgage interest. Operating costs in maintenance are not deductible, and the corporation must meet § 216's tests.",
     "citation": "26 U.S.C. § 216 (IRC § 216)"
+  },
+  {
+    "id": "condo-coop-a001",
+    "topic": "condo-coop",
+    "q": "Under New York's Condominium Act, which method may the declaration use to set each unit's percentage of common interest?",
+    "options": [
+      "The unit's approximate share of total fair value or floor area, or equal shares",
+      "A yearly board vote based on how often the owner uses the amenities",
+      "The county assessor's current market value shown on each unit's tax bill",
+      "The number of people occupying each unit on the day of closing"
+    ],
+    "answer": 0,
+    "explanation": "RPL §339-i(1) lets the declaration fix the common interest by approximate relative fair value or floor area at the time of the declaration, by equal percentages, or by floor space adjusted for location and similar factors. It is fixed in the declaration, not reset by usage, occupancy, or each year's tax assessment.",
+    "citation": "RPL §339-i(1)"
+  },
+  {
+    "id": "condo-coop-a002",
+    "topic": "condo-coop",
+    "q": "A condo owner plans to sell her apartment to one buyer and separately sell her 1.8% interest in the common elements to an investor. What is the legal result?",
+    "options": [
+      "She may, if the board of managers approves the split in writing",
+      "She may, but the investor must then pay the unit's common charges",
+      "She cannot; the common interest may not be separated from the unit",
+      "She may only if the declaration calls the interest a limited common element"
+    ],
+    "answer": 2,
+    "explanation": "The common interest is appurtenant to the unit and, under RPL §339-i(2), shall not be separated from the unit to which it belongs. Board approval cannot authorize a split that the statute forbids.",
+    "citation": "RPL §339-i(2)"
+  },
+  {
+    "id": "condo-coop-a003",
+    "topic": "condo-coop",
+    "q": "An owner in a 40-unit condominium sues to partition the building's parking garage so she can own her proportionate share of it outright. How should the court rule?",
+    "options": [
+      "Grant it if a majority of the unit owners consent to the partition",
+      "Deny it; common elements stay undivided and are not subject to partition",
+      "Grant it once she has owned her unit for at least ten years",
+      "Grant it for parking areas but not for structural common elements"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-i(3) provides that common elements remain undivided and no right to partition exists while the property is a condominium; any contrary provision is void. Majority consent, length of ownership, and the type of common element do not create a partition right.",
+    "citation": "RPL §339-i(3)"
+  },
+  {
+    "id": "condo-coop-a004",
+    "topic": "condo-coop",
+    "q": "Which action is required to change the percentage of common interest assigned to a condominium unit in the declaration?",
+    "options": [
+      "A resolution adopted by the board of managers at its annual meeting",
+      "A majority vote of all unit owners at a duly called special meeting",
+      "An amended declaration with consent of all unit owners affected",
+      "A new appraisal of the unit ordered by the owner's mortgage lender"
+    ],
+    "answer": 2,
+    "explanation": "Under RPL §339-i(2) the common interest has a permanent character and may not be altered without the consent of all affected unit owners, expressed in an amended declaration. A board resolution or simple majority vote cannot reallocate someone's interest.",
+    "citation": "RPL §339-i(2)"
+  },
+  {
+    "id": "condo-coop-a005",
+    "topic": "condo-coop",
+    "q": "A condominium's annual operating budget is $612,000. Unit 4C's common interest is 1.75%. What are Unit 4C's monthly common charges?",
+    "options": [
+      "$10,710.00",
+      "$1,071.00",
+      "$8,925.00",
+      "$892.50"
+    ],
+    "answer": 3,
+    "explanation": "Common expenses are charged by common interest: $612,000 × 0.0175 = $10,710 per year; $10,710 ÷ 12 = $892.50 per month. $10,710 is the annual figure mistaken for monthly; $1,071 and $8,925 are decimal-point slips.",
+    "citation": "RPL §339-m"
+  },
+  {
+    "id": "condo-coop-a006",
+    "topic": "condo-coop",
+    "q": "A 100-unit condominium levies a $1,250,000 special assessment for façade repairs, allocated by common interest. Unit 9F holds a 0.8% common interest. What is 9F's share?",
+    "options": [
+      "$10,000",
+      "$12,500",
+      "$1,000",
+      "$100,000"
+    ],
+    "answer": 0,
+    "explanation": "Allocation by common interest: $1,250,000 × 0.008 = $10,000. $12,500 is the equal-share trap ($1,250,000 ÷ 100 units), which ignores the declaration's percentages; $1,000 and $100,000 are decimal errors.",
+    "citation": "RPL §339-m"
+  },
+  {
+    "id": "condo-coop-a007",
+    "topic": "condo-coop",
+    "q": "A declaration sets common interests strictly by floor area. Unit 3A has 1,400 sq ft, and all units together total 56,000 sq ft. What is Unit 3A's common interest?",
+    "options": [
+      "2.50%",
+      "0.25%",
+      "4.00%",
+      "25.00%"
+    ],
+    "answer": 0,
+    "explanation": "1,400 ÷ 56,000 = 0.025 = 2.50%. Dividing 56,000 by 1,400 gives 40, which leads to the 4% mistake; 0.25% and 25% misplace the decimal.",
+    "citation": "RPL §339-i(1)"
+  },
+  {
+    "id": "condo-coop-a008",
+    "topic": "condo-coop",
+    "q": "In a typical New York condominium, which of these is NOT a common element?",
+    "options": [
+      "The land beneath and around the building itself",
+      "The building's foundation, exterior walls, and roof",
+      "The lobby, hallways, elevators, and stairwells",
+      "The interior space inside an owner's unit boundaries"
+    ],
+    "answer": 3,
+    "explanation": "RPL §339-e(3) lists the common elements, unless the declaration provides otherwise: the land, structural parts such as foundations, main walls, and roofs, and shared areas like lobbies, halls, stairs, and elevators. The space inside the unit's boundaries is the unit itself, owned exclusively by its owner. Saying that condo owners own no land is a known trap; the land is a common element they own in undivided shares.",
+    "citation": "RPL §339-e(3); RPL §339-h"
+  },
+  {
+    "id": "condo-coop-a009",
+    "topic": "condo-coop",
+    "q": "The declaration describes a balcony reachable only from Unit 12B as a common element reserved for 12B's exclusive use. Who owns the balcony?",
+    "options": [
+      "All unit owners in common, with use reserved to 12B",
+      "The owner of Unit 12B, in fee, as part of the unit",
+      "The board of managers, as property of the association",
+      "The sponsor, until every unit in the building has sold"
+    ],
+    "answer": 0,
+    "explanation": "A limited common element remains part of the common elements owned by all unit owners in undivided shares, but the declaration reserves its use to one or more units. RPL §339-i(4) recognizes such substantially exclusive advantages. The board administers common elements; it does not own them.",
+    "citation": "RPL §339-i(4)"
+  },
+  {
+    "id": "condo-coop-a010",
+    "topic": "condo-coop",
+    "q": "A condo's declaration and bylaws authorize allocating costs by exclusive use. The board charges roof-deck upkeep only to the three penthouses that alone can reach the deck. Is this proper?",
+    "options": [
+      "No; every expense must be split strictly by common interest",
+      "Yes; the documents authorize allocation based on exclusive use",
+      "Yes; a board may shift any cost to the owners it chooses",
+      "No; such costs bind penthouse owners only if agreed at closing"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-m normally spreads common expenses by common interest, but it permits special allocation based on exclusive use or control of particular common areas when the declaration and bylaws authorize it. Without that authorization the board could not do this, and the power is not unlimited.",
+    "citation": "RPL §339-m"
+  },
+  {
+    "id": "condo-coop-a011",
+    "topic": "condo-coop",
+    "q": "Which condominium document, attached to the declaration, governs administration such as electing the board, holding meetings, and collecting common charges?",
+    "options": [
+      "The offering plan",
+      "The bylaws",
+      "The unit deed",
+      "The house rules"
+    ],
+    "answer": 1,
+    "explanation": "Under RPL §339-u the operation of the property is governed by the bylaws, a true copy of which is annexed to the declaration, and §339-v(1) requires them to cover the election of the board, calling of owners' meetings, and collection of common charges. The offering plan is a sponsor's disclosure document, and house rules are detailed rules adopted under the bylaws.",
+    "citation": "RPL §§339-u, 339-v"
+  },
+  {
+    "id": "condo-coop-a012",
+    "topic": "condo-coop",
+    "q": "A condo board adopts a house rule that conflicts with a provision of the recorded declaration. Which controls?",
+    "options": [
+      "The declaration, which ranks above board-adopted rules",
+      "The house rule, because it was adopted most recently",
+      "Whichever provision is more restrictive on owners",
+      "The house rule, once posted in the building lobby"
+    ],
+    "answer": 0,
+    "explanation": "The governing documents form a hierarchy: the Condominium Act, then the declaration, then the bylaws, then rules the board adopts under them. A rule cannot override the declaration, regardless of when it was adopted or how strict it is.",
+    "citation": "RPL Art. 9-B (Condominium Act); RPL §339-j"
+  },
+  {
+    "id": "condo-coop-a013",
+    "topic": "condo-coop",
+    "q": "A buyer's attorney reviews the deed to a condominium unit before closing. Which would the deed ordinarily include?",
+    "options": [
+      "A metes-and-bounds survey of only the unit's interior walls",
+      "The stock certificate number and the shares allocated",
+      "The unit designation, declaration reference, and common interest",
+      "The proprietary lease term and the monthly maintenance due"
+    ],
+    "answer": 2,
+    "explanation": "RPL §339-o requires a unit deed to include a description of the land with the recording data of the declaration, the unit designation from the declaration, the use for which the unit is intended, and the unit's common interest. Shares and a proprietary lease belong to a co-op, not a condo.",
+    "citation": "RPL §339-o"
+  },
+  {
+    "id": "condo-coop-a014",
+    "topic": "condo-coop",
+    "q": "A condo owner wants to borrow against her unit. May she give a mortgage on it?",
+    "options": [
+      "Yes; the unit and its common interest are real property",
+      "No; only the board may mortgage the building as a whole",
+      "Only with written consent from every other unit owner",
+      "Only through a share loan perfected by a UCC filing"
+    ],
+    "answer": 0,
+    "explanation": "Under RPL §339-g each unit with its common interest is real property for all purposes, so the owner may convey or mortgage it like a house. A share loan with a UCC filing is co-op financing.",
+    "citation": "RPL §339-g"
+  },
+  {
+    "id": "condo-coop-a015",
+    "topic": "condo-coop",
+    "q": "A married couple is buying a condominium unit in New York. How may they take title?",
+    "options": [
+      "Only in one spouse's name, as condo units allow a sole owner",
+      "Only as joint tenants, because the common elements are shared",
+      "Only as tenants in common, unless the board approves otherwise",
+      "As tenants by the entirety, like any other real property"
+    ],
+    "answer": 3,
+    "explanation": "A condo unit is real property, and RPL §339-i(3) confirms that the no-partition rule for common elements does not prevent ownership of a unit by the entirety, jointly, or in common. Married couples commonly take title as tenants by the entirety.",
+    "citation": "RPL §339-i(3); RPL §339-g"
+  },
+  {
+    "id": "condo-coop-a016",
+    "topic": "condo-coop",
+    "q": "The owner of one unit in a 60-unit condominium fails to pay the unit's real estate taxes. Against what may the taxing authority enforce the tax?",
+    "options": [
+      "The entire building, including every other owner's unit",
+      "All units, by adding the shortfall to everyone's common charges",
+      "Other units only if the board guaranteed the owner's taxes",
+      "Only that unit and its common interest, a separate tax parcel"
+    ],
+    "answer": 3,
+    "explanation": "RPL §339-y treats each unit and its common interest as a separate parcel for assessment and taxation; the building and common elements are not a parcel. The unpaid tax is a lien on that unit only, not on neighbors' units.",
+    "citation": "RPL §339-y"
+  },
+  {
+    "id": "condo-coop-a017",
+    "topic": "condo-coop",
+    "q": "A condo unit has a first mortgage and a home equity loan, both recorded before the board files its lien for unpaid common charges. How does the common-charge lien rank?",
+    "options": [
+      "Behind every mortgage that was recorded before the lien was filed",
+      "Ahead of all other liens, including the unit's real estate taxes",
+      "Behind taxes and the first mortgage but ahead of the home equity loan",
+      "Equal in rank with the home equity loan, sharing any proceeds"
+    ],
+    "answer": 2,
+    "explanation": "RPL §339-z makes the common-charge lien prior to all other liens except tax liens, sums unpaid on a first mortgage of record, and certain government-agency mortgages. A second mortgage or HELOC is junior even if recorded earlier, which is the trap in the first-in-time distractor.",
+    "citation": "RPL §339-z"
+  },
+  {
+    "id": "condo-coop-a018",
+    "topic": "condo-coop",
+    "q": "A condo board files a notice of lien for unpaid common charges. If the charges are not paid, how long does the lien remain in effect?",
+    "options": [
+      "One year from the date the notice of lien is filed",
+      "Ten years from the date of the first missed payment",
+      "Six years from the date the notice of lien is filed",
+      "Indefinitely, until the unit is next sold or refinanced"
+    ],
+    "answer": 2,
+    "explanation": "Under RPL §339-aa the lien continues until paid or until six years from filing, whichever is sooner, and may be foreclosed like a mortgage. One year is the typical mechanic's-lien duration, which is a different lien.",
+    "citation": "RPL §339-aa"
+  },
+  {
+    "id": "condo-coop-a019",
+    "topic": "condo-coop",
+    "q": "Before closing, a condo buyer gets a written statement from the board showing $1,200 in unpaid common charges. After closing, the board finds $3,000 was actually owed. Who owes the extra $1,800?",
+    "options": [
+      "The buyer, because the lien for charges runs with the unit",
+      "No one; neither party is liable beyond the $1,200 stated",
+      "The seller, and the unit stays subject to a lien meanwhile",
+      "The buyer and seller jointly, each owing half the shortfall"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-z entitles a grantor or grantee to a statement of unpaid common charges, and neither is liable for, nor is the unit subject to a lien for, pre-conveyance charges beyond the amount stated. That is why buyers' attorneys order the statement.",
+    "citation": "RPL §339-z"
+  },
+  {
+    "id": "condo-coop-a020",
+    "topic": "condo-coop",
+    "q": "A condo owner who never uses the pool or gym tells the board she will stop paying the part of her common charges that funds them. What is her legal position?",
+    "options": [
+      "She still owes the full charges despite not using the amenities",
+      "She may deduct the amenity share after notifying the board",
+      "She owes only the share for structural and safety items",
+      "She is exempt once she signs a written waiver of use"
+    ],
+    "answer": 0,
+    "explanation": "RPL §339-x provides that no unit owner may escape liability for common charges by waiving use or enjoyment of any common elements. Charges follow the common interest, not personal usage.",
+    "citation": "RPL §339-x"
+  },
+  {
+    "id": "condo-coop-a021",
+    "topic": "condo-coop",
+    "q": "If the bylaws permit it, which act ends a condo owner's liability for common charges accruing afterward?",
+    "options": [
+      "Moving out and returning the keys to the managing agent",
+      "Sending the board written notice that she abandons the unit",
+      "Ceasing all use of the common elements and amenities",
+      "Conveying the unit and its common interest to the board"
+    ],
+    "answer": 3,
+    "explanation": "RPL §339-x says abandonment of a unit or waiver of use does not exempt an owner, but, subject to the bylaws, conveying the unit and common interest to the board of managers on behalf of the other owners exempts the owner from charges accruing afterward.",
+    "citation": "RPL §339-x"
+  },
+  {
+    "id": "condo-coop-a022",
+    "topic": "condo-coop",
+    "q": "The owner of Unit 7C hires a contractor to renovate her kitchen and does not pay. Against what may the contractor file a mechanic's lien?",
+    "options": [
+      "The entire condominium property",
+      "The common elements of the building",
+      "Only Unit 7C and its common interest",
+      "Unit 7C and any units the crew passed through"
+    ],
+    "answer": 2,
+    "explanation": "Once the declaration is recorded, RPL §339-l bars new liens against the common elements (absent unanimous owner consent), and work on a unit supports a lien only against the unit of an owner who requested or consented to it.",
+    "citation": "RPL §339-l"
+  },
+  {
+    "id": "condo-coop-a023",
+    "topic": "condo-coop",
+    "q": "The board of managers hires a contractor to modernize the building's elevators and fails to pay. What does the Condominium Act provide for this contractor?",
+    "options": [
+      "A mechanic's lien on the common elements for the bill",
+      "Common charges collected are trust funds for paying the work",
+      "A mechanic's lien on every unit in equal dollar shares",
+      "A lien on the units owned by each board member"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-l states that labor or materials furnished to the common elements are not the basis of a lien on them; instead, common charges received by the board are trust funds that must first pay for work the board authorized.",
+    "citation": "RPL §339-l"
+  },
+  {
+    "id": "condo-coop-a024",
+    "topic": "condo-coop",
+    "q": "A ground-floor condo owner wants to excavate a new basement beneath her unit. What does the Condominium Act require before she starts?",
+    "options": [
+      "Consent of all unit owners affected",
+      "A building permit and nothing more",
+      "Approval by a majority of the board",
+      "Written notice to the managing agent"
+    ],
+    "answer": 0,
+    "explanation": "RPL §339-k forbids a unit owner from adding a material structure, excavating an additional basement or cellar, or doing work that jeopardizes soundness or safety without first obtaining the consent of all affected unit owners. A permit addresses building codes, not owners' consent.",
+    "citation": "RPL §339-k"
+  },
+  {
+    "id": "condo-coop-a025",
+    "topic": "condo-coop",
+    "q": "Water is pouring from Unit 9A into Unit 8A, and 9A's owner is traveling. May the board's managing agent enter 9A to stop the leak?",
+    "options": [
+      "Only after obtaining a court order to enter the unit",
+      "Yes; the board may access units to make emergency repairs",
+      "Only with the absent owner's prior written consent",
+      "Only after giving thirty days' written notice of entry"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-i(5) gives unit owners an irrevocable right, exercised by the board, to access each unit as needed to operate the property or make emergency repairs that prevent damage to the common elements or other units.",
+    "citation": "RPL §339-i(5)"
+  },
+  {
+    "id": "condo-coop-a026",
+    "topic": "condo-coop",
+    "q": "A condo unit owner asks to examine the condominium's books of receipts and expenditures. What does the Condominium Act provide?",
+    "options": [
+      "Only board members and auditors may inspect the records",
+      "The records must be available for unit owners to examine",
+      "Records open only after a majority vote of the owners",
+      "Owners may see the records only under a court order"
+    ],
+    "answer": 1,
+    "explanation": "RPL §339-w requires the board or manager to keep detailed books of receipts and expenditures and make them available for examination by unit owners at convenient hours.",
+    "citation": "RPL §339-w"
+  },
+  {
+    "id": "condo-coop-a027",
+    "topic": "condo-coop",
+    "q": "Once the sponsor's period of control ends, how is a condominium's board of managers chosen?",
+    "options": [
+      "The Attorney General appoints its members",
+      "The managing agent appoints its members",
+      "Unit owners elect it as the bylaws provide",
+      "The sponsor appoints it until all units sell"
+    ],
+    "answer": 2,
+    "explanation": "The sponsor typically names the first board, but its control is limited by the offering plan and applicable rules; afterward unit owners elect the board under the bylaws, which RPL §339-v requires to address election of the board. The managing agent works for the board.",
+    "citation": "RPL §339-v"
+  },
+  {
+    "id": "condo-coop-a028",
+    "topic": "condo-coop",
+    "q": "After collecting three bids, a condo board hires a window contractor that is not the cheapest. An owner sues, arguing a lower bid existed. How will a New York court generally review the decision?",
+    "options": [
+      "It decides which contractor it would have chosen instead",
+      "It defers if the board acted in good faith within its authority",
+      "It voids any contract not awarded to the lowest bidder",
+      "It upholds the choice only if most owners ratify it"
+    ],
+    "answer": 1,
+    "explanation": "Under the business judgment rule (Levandusky), courts defer to board decisions made in good faith, within the board's authority, and for legitimate building purposes. Courts do not substitute their own judgment, and no lowest-bid rule applies.",
+    "citation": "Business judgment rule, Levandusky v. One Fifth Ave. Apt. Corp., 75 N.Y.2d 530 (1990)"
+  },
+  {
+    "id": "condo-coop-a029",
+    "topic": "condo-coop",
+    "q": "A condo board with a right of first refusal dislikes a seller's contract buyer. Which response is available to the board?",
+    "options": [
+      "Reject the buyer for any lawful reason, as a co-op board may",
+      "Demand a higher price from the buyer before it will waive",
+      "Buy the unit on the contract's terms or waive the right",
+      "Delay the closing until a buyer it prefers comes forward"
+    ],
+    "answer": 2,
+    "explanation": "A right of first refusal lets the board match the bona fide offer and acquire the unit itself; otherwise it waives and the sale proceeds. It is not an approval power like a co-op board's, so the board cannot simply reject a buyer.",
+    "citation": "Condominium declaration/bylaws; general contract law of rights of first refusal"
+  },
+  {
+    "id": "condo-coop-a030",
+    "topic": "condo-coop",
+    "q": "A condo's bylaws give the board 30 days after notice to exercise its right of first refusal, after which the right expires. The board takes no action within 30 days. What generally follows?",
+    "options": [
+      "The sale is void until the board holds a formal vote",
+      "The board may still exercise its right up to closing",
+      "The owner must re-offer the unit to the board at a higher price",
+      "The right lapses for this sale, and the owner may close on those terms"
+    ],
+    "answer": 3,
+    "explanation": "When the right is not exercised in the stated period, it expires for that transaction, and the seller may sell to the buyer on the noticed terms. Title companies typically want a written waiver or proof of lapse at closing; materially changing the terms could trigger a new offer to the board.",
+    "citation": "Condominium declaration/bylaws; general contract law of rights of first refusal"
+  },
+  {
+    "id": "condo-coop-a031",
+    "topic": "condo-coop",
+    "q": "Who usually obtains a condominium's master insurance policy, and how is it paid for?",
+    "options": [
+      "Each owner separately, with a copy filed with the managing agent",
+      "The sponsor permanently, using funds from the original unit sales",
+      "The board of managers, with premiums paid as a common expense",
+      "The first mortgage lender, by adding the premium to every escrow"
+    ],
+    "answer": 2,
+    "explanation": "RPL §339-bb requires the board to insure the building against fire and other hazards when the declaration, the bylaws, or a majority of unit owners require it, and makes the premiums a common expense funded by common charges. Each owner may still insure the unit for its own benefit, typically with an HO-6 policy for interior improvements, contents, and liability.",
+    "citation": "RPL §339-bb; RPL §339-m"
+  },
+  {
+    "id": "condo-coop-a032",
+    "topic": "condo-coop",
+    "q": "A storm damages the roof. The master policy's $100,000 deductible is passed to owners as a special assessment, and one owner's share is $2,000. Which part of the owner's HO-6 policy may respond?",
+    "options": [
+      "Additional living expense coverage",
+      "Loss assessment coverage",
+      "Personal liability coverage",
+      "Personal property coverage"
+    ],
+    "answer": 1,
+    "explanation": "Loss assessment coverage in an HO-6 pays an owner's share of an association assessment for a covered loss, such as a master-policy deductible, up to the coverage limit (often low unless increased by endorsement). Living expense, liability, and personal property coverages address other losses.",
+    "citation": "General insurance law (HO-6 unit-owners form)"
+  },
+  {
+    "id": "condo-coop-a033",
+    "topic": "condo-coop",
+    "q": "Why are a condo's monthly common charges often lower than co-op maintenance for a comparable apartment?",
+    "options": [
+      "Common charges exclude unit real estate taxes and building mortgage debt",
+      "Condo boards are prohibited by law from keeping any reserve funds",
+      "Condo building staff wages are paid by the original sponsor forever",
+      "Condo master insurance premiums are paid by the local municipality"
+    ],
+    "answer": 0,
+    "explanation": "Condo owners pay their unit's real estate taxes on a separate bill and carry their own mortgages, so common charges cover mainly operations, insurance, and reserves. Co-op maintenance usually also covers the building's taxes and underlying mortgage.",
+    "citation": "RPL §339-y; RPL §339-m"
+  },
+  {
+    "id": "condo-coop-a034",
+    "topic": "condo-coop",
+    "q": "A homeowner in a planned community installs a fence that the recorded declaration of covenants prohibits. Who ordinarily enforces the restriction?",
+    "options": [
+      "Only the town zoning board, as a land-use matter",
+      "The homeowners' association, under the covenants",
+      "Only the developer that recorded the covenants",
+      "No one, because she owns her lot in fee simple"
+    ],
+    "answer": 1,
+    "explanation": "Recorded covenants run with the land and bind each lot owner; the HOA enforces them through its declaration and bylaws. Fee ownership of the lot does not free the owner from recorded restrictions, and private covenants are separate from zoning.",
+    "citation": "Recorded covenants and restrictions; general law of covenants running with the land"
+  },
+  {
+    "id": "condo-coop-a035",
+    "topic": "condo-coop",
+    "q": "A townhouse community is organized as an HOA, not a condominium. An owner stops paying assessments. Where do the association's lien and collection rights come from?",
+    "options": [
+      "The Condominium Act's statutory common-charge lien",
+      "The Lien Law's mechanic's lien for services furnished",
+      "The recorded declaration of covenants and the HOA's bylaws",
+      "The owner's proprietary lease with the association"
+    ],
+    "answer": 2,
+    "explanation": "An HOA's assessment and lien rights arise from the recorded declaration of covenants and its governing documents. The RPL §339-z common-charge lien applies to property submitted to the Condominium Act, and a proprietary lease is a co-op document.",
+    "citation": "Recorded covenants and restrictions; RPL Art. 9-B applies only to condominiums"
+  },
+  {
+    "id": "condo-coop-a036",
+    "topic": "condo-coop",
+    "q": "In Community X, buyers get a deed to the house and its lot, and an association owns the green. In Community Y, buyers get a unit plus a percentage interest in all land, including the green. How are they classified?",
+    "options": [
+      "X is a condominium, and Y is an HOA community",
+      "Both are condominiums because they share a green",
+      "Both are cooperatives because an entity governs them",
+      "X is an HOA community, and Y is a condominium"
+    ],
+    "answer": 3,
+    "explanation": "An HOA owner holds fee title to a lot while the association owns the common areas. A condo owner holds a unit plus an undivided interest in the common elements, which can include land. Appearance and shared amenities do not decide the legal form.",
+    "citation": "RPL Art. 9-B; general law of planned communities and HOAs"
+  },
+  {
+    "id": "condo-coop-a037",
+    "topic": "condo-coop",
+    "q": "A rent-stabilized tenant does not buy when her building's non-eviction condominium conversion plan is declared effective. What is her status?",
+    "options": [
+      "She keeps rent-stabilization rights, including lease renewals",
+      "She must vacate when her current lease term finally expires",
+      "She becomes a market-rate tenant on a month-to-month basis",
+      "She must buy her unit within 90 days or forfeit her lease"
+    ],
+    "answer": 0,
+    "explanation": "Under a non-eviction plan, non-purchasing tenants cannot be evicted for failing to buy, and rent-regulated tenants keep their protections, including renewal rights. The new unit owner or sponsor takes subject to that tenancy.",
+    "citation": "GBL §352-eeee (NYC conversions)"
+  },
+  {
+    "id": "condo-coop-a038",
+    "topic": "condo-coop",
+    "q": "In a condominium conversion of an occupied rental building, what is the 'insider price'?",
+    "options": [
+      "The price the sponsor charges its own employees",
+      "The price the Attorney General approves as fair",
+      "The price investors pay for the vacant units",
+      "A discount price offered to tenants in occupancy"
+    ],
+    "answer": 3,
+    "explanation": "Conversion sponsors commonly offer tenants in occupancy an insider price below the price offered to outsiders, encouraging tenant purchases. The Attorney General's acceptance of an offering plan for filing concerns disclosure; it does not set prices or approve them as fair.",
+    "citation": "GBL Art. 23-A (Martin Act); AG offering-plan practice"
+  },
+  {
+    "id": "condo-coop-a039",
+    "topic": "condo-coop",
+    "q": "A sponsor's construction loan is a blanket mortgage covering the entire condominium. When the sponsor sells an individual unit, what must happen?",
+    "options": [
+      "The buyer assumes a pro rata share of the blanket construction loan",
+      "The blanket lender automatically becomes the buyer's first mortgagee",
+      "The blanket mortgage stays in place until every unit has sold",
+      "The unit must be released from the blanket mortgage at closing"
+    ],
+    "answer": 3,
+    "explanation": "RPL §339-r: at the first conveyance of each unit, every blanket mortgage or other lien covering that unit and other units must be paid and satisfied of record, or the unit and its common interest must be released by a recorded partial release (typically on payment of a release price), so the buyer takes title free of the sponsor's loan.",
+    "citation": "RPL §339-r"
+  },
+  {
+    "id": "condo-coop-b001",
+    "topic": "condo-coop",
+    "q": "Who holds title to the land and building in a typical New York housing cooperative?",
+    "options": [
+      "Each shareholder, as a tenant in common with the other owners",
+      "The board of directors, personally and in their own names",
+      "The cooperative corporation, either in fee or under a ground lease",
+      "The managing agent, as trustee for all of the shareholders"
+    ],
+    "answer": 2,
+    "explanation": "The corporation is the property owner (in fee simple or as ground lessee); shareholders own stock and occupy under proprietary leases. Tenancy in common describes co-owners of real property, which co-op shareholders are not.",
+    "citation": "NY Business Corporation Law (cooperative housing corporations)"
+  },
+  {
+    "id": "condo-coop-b002",
+    "topic": "condo-coop",
+    "q": "Which document gives a co-op shareholder the right to occupy a specific apartment and sets rules on maintenance, alterations, and subletting?",
+    "options": [
+      "The proprietary lease issued by the corporation",
+      "The stock certificate issued to the shareholder",
+      "The certificate of incorporation of the co-op",
+      "The recognition agreement signed with the lender"
+    ],
+    "answer": 0,
+    "explanation": "The proprietary lease is the occupancy agreement between the corporation (as landlord) and the shareholder. The stock certificate only evidences how many shares the shareholder owns.",
+    "citation": "Cooperative proprietary lease (general co-op law)"
+  },
+  {
+    "id": "condo-coop-b003",
+    "topic": "condo-coop",
+    "q": "Shares in a New York co-op are allocated to each apartment. What does the number of shares allocated to an apartment primarily determine?",
+    "options": [
+      "The apartment's separate real estate tax assessment by the city",
+      "The minimum price at which the apartment may be resold",
+      "The maximum number of occupants allowed to live in the unit",
+      "The apartment's proportionate share of maintenance and tax deductions"
+    ],
+    "answer": 3,
+    "explanation": "Maintenance and the shareholder's pass-through share of the corporation's taxes and mortgage interest are allocated by shares. Co-op apartments are not separately assessed; the building receives one tax bill.",
+    "citation": "Cooperative offering plan share allocation; IRC §216"
+  },
+  {
+    "id": "condo-coop-b004",
+    "topic": "condo-coop",
+    "q": "A co-op building has 50,000 total shares and an annual budget of $2,400,000 covering operations, real estate taxes, and the underlying mortgage. An apartment is allocated 625 shares. What is its monthly maintenance?",
+    "options": [
+      "$30,000",
+      "$2,500",
+      "$3,840",
+      "$2,083"
+    ],
+    "answer": 1,
+    "explanation": "$2,400,000 ÷ 50,000 shares = $48 per share per year; 625 × $48 = $30,000 per year; $30,000 ÷ 12 = $2,500 per month. $30,000 is the annual figure, the trap of forgetting to divide by 12.",
+    "citation": "Cooperative maintenance allocation by shares (general co-op practice)"
+  },
+  {
+    "id": "condo-coop-b005",
+    "topic": "condo-coop",
+    "q": "A co-op pays $1,200,000 a year in real estate taxes on the building, which has 60,000 shares outstanding. An apartment holds 750 shares. How much of the shareholder's monthly maintenance represents real estate taxes?",
+    "options": [
+      "$15,000",
+      "$1,250",
+      "$1,600",
+      "$1,000"
+    ],
+    "answer": 1,
+    "explanation": "$1,200,000 ÷ 60,000 = $20 per share; 750 × $20 = $15,000 per year; $15,000 ÷ 12 = $1,250 per month. $15,000 is the annual tax share, not the monthly amount.",
+    "citation": "Cooperative tax allocation by shares (general co-op practice)"
+  },
+  {
+    "id": "condo-coop-b006",
+    "topic": "condo-coop",
+    "q": "Which of these is NOT part of a co-op shareholder's monthly maintenance payment to the corporation?",
+    "options": [
+      "The shareholder's share of building real estate taxes",
+      "Debt service on the corporation's underlying mortgage",
+      "Building staff wages and common-area utilities",
+      "Payments on the shareholder's own share loan"
+    ],
+    "answer": 3,
+    "explanation": "A share loan is the buyer's personal debt, paid directly to the share lender. Maintenance covers corporate costs: operations, building taxes, and debt service on the underlying (building) mortgage.",
+    "citation": "Cooperative maintenance components (general co-op practice)"
+  },
+  {
+    "id": "condo-coop-b007",
+    "topic": "condo-coop",
+    "q": "A co-op corporation defaults on its underlying blanket mortgage. Why is this a concern even for shareholders who have paid maintenance on time?",
+    "options": [
+      "The lender can foreclose on the whole building, endangering every shareholder",
+      "The lender can collect the full debt from any single shareholder personally",
+      "The shareholders' share loans automatically become due in full that day",
+      "The city will reassess each apartment and bill shareholders individually"
+    ],
+    "answer": 0,
+    "explanation": "The underlying mortgage is a lien on the corporation's entire property, so a corporate default puts every shareholder's occupancy at risk. Shareholders are not personally liable for the corporation's mortgage debt.",
+    "citation": "Cooperative underlying mortgage risk (general co-op law)"
+  },
+  {
+    "id": "condo-coop-b008",
+    "topic": "condo-coop",
+    "q": "A co-op sits on land the corporation leases rather than owns. What should a buyer's attorney review most closely for this building?",
+    "options": [
+      "Whether the shareholder will receive a deed to the land at closing",
+      "Whether the ground lease lets each shareholder record a mortgage",
+      "The remaining ground lease term, rent increases, and end-of-term rights",
+      "Whether the land is separately taxed to each individual shareholder"
+    ],
+    "answer": 2,
+    "explanation": "In a leasehold co-op, the corporation's rights end when the ground lease ends, and rent resets can sharply raise maintenance. Shareholders never receive a deed under either fee or leasehold structures.",
+    "citation": "Cooperative leasehold structure (general co-op law)"
+  },
+  {
+    "id": "condo-coop-b009",
+    "topic": "condo-coop",
+    "q": "Which item would NOT typically be included in a co-op board package?",
+    "options": [
+      "Copies of the applicant's recent federal tax returns",
+      "A fully executed contract of sale for the shares",
+      "Personal and professional reference letters",
+      "An owner's title insurance policy for the apartment"
+    ],
+    "answer": 3,
+    "explanation": "Board packages contain the application, signed contract, financial statement, tax returns, employment verification, and references. Title insurance is not something the board reviews; a co-op buyer acquires shares (personal property) and normally relies on a lien search rather than a deed-based title examination.",
+    "citation": "Cooperative board package practice (general co-op law)"
+  },
+  {
+    "id": "condo-coop-b010",
+    "topic": "condo-coop",
+    "q": "A co-op board rejects a purchase applicant and gives no reason. Under New York case law, how will a court generally review the board's decision?",
+    "options": [
+      "De novo, substituting the judge's own view of the applicant's fitness",
+      "As void, because every rejection must be explained to the applicant in writing",
+      "With deference under the business judgment rule, absent bad faith or discrimination",
+      "Under a strict scrutiny standard that requires the least restrictive option"
+    ],
+    "answer": 2,
+    "explanation": "Levandusky v. One Fifth Ave. Apt. Corp. applies the business judgment rule: courts defer to good-faith board decisions within its authority. That deference does not protect discrimination prohibited by fair housing laws.",
+    "citation": "Levandusky v. One Fifth Ave. Apt. Corp., 75 N.Y.2d 530 (1990)"
+  },
+  {
+    "id": "condo-coop-b011",
+    "topic": "condo-coop",
+    "q": "Which reason for rejecting a co-op purchase applicant is most likely lawful?",
+    "options": [
+      "The applicant's household income comes largely from lawful Social Security disability benefits",
+      "The applicant's post-closing liquid assets fall below the building's uniformly applied standard",
+      "The applicant served in the armed forces and remains an active member of the military reserves",
+      "The applicant was born abroad and speaks English as a second language at home and at work"
+    ],
+    "answer": 1,
+    "explanation": "Applying a consistent financial requirement is a legitimate business judgment. The NY Human Rights Law protects lawful source of income, military status, and national origin, so the other rejections are discriminatory.",
+    "citation": "NY Executive Law §296(5) (Human Rights Law)"
+  },
+  {
+    "id": "condo-coop-b012",
+    "topic": "condo-coop",
+    "q": "A co-op buyer obtains a share-loan commitment with a 30-day rate lock, but the board has not yet scheduled an interview. The buyer asks the salesperson whether bank approval means closing can happen next week. What is the best response?",
+    "options": [
+      "No; board approval is a separate requirement, so coordinate the package and lock timing",
+      "Yes; the lender's commitment letter is binding on the co-op board as well",
+      "Yes; the board must approve any buyer whose lender has issued a commitment",
+      "No; the buyer must first record the share loan with the county clerk's office"
+    ],
+    "answer": 0,
+    "explanation": "Lender approval and board approval are independent, and the board does not have to accept a financed buyer. The agent should coordinate a complete package and the interview date with the rate lock and contract dates.",
+    "citation": "Cooperative purchase process (general co-op practice)"
+  },
+  {
+    "id": "condo-coop-b013",
+    "topic": "condo-coop",
+    "q": "A standard New York co-op contract makes the sale contingent on board approval. The board rejects the buyer. What is the usual result?",
+    "options": [
+      "Either party may cancel, and the buyer's down payment is returned",
+      "The buyer forfeits the down payment because approval was the buyer's risk",
+      "The seller may sue the board for specific performance of the sale",
+      "The buyer may close anyway and appeal the decision to the Attorney General"
+    ],
+    "answer": 0,
+    "explanation": "Co-op contracts customarily condition the sale on board consent; if consent is refused, the contract may be canceled and the down payment refunded. The Attorney General does not hear appeals of resale board decisions.",
+    "citation": "Standard NY co-op contract of sale (board approval contingency)"
+  },
+  {
+    "id": "condo-coop-b014",
+    "topic": "condo-coop",
+    "q": "At a co-op closing financed with a share loan, what collateral does the lender typically hold?",
+    "options": [
+      "A recorded mortgage and the deed to the apartment",
+      "The stock certificate and the assignment of the proprietary lease",
+      "A recorded lien on the building's land and common areas",
+      "The corporation's blanket mortgage note and its title policy"
+    ],
+    "answer": 1,
+    "explanation": "Share loans are secured by the borrower's shares and proprietary lease; the lender keeps the original stock certificate, a stock power, and the lease assignment. There is no deed or recorded mortgage on a co-op apartment.",
+    "citation": "NY UCC Article 9 (cooperative interest security)"
+  },
+  {
+    "id": "condo-coop-b015",
+    "topic": "condo-coop",
+    "q": "A co-op buyer finances with a share loan. Which closing cost applies to a typical NYC condo purchase with a mortgage but NOT to this co-op purchase?",
+    "options": [
+      "Lender's attorney fees",
+      "Lien search fees",
+      "Mortgage recording tax",
+      "Loan appraisal fees"
+    ],
+    "answer": 2,
+    "explanation": "Mortgage recording tax is imposed when a real property mortgage is recorded. A share loan is secured by personal property and perfected with a UCC filing, so no mortgage is recorded and the tax is not charged.",
+    "citation": "NY Tax Law Article 11 (mortgage recording tax)"
+  },
+  {
+    "id": "condo-coop-b016",
+    "topic": "condo-coop",
+    "q": "A co-op shareholder with a share loan stops paying maintenance. Under the recognition agreement, what is the corporation typically obligated to do?",
+    "options": [
+      "Pay the shareholder's loan installments until the default is resolved",
+      "Release its own lien on the shares in favor of the share lender",
+      "Begin judicial foreclosure against the shareholder in Supreme Court",
+      "Notify the share lender and allow it an opportunity to cure the default"
+    ],
+    "answer": 3,
+    "explanation": "In the recognition agreement the co-op acknowledges the lender's interest and agrees to give notice of shareholder defaults and a chance to cure before canceling the lease. The co-op does not pay the loan or waive its own lien.",
+    "citation": "Cooperative recognition agreement (general co-op lending practice)"
+  },
+  {
+    "id": "condo-coop-b017",
+    "topic": "condo-coop",
+    "q": "What is the purpose of a co-op lien search before closing?",
+    "options": [
+      "To confirm the boundaries of the apartment against a recorded survey",
+      "To find mechanic's liens filed against the building's common elements",
+      "To find UCC filings, judgments, or tax liens against the seller or the shares",
+      "To verify the deed chain to the apartment for an owner's title policy"
+    ],
+    "answer": 2,
+    "explanation": "Because co-op shares are personal property, buyers search for UCC financing statements, judgments, and liens affecting the seller or the shares. Deed chains and unit surveys apply to real property such as condos.",
+    "citation": "NY UCC Article 9; cooperative closing practice"
+  },
+  {
+    "id": "condo-coop-b018",
+    "topic": "condo-coop",
+    "q": "A co-op shareholder defaults on a share loan. How does the lender ordinarily enforce its security interest?",
+    "options": [
+      "By judicial foreclosure of a mortgage in New York Supreme Court",
+      "By a strict foreclosure that transfers the deed to the lender",
+      "By an eviction proceeding brought in the lender's own name",
+      "By a nonjudicial UCC sale of the shares and proprietary lease"
+    ],
+    "answer": 3,
+    "explanation": "A share loan is secured by personal property, so the lender may sell the collateral under UCC Article 9 after proper notice. Judicial foreclosure is the procedure for real property mortgages, not co-op shares.",
+    "citation": "NY UCC §9-610 (disposition of collateral after default)"
+  },
+  {
+    "id": "condo-coop-b019",
+    "topic": "condo-coop",
+    "q": "A shareholder falls several months behind on maintenance. Which remedy is generally available to the co-op corporation but NOT to a condominium board of managers?",
+    "options": [
+      "Filing a lien for unpaid charges against the owner's interest",
+      "A summary nonpayment proceeding as landlord under the proprietary lease",
+      "Suing the owner in court to collect the past-due amounts",
+      "Charging late fees permitted by the governing documents"
+    ],
+    "answer": 1,
+    "explanation": "The co-op is the shareholder's landlord, so it can bring a landlord-tenant proceeding and terminate the proprietary lease. A condo board relies on a lien against a fee-owned unit, not a landlord relationship.",
+    "citation": "RPAPL Article 7 (summary proceedings); cooperative proprietary lease"
+  },
+  {
+    "id": "condo-coop-b020",
+    "topic": "condo-coop",
+    "q": "A co-op seller's contract price is $1,150,000, and the co-op imposes a flip tax of 2% of the gross sale price. What is the flip tax?",
+    "options": [
+      "$23,000",
+      "$2,300",
+      "$11,500",
+      "$230,000"
+    ],
+    "answer": 0,
+    "explanation": "$1,150,000 × 0.02 = $23,000. $11,500 results from using 1%, and $2,300 or $230,000 come from misplacing the decimal.",
+    "citation": "Cooperative flip tax under governing documents (BCL §501(c))"
+  },
+  {
+    "id": "condo-coop-b021",
+    "topic": "condo-coop",
+    "q": "A co-op's flip tax is 15% of the seller's profit. The seller bought for $600,000 and now sells for $900,000. What flip tax is due?",
+    "options": [
+      "$135,000",
+      "$90,000",
+      "$30,000",
+      "$45,000"
+    ],
+    "answer": 3,
+    "explanation": "Profit = $900,000 − $600,000 = $300,000; $300,000 × 0.15 = $45,000. $135,000 applies 15% to the sale price and $90,000 applies it to the purchase price.",
+    "citation": "Cooperative flip tax under governing documents (BCL §501(c))"
+  },
+  {
+    "id": "condo-coop-b022",
+    "topic": "condo-coop",
+    "q": "Which statement about a co-op flip tax is accurate?",
+    "options": [
+      "It is a charge the corporation collects under its own documents, often for reserves",
+      "It is a state tax collected by the county clerk when the shares are transferred",
+      "It is a federal tax on gains from selling shares within one year of purchase",
+      "It is a city fee that replaces the NYS transfer tax on co-op apartment sales"
+    ],
+    "answer": 0,
+    "explanation": "Despite its name, a flip tax is a private transfer fee payable to the co-op as authorized by its proprietary lease or bylaws, usually funding reserves. It is separate from and does not replace government transfer taxes.",
+    "citation": "NY Business Corporation Law §501(c) (cooperative transfer fees)"
+  },
+  {
+    "id": "condo-coop-b023",
+    "topic": "condo-coop",
+    "q": "A seller transfers co-op shares for $850,000. How much NYS real estate transfer tax applies, and who customarily pays it?",
+    "options": [
+      "$3,400, paid by the buyer",
+      "$1,700, paid by the seller",
+      "$3,400, paid by the seller",
+      "$8,500, paid by the buyer"
+    ],
+    "answer": 2,
+    "explanation": "NYS transfer tax applies to transfers of co-op shares: $850,000 ÷ $500 = 1,700 units × $2 = $3,400, paid by the seller. $8,500 confuses it with the 1% mansion tax, which does not apply below $1,000,000.",
+    "citation": "NY Tax Law §1402"
+  },
+  {
+    "id": "condo-coop-b024",
+    "topic": "condo-coop",
+    "q": "A buyer agrees to pay $750,000 for a co-op apartment. The board requires at least 25% down. What is the largest share loan the buyer may use?",
+    "options": [
+      "$187,500",
+      "$562,500",
+      "$600,000",
+      "$675,000"
+    ],
+    "answer": 1,
+    "explanation": "Minimum down payment = $750,000 × 0.25 = $187,500; maximum loan = $750,000 − $187,500 = $562,500. $187,500 is the down payment itself, not the loan.",
+    "citation": "Cooperative board financing requirements (building policy)"
+  },
+  {
+    "id": "condo-coop-b025",
+    "topic": "condo-coop",
+    "q": "A co-op requires buyers to hold, after closing, liquid assets equal to 24 months of combined maintenance and share-loan payments. Maintenance is $2,100 a month and the loan payment is $3,400 a month. What liquidity is required?",
+    "options": [
+      "$81,600",
+      "$132,000",
+      "$50,400",
+      "$66,000"
+    ],
+    "answer": 1,
+    "explanation": "($2,100 + $3,400) × 24 = $5,500 × 24 = $132,000. $81,600 counts only the loan payment, and $66,000 uses 12 months instead of 24.",
+    "citation": "Cooperative board financial requirements (building policy)"
+  },
+  {
+    "id": "condo-coop-b026",
+    "topic": "condo-coop",
+    "q": "A tenant-stockholder holds 400 of a qualifying co-op's 40,000 shares. This year the corporation paid $900,000 in real estate taxes, $600,000 in mortgage interest, $500,000 in mortgage principal, and $1,000,000 in operating costs. How much may the shareholder generally deduct under IRC §216?",
+    "options": [
+      "$20,000",
+      "$30,000",
+      "$15,000",
+      "$9,000"
+    ],
+    "answer": 2,
+    "explanation": "Shareholder's share = 400 ÷ 40,000 = 1%; deductible items are taxes and interest: 1% × ($900,000 + $600,000) = $15,000. $20,000 wrongly adds principal, and $9,000 counts taxes only.",
+    "citation": "26 U.S.C. §216(a)"
+  },
+  {
+    "id": "condo-coop-b027",
+    "topic": "condo-coop",
+    "q": "Under the current version of IRC §216, which is one way a cooperative housing corporation can qualify so its tenant-stockholders may take the §216 deduction?",
+    "options": [
+      "At least 80% of its square footage is used or available for tenant-stockholders' residential use",
+      "At least 51% of its shareholders occupy their apartments as primary residences",
+      "At least half of its income comes from leasing commercial space to outsiders",
+      "It holds an accepted offering plan filed with the New York Attorney General"
+    ],
+    "answer": 0,
+    "explanation": "§216(b)(1)(D) allows an 80% gross-income test, an 80% square-footage test, or a 90% expenditure test. An accepted offering plan is a state disclosure filing, not a federal tax qualification.",
+    "citation": "26 U.S.C. §216(b)(1)(D)"
+  },
+  {
+    "id": "condo-coop-b028",
+    "topic": "condo-coop",
+    "q": "Why does Real Property Law §226-b, which lets many residential tenants request permission to sublet, NOT give a co-op shareholder a statutory sublet right?",
+    "options": [
+      "The statute applies only to buildings with fewer than four apartment units",
+      "The statute was repealed in 2019 and replaced by the Good Cause Eviction Law",
+      "The statute requires the shareholder first to obtain approval from the Attorney General",
+      "The statute expressly excludes proprietary leases, so the lease and rules control"
+    ],
+    "answer": 3,
+    "explanation": "RPL §226-b expressly does not apply to proprietary leases held by co-op shareholders, so sublet rights depend on the proprietary lease, bylaws, and house rules. The statute's sublet right applies to buildings with four or more units.",
+    "citation": "NY Real Property Law §226-b"
+  },
+  {
+    "id": "condo-coop-b029",
+    "topic": "condo-coop",
+    "q": "A co-op board approves a shareholder's two-year sublet. During the sublet, the subtenant damages the hallway and the shareholder stops paying maintenance. Who remains responsible to the corporation?",
+    "options": [
+      "The shareholder, who stays bound by the proprietary lease",
+      "The subtenant alone, as the current occupant of the apartment",
+      "The board, because it approved the sublet arrangement",
+      "The managing agent, who screened the subtenant's application"
+    ],
+    "answer": 0,
+    "explanation": "Subletting transfers occupancy but not the shareholder's obligations; the shareholder remains liable for maintenance and lease compliance. Board approval of a sublet does not shift that liability to the board.",
+    "citation": "Cooperative proprietary lease (sublet provisions)"
+  },
+  {
+    "id": "condo-coop-b030",
+    "topic": "condo-coop",
+    "q": "Under a typical conversion offering plan, which party may usually sublet its apartments or sell its shares without co-op board approval?",
+    "options": [
+      "Any shareholder who has owned the apartment for at least two years",
+      "Any investor who buys an apartment from an existing shareholder",
+      "Any shareholder who pays the flip tax to the corporation in advance",
+      "A holder of unsold shares as defined in the offering plan"
+    ],
+    "answer": 3,
+    "explanation": "Offering plans commonly let the sponsor and qualified holders of unsold shares sublet and sell without board consent. An investor buying on resale from a shareholder does not automatically become a holder of unsold shares.",
+    "citation": "Martin Act offering plan; cooperative proprietary lease"
+  },
+  {
+    "id": "condo-coop-b031",
+    "topic": "condo-coop",
+    "q": "A buyer is reviewing a co-op in which the sponsor still holds 40% of the shares. Why is this a significant financial concern?",
+    "options": [
+      "The sponsor's unsold shares are exempt from the corporation's real estate taxes",
+      "If the sponsor stops paying maintenance on those shares, the building's budget suffers",
+      "The sponsor can force every other shareholder to sell back their shares at cost",
+      "The Attorney General will revoke the offering plan once sponsor control passes 25%"
+    ],
+    "answer": 1,
+    "explanation": "A sponsor with a large block of unsold shares owes maintenance on all of them; a sponsor default can strain operations and the underlying mortgage. The sponsor's shares bear the same allocated costs as anyone else's.",
+    "citation": "Martin Act offering plan disclosure (sponsor holdings)"
+  },
+  {
+    "id": "condo-coop-b032",
+    "topic": "condo-coop",
+    "q": "Under the Martin Act, what must a sponsor do before offering co-op shares to the public in a building it is converting?",
+    "options": [
+      "Obtain a final certificate of occupancy from the Department of State",
+      "Have the plan's prices approved as fair market value by an appraiser",
+      "File an offering plan and receive the Attorney General's acceptance for filing",
+      "Register the building with the county clerk as a cooperative corporation"
+    ],
+    "answer": 2,
+    "explanation": "The Martin Act bars public offerings of co-op interests until the Attorney General accepts the offering plan for filing. The AG reviews disclosure; it does not set or approve prices.",
+    "citation": "NY General Business Law §352-e (Martin Act)"
+  },
+  {
+    "id": "condo-coop-b033",
+    "topic": "condo-coop",
+    "q": "Place these steps of a New York co-op conversion in their usual order: (1) black book distributed, (2) red herring submitted to the AG and given to tenants, (3) plan declared effective, (4) closings on the apartments.",
+    "options": [
+      "1, 2, 3, 4",
+      "2, 3, 1, 4",
+      "2, 1, 3, 4",
+      "1, 3, 2, 4"
+    ],
+    "answer": 2,
+    "explanation": "The preliminary red herring comes first; after AG acceptance, the black book (accepted plan) is distributed; the sponsor declares the plan effective once the purchase requirement is met; closings follow. Declaring effectiveness before the black book is the common mistake.",
+    "citation": "NY General Business Law §§352-e, 352-eeee"
+  },
+  {
+    "id": "condo-coop-b034",
+    "topic": "condo-coop",
+    "q": "A sponsor submits a plan to convert an occupied New York City rental building with 80 apartments, all occupied by bona fide tenants, into a co-op. Under current law, how many tenants in occupancy must sign purchase agreements before the plan can be declared effective?",
+    "options": [
+      "12",
+      "41",
+      "40",
+      "28"
+    ],
+    "answer": 1,
+    "explanation": "Since the 2019 HSTPA amendments, an NYC non-eviction plan needs purchase agreements from at least 51% of bona fide tenants in occupancy: 80 × 0.51 = 40.8, rounded up to 41. Twelve reflects the repealed 15% standard; 40 falls short of 51%.",
+    "citation": "NY General Business Law §352-eeee"
+  },
+  {
+    "id": "condo-coop-b035",
+    "topic": "condo-coop",
+    "q": "Under NYC's conversion statute as amended in 2019, which purchases count toward the percentage needed to declare a non-eviction plan effective?",
+    "options": [
+      "Purchases of vacant apartments by outside buyers who intend to live there",
+      "Purchases of any apartments by investors buying them for rental income",
+      "Purchases of apartments by the sponsor's affiliates and their relatives",
+      "Purchases by bona fide tenants in occupancy when the plan was accepted"
+    ],
+    "answer": 3,
+    "explanation": "The amended §352-eeee counts only bona fide tenants in occupancy on the date the AG accepted the plan for filing. Before 2019, outside purchasers of vacant units could help reach the old 15% threshold.",
+    "citation": "NY General Business Law §352-eeee"
+  },
+  {
+    "id": "condo-coop-b036",
+    "topic": "condo-coop",
+    "q": "Which statement correctly contrasts the NYC conversion statute (GBL §352-eeee) with the statute for opting-in municipalities in Nassau, Westchester, and Rockland (GBL §352-eee)?",
+    "options": [
+      "Eviction plans are no longer available in NYC but remain possible under §352-eee",
+      "Eviction plans remain available in NYC but are prohibited under §352-eee",
+      "Both statutes allow eviction plans if 15% of the tenants agree to buy",
+      "Neither statute protects tenants who decline to buy under any plan"
+    ],
+    "answer": 0,
+    "explanation": "The 2019 HSTPA eliminated eviction plans in NYC for new submissions, while §352-eee still permits them in municipalities that adopted it. Both statutes protect non-purchasing tenants.",
+    "citation": "NY General Business Law §§352-eee, 352-eeee"
+  },
+  {
+    "id": "condo-coop-b037",
+    "topic": "condo-coop",
+    "q": "A Westchester village has adopted GBL §352-eee, and a sponsor's eviction plan has been declared effective. A 70-year-old tenant who qualifies as an eligible senior citizen declines to buy. What is the tenant's status?",
+    "options": [
+      "The tenant must vacate when the current lease expires, just like the other nonpurchasing tenants",
+      "The tenant cannot be evicted for not buying and is protected against unconscionable rent increases",
+      "The tenant may stay only if the board later approves the tenant as a shareholder of the corporation",
+      "The tenant may stay for one more year and then must either buy the apartment or move out"
+    ],
+    "answer": 1,
+    "explanation": "Under §352-eee, eligible senior citizens (62 or older) and eligible disabled persons cannot be evicted under an eviction plan for declining to buy. Other nonpurchasers can eventually be displaced under an eviction plan.",
+    "citation": "NY General Business Law §352-eee"
+  },
+  {
+    "id": "condo-coop-b038",
+    "topic": "condo-coop",
+    "q": "A sponsor's CPS-1 application to test the market has been accepted. Which activity is permitted?",
+    "options": [
+      "Advertising the project with the required disclaimers to collect nonbinding interest",
+      "Signing purchase agreements that become binding when the plan is accepted",
+      "Telling prospects the Attorney General has approved the offering plan",
+      "Collecting refundable deposits to hold units for interested buyers"
+    ],
+    "answer": 0,
+    "explanation": "CPS-1 acceptance lets a sponsor gauge demand through approved advertising and nonbinding indications of interest only. It is not acceptance of the offering plan, so no contracts or deposits are allowed.",
+    "citation": "NY Attorney General Cooperative Policy Statement No. 1 (CPS-1)"
+  },
+  {
+    "id": "condo-coop-b039",
+    "topic": "condo-coop",
+    "q": "A buyer purchases an apartment in the residential section of a Manhattan condop. Which statement best describes the purchase?",
+    "options": [
+      "The buyer receives a deed to the apartment plus a percentage of the common elements",
+      "The buyer receives a deed to the commercial condominium unit on the ground floor",
+      "The buyer receives co-op shares and a proprietary lease, usually subject to board approval",
+      "The buyer receives a long-term ground lease directly from the land's fee owner"
+    ],
+    "answer": 2,
+    "explanation": "In a condop, the residential portion is a condo unit owned by a co-op corporation, so residential buyers get shares and a proprietary lease. The commercial unit is a separate condo that can be owned and sold independently.",
+    "citation": "NY Real Property Law Article 9-B; cooperative ownership structure"
   }
 ]

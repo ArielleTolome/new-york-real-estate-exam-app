@@ -188,11 +188,11 @@
     "options": [
       "The total does not exceed a typical commission",
       "The broker discloses it after the closing",
-      "All parties have full knowledge of it and consent",
+      "The broker's client has full knowledge and consents",
       "The amount appears on the closing statement"
     ],
     "answer": 2,
-    "explanation": "The broker must make clear which party it is acting for. It may take compensation from more than one party only with the full knowledge and consent of all parties. Disclosure after the fact does not satisfy the rule.",
+    "explanation": "The broker must make clear which party it is acting for, and may take compensation from more than one party only with the full knowledge and consent of the broker's client. Disclosure after the fact does not satisfy the rule.",
     "citation": "19 NYCRR § 175.7"
   },
   {
@@ -306,5 +306,1657 @@
     "answer": 0,
     "explanation": "An associate broker meets the broker qualifications but chooses to work under another broker's supervision and name. The title does not create an independent business.",
     "citation": "NY RPL § 440"
+  },
+  {
+    "id": "license-law-a001",
+    "topic": "license-law",
+    "q": "What is the minimum age for an applicant to be issued a New York real estate broker license?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "A broker applicant must be at least 20; the age-18 minimum applies to salesperson applicants, which is the usual trap.",
+    "citation": "NYS DOS broker licensing requirements (dos.ny.gov, Become a Real Estate Broker)"
+  },
+  {
+    "id": "license-law-a002",
+    "topic": "license-law",
+    "q": "How many hours of approved qualifying education must a new broker applicant have completed in total?",
+    "options": [
+      "75 hours: the broker course alone, since salesperson credit is not counted",
+      "120 hours: the old 75-hour salesperson course plus a 45-hour broker course",
+      "99.5 hours: the 77-hour salesperson course plus 22.5 hours of CE",
+      "152 hours: the 77-hour salesperson course plus the 75-hour broker course"
+    ],
+    "answer": 3,
+    "explanation": "Current law requires 152 approved hours (77 + 75). The 75/45 = 120-hour structure is outdated, and CE hours never substitute for broker qualifying education.",
+    "citation": "RPL §441(1)(b); NYS DOS broker FAQ"
+  },
+  {
+    "id": "license-law-a003",
+    "topic": "license-law",
+    "q": "Salesperson Gina has been licensed and active for 26 months but has earned only 2,100 experience points. She asks whether she can apply for a broker license. What is correct?",
+    "options": [
+      "Not yet; she meets the time rule but lacks the minimum experience points",
+      "Not yet; a salesperson must hold her license for three full years first",
+      "Yes; two years of active licensure alone satisfies the experience rule",
+      "Yes, as long as her sponsoring broker signs a letter of recommendation"
+    ],
+    "answer": 0,
+    "explanation": "The salesperson route requires at least two years of licensed experience AND at least 3,500 experience points. Time alone does not qualify; the three-year figure belongs to the general-real-estate route, which also requires 5,250 points.",
+    "citation": "RPL §441(1)(b); 19 NYCRR §179.2; NYS DOS broker application (experience point system)"
+  },
+  {
+    "id": "license-law-a004",
+    "topic": "license-law",
+    "q": "Under the DOS point system, a broker applicant qualifying through two years as a licensed salesperson must document at least how many experience points?",
+    "options": [
+      "1,750",
+      "5,000",
+      "2,500",
+      "3,500"
+    ],
+    "answer": 3,
+    "explanation": "The licensed-salesperson route requires two years plus at least 3,500 points. The points requirement and the time requirement must both be met.",
+    "citation": "19 NYCRR §179.2(b); NYS DOS broker application (experience point system); NYS DOS broker FAQ"
+  },
+  {
+    "id": "license-law-a005",
+    "topic": "license-law",
+    "q": "Raymond has never held a salesperson license but has worked full time managing property owned by his employer. To use this general real estate experience alone toward a broker license, he needs at least:",
+    "options": [
+      "Three years of qualifying experience plus 5,250 points",
+      "One year of qualifying experience plus a DOS interview",
+      "Five years of qualifying experience; points are not used",
+      "Two years of qualifying experience plus 3,500 points"
+    ],
+    "answer": 0,
+    "explanation": "An applicant using general real estate experience must show at least three years of equivalent experience AND at least 5,250 experience points; time alone does not qualify. Two years plus 3,500 points is the licensed-salesperson route, which Raymond cannot use.",
+    "citation": "RPL §441(1)(b); 19 NYCRR Part 179; NYS DOS broker application (experience point system)"
+  },
+  {
+    "id": "license-law-a006",
+    "topic": "license-law",
+    "q": "Associate broker Leah closes a sale, and the seller offers to pay her share of the commission to her directly. Under Article 12-A, Leah should:",
+    "options": [
+      "Decline; she may be paid only through her sponsoring broker",
+      "Accept, as long as she reports the payment to DOS within 30 days",
+      "Accept, because she holds a broker-level license that allows direct pay",
+      "Decline unless the seller first signs a separate listing with her"
+    ],
+    "answer": 0,
+    "explanation": "An associate broker retains broker qualifications, but while working under a sponsoring broker the law treats her practice like a salesperson's, so pay for licensed work comes only through that broker.",
+    "citation": "RPL §440(2); RPL §442-a"
+  },
+  {
+    "id": "license-law-a007",
+    "topic": "license-law",
+    "q": "Theo works as an associate broker at Harbor Realty and also wants to run his own small commercial brokerage under a separate firm name. Which statement is correct?",
+    "options": [
+      "He may open the firm only if Harbor Realty becomes its co-owner",
+      "He must wait until his associate broker license term has expired",
+      "He may keep a separate broker license for his own firm under the law",
+      "An associate broker must surrender broker status before opening a firm"
+    ],
+    "answer": 2,
+    "explanation": "Article 12-A expressly states that electing associate broker status does not preclude retaining a separate broker license under an individual, trade name, partnership, LLC, or corporation.",
+    "citation": "RPL §440(2)"
+  },
+  {
+    "id": "license-law-a008",
+    "topic": "license-law",
+    "q": "To be appointed office manager, an associate broker must have been active as a licensed associate broker for at least:",
+    "options": [
+      "Five of the ten years preceding the appointment",
+      "Two of the four years preceding the appointment",
+      "Three of the five years preceding the appointment",
+      "One of the two years preceding the appointment"
+    ],
+    "answer": 1,
+    "explanation": "RPL §440(6) requires at least two of the four years before appointment as an active associate broker. The office manager then carries the same supervisory duty as a broker.",
+    "citation": "RPL §440(6)"
+  },
+  {
+    "id": "license-law-a009",
+    "topic": "license-law",
+    "q": "Broker Ana is opening a branch office. Which person may be placed in direct supervision of that branch?",
+    "options": [
+      "A senior salesperson with ten years of experience",
+      "Any salesperson the broker designates in writing",
+      "An associate broker appointed as office manager",
+      "The firm's unlicensed operations director"
+    ],
+    "answer": 2,
+    "explanation": "A branch must be under the direct supervision of the broker, a representative broker/LLC manager, or a duly appointed office manager (a qualified associate broker). A salesperson, however experienced, cannot manage it.",
+    "citation": "RPL §441-a(3); RPL §440(6)"
+  },
+  {
+    "id": "license-law-a010",
+    "topic": "license-law",
+    "q": "Broker Marcus already has a licensed principal office in Albany and plans to open a second office in Troy. What must he do?",
+    "options": [
+      "Have a salesperson apply for the Troy license personally",
+      "Add the Troy address to his own broker license only",
+      "Notify DOS within one year after the Troy office opens",
+      "Obtain a branch office license for the Troy office"
+    ],
+    "answer": 3,
+    "explanation": "Each additional place of business requires a supplemental (branch office) license issued to the broker. Simply listing an extra address or notifying DOS later does not satisfy the requirement.",
+    "citation": "RPL §441-a(3)"
+  },
+  {
+    "id": "license-law-a011",
+    "topic": "license-law",
+    "q": "Salesperson Dev prints his home phone number on his business cards. Does that alone make his home a place of business requiring a branch office license?",
+    "options": [
+      "Yes, unless his broker files a home-office waiver with DOS each year",
+      "No; a home phone number on business cards alone does not make it one",
+      "Yes; any residence phone number used for business creates a branch",
+      "No, but only if Dev's broker personally lives at the same address"
+    ],
+    "answer": 1,
+    "explanation": "The statute specifically says a licensee's principal residence is not a place of business solely because the residence phone appears on business cards. Holding the home out as an office in other ways is a different question.",
+    "citation": "RPL §441-a(3)"
+  },
+  {
+    "id": "license-law-a012",
+    "topic": "license-law",
+    "q": "Broker Priya's firm has a principal office and one licensed branch. Where must the branch office license be displayed?",
+    "options": [
+      "In the principal office, next to Priya's license",
+      "Conspicuously in the branch office it covers",
+      "Only in Priya's online eAccessNY account",
+      "In the county clerk's office for the branch"
+    ],
+    "answer": 1,
+    "explanation": "Branch office licenses must be conspicuously displayed in the branch; the broker's own license is displayed at the principal place of business.",
+    "citation": "RPL §441-a(4)"
+  },
+  {
+    "id": "license-law-a013",
+    "topic": "license-law",
+    "q": "Former broker Oscar let his license lapse but keeps his framed broker license on his office wall while he wraps up personal matters. This is:",
+    "options": [
+      "Prohibited only if a member of the public actually complains",
+      "Prohibited; an expired broker license may not be displayed",
+      "Permitted, as long as he takes no new listings while it hangs",
+      "Permitted during the two-year period allowed for late renewal"
+    ],
+    "answer": 1,
+    "explanation": "Article 12-A prohibits displaying a broker license whose term has expired by anyone not licensed for the current term. The late-renewal window is not permission to practice or display.",
+    "citation": "RPL §441-a(4)"
+  },
+  {
+    "id": "license-law-a014",
+    "topic": "license-law",
+    "q": "Which information must appear on a real estate salesperson's DOS pocket card?",
+    "options": [
+      "Her Social Security number and her home mailing address",
+      "A list of the continuing education courses she completed",
+      "Her photo and her sponsoring broker's name and address",
+      "Her commission split and the receipt for her license fee"
+    ],
+    "answer": 2,
+    "explanation": "The pocket card shows the licensee's photo, name, and business address and, for a salesperson, the associated broker's name and business address. It certifies licensure and must be shown on demand.",
+    "citation": "RPL §441-a(6)"
+  },
+  {
+    "id": "license-law-a015",
+    "topic": "license-law",
+    "q": "Salesperson Wen's pocket card was destroyed in a washing machine. What should she do?",
+    "options": [
+      "Request a DOS duplicate with proof of loss and the fee",
+      "Stop all licensed work until her next license term begins",
+      "Have her broker print a replacement card on letterhead",
+      "Carry a photocopy of her broker's license until renewal"
+    ],
+    "answer": 0,
+    "explanation": "The Secretary of State may issue a duplicate pocket card on satisfactory proof of loss, destruction, or damage plus a fee. A broker-made substitute or a photocopy is not the DOS-issued card.",
+    "citation": "RPL §441-a(6)"
+  },
+  {
+    "id": "license-law-a016",
+    "topic": "license-law",
+    "q": "Broker Ellen moves her principal office across town but never notifies DOS. What is the legal consequence?",
+    "options": [
+      "She owes a late fee but keeps operating normally",
+      "Only her salespersons' licenses are affected",
+      "Nothing happens until her next renewal application",
+      "It is suspended until DOS vacates the suspension"
+    ],
+    "answer": 3,
+    "explanation": "A broker must give DOS written notice of a principal-office change for herself and each associated salesperson, with a fee per licensee. Changing the address without notice operates to suspend the license.",
+    "citation": "RPL §441-a(5)"
+  },
+  {
+    "id": "license-law-a017",
+    "topic": "license-law",
+    "q": "Salesperson Kai leaves Broker Ruiz's firm. Under Article 12-A, who files the termination of association notice with DOS?",
+    "options": [
+      "Broker Ruiz, the broker Kai is leaving",
+      "Kai, by writing to the Board of Real Estate",
+      "The local REALTOR association Kai belongs to",
+      "Kai's new broker, as part of the transfer"
+    ],
+    "answer": 0,
+    "explanation": "When a salesperson leaves, the broker being left files the termination notice. The new sponsoring broker then files a record of association so the license can be endorsed to the new firm.",
+    "citation": "RPL §441-a(11)"
+  },
+  {
+    "id": "license-law-a018",
+    "topic": "license-law",
+    "q": "After a termination notice is filed, what allows a salesperson's license to be endorsed to a new sponsoring broker?",
+    "options": [
+      "Passing the state salesperson exam a second time at DOS",
+      "A written release signed by each of the salesperson's clients",
+      "Completion of a new 77-hour qualifying course at a school",
+      "A new record of association filed with the Department of State"
+    ],
+    "answer": 3,
+    "explanation": "The license moves to the new broker when a record of association is filed with DOS (with the statutory fee). No new education or exam is required for a change of association.",
+    "citation": "RPL §441-a(11)"
+  },
+  {
+    "id": "license-law-a019",
+    "topic": "license-law",
+    "q": "Broker Hal, a sole proprietor, dies with three deals in negotiation. With surrogate's court authorization, his executor may use Hal's license in the estate's name for up to how long to complete them?",
+    "options": [
+      "120 days from the date of death",
+      "30 days from the date of death",
+      "One year from the date of death",
+      "60 days from the date of death"
+    ],
+    "answer": 0,
+    "explanation": "The executor or administrator may use the license for up to 120 days to finish pending transactions; DOS may extend that for good cause by up to another 120 days, for a maximum of 240.",
+    "citation": "RPL §441-a(8)"
+  },
+  {
+    "id": "license-law-a020",
+    "topic": "license-law",
+    "q": "A licensed salesperson is convicted of a felony. Within what time must the licensee send DOS a certified copy of the judgment of conviction?",
+    "options": [
+      "At the time of the next license renewal",
+      "Within ninety days after the sentence is imposed",
+      "Within five days after the sentence is imposed",
+      "Within thirty days after the guilty verdict"
+    ],
+    "answer": 2,
+    "explanation": "A licensee convicted of a felony or a specified sex offense must transmit a certified copy of the judgment to DOS within five days of sentencing. Waiting for renewal is the trap.",
+    "citation": "RPL §441-a(12)"
+  },
+  {
+    "id": "license-law-a021",
+    "topic": "license-law",
+    "q": "A nonresident applying for a New York license must file an irrevocable consent. What does that document do?",
+    "options": [
+      "It commits the applicant to open a New York office within one year",
+      "It waives the applicant's right to a hearing before any license discipline",
+      "It names the Secretary of State as agent to receive service of process",
+      "It authorizes DOS to audit the applicant's bank accounts at any time"
+    ],
+    "answer": 2,
+    "explanation": "The consent submits the nonresident to New York courts and names the Secretary of State as the agent to receive summonses, subpoenas, and other process. It does not waive due process.",
+    "citation": "RPL §442-g(2)"
+  },
+  {
+    "id": "license-law-a022",
+    "topic": "license-law",
+    "q": "Nadia completed her qualifying education in another state and DOS granted her an education waiver. What remains before she can be licensed as a New York salesperson?",
+    "options": [
+      "Only a two-hour fair housing course is still required",
+      "Nothing; the waiver authorizes immediate practice in New York",
+      "She must work six months under a New York broker unlicensed",
+      "She must still pass the New York State salesperson exam"
+    ],
+    "answer": 3,
+    "explanation": "An education waiver is not reciprocity. DOS states that applicants who received an out-of-state education waiver must still pass the state exam and be sponsored by a New York broker.",
+    "citation": "NYS DOS salesperson FAQ (education waivers; no reciprocity)"
+  },
+  {
+    "id": "license-law-a023",
+    "topic": "license-law",
+    "q": "Carla finished the 77-hour salesperson course nine years ago but never applied for a license. What is the status of that course credit?",
+    "options": [
+      "It is still valid because qualifying credit never expires",
+      "It has expired; she must retake the qualifying course",
+      "It converts into credit toward the 75-hour broker course",
+      "It is valid only if she adds 22.5 hours of CE now"
+    ],
+    "answer": 1,
+    "explanation": "DOS treats the 77-hour course as valid for eight years after completion; if it is not used to obtain a license within that time, it expires and must be retaken. Credit does not convert into broker-course credit, and CE cannot revive it.",
+    "citation": "NYS DOS broker FAQ (qualifying course validity)"
+  },
+  {
+    "id": "license-law-a024",
+    "topic": "license-law",
+    "q": "Ben passed the state salesperson exam 26 months ago but never submitted his license application. What should he expect?",
+    "options": [
+      "He must repeat only the school's course final exam, not the state test",
+      "He may apply now if he pays DOS an additional late application fee",
+      "He must pass the state exam again, since a pass is valid for two years",
+      "He may apply now, because a passing state exam result never expires"
+    ],
+    "answer": 2,
+    "explanation": "DOS reports that a passed state exam result is valid for two years. After that window, the candidate must retest before applying.",
+    "citation": "NYS DOS salesperson licensing and exam instructions"
+  },
+  {
+    "id": "license-law-a025",
+    "topic": "license-law",
+    "q": "Rosa passed the final exam at the end of her approved 77-hour course. Which statement about her next step is correct?",
+    "options": [
+      "She must still pass the separate state exam given by DOS",
+      "She must pass the course final exam a second time at DOS",
+      "The school's final exam replaces the DOS state exam",
+      "She may begin showing homes while she awaits results"
+    ],
+    "answer": 0,
+    "explanation": "The school-administered proctored course exam and the DOS qualifying exam are separate requirements. She cannot perform licensed work until the license is issued.",
+    "citation": "NYS DOS salesperson FAQ; RPL §441(1-A)(b)"
+  },
+  {
+    "id": "license-law-a026",
+    "topic": "license-law",
+    "q": "Each of the following is a requirement for a New York salesperson license EXCEPT:",
+    "options": [
+      "Passing the New York State salesperson examination",
+      "Completion of 77 hours of approved qualifying education",
+      "Sponsorship by a New York licensed real estate broker",
+      "A college degree in business or in real estate studies"
+    ],
+    "answer": 3,
+    "explanation": "A salesperson needs to be 18, complete 77 hours, pass the state exam, be sponsored by a NYS broker, and have the required NYS photo ID. No college degree is required.",
+    "citation": "RPL §441(1-A); NYS DOS salesperson requirements"
+  },
+  {
+    "id": "license-law-a027",
+    "topic": "license-law",
+    "q": "Salesperson Ivy completes an approved broker qualifying course, including its final exam, during her current license term. How does this affect her CE for renewal?",
+    "options": [
+      "It fully satisfies her CE, and no topic-specific courses are required on top of it",
+      "It counts, but she also needs 2.5 hrs of ethics and 1 hr of recent legal matters",
+      "It does not count, because qualifying courses can never be used as continuing education",
+      "It counts only if she actually applies for a broker license before her renewal date"
+    ],
+    "answer": 1,
+    "explanation": "DOS gives CE credit for a completed broker qualifying course within the term, but the licensee must also complete 2.5 hours of ethical business practices and 1 hour of recent legal matters.",
+    "citation": "NYS DOS salesperson FAQ (continuing education)"
+  },
+  {
+    "id": "license-law-a028",
+    "topic": "license-law",
+    "q": "Salesperson Abe completed 45 hours of approved CE during his current two-year term. Can he carry the extra 22.5 hours into his next term?",
+    "options": [
+      "Yes, but only the fair housing hours roll forward",
+      "No, unless his broker certifies the hours to DOS",
+      "Yes; up to 22.5 extra hours roll into the next term",
+      "No; CE must be completed within each license term"
+    ],
+    "answer": 3,
+    "explanation": "DOS states that CE must be completed within each license term; excess hours do not carry forward.",
+    "citation": "RPL §441(3); NYS DOS FAQ"
+  },
+  {
+    "id": "license-law-a029",
+    "topic": "license-law",
+    "q": "Broker Frank has held his broker license continuously for 25 years and says long-time brokers are exempt from CE. Is he correct?",
+    "options": [
+      "No, unless he has also been licensed in another state for 15 years",
+      "Yes, but only for the fair housing and implicit bias components",
+      "No; that experienced-broker exemption ended effective July 1, 2021",
+      "Yes; brokers licensed for 15 or more years remain fully exempt"
+    ],
+    "answer": 2,
+    "explanation": "A legislative amendment eliminated the former 15-year broker CE exemption, so previously exempt brokers must complete CE. Attorneys admitted to the New York bar remain exempt.",
+    "citation": "RPL §441(3); NYS DOS FAQ"
+  },
+  {
+    "id": "license-law-a030",
+    "topic": "license-law",
+    "q": "Grace holds a New York broker license. She is an attorney admitted to practice only in New Jersey. Is she exempt from New York real estate CE?",
+    "options": [
+      "Yes, provided she actively practices law at least part of the time",
+      "Yes; an attorney admitted in any U.S. jurisdiction is exempt from CE",
+      "No; the CE exemption is for attorneys admitted to the New York bar",
+      "No, unless she also completes 22.5 hours of legal CLE in New Jersey"
+    ],
+    "answer": 2,
+    "explanation": "DOS's CE exemption applies to attorneys admitted to the New York State bar. Admission elsewhere does not qualify.",
+    "citation": "RPL §441(3); NYS DOS FAQ (CE exemption)"
+  },
+  {
+    "id": "license-law-a031",
+    "topic": "license-law",
+    "q": "Salesperson Tomas's license expired 18 months ago. Which statement is correct?",
+    "options": [
+      "He may keep working as usual because he is still within two years",
+      "He may still renew, but cannot do licensed work until he renews",
+      "He may renew now only by applying for an associate broker license",
+      "He must retake the 77-hour course and pass the state exam again"
+    ],
+    "answer": 1,
+    "explanation": "DOS allows renewal within two years after expiration, but there is no grace period to practice while expired.",
+    "citation": "NYS DOS salesperson FAQ (renewal after expiration)"
+  },
+  {
+    "id": "license-law-a032",
+    "topic": "license-law",
+    "q": "A salesperson's license expired three years ago. What does DOS require for her to become licensed again?",
+    "options": [
+      "Meet current qualifying education rules and pass the state exam",
+      "Complete 45 hours of CE covering both missed terms",
+      "Submit a standard renewal form with her old pocket card",
+      "Complete 22.5 hours of CE and pay a late renewal fee"
+    ],
+    "answer": 0,
+    "explanation": "After the two-year renewal window closes, the person must meet current education requirements and pass the state exam. DOS does not require CE for that relicensing.",
+    "citation": "NYS DOS salesperson FAQ"
+  },
+  {
+    "id": "license-law-a033",
+    "topic": "license-law",
+    "q": "For a salesperson's FIRST renewal, the specified CE components total how many hours, leaving how many of the 22.5 hours for other approved topics?",
+    "options": [
+      "12.5 hours specified, leaving 10 hours",
+      "10 hours specified, leaving 12.5 hours",
+      "11.5 hours specified, leaving 11 hours",
+      "22.5 hours specified, leaving 0 hours"
+    ],
+    "answer": 0,
+    "explanation": "First-term components: fair housing 3 + agency 2 + ethics 2.5 + recent legal matters 1 + cultural competency 2 + implicit bias 2 = 12.5; 22.5 - 12.5 = 10. Using 1 hour of agency (the later-term rule) gives the 11.5/11 distractor.",
+    "citation": "RPL §441(3); NYS DOS CE requirements"
+  },
+  {
+    "id": "license-law-a034",
+    "topic": "license-law",
+    "q": "For a licensee renewing after the first term, the specified CE components total 11.5 hours. How many of the 22.5 hours may be other approved topics?",
+    "options": [
+      "10 hours",
+      "12.5 hours",
+      "11 hours",
+      "9 hours"
+    ],
+    "answer": 2,
+    "explanation": "Later terms: 3 + 1 (agency) + 2.5 + 1 + 2 + 2 = 11.5 specified; 22.5 - 11.5 = 11 hours. The 10-hour answer wrongly uses the first-term 2-hour agency requirement.",
+    "citation": "RPL §441(3); NYS DOS CE requirements"
+  },
+  {
+    "id": "license-law-a035",
+    "topic": "license-law",
+    "q": "Attorney Maya, admitted to the New York bar, handles real estate sales for clients and wants to hire two salespersons to work under her. What is required?",
+    "options": [
+      "Nothing; her attorney exemption covers anyone she supervises",
+      "She needs a broker license in order to employ salespersons",
+      "She must first earn 3,500 experience points as a salesperson",
+      "The salespersons need only register with the county clerk"
+    ],
+    "answer": 1,
+    "explanation": "New York attorneys are exempt from Article 12-A when acting as brokers, but the exemption does not extend to employing salespersons, who may be paid only by a licensed broker; to employ them she needs a broker license.",
+    "citation": "RPL §442-f; RPL §442-a"
+  },
+  {
+    "id": "license-law-a036",
+    "topic": "license-law",
+    "q": "An executor under a will sells the decedent's house and hires Lin, an unlicensed friend, to find a buyer for a fee. Which statement is correct?",
+    "options": [
+      "Neither is exempt because estate sales always need a broker",
+      "The executor is exempt, but Lin needs a license for a fee",
+      "Lin is exempt because she works for an exempt person",
+      "Both are exempt because the sale is ordered by a court"
+    ],
+    "answer": 1,
+    "explanation": "Persons acting under a court's judgment or order, such as executors, are exempt. That exemption does not extend to someone the executor hires to perform brokerage for a fee.",
+    "citation": "RPL §442-f"
+  },
+  {
+    "id": "license-law-a037",
+    "topic": "license-law",
+    "q": "A court appoints a receiver to manage a foreclosed apartment building and collect its rents. Does the receiver need a real estate license?",
+    "options": [
+      "Yes, unless the building has fewer than six units",
+      "No, but only if the receiver is also an attorney",
+      "No; persons acting under a court order are exempt",
+      "Yes; collecting rents for others always requires a license"
+    ],
+    "answer": 2,
+    "explanation": "Receivers, referees, guardians, executors, and others appointed by or acting under a court order are outside Article 12-A.",
+    "citation": "RPL §442-f"
+  },
+  {
+    "id": "license-law-a038",
+    "topic": "license-law",
+    "q": "Gus is a state employee who negotiates land acquisitions as part of his official job. On weekends he helps neighbors sell their homes for a fee. Which is correct?",
+    "options": [
+      "Both activities require a license because each involves negotiating sales",
+      "Both activities are exempt because he holds a public office in the state",
+      "His official work is exempt, but his paid weekend work requires a license",
+      "His weekend work is exempt as long as he discloses his state employment"
+    ],
+    "answer": 2,
+    "explanation": "The public-officer exemption covers only official duties. Acting for others for a fee outside those duties is brokerage and requires a license.",
+    "citation": "RPL §442-f; RPL §440(1)"
+  },
+  {
+    "id": "license-law-a039",
+    "topic": "license-law",
+    "q": "Which of these people most likely needs a New York real estate license for the activity described?",
+    "options": [
+      "A New York-admitted attorney negotiating the sale of a client's home",
+      "An individual paid by several owners to collect their tenants' rents",
+      "An executor selling estate property under the authority of the court",
+      "A homeowner selling her own house without hiring any agent or broker"
+    ],
+    "answer": 1,
+    "explanation": "Collecting rent for others for compensation is a broker activity. An owner dealing in her own property, a court-authorized executor, and a NY attorney all fall outside the license requirement.",
+    "citation": "RPL §440(1); RPL §442-f"
+  },
+  {
+    "id": "license-law-a040",
+    "topic": "license-law",
+    "q": "An owner's full-time resident superintendent shows vacant apartments in that building and accepts rent checks as part of his salaried duties. An outside individual, by contrast, is paid a fee per lease to place tenants for several owners. Which statement is correct?",
+    "options": [
+      "Both need licenses, because both of them help lease apartments to tenants",
+      "The superintendent is typically exempt; the outside person needs a license",
+      "The outside individual is exempt if every lease he places runs under one year",
+      "Neither needs a license, because residential leasing is not regulated at all"
+    ],
+    "answer": 1,
+    "explanation": "Building employees performing leasing tasks incidental to their job for their employer are treated as exempt, while someone who places tenants for multiple owners for a fee is acting as a broker.",
+    "citation": "RPL §440(1); NYS salesperson course exemption topics"
+  },
+  {
+    "id": "license-law-a041",
+    "topic": "license-law",
+    "q": "For a fee, a company organizes and coordinates the relocation of residential tenants from a building that is about to be demolished. Under Article 12-A, this company is:",
+    "options": [
+      "A property manager that needs only a business name registration filing",
+      "Exempt, because no sale or lease of real property is being negotiated here",
+      "An apartment information vendor that must be licensed under Article 12-C",
+      "A tenant relocator, which falls within the definition of real estate broker"
+    ],
+    "answer": 3,
+    "explanation": "RPL §440 includes anyone engaged in the business of a tenant relocator in the broker definition. Article 12-C expressly excludes tenant relocation from the apartment information vendor definition.",
+    "citation": "RPL §440(1), (4); RPL §446-a(2)"
+  },
+  {
+    "id": "license-law-a042",
+    "topic": "license-law",
+    "q": "For a fee, Rick negotiates the sale of a restaurant business, including the building it owns, which makes up most of the deal's value. Does Rick need a real estate license?",
+    "options": [
+      "Yes, because the real estate transferred is not merely incidental",
+      "No, because the buyer is acquiring a going business, not a home",
+      "No, because business sales are never real estate transactions",
+      "Yes, but only if the closing takes place within New York City"
+    ],
+    "answer": 0,
+    "explanation": "A business sale counts as an interest in real estate when the real estate transferred is not merely incidental, unless the deal is regulated under securities law. Assigning only a lease does not count.",
+    "citation": "RPL §440(1)"
+  },
+  {
+    "id": "license-law-a043",
+    "topic": "license-law",
+    "q": "For a fee, Celia negotiates a mortgage loan for an investor buying a small office building. Which license does this activity require?",
+    "options": [
+      "An apartment information vendor license issued under Article 12-C",
+      "A mortgage loan originator license issued under the state Banking Law",
+      "A real estate broker license, or salesperson license under a broker",
+      "No license at all, because commercial mortgage lending is unregulated"
+    ],
+    "answer": 2,
+    "explanation": "Negotiating a mortgage loan other than a residential mortgage loan is a real estate broker activity under Article 12-A. Residential mortgage loans fall under the Banking Law.",
+    "citation": "RPL §440(1); NYS DOS broker FAQ"
+  },
+  {
+    "id": "license-law-a044",
+    "topic": "license-law",
+    "q": "A seller asks salesperson Ken to put his comparative market analysis in writing and title it \"Appraisal\" for the seller's bank. Ken should:",
+    "options": [
+      "Decline; a CMA may not be presented as an appraisal",
+      "Agree, as long as he signs it with his license number",
+      "Agree, since a salesperson license includes appraisal authority",
+      "Agree, but only if his broker reviews the CMA first"
+    ],
+    "answer": 0,
+    "explanation": "A real estate license does not confer an appraiser credential, and a CMA must never be called an appraisal. Appraisals require separate appraiser licensure or certification.",
+    "citation": "Executive Law Art. 6-E (appraisers); NYS salesperson syllabus subject 8"
+  },
+  {
+    "id": "license-law-a045",
+    "topic": "license-law",
+    "q": "How does New York treat real estate appraiser credentials compared with real estate salesperson and broker licenses?",
+    "options": [
+      "Salespersons automatically become appraisers after two years of licensure",
+      "A broker license automatically includes certification to perform appraisals",
+      "Appraisers are licensed only by the assessor of the county where they work",
+      "Appraisers need a separate license or certification with its own requirements"
+    ],
+    "answer": 3,
+    "explanation": "Appraiser licensing and certification is a separate credential, administered by DOS under the Executive Law with its own education, experience, and exam requirements. Holding a real estate license does not qualify anyone to appraise.",
+    "citation": "Executive Law Art. 6-E; NYS DOS appraiser licensing"
+  },
+  {
+    "id": "license-law-a046",
+    "topic": "license-law",
+    "q": "Under Article 12-C, an apartment information vendor is a person who, for a fee:",
+    "options": [
+      "Furnishes customers information on the location and availability of residential housing",
+      "Inspects apartments and reports on their physical condition before leases are signed",
+      "Negotiates the terms of residential leases between landlords and prospective tenants",
+      "Manages residential rental buildings and collects monthly rents on behalf of owners"
+    ],
+    "answer": 0,
+    "explanation": "An apartment information vendor sells information about available housing to rent, share, or sublet. Negotiating leases or collecting rents is broker activity under Article 12-A.",
+    "citation": "RPL §446-a(2)"
+  },
+  {
+    "id": "license-law-a047",
+    "topic": "license-law",
+    "q": "An apartment information vendor collects an advance fee from a customer. Under Article 12-C, what is the maximum fee the vendor may ever charge that customer?",
+    "options": [
+      "15% of one year's rent",
+      "Two months' rent",
+      "One month's rent",
+      "One-half month's rent"
+    ],
+    "answer": 2,
+    "explanation": "The fee charged to the customer may never exceed one month's rent. A vendor must refund any portion of an advance fee above one month's rent even if the customer rents through its information.",
+    "citation": "RPL §446-c(2), (5)(b)"
+  },
+  {
+    "id": "license-law-a048",
+    "topic": "license-law",
+    "q": "A customer pays an apartment information vendor a $250 advance fee, finds no apartment through its listings, and gives written notice that he does not intend to rent through them. How much must the vendor refund, and by when?",
+    "options": [
+      "$235, within 30 days of receiving the written notice",
+      "$200, within 14 days of receiving the written notice",
+      "$250, within 10 days of receiving the written notice",
+      "$235, within 10 days of receiving the written notice"
+    ],
+    "answer": 3,
+    "explanation": "The vendor may keep no more than $15 for administrative services: $250 - $15 = $235, refunded within 10 days of written notice. Refunding the full $250 ignores the permitted administrative charge.",
+    "citation": "RPL §446-c(5)"
+  },
+  {
+    "id": "license-law-a049",
+    "topic": "license-law",
+    "q": "A customer pays an advance fee to a licensee whose services relate exclusively to acting as an apartment sharing agent, and no share arrangement results. What does Article 12-C provide?",
+    "options": [
+      "The agent must refund the full advance fee",
+      "The agent may keep only $15 for administration",
+      "The agent must refund half within 10 days",
+      "The agent may keep the full advance fee"
+    ],
+    "answer": 3,
+    "explanation": "The $15 retention and refund rules for advance fees do not apply when services relate exclusively to apartment sharing; the sharing agent may retain the full advance fee whether or not a share results.",
+    "citation": "RPL §446-c(5)(c)"
+  },
+  {
+    "id": "license-law-a050",
+    "topic": "license-law",
+    "q": "An apartment information vendor operates three licensed offices. What minimum balance must its special interest-bearing trust account hold?",
+    "options": [
+      "$10,000",
+      "$5,000",
+      "$7,500",
+      "$15,000"
+    ],
+    "answer": 0,
+    "explanation": "The minimum is $5,000 plus $2,500 for each additional office: $5,000 + (2 x $2,500) = $10,000. Charging $5,000 per office gives the $15,000 distractor.",
+    "citation": "RPL §446-b(6)"
+  },
+  {
+    "id": "license-law-a051",
+    "topic": "license-law",
+    "q": "A business limited exclusively to acting as an apartment sharing agent operates two licensed offices. What minimum trust account balance is required?",
+    "options": [
+      "$7,500",
+      "$3,750",
+      "$2,500",
+      "$5,000"
+    ],
+    "answer": 1,
+    "explanation": "Sharing-agent-only businesses need $2,500 plus $1,250 for each additional office: $2,500 + $1,250 = $3,750. The $7,500 figure wrongly applies the full-vendor rule to both offices.",
+    "citation": "RPL §446-b(6)"
+  },
+  {
+    "id": "license-law-a052",
+    "topic": "license-law",
+    "q": "How long is the license term for an apartment information vendor?",
+    "options": [
+      "One year, running from November 1 to October 31",
+      "One year, running from January 1 to December 31",
+      "Two years, matching the real estate salesperson term",
+      "Two years, running from the date the license is issued"
+    ],
+    "answer": 0,
+    "explanation": "Article 12-C licenses run for one year, November 1 through October 31, and may be renewed for one year. The two-year term belongs to Article 12-A brokers and salespersons.",
+    "citation": "RPL §446-b(4), (5)"
+  },
+  {
+    "id": "license-law-a053",
+    "topic": "license-law",
+    "q": "An apartment information vendor moves to a new business address and does not notify the Secretary of State. If the vendor still has not notified the Secretary within 10 days of the change, the result is that the vendor:",
+    "options": [
+      "Must post a larger bond",
+      "Receives a written warning",
+      "Forfeits the license",
+      "Owes a $10 late filing fee"
+    ],
+    "answer": 2,
+    "explanation": "Article 12-C requires notice of a change of business address or name; a licensee who fails to notify within ten days forfeits the license.",
+    "citation": "RPL §446-d(2)"
+  },
+  {
+    "id": "license-law-a054",
+    "topic": "license-law",
+    "q": "Which statement about the New York State Board of Real Estate is correct?",
+    "options": [
+      "It has 13 members, all elected by New York licensees at the annual state REALTOR convention",
+      "It has 15 members, including the Secretary of State and the Superintendent of Financial Services",
+      "It has 9 members appointed by the governor, each limited to serving a single five-year term",
+      "It has 15 members, all of whom must be real estate brokers licensed for at least ten years"
+    ],
+    "answer": 1,
+    "explanation": "The board has 15 members: the Secretary of State, the Superintendent of Financial Services, and 13 appointees. At least five appointees must be licensed brokers with at least ten years in the New York real estate business; the rest are public members. Appointed terms are two years.",
+    "citation": "RPL §442-i"
+  },
+  {
+    "id": "license-law-a055",
+    "topic": "license-law",
+    "q": "The Board of Real Estate may make rules affecting brokers and salespersons, but certain matters are reserved exclusively to the Secretary of State. Which is one of the reserved matters?",
+    "options": [
+      "The content of qualifying and continuing education courses",
+      "Commingling a principal's money and handling clients' funds",
+      "Studying proposed legislation that affects licensees",
+      "Rules for approving schools that offer licensing courses"
+    ],
+    "answer": 1,
+    "explanation": "RPL §442-k reserves commingling, accounting, property management for clients, broker purchase of listed property, inducing breach, and transaction records to the Secretary of State. Course content and school approval rules are board functions.",
+    "citation": "RPL §442-k(1)-(3)"
+  },
+  {
+    "id": "license-law-a056",
+    "topic": "license-law",
+    "q": "Which state body issues real estate licenses and is charged with enforcing Article 12-A, including prosecuting unlicensed practice?",
+    "options": [
+      "The Department of Financial Services",
+      "The State Board of Real Estate",
+      "The Department of State",
+      "The Office of Court Administration"
+    ],
+    "answer": 2,
+    "explanation": "The Department of State (through its Division of Licensing Services) issues licenses and administers and enforces the law, including prosecutions for unlicensed practice. The board advises and makes certain rules.",
+    "citation": "RPL §441-a(1); RPL §442-k(6)"
+  },
+  {
+    "id": "license-law-a057",
+    "topic": "license-law",
+    "q": "A corporation applies for a New York real estate broker license. How does the corporation qualify?",
+    "options": [
+      "Through filing its certificate of incorporation with DOS only",
+      "Through any salaried employee who holds a salesperson license",
+      "Through the shareholder holding the largest block of stock",
+      "Through an officer who personally meets broker requirements"
+    ],
+    "answer": 3,
+    "explanation": "A corporation acts as a broker through its officers; each officer for whom a broker license is sought must meet the broker qualifications. The entity cannot qualify through a salesperson or mere stock ownership.",
+    "citation": "RPL §441(1)(a)-(b)"
+  },
+  {
+    "id": "license-law-a058",
+    "topic": "license-law",
+    "q": "Three people form a partnership to operate a real estate brokerage. Which statement about licensing is correct?",
+    "options": [
+      "The partnership license covers the partners with no other filing",
+      "Only the partner who owns the largest share needs any license",
+      "Each partner needs only a salesperson license under the firm",
+      "Each partner who will act as a broker must hold a broker license"
+    ],
+    "answer": 3,
+    "explanation": "The broker application lists each partner, and each partner for whom a broker license is sought must establish competency and trustworthiness and meet broker qualifications.",
+    "citation": "RPL §441(1)(a)-(b)"
+  },
+  {
+    "id": "license-law-a059",
+    "topic": "license-law",
+    "q": "A salesperson who is already licensed with Broker A also wants to work with Broker B. Which statement is correct?",
+    "options": [
+      "She must obtain an additional salesperson license associated with Broker B",
+      "She must first upgrade to an associate broker license before working for both",
+      "She may work for Broker B as long as Broker A informs her clients in writing",
+      "Her license with Broker A automatically covers any work she does for Broker B"
+    ],
+    "answer": 0,
+    "explanation": "A salesperson can hold more than one license only by obtaining a separate (additional) salesperson license tied to each sponsoring broker; one license does not cover a second firm.",
+    "citation": "NY RPL Article 12-A; NYS DOS licensing instructions (additional salesperson license)"
+  },
+  {
+    "id": "license-law-b001",
+    "topic": "license-law",
+    "q": "A buyer gives a broker a $25,000 down payment to hold until closing. Which placement complies with DOS rules on entrusted funds?",
+    "options": [
+      "A separate special account at a federally insured bank, used only for client money",
+      "A brokerage money-market fund that would earn the buyer a higher return",
+      "The firm's operating account, as long as a separate ledger entry tracks the deposit",
+      "A short-term Treasury fund the broker opens in the buyer's name"
+    ],
+    "answer": 0,
+    "explanation": "Entrusted money must go into a separate, special, federally insured bank account used only for those funds. §175.1 bars placing it in any other depository, fund, or investment, so a better yield does not help, and a ledger entry in the operating account is still commingling.",
+    "citation": "19 NYCRR §175.1"
+  },
+  {
+    "id": "license-law-b002",
+    "topic": "license-law",
+    "q": "A broker receives a buyer's deposit check late Friday afternoon after the bank has closed. Under §175.1, what must the broker do with it before it is deposited?",
+    "options": [
+      "Safeguard it in a secure place to prevent loss or misappropriation",
+      "Endorse it over to the seller so the seller bears the risk of any loss",
+      "Cash it at once and hold the currency in the office until closing",
+      "Hand it to the salesperson to keep until the contract is signed"
+    ],
+    "answer": 0,
+    "explanation": "Until it is deposited within three business days, the money must be safeguarded in a secure location so it cannot be lost or misappropriated. Turning it over to the seller or converting it to cash defeats the purpose of the trust-account rule.",
+    "citation": "19 NYCRR §175.1"
+  },
+  {
+    "id": "license-law-b003",
+    "topic": "license-law",
+    "q": "A broker's special escrow account earns $84 in interest on a buyer's deposit. When may the broker keep that interest?",
+    "options": [
+      "Always, because the broker bears the cost of maintaining the escrow account",
+      "Only after the transaction closes and the deposit has been released",
+      "Only by applying it toward an earned commission with all parties' consent",
+      "Whenever the amount is small enough to be impractical to distribute"
+    ],
+    "answer": 2,
+    "explanation": "§175.1 says accrued interest may not be kept by or for the broker, except when it is applied to and deducted from an earned commission with the consent of all parties. A small amount or the broker's account costs do not create an exception.",
+    "citation": "19 NYCRR §175.1"
+  },
+  {
+    "id": "license-law-b004",
+    "topic": "license-law",
+    "q": "A broker manages an apartment building and collects the rents. Under DOS rules, what must the broker do with rent money it has collected but not spent for the owner?",
+    "options": [
+      "Keep it as a reserve sized at the broker's own discretion",
+      "Hold it until the management agreement ends, then remit it",
+      "Move it to the firm's operating account until year-end",
+      "Account to the owner and remit it within a reasonable time"
+    ],
+    "answer": 3,
+    "explanation": "A broker must account to its client and remit unexpended money collected for the client within a reasonable time. Holding it until the contract ends, or moving it into the firm's own account, keeps the client's money from the client and risks commingling.",
+    "citation": "19 NYCRR §175.2"
+  },
+  {
+    "id": "license-law-b005",
+    "topic": "license-law",
+    "q": "A broker managing a building hires a plumber, who quietly pays the broker 10% of each invoice as a 'referral rebate.' The owner does not know about it. This is:",
+    "options": [
+      "Prohibited only if the rebate exceeds the broker's management fee",
+      "Prohibited, because the owner lacks full knowledge and has not consented",
+      "Permitted, as long as the plumber's prices are competitive",
+      "Permitted, because the payment comes from the vendor, not from the owner's funds"
+    ],
+    "answer": 1,
+    "explanation": "When managing property, a broker may not accept a commission, rebate, or profit on spending made for the client without the client's full knowledge and consent. Who pays the rebate and whether prices are fair do not matter. The fee is secret, and that is the violation.",
+    "citation": "19 NYCRR §175.3"
+  },
+  {
+    "id": "license-law-b006",
+    "topic": "license-law",
+    "q": "A broker wants to buy a house that is listed with her own firm. What must she do first?",
+    "options": [
+      "Waive her commission, which removes any duty to disclose",
+      "Make her true position clearly known to the listing owner",
+      "Buy through an LLC she controls so no disclosure is needed",
+      "Get written approval from DOS before submitting an offer"
+    ],
+    "answer": 1,
+    "explanation": "A broker may not buy listed property, directly or indirectly, or acquire any interest in it without first making her true position clearly known to the owner. Using an LLC is still an indirect purchase, and giving up the fee does not remove the conflict.",
+    "citation": "19 NYCRR §175.4"
+  },
+  {
+    "id": "license-law-b007",
+    "topic": "license-law",
+    "q": "A buyer-client asks a broker to help her buy a small office building. The broker secretly holds a 20% interest in the building. What does DOS require?",
+    "options": [
+      "Disclose the interest only to the seller's attorney",
+      "Disclose the interest to all parties before the purchase",
+      "Disclose the interest in the final closing statement only",
+      "Disclose the interest only if it is a majority stake"
+    ],
+    "answer": 1,
+    "explanation": "Before buying property for a client when the broker has an ownership interest in it, the broker must disclose that interest to all parties to the transaction. The size of the stake does not matter, and disclosure at or after closing is too late.",
+    "citation": "19 NYCRR §175.5"
+  },
+  {
+    "id": "license-law-b008",
+    "topic": "license-law",
+    "q": "Under §175.7, apart from the consent requirement for taking fees from more than one party, what must a broker always do?",
+    "options": [
+      "Make it clear which party the broker is acting for",
+      "Keep fees under a percentage DOS sets",
+      "Split any second fee equally with its own client",
+      "File each compensation agreement with DOS"
+    ],
+    "answer": 0,
+    "explanation": "§175.7 requires a broker to make it clear which party it represents, and separately limits taking pay from more than one party. DOS does not set commission percentages or require compensation agreements to be filed with it.",
+    "citation": "19 NYCRR §175.7"
+  },
+  {
+    "id": "license-law-b009",
+    "topic": "license-law",
+    "q": "A broker learns that a homeowner has signed a written exclusive listing with another firm. The broker has a buyer who is interested. How should the broker proceed?",
+    "options": [
+      "Work through the listing broker instead of negotiating with the owner directly",
+      "Urge the owner to cancel that listing and sign with the broker's own firm",
+      "Negotiate directly with the owner, provided the owner was the one who called",
+      "Negotiate directly with the owner, since the interested buyer is the broker's own client"
+    ],
+    "answer": 0,
+    "explanation": "A broker may not negotiate a sale or lease directly with an owner it knows has a written exclusive contract with another broker. Who the buyer is or who made the first call does not change this. Urging the owner to cancel is also improper.",
+    "citation": "19 NYCRR §175.8"
+  },
+  {
+    "id": "license-law-b010",
+    "topic": "license-law",
+    "q": "A seller and buyer have signed a contract of sale. A different broker then tells the seller that her own buyer will pay $15,000 more if the seller backs out. This conduct is:",
+    "options": [
+      "Improper only if the first buyer's deposit has already been posted",
+      "Allowed, as long as the seller's attorney approves the new contract",
+      "Allowed, because a higher price benefits the seller who is the owner",
+      "Improperly inducing a party to break a contract for a new principal"
+    ],
+    "answer": 3,
+    "explanation": "A broker may not induce a party to a contract of sale or lease to break it so that a new contract with another principal can replace it. A higher price or a lawyer's approval does not make the inducement acceptable.",
+    "citation": "19 NYCRR §175.9"
+  },
+  {
+    "id": "license-law-b011",
+    "topic": "license-law",
+    "q": "A salesperson finds a for-sale-by-owner house online and, without contacting the owner, posts it on her brokerage website to draw in buyer leads. What is the problem?",
+    "options": [
+      "Property may not be offered or advertised without the owner's authorization",
+      "Only the broker personally, never a salesperson, may post any listings",
+      "The listing photos must first be submitted to DOS for written approval",
+      "FSBO homes may be shown to buyers but may never appear in online ads of any kind"
+    ],
+    "answer": 0,
+    "explanation": "A broker may never offer a property for sale or lease without the owner's authorization, and advertising rules separately require owner authorization before a property is advertised. No owner consent means no ad.",
+    "citation": "19 NYCRR §175.10; §175.25(b)(2)"
+  },
+  {
+    "id": "license-law-b012",
+    "topic": "license-law",
+    "q": "A seller signs a listing agreement that the broker prepared. When must the broker give the seller a copy?",
+    "options": [
+      "Only if the seller asks",
+      "Within three business days",
+      "At the closing",
+      "Immediately"
+    ],
+    "answer": 3,
+    "explanation": "A broker must immediately deliver a copy of any instrument it prepared, or that was prepared under its supervision, to the party who signs it. This includes listing agreements and contracts. The three-business-day period applies to depositing trust funds, not to delivering copies.",
+    "citation": "19 NYCRR §175.12"
+  },
+  {
+    "id": "license-law-b013",
+    "topic": "license-law",
+    "q": "A residential exclusive listing says it 'renews automatically for successive 90-day periods unless the seller gives written notice.' What is the problem?",
+    "options": [
+      "Exclusive listings may not continue automatically past their fixed end date",
+      "Automatic renewals are allowed, but each period may not exceed 60 days",
+      "The clause is valid only if the seller initials it right next to the signature line",
+      "The clause must be filed with DOS before the first renewal takes effect"
+    ],
+    "answer": 0,
+    "explanation": "A broker may not be a party to an exclusive listing that automatically continues beyond its fixed termination date. Initials, shorter renewal periods, or filings do not cure the clause. The seller must agree to any extension separately.",
+    "citation": "19 NYCRR §175.15"
+  },
+  {
+    "id": "license-law-b014",
+    "topic": "license-law",
+    "q": "A seller tells a broker, 'I need to net $380,000; anything over that is yours.' The broker accepts and sells the home for $412,000. What fee does this arrangement give the broker, and is it allowed?",
+    "options": [
+      "$32,000, and the arrangement is a prohibited net listing",
+      "$32,000, and it is legal because the seller set the terms",
+      "$20,600, and it is legal as an ordinary 5% commission",
+      "$12,000, and it is prohibited only beyond the 6% level"
+    ],
+    "answer": 0,
+    "explanation": "$412,000 − $380,000 = $32,000 is what the broker would keep over the seller's net. A broker may not make or enter into a net listing, even if the seller suggests it. $20,600 (5% of $412,000) is a different arrangement that nobody agreed to here.",
+    "citation": "19 NYCRR §175.19"
+  },
+  {
+    "id": "license-law-b015",
+    "topic": "license-law",
+    "q": "A salesperson proposes to rent and pay for a branch office herself, run it under her broker's name, and keep the branch's profits. Under DOS rules, this arrangement is:",
+    "options": [
+      "Allowed, provided the branch office license is issued in her own name",
+      "Allowed, once she has two years of experience as a salesperson",
+      "Prohibited, because the broker must own, maintain, and operate the branch",
+      "Allowed, provided the broker reviews the branch's advertising and deposits monthly"
+    ],
+    "answer": 2,
+    "explanation": "A branch office must be owned, maintained, and operated only by the licensed broker. It cannot be run under an arrangement where a salesperson pays its expenses and effectively operates a brokerage for her own benefit.",
+    "citation": "19 NYCRR §175.20"
+  },
+  {
+    "id": "license-law-b016",
+    "topic": "license-law",
+    "q": "A broker with 60 salespersons sees them only at an annual meeting and otherwise never reviews their listings, ads, or deposits. How does DOS view this?",
+    "options": [
+      "It is adequate as long as every salesperson carries errors-and-omissions coverage",
+      "It is adequate because the supervision duty applies only to newly licensed staff",
+      "It falls short of the regular, frequent, and consistent supervision DOS requires",
+      "It is adequate if a branch manager signs a supervision affidavit once each year"
+    ],
+    "answer": 2,
+    "explanation": "Supervision means regular, frequent, and consistent personal guidance, instruction, oversight, and superintendence of the brokerage business. Insurance, experience levels, and paperwork do not replace actual ongoing oversight.",
+    "citation": "19 NYCRR §175.21(a)"
+  },
+  {
+    "id": "license-law-b017",
+    "topic": "license-law",
+    "q": "How long must a broker keep the required records of a residential sale handled through the office?",
+    "options": [
+      "One year",
+      "Three years",
+      "Seven years",
+      "Two years"
+    ],
+    "answer": 1,
+    "explanation": "§175.23 requires brokers to keep paper or electronic records of covered transactions for three years. Two years is the license term, which is a common source of confusion.",
+    "citation": "19 NYCRR §175.23"
+  },
+  {
+    "id": "license-law-b018",
+    "topic": "license-law",
+    "q": "The transaction-record rule in §175.23 applies to the sale of which property?",
+    "options": [
+      "A 40-unit apartment building held as investment",
+      "A retail store leased to a national tenant",
+      "A condominium unit occupied as a residence",
+      "A vacant lot on which a house will be built"
+    ],
+    "answer": 2,
+    "explanation": "§175.23 covers sales of residential property improved by a one-to-four-family dwelling, or condominium or cooperative units. It expressly excludes unimproved land intended for such homes. Larger multifamily buildings and commercial leases fall outside this particular rule.",
+    "citation": "19 NYCRR §175.23(a)"
+  },
+  {
+    "id": "license-law-b019",
+    "topic": "license-law",
+    "q": "Under §175.23, a broker's file for a covered residential sale must include each of the following EXCEPT:",
+    "options": [
+      "The names and addresses of the seller and the buyer",
+      "The listing, commission, or buyer-broker agreement",
+      "The buyer's mortgage application and credit report",
+      "The amount of commission paid to the broker"
+    ],
+    "answer": 2,
+    "explanation": "Required records include the parties' names and addresses, the contract or binder (or the price and any deposit the broker collected), the commission paid, any profit if the broker bought for resale, required Article 12-A documents, and the listing, commission, or buyer-broker agreement. Lender underwriting files are not on the list.",
+    "citation": "19 NYCRR §175.23(a)"
+  },
+  {
+    "id": "license-law-b020",
+    "topic": "license-law",
+    "q": "A cooperating broker's buyer signs a contract that the parties' attorneys drafted. The attorneys never give the broker a copy. What does §175.23 require of the broker?",
+    "options": [
+      "Nothing at all, because the record rule applies only to the listing side of a deal",
+      "Get the signed contract from the attorneys, or face discipline for keeping an incomplete file",
+      "Keep the attorney correspondence for six years instead of the usual three",
+      "Record the price and any deposit it collected; it isn't faulted for papers it never got"
+    ],
+    "answer": 3,
+    "explanation": "If the broker did not prepare the contract, it records the purchase price and the amount of any deposit it collected. The rule also states that a broker is not in violation when it was never given a required document.",
+    "citation": "19 NYCRR §175.23(a)(2), (b)"
+  },
+  {
+    "id": "license-law-b021",
+    "topic": "license-law",
+    "q": "Under §175.24, an exclusive listing of a one-family home must include which item?",
+    "options": [
+      "A statement that the listing renews unless canceled in writing",
+      "A copy of the broker's license and the salesperson's pocket card",
+      "A required explanation of exclusive-right-to-sell versus exclusive-agency terms",
+      "A DOS-approved schedule of the customary commission rates for the local market area"
+    ],
+    "answer": 2,
+    "explanation": "For exclusive listings of residential property, the broker must attach or print the DOS-worded explanation of exclusive right to sell and exclusive agency, and the homeowner must sign or initial it. DOS publishes no commission schedule, and automatic renewal is prohibited.",
+    "citation": "19 NYCRR §175.24(b)"
+  },
+  {
+    "id": "license-law-b022",
+    "topic": "license-law",
+    "q": "What is the minimum type size for the §175.24 exclusive-listing explanation, and who must sign or initial it?",
+    "options": [
+      "Ten-point type, signed only by the listing broker after the seller has signed",
+      "Twelve-point type, with initials from both the salesperson and the homeowner",
+      "Six-point type, signed or initialed by the homeowner or the homeowner's agent",
+      "Eight-point type, with no signature needed if it is printed on the listing"
+    ],
+    "answer": 2,
+    "explanation": "The explanation must be in type no smaller than six point, and the homeowner or the homeowner's agent must sign or initial it. Printing it on the listing does not remove the signature or initial requirement.",
+    "citation": "19 NYCRR §175.24(b)"
+  },
+  {
+    "id": "license-law-b023",
+    "topic": "license-law",
+    "q": "A salesperson places an online ad for a home listed exclusively with a different brokerage. She has no permission from that brokerage and no approval from her own broker. Under §175.25, the ad:",
+    "options": [
+      "Is not permitted, because neither required authorization was obtained",
+      "Is permitted, since online ads are not 'advertising' under the rule",
+      "Is permitted, as long as the ad runs for fewer than seven days",
+      "Is permitted, if the ad includes the salesperson's license number"
+    ],
+    "answer": 0,
+    "explanation": "Only a broker may place ads. A salesperson's ad is allowed only for property listed with or represented by her own broker, and with that broker's approval. Advertising another broker's exclusive listing also requires that listing broker's permission.",
+    "citation": "19 NYCRR §175.25(b)"
+  },
+  {
+    "id": "license-law-b024",
+    "topic": "license-law",
+    "q": "Salesperson Robert Chen wants his ads to say 'Bobby Chen.' Under §175.25, he may:",
+    "options": [
+      "Use the nickname only after filing a formal name change with DOS",
+      "Never use a nickname in any real estate advertisement",
+      "Use the nickname alone if his broker approves the ad",
+      "Use the nickname if his full licensed name also appears clearly"
+    ],
+    "answer": 3,
+    "explanation": "Licensees must advertise under the name they are licensed under. A nickname is allowed only if the full licensed name is also shown clearly and conspicuously. Broker approval alone does not satisfy this.",
+    "citation": "19 NYCRR §175.25(c)(3)"
+  },
+  {
+    "id": "license-law-b025",
+    "topic": "license-law",
+    "q": "Which title in a salesperson's advertisement violates §175.25?",
+    "options": [
+      "Lic. R.E. Salesperson",
+      "Licensed Sales Agent",
+      "Real Estate Salesperson",
+      "Licensed R.E. Salesperson"
+    ],
+    "answer": 1,
+    "explanation": "Ads must state the license type accurately. A non-misleading abbreviation is allowed, but §175.25 specifically prohibits the titles 'sales associate,' 'licensed sales agent,' and 'broker' used alone.",
+    "citation": "19 NYCRR §175.25(c)(4)"
+  },
+  {
+    "id": "license-law-b026",
+    "topic": "license-law",
+    "q": "A salesperson's ad shows the brokerage's name and office phone, plus a second number, (914) 555-0182, which is her cell. What else must the ad do?",
+    "options": [
+      "List the brokerage's license number with the second number",
+      "Identify the second number as her cell phone",
+      "Remove the second number, since only the office line may appear",
+      "Add her home address next to the second number"
+    ],
+    "answer": 1,
+    "explanation": "Licensees may include phone numbers other than the brokerage's, as long as the ad clearly identifies what kind of number each one is, such as desk, home, or cell. The brokerage information must still appear.",
+    "citation": "19 NYCRR §175.25(c)(7)"
+  },
+  {
+    "id": "license-law-b027",
+    "topic": "license-law",
+    "q": "Three salespersons at Hudson Realty want to advertise as a team. Which name complies with §175.25?",
+    "options": [
+      "The Rivera Team at Hudson Realty",
+      "The Rivera Associates of Hudson",
+      "Rivera Realty Group of Hudson",
+      "Rivera Home Group at Hudson"
+    ],
+    "answer": 0,
+    "explanation": "Team names must use the word 'team'. Words such as 'realty,' 'group,' or 'associates' are prohibited. If the team name does not include the members' full licensed names, it must be followed immediately by 'at' or 'of' and the brokerage name.",
+    "citation": "19 NYCRR §175.25(e)(1)"
+  },
+  {
+    "id": "license-law-b028",
+    "topic": "license-law",
+    "q": "A team's ad names its two salespersons and its unlicensed marketing coordinator. What must the ad do?",
+    "options": [
+      "Add a DOS registration number next to the coordinator's name",
+      "Clearly state which named people are licensees and which are not",
+      "Remove the coordinator, since unlicensed staff may never be named",
+      "List the coordinator as a 'sales associate' to keep titles uniform"
+    ],
+    "answer": 1,
+    "explanation": "If an ad for a team names unlicensed individuals, it must clearly and conspicuously state who is licensed and who is not. 'Sales associate' is itself a prohibited title.",
+    "citation": "19 NYCRR §175.25(e)(2)"
+  },
+  {
+    "id": "license-law-b029",
+    "topic": "license-law",
+    "q": "A team wants to call itself 'The Sofia Marks Team at Bay Realty.' Sofia Marks is the team's unlicensed office manager. This name is:",
+    "options": [
+      "Prohibited only if Sofia receives a share of the team's commissions",
+      "Allowed, if Sofia's unlicensed role is described somewhere on the team's website",
+      "Prohibited, because an unlicensed person's name may not be in a team name",
+      "Allowed, because the name includes both 'Team' and the brokerage name"
+    ],
+    "answer": 2,
+    "explanation": "§175.25(e)(1) prohibits using a non-licensed individual's name in a team name. Using the word 'team' and naming the brokerage does not cure that defect.",
+    "citation": "19 NYCRR §175.25(e)(1)"
+  },
+  {
+    "id": "license-law-b030",
+    "topic": "license-law",
+    "q": "Salesperson Ana works for Coastal Realty and Salesperson Ben works for Summit Homes. They want to advertise together as 'The Harbor Team.' This is:",
+    "options": [
+      "Permitted, if the ad names both brokerages in equal-sized type",
+      "Permitted, because at least one member of the team holds a license",
+      "Permitted, as long as both brokers sign a written co-advertising agreement",
+      "Not a permitted team, because team members must be with the same brokerage"
+    ],
+    "answer": 3,
+    "explanation": "§175.25 defines a team as two or more persons, at least one of them an associate broker or salesperson, who are associated with the same brokerage and hold themselves out as a team. Licensees from different firms cannot form one.",
+    "citation": "19 NYCRR §175.25(a)(2)"
+  },
+  {
+    "id": "license-law-b031",
+    "topic": "license-law",
+    "q": "Which item must appear on a salesperson's business card?",
+    "options": [
+      "The salesperson's home address",
+      "The office telephone number",
+      "A photograph of the salesperson",
+      "The license expiration date"
+    ],
+    "answer": 1,
+    "explanation": "Business cards must show the licensee's business address, license type, the name of the associated broker or brokerage, and the office telephone number. A home address, expiration date, and photo are not required.",
+    "citation": "19 NYCRR §175.25(d)(2)"
+  },
+  {
+    "id": "license-law-b032",
+    "topic": "license-law",
+    "q": "A salesperson's broker has authorized her to run her own website. Under §175.25, where must the required broker information appear?",
+    "options": [
+      "On every page, including property-search results pages",
+      "Only on pages that display a single listed property",
+      "On the homepage only, as long as it is easy to find",
+      "On a separate 'About' page linked from the footer"
+    ],
+    "answer": 0,
+    "explanation": "Every page of a licensee or team website, including pages showing multiple properties or search results, must carry the required information. The homepage must also link to the brokerage's website if the brokerage has one, and the site remains subject to the broker's supervision while live.",
+    "citation": "19 NYCRR §175.25(d)(3)"
+  },
+  {
+    "id": "license-law-b033",
+    "topic": "license-law",
+    "q": "A salesperson emails a new prospective client for the first time, then sends five follow-up emails. Which emails must include the advertising-rule information, such as broker identification?",
+    "options": [
+      "The initial email; later emails to the same recipient may omit it",
+      "Only emails that include a photo or a price for a specific property",
+      "None, because email is exempt from the advertising rules entirely",
+      "Every email, because each message counts as a separate advertisement"
+    ],
+    "answer": 0,
+    "explanation": "An initial email from a licensee or team to a client or potential client must carry the required information. Later emails to the same recipient may leave it out.",
+    "citation": "19 NYCRR §175.25(d)(4)"
+  },
+  {
+    "id": "license-law-b034",
+    "topic": "license-law",
+    "q": "With the listing broker's authorization, a broker advertises a home that another broker holds under an exclusive listing. What must the ad include?",
+    "options": [
+      "The seller's written consent printed below the description of the property",
+      "The listing broker's license number and the expiration date of that broker's license",
+      "The listing broker's name right after a phrase such as 'Listing courtesy of'",
+      "A statement that the advertising broker will split any commission it earns"
+    ],
+    "answer": 2,
+    "explanation": "Ads that reference another broker's exclusive listing need that broker's authorization. They must also clearly disclose the listing broker's name immediately after an approved phrase such as 'Listing by' or 'Listing courtesy of.'",
+    "citation": "19 NYCRR §175.25(d)(6)(i)"
+  },
+  {
+    "id": "license-law-b035",
+    "topic": "license-law",
+    "q": "A salesperson pays a third-party website to feature a home that another broker holds under an exclusive listing, with authorization. Besides the 'Listing courtesy of' credit, what must the ad include?",
+    "options": [
+      "The phrase 'not a listing' printed in the ad's headline",
+      "The fee paid to the website, stated in dollars and cents",
+      "A notice that the listing broker paid for the ad's placement",
+      "The word 'advertisement' right after the advertiser's name"
+    ],
+    "answer": 3,
+    "explanation": "When a licensee pays a third party for advertising that involves another broker's exclusive listing, the ad must disclose that it is paid by using at least the word 'advertisement' immediately after the advertiser's name.",
+    "citation": "19 NYCRR §175.25(d)(6)(ii)"
+  },
+  {
+    "id": "license-law-b036",
+    "topic": "license-law",
+    "q": "An investor-property ad reads, 'Guaranteed 12% annual return — buy now!' Under DOS advertising rules, this ad is:",
+    "options": [
+      "Allowed, if the figure is based on last year's actual rents",
+      "Allowed, if the broker personally believes the projection",
+      "Prohibited only if it is for a one-to-four-family home",
+      "Prohibited, because ads may not guarantee future profits"
+    ],
+    "answer": 3,
+    "explanation": "§175.25 states flatly that ads may not guarantee future profits from any real estate activity. Past performance and the broker's good faith do not create an exception.",
+    "citation": "19 NYCRR §175.25(c)(10)"
+  },
+  {
+    "id": "license-law-b037",
+    "topic": "license-law",
+    "q": "A home is in Village A. The ad describes it only as 'in the Village B area' because Village B sounds more prestigious. What must the ad do?",
+    "options": [
+      "Add 'approximately' before the reference to Village B",
+      "Include the distance in miles from Village B's center",
+      "Name Village A, where the property is actually located",
+      "Nothing, since a broker may describe areas as it likes"
+    ],
+    "answer": 2,
+    "explanation": "An ad that places a property in the vicinity of an area must also name the area or subdivision where the property actually is. Using a misleading area name is prohibited. Adding 'approximately' does not fix a misleading description.",
+    "citation": "19 NYCRR §175.25(c)(9)"
+  },
+  {
+    "id": "license-law-b038",
+    "topic": "license-law",
+    "q": "Which task may an unlicensed assistant lawfully perform for a brokerage?",
+    "options": [
+      "Tell a buyer the seller would likely accept $20,000 less",
+      "Recommend a listing price directly to a prospective home seller",
+      "Explain the mortgage contingency clause to a nervous buyer",
+      "Gather comparable-sales data for a salesperson's market analysis"
+    ],
+    "answer": 3,
+    "explanation": "DOS lists gathering information for a comparative market analysis as permitted clerical work. Hinting at the seller's bottom line is negotiation, and interpreting contract terms or recommending a price is licensed advisory work.",
+    "citation": "DOS guidance, Unlicensed Real Estate Assistants; RPL §440"
+  },
+  {
+    "id": "license-law-b039",
+    "topic": "license-law",
+    "q": "A salesperson asks her unlicensed assistant to call owners of expired listings and ask whether they would like to list with the firm. This is:",
+    "options": [
+      "Allowed, because the assistant is only setting appointments",
+      "Allowed, if the assistant is paid hourly instead of per listing",
+      "Allowed, if the assistant reads from a broker-approved script",
+      "Prohibited, because soliciting listings is licensed activity"
+    ],
+    "answer": 3,
+    "explanation": "Soliciting or attempting to obtain listings is brokerage activity under RPL §440, so an unlicensed person may not do it. A script or hourly pay does not change the nature of the call. Scheduling appointments for an existing client is different.",
+    "citation": "RPL §440; DOS guidance, Unlicensed Real Estate Assistants"
+  },
+  {
+    "id": "license-law-b040",
+    "topic": "license-law",
+    "q": "A salesperson pays her unlicensed assistant $25 an hour from her own funds for filing and scheduling. Under DOS guidance, this is:",
+    "options": [
+      "Permitted only if the assistant also gets a share of each closed deal",
+      "Prohibited unless the assistant first obtains a salesperson license",
+      "Prohibited, because only the broker may ever pay any brokerage employee",
+      "Permitted; a salesperson may pay hourly wages for clerical work"
+    ],
+    "answer": 3,
+    "explanation": "DOS says an unlicensed assistant may be paid directly by the broker or by the salesperson, preferably on an hourly, per-activity, or salary basis. Pay tied to completed transactions would require a salesperson license and payment through the broker.",
+    "citation": "DOS guidance, Unlicensed Real Estate Assistants"
+  },
+  {
+    "id": "license-law-b041",
+    "topic": "license-law",
+    "q": "A contract has been fully negotiated and signed. Which follow-up task may the brokerage's unlicensed assistant handle?",
+    "options": [
+      "Advising the buyer whether to waive the appraisal contingency",
+      "Calling the lender to check on the status of the loan commitment",
+      "Showing the buyer the house again before the final walk-through",
+      "Negotiating a repair credit after the buyer's home inspection"
+    ],
+    "answer": 1,
+    "explanation": "DOS lists following up on loan commitments after a contract has been negotiated as permitted. Negotiating credits, advising on contingencies, and showing property all require a license.",
+    "citation": "DOS guidance, Unlicensed Real Estate Assistants"
+  },
+  {
+    "id": "license-law-b042",
+    "topic": "license-law",
+    "q": "A Connecticut broker, not licensed in New York, refers a buyer to a New York broker, and the deal closes. May the New York broker pay the Connecticut broker part of the commission?",
+    "options": [
+      "Only if the Connecticut broker first gets a New York license",
+      "No; any share paid to an out-of-state broker is an illegal split",
+      "Yes; a person regularly in brokerage in another state may be paid",
+      "Only if the buyer signs a consent to the referral fee at closing"
+    ],
+    "answer": 2,
+    "explanation": "RPL §442 lets a broker share compensation with a licensed NY salesperson associated with that broker, a licensed broker, or a person regularly engaged in the real estate brokerage business in another state. The out-of-state broker does not need a New York license to receive the share.",
+    "citation": "RPL §442(1)"
+  },
+  {
+    "id": "license-law-b043",
+    "topic": "license-law",
+    "q": "A broker's commission is payable to an unlicensed limited liability company. Under RPL §442, when may the broker pay it?",
+    "options": [
+      "Never, because §442 permits payments only to individual licensees",
+      "When the LLC is registered as a real estate business with DOS",
+      "When at least one LLC member holds any real estate license",
+      "When every LLC member is a licensed associate of that broker"
+    ],
+    "answer": 3,
+    "explanation": "§442 permits payment to an unlicensed corporation or LLC only if each of its shareholders or members is individually associated with the broker as a licensed associate broker or salesperson. One licensed member is not enough.",
+    "citation": "RPL §442(1)"
+  },
+  {
+    "id": "license-law-b044",
+    "topic": "license-law",
+    "q": "A broker representing a buyer offers to credit $2,000 of its commission to that buyer at closing. Under RPL §442, this is generally:",
+    "options": [
+      "Permitted, but only if the buyer first obtains a salesperson license",
+      "Permitted, as long as the buyer is not paid for performing licensed work",
+      "Prohibited, because commission may be shared only with licensed brokers or salespersons",
+      "Prohibited unless DOS approves the rebate before the closing date"
+    ],
+    "answer": 1,
+    "explanation": "§442 expressly allows a broker to offer part of its fee to a buyer, seller, landlord, or tenant in the transaction, provided the payment is not for doing activity that requires a license. A rebate to a principal is not an illegal split with an unlicensed helper.",
+    "citation": "RPL §442"
+  },
+  {
+    "id": "license-law-b045",
+    "topic": "license-law",
+    "q": "Broker A wants to pay a referral fee to Sam, a salesperson associated with Broker B. How should the payment be made?",
+    "options": [
+      "Broker A pays Sam directly by personal check",
+      "Broker A pays Sam once Sam signs a W-9 form",
+      "Broker A pays Broker B, who can then pay Sam",
+      "Broker A pays Sam through the buyer at closing"
+    ],
+    "answer": 2,
+    "explanation": "Under RPL §442, a broker may pay a salesperson only if that salesperson is associated with the paying broker. Under §442-a, a salesperson may receive pay only from his own broker. So the fee goes broker to broker, and Broker B pays Sam.",
+    "citation": "RPL §§442, 442-a"
+  },
+  {
+    "id": "license-law-b046",
+    "topic": "license-law",
+    "q": "Salesperson Lee's broker refuses to pay her agreed share of a commission on a closed sale. What is Lee's proper legal route?",
+    "options": [
+      "File only with DOS, because courts can't hear disputes between licensees",
+      "Sue her broker, alleging and proving she was licensed when the claim arose",
+      "Nothing, since a salesperson can never sue anyone over unpaid commissions",
+      "Sue the seller directly, since the seller's sale generated the commission she earned"
+    ],
+    "answer": 1,
+    "explanation": "A salesperson may receive pay only from her associated broker, so her claim is against the broker, not the seller. RPL §442-d lets a licensed broker or salesperson sue for compensation if she alleges and proves she held a license when the cause of action arose.",
+    "citation": "RPL §§442-a, 442-d"
+  },
+  {
+    "id": "license-law-b047",
+    "topic": "license-law",
+    "q": "An unlicensed friend helps a seller find a buyer after being promised 2% of the price. The seller refuses to pay, and the friend sues. What is the likely result?",
+    "options": [
+      "The suit fails; a license must be alleged and proven to recover a fee",
+      "The friend recovers, because the seller's promise was made in writing",
+      "The suit succeeds if the friend helped in only one transaction",
+      "The friend recovers half, as a reasonable value for the time spent"
+    ],
+    "answer": 0,
+    "explanation": "RPL §442-d bars anyone from suing for real estate brokerage compensation without alleging and proving they were licensed when the claim arose. A written promise or a one-time deal does not get around this.",
+    "citation": "RPL §442-d"
+  },
+  {
+    "id": "license-law-b048",
+    "topic": "license-law",
+    "q": "Dana negotiated a lease for a fee in March while unlicensed. She was licensed in June and then sued the landlord for her fee. Under RPL §442-d:",
+    "options": [
+      "She can recover, because she was licensed by the time she sued",
+      "She can recover, if she gets her license within six months of the deal",
+      "She cannot recover, because she was unlicensed when the claim arose",
+      "She can recover, if DOS backdates her license to the lease date"
+    ],
+    "answer": 2,
+    "explanation": "§442-d requires proof that the claimant was licensed on the date the cause of action arose. Getting licensed later, before suing, does not cure unlicensed work done earlier.",
+    "citation": "RPL §442-d"
+  },
+  {
+    "id": "license-law-b049",
+    "topic": "license-law",
+    "q": "An unlicensed person collects a $9,500 commission in violation of Article 12-A. In a civil suit by the person aggrieved, what penalty range may the court award?",
+    "options": [
+      "From $2,000 up to $9,500",
+      "From $9,500 up to $38,000",
+      "From $1,000 up to $28,500",
+      "From $9,500 up to $19,000"
+    ],
+    "answer": 1,
+    "explanation": "RPL §442-e(3) sets the penalty at not less than the amount received and not more than four times it: $9,500 × 4 = $38,000. $19,000 doubles instead of quadrupling, and $2,000 is the DOS administrative fine cap, which is a different remedy.",
+    "citation": "RPL §442-e(3)"
+  },
+  {
+    "id": "license-law-b050",
+    "topic": "license-law",
+    "q": "Who prosecutes criminal violations of New York's real estate license law (Article 12-A)?",
+    "options": [
+      "The Department of State",
+      "The local Board of Realtors",
+      "The county clerk's office",
+      "The state Attorney General"
+    ],
+    "answer": 3,
+    "explanation": "§442-e makes violations misdemeanors, prosecuted by the Attorney General in the name of the People. DOS handles administrative licensing discipline. That is a separate proceeding and it cannot impose criminal punishment.",
+    "citation": "RPL §442-e(1)-(2)"
+  },
+  {
+    "id": "license-law-b051",
+    "topic": "license-law",
+    "q": "RPL §441-c lists grounds on which DOS may discipline a licensee. Each of the following is a listed ground EXCEPT:",
+    "options": [
+      "Making a material misstatement on the license application",
+      "Demonstrating untrustworthiness or incompetency",
+      "Having lower annual sales volume than others in the office",
+      "Publishing dishonest or misleading advertising"
+    ],
+    "answer": 2,
+    "explanation": "Listed grounds include violating Article 12-A, a material misstatement in the application, fraud or fraudulent practices, dishonest or misleading advertising, untrustworthiness or incompetency, and Human Rights Law violations committed as a licensee. Low production is a business issue, not misconduct.",
+    "citation": "RPL §441-c(1)(a)"
+  },
+  {
+    "id": "license-law-b052",
+    "topic": "license-law",
+    "q": "Instead of revoking or suspending a license, DOS may impose a fine. What is the maximum fine under RPL §441-c?",
+    "options": [
+      "$500",
+      "$1,000",
+      "$2,000",
+      "$5,000"
+    ],
+    "answer": 2,
+    "explanation": "§441-c allows DOS to impose a fine of up to $2,000 instead of revoking or suspending a license. Half of collected fines goes to the anti-discrimination in housing fund. $1,000 is an older figure that still appears in some study materials.",
+    "citation": "RPL §441-c(1)(a)"
+  },
+  {
+    "id": "license-law-b053",
+    "topic": "license-law",
+    "q": "DOS revokes a salesperson's license. When may she next become eligible for a broker's or salesperson's license?",
+    "options": [
+      "One year after the date of the revocation",
+      "Immediately, by paying a reinstatement fee",
+      "Only after a new 77-hour course, at any time",
+      "Two years after the date of the revocation"
+    ],
+    "answer": 0,
+    "explanation": "Under §441-c(4), a licensee whose license is revoked cannot be relicensed as a broker or salesperson until one year after the revocation date. Revocation is not cured by simply paying a fee.",
+    "citation": "RPL §441-c(4)"
+  },
+  {
+    "id": "license-law-b054",
+    "topic": "license-law",
+    "q": "After receiving notice that DOS has suspended his license, what must a broker do with his license and pocket card?",
+    "options": [
+      "Return them to DOS within five days, or file an affidavit if lost",
+      "Return them at the next renewal date, along with the renewal fee",
+      "Surrender them to the local Board of Realtors within thirty days",
+      "Keep them, but stop displaying them until the suspension ends"
+    ],
+    "answer": 0,
+    "explanation": "Licenses and pocket cards must be returned to DOS within five days after notice of revocation or suspension. If they were lost or destroyed, the licensee files an affidavit instead. Displaying a revoked or suspended broker license is also prohibited.",
+    "citation": "RPL §441-c(2)-(3)"
+  },
+  {
+    "id": "license-law-b055",
+    "topic": "license-law",
+    "q": "DOS revokes Broker Kim's license. What happens to the licenses of the salespersons associated with her?",
+    "options": [
+      "They are unaffected, since each salesperson holds their own license",
+      "They are converted to inactive status until their next renewal",
+      "They are revoked as well, with a one-year bar on relicensing",
+      "They are suspended until each salesperson changes association"
+    ],
+    "answer": 3,
+    "explanation": "Under RPL §441-d, revoking or suspending a broker's license suspends the license of each associated salesperson until the salesperson changes association or the broker's suspension ends. It does not count as a revocation of the salespersons' own licenses.",
+    "citation": "RPL §441-d"
+  },
+  {
+    "id": "license-law-b056",
+    "topic": "license-law",
+    "q": "A salesperson misrepresents a property's flood history. The broker did not know about it and gained nothing from it. When can the salesperson's violation be cause for suspending or revoking the broker's license?",
+    "options": [
+      "Only if the broker had supervised the salesperson for under a year",
+      "Only if the broker knew of it, or kept the deal's proceeds after notice",
+      "Always, because a broker is strictly liable for every salesperson act",
+      "Never, because only the salesperson can be disciplined for the act"
+    ],
+    "answer": 1,
+    "explanation": "RPL §442-c says a salesperson's violation is not cause to discipline the broker unless the broker had actual knowledge of it or kept the benefits of the wrongly negotiated transaction after notice of the misconduct. The broker's own supervision duties still apply separately.",
+    "citation": "RPL §442-c"
+  },
+  {
+    "id": "license-law-b057",
+    "topic": "license-law",
+    "q": "Before DOS holds a hearing to suspend a salesperson's license, what notice does RPL §441-e require?",
+    "options": [
+      "Notice published in a newspaper of record for two consecutive weeks",
+      "Written notice of the charges at least 10 days before the hearing, also sent to her broker",
+      "Written notice to the salesperson only, mailed at least 30 days before the scheduled hearing date",
+      "A phone call to the salesperson at least 5 days before the hearing date"
+    ],
+    "answer": 1,
+    "explanation": "DOS must notify the licensee in writing of the charges at least 10 days before the hearing and give her an opportunity to be heard in person or by counsel. When the licensee is a salesperson, DOS must also notify her broker by certified mail.",
+    "citation": "RPL §441-e(2)"
+  },
+  {
+    "id": "license-law-b058",
+    "topic": "license-law",
+    "q": "A broker is fined and suspended by DOS after a hearing. How may he obtain court review of that determination?",
+    "options": [
+      "File a federal civil-rights suit, which is the only available route to review",
+      "Bring an Article 78 proceeding under the Civil Practice Law and Rules",
+      "Appeal directly to the State Board of Real Estate for a new hearing",
+      "Ask the local Board of Realtors to review the DOS determination"
+    ],
+    "answer": 1,
+    "explanation": "RPL §441-f makes DOS licensing and disciplinary actions reviewable through an Article 78 proceeding under the CPLR. Article 78 is how New York courts review the actions of state and local agencies.",
+    "citation": "RPL §441-f; CPLR Article 78"
+  },
+  {
+    "id": "license-law-b059",
+    "topic": "license-law",
+    "q": "A homeowner files a complaint, and DOS decides not to discipline the broker. Under RPL §441-f, can the homeowner seek court review of that decision?",
+    "options": [
+      "Yes, as a person aggrieved, through an Article 78 proceeding",
+      "No, because a refusal to discipline is final and unreviewable",
+      "Yes, but only by bringing a criminal complaint against DOS",
+      "No, because only the licensee may ever challenge a DOS decision"
+    ],
+    "answer": 0,
+    "explanation": "§441-f covers DOS's refusal to revoke, suspend, fine, or reprimand as well as its decisions to do so. Review may be sought by the applicant, the disciplined licensee, or the person aggrieved through an Article 78 proceeding.",
+    "citation": "RPL §441-f"
   }
 ]

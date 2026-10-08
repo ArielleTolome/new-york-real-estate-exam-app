@@ -306,5 +306,1237 @@
     "answer": 2,
     "explanation": "Trade fixtures installed by a commercial tenant for its business remain the tenant's personal property and may be removed by the end of the lease, with any damage repaired. Items left behind may become the landlord's property by accession.",
     "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (trade fixtures)"
+  },
+  {
+    "id": "estates-liens-a001",
+    "topic": "estates-liens",
+    "q": "What most clearly distinguishes a freehold estate from a leasehold estate?",
+    "options": [
+      "A freehold can always be passed to heirs by will",
+      "A freehold can be created only by a recorded deed",
+      "A freehold lasts for an indefinite period of time",
+      "A freehold is classified as personal property"
+    ],
+    "answer": 2,
+    "explanation": "Freehold estates (fee simple and life estates) have no fixed ending date; leaseholds run for a fixed term, a repeating period, or at will. A life estate is a freehold yet cannot be willed by the life tenant, so inheritability is not the test.",
+    "citation": "General real property law (estates in land)"
+  },
+  {
+    "id": "estates-liens-a002",
+    "topic": "estates-liens",
+    "q": "A tenant's interest under a ten-year commercial lease is traditionally classified as:",
+    "options": [
+      "A freehold estate, since the term exceeds one year",
+      "A life estate measured by the tenant's business",
+      "A fee simple determinable that ends with the lease",
+      "A leasehold estate, treated as personal property"
+    ],
+    "answer": 3,
+    "explanation": "A lease of any length creates a leasehold (nonfreehold) estate, historically called a chattel real and treated as personal property. A long term does not convert it into a freehold.",
+    "citation": "General real property law (leasehold estates)"
+  },
+  {
+    "id": "estates-liens-a003",
+    "topic": "estates-liens",
+    "q": "A buyer takes fee simple absolute title to a vacant lot. Which of the following can still limit how the buyer uses it?",
+    "options": [
+      "Nothing, since this fee carries no limits at all",
+      "Local zoning and recorded deed restrictions",
+      "Only restrictions the buyer personally signed",
+      "Only the seller's retained right of re-entry"
+    ],
+    "answer": 1,
+    "explanation": "Fee simple absolute is the broadest estate, but it remains subject to government powers such as zoning and to private restrictions of record. A seller retains no right of re-entry in an absolute fee; that belongs to a fee on condition subsequent.",
+    "citation": "General real property law (fee simple absolute)"
+  },
+  {
+    "id": "estates-liens-a004",
+    "topic": "estates-liens",
+    "q": "Which deed wording most clearly creates a fee simple determinable?",
+    "options": [
+      "\"to the church, but if services stop, grantor may re-enter\"",
+      "\"to the church and its successors and assigns forever\"",
+      "\"to the church for the life of its current pastor\"",
+      "\"to the church for as long as services are held there\""
+    ],
+    "answer": 3,
+    "explanation": "Durational words such as \"so long as,\" \"while,\" or \"until\" mark a determinable fee. \"But if ... may re-enter\" is the language of a fee on condition subsequent, \"forever\" gives a fee simple absolute, and \"for the life of\" creates a life estate.",
+    "citation": "General real property law (defeasible fees)"
+  },
+  {
+    "id": "estates-liens-a005",
+    "topic": "estates-liens",
+    "q": "The grantor's future interest after a fee simple determinable is called a ____, while the grantor's interest after a fee simple on condition subsequent is a ____.",
+    "options": [
+      "right of re-entry; possibility of reverter",
+      "remainder; reversion",
+      "reversion; remainder",
+      "possibility of reverter; right of re-entry"
+    ],
+    "answer": 3,
+    "explanation": "A determinable fee is followed by a possibility of reverter, so title returns automatically. A fee on condition subsequent is followed by a right of re-entry (power of termination), which the grantor must exercise. Remainder and reversion follow life estates.",
+    "citation": "General real property law (future interests)"
+  },
+  {
+    "id": "estates-liens-a006",
+    "topic": "estates-liens",
+    "q": "An owner deeds a house \"to my sister for life\" and the deed says nothing more. When the sister dies, who owns the house?",
+    "options": [
+      "The owner or the owner's heirs, by reversion",
+      "The sister's heirs, as remaindermen",
+      "The State of New York, by escheat",
+      "The sister's executor, by survivorship"
+    ],
+    "answer": 0,
+    "explanation": "When no remainderman is named, the future interest stays with the grantor as a reversion and returns to the grantor or the grantor's heirs. The sister held only a life estate, so she had nothing to pass to her heirs.",
+    "citation": "General real property law (life estates)"
+  },
+  {
+    "id": "estates-liens-a007",
+    "topic": "estates-liens",
+    "q": "Grace holds a life estate measured by her own life and sells it to Hal. Grace later dies while Hal is still alive. What happens to Hal's interest?",
+    "options": [
+      "It continues for the rest of Hal's life",
+      "Hal now owns fee simple since he paid value",
+      "It passes to Hal's heirs when Hal dies",
+      "It ends, and the remainderman or reversioner takes"
+    ],
+    "answer": 3,
+    "explanation": "A life tenant can transfer only what she holds. Hal bought an estate measured by Grace's life (pur autre vie), so it ends at Grace's death. The trap is assuming the buyer's own life becomes the measuring life.",
+    "citation": "General real property law (life estates)"
+  },
+  {
+    "id": "estates-liens-a008",
+    "topic": "estates-liens",
+    "q": "Without the remainderman's consent, a life tenant tears down a sound barn and clear-cuts the woodlot for timber. The remainderman's best claim is for:",
+    "options": [
+      "Partition",
+      "Adverse possession",
+      "Waste",
+      "Breach of seisin"
+    ],
+    "answer": 2,
+    "explanation": "A life tenant must not damage or deplete the property in a way that harms the future interest; destroying a sound building and stripping timber is waste. Partition divides co-owned property and does not apply between a life tenant and a remainderman.",
+    "citation": "General real property law (waste); RPAPL Article 8 (actions for waste)"
+  },
+  {
+    "id": "estates-liens-a009",
+    "topic": "estates-liens",
+    "q": "A life tenant lets the roof leak for years and makes no ordinary repairs, and the framing rots. This is best described as:",
+    "options": [
+      "Permissive waste",
+      "Voluntary waste",
+      "Constructive eviction",
+      "Functional obsolescence"
+    ],
+    "answer": 0,
+    "explanation": "Waste by neglect, such as failing to make ordinary repairs, is permissive waste. Voluntary (affirmative) waste is a deliberate harmful act, like demolishing a building.",
+    "citation": "General real property law (waste)"
+  },
+  {
+    "id": "estates-liens-a010",
+    "topic": "estates-liens",
+    "q": "Absent any restriction in the granting deed, which action may a life tenant take without the remainderman's consent?",
+    "options": [
+      "Sell the property in fee simple to a buyer",
+      "Lease the property for the duration of the life estate",
+      "Demolish the house to build a larger one",
+      "Leave the property to a friend by will"
+    ],
+    "answer": 1,
+    "explanation": "A life tenant may possess, lease, mortgage, or sell the life estate itself, but any lease ends when the measuring life ends. She cannot convey a fee she does not own, commit waste, or will away an interest that ends at death.",
+    "citation": "General real property law (life estates)"
+  },
+  {
+    "id": "estates-liens-a011",
+    "topic": "estates-liens",
+    "q": "While a life estate is in effect, who is ordinarily responsible for paying the real property taxes?",
+    "options": [
+      "The life tenant",
+      "The remainderman",
+      "The original grantor",
+      "Both, in equal shares"
+    ],
+    "answer": 0,
+    "explanation": "The life tenant has possession and the income from the property, so ordinary carrying costs such as property taxes and routine repairs fall on the life tenant. The remainderman has no current possession.",
+    "citation": "General real property law (life tenant duties)"
+  },
+  {
+    "id": "estates-liens-a012",
+    "topic": "estates-liens",
+    "q": "An owner deeds a cottage \"to Ira for as long as Ira's mother lives.\" Ira holds:",
+    "options": [
+      "A life estate measured by Ira's life",
+      "An estate for years",
+      "A fee simple determinable",
+      "A life estate pur autre vie"
+    ],
+    "answer": 3,
+    "explanation": "An estate measured by the life of someone other than the holder (here, Ira's mother) is a life estate pur autre vie. \"For as long as\" sounds determinable, but an estate that must end at a person's death is a life estate, not a fee.",
+    "citation": "General real property law (life estates)"
+  },
+  {
+    "id": "estates-liens-a013",
+    "topic": "estates-liens",
+    "q": "While a life estate is in effect, the remainderman:",
+    "options": [
+      "May share occupancy with the life tenant",
+      "Owns a future interest that may be sold now",
+      "Has no property interest of any kind yet",
+      "Must pay the property taxes each year"
+    ],
+    "answer": 1,
+    "explanation": "A remainderman has a present ownership of a future interest, which can be sold or mortgaged, but no right to possession until the life estate ends. Possession and ordinary carrying costs belong to the life tenant.",
+    "citation": "General real property law (future interests)"
+  },
+  {
+    "id": "estates-liens-a014",
+    "topic": "estates-liens",
+    "q": "A widow asks whether she has a dower right in a house her late husband owned in his own name in New York. The correct response is that:",
+    "options": [
+      "Dower gives her a life estate in one-third",
+      "Dower is abolished; she may have a right of election",
+      "Dower applies only to the marital residence",
+      "Dower applies if she claims it within six months"
+    ],
+    "answer": 1,
+    "explanation": "New York abolished dower and curtesy. A surviving spouse is protected instead by the statutory right of election against the deceased spouse's will. The one-third life estate describes historic common-law dower.",
+    "citation": "RPL §190 (dower abolished); EPTL §5-1.1-A (right of election)"
+  },
+  {
+    "id": "estates-liens-a015",
+    "topic": "estates-liens",
+    "q": "Which of the following is NOT available to a married couple or a surviving spouse in New York today?",
+    "options": [
+      "Curtesy",
+      "Tenancy by the entirety",
+      "Right of election",
+      "Joint tenancy"
+    ],
+    "answer": 0,
+    "explanation": "Curtesy, the historic life estate of a husband in his deceased wife's land, has been abolished in New York along with dower. Married couples may hold title as tenants by the entirety or joint tenants, and a surviving spouse has a right of election.",
+    "citation": "RPL §189 (curtesy abolished); RPL §190; EPTL §6-2.2; EPTL §5-1.1-A"
+  },
+  {
+    "id": "estates-liens-a016",
+    "topic": "estates-liens",
+    "q": "New York's homestead exemption primarily:",
+    "options": [
+      "Gives a surviving spouse a life estate in the home",
+      "Lowers school taxes on owner-occupied homes",
+      "Bars any foreclosure of a primary residence",
+      "Shields some home equity from judgment creditors"
+    ],
+    "answer": 3,
+    "explanation": "The homestead exemption protects a limited amount of equity in a principal residence from being taken to satisfy money judgments. It is not a surviving-spouse life estate (New York does not recognize one) and is not the STAR school tax program.",
+    "citation": "CPLR §5206 (homestead exemption)"
+  },
+  {
+    "id": "estates-liens-a017",
+    "topic": "estates-liens",
+    "q": "A homeowner defaults on a mortgage he signed when buying his primary residence. Does the homestead exemption prevent the lender's foreclosure?",
+    "options": [
+      "Yes; a primary residence can never be foreclosed",
+      "No; it does not defeat a mortgage he gave voluntarily",
+      "Yes, if he has lived there for at least ten years",
+      "No, because it covers only vacant investment land"
+    ],
+    "answer": 1,
+    "explanation": "The exemption limits what unsecured money-judgment creditors can reach; it does not cancel a lien the owner voluntarily granted as security for the purchase loan. It applies to a principal residence, not vacant land.",
+    "citation": "CPLR §5206"
+  },
+  {
+    "id": "estates-liens-a018",
+    "topic": "estates-liens",
+    "q": "A tenant signs a lease running from March 1 to August 31 of the same year. This lease creates:",
+    "options": [
+      "A periodic tenancy",
+      "An estate for years",
+      "A tenancy at will",
+      "A tenancy at sufferance"
+    ],
+    "answer": 1,
+    "explanation": "Any lease with a definite beginning and ending date is an estate for years, even when the term is shorter than a year. A periodic tenancy has no fixed end and renews period to period.",
+    "citation": "General real property law (leasehold estates)"
+  },
+  {
+    "id": "estates-liens-a019",
+    "topic": "estates-liens",
+    "q": "Which of the following estates ends upon the death of either the landlord or the tenant?",
+    "options": [
+      "A tenancy at will",
+      "An estate for years",
+      "A month-to-month tenancy",
+      "A fee simple absolute"
+    ],
+    "answer": 0,
+    "explanation": "A tenancy at will rests on the parties' continuing consent, so it ends when either party dies. An estate for years and a periodic tenancy survive the death of either party and bind the estate.",
+    "citation": "General real property law (tenancy at will)"
+  },
+  {
+    "id": "estates-liens-a020",
+    "topic": "estates-liens",
+    "q": "What separates a tenant at sufferance from a trespasser?",
+    "options": [
+      "The tenant at sufferance first entered lawfully",
+      "The tenant at sufferance has a written lease",
+      "The tenant at sufferance owes no rent at all",
+      "The tenant at sufferance has the owner's consent"
+    ],
+    "answer": 0,
+    "explanation": "A tenant at sufferance came into possession under a valid tenancy and stayed after it ended without the owner's consent. A trespasser never had a right to enter. Continuing consent would make it a tenancy at will, not sufferance.",
+    "citation": "General real property law; RPL §228"
+  },
+  {
+    "id": "estates-liens-a021",
+    "topic": "estates-liens",
+    "q": "A tenant's one-year lease expires, the tenant stays, and the landlord accepts the next monthly rent payment. Absent another agreement, New York law generally treats the tenancy as:",
+    "options": [
+      "A renewal for another full year",
+      "A tenancy at sufferance",
+      "A month-to-month tenancy",
+      "A tenancy at will with no notice"
+    ],
+    "answer": 2,
+    "explanation": "New York does not apply the common-law rule that accepting rent renews the lease for a full term; a holdover whose rent is accepted is generally a month-to-month tenant. Acceptance of rent shows consent, so it is no longer sufferance.",
+    "citation": "RPL §232-c"
+  },
+  {
+    "id": "estates-liens-a022",
+    "topic": "estates-liens",
+    "q": "An owner lets her nephew live in a spare house with no set term and no fixed rental period, until either of them decides to end it. This is:",
+    "options": [
+      "An estate for years",
+      "A tenancy at will",
+      "A tenancy at sufferance",
+      "A life estate"
+    ],
+    "answer": 1,
+    "explanation": "Possession with the owner's consent but no fixed term or period is a tenancy at will. Sufferance requires a holdover without consent, and an estate for years needs a definite term.",
+    "citation": "General real property law; RPL §228"
+  },
+  {
+    "id": "estates-liens-a023",
+    "topic": "estates-liens",
+    "q": "A deed conveys land \"to Ana and Ben,\" who are not married to each other, with no other language. Under New York law they hold title as:",
+    "options": [
+      "Joint tenants",
+      "Tenants by the entirety",
+      "Tenants in common",
+      "Owners in severalty"
+    ],
+    "answer": 2,
+    "explanation": "New York presumes a tenancy in common when real property goes to two or more persons unless the instrument expressly declares a joint tenancy. Naming two grantees alone does not create survivorship.",
+    "citation": "EPTL §6-2.2(a)"
+  },
+  {
+    "id": "estates-liens-a024",
+    "topic": "estates-liens",
+    "q": "A deed conveys a house \"to Carla and Dev,\" who are married to each other, and says nothing about the form of ownership. They hold title as:",
+    "options": [
+      "Tenants in common",
+      "Tenants by the entirety",
+      "Joint tenants",
+      "Owners in severalty"
+    ],
+    "answer": 1,
+    "explanation": "A disposition to persons married to each other creates a tenancy by the entirety unless the instrument expressly declares a tenancy in common or joint tenancy. The tenancy-in-common default applies only to unmarried co-grantees.",
+    "citation": "EPTL §6-2.2(b)"
+  },
+  {
+    "id": "estates-liens-a025",
+    "topic": "estates-liens",
+    "q": "Three unrelated friends own a cabin as joint tenants with right of survivorship. One dies, leaving a will that gives everything to her son. Who owns the cabin?",
+    "options": [
+      "The son and both friends, one-third each",
+      "The son alone, under the terms of the will",
+      "The two surviving friends, one-half each",
+      "The friends and the son as tenants in common"
+    ],
+    "answer": 2,
+    "explanation": "Survivorship operates at the moment of death, so the deceased joint tenant's interest passes to the surviving joint tenants and never enters her estate. A will cannot override it: 1 ÷ 2 survivors gives each one-half.",
+    "citation": "General real property law (joint tenancy)"
+  },
+  {
+    "id": "estates-liens-a026",
+    "topic": "estates-liens",
+    "q": "Eva, Finn, and Gia own land as joint tenants. Eva sells her interest to Hugo. Later Finn dies. Who owns the land, and how?",
+    "options": [
+      "Gia two-thirds and Hugo one-third, as tenants in common",
+      "Gia and Hugo one-half each, as joint tenants",
+      "Gia owns all of it by right of survivorship",
+      "Gia, Hugo, and Finn's heirs one-third each"
+    ],
+    "answer": 0,
+    "explanation": "Eva's sale severed her one-third, so Hugo holds 1/3 as a tenant in common; Finn and Gia stayed joint tenants as to the other 2/3. When Finn died, Gia took his share by survivorship: 1/3 + 1/3 = 2/3 for Gia, with Hugo still holding 1/3.",
+    "citation": "General real property law (severance of joint tenancy)"
+  },
+  {
+    "id": "estates-liens-a027",
+    "topic": "estates-liens",
+    "q": "The four unities traditionally required to create a joint tenancy are:",
+    "options": [
+      "Possession, interest, time, and marriage",
+      "Possession, consent, title, and recording",
+      "Possession, interest, time, and title",
+      "Interest, title, survival, and severalty"
+    ],
+    "answer": 2,
+    "explanation": "Joint tenants must take equal interests (interest), by the same deed (title), at the same time (time), with equal rights to possess the whole (possession). Marriage is the added fifth unity for a tenancy by the entirety.",
+    "citation": "General real property law (joint tenancy)"
+  },
+  {
+    "id": "estates-liens-a028",
+    "topic": "estates-liens",
+    "q": "Two investors take title to a building as tenants in common, and one paid 70% of the price. Which statement is true?",
+    "options": [
+      "The law requires them to hold equal half shares",
+      "The larger investor alone may occupy the building",
+      "Each one's share passes to the other at death",
+      "Their shares may be unequal, such as 70% and 30%"
+    ],
+    "answer": 3,
+    "explanation": "Tenants in common may hold unequal undivided shares, but each has the right to possess the whole property. Unequal shares are a key contrast with joint tenancy, and there is no survivorship among tenants in common.",
+    "citation": "General real property law (tenancy in common)"
+  },
+  {
+    "id": "estates-liens-a029",
+    "topic": "estates-liens",
+    "q": "A tenancy by the entirety requires the four unities of a joint tenancy plus:",
+    "options": [
+      "A valid marriage between the owners",
+      "A recorded survivorship affidavit",
+      "Equal financial contributions",
+      "Use as the couple's primary home"
+    ],
+    "answer": 0,
+    "explanation": "Tenancy by the entirety is available only to spouses, so marriage is the fifth unity. It does not depend on who paid what or on the property being the couple's residence.",
+    "citation": "EPTL §6-2.2(b); general real property law"
+  },
+  {
+    "id": "estates-liens-a030",
+    "topic": "estates-liens",
+    "q": "A married couple owns their home as tenants by the entirety and later divorces. Absent an agreement or court order, they then generally own it as:",
+    "options": [
+      "Joint tenants with survivorship",
+      "Tenants by the entirety until death",
+      "The higher earner, in severalty",
+      "Tenants in common"
+    ],
+    "answer": 3,
+    "explanation": "Divorce ends the marriage that a tenancy by the entirety requires, and in New York the former spouses generally become tenants in common, with no survivorship. Title does not pass automatically to either spouse alone.",
+    "citation": "Stelz v. Shreck, 128 N.Y. 263 (1891); general real property law (tenancy by the entirety)"
+  },
+  {
+    "id": "estates-liens-a031",
+    "topic": "estates-liens",
+    "q": "A wife holds her home with her husband as tenants by the entirety. She wants to sell over his objection. Which statement is correct?",
+    "options": [
+      "She may sell the whole house since she paid most of it",
+      "She cannot convey the whole or force a partition alone",
+      "She may force a partition sale as any co-owner can",
+      "She may end the survivorship by deeding to herself"
+    ],
+    "answer": 1,
+    "explanation": "A tenancy by the entirety protects each spouse's survivorship right; one spouse cannot unilaterally convey the entire property or compel partition while the marriage lasts. Who paid more does not change that.",
+    "citation": "General real property law (tenancy by the entirety)"
+  },
+  {
+    "id": "estates-liens-a032",
+    "topic": "estates-liens",
+    "q": "Two tenants in common cannot agree whether to sell their jointly owned lot. Either of them may ask a court to:",
+    "options": [
+      "Declare a reversion to the grantor",
+      "Convert it to a tenancy by the entirety",
+      "Grant one owner an easement by necessity",
+      "Order a partition by division or sale"
+    ],
+    "answer": 3,
+    "explanation": "A partition action lets a co-owner end the co-ownership: the court divides the land physically or, if that is impractical, orders a sale and divides the proceeds.",
+    "citation": "RPAPL Article 9 (partition)"
+  },
+  {
+    "id": "estates-liens-a033",
+    "topic": "estates-liens",
+    "q": "A corporation with 500 shareholders takes title to a warehouse. How is the warehouse owned?",
+    "options": [
+      "As tenants in common among the shareholders",
+      "As joint tenants among the board members",
+      "In severalty, by the corporation as one entity",
+      "In common by the officers who signed the deed"
+    ],
+    "answer": 2,
+    "explanation": "A corporation is a single legal person, so property titled in its name is owned in severalty. Shareholders own stock in the corporation, not undivided interests in its real estate.",
+    "citation": "General real property law (ownership by entities)"
+  },
+  {
+    "id": "estates-liens-a034",
+    "topic": "estates-liens",
+    "q": "Investors want to own a rental building with personal protection from the business's debts while managing it themselves. The form most often chosen is:",
+    "options": [
+      "A general partnership",
+      "A joint tenancy",
+      "A tenancy in common",
+      "A limited liability company"
+    ],
+    "answer": 3,
+    "explanation": "An LLC lets members participate in management while generally shielding their personal assets from the company's debts. General partners, joint tenants, and tenants in common have no such entity shield.",
+    "citation": "NY Limited Liability Company Law"
+  },
+  {
+    "id": "estates-liens-a035",
+    "topic": "estates-liens",
+    "q": "When real estate is placed in a trust, legal title is held by the:",
+    "options": [
+      "Beneficiary",
+      "Trustor",
+      "Trustee",
+      "Executor"
+    ],
+    "answer": 2,
+    "explanation": "The trustor (settlor) creates the trust; the trustee holds legal title and manages under the trust instrument; the beneficiary receives the benefits (equitable interest). An executor administers a decedent's estate, not a trust.",
+    "citation": "General trust law; EPTL Article 7"
+  },
+  {
+    "id": "estates-liens-a036",
+    "topic": "estates-liens",
+    "q": "Several investors join together to buy, build, and sell one specific subdivision, then disband. This arrangement is best described as:",
+    "options": [
+      "A real estate investment trust",
+      "A tenancy by the entirety",
+      "A joint venture",
+      "A housing cooperative"
+    ],
+    "answer": 2,
+    "explanation": "A joint venture combines parties for a single project of limited duration. A REIT is an ongoing investment vehicle owning many properties, and a tenancy by the entirety is available only to spouses.",
+    "citation": "General business organization law"
+  },
+  {
+    "id": "estates-liens-a037",
+    "topic": "estates-liens",
+    "q": "An owner signs a five-year lease of her building. Which right in her bundle of rights does she temporarily transfer to the tenant?",
+    "options": [
+      "Disposition",
+      "Possession",
+      "Legal title",
+      "Escheat"
+    ],
+    "answer": 1,
+    "explanation": "A lease transfers possession (and use) for the term while the owner keeps title and the right of disposition, meaning she can still sell the building subject to the lease. Escheat is a government power, not an owner's right.",
+    "citation": "General real property law (bundle of rights)"
+  },
+  {
+    "id": "estates-liens-a038",
+    "topic": "estates-liens",
+    "q": "Which of the following is NOT part of a private owner's traditional bundle of rights?",
+    "options": [
+      "Right of exclusion",
+      "Right of escheat",
+      "Right of enjoyment",
+      "Right of disposition"
+    ],
+    "answer": 1,
+    "explanation": "The bundle includes possession, control, enjoyment, exclusion, and disposition. Escheat is a government power under which property passes to the state when an owner dies with no will and no heirs.",
+    "citation": "General real property law (bundle of rights)"
+  },
+  {
+    "id": "estates-liens-a039",
+    "topic": "estates-liens",
+    "q": "A homeowner cuts down a tree in the yard and stacks the logs for firewood. The logs are now:",
+    "options": [
+      "Personal property, since they were severed",
+      "Real property, since they grew on the land",
+      "Fixtures, since they remain on the parcel",
+      "Trade fixtures belonging to the homeowner"
+    ],
+    "answer": 0,
+    "explanation": "A growing tree is part of the real property, but severance converts it into personal property (chattel). Logs merely lying on the ground are not attached, so they are not fixtures.",
+    "citation": "General real property law (real vs. personal property)"
+  },
+  {
+    "id": "estates-liens-a040",
+    "topic": "estates-liens",
+    "q": "A tenant farmer plants an annual crop, but the lease ends without the tenant's fault before harvest. The doctrine that may allow the tenant to come back and harvest is:",
+    "options": [
+      "Accretion",
+      "Severalty",
+      "Escheat",
+      "Emblements"
+    ],
+    "answer": 3,
+    "explanation": "Emblements are annual crops produced by labor; a tenant whose tenancy ends through no fault of their own before harvest may generally enter to harvest them. Accretion concerns soil deposited by water.",
+    "citation": "General real property law (emblements)"
+  },
+  {
+    "id": "estates-liens-a041",
+    "topic": "estates-liens",
+    "q": "A railroad sells a developer the right to build an office tower over its tracks while keeping the tracks in use. The developer has acquired:",
+    "options": [
+      "Air rights",
+      "Riparian rights",
+      "Subsurface rights",
+      "An easement by necessity"
+    ],
+    "answer": 0,
+    "explanation": "Air rights, the right to use the space above the surface, can be sold separately from the land. Subsurface rights concern the area below the surface, and riparian rights concern flowing water.",
+    "citation": "General real property law (air rights)"
+  },
+  {
+    "id": "estates-liens-a042",
+    "topic": "estates-liens",
+    "q": "An owner sells farmland but keeps the right to extract the natural gas beneath it. The owner has:",
+    "options": [
+      "Created a tenancy in common with the buyer",
+      "Retained the littoral rights to the land",
+      "Reserved the subsurface (mineral) rights",
+      "Kept a life estate in the surface only"
+    ],
+    "answer": 2,
+    "explanation": "Surface and subsurface rights can be separated; reserving the gas leaves the seller with mineral rights while the buyer owns the surface. Littoral rights concern land bordering lakes or seas.",
+    "citation": "General real property law (subsurface rights)"
+  },
+  {
+    "id": "estates-liens-a043",
+    "topic": "estates-liens",
+    "q": "A house sits on the shore of Lake George. The owner's rights to access and use the lake water are called:",
+    "options": [
+      "Littoral rights",
+      "Riparian rights",
+      "Percolating rights",
+      "Avulsion rights"
+    ],
+    "answer": 0,
+    "explanation": "Littoral rights belong to owners of land bordering stationary bodies of water such as lakes and seas. Riparian rights belong to owners bordering flowing water such as rivers and streams.",
+    "citation": "General real property law (water rights)"
+  },
+  {
+    "id": "estates-liens-a044",
+    "topic": "estates-liens",
+    "q": "A spring flood suddenly cuts a new channel for a stream, abruptly tearing away part of a farm. This sudden change is called:",
+    "options": [
+      "Accretion",
+      "Reliction",
+      "Avulsion",
+      "Alluvion"
+    ],
+    "answer": 2,
+    "explanation": "Avulsion is a sudden, perceptible loss or shift of land caused by water. Accretion is the gradual buildup of soil (the deposit itself is alluvion), and reliction is land exposed as water gradually recedes.",
+    "citation": "General real property law (water-related land changes)"
+  },
+  {
+    "id": "estates-liens-b001",
+    "topic": "estates-liens",
+    "q": "A village levies a charge against a home to pay for new sidewalks along its frontage. If unpaid, the resulting lien is best classified as:",
+    "options": [
+      "Voluntary and general",
+      "Involuntary and specific",
+      "Voluntary and specific",
+      "Involuntary and general"
+    ],
+    "answer": 1,
+    "explanation": "A special assessment lien arises by law without the owner's consent (involuntary) and attaches only to the benefited parcel (specific). Calling it general confuses it with a judgment or federal tax lien, which reach all of a debtor's property.",
+    "citation": "General real property law (special assessment liens)"
+  },
+  {
+    "id": "estates-liens-b002",
+    "topic": "estates-liens",
+    "q": "The IRS files a notice of federal tax lien against a taxpayer who owes unpaid income tax. How is this lien classified?",
+    "options": [
+      "Voluntary and general",
+      "Voluntary and specific",
+      "Involuntary and specific",
+      "Involuntary and general"
+    ],
+    "answer": 3,
+    "explanation": "A federal tax lien arises by operation of law (involuntary) and attaches to all of the taxpayer's property and rights to property (general). The trap is treating it like a property tax lien, which is specific to one parcel.",
+    "citation": "26 U.S.C. §6321"
+  },
+  {
+    "id": "estates-liens-b003",
+    "topic": "estates-liens",
+    "q": "Which statement correctly describes the relationship between liens and encumbrances?",
+    "options": [
+      "Every encumbrance is a lien, but only some liens are encumbrances",
+      "Liens and encumbrances are two names for the same interest",
+      "Every lien is an encumbrance, but some encumbrances are not liens",
+      "An encumbrance must be recorded, while a lien never needs recording"
+    ],
+    "answer": 2,
+    "explanation": "An encumbrance is any interest that burdens title or use; a lien is the money-claim type of encumbrance. Easements, restrictions and encroachments are encumbrances that secure no debt, so not every encumbrance is a lien.",
+    "citation": "General real property law"
+  },
+  {
+    "id": "estates-liens-b004",
+    "topic": "estates-liens",
+    "q": "A homeowner borrows against her house and signs a home equity mortgage. This lien is:",
+    "options": [
+      "Involuntary, because the bank can foreclose without her consent",
+      "General, because it reaches all property she owns",
+      "Statutory, because the Lien Law creates it on signing",
+      "Voluntary and specific, attaching only to the mortgaged parcel"
+    ],
+    "answer": 3,
+    "explanation": "The owner chooses to give the mortgage (voluntary), and it secures the debt only with the described property (specific). The foreclosure remedy does not make the lien involuntary; how a lien is created decides that label.",
+    "citation": "General real property law (mortgage liens)"
+  },
+  {
+    "id": "estates-liens-b005",
+    "topic": "estates-liens",
+    "q": "A plumber files a notice of mechanic's lien against a client's building. Under the NY Lien Law, when must the plumber serve a copy of the notice on the owner?",
+    "options": [
+      "Within 4 months after filing the notice",
+      "Within 10 days after the last day of work",
+      "At least 30 days before filing the notice",
+      "Within 5 days before or 30 days after filing"
+    ],
+    "answer": 3,
+    "explanation": "Lien Law §11 requires service on the owner within 5 days before or 30 days after the notice of lien is filed. The 4-month figure is the filing deadline for a single-family dwelling, not the service window.",
+    "citation": "NY Lien Law §11"
+  },
+  {
+    "id": "estates-liens-b006",
+    "topic": "estates-liens",
+    "q": "A contractor files a notice of lien and serves the owner properly, but never files proof of service with the county clerk. What is the result after 35 days from filing?",
+    "options": [
+      "The lien stays valid but cannot be foreclosed until proof is filed",
+      "The notice terminates as a lien",
+      "The lien converts into a general lien on the owner's property",
+      "The owner must post a bond to keep the lien from expanding"
+    ],
+    "answer": 1,
+    "explanation": "Lien Law §11 says failure to file proof of service within 35 days after the notice of lien is filed terminates the notice as a lien. Proper service alone is not enough; the filing of proof is what preserves it.",
+    "citation": "NY Lien Law §11"
+  },
+  {
+    "id": "estates-liens-b007",
+    "topic": "estates-liens",
+    "q": "A notice of mechanic's lien was filed on May 12, 2026, against an office building. If the lienor does nothing further, when does it stop being a lien?",
+    "options": [
+      "November 12, 2026, six months after filing",
+      "January 12, 2027, eight months after filing",
+      "May 12, 2027, one year after filing",
+      "May 12, 2036, ten years after filing"
+    ],
+    "answer": 2,
+    "explanation": "Lien Law §17 limits a mechanic's lien to one year after filing unless a foreclosure action with a notice of pendency is filed or the lien is extended. Ten years is the judgment-lien period, and eight months is a filing deadline, not a duration.",
+    "citation": "NY Lien Law §17"
+  },
+  {
+    "id": "estates-liens-b008",
+    "topic": "estates-liens",
+    "q": "A contractor's lien on a single-family house will expire in three weeks. The contractor is not ready to sue to foreclose. How can the lien be extended?",
+    "options": [
+      "Only by an order of a court of record",
+      "By filing an extension with the county clerk",
+      "By re-serving the owner with a new notice",
+      "By recording a second notice of lien"
+    ],
+    "answer": 0,
+    "explanation": "Lien Law §17 bars extension by simple filing for a lien on a single-family dwelling; it may only be extended by court order. For other property, filing an extension with the county clerk within the first year is allowed.",
+    "citation": "NY Lien Law §17"
+  },
+  {
+    "id": "estates-liens-b009",
+    "topic": "estates-liens",
+    "q": "A supplier holds a mechanic's lien on a 20-unit apartment building. Before the first year runs out, the supplier files an extension with the county clerk. For how long does that filed extension continue the lien?",
+    "options": [
+      "Six months from the original expiration",
+      "No more than one year from its filing",
+      "Until the building is sold or refinanced",
+      "Ten years, like a docketed judgment"
+    ],
+    "answer": 1,
+    "explanation": "Under Lien Law §17, a filed extension cannot continue the lien for more than one year from the extension's filing; after that, a foreclosure action or a court order is needed. Liens do not ride along until a sale, and the 10-year period belongs to judgments.",
+    "citation": "NY Lien Law §17"
+  },
+  {
+    "id": "estates-liens-b010",
+    "topic": "estates-liens",
+    "q": "An owner wants to sell a building that has a $23,600 mechanic's lien on it. To discharge the lien by bond under the Lien Law, the bond must be at least:",
+    "options": [
+      "$23,600",
+      "$27,140",
+      "$25,960",
+      "$35,400"
+    ],
+    "answer": 2,
+    "explanation": "Lien Law §19(4) requires a bond equal to 110% of the lien: $23,600 × 1.10 = $25,960. $23,600 omits the 10% cushion, $27,140 uses 115%, and $35,400 uses 150%.",
+    "citation": "NY Lien Law §19(4)"
+  },
+  {
+    "id": "estates-liens-b011",
+    "topic": "estates-liens",
+    "q": "An owner posts a proper bond and obtains discharge of a mechanic's lien. What is the effect?",
+    "options": [
+      "The lienor loses all right to be paid for the work",
+      "The lien is moved to the owner's other real estate",
+      "The lien stays on title until the claim is resolved",
+      "The claim shifts to the bond and the land is freed"
+    ],
+    "answer": 3,
+    "explanation": "Discharging a lien by bond releases the real property; the lienor's claim is now secured by the bond instead. The lienor does not lose its claim; it simply must pursue the bond rather than the land.",
+    "citation": "NY Lien Law §19(4)"
+  },
+  {
+    "id": "estates-liens-b012",
+    "topic": "estates-liens",
+    "q": "A contractor finishes renovating an owner-occupied two-family house on February 2. What is the deadline to file a notice of mechanic's lien?",
+    "options": [
+      "8 months after completion, since it is not a single-family dwelling",
+      "4 months after completion, since the owner lives in the house",
+      "90 days after completion, the same as any residential job",
+      "1 year after completion, the life of a mechanic's lien"
+    ],
+    "answer": 0,
+    "explanation": "Lien Law §10's shorter 4-month window applies only to a single-family dwelling; a two-family house falls under the general 8-month deadline. Owner occupancy does not trigger the 4-month rule, and one year is how long a filed lien lasts.",
+    "citation": "NY Lien Law §10"
+  },
+  {
+    "id": "estates-liens-b013",
+    "topic": "estates-liens",
+    "q": "A contractor starts work on January 5. A bank records a mortgage on the property on February 1. The unpaid contractor files a notice of lien on April 2. Under NY law, which has priority?",
+    "options": [
+      "The lien, because it relates back to the January 5 start of work",
+      "The mortgage, because it was recorded before the notice was filed",
+      "The lien, because mechanic's liens always outrank mortgages",
+      "Neither, because the two share any foreclosure proceeds equally"
+    ],
+    "answer": 1,
+    "explanation": "Lien Law §13 gives a mechanic's lien priority over interests not recorded when the notice of lien is filed; a mortgage recorded earlier stays ahead. NY measures from the filing of the notice, not the start of work, which is the relation-back trap from other states.",
+    "citation": "NY Lien Law §13"
+  },
+  {
+    "id": "estates-liens-b014",
+    "topic": "estates-liens",
+    "q": "An owner's renovation contract with a general contractor is $40,000. The job is complete and the owner has paid $34,000 in good faith. An unpaid subcontractor then files a $10,000 lien. What is the most the lien can recover against the owner's property?",
+    "options": [
+      "$10,000",
+      "$4,000",
+      "$34,000",
+      "$6,000"
+    ],
+    "answer": 3,
+    "explanation": "Under Lien Law §4, a subcontractor's lien cannot exceed the amount earned and unpaid on the owner's contract when the notice is filed: $40,000 − $34,000 = $6,000. The full $10,000 claim ignores this cap, and $4,000 wrongly subtracts $6,000 from $10,000.",
+    "citation": "NY Lien Law §4"
+  },
+  {
+    "id": "estates-liens-b015",
+    "topic": "estates-liens",
+    "q": "A home improvement contract includes a clause, signed before any work begins, in which the contractor gives up any right to file a mechanic's lien. This clause is:",
+    "options": [
+      "Void as against public policy",
+      "Enforceable if the owner paid a deposit",
+      "Valid only if it is notarized and recorded",
+      "Binding on subcontractors but not the contractor"
+    ],
+    "answer": 0,
+    "explanation": "Lien Law §34 voids any agreement waiving the right to file or enforce a mechanic's lien. The statute does allow a written waiver delivered at or after payment for the work, but an advance waiver in the contract is unenforceable.",
+    "citation": "NY Lien Law §34"
+  },
+  {
+    "id": "estates-liens-b016",
+    "topic": "estates-liens",
+    "q": "A contractor who is owed $8,000 knowingly files a notice of lien claiming $19,000. If a court finds the amount was willfully exaggerated, the likely result is that:",
+    "options": [
+      "The lien is reduced to $8,000 and stays in force",
+      "The lien remains valid until the owner posts a bond",
+      "The lien is void and the contractor may owe damages",
+      "The contractor must refile within 30 days at $8,000"
+    ],
+    "answer": 2,
+    "explanation": "Under Lien Law §§39 and 39-a, a willfully exaggerated lien is void, and the lienor can be liable for damages, including the cost of discharging it. A court does not simply trim the amount when the exaggeration was willful.",
+    "citation": "NY Lien Law §§39, 39-a"
+  },
+  {
+    "id": "estates-liens-b017",
+    "topic": "estates-liens",
+    "q": "A retail tenant hires a contractor to install new storefront lighting. The landlord did not request or consent to the work. If the tenant does not pay, the contractor's lien can attach to:",
+    "options": [
+      "The landlord's fee title to the building",
+      "The tenant's leasehold interest only",
+      "The landlord's other properties in the county",
+      "Nothing, because tenants cannot contract for work"
+    ],
+    "answer": 1,
+    "explanation": "A tenant is an \"owner\" of its leasehold under Lien Law §2, and §3 gives a lien on an owner's interest for work done with that owner's consent or at its request. Without the landlord's affirmative consent, the lien reaches only the tenant's leasehold, not the landlord's fee.",
+    "citation": "NY Lien Law §§2(3), 3"
+  },
+  {
+    "id": "estates-liens-b018",
+    "topic": "estates-liens",
+    "q": "A judgment against Ruth was docketed in Albany County in 2023. In 2025, she buys a house in Albany County. What is the status of the house?",
+    "options": [
+      "The judgment is a lien on the house",
+      "The house is exempt because it was bought later",
+      "A new lawsuit is needed to reach the house",
+      "The lien attaches only if Ruth agrees in writing"
+    ],
+    "answer": 0,
+    "explanation": "A docketed judgment is a general lien on the debtor's real property in that county, including property acquired later during the 10-year lien period. No new suit or consent is needed for the lien to attach.",
+    "citation": "CPLR §5203"
+  },
+  {
+    "id": "estates-liens-b019",
+    "topic": "estates-liens",
+    "q": "A creditor's judgment is docketed in Westchester County, but the debtor also owns a cabin in Ulster County. How can the creditor obtain a lien on the cabin?",
+    "options": [
+      "Record a lis pendens against the debtor's home",
+      "File a mechanic's lien in Ulster County",
+      "Wait; a docketed judgment reaches every county",
+      "Docket a transcript of the judgment in Ulster County"
+    ],
+    "answer": 3,
+    "explanation": "A judgment is a lien only on real property in a county where it is docketed, so the creditor must docket it with the Ulster County clerk. A judgment does not automatically reach every county, and a lis pendens does not create a money lien.",
+    "citation": "CPLR §§5018, 5203"
+  },
+  {
+    "id": "estates-liens-b020",
+    "topic": "estates-liens",
+    "q": "A notice of pendency (lis pendens) is filed against a property. Under the CPLR, how long does it remain effective?",
+    "options": [
+      "1 year, renewable by filing an extension",
+      "10 years, like a docketed money judgment",
+      "Until the property is sold to a new owner",
+      "3 years, extendable by court order for good cause"
+    ],
+    "answer": 3,
+    "explanation": "CPLR §6513 makes a notice of pendency effective for 3 years from filing, and a court may extend it for a like period on a showing of good cause. One year is the mechanic's lien period and 10 years is the judgment-lien period.",
+    "citation": "CPLR §6513"
+  },
+  {
+    "id": "estates-liens-b021",
+    "topic": "estates-liens",
+    "q": "A buyer closes on a lot one month after a neighbor filed a notice of pendency in a boundary lawsuit against the seller. The buyer never searched title. How is the buyer affected?",
+    "options": [
+      "The buyer is bound by the outcome of the lawsuit",
+      "The buyer takes free because he lacked actual notice",
+      "The suit is dismissed because the owner has changed",
+      "The seller alone bears the risk of the suit's result"
+    ],
+    "answer": 0,
+    "explanation": "A filed notice of pendency is constructive notice, so a later purchaser is bound by the judgment as if a party to the suit. Lack of actual knowledge does not protect a buyer who could have found the filing in a title search.",
+    "citation": "CPLR §6501"
+  },
+  {
+    "id": "estates-liens-b022",
+    "topic": "estates-liens",
+    "q": "Before trial, a court orders a defendant's real property held so that it will be available if the plaintiff later wins a money judgment. This is called:",
+    "options": [
+      "A writ of execution",
+      "An attachment",
+      "A lis pendens",
+      "A satisfaction"
+    ],
+    "answer": 1,
+    "explanation": "An attachment is a prejudgment remedy that seizes or holds property to secure a possible judgment. A writ of execution comes after judgment to enforce it, and a lis pendens only gives notice of a suit affecting title.",
+    "citation": "CPLR Article 62"
+  },
+  {
+    "id": "estates-liens-b023",
+    "topic": "estates-liens",
+    "q": "A notice of federal tax lien was filed against an owner in 2023. In 2026, the owner fails to pay the year's real property taxes. Which lien generally has priority against the house?",
+    "options": [
+      "The federal tax lien, because federal claims always come first",
+      "The federal tax lien, because its notice was filed earlier",
+      "Neither; they share proceeds in proportion to the amounts",
+      "The real property tax lien, despite being later in time"
+    ],
+    "answer": 3,
+    "explanation": "Federal law yields to local real property tax and special assessment liens that have priority under local law, even when the federal notice was filed first. The trap is assuming either federal status or first-in-time filing beats the property tax lien.",
+    "citation": "26 U.S.C. §6323(b)(6)"
+  },
+  {
+    "id": "estates-liens-b024",
+    "topic": "estates-liens",
+    "q": "A bank's mortgage was recorded in 2020. In 2024, the IRS files a notice of federal tax lien against the homeowner. Which interest generally has priority on the house?",
+    "options": [
+      "The bank's mortgage, recorded before the tax lien notice",
+      "The federal tax lien, because it is a government claim",
+      "The federal tax lien, because it is a general lien",
+      "Whichever creditor first starts a foreclosure action"
+    ],
+    "answer": 0,
+    "explanation": "A federal tax lien is not valid against a holder of a security interest, such as a mortgagee, until the notice of federal tax lien is filed, so the earlier mortgage stays ahead. Unlike local real property taxes, a federal tax lien gets no special priority over prior recorded mortgages.",
+    "citation": "26 U.S.C. §6323(a)"
+  },
+  {
+    "id": "estates-liens-b025",
+    "topic": "estates-liens",
+    "q": "Lot A's owner holds a recorded easement to use a driveway that crosses Lot B to reach the street. Which statement is correct?",
+    "options": [
+      "Lot B is the dominant estate",
+      "Lot A is the servient estate",
+      "Lot B is the servient estate",
+      "Neither lot is dominant or servient"
+    ],
+    "answer": 2,
+    "explanation": "The servient estate bears the burden of the easement; Lot B's land is crossed, so it is servient. Lot A benefits from the easement, which makes it the dominant estate.",
+    "citation": "General real property law (appurtenant easements)"
+  },
+  {
+    "id": "estates-liens-b026",
+    "topic": "estates-liens",
+    "q": "An owner sells the front half of her land but, in the deed to the buyer, keeps for herself the right to keep crossing the front half to reach her well. Her right was created by:",
+    "options": [
+      "Reservation in the deed",
+      "Prescription",
+      "Implication from necessity",
+      "An oral license"
+    ],
+    "answer": 0,
+    "explanation": "When a grantor conveys land but keeps an easement over it for her own use, the easement is created by reservation. Prescription requires years of adverse use, and a license is a revocable permission, not an interest in land.",
+    "citation": "General real property law (express easements)"
+  },
+  {
+    "id": "estates-liens-b027",
+    "topic": "estates-liens",
+    "q": "A single owner's two lots were served by an underground sewer line running from the rear house across the front lot, with a visible cleanout cap. He sells the front lot without mentioning the line. The rear lot most likely has:",
+    "options": [
+      "An easement in gross held by the sewer district",
+      "No right, because the deed did not mention the line",
+      "A license that the new front-lot owner may revoke",
+      "An implied easement based on the prior use"
+    ],
+    "answer": 3,
+    "explanation": "When one owner's land is divided, an apparent, continuous use that is necessary for the retained parcel's enjoyment can create an easement by implication. The deed's silence does not defeat it, and the rear lot's right is appurtenant, not in gross.",
+    "citation": "General real property law (easements by implication)"
+  },
+  {
+    "id": "estates-liens-b028",
+    "topic": "estates-liens",
+    "q": "A landlocked parcel received an easement by necessity across a neighbor's land. Years later, the county builds a public road along the parcel's back line. What is the likely effect?",
+    "options": [
+      "The easement continues permanently because it was recorded",
+      "The easement ends because the necessity has ended",
+      "The easement becomes an easement in gross for the county",
+      "The neighbor must now pay for the parcel's road frontage"
+    ],
+    "answer": 1,
+    "explanation": "An easement by necessity lasts only as long as the necessity that created it; once the parcel has its own public access, the easement ends. An express easement by grant would not end this way.",
+    "citation": "General real property law (easements by necessity)"
+  },
+  {
+    "id": "estates-liens-b029",
+    "topic": "estates-liens",
+    "q": "The owner of a dominant parcel buys the servient parcel that his driveway easement crosses. What happens to the easement?",
+    "options": [
+      "It is extinguished by merger",
+      "It becomes a license he may revoke",
+      "It continues as a separate right",
+      "It converts to an easement in gross"
+    ],
+    "answer": 0,
+    "explanation": "An easement is a right in another's land. When one person owns both the dominant and the servient parcels, the easement ends by merger, and it does not revive merely if the parcels are later separated.",
+    "citation": "General real property law (termination of easements)"
+  },
+  {
+    "id": "estates-liens-b030",
+    "topic": "estates-liens",
+    "q": "A recorded right-of-way created by deed has not been used for 15 years, but its owner has done nothing else to show an intent to give it up. Under NY law, the easement:",
+    "options": [
+      "Ended automatically after 10 years of nonuse",
+      "Became a license that either party may revoke",
+      "Is still in effect, because nonuse alone does not end it",
+      "Passed by prescription to the servient owner"
+    ],
+    "answer": 2,
+    "explanation": "An easement created by grant is not lost by nonuse alone; abandonment requires an intent to abandon shown by clear acts. The 10-year figure is the adverse possession period, which requires adverse acts by the servient owner, not just nonuse.",
+    "citation": "General real property law (abandonment of easements)"
+  },
+  {
+    "id": "estates-liens-b031",
+    "topic": "estates-liens",
+    "q": "A dominant owner no longer needs a utility path across a neighbor's yard and wants to end the easement permanently. The cleanest way is to:",
+    "options": [
+      "Stop using the path for one full year",
+      "Give the neighbor a written release and record it",
+      "Tell the neighbor orally that the path is no longer needed",
+      "Let the neighbor build a fence across the path"
+    ],
+    "answer": 1,
+    "explanation": "A written release from the dominant owner to the servient owner, recorded, terminates the easement and clears the record. Oral statements and brief nonuse do not reliably end a recorded easement.",
+    "citation": "General real property law (termination of easements)"
+  },
+  {
+    "id": "estates-liens-b032",
+    "topic": "estates-liens",
+    "q": "What is the key difference between an easement by prescription and title by adverse possession?",
+    "options": [
+      "Prescription requires 20 years, adverse possession 10",
+      "Adverse possession needs no hostile use; prescription does",
+      "Prescription gives title, adverse possession only use",
+      "Prescription gives a right to use; adverse possession gives title"
+    ],
+    "answer": 3,
+    "explanation": "Both require open, notorious, continuous and hostile use for the 10-year statutory period in NY, but prescription yields only an easement, while adverse possession transfers ownership.",
+    "citation": "RPAPL §501; CPLR §212"
+  },
+  {
+    "id": "estates-liens-b033",
+    "topic": "estates-liens",
+    "q": "For 12 years a neighbor has walked across Dan's yard to reach a lake. When the use began, the neighbor asked Dan, who said, \"Sure, go ahead.\" Does the neighbor have a prescriptive easement?",
+    "options": [
+      "No, because the use was permissive rather than hostile",
+      "Yes, because the use lasted more than 10 years",
+      "Yes, because Dan never revoked the permission",
+      "No, because a path to a lake cannot be an easement"
+    ],
+    "answer": 0,
+    "explanation": "Prescription requires hostile use, meaning use without the owner's permission. Use that began with permission is a license, and the passage of time alone does not convert it into an easement.",
+    "citation": "General real property law (prescriptive easements)"
+  },
+  {
+    "id": "estates-liens-b034",
+    "topic": "estates-liens",
+    "q": "A homeowner lets her neighbor park a boat in her side yard, with no written agreement. She then sells the house. What is the neighbor's right to keep parking there?",
+    "options": [
+      "It continues because it is an easement appurtenant",
+      "It continues for 10 years from when it began",
+      "It ends, because the license does not bind the buyer",
+      "It ends only after the buyer gives 30 days' notice"
+    ],
+    "answer": 2,
+    "explanation": "Informal permission to use land is a license: a personal, generally revocable privilege, not an interest in land. A license ends when the licensor sells the property or revokes it, so the buyer is not bound.",
+    "citation": "General real property law (licenses)"
+  },
+  {
+    "id": "estates-liens-b035",
+    "topic": "estates-liens",
+    "q": "A landowner grants a gravel company the right to enter her land and remove sand and gravel. This right is best described as:",
+    "options": [
+      "A license",
+      "An easement appurtenant",
+      "A profit (profit à prendre)",
+      "An encroachment"
+    ],
+    "answer": 2,
+    "explanation": "A profit is the right to enter another's land and take something from it, such as gravel, timber or minerals. A plain easement allows use but not removal of resources, and a license is a revocable permission rather than an interest in land.",
+    "citation": "General real property law (profits)"
+  },
+  {
+    "id": "estates-liens-b036",
+    "topic": "estates-liens",
+    "q": "A subdivision's recorded declaration bars detached garages. A new owner starts building one. A neighbor who owns a lot bound by the same declaration most likely may:",
+    "options": [
+      "Do nothing, since only the town enforces such limits",
+      "Ask the building inspector to revoke the owner's deed",
+      "Seek a court injunction to stop the construction",
+      "Reclaim the lot under a possibility of reverter"
+    ],
+    "answer": 2,
+    "explanation": "Restrictive covenants under a common subdivision plan run with the land and may be enforced by other benefited lot owners, usually by injunction. Private deed restrictions are separate from zoning, and a covenant breach does not cause a reversion of title.",
+    "citation": "General real property law (restrictive covenants)"
+  },
+  {
+    "id": "estates-liens-b037",
+    "topic": "estates-liens",
+    "q": "A 1940s deed in a buyer's chain of title contains a covenant barring sale to members of a certain race. Today this covenant is:",
+    "options": [
+      "Enforceable only against buyers who knew of it",
+      "Unenforceable under fair housing law",
+      "Binding until removed by a vote of neighbors",
+      "Valid if no one has challenged it in 50 years"
+    ],
+    "answer": 1,
+    "explanation": "Racially restrictive covenants cannot be enforced by courts and violate federal and state fair housing laws. They remain void regardless of buyer knowledge, neighbor votes, or how long they sat unchallenged.",
+    "citation": "Shelley v. Kraemer (1948); Fair Housing Act, 42 U.S.C. §3604"
+  },
+  {
+    "id": "estates-liens-b038",
+    "topic": "estates-liens",
+    "q": "A neighbor's hedge has grown two feet over the property line for 14 years. The neighbor now claims the strip by adverse possession. Under NY law, the hedge encroachment is:",
+    "options": [
+      "Enough for title, since 10 years have passed",
+      "Enough only if the neighbor also paid the taxes",
+      "Deemed permissive and not adverse",
+      "Converted into an easement by prescription"
+    ],
+    "answer": 2,
+    "explanation": "RPAPL §543 deems de minimis non-structural encroachments, such as fences, hedges, plantings and sheds, permissive and non-adverse. Without hostility, the 10-year period does not ripen into title or a prescriptive easement.",
+    "citation": "RPAPL §543"
+  },
+  {
+    "id": "estates-liens-b039",
+    "topic": "estates-liens",
+    "q": "Custom-cut storm windows made for a house are stored in the basement when the sale closes. The contract is silent. How are they most likely treated?",
+    "options": [
+      "As the seller's personal property because they are unattached",
+      "As fixtures that convey, since they were adapted to the house",
+      "As the seller's property unless the buyer pays separately",
+      "As trade fixtures the seller may remove within 30 days"
+    ],
+    "answer": 1,
+    "explanation": "Under the adaptation factor, items made specifically for a particular building are generally treated as fixtures even when temporarily detached. Physical attachment is only one factor; intention shown by adaptation controls here.",
+    "citation": "General real property law (fixtures, MARIA)"
+  },
+  {
+    "id": "estates-liens-b040",
+    "topic": "estates-liens",
+    "q": "A tenant and an owner each mount an identical wall air-conditioner. Which fixture factor most explains why the tenant's unit is more likely to remain personal property?",
+    "options": [
+      "The relationship of the parties",
+      "The method of annexation",
+      "The adaptability of the item",
+      "The cost of the item"
+    ],
+    "answer": 0,
+    "explanation": "Courts presume a tenant installs items for its own use and intends to remove them, while an owner's improvements are presumed permanent. The attachment method is identical here, so the parties' relationship is the deciding factor.",
+    "citation": "General real property law (fixtures, MARIA)"
+  },
+  {
+    "id": "estates-liens-b041",
+    "topic": "estates-liens",
+    "q": "A seller's dining room chandelier is wired into the ceiling. The signed contract states, \"Seller excludes the dining room chandelier.\" At closing, the chandelier:",
+    "options": [
+      "Must stay, because it is wired in as a fixture",
+      "Belongs to the buyer unless a bill of sale is signed",
+      "Must stay unless the seller installs a substitute",
+      "May be removed by the seller under the agreement"
+    ],
+    "answer": 3,
+    "explanation": "A written agreement between the parties overrides the other fixture tests. Even a firmly attached item may be excluded, though the seller should leave the wiring safely capped.",
+    "citation": "General real property law (fixtures, MARIA)"
+  },
+  {
+    "id": "estates-liens-b042",
+    "topic": "estates-liens",
+    "q": "A bakery tenant's lease expires and the tenant moves out, leaving its bolted-down display cases and ovens. No lease clause addresses them. Who generally owns them now?",
+    "options": [
+      "The tenant, who may return to remove them at any time",
+      "The tenant, until the landlord pays their fair value",
+      "The landlord, by accession",
+      "The next tenant of the space"
+    ],
+    "answer": 2,
+    "explanation": "Trade fixtures remain the tenant's personal property only if removed by the end of the tenancy; items left behind generally become the landlord's property by accession. The tenant has no open-ended right to return for them.",
+    "citation": "General real property law (trade fixtures)"
+  },
+  {
+    "id": "estates-liens-b043",
+    "topic": "estates-liens",
+    "q": "A life tenant plants a field of corn in May and dies in July, before the harvest. Who is generally entitled to harvest the crop?",
+    "options": [
+      "The life tenant's estate",
+      "The remainderman alone",
+      "The county where the land lies",
+      "Whoever first cuts the crop"
+    ],
+    "answer": 0,
+    "explanation": "Under the doctrine of emblements, a tenant whose estate ends unexpectedly through no fault of its own, such as the end of a measuring life, may enter to harvest annual crops it planted. The remainderman takes the land but not that crop.",
+    "citation": "General real property law (emblements)"
+  },
+  {
+    "id": "estates-liens-b044",
+    "topic": "estates-liens",
+    "q": "Which is generally treated as personal property rather than part of the real estate?",
+    "options": [
+      "An apple orchard",
+      "A planted wheat crop",
+      "A stand of oak trees",
+      "Perennial shrubbery"
+    ],
+    "answer": 1,
+    "explanation": "Annual crops produced by labor (fructus industriales), such as wheat, are generally treated as personal property. Trees, orchards and perennial plantings (fructus naturales) are part of the real property.",
+    "citation": "General real property law (emblements)"
   }
 ]

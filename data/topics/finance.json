@@ -306,5 +306,1377 @@
     "answer": 1,
     "explanation": "Loan flipping is repeated refinancing that strips equity through fees without giving the borrower a real benefit. New York Banking Law § 6-l restricts flipping for high-cost home loans. Redlining is refusing credit or services in certain areas, and blockbusting and steering are fair-housing violations.",
     "citation": "NY Banking Law § 6-l"
+  },
+  {
+    "id": "finance-a001",
+    "topic": "finance",
+    "q": "Under New York's lien theory, who holds legal title to a mortgaged home while the loan is outstanding?",
+    "options": [
+      "The borrower, while the lender holds a lien as security",
+      "The lender, until the final installment is paid",
+      "A trustee, who holds title for the lender's benefit",
+      "The lender and borrower together, as tenants in common"
+    ],
+    "answer": 0,
+    "explanation": "New York is a lien-theory state: the mortgage creates a lien, and the mortgagor keeps title and possession until a foreclosure sale. A trustee holding title describes a deed of trust, which is not New York's standard home-loan instrument.",
+    "citation": "New York lien-theory rule; RPAPL Article 13"
+  },
+  {
+    "id": "finance-a002",
+    "topic": "finance",
+    "q": "A lender holds a borrower's signed promissory note, but the borrower never signed the mortgage. What does the lender have?",
+    "options": [
+      "A valid lien that can be enforced through foreclosure",
+      "No claim at all, since a note is void without a mortgage",
+      "A personal claim for the debt, but no lien on the property",
+      "Title to the property until the note is repaid"
+    ],
+    "answer": 2,
+    "explanation": "The note is the borrower's personal promise to repay; the mortgage is the separate instrument that pledges the property and creates the lien. Without the mortgage, the debt is still owed but is unsecured, so foreclosure is not available.",
+    "citation": "General law of notes and mortgages"
+  },
+  {
+    "id": "finance-a003",
+    "topic": "finance",
+    "q": "A homeowner pledges her house as security for a loan while keeping possession and use of it. This arrangement is called:",
+    "options": [
+      "Novation",
+      "Subrogation",
+      "Hypothecation",
+      "Alienation"
+    ],
+    "answer": 2,
+    "explanation": "Hypothecation means pledging property as collateral without giving up possession, which is exactly what a mortgagor does. Alienation is a transfer of ownership, the event a due-on-sale clause targets.",
+    "citation": "General mortgage law"
+  },
+  {
+    "id": "finance-a004",
+    "topic": "finance",
+    "q": "If a mortgage contained NO acceleration clause and the borrower stopped paying, the lender generally could:",
+    "options": [
+      "Demand the entire balance after one missed payment",
+      "Take title right away without going to court",
+      "Raise the interest rate on the remaining balance",
+      "Sue only for the installments already past due"
+    ],
+    "answer": 3,
+    "explanation": "Without an acceleration clause, only the installments that have actually come due are owed, so the lender could recover them one by one rather than the full balance. The acceleration clause is what lets the lender declare the whole debt due on default.",
+    "citation": "General mortgage law (acceleration clause)"
+  },
+  {
+    "id": "finance-a005",
+    "topic": "finance",
+    "q": "Under the federal Garn–St Germain Act, a lender generally may NOT enforce a due-on-sale clause on a borrower's home when title passes:",
+    "options": [
+      "To an unrelated buyer who pays full market price",
+      "To an investor under an installment land contract",
+      "To the borrower's spouse under a divorce decree",
+      "To a buyer who takes title subject to the loan"
+    ],
+    "answer": 2,
+    "explanation": "Garn–St Germain bars enforcing due-on-sale for listed family transfers on residential property, including a transfer to a spouse under a divorce decree. Ordinary sales to outsiders, including installment contracts and subject-to sales, remain enforceable transfers.",
+    "citation": "Garn–St Germain Act, 12 U.S.C. §1701j-3(d)"
+  },
+  {
+    "id": "finance-a006",
+    "topic": "finance",
+    "q": "Which mortgage clause is correctly matched with its effect?",
+    "options": [
+      "Defeasance: the lender may call the loan when title transfers",
+      "Escalation: the lender releases lots as they are sold",
+      "Alienation: the borrower may prepay without any penalty",
+      "Subordination: the lien agrees to rank behind another lien"
+    ],
+    "answer": 3,
+    "explanation": "A subordination clause lets an existing lien take a lower priority position. Calling the loan on transfer is the alienation clause, releasing lots is a partial release clause, and defeasance ends the lender's interest on payoff.",
+    "citation": "General mortgage law (mortgage clauses)"
+  },
+  {
+    "id": "finance-a007",
+    "topic": "finance",
+    "q": "A commercial mortgage note lets the borrower prepay up to 20% of the original $250,000 principal in any year without penalty and charges 2% on any amount prepaid above that. She pays off the $186,400 balance during a year with no other prepayments. What is the penalty?",
+    "options": [
+      "$3,728",
+      "$5,000",
+      "$1,000",
+      "$2,728"
+    ],
+    "answer": 3,
+    "explanation": "Penalty-free allowance = 20% x $250,000 = $50,000. Amount subject to penalty = $186,400 - $50,000 = $136,400; $136,400 x 2% = $2,728. Charging 2% on the whole $186,400 ($3,728) ignores the allowance. (On owner-occupied 1-6 family home loans, New York and federal law sharply limit prepayment penalties, which is why this note is commercial.)",
+    "citation": "Commercial note prepayment terms; compare GOL §5-501(3)(b) for owner-occupied residential loans"
+  },
+  {
+    "id": "finance-a008",
+    "topic": "finance",
+    "q": "A mortgage clause allows the lender to raise the interest rate if a stated event occurs, such as a payment default. This is a(n):",
+    "options": [
+      "Escalation clause",
+      "Acceleration clause",
+      "Alienation clause",
+      "Open-end clause"
+    ],
+    "answer": 0,
+    "explanation": "An escalation clause increases the interest rate on a stated event. An acceleration clause is the common trap: it makes the entire balance due immediately rather than changing the rate.",
+    "citation": "General mortgage law (escalation clause)"
+  },
+  {
+    "id": "finance-a009",
+    "topic": "finance",
+    "q": "A loan at 6.25% has a $240,000 balance. After a default, the escalation clause raises the rate by 2 percentage points. What is the next month's interest?",
+    "options": [
+      "$1,250",
+      "$1,650",
+      "$1,275",
+      "$400"
+    ],
+    "answer": 1,
+    "explanation": "New rate = 6.25% + 2% = 8.25%. $240,000 x 8.25% = $19,800 per year; $19,800 / 12 = $1,650. Treating the increase as 2% of the rate (6.375%) gives $1,275, and $1,250 is the old rate's interest.",
+    "citation": "General mortgage math (escalation clause)"
+  },
+  {
+    "id": "finance-a010",
+    "topic": "finance",
+    "q": "A landowner sells a tract to a developer and takes back a purchase-money mortgage. The developer's construction lender insists on first lien position. Which clause in the seller's mortgage allows this?",
+    "options": [
+      "Subordination clause",
+      "Partial release clause",
+      "Defeasance clause",
+      "Open-end clause"
+    ],
+    "answer": 0,
+    "explanation": "A subordination clause has the seller's mortgage step behind a later loan, letting the construction lender take first position. A partial release clause frees individual parcels from a lien but does not change lien priority.",
+    "citation": "General mortgage law (subordination)"
+  },
+  {
+    "id": "finance-a011",
+    "topic": "finance",
+    "q": "A recorded first mortgage is later subordinated to a newly recorded construction loan. Which statement is now true?",
+    "options": [
+      "The subordinated mortgage is satisfied and discharged",
+      "The construction loan has priority despite recording later",
+      "The two loans share equal first-lien priority",
+      "The borrower is released from the subordinated debt"
+    ],
+    "answer": 1,
+    "explanation": "Subordination changes only the order of priority: the later loan moves ahead while the subordinated mortgage remains a valid lien and debt. It is not a satisfaction and does not release the borrower.",
+    "citation": "Recording priority as modified by subordination agreement; RPL §291"
+  },
+  {
+    "id": "finance-a012",
+    "topic": "finance",
+    "q": "A $1,200,000 blanket mortgage covers 30 equal lots. The release clause frees a lot when the developer pays 115% of that lot's pro rata share of the loan. What must be paid to release one lot?",
+    "options": [
+      "$40,000",
+      "$34,000",
+      "$6,000",
+      "$46,000"
+    ],
+    "answer": 3,
+    "explanation": "Pro rata share = $1,200,000 / 30 = $40,000; release price = $40,000 x 1.15 = $46,000. Paying only $40,000 ignores the 15% premium, and $6,000 is the premium alone.",
+    "citation": "General mortgage math (partial release clause)"
+  },
+  {
+    "id": "finance-a013",
+    "topic": "finance",
+    "q": "A homeowner's mortgage lets her borrow additional funds later, up to a stated maximum, under the same recorded mortgage. This is a(n):",
+    "options": [
+      "Wraparound mortgage",
+      "Open-end mortgage",
+      "Package mortgage",
+      "Blanket mortgage"
+    ],
+    "answer": 1,
+    "explanation": "An open-end mortgage secures future advances under the original mortgage, avoiding a new mortgage for each draw. A package mortgage includes personal property, and a blanket mortgage covers several parcels.",
+    "citation": "General mortgage law (open-end mortgage)"
+  },
+  {
+    "id": "finance-a014",
+    "topic": "finance",
+    "q": "Lender A makes a mortgage loan on March 1 but records it March 20. Lender B, unaware of A's loan, lends on March 10 and records March 12. Under New York's recording act, which mortgage generally has priority?",
+    "options": [
+      "Lender B's, because it recorded first without notice",
+      "Lender A's, because its loan was made first",
+      "Neither, because the two liens share equal priority",
+      "Whichever lender starts a foreclosure action first"
+    ],
+    "answer": 0,
+    "explanation": "New York's recording act protects a later good-faith mortgagee without notice who records first, so B outranks A's unrecorded mortgage. Being first to sign or lend does not win once the other lender records first in good faith.",
+    "citation": "RPL §291 (recording act)"
+  },
+  {
+    "id": "finance-a015",
+    "topic": "finance",
+    "q": "Why does a second mortgage usually carry a higher interest rate than a first mortgage on the same home?",
+    "options": [
+      "Its claim on foreclosure proceeds is paid after the first's",
+      "Junior mortgages must by law have shorter terms",
+      "Federal law requires junior lenders to charge more",
+      "A junior mortgage cannot be enforced by foreclosure"
+    ],
+    "answer": 0,
+    "explanation": "A junior lienholder collects from sale proceeds only after senior liens are satisfied, so it bears more risk and prices for it. A junior mortgage can be foreclosed; it is just paid later in priority.",
+    "citation": "Lien priority; RPAPL §1361 (surplus distribution)"
+  },
+  {
+    "id": "finance-a016",
+    "topic": "finance",
+    "q": "A second mortgagee forecloses in New York while the first mortgage is current. The buyer at the referee's sale generally takes title:",
+    "options": [
+      "Subject to the first mortgage, which remains a lien",
+      "Free of both the first and second mortgages",
+      "Free of the first, which is paid from sale proceeds",
+      "Only after the first mortgagee consents to the sale"
+    ],
+    "answer": 0,
+    "explanation": "Foreclosure cuts off only interests junior to the foreclosing lien. A senior mortgage is unaffected, so the buyer takes subject to it.",
+    "citation": "RPAPL Article 13 (foreclosure affects junior interests)"
+  },
+  {
+    "id": "finance-a017",
+    "topic": "finance",
+    "q": "A first mortgagee forecloses and properly names the second mortgagee as a defendant. After the sale, the second mortgage is generally:",
+    "options": [
+      "Unaffected, so the auction buyer must pay it off",
+      "Converted into a first mortgage on the property",
+      "Paid in full before the first mortgagee is paid",
+      "Cut off, with a claim to any surplus in priority order"
+    ],
+    "answer": 3,
+    "explanation": "A properly joined junior lienholder's lien is extinguished by the senior foreclosure sale; its remedy is a claim against any surplus. Junior lienholders who are not joined may keep their liens, which is why they must be named.",
+    "citation": "RPAPL §1311 (necessary defendants); RPAPL §1361 (surplus)"
+  },
+  {
+    "id": "finance-a018",
+    "topic": "finance",
+    "q": "A foreclosure sale brings $380,000. Referee fees and sale costs are $12,000, the first mortgage judgment is $250,000, and a properly joined second mortgage is owed $90,000. How much surplus remains for the former owner?",
+    "options": [
+      "$28,000",
+      "$40,000",
+      "$118,000",
+      "$130,000"
+    ],
+    "answer": 0,
+    "explanation": "$380,000 - $12,000 costs - $250,000 first mortgage - $90,000 second mortgage = $28,000. Skipping the costs gives $40,000, and skipping the junior lien gives $118,000; junior lienholders are paid from surplus before the owner.",
+    "citation": "RPAPL §1354 (distribution of proceeds); RPAPL §1361"
+  },
+  {
+    "id": "finance-a019",
+    "topic": "finance",
+    "q": "A buyer takes title subject to the seller's existing mortgage. Later the loan defaults and the foreclosure sale leaves a deficiency. Who is personally liable for it?",
+    "options": [
+      "The buyer, as the current owner",
+      "The seller, who signed the note",
+      "Both of them, jointly and severally",
+      "Neither, since only the lien remains"
+    ],
+    "answer": 1,
+    "explanation": "Taking subject to a mortgage puts the property at risk but adds no personal promise, so the original borrower remains liable on the note. A buyer who formally assumes the loan, by contrast, takes on personal liability.",
+    "citation": "General mortgage law (subject-to vs. assumption)"
+  },
+  {
+    "id": "finance-a020",
+    "topic": "finance",
+    "q": "With the lender's consent, a buyer formally assumes the seller's mortgage, but the lender signs no release. If a deficiency later arises, who may be liable?",
+    "options": [
+      "Only the seller, because he signed the original note",
+      "Only the buyer, because assumption releases the seller",
+      "Neither one, because assumed loans are nonrecourse",
+      "The buyer primarily, with the seller secondarily liable"
+    ],
+    "answer": 3,
+    "explanation": "An assuming buyer becomes primarily liable, but the original borrower is not released unless the lender agrees. Believing assumption alone frees the seller is the classic trap.",
+    "citation": "General mortgage law (assumption)"
+  },
+  {
+    "id": "finance-a021",
+    "topic": "finance",
+    "q": "A seller lets a buyer assume her mortgage and wants to be completely free of the debt. She should obtain:",
+    "options": [
+      "A satisfaction of mortgage signed by the buyer",
+      "A subordination agreement from the lender",
+      "A novation or written release from the lender",
+      "A recorded lis pendens against the property"
+    ],
+    "answer": 2,
+    "explanation": "A novation substitutes the new borrower for the old one, and a release from the lender ends the seller's liability. A satisfaction is given by a lender at payoff, not by a buyer, and the loan here is not paid off.",
+    "citation": "General contract and mortgage law (novation)"
+  },
+  {
+    "id": "finance-a022",
+    "topic": "finance",
+    "q": "A buyer pays $340,000 and assumes the seller's $212,500 loan balance. The lender charges a 1% assumption fee on the assumed balance. Ignoring other costs, how much cash does the buyer need?",
+    "options": [
+      "$127,500",
+      "$130,900",
+      "$129,625",
+      "$125,375"
+    ],
+    "answer": 2,
+    "explanation": "Equity paid to seller = $340,000 - $212,500 = $127,500. Fee = 1% x $212,500 = $2,125. Cash = $127,500 + $2,125 = $129,625. Basing the fee on the price (1% x $340,000 = $3,400) gives $130,900.",
+    "citation": "General mortgage math (assumption)"
+  },
+  {
+    "id": "finance-a023",
+    "topic": "finance",
+    "q": "After a homeowner pays off her mortgage in full, New York law requires the lender to present a satisfaction for recording (or deliver it as requested) within:",
+    "options": [
+      "30 days",
+      "10 days",
+      "90 days",
+      "6 months"
+    ],
+    "answer": 0,
+    "explanation": "New York requires the mortgagee to arrange for the satisfaction to be recorded, or delivered on written request, within 30 days of payoff, with escalating statutory penalties for delay. Waiting 90 days or longer would already violate the deadline.",
+    "citation": "RPL §275; RPAPL §1921"
+  },
+  {
+    "id": "finance-a024",
+    "topic": "finance",
+    "q": "A seller paid off a mortgage years ago, but a title search shows it still open of record. Which recorded document most directly clears it?",
+    "options": [
+      "A notice of pendency",
+      "A subordination agreement",
+      "A satisfaction of mortgage",
+      "An assignment of mortgage"
+    ],
+    "answer": 2,
+    "explanation": "A recorded satisfaction (certificate of discharge) shows the lien was paid and released. An assignment would only transfer the mortgage to a new holder, leaving it open.",
+    "citation": "RPL §275; RPL §321"
+  },
+  {
+    "id": "finance-a025",
+    "topic": "finance",
+    "q": "In a New York foreclosure, the notice of pendency (lis pendens) filed with the county clerk mainly serves to:",
+    "options": [
+      "Transfer title to the lender until the auction",
+      "Create a money judgment against the borrower",
+      "Give constructive notice of the lawsuit to later buyers",
+      "Schedule the mandatory settlement conference"
+    ],
+    "answer": 2,
+    "explanation": "A notice of pendency warns anyone later dealing with the property that a suit affects it, binding later purchasers and lenders as if they were parties. It is not a judgment, a debt lien, or a title transfer.",
+    "citation": "CPLR §6501; RPAPL §1331"
+  },
+  {
+    "id": "finance-a026",
+    "topic": "finance",
+    "q": "Unless extended by court order, a notice of pendency filed in New York generally remains effective for:",
+    "options": [
+      "1 year from filing",
+      "90 days from filing",
+      "3 years from filing",
+      "10 years from filing"
+    ],
+    "answer": 2,
+    "explanation": "A notice of pendency lasts three years from filing and can be extended for good cause. It does not last indefinitely, so long-running cases must extend it.",
+    "citation": "CPLR §6513"
+  },
+  {
+    "id": "finance-a027",
+    "topic": "finance",
+    "q": "Before starting a foreclosure action on a home loan, a New York lender must send the borrower a pre-foreclosure notice at least how long before filing?",
+    "options": [
+      "30 days",
+      "90 days",
+      "60 days",
+      "120 days"
+    ],
+    "answer": 1,
+    "explanation": "RPAPL §1304 requires the notice at least 90 days before the lender commences the action. The 120-day figure is a separate federal servicing rule on delinquency before a first foreclosure filing, not the New York notice period.",
+    "citation": "RPAPL §1304"
+  },
+  {
+    "id": "finance-a028",
+    "topic": "finance",
+    "q": "Which item must the RPAPL §1304 90-day pre-foreclosure notice include?",
+    "options": [
+      "At least five housing counseling agencies serving the county",
+      "The scheduled date and place of the referee's foreclosure auction",
+      "The deficiency amount the court will award after the sale",
+      "A current appraisal of the home by a certified appraiser"
+    ],
+    "answer": 0,
+    "explanation": "RPAPL §1304 requires the notice to list at least five housing counseling agencies serving the county where the property is located, along with statutory warning language. No sale date exists yet because no action has even been filed.",
+    "citation": "RPAPL §1304"
+  },
+  {
+    "id": "finance-a029",
+    "topic": "finance",
+    "q": "A lender files a foreclosure action on a borrower's home loan without having properly mailed the 90-day pre-foreclosure notice. What is the likely result?",
+    "options": [
+      "The court simply adds 90 days to the eventual sale date",
+      "The action can be dismissed for lack of a condition precedent",
+      "The lender pays a small fine and the case continues",
+      "The mandatory settlement conference is skipped"
+    ],
+    "answer": 1,
+    "explanation": "Proper service of the RPAPL §1304 notice is a condition precedent to commencing the action, and courts dismiss cases that do not strictly comply. Lateness is not cured by adding time or paying a fee.",
+    "citation": "RPAPL §1304"
+  },
+  {
+    "id": "finance-a030",
+    "topic": "finance",
+    "q": "In a residential foreclosure of an owner-occupied home loan, the mandatory settlement conference under CPLR 3408 requires both sides to:",
+    "options": [
+      "Accept a modification written by the judge",
+      "Agree to a short sale before the case proceeds",
+      "Waive any later deficiency judgment claims",
+      "Negotiate in good faith toward a resolution"
+    ],
+    "answer": 3,
+    "explanation": "CPLR 3408 requires the parties to negotiate in good faith toward a mutually agreeable resolution, such as a modification, and lets the court sanction bad faith. The court does not impose a particular deal or force a deficiency waiver.",
+    "citation": "CPLR 3408"
+  },
+  {
+    "id": "finance-a031",
+    "topic": "finance",
+    "q": "When is the first mandatory settlement conference generally held in a New York residential foreclosure?",
+    "options": [
+      "Before the 90-day pre-foreclosure notice is sent",
+      "After the referee's sale but before deed delivery",
+      "Only if the borrower requests one in writing",
+      "Within 60 days after proof of service is filed"
+    ],
+    "answer": 3,
+    "explanation": "CPLR 3408 calls for the conference within 60 days after the plaintiff files proof of service of the summons and complaint. It happens during the lawsuit, so it cannot precede the 90-day notice or follow the sale.",
+    "citation": "CPLR 3408"
+  },
+  {
+    "id": "finance-a032",
+    "topic": "finance",
+    "q": "Along with the summons and complaint in a residential foreclosure, New York requires the borrower to receive a separate notice titled:",
+    "options": [
+      "Notice of Default and Election to Sell",
+      "Notice of Intent to Accelerate the Loan",
+      "Your Rights After the Referee's Sale",
+      "Help for Homeowners in Foreclosure"
+    ],
+    "answer": 3,
+    "explanation": "RPAPL §1303 requires the 'Help for Homeowners in Foreclosure' notice to be delivered with the summons and complaint. A notice of default and election to sell belongs to nonjudicial foreclosure states, not New York's court process.",
+    "citation": "RPAPL §1303"
+  },
+  {
+    "id": "finance-a033",
+    "topic": "finance",
+    "q": "After a judgment of foreclosure and sale in New York, who typically conducts the public auction?",
+    "options": [
+      "The lender's loan servicer",
+      "A trustee named in the mortgage",
+      "A referee appointed by the court",
+      "The borrower's listing broker"
+    ],
+    "answer": 2,
+    "explanation": "New York foreclosure is judicial: the court appoints a referee to sell the property at public auction and deliver a referee's deed. A trustee sale is the nonjudicial deed-of-trust process used in other states.",
+    "citation": "RPAPL §231 (sale at public auction); RPAPL §1351"
+  },
+  {
+    "id": "finance-a034",
+    "topic": "finance",
+    "q": "A New York borrower's equity of redemption allows her to:",
+    "options": [
+      "Buy the home back within one year after the sale",
+      "Cancel the mortgage within three days of signing",
+      "Force the lender to accept a deed in lieu instead",
+      "Pay off the debt and keep the home before the sale"
+    ],
+    "answer": 3,
+    "explanation": "The equity of redemption lets the borrower pay the full debt and costs to stop the foreclosure up until the sale. New York has no post-sale statutory redemption period, and the three-day right is the TILA rescission right on certain refinances.",
+    "citation": "RPAPL §1351 (judgment of foreclosure and sale); RPAPL Article 13"
+  },
+  {
+    "id": "finance-a035",
+    "topic": "finance",
+    "q": "Which protection does New York NOT give a borrower facing residential foreclosure?",
+    "options": [
+      "A 90-day pre-foreclosure notice before suit is filed",
+      "A statutory right to redeem after the referee's sale",
+      "A mandatory settlement conference on a home loan",
+      "Credit for fair market value in a deficiency motion"
+    ],
+    "answer": 1,
+    "explanation": "New York has no statutory redemption period after the referee's sale; the equity of redemption ends at the sale. The other three are real protections under RPAPL §1304, CPLR 3408, and RPAPL §1371.",
+    "citation": "RPAPL §§1304, 1371; CPLR 3408"
+  },
+  {
+    "id": "finance-a036",
+    "topic": "finance",
+    "q": "Before the foreclosure sale, a borrower wants to pay off the entire debt to keep her home. She owes $218,000 principal, $9,400 accrued interest, and $6,150 in allowed costs. She has missed 9 payments of $1,620. What must she pay to redeem?",
+    "options": [
+      "$227,400",
+      "$224,150",
+      "$233,550",
+      "$14,580"
+    ],
+    "answer": 2,
+    "explanation": "Redemption means paying the full debt: $218,000 + $9,400 + $6,150 = $233,550. Leaving out the costs gives $227,400, and $14,580 (9 x $1,620) is just the missed payments, not a full payoff.",
+    "citation": "New York equity of redemption; RPAPL Article 13"
+  },
+  {
+    "id": "finance-a037",
+    "topic": "finance",
+    "q": "A foreclosure judgment is $288,000, and referee fees and costs add $7,500. The home sells at auction for $245,000; the court finds fair market value is $236,000. What is the maximum deficiency judgment?",
+    "options": [
+      "$59,500",
+      "$50,500",
+      "$43,000",
+      "$52,000"
+    ],
+    "answer": 1,
+    "explanation": "The borrower is credited with the higher of the sale price or fair market value, here the $245,000 sale price. $288,000 + $7,500 - $245,000 = $50,500. Using the lower $236,000 value gives $59,500, and leaving out costs gives $43,000.",
+    "citation": "RPAPL §1371(2)"
+  },
+  {
+    "id": "finance-a038",
+    "topic": "finance",
+    "q": "In computing a New York deficiency judgment, the borrower is credited with:",
+    "options": [
+      "The higher of the auction price or fair market value",
+      "The lower of the auction price or fair market value",
+      "The auction price only, regardless of market value",
+      "The price the borrower originally paid for the home"
+    ],
+    "answer": 0,
+    "explanation": "RPAPL §1371 subtracts the higher of the sale price or the court-determined fair market value, preventing a lender from buying cheaply and suing for an inflated shortfall. Using the lower figure is the trap.",
+    "citation": "RPAPL §1371(2)"
+  },
+  {
+    "id": "finance-a039",
+    "topic": "finance",
+    "q": "A foreclosing lender wants a deficiency judgment. Under RPAPL §1371, it must move for one within:",
+    "options": [
+      "90 days after the referee's deed is delivered",
+      "30 days after the judgment of foreclosure",
+      "1 year after the auction is held",
+      "6 years after the borrower's default"
+    ],
+    "answer": 0,
+    "explanation": "The motion must be made within 90 days after the sale is completed by delivery of the referee's deed. The clock runs from deed delivery, not from the judgment or the auction gavel.",
+    "citation": "RPAPL §1371(2)"
+  },
+  {
+    "id": "finance-a040",
+    "topic": "finance",
+    "q": "The referee's deed was delivered four months ago, and the foreclosing lender never moved for a deficiency judgment. What is the borrower's remaining liability on the mortgage debt?",
+    "options": [
+      "The full shortfall, collectible within six years",
+      "None; the sale proceeds count as full satisfaction",
+      "Half the shortfall, as a statutory compromise",
+      "The shortfall minus the home's market value"
+    ],
+    "answer": 1,
+    "explanation": "If no deficiency motion is made within 90 days of deed delivery, the sale proceeds are deemed full satisfaction of the mortgage debt and no deficiency can be recovered. The lender cannot simply sue later on the note.",
+    "citation": "RPAPL §1371(3)"
+  },
+  {
+    "id": "finance-a041",
+    "topic": "finance",
+    "q": "A lender accepts a deed in lieu of foreclosure on a home that also has a recorded home equity line held by another bank. The lender generally takes title:",
+    "options": [
+      "Free of the junior lien, which ends automatically",
+      "Free of all liens, since the transfer was voluntary",
+      "With the junior lien converted to an unsecured debt",
+      "Subject to the junior lien, which is not wiped out"
+    ],
+    "answer": 3,
+    "explanation": "A deed in lieu is a voluntary conveyance, not a foreclosure, so it does not extinguish junior liens. That is why lenders often refuse a deed in lieu when other liens exist and foreclose instead.",
+    "citation": "General mortgage law (deed in lieu)"
+  },
+  {
+    "id": "finance-a042",
+    "topic": "finance",
+    "q": "In a short sale, the:",
+    "options": [
+      "Seller closes within 30 days of listing the property",
+      "Buyer assumes the seller's loan at a reduced balance",
+      "Lender accepts sale proceeds that are less than the payoff",
+      "Court sets a minimum bid for the foreclosure auction"
+    ],
+    "answer": 2,
+    "explanation": "A short sale is a sale where the lender agrees to release its lien for less than the full amount owed. It is a private sale, not a court auction, and the buyer gets new financing or pays cash rather than assuming the loan.",
+    "citation": "General mortgage law (short sale)"
+  },
+  {
+    "id": "finance-a043",
+    "topic": "finance",
+    "q": "A salesperson lists a home whose sale price will not cover the mortgage payoff. Which step is essential before the closing can occur?",
+    "options": [
+      "Filing a notice of pendency to protect the buyer",
+      "Recording a satisfaction before the contract is signed",
+      "Getting the lender's written approval of the sale terms",
+      "Getting the Department of State to approve the price"
+    ],
+    "answer": 2,
+    "explanation": "Because the proceeds will not pay off the loan, the lien can be released only if the lender approves the short sale in writing. A satisfaction comes only after the lender is paid or agrees to accept less.",
+    "citation": "General mortgage law (short sale)"
+  },
+  {
+    "id": "finance-a044",
+    "topic": "finance",
+    "q": "A short-sale seller asks her salesperson whether the leftover loan balance disappears automatically when the sale closes. The best response is:",
+    "options": [
+      "Not necessarily; review the lender's written terms with a lawyer",
+      "Yes; state law cancels any balance left after a short sale",
+      "Yes, but only if the buyer pays the full price in cash",
+      "No; the buyer becomes liable for the remaining balance"
+    ],
+    "answer": 0,
+    "explanation": "Releasing the lien does not automatically release personal liability; whether the shortfall is waived depends on the lender's written approval and law, which calls for legal advice. A salesperson should not promise forgiveness.",
+    "citation": "General mortgage law; short-sale approval terms"
+  },
+  {
+    "id": "finance-a045",
+    "topic": "finance",
+    "q": "A permanent change to a loan's original terms, such as a lower rate or a longer term, to make payments affordable is a:",
+    "options": [
+      "Forbearance plan",
+      "Deed in lieu",
+      "Short sale",
+      "Loan modification"
+    ],
+    "answer": 3,
+    "explanation": "A loan modification permanently changes the note's terms so the borrower can keep the home. Forbearance is the common trap: it only temporarily reduces or suspends payments.",
+    "citation": "General mortgage law (loss mitigation)"
+  },
+  {
+    "id": "finance-a046",
+    "topic": "finance",
+    "q": "After a job loss, a lender lets a borrower make reduced payments for six months, with the skipped amounts to be repaid later. This arrangement is:",
+    "options": [
+      "A loan modification",
+      "Forbearance",
+      "A novation",
+      "A subordination"
+    ],
+    "answer": 1,
+    "explanation": "Forbearance temporarily reduces or suspends payments, and the missed amounts are repaid afterward; the loan's terms are not permanently rewritten. A modification would permanently change the loan terms.",
+    "citation": "General mortgage law (loss mitigation)"
+  },
+  {
+    "id": "finance-a047",
+    "topic": "finance",
+    "q": "A company promises to stop a homeowner's foreclosure if she pays a $2,500 fee before it contacts her lender. Under federal rules, such an up-front fee is generally:",
+    "options": [
+      "Permitted if the fee is disclosed in writing in advance",
+      "Prohibited until she signs an agreement with her lender",
+      "Permitted if the company offers a money-back guarantee",
+      "Permitted if the fee is below the state's maximum cap"
+    ],
+    "answer": 1,
+    "explanation": "Federal Regulation O bars mortgage assistance relief providers from collecting fees until the homeowner has signed an agreement with the lender incorporating the offered relief. Disclosure or a refund promise does not make an advance fee lawful, and New York's distressed property consultant law adds its own protections.",
+    "citation": "Regulation O, 12 CFR §1015.5; RPL §265-b"
+  },
+  {
+    "id": "finance-a048",
+    "topic": "finance",
+    "q": "Which sequence correctly orders a typical New York residential foreclosure?",
+    "options": [
+      "Lawsuit filed, 90-day notice, judgment, settlement conference, referee sale",
+      "90-day notice, lawsuit filed, settlement conference, judgment, referee sale",
+      "90-day notice, lawsuit filed, judgment, referee sale, settlement conference",
+      "Lawsuit filed, settlement conference, referee sale, judgment, 90-day notice"
+    ],
+    "answer": 1,
+    "explanation": "The RPAPL §1304 notice must come at least 90 days before suit; the CPLR 3408 conference occurs early in the case; then the court enters a judgment of foreclosure and sale; the referee then auctions the property. A conference after the sale is too late to help.",
+    "citation": "RPAPL §§1304, 1351; CPLR 3408"
+  },
+  {
+    "id": "finance-a049",
+    "topic": "finance",
+    "q": "A mortgaged home in default appears vacant and abandoned before the foreclosure is finished. New York's 'zombie property' law places the duty to maintain it on:",
+    "options": [
+      "The mortgagee or its loan servicer",
+      "The town code enforcement office",
+      "The listing broker of record",
+      "The neighboring property owners"
+    ],
+    "answer": 0,
+    "explanation": "Under the 2016 zombie property law, the lender or servicer must inspect and maintain vacant, abandoned residential property while the loan is in default. The duty is the lender's, not the town's, the broker's, or the neighbors'.",
+    "citation": "RPAPL §1308"
+  },
+  {
+    "id": "finance-b001",
+    "topic": "finance",
+    "q": "Which activity takes place in the PRIMARY mortgage market?",
+    "options": [
+      "Freddie Mac buys a pool of loans from a savings bank",
+      "An investor buys mortgage-backed securities from a dealer",
+      "Ginnie Mae guarantees payments on a mortgage security",
+      "A savings bank lends money directly to a homebuyer"
+    ],
+    "answer": 3,
+    "explanation": "The primary market is where loans are originated: a lender makes the loan directly to the borrower. Buying existing loans or securities backed by them, and guaranteeing those securities, are secondary-market activities.",
+    "citation": "General mortgage market principles (primary vs. secondary market)"
+  },
+  {
+    "id": "finance-b002",
+    "topic": "finance",
+    "q": "A company takes loan applications and matches borrowers with lenders for a fee, but the loans are funded with the lenders' money, not its own. This company is acting as a:",
+    "options": [
+      "Mortgage banker",
+      "Mortgage broker",
+      "Savings association",
+      "Secondary-market purchaser"
+    ],
+    "answer": 1,
+    "explanation": "A mortgage broker arranges loans between borrowers and lenders without funding them. A mortgage banker originates and funds loans with its own (or borrowed) money, often selling them later on the secondary market.",
+    "citation": "General mortgage lending principles; NY Banking Law Art. 12-D (mortgage brokers and bankers)"
+  },
+  {
+    "id": "finance-b003",
+    "topic": "finance",
+    "q": "Fannie Mae and Freddie Mac are best described as:",
+    "options": [
+      "Congressionally chartered government-sponsored enterprises",
+      "Divisions of HUD that insure loans for low-income buyers",
+      "Federal Reserve banks that set national mortgage rates",
+      "State agencies that license New York mortgage brokers"
+    ],
+    "answer": 0,
+    "explanation": "Fannie Mae and Freddie Mac are government-sponsored enterprises chartered by Congress (and under FHFA conservatorship since 2008). The HUD-related distractor describes FHA's insurance role and Ginnie Mae's place within HUD, not Fannie or Freddie.",
+    "citation": "Federal National Mortgage Association Charter Act; Federal Home Loan Mortgage Corporation Act"
+  },
+  {
+    "id": "finance-b004",
+    "topic": "finance",
+    "q": "A conventional loan whose amount is above the limit Fannie Mae and Freddie Mac may purchase is called a:",
+    "options": [
+      "Conforming loan",
+      "Package loan",
+      "Jumbo loan",
+      "Bridge loan"
+    ],
+    "answer": 2,
+    "explanation": "A loan exceeding the conforming loan limit is a jumbo (nonconforming) loan. A conforming loan is one that meets Fannie Mae/Freddie Mac guidelines, including the loan limit.",
+    "citation": "Fannie Mae/Freddie Mac conforming loan limits set by FHFA"
+  },
+  {
+    "id": "finance-b005",
+    "topic": "finance",
+    "q": "Which statement about a conventional mortgage loan is accurate?",
+    "options": [
+      "It is not insured or guaranteed by a government agency",
+      "It must be a fixed-rate loan with a 30-year term",
+      "It always requires a down payment of at least 20%",
+      "It must be sold to Fannie Mae after closing"
+    ],
+    "answer": 0,
+    "explanation": "'Conventional' means the loan is not FHA-insured or VA-guaranteed. Conventional loans can be fixed or adjustable, can be made with less than 20% down (usually with PMI), and may be kept or sold.",
+    "citation": "General mortgage lending principles"
+  },
+  {
+    "id": "finance-b006",
+    "topic": "finance",
+    "q": "A buyer with a credit score of 640 wants the smallest down payment allowed on an FHA-insured purchase loan. What is the minimum down payment?",
+    "options": [
+      "0% of the purchase price",
+      "3.5% of the purchase price",
+      "10% of the purchase price",
+      "20% of the purchase price"
+    ],
+    "answer": 1,
+    "explanation": "FHA requires a minimum 3.5% down payment for borrowers with credit scores of 580 or higher (10% for scores of 500–579). Zero down is a VA feature, not FHA.",
+    "citation": "HUD Single Family Housing Policy Handbook 4000.1"
+  },
+  {
+    "id": "finance-b007",
+    "topic": "finance",
+    "q": "An FHA borrower pays an up-front and an annual mortgage insurance premium (MIP). Whom does the MIP primarily protect?",
+    "options": [
+      "The borrower, if she becomes disabled or unemployed",
+      "The seller, if the buyer fails to close on time",
+      "The lender, against loss if the borrower defaults",
+      "The title insurer, against defects in the title"
+    ],
+    "answer": 2,
+    "explanation": "FHA mortgage insurance protects the lender against loss on default; the borrower pays for it. It is not credit disability or unemployment coverage for the borrower.",
+    "citation": "National Housing Act (FHA mortgage insurance)"
+  },
+  {
+    "id": "finance-b008",
+    "topic": "finance",
+    "q": "A homeowner bought with an FHA loan in 2021, putting 3.5% down on a 30-year term. After extra principal payments, her balance is now 77% of the original value, yet she is still billed the annual MIP. What is the best explanation?",
+    "options": [
+      "It ends only after she pays a 1% cancellation fee",
+      "The lender failed to apply the HPA's 78% PMI rule",
+      "It can end only after a new appraisal of the home",
+      "Her annual MIP is payable for the life of the loan"
+    ],
+    "answer": 3,
+    "explanation": "For FHA loans endorsed since June 3, 2013 with less than 10% down, the annual MIP lasts for the life of the loan; refinancing out of FHA is the usual way to end it. The Homeowners Protection Act's 78% automatic termination applies to private mortgage insurance on conventional loans, not FHA MIP, and no reappraisal or fee cancels it.",
+    "citation": "Homeowners Protection Act of 1998, 12 U.S.C. §4901 et seq.; HUD Mortgagee Letter 2013-04"
+  },
+  {
+    "id": "finance-b009",
+    "topic": "finance",
+    "q": "Which document shows a lender that a veteran is eligible for a VA-guaranteed home loan and states the veteran's entitlement?",
+    "options": [
+      "Certificate of Occupancy",
+      "Certificate of Eligibility",
+      "Loan Estimate",
+      "Commitment letter"
+    ],
+    "answer": 1,
+    "explanation": "The VA's Certificate of Eligibility (COE) confirms eligibility and entitlement. A certificate of occupancy concerns a building's legal use, and a Loan Estimate is a TRID cost disclosure.",
+    "citation": "38 U.S.C. Chapter 37 (VA home loan guaranty)"
+  },
+  {
+    "id": "finance-b010",
+    "topic": "finance",
+    "q": "An eligible veteran with full entitlement buys a home for a price equal to its appraised value. What minimum down payment does the VA require?",
+    "options": [
+      "No down payment",
+      "3.5% of the purchase price",
+      "5% of the purchase price",
+      "10% of the purchase price"
+    ],
+    "answer": 0,
+    "explanation": "VA-guaranteed loans can be made with no down payment when the price does not exceed the appraised value and the veteran has full entitlement. The 3.5% figure is the FHA minimum.",
+    "citation": "38 U.S.C. Chapter 37 (VA home loan guaranty)"
+  },
+  {
+    "id": "finance-b011",
+    "topic": "finance",
+    "q": "Which VA borrower is generally exempt from paying the VA funding fee?",
+    "options": [
+      "A first-time VA borrower who makes no down payment at all",
+      "A veteran who is buying a home priced above the appraised value",
+      "A veteran receiving VA compensation for a service-connected disability",
+      "A veteran whose spouse is also a co-borrower on the loan"
+    ],
+    "answer": 2,
+    "explanation": "Veterans receiving compensation for a service-connected disability are exempt from the funding fee. A first-time zero-down VA borrower pays the fee; making no down payment actually puts the borrower in the highest fee tier.",
+    "citation": "38 U.S.C. §3729 (VA loan fee)"
+  },
+  {
+    "id": "finance-b012",
+    "topic": "finance",
+    "q": "Which feature distinguishes a VA-guaranteed loan from a typical low-down-payment conventional loan?",
+    "options": [
+      "The VA itself funds the loan from Treasury money",
+      "The interest rate is fixed by the VA for all lenders",
+      "The borrower must have owned a home in the past",
+      "No monthly mortgage insurance premium is charged"
+    ],
+    "answer": 3,
+    "explanation": "The VA guaranty substitutes for mortgage insurance, so VA loans carry no monthly mortgage insurance even with no down payment (there is a one-time funding fee instead). Private lenders make the loans; the VA does not set a single rate, and no prior homeownership is required.",
+    "citation": "38 U.S.C. Chapter 37 (VA home loan guaranty)"
+  },
+  {
+    "id": "finance-b013",
+    "topic": "finance",
+    "q": "A buyer makes a 15% down payment on a conventional loan. Which is the most likely result?",
+    "options": [
+      "The lender will require FHA mortgage insurance",
+      "The lender will require private mortgage insurance",
+      "The loan must be guaranteed by the VA instead",
+      "The buyer will be charged a VA funding fee"
+    ],
+    "answer": 1,
+    "explanation": "A 15% down payment means an 85% loan-to-value ratio. Conventional lenders typically require PMI when the LTV exceeds 80%. FHA MIP and the VA funding fee apply only to government-backed loans.",
+    "citation": "General conventional lending practice; Fannie Mae/Freddie Mac mortgage insurance requirements"
+  },
+  {
+    "id": "finance-b014",
+    "topic": "finance",
+    "q": "Under the Homeowners Protection Act, a conventional borrower with a good payment history may ask in writing to cancel PMI when the principal balance reaches what percentage of the original value?",
+    "options": [
+      "78%",
+      "75%",
+      "80%",
+      "90%"
+    ],
+    "answer": 2,
+    "explanation": "The borrower may request cancellation at 80% of original value (with a good payment history and other conditions). The 78% figure is the separate point at which PMI terminates automatically without a request.",
+    "citation": "Homeowners Protection Act of 1998, 12 U.S.C. §4902"
+  },
+  {
+    "id": "finance-b015",
+    "topic": "finance",
+    "q": "A buyer paid $400,000 for a home that appraised at $410,000 and took a conventional loan of $360,000 with PMI. Under the Homeowners Protection Act, at what principal balance may she first request that the PMI be canceled?",
+    "options": [
+      "$320,000",
+      "$328,000",
+      "$312,000",
+      "$288,000"
+    ],
+    "answer": 0,
+    "explanation": "'Original value' is the lesser of the sale price or the appraised value, so $400,000 × 80% = $320,000. Using the appraisal gives $410,000 × 80% = $328,000; $312,000 is the 78% automatic-termination point; $288,000 wrongly applies 80% to the loan amount.",
+    "citation": "Homeowners Protection Act of 1998, 12 U.S.C. §§4901–4902"
+  },
+  {
+    "id": "finance-b016",
+    "topic": "finance",
+    "q": "A borrower's 30-year conventional loan carries PMI, and her balance has not yet reached the 78% automatic-termination point. If she is current on payments, what is the latest point at which the Homeowners Protection Act requires her PMI to end?",
+    "options": [
+      "When the loan is paid off in full",
+      "After the tenth year of the loan",
+      "When the home's market value doubles",
+      "Halfway through the amortization period"
+    ],
+    "answer": 3,
+    "explanation": "The HPA's final-termination rule ends PMI at the midpoint of the amortization period (year 15 of a 30-year loan) if the borrower is current, even if the LTV thresholds were not met. Rising market value does not by itself trigger termination.",
+    "citation": "Homeowners Protection Act of 1998, 12 U.S.C. §4902(c)"
+  },
+  {
+    "id": "finance-b017",
+    "topic": "finance",
+    "q": "In an adjustable-rate mortgage, the fixed percentage the lender adds to the index to set the interest rate is the:",
+    "options": [
+      "Index",
+      "Margin",
+      "Periodic cap",
+      "Floor"
+    ],
+    "answer": 1,
+    "explanation": "Rate = index + margin. The margin stays the same for the life of the loan, while the index moves with the market; caps and floors limit how far the rate can move.",
+    "citation": "Regulation Z, 12 C.F.R. §1026.19(b) (ARM disclosures)"
+  },
+  {
+    "id": "finance-b018",
+    "topic": "finance",
+    "q": "Which characteristic should the index of an adjustable-rate mortgage have?",
+    "options": [
+      "It is a rate the lender sets based on its own costs",
+      "It is a percentage that never changes during the loan",
+      "It is a published rate that the lender does not control",
+      "It is the borrower's credit score converted to a rate"
+    ],
+    "answer": 2,
+    "explanation": "An ARM index is an independent, published market rate (for example, a Treasury yield or SOFR) outside the lender's control. A fixed percentage that never changes describes the margin, not the index.",
+    "citation": "Truth in Lending Act / Regulation Z, 12 C.F.R. §1026.19(b)"
+  },
+  {
+    "id": "finance-b019",
+    "topic": "finance",
+    "q": "An ARM began at 5.00% with caps of 2% per adjustment and 5% over the initial rate for the life of the loan. The current rate is 8.50%. At the next adjustment the index is 7.75% and the margin is 2.75%. What is the new rate?",
+    "options": [
+      "10.00%",
+      "10.50%",
+      "8.50%",
+      "7.75%"
+    ],
+    "answer": 0,
+    "explanation": "Index + margin = 7.75% + 2.75% = 10.50%, and the periodic cap allows 8.50% + 2% = 10.50%, but the lifetime cap is 5.00% + 5% = 10.00%. The lowest limit controls, so the rate is 10.00%. Choosing 10.50% ignores the lifetime cap.",
+    "citation": "ARM rate adjustment principles (index + margin, subject to caps)"
+  },
+  {
+    "id": "finance-b020",
+    "topic": "finance",
+    "q": "An adjustable-rate loan has a payment cap but no interest rate cap. Rates rise sharply, and the capped payment no longer covers the interest due. What happens?",
+    "options": [
+      "The lender must absorb the unpaid interest permanently",
+      "The loan converts automatically to a fixed-rate loan",
+      "The borrower receives a refund of the excess interest",
+      "The unpaid interest is added to the principal balance"
+    ],
+    "answer": 3,
+    "explanation": "When a payment cap holds the payment below the interest due, the shortfall is added to the balance, which is negative amortization. The loan balance grows even though the borrower pays on time.",
+    "citation": "General ARM principles; Regulation Z, 12 C.F.R. §1026.19(b)"
+  },
+  {
+    "id": "finance-b021",
+    "topic": "finance",
+    "q": "An ARM is offered at a discounted initial rate of 3.99%. The current index is 4.10% and the margin is 2.50%. What is the fully indexed rate?",
+    "options": [
+      "6.49%",
+      "4.10%",
+      "6.60%",
+      "3.99%"
+    ],
+    "answer": 2,
+    "explanation": "Fully indexed rate = index + margin = 4.10% + 2.50% = 6.60%. Adding the margin to the teaser rate (3.99% + 2.50% = 6.49%) is the common mistake; the teaser rate is not part of the formula.",
+    "citation": "ARM rate principles (index + margin)"
+  },
+  {
+    "id": "finance-b022",
+    "topic": "finance",
+    "q": "A borrower chooses a 5/1 hybrid adjustable-rate mortgage. How does the interest rate behave?",
+    "options": [
+      "Adjusting every 5 years for the life of the loan",
+      "Fixed for the first 5 years, then adjusting once a year",
+      "Fixed for 5 years, then due in full as a balloon",
+      "Adjusting once a year, capped at 5% per change"
+    ],
+    "answer": 1,
+    "explanation": "In a 5/1 ARM, the first number is the initial fixed period (5 years) and the second is the adjustment frequency afterward (every 1 year). It is not a balloon loan, and the numbers do not describe caps.",
+    "citation": "General ARM principles"
+  },
+  {
+    "id": "finance-b023",
+    "topic": "finance",
+    "q": "An investor takes a $250,000 interest-only loan at 6.6% annual interest with the full principal due at the end of 5 years. What is the monthly payment?",
+    "options": [
+      "$16,500.00",
+      "$4,166.67",
+      "$5,541.67",
+      "$1,375.00"
+    ],
+    "answer": 3,
+    "explanation": "$250,000 × 6.6% = $16,500 per year; $16,500 ÷ 12 = $1,375.00 per month. $16,500 is the annual figure; $4,166.67 divides the principal by 60 months; $5,541.67 adds that principal to the interest, which an interest-only loan does not do.",
+    "citation": "Interest calculation (principal × rate ÷ 12)"
+  },
+  {
+    "id": "finance-b024",
+    "topic": "finance",
+    "q": "A buyer's payments are calculated as if the loan would be repaid over 30 years, but the entire remaining balance comes due at the end of year 7. This is a:",
+    "options": [
+      "Balloon mortgage",
+      "Fully amortizing mortgage",
+      "Reverse mortgage",
+      "Growing-equity mortgage"
+    ],
+    "answer": 0,
+    "explanation": "Payments that do not fully repay the loan by the due date leave a large final balloon payment. A fully amortizing loan's regular payments retire the entire debt by the end of the term.",
+    "citation": "General mortgage principles (amortization)"
+  },
+  {
+    "id": "finance-b025",
+    "topic": "finance",
+    "q": "Which statement about an FHA-insured Home Equity Conversion Mortgage (HECM) is accurate?",
+    "options": [
+      "The borrower must be at least 62 and keep paying taxes and insurance",
+      "The borrower must make monthly principal and interest payments",
+      "The loan comes due as soon as the borrower turns 85 years old",
+      "The lender takes title to the home on the day the loan closes"
+    ],
+    "answer": 0,
+    "explanation": "HECM borrowers must be at least 62, require no monthly loan payments, and keep title, but must still pay property taxes, homeowners insurance, and upkeep. The loan generally comes due when the last borrower dies, sells, or permanently moves out, not at a set age.",
+    "citation": "12 U.S.C. §1715z-20 (FHA HECM program)"
+  },
+  {
+    "id": "finance-b026",
+    "topic": "finance",
+    "q": "A builder's construction loan is paid off when the house is finished by a long-term permanent loan. That permanent loan is often called a:",
+    "options": [
+      "Bridge loan",
+      "Takeout loan",
+      "Blanket loan",
+      "Wraparound loan"
+    ],
+    "answer": 1,
+    "explanation": "The permanent (takeout) loan replaces the short-term construction loan when work is complete. A bridge loan instead covers a gap between buying one property and selling another.",
+    "citation": "General construction financing principles"
+  },
+  {
+    "id": "finance-b027",
+    "topic": "finance",
+    "q": "A builder has a $300,000 construction loan at 9% annual interest, interest-only on funds advanced. So far $120,000 has been paid out in draws. What is this month's interest payment?",
+    "options": [
+      "$2,250",
+      "$10,800",
+      "$900",
+      "$1,350"
+    ],
+    "answer": 2,
+    "explanation": "Interest is charged only on money disbursed: $120,000 × 9% = $10,800 per year; $10,800 ÷ 12 = $900 per month. $2,250 charges interest on the full $300,000; $1,350 uses the $180,000 not yet drawn.",
+    "citation": "Construction loan draw principles; interest calculation"
+  },
+  {
+    "id": "finance-b028",
+    "topic": "finance",
+    "q": "A couple has signed a contract to buy a new home, but their current home has not sold yet. They need short-term funds for the new down payment, secured by their existing home. Which loan fits?",
+    "options": [
+      "Blanket loan",
+      "Package loan",
+      "Takeout loan",
+      "Bridge loan"
+    ],
+    "answer": 3,
+    "explanation": "A bridge (swing) loan provides short-term funds secured by the current property until it sells. A blanket loan covers several parcels under one mortgage, and a package loan includes personal property.",
+    "citation": "General mortgage principles (bridge/swing loans)"
+  },
+  {
+    "id": "finance-b029",
+    "topic": "finance",
+    "q": "A buyer of a furnished condominium finances the unit together with the furniture and appliances under one mortgage. This is a:",
+    "options": [
+      "Blanket mortgage",
+      "Wraparound mortgage",
+      "Package mortgage",
+      "Open-end mortgage"
+    ],
+    "answer": 2,
+    "explanation": "A package mortgage covers both the real property and personal property such as furniture and appliances. A blanket mortgage covers multiple parcels of real property.",
+    "citation": "General mortgage principles (package mortgage)"
+  },
+  {
+    "id": "finance-b030",
+    "topic": "finance",
+    "q": "Before a seller agrees to give a buyer a wraparound mortgage, which provision in the seller's existing mortgage is most important to check?",
+    "options": [
+      "Whether it contains a defeasance clause",
+      "Whether its interest rate is fixed or adjustable",
+      "Whether it was recorded in the county clerk's office",
+      "Whether it contains a due-on-sale (alienation) clause"
+    ],
+    "answer": 3,
+    "explanation": "A wraparound leaves the original loan in place. If that loan has a due-on-sale clause, the transfer can let the original lender accelerate the entire balance. A defeasance clause only governs release of the lien on payoff.",
+    "citation": "General mortgage principles (wraparound financing, alienation clause)"
+  },
+  {
+    "id": "finance-b031",
+    "topic": "finance",
+    "q": "A buyer purchased a $525,000 home with a $420,000 loan and paid $6,300 in discount points. How many points did she pay?",
+    "options": [
+      "1.2",
+      "1.5",
+      "0.15",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "Points are a percentage of the loan amount: $6,300 ÷ $420,000 = 0.015 = 1.5 points. Dividing by the price ($6,300 ÷ $525,000 = 1.2) is the common mistake; 0.15 and 15 misplace the decimal.",
+    "citation": "Discount point calculation (1 point = 1% of the loan amount)"
+  },
+  {
+    "id": "finance-b032",
+    "topic": "finance",
+    "q": "A Loan Estimate shows a note rate of 6.25% and an APR of 6.48%. Why is the APR higher?",
+    "options": [
+      "It also reflects points and other finance charges over the loan term",
+      "It adds the property taxes and homeowners insurance to the rate",
+      "It is the highest rate the loan could ever reach after adjustments",
+      "It includes the buyer's down payment as part of the cost of credit"
+    ],
+    "answer": 0,
+    "explanation": "The APR expresses the total cost of credit as a yearly rate, so prepaid finance charges such as points and origination fees raise it above the note rate. Taxes, insurance escrows, and the down payment are not finance charges.",
+    "citation": "Truth in Lending Act; Regulation Z, 12 C.F.R. §§1026.4, 1026.22"
+  },
+  {
+    "id": "finance-b033",
+    "topic": "finance",
+    "q": "For a loan secured by real estate, which charge is excluded from the finance charge used to calculate the APR?",
+    "options": [
+      "Discount points paid to the lender",
+      "A bona fide, reasonable appraisal fee",
+      "A loan origination fee",
+      "A mortgage broker's fee"
+    ],
+    "answer": 1,
+    "explanation": "Regulation Z excludes bona fide and reasonable real-estate-related fees such as appraisal, title examination, and credit report fees from the finance charge. Points, origination fees, and mortgage broker fees are finance charges.",
+    "citation": "Regulation Z, 12 C.F.R. §1026.4(a), (c)(7)"
+  },
+  {
+    "id": "finance-b034",
+    "topic": "finance",
+    "q": "A home-loan ad states 'Monthly payments of only $1,890.' Under Regulation Z, which disclosures must the ad now include?",
+    "options": [
+      "The lender's NMLS number, the APR, and closing costs",
+      "The property taxes, the insurance, and the HOA dues",
+      "The prepayment penalty, the late fee, and the APR",
+      "The down payment, the repayment terms, and the APR"
+    ],
+    "answer": 3,
+    "explanation": "A payment amount is a triggering term. Once a trigger appears, the ad must also state the down payment amount or percentage, the terms of repayment, and the APR (and whether the rate may increase).",
+    "citation": "Regulation Z, 12 C.F.R. §1026.24(d)"
+  },
+  {
+    "id": "finance-b035",
+    "topic": "finance",
+    "q": "Which statement may appear in a mortgage advertisement by itself WITHOUT triggering additional Regulation Z disclosures?",
+    "options": [
+      "Repay over 360 monthly payments",
+      "Only $2,000 down to move in",
+      "Rates as low as 6.75% APR",
+      "Finance charges under $1,000"
+    ],
+    "answer": 2,
+    "explanation": "Stating the APR alone does not trigger further disclosures; a rate must be stated as an APR. The number of payments, the down payment amount, and the finance charge amount are all triggering terms.",
+    "citation": "Regulation Z, 12 C.F.R. §1026.24(c)–(d)"
+  },
+  {
+    "id": "finance-b036",
+    "topic": "finance",
+    "q": "A homeowner refinances the mortgage on her principal residence with a new lender. She signs on a Thursday and receives all required disclosures and rescission notices that day. With no federal holiday that week, her right to rescind runs until midnight of which day?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "answer": 0,
+    "explanation": "For rescission, business days are all calendar days except Sundays and federal holidays. Counting Friday, Saturday, and Monday, the third business day is Monday. Choosing Tuesday wrongly skips Saturday.",
+    "citation": "Regulation Z, 12 C.F.R. §§1026.2(a)(6), 1026.23"
+  },
+  {
+    "id": "finance-b037",
+    "topic": "finance",
+    "q": "Under the Truth in Lending Act, which of these loans does NOT carry a three-day right of rescission?",
+    "options": [
+      "A home equity loan secured by the borrower's principal residence",
+      "A first mortgage used to buy the borrower's principal residence",
+      "A refinance of a principal residence with a different lender",
+      "A home equity line of credit on the borrower's principal residence"
+    ],
+    "answer": 1,
+    "explanation": "Rescission applies to certain non-purchase credit secured by the borrower's principal dwelling. A residential mortgage transaction that finances the purchase of the home is exempt.",
+    "citation": "Regulation Z, 12 C.F.R. §1026.23(f)"
+  },
+  {
+    "id": "finance-b038",
+    "topic": "finance",
+    "q": "A lender refuses to count an applicant's steady public assistance income when deciding whether she qualifies, although she documents that it is reliable. Which federal law does this most directly violate?",
+    "options": [
+      "Home Mortgage Disclosure Act",
+      "Community Reinvestment Act",
+      "Equal Credit Opportunity Act",
+      "Real Estate Settlement Procedures Act"
+    ],
+    "answer": 2,
+    "explanation": "ECOA prohibits credit discrimination because an applicant's income comes from a public assistance program. HMDA is a reporting law, CRA addresses community credit needs, and RESPA governs settlement costs and kickbacks.",
+    "citation": "Equal Credit Opportunity Act, 15 U.S.C. §1691(a)(2); Regulation B, 12 C.F.R. §1002.6(b)(5)"
+  },
+  {
+    "id": "finance-b039",
+    "topic": "finance",
+    "q": "Under the Equal Credit Opportunity Act and Regulation B, a lender that denies a completed mortgage application generally must notify the applicant of the action within:",
+    "options": [
+      "30 days",
+      "3 business days",
+      "10 days",
+      "60 days"
+    ],
+    "answer": 0,
+    "explanation": "Regulation B requires notice of action taken within 30 days after receiving a completed application, including a statement of reasons (or the right to request them) for an adverse action. Three business days is a TRID timing rule, not ECOA.",
+    "citation": "Regulation B, 12 C.F.R. §1002.9(a)(1)"
+  },
+  {
+    "id": "finance-b040",
+    "topic": "finance",
+    "q": "Which law requires many mortgage lenders to collect and report data on loan applications, including the property's location and the applicant's race, ethnicity, and sex, so regulators can spot possible redlining?",
+    "options": [
+      "Community Reinvestment Act",
+      "Truth in Lending Act",
+      "Equal Credit Opportunity Act",
+      "Home Mortgage Disclosure Act"
+    ],
+    "answer": 3,
+    "explanation": "HMDA is a data-reporting law that helps reveal lending patterns such as redlining. The CRA evaluates how well depository institutions meet community credit needs but is not the application-data reporting statute.",
+    "citation": "Home Mortgage Disclosure Act, 12 U.S.C. §2801 et seq.; Regulation C"
+  },
+  {
+    "id": "finance-b041",
+    "topic": "finance",
+    "q": "Federal regulators rate a bank on how well it meets the credit needs of its entire community, including low- and moderate-income neighborhoods, and consider that record when the bank applies to open a branch. Which law is this?",
+    "options": [
+      "Community Reinvestment Act",
+      "Home Mortgage Disclosure Act",
+      "Equal Credit Opportunity Act",
+      "Homeowners Protection Act"
+    ],
+    "answer": 0,
+    "explanation": "The CRA directs regulators to assess depository institutions' records of meeting community credit needs, consistent with safe and sound operation, and to weigh that record on applications such as branches and mergers. It does not guarantee any applicant a loan.",
+    "citation": "Community Reinvestment Act, 12 U.S.C. §2901 et seq."
+  },
+  {
+    "id": "finance-b042",
+    "topic": "finance",
+    "q": "A lender uses qualifying ratios of 28% for housing expense and 36% for total debt. An applicant earns $7,500 a month and has $650 a month in car and student loan payments. What is the maximum monthly housing payment (PITI) she qualifies for?",
+    "options": [
+      "$2,100",
+      "$2,050",
+      "$2,700",
+      "$1,450"
+    ],
+    "answer": 1,
+    "explanation": "Housing limit: $7,500 × 28% = $2,100. Total-debt limit: $7,500 × 36% = $2,700 − $650 = $2,050. The lower figure controls, so $2,050. Choosing $2,100 ignores the back-end ratio; $1,450 wrongly subtracts the debts from the housing limit.",
+    "citation": "Qualifying ratio principles (front-end and back-end ratios)"
+  },
+  {
+    "id": "finance-b043",
+    "topic": "finance",
+    "q": "A lender's housing expense (front-end) ratio compares:",
+    "options": [
+      "Total monthly debts to gross monthly income",
+      "Monthly PITI to take-home pay after taxes",
+      "The loan amount to the property's value",
+      "Monthly PITI to gross monthly income"
+    ],
+    "answer": 3,
+    "explanation": "The front-end ratio is housing expense (principal, interest, taxes, insurance) divided by gross monthly income. Total debt to gross income is the back-end ratio, and loan amount to value is the LTV ratio.",
+    "citation": "Qualifying ratio principles"
+  },
+  {
+    "id": "finance-b044",
+    "topic": "finance",
+    "q": "A buyer's projected PITI is $2,450 a month. The lender's housing expense ratio is 28%. What minimum gross ANNUAL income does the buyer need?",
+    "options": [
+      "$8,750",
+      "$81,666.67",
+      "$105,000",
+      "$8,232"
+    ],
+    "answer": 2,
+    "explanation": "$2,450 ÷ 0.28 = $8,750 per month; $8,750 × 12 = $105,000 per year. $8,750 is the monthly figure; $81,666.67 wrongly uses 36%; $8,232 multiplies by 28% instead of dividing.",
+    "citation": "Qualifying ratio principles (income = payment ÷ ratio)"
+  },
+  {
+    "id": "finance-b045",
+    "topic": "finance",
+    "q": "How does a mortgage preapproval generally differ from a prequalification?",
+    "options": [
+      "Preapproval follows a credit check and verified application",
+      "Preapproval is a binding promise to fund at any interest rate",
+      "Preapproval is based only on what the buyer says in a talk",
+      "Preapproval is issued by the seller's broker, not by a lender"
+    ],
+    "answer": 0,
+    "explanation": "A prequalification is an informal estimate based on unverified information the buyer provides. A preapproval comes after an application, credit report, and verification of income and assets, producing a conditional commitment, but it is still not an unconditional promise to fund.",
+    "citation": "General mortgage lending practice"
+  },
+  {
+    "id": "finance-b046",
+    "topic": "finance",
+    "q": "A lender making a high-cost home loan under New York Banking Law §6-l wants to add a single-premium credit life insurance policy to the loan balance. This is:",
+    "options": [
+      "Allowed if the borrower initials the policy",
+      "Prohibited for a high-cost home loan",
+      "Allowed if the premium is under 2% of the loan",
+      "Required for borrowers over age 62"
+    ],
+    "answer": 1,
+    "explanation": "Section 6-l bars financing single-premium credit life, disability, unemployment, or similar insurance into a high-cost home loan. Coverage paid monthly is treated differently; a signature or initials does not cure a financed single premium.",
+    "citation": "NY Banking Law §6-l(2)(h)"
+  },
+  {
+    "id": "finance-b047",
+    "topic": "finance",
+    "q": "A lender offers a New York high-cost home loan with a 'payment option' that lets the borrower pay less than the interest due each month. Under Banking Law §6-l, this feature is:",
+    "options": [
+      "Permitted, because the borrower chooses the option",
+      "Permitted, if the loan also offers a full payment",
+      "Prohibited, because it allows negative amortization",
+      "Prohibited only when the loan is a jumbo loan"
+    ],
+    "answer": 2,
+    "explanation": "High-cost home loans may not have payment schedules that cause the balance to grow, and a payment option that permits negative amortization counts as prohibited even if a fully amortizing option is also offered.",
+    "citation": "NY Banking Law §6-l(2)(c)"
+  },
+  {
+    "id": "finance-b048",
+    "topic": "finance",
+    "q": "At application for a New York high-cost home loan, what must the lender or mortgage broker give the borrower?",
+    "options": [
+      "A completed appraisal showing the home's value supports the loan",
+      "A certificate that the loan carries no prepayment penalty at all",
+      "A signed promise to refinance later at a lower rate without fees",
+      "A notice recommending financial counseling, with a list of counselors"
+    ],
+    "answer": 3,
+    "explanation": "Section 6-l requires a written notice that the borrower should consider financial counseling before signing, along with a list of counselors provided by the NYS Department of Financial Services.",
+    "citation": "NY Banking Law §6-l(2)(l)"
+  },
+  {
+    "id": "finance-b049",
+    "topic": "finance",
+    "q": "Which statement about subprime lending is accurate?",
+    "options": [
+      "Any loan to a borrower with a low credit score is predatory and unlawful",
+      "Subprime loans must be insured by FHA before they can be made in New York",
+      "Subprime loans are not illegal by themselves; abusive terms make lending predatory",
+      "Subprime loans are conforming loans sold to Fannie Mae at a discount"
+    ],
+    "answer": 2,
+    "explanation": "'Subprime' describes credit risk and pricing, not illegality. Lending becomes predatory through practices such as hidden fees, loan flipping, equity stripping, or lending without regard to the ability to repay.",
+    "citation": "General predatory lending principles; NY Banking Law §6-l"
   }
 ]

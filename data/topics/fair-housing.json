@@ -306,5 +306,1377 @@
     "answer": 2,
     "explanation": "ADA Title III covers places of public accommodation, which include a brokerage office open to the public. Disability issues in residential dwelling units are generally analyzed under the Fair Housing Act instead, so 'ADA' is not the answer to every housing-disability question.",
     "citation": "Americans with Disabilities Act, Title III, 42 U.S.C. § 12181 et seq."
+  },
+  {
+    "id": "fair-housing-a001",
+    "topic": "fair-housing",
+    "q": "The Civil Rights Act of 1866 prohibits discrimination in property transactions on the basis of:",
+    "options": [
+      "Race and religion, with owner-occupant exceptions",
+      "Race, with no exceptions for private owners",
+      "Race, but only in government-funded housing",
+      "All classes later listed in the Fair Housing Act"
+    ],
+    "answer": 1,
+    "explanation": "The 1866 Act guarantees all citizens the same property rights 'as is enjoyed by white citizens,' so it reaches racial discrimination only, and it contains no exemptions. The trap is borrowing the FHA's owner-occupant exemptions, which do not exist under the 1866 Act.",
+    "citation": "Civil Rights Act of 1866, 42 U.S.C. § 1982"
+  },
+  {
+    "id": "fair-housing-a002",
+    "topic": "fair-housing",
+    "q": "What was the significance of the Supreme Court's 1968 decision in Jones v. Alfred H. Mayer Co.?",
+    "options": [
+      "It held racially restrictive covenants unenforceable in state courts",
+      "It applied the 1866 Act to private racial discrimination in property",
+      "It upheld the 1988 amendments adding familial status protection",
+      "It created HUD's administrative fair housing complaint process"
+    ],
+    "answer": 1,
+    "explanation": "Jones held that the 1866 Act bars all racial discrimination, private as well as public, in the sale or rental of property. Making restrictive covenants unenforceable was Shelley v. Kraemer (1948), a different case.",
+    "citation": "Jones v. Alfred H. Mayer Co., 392 U.S. 409 (1968); 42 U.S.C. § 1982"
+  },
+  {
+    "id": "fair-housing-a003",
+    "topic": "fair-housing",
+    "q": "In Jones v. Alfred H. Mayer Co., the Supreme Court upheld Congress's power to ban private racial discrimination in property sales under which constitutional provision?",
+    "options": [
+      "The Fourteenth Amendment",
+      "The Commerce Clause",
+      "The Thirteenth Amendment",
+      "The First Amendment"
+    ],
+    "answer": 2,
+    "explanation": "The Court held that the Thirteenth Amendment lets Congress eliminate the 'badges and incidents of slavery,' including private racial barriers to buying property. The Fourteenth Amendment is the trap: it mainly restrains state action, not private sellers.",
+    "citation": "Jones v. Alfred H. Mayer Co., 392 U.S. 409 (1968); U.S. Const. amend. XIII"
+  },
+  {
+    "id": "fair-housing-a004",
+    "topic": "fair-housing",
+    "q": "An owner lives in one unit of a three-family building, uses no broker, and runs no ads. He rejects one applicant because of religion and another because of race. Under federal law alone, which is correct?",
+    "options": [
+      "Both refusals are lawful under the owner-occupant exemption",
+      "Both refusals violate the federal Fair Housing Act",
+      "Only the race-based refusal is unlawful",
+      "Only the religion-based refusal is unlawful"
+    ],
+    "answer": 2,
+    "explanation": "The FHA owner-occupied exemption (four units or fewer) can shelter the religion-based refusal federally, but the Civil Rights Act of 1866 has no exemptions and bars the race-based refusal. New York law would separately reach the religion refusal because its owner-occupied exemption stops at two families.",
+    "citation": "42 U.S.C. § 3603(b)(2); 42 U.S.C. § 1982"
+  },
+  {
+    "id": "fair-housing-a005",
+    "topic": "fair-housing",
+    "q": "A buyer claims a seller refused to sell solely because of the buyer's race and relies on the Civil Rights Act of 1866. How is that right enforced?",
+    "options": [
+      "By filing only a HUD administrative complaint",
+      "By petitioning the Department of State",
+      "By arbitration through a local Realtor board",
+      "By bringing a private civil lawsuit"
+    ],
+    "answer": 3,
+    "explanation": "The 1866 Act has no administrative agency process; the victim enforces it by suing, and courts may award damages and injunctions. HUD's complaint process belongs to the Fair Housing Act, not the 1866 Act.",
+    "citation": "42 U.S.C. § 1982; Jones v. Alfred H. Mayer Co., 392 U.S. 409 (1968)"
+  },
+  {
+    "id": "fair-housing-a006",
+    "topic": "fair-housing",
+    "q": "When first enacted as Title VIII of the Civil Rights Act of 1968, the federal Fair Housing Act prohibited discrimination based on:",
+    "options": [
+      "Race, color, religion, national origin, and sex",
+      "Race, color, national origin, and disability",
+      "Race, color, religion, and familial status",
+      "Race, color, religion, and national origin"
+    ],
+    "answer": 3,
+    "explanation": "The original 1968 Act covered race, color, religion, and national origin. Sex was added in 1974, and disability and familial status in 1988, so the longer lists describe the later, amended law.",
+    "citation": "Civil Rights Act of 1968, Title VIII, 42 U.S.C. § 3604"
+  },
+  {
+    "id": "fair-housing-a007",
+    "topic": "fair-housing",
+    "q": "Sex was added as a protected class under the federal Fair Housing Act by which law?",
+    "options": [
+      "The Housing and Community Development Act of 1974",
+      "The Fair Housing Amendments Act of 1988",
+      "The Civil Rights Act of 1866",
+      "The Housing for Older Persons Act of 1995"
+    ],
+    "answer": 0,
+    "explanation": "The Housing and Community Development Act of 1974 added sex. The 1988 amendments are the common trap; they added disability and familial status and strengthened enforcement.",
+    "citation": "Housing and Community Development Act of 1974; 42 U.S.C. § 3604"
+  },
+  {
+    "id": "fair-housing-a008",
+    "topic": "fair-housing",
+    "q": "Which household is protected under the Fair Housing Act's familial status category?",
+    "options": [
+      "A pregnant woman who has no other children yet",
+      "Two unrelated adult roommates sharing a lease",
+      "A married couple with no children under 18",
+      "A grandmother living with her 30-year-old son"
+    ],
+    "answer": 0,
+    "explanation": "Familial status covers a person under 18 living with a parent, legal custodian, or designee, and expressly includes pregnant persons and those securing custody. Marriage alone is not familial status (marital status is protected in NY, not by the FHA), and an adult child does not count.",
+    "citation": "42 U.S.C. § 3602(k)"
+  },
+  {
+    "id": "fair-housing-a009",
+    "topic": "fair-housing",
+    "q": "A landlord assigns every household with children under 18 to first-floor apartments 'for their safety.' Under the Fair Housing Act, this policy is:",
+    "options": [
+      "Unlawful familial-status discrimination",
+      "Lawful because it is motivated by child safety",
+      "Lawful if the units match in rent and size",
+      "Unlawful only if the building gets federal funds"
+    ],
+    "answer": 0,
+    "explanation": "Assigning people to particular floors or sections of a building because of familial status is expressly prohibited, and a benign safety motive does not excuse it. The equal-rent distractor fails because segregating units by protected status is itself the violation.",
+    "citation": "42 U.S.C. § 3604(a)–(b); 24 C.F.R. § 100.70(c)(4)"
+  },
+  {
+    "id": "fair-housing-a010",
+    "topic": "fair-housing",
+    "q": "Under the Fair Housing Act's definition of handicap (disability), which person is NOT protected?",
+    "options": [
+      "A person in recovery who no longer uses illegal drugs",
+      "A person with a history of cancer now in remission",
+      "A person currently using illegal drugs",
+      "A person the landlord wrongly regards as mentally ill"
+    ],
+    "answer": 2,
+    "explanation": "The FHA excludes current illegal use of or addiction to a controlled substance. A recovering person who no longer uses is protected, as are people with a record of an impairment or who are regarded as having one.",
+    "citation": "42 U.S.C. § 3602(h); 24 C.F.R. § 100.201"
+  },
+  {
+    "id": "fair-housing-a011",
+    "topic": "fair-housing",
+    "q": "A landlord rejects an applicant because he wrongly believes she is HIV-positive; she is not. Under the Fair Housing Act, the rejection is:",
+    "options": [
+      "Lawful because the applicant has no actual disability",
+      "Lawful because HIV status is a health and safety issue",
+      "Unlawful because being regarded as disabled is protected",
+      "Unlawful only if the applicant later develops a disability"
+    ],
+    "answer": 2,
+    "explanation": "The FHA disability definition includes being regarded as having an impairment, so acting on a mistaken belief is still discrimination. The 'no actual disability' distractor ignores that third prong of the definition.",
+    "citation": "42 U.S.C. § 3602(h)(3)"
+  },
+  {
+    "id": "fair-housing-a012",
+    "topic": "fair-housing",
+    "q": "A salesperson tells a Black couple a listed house is already under contract, though it is not, and shows it to white buyers the next day. Which Fair Housing Act prohibition is most directly violated?",
+    "options": [
+      "Falsely saying a dwelling is unavailable",
+      "Inducing owners to sell through panic",
+      "Denying credit in a particular area",
+      "Publishing a discriminatory advertisement"
+    ],
+    "answer": 0,
+    "explanation": "The FHA specifically bars representing to any person, because of a protected class, that a dwelling is not available for inspection, sale, or rental when it is. Panic selling is blockbusting, and area-based credit denial is redlining.",
+    "citation": "42 U.S.C. § 3604(d)"
+  },
+  {
+    "id": "fair-housing-a013",
+    "topic": "fair-housing",
+    "q": "Unprompted, a salesperson tells a Hispanic buyer that a town's schools 'might not be a good fit for your family' while praising the same schools to other buyers. This is most likely:",
+    "options": [
+      "Permissible sharing of school information",
+      "Blockbusting through fear of neighborhood change",
+      "Puffing that is protected as personal opinion",
+      "Steering through selective discouraging comments"
+    ],
+    "answer": 3,
+    "explanation": "Steering includes discouraging a buyer from an area by comments that differ according to a protected class, not just refusing to show homes. It is not neutral school information because other buyers hear the opposite message.",
+    "citation": "42 U.S.C. § 3604(a); 24 C.F.R. § 100.70"
+  },
+  {
+    "id": "fair-housing-a014",
+    "topic": "fair-housing",
+    "q": "A licensee mails owners on one block urging them to sell soon because of the 'changing makeup' of the neighborhood's residents. No owner actually lists. Which statement is correct?",
+    "options": [
+      "No violation occurs unless a property is sold",
+      "It is steering, since no buyers are involved",
+      "The solicitation itself can be unlawful blockbusting",
+      "It is lawful commentary on market trends"
+    ],
+    "answer": 2,
+    "explanation": "The FHA prohibits inducing or attempting to induce, for profit, sales or rentals by representations about the entry of a protected class; the attempt is enough. Steering targets home seekers' choices, whereas blockbusting targets owners.",
+    "citation": "42 U.S.C. § 3604(e); 24 C.F.R. § 100.85"
+  },
+  {
+    "id": "fair-housing-a015",
+    "topic": "fair-housing",
+    "q": "An appraiser lowers valuations of homes because of the national origin of residents in the surrounding neighborhood. Which Fair Housing Act provision most directly covers this conduct?",
+    "options": [
+      "Discriminatory advertising of dwellings for sale",
+      "Denial of access to multiple listing services",
+      "Discrimination in real estate-related transactions",
+      "Blockbusting by inducing owners to sell"
+    ],
+    "answer": 2,
+    "explanation": "Section 3605 bars discrimination in residential real estate-related transactions, expressly including the appraising of residential property as well as lending. Blockbusting requires inducing owners to sell, which an appraisal does not do.",
+    "citation": "42 U.S.C. § 3605(b)(2)"
+  },
+  {
+    "id": "fair-housing-a016",
+    "topic": "fair-housing",
+    "q": "A lender makes loans everywhere but, because a neighborhood is predominantly Black, requires larger down payments from qualified applicants buying there than from identical applicants buying elsewhere. This is best described as:",
+    "options": [
+      "Steering, since it directs buyers' choices",
+      "Blockbusting, since it targets a neighborhood",
+      "Lawful risk pricing based on location",
+      "Redlining, a form of lending discrimination"
+    ],
+    "answer": 3,
+    "explanation": "Redlining includes harsher credit terms, not only outright refusals, for areas defined by their residents' race. Steering is a trap because it describes how agents direct home seekers, not how lenders price credit by area.",
+    "citation": "42 U.S.C. § 3605; 24 C.F.R. § 100.130"
+  },
+  {
+    "id": "fair-housing-a017",
+    "topic": "fair-housing",
+    "q": "A landlord requires a $1,000 security deposit from applicants born outside the United States but $500 from U.S.-born applicants with the same credit. This is:",
+    "options": [
+      "Lawful risk-based pricing of security deposits",
+      "Steering based on the applicants' national origin",
+      "Lawful if both deposits are within legal limits",
+      "Discrimination in terms based on national origin"
+    ],
+    "answer": 3,
+    "explanation": "Charging different deposits, rents, or fees because of a protected class is discrimination in the terms and conditions of rental. Staying within a deposit cap does not cure unequal treatment.",
+    "citation": "42 U.S.C. § 3604(b); 24 C.F.R. § 100.65"
+  },
+  {
+    "id": "fair-housing-a018",
+    "topic": "fair-housing",
+    "q": "Which Fair Housing Act prohibition still applies to an owner who otherwise qualifies for the single-family or owner-occupied exemption?",
+    "options": [
+      "Refusing to rent because of an applicant's religion",
+      "Refusing to sell to a family with young children",
+      "Making discriminatory notices or advertisements",
+      "Setting different lease terms based on sex"
+    ],
+    "answer": 2,
+    "explanation": "The § 3603(b) exemptions cover § 3604 'other than subsection (c),' so even an exempt owner may not publish discriminatory notices, statements, or ads. The other choices describe conduct the federal exemption can shelter (though NY law may not).",
+    "citation": "42 U.S.C. § 3603(b); 42 U.S.C. § 3604(c)"
+  },
+  {
+    "id": "fair-housing-a019",
+    "topic": "fair-housing",
+    "q": "Which phrase in a rental advertisement is most likely to violate the Fair Housing Act?",
+    "options": [
+      "Walk-in closets, fourth-floor walk-up",
+      "Quiet street near bus and park",
+      "No children, ideal for empty nesters",
+      "Non-smoking building, no pets allowed"
+    ],
+    "answer": 2,
+    "explanation": "'No children' states a familial-status limitation. Describing the property, its features, or the neighborhood is acceptable, and a no-pets rule is lawful (assistance animals are handled as accommodations, not as pets).",
+    "citation": "42 U.S.C. § 3604(c); HUD advertising guidance (Achtenberg memo, 1995)"
+  },
+  {
+    "id": "fair-housing-a020",
+    "topic": "fair-housing",
+    "q": "For several years a developer's brochures for a large complex have shown only white models in every photo. Under the Fair Housing Act, this practice:",
+    "options": [
+      "Can signal a racial preference and be unlawful",
+      "Is lawful because no discriminatory words appear",
+      "Violates the law only if it says 'whites only'",
+      "Is exempt because the models are paid actors"
+    ],
+    "answer": 0,
+    "explanation": "The ban on ads that indicate a preference reaches images, not just words, and consistently using models of one race can communicate a racial preference. The 'no words' distractor ignores that the test is what the ad conveys to an ordinary reader.",
+    "citation": "42 U.S.C. § 3604(c); 24 C.F.R. § 100.75(c)(1); Ragin v. New York Times Co., 923 F.2d 995 (2d Cir. 1991)"
+  },
+  {
+    "id": "fair-housing-a021",
+    "topic": "fair-housing",
+    "q": "After a tenant helps a neighbor file a fair housing complaint with HUD, the landlord refuses to renew the tenant's lease. This most likely violates the Fair Housing Act's ban on:",
+    "options": [
+      "Interference and retaliation",
+      "Discriminatory advertising",
+      "Blockbusting for profit",
+      "Steering of tenants"
+    ],
+    "answer": 0,
+    "explanation": "The FHA makes it unlawful to coerce, intimidate, threaten, or interfere with anyone for aiding or encouraging another person in exercising fair housing rights. The tenant need not belong to a protected class; helping a complainant is enough.",
+    "citation": "42 U.S.C. § 3617; 24 C.F.R. § 100.400"
+  },
+  {
+    "id": "fair-housing-a022",
+    "topic": "fair-housing",
+    "q": "A multiple listing service denies membership to a broker because of the broker's religion. Under the Fair Housing Act, this is:",
+    "options": [
+      "Lawful because the FHA protects only home seekers",
+      "Unlawful denial of access to a brokerage service",
+      "Lawful if the MLS is a private organization",
+      "Unlawful only if the broker is a NY resident"
+    ],
+    "answer": 1,
+    "explanation": "The FHA bars denying access to or membership in any MLS or real estate brokers' organization because of a protected class. Its coverage is not limited to buyers and renters, and private status does not exempt the MLS.",
+    "citation": "42 U.S.C. § 3606"
+  },
+  {
+    "id": "fair-housing-a023",
+    "topic": "fair-housing",
+    "q": "Under the Fair Housing Act's single-family house exemption, a private individual owner may own no more than how many single-family houses at one time?",
+    "options": [
+      "Two",
+      "Four",
+      "One",
+      "Three"
+    ],
+    "answer": 3,
+    "explanation": "The exemption is limited to a private owner who owns no more than three single-family houses at any one time. Four is the trap: it is the unit limit for the separate owner-occupied ('Mrs. Murphy') exemption.",
+    "citation": "42 U.S.C. § 3603(b)(1)"
+  },
+  {
+    "id": "fair-housing-a024",
+    "topic": "fair-housing",
+    "q": "An owner lives in one unit of a six-unit building and wants to rent the others without a broker or advertising. Can the federal owner-occupied exemption apply?",
+    "options": [
+      "No; that exemption is limited to four units",
+      "Yes; any building the owner lives in qualifies",
+      "Yes; if he owns no more than three buildings",
+      "No; that exemption covers two units at most"
+    ],
+    "answer": 0,
+    "explanation": "The federal 'Mrs. Murphy' exemption applies only to dwellings with living quarters for no more than four families living independently, with the owner living in one. Two units is New York's owner-occupied limit, not the federal one.",
+    "citation": "42 U.S.C. § 3603(b)(2)"
+  },
+  {
+    "id": "fair-housing-a025",
+    "topic": "fair-housing",
+    "q": "An owner who neither lives in the house nor was its most recent occupant may use the federal single-family exemption for:",
+    "options": [
+      "Up to three sales in any 12-month period",
+      "Only one such sale in any 24-month period",
+      "Unlimited sales if no broker is used",
+      "Only sales made to family members"
+    ],
+    "answer": 1,
+    "explanation": "When the owner is not residing in the house or was not the most recent resident, the exemption applies to only one sale within any 24-month period. 'Three' refers to how many houses the owner may own, not how many sales are allowed.",
+    "citation": "42 U.S.C. § 3603(b)(1)"
+  },
+  {
+    "id": "fair-housing-a026",
+    "topic": "fair-housing",
+    "q": "Under the Fair Housing Act, an owner loses the single-family exemption by:",
+    "options": [
+      "Using a licensee or a discriminatory advertisement",
+      "Selling to a buyer who obtains a mortgage",
+      "Owning a second single-family house",
+      "Having an attorney draft the contract"
+    ],
+    "answer": 0,
+    "explanation": "The exemption requires the sale or rental to be made without a broker, agent, or salesperson and without discriminatory advertising, which is why licensees can never use it. Owning up to three houses is permitted, and an attorney preparing documents is allowed.",
+    "citation": "42 U.S.C. § 3603(b)"
+  },
+  {
+    "id": "fair-housing-a027",
+    "topic": "fair-housing",
+    "q": "A religious organization operating noncommercial housing may give preference to members of its own religion unless:",
+    "options": [
+      "Its membership is restricted by race, color, or national origin",
+      "The housing contains more than four rental units",
+      "The organization lists the units with a broker",
+      "The units are offered below market rent"
+    ],
+    "answer": 0,
+    "explanation": "The FHA lets religious organizations limit noncommercial housing to members of the same religion, but not if membership in the religion is restricted on account of race, color, or national origin. The four-unit limit belongs to the owner-occupied exemption.",
+    "citation": "42 U.S.C. § 3607(a)"
+  },
+  {
+    "id": "fair-housing-a028",
+    "topic": "fair-housing",
+    "q": "To qualify as housing for older persons under the 62-and-older category, generally:",
+    "options": [
+      "80% of units need one occupant 62+",
+      "Every occupant must be 62 or older",
+      "Half of all occupants must be 62+",
+      "Only the head of household must be 62+"
+    ],
+    "answer": 1,
+    "explanation": "The 62+ category requires housing intended for and solely occupied by persons 62 or older (with narrow exceptions, such as certain employees). The 80% one-occupant test belongs to the separate 55+ category.",
+    "citation": "42 U.S.C. § 3607(b)(2)(B); 24 C.F.R. § 100.303"
+  },
+  {
+    "id": "fair-housing-a029",
+    "topic": "fair-housing",
+    "q": "A qualifying 55-and-older community lawfully excludes families with children. The Housing for Older Persons Act provides an exemption from the Fair Housing Act's ban on discrimination based on:",
+    "options": [
+      "Age",
+      "Disability",
+      "Marital status",
+      "Familial status"
+    ],
+    "answer": 3,
+    "explanation": "Housing for older persons is exempt from the familial status provisions only. Age is the trap: it is not a protected class under the federal FHA at all, and the community must still comply with disability rules.",
+    "citation": "42 U.S.C. § 3607(b); Housing for Older Persons Act of 1995"
+  },
+  {
+    "id": "fair-housing-a030",
+    "topic": "fair-housing",
+    "q": "Which is NOT a requirement for a community to qualify for the 55-and-older housing exemption?",
+    "options": [
+      "Every resident must be at least 55 years old",
+      "At least 80% of occupied units have a 55+ resident",
+      "It publishes policies showing intent to serve 55+",
+      "It reliably verifies the ages of its residents"
+    ],
+    "answer": 0,
+    "explanation": "The 55+ exemption requires at least 80% of occupied units to have at least one resident 55 or older, published policies demonstrating that intent, and age verification. Requiring every resident to meet the age describes the 62+ category, not the 55+ one.",
+    "citation": "42 U.S.C. § 3607(b)(2)(C); 24 C.F.R. §§ 100.305–100.307"
+  },
+  {
+    "id": "fair-housing-a031",
+    "topic": "fair-housing",
+    "q": "A 55-and-older community has 150 occupied units, and 117 of them have at least one resident aged 55 or older. Does it meet the 80% occupancy test?",
+    "options": [
+      "No; 117 ÷ 150 = 78%, below 80%",
+      "Yes; 117 ÷ 150 = 82%, above 80%",
+      "Yes; only 50% of units must qualify",
+      "No; every unit must have a 55+ resident"
+    ],
+    "answer": 0,
+    "explanation": "117 ÷ 150 = 0.78 = 78%, short of 80%; the community needs 150 × 0.80 = 120 qualifying units. The 82% distractor is an arithmetic slip, and the 'every unit' rule confuses this test with the 62+ category.",
+    "citation": "42 U.S.C. § 3607(b)(2)(C); 24 C.F.R. § 100.305"
+  },
+  {
+    "id": "fair-housing-a032",
+    "topic": "fair-housing",
+    "q": "A tenant with a mobility impairment asks for an assigned parking space near her door in a lot where parking is first-come, first-served. This is a request for:",
+    "options": [
+      "A reasonable modification at her expense",
+      "A reasonable accommodation in a policy",
+      "A HOPA exemption from parking rules",
+      "ADA Title III barrier removal"
+    ],
+    "answer": 1,
+    "explanation": "Changing a rule, policy, practice, or service, such as assigning a space, is a reasonable accommodation. A modification is a physical change to the premises, which is the trap here.",
+    "citation": "42 U.S.C. § 3604(f)(3)(B); HUD/DOJ Joint Statement on Reasonable Accommodations (2004)"
+  },
+  {
+    "id": "fair-housing-a033",
+    "topic": "fair-housing",
+    "q": "Which statement about reasonable modifications in privately owned rental housing is correct?",
+    "options": [
+      "The landlord must pay for every physical modification",
+      "The landlord may raise the security deposit",
+      "Common areas must be restored at move-out",
+      "Interior restoration may be required if reasonable"
+    ],
+    "answer": 3,
+    "explanation": "In private housing the tenant generally pays for a modification, and the landlord may, where reasonable, require the interior to be restored at move-out (normal wear and tear excepted). The landlord may not raise the security deposit for it and may not require restoration of common-use areas.",
+    "citation": "42 U.S.C. § 3604(f)(3)(A); 24 C.F.R. § 100.203"
+  },
+  {
+    "id": "fair-housing-a034",
+    "topic": "fair-housing",
+    "q": "In private housing, who generally bears the cost of a reasonable accommodation, such as an exception to a building policy?",
+    "options": [
+      "The tenant, as with a physical modification",
+      "The housing provider, unless it is an undue burden",
+      "HUD, through a reimbursement program",
+      "The tenant, through a higher security deposit"
+    ],
+    "answer": 1,
+    "explanation": "The provider bears accommodation costs unless they impose an undue financial and administrative burden. The trap is the modification rule: in private housing, tenants generally pay for physical changes, not for policy exceptions.",
+    "citation": "42 U.S.C. § 3604(f)(3)(B); HUD/DOJ Joint Statement on Reasonable Accommodations (2004)"
+  },
+  {
+    "id": "fair-housing-a035",
+    "topic": "fair-housing",
+    "q": "A housing provider may lawfully deny a requested reasonable accommodation when granting it would:",
+    "options": [
+      "Require an exception to a written building rule",
+      "Impose an undue financial and administrative burden",
+      "Cost the provider any amount of money at all",
+      "Be requested orally rather than in writing"
+    ],
+    "answer": 1,
+    "explanation": "An accommodation may be refused if it would impose an undue financial and administrative burden or fundamentally alter the provider's operations. Excusing a written rule is exactly what an accommodation is, so that cannot be a valid reason.",
+    "citation": "HUD/DOJ Joint Statement on Reasonable Accommodations (2004); 24 C.F.R. § 100.204"
+  },
+  {
+    "id": "fair-housing-a036",
+    "topic": "fair-housing",
+    "q": "A tenant with a disability orally asks the manager for an exception to a building policy but never uses the words 'reasonable accommodation.' The manager:",
+    "options": [
+      "May ignore it until a written form is filed",
+      "May deny it for failing to cite the FHA",
+      "Must treat it as an accommodation request",
+      "Must refer the tenant to HUD to decide it"
+    ],
+    "answer": 2,
+    "explanation": "A request can be made orally and in plain language; no magic words or particular form are required. A provider may offer a form but cannot refuse to consider a request because it was not used.",
+    "citation": "HUD/DOJ Joint Statement on Reasonable Accommodations (2004)"
+  },
+  {
+    "id": "fair-housing-a037",
+    "topic": "fair-housing",
+    "q": "A building bans dogs over 25 pounds. A tenant who is blind asks to keep her 60-pound trained guide dog. Under the Fair Housing Act and New York law, the landlord:",
+    "options": [
+      "Generally must waive the pet weight limit",
+      "May enforce the weight limit as a neutral rule",
+      "May approve it only with an added pet deposit",
+      "May deny it unless every neighbor consents"
+    ],
+    "answer": 0,
+    "explanation": "Refusing a reasonable accommodation in rules or policies that a person with a disability needs to use a dwelling is discrimination under the FHA, and HUD's regulation uses a blind tenant's guide dog under a no-pets rule as its example; a size limit is a pet rule to be waived the same way. New York Civil Rights Law §47-b separately bars any extra charge for a guide, hearing, or service dog in housing.",
+    "citation": "42 U.S.C. § 3604(f)(3)(B); 24 C.F.R. § 100.204(b); NY Civil Rights Law §§ 47, 47-b"
+  },
+  {
+    "id": "fair-housing-a038",
+    "topic": "fair-housing",
+    "q": "A landlord may lawfully deny a request for a specific assistance animal when:",
+    "options": [
+      "The building has a strict no-pets policy",
+      "The tenant's disability is not readily visible",
+      "Neighbors say they dislike having dogs nearby",
+      "This animal's own conduct shows a direct threat"
+    ],
+    "answer": 3,
+    "explanation": "A provider may refuse an animal that, judged on its own actual conduct, poses a direct threat to others' health or safety or would cause substantial physical damage that another accommodation cannot reduce. A no-pets rule is exactly what an accommodation waives, and neighbors' dislike or a disability that is not visible is not a lawful reason to deny.",
+    "citation": "42 U.S.C. § 3604(f)(3)(B), (f)(9); HUD/DOJ Joint Statement on Reasonable Accommodations (2004)"
+  },
+  {
+    "id": "fair-housing-a039",
+    "topic": "fair-housing",
+    "q": "Under the ADA Title III regulations, which animal does NOT meet the definition of a service animal?",
+    "options": [
+      "A dog whose only role is emotional comfort",
+      "A dog trained to guide a person who is blind",
+      "A dog trained to alert its handler to seizures",
+      "A dog trained to interrupt a panic attack"
+    ],
+    "answer": 0,
+    "explanation": "An ADA service animal is a dog individually trained to do work or perform tasks for a person with a disability, and providing emotional support or comfort does not count as a task. Psychiatric tasks such as interrupting a panic attack do qualify. Whether a housing provider must allow an untrained support animal is a separate reasonable-accommodation question under the FHA and New York law.",
+    "citation": "28 C.F.R. § 36.104 (definition of service animal); 42 U.S.C. § 3604(f)(3)(B)"
+  },
+  {
+    "id": "fair-housing-a040",
+    "topic": "fair-housing",
+    "q": "A tenant whose disability is not obvious asks to keep an assistance animal despite a no-pets rule. Under the Fair Housing Act, the landlord may:",
+    "options": [
+      "Demand her full medical records and diagnosis",
+      "Require details on how severe her impairment is",
+      "Deny the request since no disability is visible",
+      "Request reliable proof of the disability-related need"
+    ],
+    "answer": 3,
+    "explanation": "When a disability or the need for an accommodation is not obvious, the provider may request reliable information verifying the disability and the disability-related need. It generally may not demand medical records, a diagnosis, or details about the nature or severity of the impairment, and an invisible disability is still a disability.",
+    "citation": "42 U.S.C. § 3604(f)(3)(B); HUD/DOJ Joint Statement on Reasonable Accommodations (2004)"
+  },
+  {
+    "id": "fair-housing-a041",
+    "topic": "fair-housing",
+    "q": "In an apartment complex, which space is most likely covered by Title III of the Americans with Disabilities Act?",
+    "options": [
+      "Each tenant's individual apartment",
+      "A tenant's private storage locker",
+      "The owner's own residence unit",
+      "The rental office open to the public"
+    ],
+    "answer": 3,
+    "explanation": "ADA Title III covers places of public accommodation, such as a leasing office that serves the public. The dwelling units themselves are covered by the Fair Housing Act's disability provisions rather than the ADA.",
+    "citation": "42 U.S.C. § 12181(7); 28 C.F.R. § 36.104"
+  },
+  {
+    "id": "fair-housing-a042",
+    "topic": "fair-housing",
+    "q": "Under ADA Title III, a brokerage operating in an existing building must remove architectural barriers in its public office when removal is:",
+    "options": [
+      "Requested in writing",
+      "Required by its lease",
+      "Readily achievable",
+      "Paid by a federal grant"
+    ],
+    "answer": 2,
+    "explanation": "In existing facilities, Title III requires removing barriers where removal is readily achievable, meaning easily accomplished without much difficulty or expense. The duty does not wait for a written request or depend on a lease clause.",
+    "citation": "42 U.S.C. § 12182(b)(2)(A)(iv); 28 C.F.R. § 36.304"
+  },
+  {
+    "id": "fair-housing-a043",
+    "topic": "fair-housing",
+    "q": "Which law primarily governs disability discrimination in renting the private apartment units themselves?",
+    "options": [
+      "ADA Title III",
+      "Fair Housing Act",
+      "ADA Title I",
+      "Civil Rights Act of 1866"
+    ],
+    "answer": 1,
+    "explanation": "The FHA covers dwellings, including disability discrimination in renting units. ADA Title III covers public accommodations such as leasing offices, Title I covers employment, and the 1866 Act reaches race only.",
+    "citation": "42 U.S.C. § 3604(f); 42 U.S.C. § 12181"
+  },
+  {
+    "id": "fair-housing-a044",
+    "topic": "fair-housing",
+    "q": "A new 20-unit apartment building with no elevator was first occupied in 2024. Under the Fair Housing Act's design and construction rules, which units must meet the accessibility requirements?",
+    "options": [
+      "Every unit in the building",
+      "Only the ground-floor units",
+      "Only units leased to tenants with disabilities",
+      "None, because the building has no elevator"
+    ],
+    "answer": 1,
+    "explanation": "Covered multifamily dwellings first occupied after March 13, 1991 are all units in buildings of four or more units that have an elevator, plus the ground-floor units in other buildings of four or more units. Without an elevator, only the ground-floor units need features such as an accessible route, wheelchair-width doors, usable kitchens and baths, and reinforced bathroom walls for grab bars.",
+    "citation": "42 U.S.C. § 3604(f)(3)(C), (f)(7); 24 C.F.R. § 100.205"
+  },
+  {
+    "id": "fair-housing-a045",
+    "topic": "fair-housing",
+    "q": "A lender refuses to count an applicant's reliable public assistance income when evaluating her mortgage application. Under the Equal Credit Opportunity Act, this is:",
+    "options": [
+      "Permitted because the income is not wages",
+      "Permitted if the lender treats everyone alike",
+      "Prohibited discrimination based on income source",
+      "Prohibited only if the applicant is over 62"
+    ],
+    "answer": 2,
+    "explanation": "ECOA bars discriminating against an applicant because all or part of her income comes from a public assistance program. A lender may evaluate whether income is likely to continue, but it cannot discount it simply because of its source.",
+    "citation": "15 U.S.C. § 1691(a)(2); Regulation B, 12 C.F.R. § 1002.6(b)(5)"
+  },
+  {
+    "id": "fair-housing-a046",
+    "topic": "fair-housing",
+    "q": "A landlord rents a two-bedroom apartment to three unrelated adults but rejects a couple with one child for an identical unit, citing an occupancy limit. Under the Fair Housing Act, this most likely shows:",
+    "options": [
+      "A reasonable occupancy limit applied lawfully",
+      "Pretext for familial-status discrimination",
+      "Lawful screening based on marital status",
+      "A permitted housing-for-older-persons preference"
+    ],
+    "answer": 1,
+    "explanation": "The FHA allows reasonable occupancy limits, and HUD's occupancy policy treats two persons per bedroom as a general benchmark. Here three adults were accepted while a three-person family was refused, so the limit is not applied evenly and points to discrimination against a household with a child.",
+    "citation": "42 U.S.C. § 3604(a); 42 U.S.C. § 3607(b)(1); HUD Occupancy Standards Statement of Policy, 63 Fed. Reg. 70256 (Dec. 18, 1998)"
+  },
+  {
+    "id": "fair-housing-a047",
+    "topic": "fair-housing",
+    "q": "An applicant was refused an apartment because of her religion 20 months ago and has never filed any complaint. Which remedy is still available under the Fair Housing Act?",
+    "options": [
+      "A new HUD administrative complaint",
+      "A private FHA civil lawsuit",
+      "Nothing, since every FHA deadline is one year",
+      "Only a DOJ pattern-or-practice action"
+    ],
+    "answer": 1,
+    "explanation": "A private FHA lawsuit may be filed within two years of the discriminatory act, so at 20 months it is timely. The HUD complaint window is one year, which has passed.",
+    "citation": "42 U.S.C. § 3613(a)(1)(A); 42 U.S.C. § 3610(a)(1)(A)"
+  },
+  {
+    "id": "fair-housing-a048",
+    "topic": "fair-housing",
+    "q": "The U.S. Attorney General may bring a Fair Housing Act suit directly when there is reasonable cause to believe a respondent engaged in:",
+    "options": [
+      "Any single act reported to HUD",
+      "A dispute over one security deposit",
+      "A pattern or practice of discrimination",
+      "A licensing violation referred by a state"
+    ],
+    "answer": 2,
+    "explanation": "The Department of Justice may sue on its own for a pattern or practice of discrimination or a denial of rights raising an issue of general public importance. An individual complaint usually proceeds through HUD or a private lawsuit instead.",
+    "citation": "42 U.S.C. § 3614(a)"
+  },
+  {
+    "id": "fair-housing-a049",
+    "topic": "fair-housing",
+    "q": "Which statement about Fair Housing Act enforcement is correct?",
+    "options": [
+      "A victim must file with HUD before suing",
+      "A victim may sue without first filing with HUD",
+      "HUD complaints may be filed within 2 years",
+      "Only HUD may seek damages for the victim"
+    ],
+    "answer": 1,
+    "explanation": "A private FHA suit does not require exhausting HUD's process; the person may go directly to court within two years. Two years is the lawsuit deadline, whereas a HUD complaint must be filed within one year.",
+    "citation": "42 U.S.C. § 3613(a); 42 U.S.C. § 3610(a)"
+  },
+  {
+    "id": "fair-housing-b001",
+    "topic": "fair-housing",
+    "q": "The New York State Human Rights Law protects religion in housing using which statutory term?",
+    "options": [
+      "Faith tradition",
+      "Belief system",
+      "Creed",
+      "Spiritual preference"
+    ],
+    "answer": 2,
+    "explanation": "Executive Law §296(5) lists \"creed\" where the federal Fair Housing Act says \"religion.\" The other terms sound similar but are not the statute's wording.",
+    "citation": "NY Executive Law §296(5)"
+  },
+  {
+    "id": "fair-housing-b002",
+    "topic": "fair-housing",
+    "q": "Under the New York State Human Rights Law, the housing protection for age does not apply to persons under what age?",
+    "options": [
+      "18",
+      "21",
+      "55",
+      "62"
+    ],
+    "answer": 0,
+    "explanation": "Executive Law §296(5)(f) says the age protections in housing do not apply to persons under 18; households with minors are covered under familial status instead. 55 and 62 are the senior-housing exemption ages, not the floor for age protection.",
+    "citation": "NY Executive Law §296(5)(f)"
+  },
+  {
+    "id": "fair-housing-b003",
+    "topic": "fair-housing",
+    "q": "A Rochester landlord turns down a qualified applicant because she is divorced, saying he prefers to rent to married tenants. Under New York law, this is:",
+    "options": [
+      "Lawful, because marital status is not a federal class",
+      "Lawful, if the policy is applied to every applicant",
+      "Unlawful only if the applicant has minor children",
+      "Unlawful discrimination based on marital status"
+    ],
+    "answer": 3,
+    "explanation": "Marital status (being single, married, divorced, separated, or widowed) is protected under Executive Law §296(5) even though the federal Fair Housing Act does not list it. Applying the preference to every applicant does not help, because the rule itself turns on a protected class. Note: NY courts have held that a married-couples-only rule for cohabiting partners is not marital status discrimination (Levin v. Yeshiva Univ.), which is why this stem uses an individual's own status.",
+    "citation": "NY Executive Law §296(5)(a)"
+  },
+  {
+    "id": "fair-housing-b004",
+    "topic": "fair-housing",
+    "q": "An applicant's income comes from Social Security disability benefits and court-ordered child support. The landlord says only wages from a job count toward qualifying. Under New York law, this policy is:",
+    "options": [
+      "Lawful, because only housing vouchers are protected",
+      "Unlawful, because both are lawful sources of income",
+      "Lawful, because support payments can end at any time",
+      "Unlawful only if the landlord gets federal subsidies"
+    ],
+    "answer": 1,
+    "explanation": "Executive Law §292(36) defines lawful source of income to include child support, alimony, Social Security, public assistance, housing vouchers, and any other lawful income. The protection is not limited to Section 8 vouchers.",
+    "citation": "NY Executive Law §§292(36), 296(5)"
+  },
+  {
+    "id": "fair-housing-b005",
+    "topic": "fair-housing",
+    "q": "A Bronx apartment rents for $2,400 a month. The applicant's CityFHEPS voucher pays $1,800, and she pays the remaining $600. The landlord requires annual income of 40 times the monthly rent. Under NYC Commission on Human Rights guidance, what is the most annual income the landlord may require?",
+    "options": [
+      "$96,000",
+      "$24,000",
+      "$72,000",
+      "$7,200"
+    ],
+    "answer": 1,
+    "explanation": "An income test may be applied only to the tenant's share: $600 × 40 = $24,000. $96,000 wrongly uses the full rent ($2,400 × 40), $72,000 uses the voucher's share ($1,800 × 40), and $7,200 is just a year of her share ($600 × 12).",
+    "citation": "NYC Human Rights Law (lawful source of income); NYC Commission on Human Rights source-of-income guidance"
+  },
+  {
+    "id": "fair-housing-b006",
+    "topic": "fair-housing",
+    "q": "A Brooklyn applicant's housing subsidy covers 100% of the monthly rent. Under NYC source-of-income guidance, what minimum income requirement may the landlord impose?",
+    "options": [
+      "40 times the full monthly rent",
+      "40 times the amount the subsidy pays",
+      "Three times the monthly rent in wages",
+      "None, since the subsidy pays all of the rent"
+    ],
+    "answer": 3,
+    "explanation": "When the program pays the entire rent, the applicant's own income has no bearing on whether rent gets paid, so any minimum income requirement acts as a voucher ban. Each distractor applies an ordinary market formula that screens out subsidy holders.",
+    "citation": "NYC Human Rights Law (lawful source of income); NYC Commission on Human Rights guidance"
+  },
+  {
+    "id": "fair-housing-b007",
+    "topic": "fair-housing",
+    "q": "A Buffalo landlord's online listing ends with \"No programs, no Section 8.\" Under the New York State Human Rights Law, this statement is:",
+    "options": [
+      "An unlawful ad expressing a source-of-income limit",
+      "Lawful, because it does not mention race or color",
+      "Lawful, as long as an Equal Housing logo appears",
+      "Unlawful only once a voucher holder is turned away"
+    ],
+    "answer": 0,
+    "explanation": "Executive Law §296(5)(a)(3) prohibits any advertisement that expresses a limitation based on lawful source of income. The ad is a violation by itself, before anyone is refused, and a fair housing logo does not cure discriminatory text.",
+    "citation": "NY Executive Law §296(5)(a)(3), (c)(2)"
+  },
+  {
+    "id": "fair-housing-b008",
+    "topic": "fair-housing",
+    "q": "A landlord tells his listing agent, \"Tell anyone with a voucher the unit is already rented.\" A voucher holder calls about the available unit. The salesperson should:",
+    "options": [
+      "Follow it, since only the owner can be held liable",
+      "Follow it only if the owner puts it in writing",
+      "Refuse the instruction; the licensee would be liable too",
+      "Refer the caller to a coworker to avoid conflict"
+    ],
+    "answer": 2,
+    "explanation": "Executive Law §296(5)(c) independently bars brokers and salespersons from refusing to negotiate based on lawful source of income, or from falsely saying a unit is unavailable. Following a client's discriminatory order is not a defense, and handing the caller to a coworker does not change that.",
+    "citation": "NY Executive Law §296(5)(c)(1)"
+  },
+  {
+    "id": "fair-housing-b009",
+    "topic": "fair-housing",
+    "q": "A landlord in Albany advertises an apartment for \"U.S. citizens only.\" Under New York law, the ad is:",
+    "options": [
+      "Lawful, because the federal Fair Housing Act omits it",
+      "Lawful, if the same rule applies to every applicant",
+      "Unlawful; citizenship or immigration status is protected",
+      "Unlawful only inside the five boroughs of New York City"
+    ],
+    "answer": 2,
+    "explanation": "Executive Law §296(5) protects citizenship or immigration status statewide, not just in NYC. A narrower federal list is no defense to violating state law.",
+    "citation": "NY Executive Law §296(5)(a)(1), (3)"
+  },
+  {
+    "id": "fair-housing-b010",
+    "topic": "fair-housing",
+    "q": "A property manager in Westchester withdraws a lease offer after learning that the applicant is transgender. Under New York law, this is:",
+    "options": [
+      "Unlawful gender identity or expression discrimination",
+      "Lawful, because only sex assigned at birth is covered",
+      "Lawful, unless the building receives public funds",
+      "Unlawful only under the NYC Human Rights Law"
+    ],
+    "answer": 0,
+    "explanation": "Gender identity or expression is a protected class statewide under Executive Law §296(5), added in 2019. The protection applies to private housing, not just publicly assisted housing or NYC.",
+    "citation": "NY Executive Law §296(5)(a)"
+  },
+  {
+    "id": "fair-housing-b011",
+    "topic": "fair-housing",
+    "q": "A rental application in Utica asks, \"Are you a member of the New York National Guard or other organized militia?\" Under New York law, this question is:",
+    "options": [
+      "Lawful, because deployments can affect lease terms",
+      "Lawful, if the question is asked of every applicant",
+      "Unlawful only for publicly assisted housing",
+      "Unlawful, though an applicant may volunteer membership"
+    ],
+    "answer": 3,
+    "explanation": "Executive Law §296(5)(g) bars written or oral inquiries about membership in the state organized militia in housing, but lets a member disclose it voluntarily. Military status is also a protected class under §296(5).",
+    "citation": "NY Executive Law §296(5)(g)"
+  },
+  {
+    "id": "fair-housing-b012",
+    "topic": "fair-housing",
+    "q": "A Syracuse rental application asks, \"Have you ever been arrested?\" An applicant was arrested once, and the charge was dismissed. Under Executive Law §296(16), which statement is correct?",
+    "options": [
+      "She must disclose it, because arrest records are public information",
+      "She may answer as if the arrest never happened",
+      "She must disclose it but may attach a copy of the dismissal order",
+      "She must disclose it only if the landlord runs a background check"
+    ],
+    "answer": 1,
+    "explanation": "Section 296(16) makes it unlawful in housing to ask about or act on a non-pending arrest that ended in the person's favor, and says a person asked for that information may respond as if the arrest did not occur. A dismissal is a favorable termination, so she need not disclose it under any of the distractors' conditions.",
+    "citation": "NY Executive Law §296(16)"
+  },
+  {
+    "id": "fair-housing-b013",
+    "topic": "fair-housing",
+    "q": "Executive Law §296(16) does NOT bar a housing provider from asking about which of the following?",
+    "options": [
+      "An adjournment in contemplation of dismissal",
+      "An unsealed criminal conviction",
+      "A youthful offender adjudication",
+      "A conviction sealed under the Clean Slate Act"
+    ],
+    "answer": 1,
+    "explanation": "Section 296(16) protects favorable terminations, ACDs, youthful offender adjudications, and sealed convictions (including Clean Slate sealing). An unsealed conviction is outside §296(16), although other rules such as NYC's Fair Chance Housing Law and disparate-impact principles can still limit how it is used.",
+    "citation": "NY Executive Law §296(16)"
+  },
+  {
+    "id": "fair-housing-b014",
+    "topic": "fair-housing",
+    "q": "Under New York City's Fair Chance Housing Law, when may a covered landlord who chooses to run a criminal background check do so?",
+    "options": [
+      "Before accepting the application, so unqualified applicants pay no fee",
+      "At any point, if the applicant signs a written consent to the check",
+      "Only after the tenant moves in and the lease term has begun",
+      "After reviewing general eligibility and making a conditional offer"
+    ],
+    "answer": 3,
+    "explanation": "Since January 1, 2025, covered NYC providers must first review all non-criminal qualifications (income, credit, references) and extend a conditional offer before running any criminal background check. The applicant's consent does not allow an earlier check.",
+    "citation": "NYC Admin. Code §8-107 (Fair Chance Housing Law, Local Law 24 of 2024)"
+  },
+  {
+    "id": "fair-housing-b015",
+    "topic": "fair-housing",
+    "q": "Under New York City's Fair Chance Housing Law, a covered landlord may review a misdemeanor conviction only if the applicant's release date (or sentencing date, if there was no incarceration) falls within the last:",
+    "options": [
+      "3 years",
+      "5 years",
+      "7 years",
+      "10 years"
+    ],
+    "answer": 0,
+    "explanation": "Reviewable history is limited to misdemeanors within 3 years and felonies within 5 years of release or sentencing, plus convictions requiring current sex-offense registration. 5 years is the felony window.",
+    "citation": "NYC Admin. Code §8-107 (Fair Chance Housing Law)"
+  },
+  {
+    "id": "fair-housing-b016",
+    "topic": "fair-housing",
+    "q": "Which line in a Manhattan rental ad would violate New York City's Fair Chance Housing Law?",
+    "options": [
+      "Income verification required of all",
+      "Two-year lease available at signing",
+      "Criminal background check required",
+      "Pets considered on a case-by-case basis"
+    ],
+    "answer": 2,
+    "explanation": "The NYC Commission on Human Rights treats statements about criminal background checks in ads or applications, such as \"background check required\" or \"no felons,\" as expressing an unlawful limitation, unless federal or state law requires or authorizes the check (and the ad cites that law). The other lines describe neutral lease terms.",
+    "citation": "NYC Admin. Code §8-107 (Fair Chance Housing Law); NYC Commission on Human Rights guidance"
+  },
+  {
+    "id": "fair-housing-b017",
+    "topic": "fair-housing",
+    "q": "An owner lives in one unit of a two-family house in Albany and posts an online ad for the other unit stating a preference against families with children. Under Executive Law §296(5)(a)(4), what is the result?",
+    "options": [
+      "The ad is lawful, because the exemption covers advertising too",
+      "The ad is unlawful, but refusals to rent remain exempt",
+      "The ad is unlawful, and the owner also loses the two-family exemption",
+      "Nothing, because the exemption applies only to licensees"
+    ],
+    "answer": 2,
+    "explanation": "The two-family owner-occupied exemption covers only refusals and terms (subparagraphs 1 and 2), not discriminatory ads (subparagraph 3). The statute also says the property is no longer exempt if the owner engages in prohibited advertising.",
+    "citation": "NY Executive Law §296(5)(a)(4)(i)"
+  },
+  {
+    "id": "fair-housing-b018",
+    "topic": "fair-housing",
+    "q": "A Syracuse homeowner who lives in her house advertises a spare bedroom in it for \"female renters only.\" Under the New York State Human Rights Law, this ad is:",
+    "options": [
+      "Permitted under the owner-occupied room-rental exemption",
+      "Prohibited, because advertising is never exempt",
+      "Permitted only if a licensed broker places the ad",
+      "Prohibited unless the house contains two units"
+    ],
+    "answer": 0,
+    "explanation": "Section 296(5)(a)(4)(ii) exempts renting a room in a housing accommodation by an owner who lives there from the refusal, terms, and advertising provisions alike. That is different from the two-family exemption, which does not cover ads.",
+    "citation": "NY Executive Law §296(5)(a)(4)(ii)"
+  },
+  {
+    "id": "fair-housing-b019",
+    "topic": "fair-housing",
+    "q": "A landlord in Binghamton offers a rent discount to tenants who are 65 or older. Under the New York State Human Rights Law, this is:",
+    "options": [
+      "Prohibited age discrimination",
+      "Permitted only in 55-and-older housing",
+      "Permitted only with DHR approval",
+      "Expressly permitted by the statute"
+    ],
+    "answer": 3,
+    "explanation": "Executive Law §296(17) says nothing in §296 prohibits offering and accepting a housing discount for persons 65 or older. No senior-community status or agency approval is required.",
+    "citation": "NY Executive Law §296(17)"
+  },
+  {
+    "id": "fair-housing-b020",
+    "topic": "fair-housing",
+    "q": "A landlord adopts a facially neutral screening rule with no intent to discriminate, but the rule predictably excludes a protected group at a much higher rate. Under New York's Human Rights Law, the rule:",
+    "options": [
+      "Is lawful, because no discriminatory intent was shown",
+      "Can be unlawful unless a legally sufficient justification exists",
+      "Is lawful if it is applied the same way to all applicants",
+      "Is unlawful only if a court finds intentional bias later"
+    ],
+    "answer": 1,
+    "explanation": "Executive Law §296(5-a) lets a housing claim be proved by discriminatory effect. The practice survives only if it is necessary to a substantial, legitimate, nondiscriminatory interest that a less discriminatory practice could not serve.",
+    "citation": "NY Executive Law §296(5-a)"
+  },
+  {
+    "id": "fair-housing-b021",
+    "topic": "fair-housing",
+    "q": "An appraiser lowers a home's value because many nearby residents share a particular national origin. Under the New York State Human Rights Law, this is:",
+    "options": [
+      "A permissible use of neighborhood data",
+      "An unlawful discriminatory practice",
+      "Allowed if disclosed in the report",
+      "Only a professional-ethics concern"
+    ],
+    "answer": 1,
+    "explanation": "Executive Law §296(5)(h) prohibits basing an appraisal or opinion of value on the protected characteristics of owners or occupants of the property or of properties nearby. Disclosing the factor does not make it lawful.",
+    "citation": "NY Executive Law §296(5)(h)"
+  },
+  {
+    "id": "fair-housing-b022",
+    "topic": "fair-housing",
+    "q": "A broker refuses to show a vacant storefront to a business owner because of the owner's national origin, reasoning that fair housing law covers only homes. Under New York law, the broker is:",
+    "options": [
+      "Correct, because only dwellings are covered",
+      "Correct, unless the space includes an apartment",
+      "Wrong only if the space is publicly assisted",
+      "Wrong; the state law covers commercial space too"
+    ],
+    "answer": 3,
+    "explanation": "Executive Law §296(5)(c) bars brokers and salespersons from discriminating in housing, land, or commercial space. The federal Fair Housing Act focuses mainly on dwellings, but New York's broker provision is broader.",
+    "citation": "NY Executive Law §296(5)(c)"
+  },
+  {
+    "id": "fair-housing-b023",
+    "topic": "fair-housing",
+    "q": "A salesperson representing a landlord is leasing a commercial office suite. Must she give a prospective tenant the Housing and Anti-Discrimination Disclosure (DOS-2156)?",
+    "options": [
+      "Yes, at first substantive contact; the rule covers all real property",
+      "No, because the form applies only to one- to four-family homes",
+      "No, because the form is required only for residential dwellings",
+      "Only if the prospective tenant specifically asks to receive it"
+    ],
+    "answer": 0,
+    "explanation": "19 NYCRR §175.28(c) applies the disclosure to all real property, including condos, co-ops, vacant land, and commercial property. The one- to four-family limit is a trap borrowed from the agency disclosure rule.",
+    "citation": "19 NYCRR §175.28(c)"
+  },
+  {
+    "id": "fair-housing-b024",
+    "topic": "fair-housing",
+    "q": "Each of the following satisfies the DOS-2156 delivery rule EXCEPT:",
+    "options": [
+      "Emailing a link with text saying it explains the NYS Human Rights Law",
+      "Handing over a hard copy and getting a signed acknowledgment",
+      "Explaining fair housing rights orally during a showing",
+      "Texting the prospective buyer the form as an attachment"
+    ],
+    "answer": 2,
+    "explanation": "19 NYCRR §175.28(b) allows email, text, electronic messaging, fax, or hard copy, and allows a link if accompanying text says it contains Human Rights Law information. It expressly states that oral disclosure does not satisfy the rule.",
+    "citation": "19 NYCRR §175.28(b)"
+  },
+  {
+    "id": "fair-housing-b025",
+    "topic": "fair-housing",
+    "q": "A prospective seller receives a hard copy of the DOS-2156 but refuses to sign the acknowledgment. What must the salesperson do?",
+    "options": [
+      "Stop working with the seller until the acknowledgment is signed",
+      "Note the refusal on the agency disclosure form and keep it 1 year",
+      "Prepare a sworn written declaration of when it was given and keep it at least 3 years",
+      "Ask the seller's attorney to sign the acknowledgment on the seller's behalf"
+    ],
+    "answer": 2,
+    "explanation": "Under 19 NYCRR §175.28(d), if the consumer declines to sign, the licensee sets out under oath or affirmation a written declaration of when the notice was provided and keeps it at least 3 years. Refusing to sign does not end the relationship.",
+    "citation": "19 NYCRR §175.28(d)"
+  },
+  {
+    "id": "fair-housing-b026",
+    "topic": "fair-housing",
+    "q": "Which statement does the DOS-2156 Housing and Anti-Discrimination Disclosure NOT make to consumers?",
+    "options": [
+      "A fee is charged to file a complaint",
+      "Steering is a violation of the law",
+      "Retaliation for complaining is unlawful",
+      "Complaints may be filed with DHR or DOS"
+    ],
+    "answer": 0,
+    "explanation": "The form says complaints may go to the Division of Human Rights or the Department of State, lists steering among violations, and states that retaliation is unlawful. It also says there is no fee for these services.",
+    "citation": "DOS-2156 Housing and Anti-Discrimination Disclosure Form; 19 NYCRR §175.28"
+  },
+  {
+    "id": "fair-housing-b027",
+    "topic": "fair-housing",
+    "q": "A prospective tenant signs the acknowledgment on the DOS-2156. By signing, the tenant is:",
+    "options": [
+      "Agreeing to be represented by the brokerage",
+      "Waiving the right to file a DHR complaint",
+      "Certifying eligibility under fair housing law",
+      "Confirming only that the form was received"
+    ],
+    "answer": 3,
+    "explanation": "The signature acknowledges receipt of the disclosure and nothing more. It creates no agency relationship and cannot waive Human Rights Law rights.",
+    "citation": "19 NYCRR §175.28; DOS-2156"
+  },
+  {
+    "id": "fair-housing-b028",
+    "topic": "fair-housing",
+    "q": "A broker's branch office is on the 12th floor of an office tower and cannot be reached from the sidewalk. Where must the Fair Housing and Anti-Discrimination Notice be displayed?",
+    "options": [
+      "On the tower's ground-floor lobby directory",
+      "Where the office's business license is posted",
+      "Nowhere, because there is no street window",
+      "On the outside door of the elevator bank"
+    ],
+    "answer": 1,
+    "explanation": "19 NYCRR §175.29(b) generally requires the notice in an office window visible from the sidewalk. If the office is not accessible from the sidewalk, the notice must be posted where the business license is posted under RPL §441-a.",
+    "citation": "19 NYCRR §175.29(b)"
+  },
+  {
+    "id": "fair-housing-b029",
+    "topic": "fair-housing",
+    "q": "A salesperson runs a personal website showing her listings. What does 19 NYCRR §175.29 require of the site?",
+    "options": [
+      "Nothing, because the broker's website already has one",
+      "A prominent homepage link to the DOS fair housing notice",
+      "The notice only on pages that show rental listings",
+      "A copy of the broker's operating procedures only"
+    ],
+    "answer": 1,
+    "explanation": "Section 175.29(c) requires every website created and maintained by brokers, associate brokers, salespersons, and teams to display prominently on the homepage a link to the Department's notice. The broker's own posting does not cover the agent's separate site.",
+    "citation": "19 NYCRR §175.29(c)"
+  },
+  {
+    "id": "fair-housing-b030",
+    "topic": "fair-housing",
+    "q": "A broker tells his agents that because the Fair Housing Notice is posted in the office window, they no longer need to hand out the DOS-2156 form. The broker is:",
+    "options": [
+      "Correct, because the posted notice has the same content",
+      "Correct for walk-in customers but not for online leads",
+      "Wrong only for transactions involving rental property",
+      "Wrong; posting and individual disclosure are separate duties"
+    ],
+    "answer": 3,
+    "explanation": "The posting requirement (19 NYCRR §175.29) and the individual disclosure at first substantive contact (§175.28) are independent obligations. Meeting one does not satisfy the other.",
+    "citation": "19 NYCRR §§175.28, 175.29"
+  },
+  {
+    "id": "fair-housing-b031",
+    "topic": "fair-housing",
+    "q": "A brokerage's written standardized operating procedures say buyers do not need mortgage pre-approval before receiving services. One of its agents demands pre-approval letters only from some buyers. Which statement is correct?",
+    "options": [
+      "The agent is violating the SOPs and faces RPL §441-c discipline",
+      "The agent may impose stricter terms on a case-by-case basis",
+      "There is no violation, because pre-approval is a common practice",
+      "Only the broker is accountable, because the SOPs are the broker's"
+    ],
+    "answer": 0,
+    "explanation": "RPL §442-h(4) requires brokers to set uniform prerequisites for prospective homebuyers. Any broker or salesperson who does not follow them is subject to penalties under RPL §441-c. Applying requirements selectively is the unequal treatment the law targets.",
+    "citation": "NY RPL §442-h(4)"
+  },
+  {
+    "id": "fair-housing-b032",
+    "topic": "fair-housing",
+    "q": "Under RPL §442-h, what must a broker do with the brokerage's standardized operating procedures for prospective homebuyers?",
+    "options": [
+      "File them with the Division of Human Rights for approval before use",
+      "Have every buyer sign them before the first property showing",
+      "Date stamp, notarize, and post them on the broker's website and apps",
+      "Publish them once a year in a newspaper serving each office area"
+    ],
+    "answer": 2,
+    "explanation": "Section 442-h(4)(b) requires brokers to date stamp, notarize, and post the procedures on any public website and mobile app they maintain, and to provide copies on request at their offices. There is no DHR filing or buyer-signature requirement.",
+    "citation": "NY RPL §442-h(4)(b)"
+  },
+  {
+    "id": "fair-housing-b033",
+    "topic": "fair-housing",
+    "q": "A broker changes the brokerage's standardized operating procedures for prospective homebuyers. Within how many days must the revised procedures be date stamped, notarized, and posted?",
+    "options": [
+      "10 days",
+      "60 days",
+      "30 days",
+      "90 days"
+    ],
+    "answer": 2,
+    "explanation": "RPL §442-h(4)(b) requires changed procedures to be date stamped, notarized, and posted within 30 days, and the changes must be archived.",
+    "citation": "NY RPL §442-h(4)(b)"
+  },
+  {
+    "id": "fair-housing-b034",
+    "topic": "fair-housing",
+    "q": "A real estate team operates its own website separate from its broker's site. Regarding the broker's standardized operating procedures, the team's site should:",
+    "options": [
+      "Post the broker's procedures or link directly to them",
+      "Post the team's own separate procedures instead",
+      "Omit them, since only the broker's site is covered",
+      "Post them only on pages that feature listings"
+    ],
+    "answer": 0,
+    "explanation": "RPL §442-h(4)(b) provides that a website or mobile app maintained by a team or salesperson should post the broker's policies or link directly to them on the broker's site or app. Teams do not write their own separate procedures.",
+    "citation": "NY RPL §442-h(4)(b)"
+  },
+  {
+    "id": "fair-housing-b035",
+    "topic": "fair-housing",
+    "q": "A salesperson suspects that a caller asking about a listing is a fair housing tester. The best response is to:",
+    "options": [
+      "Ask the caller directly whether they are working as a tester",
+      "Refer the call to the broker and give no listing information",
+      "Provide only information the caller asks for in writing",
+      "Give the same information and service required by the firm's procedures"
+    ],
+    "answer": 3,
+    "explanation": "Testers check whether similar people receive similar treatment, so the safe course is to treat every prospect the same way under the brokerage's uniform procedures. Screening or deflecting suspected testers produces the very unequal treatment they are designed to detect.",
+    "citation": "NY Executive Law §296(5)(c); NY RPL §442-h(4)"
+  },
+  {
+    "id": "fair-housing-b036",
+    "topic": "fair-housing",
+    "q": "A renter in Yonkers believes a landlord discriminated against her on May 1, 2026. Under current Executive Law §297(5), she generally has how long to file a complaint with the NYS Division of Human Rights?",
+    "options": [
+      "1 year",
+      "3 years",
+      "2 years",
+      "180 days"
+    ],
+    "answer": 1,
+    "explanation": "For conduct on or after February 15, 2024, §297(5) allows 3 years to file with DHR. One year is the HUD complaint period under the federal Fair Housing Act, and 2 years is the federal private lawsuit period.",
+    "citation": "NY Executive Law §297(5)"
+  },
+  {
+    "id": "fair-housing-b037",
+    "topic": "fair-housing",
+    "q": "An applicant files a housing discrimination complaint with the NYS Division of Human Rights. Later, while the complaint is pending, she wants to sue in state court on the same claim. Generally:",
+    "options": [
+      "She may pursue both forums at the same time on the same claim",
+      "Filing with DHR elected that forum and bars a court suit on the same claim",
+      "She must first sue in court before DHR can investigate the claim",
+      "She may sue in court only after DHR issues a probable-cause finding"
+    ],
+    "answer": 1,
+    "explanation": "Under the election-of-remedies rule in Executive Law §297(9), filing with DHR generally bars a later court action on the same claim, with narrow exceptions such as a dismissal for administrative convenience. Choosing a forum at the start is important.",
+    "citation": "NY Executive Law §297(9)"
+  },
+  {
+    "id": "fair-housing-b038",
+    "topic": "fair-housing",
+    "q": "A buyer believes a salesperson steered her away from certain neighborhoods. Besides filing with the Division of Human Rights, the DOS-2156 tells her she may also complain to:",
+    "options": [
+      "The county clerk's office where the deed is recorded",
+      "The local board of assessment review",
+      "The Department of Financial Services",
+      "The Department of State, Division of Licensing Services"
+    ],
+    "answer": 3,
+    "explanation": "The DOS-2156 lists both DHR and the Department of State, Division of Licensing Services, which can discipline the licensee under RPL §441-c. The other agencies have no role in licensee fair housing complaints.",
+    "citation": "DOS-2156; NY RPL §441-c"
+  },
+  {
+    "id": "fair-housing-b039",
+    "topic": "fair-housing",
+    "q": "Of the 22.5 continuing education hours a New York salesperson needs each two-year term, at least how many must cover fair housing and/or discrimination?",
+    "options": [
+      "3 hours",
+      "2 hours",
+      "2.5 hours",
+      "1 hour"
+    ],
+    "answer": 0,
+    "explanation": "The fair housing requirement is 3 hours. 2 hours is the requirement for cultural competency and implicit bias, 2.5 is ethical business practices, and 1 hour is recent legal matters (and agency after the first term).",
+    "citation": "NY RPL §441(3); 19 NYCRR Part 177"
+  },
+  {
+    "id": "fair-housing-b040",
+    "topic": "fair-housing",
+    "q": "A salesperson is renewing for a second (or later) two-year term. After the required components (fair housing 3, agency 1, ethical business practices 2.5, recent legal matters 1, cultural competency 2, implicit bias 2), how many of the 22.5 hours are left for other approved courses?",
+    "options": [
+      "10 hours",
+      "13 hours",
+      "11 hours",
+      "9 hours"
+    ],
+    "answer": 2,
+    "explanation": "Required hours: 3 + 1 + 2.5 + 1 + 2 + 2 = 11.5, so 22.5 − 11.5 = 11. 10 uses the first-term agency requirement of 2 hours (22.5 − 12.5 = 10). 13 leaves out the 2 implicit bias hours (22.5 − 9.5 = 13).",
+    "citation": "NY RPL §441(3); 19 NYCRR Part 177"
+  },
+  {
+    "id": "fair-housing-b041",
+    "topic": "fair-housing",
+    "q": "The implicit bias training now required in New York real estate continuing education addresses which concept?",
+    "options": [
+      "Conscious, openly stated hostility toward a protected class",
+      "Statistical redlining by lenders in specific neighborhoods",
+      "Attitudes or stereotypes that affect decisions unconsciously",
+      "Rules on reasonable accommodations for disabled tenants"
+    ],
+    "answer": 2,
+    "explanation": "Implicit bias refers to attitudes or stereotypes that shape a person's understanding, actions, and decisions without conscious awareness. That is why the state requires 2 dedicated CE hours even for licensees who would never knowingly discriminate.",
+    "citation": "NY RPL §441(3); 19 NYCRR Part 177"
+  },
+  {
+    "id": "fair-housing-b042",
+    "topic": "fair-housing",
+    "q": "Which pair of New York CE components each requires 2 hours per license term?",
+    "options": [
+      "Cultural competency and implicit bias",
+      "Fair housing and ethical business practices",
+      "Recent legal matters and fair housing",
+      "Ethical business practices and recent legal matters"
+    ],
+    "answer": 0,
+    "explanation": "Cultural competency and implicit bias are 2 hours each. Fair housing is 3, ethical business practices 2.5, and recent legal matters 1.",
+    "citation": "NY RPL §441(3); 19 NYCRR Part 177"
+  },
+  {
+    "id": "fair-housing-b043",
+    "topic": "fair-housing",
+    "q": "Under 19 NYCRR §177.9, an entity approved to teach fair housing courses must:",
+    "options": [
+      "Have every student sign a fair housing pledge to DOS",
+      "Submit each student's exam answers to DHR within 30 days",
+      "Limit each fair housing class to 25 students in person",
+      "Record each course in video and audio and keep it one year"
+    ],
+    "answer": 3,
+    "explanation": "Section 177.9, added with the 2020 fair housing regulations, requires a full audio and video recording of each fair housing course, kept for one year.",
+    "citation": "19 NYCRR §177.9"
+  },
+  {
+    "id": "fair-housing-b044",
+    "topic": "fair-housing",
+    "q": "The Secretary of State finds that owners in a defined area are being repeatedly solicited by agents and fear that values will fall because people of a different background are moving in. A nonsolicitation order may stay in effect for no more than:",
+    "options": [
+      "1 year",
+      "5 years",
+      "3 years",
+      "10 years"
+    ],
+    "answer": 1,
+    "explanation": "RPL §442-h(2)(a) limits a nonsolicitation order to 5 years, though it may be re-adopted or amended through the same procedure. The order targets blockbusting-style solicitation.",
+    "citation": "NY RPL §442-h(2)(a)"
+  },
+  {
+    "id": "fair-housing-b045",
+    "topic": "fair-housing",
+    "q": "A cease-and-desist zone is in effect. A salesperson mails a listing solicitation postcard to an owner whose name appears on the zone's current cease-and-desist list. This is:",
+    "options": [
+      "Permitted, because only phone calls and door knocks are barred",
+      "A violation, because direct solicitation of listed owners is barred",
+      "Permitted, if the postcard includes a fair housing statement",
+      "A violation only if the owner already has the home listed"
+    ],
+    "answer": 1,
+    "explanation": "Under RPL §442-h(3), licensees may not solicit a listing from an owner on the current cease-and-desist list, and the ban covers direct forms such as mail, phone, and personal contact. A fair housing statement does not create an exception.",
+    "citation": "NY RPL §442-h(3)(a)"
+  },
+  {
+    "id": "fair-housing-b046",
+    "topic": "fair-housing",
+    "q": "A Queens landlord rejects an otherwise qualified applicant because of her body weight. Which statement is most accurate?",
+    "options": [
+      "No law applies, because weight is not a protected class",
+      "It is lawful if the landlord cites building safety concerns",
+      "Only the federal Fair Housing Act covers this situation",
+      "The NYC Human Rights Law expressly protects height and weight"
+    ],
+    "answer": 3,
+    "explanation": "New York City added height and weight to its Human Rights Law in 2023, covering housing. Those classes are not on the state or federal lists, which is why local law matters for NYC transactions.",
+    "citation": "NYC Admin. Code §8-107(5) (Local Law 61 of 2023)"
+  },
+  {
+    "id": "fair-housing-b047",
+    "topic": "fair-housing",
+    "q": "Under Executive Law §170-d and DHR's regulation, when must a real estate licensee give a prospective tenant the notice of rights to reasonable accommodations and modifications for persons with disabilities?",
+    "options": [
+      "At first substantive contact with the prospective tenant",
+      "Within 30 days after the tenant's lease begins",
+      "Only when the tenant requests an accommodation",
+      "When the tenant signs the lease, as an addendum"
+    ],
+    "answer": 0,
+    "explanation": "Under 9 NYCRR §466.15, licensees give this notice to prospective tenants at first substantive contact. The 30-day deadline applies to housing providers giving notice to new tenants, which is the trap.",
+    "citation": "NY Executive Law §170-d; 9 NYCRR §466.15"
+  },
+  {
+    "id": "fair-housing-b048",
+    "topic": "fair-housing",
+    "q": "A Long Island landlord accepts Section 8 vouchers but refuses applicants who pay with a different state-funded rental assistance program. Under New York law, this practice is:",
+    "options": [
+      "Lawful, because Section 8 is the only program covered",
+      "Lawful, if the landlord accepts at least one program",
+      "Unlawful, since any housing assistance is protected",
+      "Unlawful only if the program pays the landlord directly"
+    ],
+    "answer": 2,
+    "explanation": "Executive Law §292(36) covers any form of federal, state, or local housing assistance, whether or not it is paid directly to the landlord. Accepting one program does not excuse refusing another.",
+    "citation": "NY Executive Law §§292(36), 296(5)"
+  },
+  {
+    "id": "fair-housing-b049",
+    "topic": "fair-housing",
+    "q": "An Albany landlord is screening a voucher holder who pays a share of the rent. Which practice is permissible under New York law?",
+    "options": [
+      "Requiring a guarantor only from voucher-holding applicants",
+      "Charging voucher holders a larger security deposit",
+      "Checking prior-landlord references, as for every applicant",
+      "Measuring income against the full rent, ignoring the voucher"
+    ],
+    "answer": 2,
+    "explanation": "Landlords may apply the same lawful, nondiscriminatory criteria to everyone, such as references. Extra conditions only for voucher holders are discriminatory terms under §296(5)(a)(2), and income tests based on the full rent screen out voucher holders contrary to DHR guidance.",
+    "citation": "NY Executive Law §296(5)(a)(2); NYS DHR source-of-income guidance"
   }
 ]

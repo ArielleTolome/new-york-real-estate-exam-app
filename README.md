@@ -4,7 +4,7 @@ Offline-first PWA for the New York State Real Estate Salesperson licensing exam.
 
 **Live:** https://nyrealestate.pfsend.com (alias https://nyrealestate.pigeonfi.com)
 
-- **430 questions** across all 19 NYS syllabus topics (`questions.json`, built from `data/topics/*.json`), each with a rationale and a statutory citation (NY RPL, 19 NYCRR, Executive Law § 296, RESPA/TRID, …).
+- **2,060 questions** across all 19 NYS syllabus topics, 80–150 per topic, weighted toward high-yield areas (`questions.json`, built from `data/topics/*.json`). Each has a rationale and a statutory citation (NY RPL, 19 NYCRR, Executive Law § 296, RESPA/TRID, …), and every one was fact-checked by a second agent. `npm run build` rejects malformed items and near-duplicates.
 - **Custom quiz builder:** pick topics, count (10/25/50/75/custom), Tutor mode (instant green/red plus a citation drawer) or timed Exam mode (90:00 for 75 questions, answers hidden until you submit), pool filters (all / unseen / bookmarked / mistakes), and shuffling of questions and answer positions.
 - **Readiness dashboard:** countdown to Oct 14–15 2026, readiness gauge against the 70% pass line, streak, coverage, and accuracy.
 - **Analytics:** quiz log with pass/fail, per-topic accuracy bars, a weak-topic heatmap (<70%), and one-tap "Retest Weak Areas".

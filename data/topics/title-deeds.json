@@ -306,5 +306,1237 @@
     "answer": 2,
     "explanation": "Under NY intestacy rules, a surviving spouse with issue takes $50,000 plus one-half of the residue, and the issue take the remainder. The spouse takes everything only when there are no surviving issue.",
     "citation": "NY EPTL § 4-1.1"
+  },
+  {
+    "id": "title-deeds-a001",
+    "topic": "title-deeds",
+    "q": "Which covenant in a full covenant and warranty deed is the grantor's promise to sign any additional documents later needed to perfect the grantee's title?",
+    "options": [
+      "Covenant of quiet enjoyment",
+      "Covenant of further assurances",
+      "Covenant of seisin",
+      "Covenant against encumbrances"
+    ],
+    "answer": 1,
+    "explanation": "Further assurances obligates the grantor to execute whatever later instruments are needed to cure the title. Quiet enjoyment is a different promise: that the grantee will not be disturbed by someone with superior title.",
+    "citation": "RPL §253 (statutory covenants)"
+  },
+  {
+    "id": "title-deeds-a002",
+    "topic": "title-deeds",
+    "q": "Which pair of deed covenants are 'present' covenants, meaning they are breached, if at all, at the moment the deed is delivered?",
+    "options": [
+      "Seisin and against encumbrances",
+      "Quiet enjoyment and warranty",
+      "Further assurances and warranty",
+      "Quiet enjoyment and further assurances"
+    ],
+    "answer": 0,
+    "explanation": "Seisin (grantor owns the estate conveyed) and against encumbrances (no undisclosed liens) speak to title as it stands at delivery. Quiet enjoyment, further assurances, and warranty are future covenants that protect the grantee going forward.",
+    "citation": "RPL §253; general property law"
+  },
+  {
+    "id": "title-deeds-a003",
+    "topic": "title-deeds",
+    "q": "After closing, a buyer learns of a judgment lien filed against the owner who held title before the seller. The seller gave a bargain and sale deed with covenant against grantor's acts. Does the buyer have a claim against the seller under the deed?",
+    "options": [
+      "Yes; the covenant protects against every lien filed by any prior owner",
+      "Yes; every New York deed implies a full warranty of title",
+      "No; bargain and sale deeds never contain any covenants at all",
+      "No; the covenant covers only encumbrances the seller created or allowed"
+    ],
+    "answer": 3,
+    "explanation": "The covenant against grantor's acts promises only that the grantor has not done or suffered anything to encumber the property; a predecessor's lien is outside it. The trap is treating it like a full warranty, which would reach defects from before the seller's ownership.",
+    "citation": "RPL §258 (statutory bargain and sale deed with covenant)"
+  },
+  {
+    "id": "title-deeds-a004",
+    "topic": "title-deeds",
+    "q": "A buyer wants a deed under which the seller would be answerable for title defects that arose even before the seller owned the property. Which deed provides that?",
+    "options": [
+      "Bargain and sale deed with covenant against grantor's acts",
+      "Executor's deed",
+      "Full covenant and warranty deed",
+      "Quitclaim deed"
+    ],
+    "answer": 2,
+    "explanation": "The full covenant and warranty deed warrants title against all lawful claims, whenever they arose. A bargain and sale deed with covenant reaches only problems created during the grantor's own ownership.",
+    "citation": "RPL §§253, 258"
+  },
+  {
+    "id": "title-deeds-a005",
+    "topic": "title-deeds",
+    "q": "How does a bargain and sale deed without covenants differ from a quitclaim deed?",
+    "options": [
+      "The quitclaim gives the grantee more protection against prior liens",
+      "Only the bargain and sale deed implies the grantor holds title",
+      "The bargain and sale deed warrants title against all persons forever",
+      "Only the quitclaim deed may be recorded with the county clerk"
+    ],
+    "answer": 1,
+    "explanation": "A bargain and sale deed purports to convey the land itself, implying the grantor has title, though it gives no warranties. A quitclaim releases only whatever interest the grantor may have, if any, so it is the weaker deed, not the stronger one.",
+    "citation": "RPL §258 (statutory deed forms)"
+  },
+  {
+    "id": "title-deeds-a006",
+    "topic": "title-deeds",
+    "q": "Which statement about a quitclaim deed is accurate?",
+    "options": [
+      "It conveys full ownership if the grantor in fact holds full title",
+      "A quitclaim can convey only a leasehold, never ownership",
+      "A quitclaim deed cannot be recorded in New York",
+      "A quitclaim guarantees no liens arose while the grantor owned"
+    ],
+    "answer": 0,
+    "explanation": "A quitclaim transfers whatever interest the grantor actually has, which can be complete ownership. What it lacks is any warranty; it does not promise freedom from liens, even ones the grantor created.",
+    "citation": "RPL §258; general property law"
+  },
+  {
+    "id": "title-deeds-a007",
+    "topic": "title-deeds",
+    "q": "Raymond dies without a will. The Surrogate's Court issues letters of administration to his daughter, who then sells his house. What deed will she most likely sign?",
+    "options": [
+      "Executor's deed",
+      "Referee's deed",
+      "Full covenant and warranty deed",
+      "Administrator's deed"
+    ],
+    "answer": 3,
+    "explanation": "A court-appointed administrator of an intestate estate conveys by administrator's deed. An executor's deed is used when the decedent left a will naming an executor, who receives letters testamentary.",
+    "citation": "SCPA; EPTL; general NY conveyancing practice"
+  },
+  {
+    "id": "title-deeds-a008",
+    "topic": "title-deeds",
+    "q": "The New York statutory form of executor's deed customarily contains which covenant?",
+    "options": [
+      "That the grantor warrants the title forever against all persons",
+      "That the grantor is seized of the property in fee simple",
+      "That the grantor has not done anything to encumber the property",
+      "That the grantor will defend against every claim of prior owners"
+    ],
+    "answer": 2,
+    "explanation": "An executor acts in a representative capacity and typically gives only a covenant against the grantor's own acts. Full warranty and seisin covenants belong to the full covenant and warranty deed.",
+    "citation": "RPL §258 (statutory executor's deed form)"
+  },
+  {
+    "id": "title-deeds-a009",
+    "topic": "title-deeds",
+    "q": "Two siblings who co-own inherited land cannot agree on a sale. One sues for partition, and the court orders the property sold at auction. Who signs the deed to the winning bidder?",
+    "options": [
+      "Both siblings, by bargain and sale deed",
+      "A referee appointed by the court",
+      "The executor of the parents' estate",
+      "The county clerk where the land lies"
+    ],
+    "answer": 1,
+    "explanation": "Court-ordered sales, such as partition and foreclosure sales, are conveyed by a referee's deed signed by the court-appointed referee. The siblings do not sign because the conveyance is made under the court's judgment, not their agreement.",
+    "citation": "RPAPL Article 9 (partition)"
+  },
+  {
+    "id": "title-deeds-a010",
+    "topic": "title-deeds",
+    "q": "A recorded deed misspells the buyer's surname and transposes two digits in the lot number. What is the usual way to fix the record?",
+    "options": [
+      "The original grantor signs and records a correction deed",
+      "The buyer files an amended TP-584 that rewrites the deed",
+      "The county clerk edits the recorded deed at the buyer's request",
+      "The seller sells the property again for a second purchase price"
+    ],
+    "answer": 0,
+    "explanation": "A correction deed from the same grantor to the same grantee fixes clerical errors in a prior deed without making a new sale. Transfer tax forms and the clerk's records do not alter a deed's contents.",
+    "citation": "General NY conveyancing practice"
+  },
+  {
+    "id": "title-deeds-a011",
+    "topic": "title-deeds",
+    "q": "Which sequence ranks these New York deeds from MOST to LEAST protection for the grantee?",
+    "options": [
+      "Bargain and sale with covenant; full covenant; quitclaim; bargain and sale without covenant",
+      "Full covenant; bargain and sale without covenant; bargain and sale with covenant; quitclaim",
+      "Quitclaim; bargain and sale without covenant; bargain and sale with covenant; full covenant",
+      "Full covenant; bargain and sale with covenant; bargain and sale without covenant; quitclaim"
+    ],
+    "answer": 3,
+    "explanation": "Protection shrinks as covenants drop away: all five covenants, then only the covenant against grantor's acts, then no covenants but an implied claim of title, then a quitclaim that claims nothing.",
+    "citation": "RPL §258 (statutory deed forms)"
+  },
+  {
+    "id": "title-deeds-a012",
+    "topic": "title-deeds",
+    "q": "New York statutory deed forms include a clause in which the grantor agrees to hold the sale proceeds as a trust fund to be applied first to paying the cost of any improvement. This clause comes from:",
+    "options": [
+      "The recording act",
+      "The General Obligations Law",
+      "The Lien Law",
+      "The Tax Law transfer tax article"
+    ],
+    "answer": 2,
+    "explanation": "Lien Law §13 requires the grantor's trust-fund covenant so that contractors who improved the property are paid from the proceeds. The recording act deals with priority and notice, not proceeds.",
+    "citation": "Lien Law §13(5)"
+  },
+  {
+    "id": "title-deeds-a013",
+    "topic": "title-deeds",
+    "q": "A 17-year-old who inherited a lot signs a deed selling it to a neighbor. What is the status of the deed?",
+    "options": [
+      "Void from the moment it is signed",
+      "Voidable at the minor's option",
+      "Fully valid once it is recorded",
+      "Valid only if the grantee is also a minor"
+    ],
+    "answer": 1,
+    "explanation": "A grantor must have legal capacity; in New York a person under 18 is a minor, and a minor's conveyance can be disaffirmed. It is voidable rather than void, and recording does not cure lack of capacity.",
+    "citation": "General contract and property law (capacity; age of majority 18)"
+  },
+  {
+    "id": "title-deeds-a014",
+    "topic": "title-deeds",
+    "q": "Which deed is void because of a problem with the grantee?",
+    "options": [
+      "A deed naming a grantee who died before the deed was delivered",
+      "A deed naming a 12-year-old child as the sole grantee",
+      "A deed naming two grantees without stating their shares",
+      "A deed naming a grantee who never signed the instrument"
+    ],
+    "answer": 0,
+    "explanation": "A grantee must be a living person or existing entity capable of taking title when the deed is delivered. Minors can receive title, unspecified shares are presumed equal, and grantees need not sign.",
+    "citation": "General property law (essential elements of a deed)"
+  },
+  {
+    "id": "title-deeds-a015",
+    "topic": "title-deeds",
+    "q": "The words 'does hereby grant and release unto the party of the second part' form which part of a deed?",
+    "options": [
+      "The habendum clause",
+      "The consideration recital",
+      "The acknowledgment",
+      "The granting clause"
+    ],
+    "answer": 3,
+    "explanation": "The granting clause contains the words of conveyance showing present intent to transfer. The habendum clause ('to have and to hold') defines the estate the grantee takes.",
+    "citation": "RPL §258 (statutory deed forms)"
+  },
+  {
+    "id": "title-deeds-a016",
+    "topic": "title-deeds",
+    "q": "A deed's habendum clause states that the grantee is 'to have and to hold the premises for and during her natural life.' What estate does the grantee receive?",
+    "options": [
+      "A fee simple absolute",
+      "A leasehold for years",
+      "A life estate",
+      "An easement in gross"
+    ],
+    "answer": 2,
+    "explanation": "The habendum clause defines the extent of the estate granted; 'for and during her natural life' limits it to a life estate. Fee simple would read 'to the grantee, her heirs and assigns forever.'",
+    "citation": "General property law (habendum clause)"
+  },
+  {
+    "id": "title-deeds-a017",
+    "topic": "title-deeds",
+    "q": "A deed recites a consideration of 'ten dollars and other good and valuable consideration,' though the buyer actually paid $540,000. What is the effect?",
+    "options": [
+      "The deed is void because the recital must match the price",
+      "None; the deed is valid and nominal recitals are customary",
+      "The deed is voidable by the grantee until corrected",
+      "The deed must be re-signed before the clerk will record it"
+    ],
+    "answer": 1,
+    "explanation": "Nominal consideration recitals are standard in New York deeds, and the true price is reported on the TP-584 and RP-5217 filed with the deed. A mismatch between the recital and the price does not affect validity.",
+    "citation": "RPL §258 forms; Tax Law §1409 (TP-584)"
+  },
+  {
+    "id": "title-deeds-a018",
+    "topic": "title-deeds",
+    "q": "A father signs and delivers a deed giving his cabin to his adult daughter. She pays nothing. Is the conveyance effective?",
+    "options": [
+      "Yes; a properly executed and delivered gift deed is valid",
+      "No; a deed is void unless the grantee pays fair value",
+      "No; a gift of land must instead be made by will",
+      "Only after the daughter pays the transfer tax due"
+    ],
+    "answer": 0,
+    "explanation": "Payment is not required to transfer title by gift; capacity, a proper writing, execution, delivery, and acceptance are what matter. The catch is that a donee is not a purchaser for value, so the recording act gives her less protection.",
+    "citation": "General property law; RPL §291"
+  },
+  {
+    "id": "title-deeds-a019",
+    "topic": "title-deeds",
+    "q": "Two sisters own a duplex as tenants in common. Only one sister signs a deed conveying 'the property' to a buyer. What does the buyer receive?",
+    "options": [
+      "The entire property, because one owner signed",
+      "Nothing, because the whole deed is void",
+      "The entire property once the deed is recorded",
+      "Only the signing sister's undivided interest"
+    ],
+    "answer": 3,
+    "explanation": "A grantor can convey only what she owns, so the buyer becomes a tenant in common with the non-signing sister. Recording cannot transfer an interest the grantor never held.",
+    "citation": "General property law (tenancy in common)"
+  },
+  {
+    "id": "title-deeds-a020",
+    "topic": "title-deeds",
+    "q": "Under New York law, must a deed be witnessed to be valid?",
+    "options": [
+      "Yes; two witnesses must sign alongside the grantor's signature",
+      "Yes; one witness and a notary must both sign the deed itself",
+      "No; witnesses are not required for the deed to be valid",
+      "Only when the grantee is a corporation or limited liability company"
+    ],
+    "answer": 2,
+    "explanation": "A New York deed needs no attesting witnesses to be valid between the parties. To be recorded, it must be acknowledged before a notary or other officer, or proved by a subscribing witness if one signed.",
+    "citation": "RPL §§291, 292, 298"
+  },
+  {
+    "id": "title-deeds-a021",
+    "topic": "title-deeds",
+    "q": "An owner conveys 40 acres 'EXCEPT the two-acre homesite in the northeast corner.' What does this language do?",
+    "options": [
+      "It creates a new easement over the two acres for the grantor",
+      "It keeps the two-acre homesite out of the conveyance",
+      "It gives the grantor a life estate in the entire 40 acres",
+      "It restricts how the grantee may use all 40 acres"
+    ],
+    "answer": 1,
+    "explanation": "An exception withholds part of the described land from the grant, so the grantor keeps the homesite outright. A reservation, by contrast, creates a new right (like an easement) in land that is conveyed.",
+    "citation": "General property law (exceptions and reservations)"
+  },
+  {
+    "id": "title-deeds-a022",
+    "topic": "title-deeds",
+    "q": "Ruth sells her farm, but the deed gives Ruth a permanent right of way across the farm to reach her adjoining lot. This provision is best described as:",
+    "options": [
+      "A reservation of an easement in favor of the grantor",
+      "An exception that keeps the driveway land out of the sale",
+      "A revocable license that the buyer may cancel",
+      "A quitclaim of the driveway back to the grantor"
+    ],
+    "answer": 0,
+    "explanation": "A reservation creates a new interest, here an easement, for the grantor in land that does pass to the buyer. An exception would have excluded the strip from the conveyance entirely, leaving Ruth as owner rather than easement holder.",
+    "citation": "General property law (exceptions and reservations)"
+  },
+  {
+    "id": "title-deeds-a023",
+    "topic": "title-deeds",
+    "q": "Why would a seller's deed list a recorded utility easement in a 'subject to' clause?",
+    "options": [
+      "To terminate the utility easement as of the closing date",
+      "To make the buyer's lot the dominant estate for the easement",
+      "To make the easement enforceable against owners for the first time",
+      "So the buyer takes title burdened by it without a covenant breach"
+    ],
+    "answer": 3,
+    "explanation": "'Subject to' language discloses existing encumbrances the grantee accepts, so the grantor is not liable for them under the deed's covenants. It neither creates nor ends the easement.",
+    "citation": "General property law; RPL §253"
+  },
+  {
+    "id": "title-deeds-a024",
+    "topic": "title-deeds",
+    "q": "An acknowledgment on a deed primarily serves to:",
+    "options": [
+      "Transfer title to the grantee at the moment the notary signs",
+      "Give the public constructive notice of the conveyance's terms",
+      "Verify the signer's identity and voluntary act, allowing recording",
+      "Guarantee the grantee that the title is free of all liens"
+    ],
+    "answer": 2,
+    "explanation": "The grantor declares before a notary or other officer that the signature is genuine and voluntary, which makes the deed eligible for recording. Title passes by delivery, and constructive notice comes from recording, not acknowledgment.",
+    "citation": "RPL §§291, 298, 306"
+  },
+  {
+    "id": "title-deeds-a025",
+    "topic": "title-deeds",
+    "q": "Which sequence shows the correct order of events in a typical New York conveyance?",
+    "options": [
+      "Grantor signs; deed is recorded; grantor acknowledges; deed is delivered and accepted",
+      "Grantor signs; grantor acknowledges; deed is delivered and accepted; deed is recorded",
+      "Deed is recorded; grantor signs; deed is delivered and accepted; grantor acknowledges",
+      "Grantor acknowledges; deed is delivered and accepted; deed is recorded; grantor signs"
+    ],
+    "answer": 1,
+    "explanation": "The grantor executes and acknowledges the deed, title passes on delivery and acceptance, and the grantee then records to protect against later claimants. A clerk will not record a deed that has not been acknowledged (or proved by a subscribing witness).",
+    "citation": "RPL §§291, 298"
+  },
+  {
+    "id": "title-deeds-a026",
+    "topic": "title-deeds",
+    "q": "At what point does title pass from the grantor to the grantee?",
+    "options": [
+      "When the deed is delivered and accepted",
+      "When the grantor signs and dates the deed",
+      "When the deed is recorded by the clerk",
+      "When the state transfer tax is paid"
+    ],
+    "answer": 0,
+    "explanation": "Delivery with present intent to transfer, plus acceptance, passes title. Recording is not required for the transfer itself; it protects the grantee against later purchasers.",
+    "citation": "General property law; RPL §291"
+  },
+  {
+    "id": "title-deeds-a027",
+    "topic": "title-deeds",
+    "q": "A seller signs a deed and hands it to her own attorney with instructions to hold it until she decides whether to go through with the sale. Has the deed been delivered?",
+    "options": [
+      "Yes; handing a deed to any attorney counts as legal delivery",
+      "Yes; delivery occurred as soon as the deed was notarized",
+      "Yes; the attorney is an officer of the court, so it counts",
+      "No; she kept control, so there was no intent to pass title"
+    ],
+    "answer": 3,
+    "explanation": "Delivery requires the grantor to give up control with intent that title pass now. Her own agent holding it subject to her further decision is not delivery; a true escrow with irrevocable instructions would be different.",
+    "citation": "General property law (delivery)"
+  },
+  {
+    "id": "title-deeds-a028",
+    "topic": "title-deeds",
+    "q": "After a valid closing, the buyer hands the original deed back to the seller, who tears it up. Who owns the property?",
+    "options": [
+      "The seller, because the deed itself no longer exists",
+      "No one, until a court action quiets the title to it",
+      "The buyer, since title passed when the deed was delivered",
+      "The buyer, but only if the deed was already recorded"
+    ],
+    "answer": 2,
+    "explanation": "Once title has passed, destroying or returning the paper does not reconvey the land; only a new conveyance by the buyer would. Recording is irrelevant to the transfer between these two parties.",
+    "citation": "General property law (delivery)"
+  },
+  {
+    "id": "title-deeds-a029",
+    "topic": "title-deeds",
+    "q": "A grandmother mails a signed deed for a lakefront lot to her grandson as a surprise. He learns the lot is contaminated, refuses it, and mails the deed back. What is the result?",
+    "options": [
+      "The grandson owns it, since delivery alone passes title",
+      "Title never passed, because acceptance is required",
+      "The grandson owns it until he deeds it back",
+      "The lot escheats to the state as abandoned"
+    ],
+    "answer": 1,
+    "explanation": "A conveyance needs both delivery and acceptance. Acceptance of a beneficial deed is usually presumed, but an express refusal defeats it, so title stays with the grandmother.",
+    "citation": "General property law (delivery and acceptance)"
+  },
+  {
+    "id": "title-deeds-a030",
+    "topic": "title-deeds",
+    "q": "Owner sells to Ana, who does not record right away. Owner then sells the same lot to Ben, who pays value and knows nothing of Ana. Ana records before Ben does. Who prevails under New York law?",
+    "options": [
+      "Ana, because Ben did not record first",
+      "Ben, because he bought in good faith for value",
+      "Ben, because his deed was the later conveyance",
+      "Ana and Ben share the lot as tenants in common"
+    ],
+    "answer": 0,
+    "explanation": "New York's recording act is race-notice: a later good-faith purchaser for value wins only if he also records first. Ben lost the race to the clerk's office, so Ana's earlier deed stands.",
+    "citation": "RPL §291"
+  },
+  {
+    "id": "title-deeds-a031",
+    "topic": "title-deeds",
+    "q": "New York's recording statute is best classified as which type?",
+    "options": [
+      "Pure race",
+      "Pure notice",
+      "Grace period",
+      "Race-notice"
+    ],
+    "answer": 3,
+    "explanation": "Under RPL §291 a later buyer must both purchase in good faith for value (no notice) and record first. A pure race statute ignores notice; a pure notice statute ignores who records first.",
+    "citation": "RPL §291"
+  },
+  {
+    "id": "title-deeds-a032",
+    "topic": "title-deeds",
+    "q": "An owner sells a lot to Pia, who does not record. The owner then gives the same lot to his nephew as a gift. The nephew knows nothing of Pia and records at once. Who prevails?",
+    "options": [
+      "The nephew, because he recorded first without notice",
+      "The nephew, because a gift deed outranks a sale",
+      "Pia, since only purchasers for value are protected",
+      "Pia and the nephew share the lot equally"
+    ],
+    "answer": 2,
+    "explanation": "RPL §291 protects a later grantee who pays valuable consideration, acts in good faith, and records first. A donee pays nothing, so recording first does not let him defeat Pia's earlier deed.",
+    "citation": "RPL §291"
+  },
+  {
+    "id": "title-deeds-a033",
+    "topic": "title-deeds",
+    "q": "Quinn buys a lot, never records, and builds and moves into a house there. The seller later sells the same lot to Ross, who records first but never visits the property. Who most likely prevails?",
+    "options": [
+      "Ross, because he was the first to record his deed",
+      "Quinn, because her possession put Ross on inquiry notice",
+      "Ross, because Quinn never recorded her deed at all",
+      "Neither, so title stays with the original seller"
+    ],
+    "answer": 1,
+    "explanation": "A buyer is charged with what a reasonable inspection would reveal, and open possession by someone other than the seller is notice of that person's rights. With notice, Ross is not a good-faith purchaser, so recording first does not help him.",
+    "citation": "RPL §291; general NY law on possession as notice"
+  },
+  {
+    "id": "title-deeds-a034",
+    "topic": "title-deeds",
+    "q": "A forger records a deed purporting to transfer Ellen's house to himself, then sells it to an innocent buyer who records. What does the buyer receive?",
+    "options": [
+      "No title, because a forged deed is void even when recorded",
+      "Good title, because the buyer recorded in good faith",
+      "Good title once one year passes after recording",
+      "Half of the title shared with the owner, Ellen"
+    ],
+    "answer": 0,
+    "explanation": "Recording gives notice of a document but cannot validate a forgery; the forger had nothing to convey. The recording act protects against prior unrecorded conveyances, not against forged ones.",
+    "citation": "RPL §291; general property law"
+  },
+  {
+    "id": "title-deeds-a035",
+    "topic": "title-deeds",
+    "q": "To give constructive notice, a deed to a house in Albany County must be recorded with which office?",
+    "options": [
+      "The NYS Department of State",
+      "The NYS Department of Taxation",
+      "The local town assessor",
+      "The Albany County Clerk"
+    ],
+    "answer": 3,
+    "explanation": "Outside New York City, conveyances are recorded with the county clerk of the county where the land lies. The assessor receives sale data from the RP-5217 but is not the recording office.",
+    "citation": "RPL §291"
+  },
+  {
+    "id": "title-deeds-a036",
+    "topic": "title-deeds",
+    "q": "Owner sells to Carla, who does not record. Owner then borrows from a bank that knows nothing of Carla, takes a mortgage on the same property, and records it first. Is the bank protected by the recording act?",
+    "options": [
+      "No; the act protects only buyers who take full ownership",
+      "No; a mortgage is a lien and can never outrank a deed",
+      "Yes; a good-faith mortgagee for value that records first wins",
+      "Yes, but only if the bank also takes possession"
+    ],
+    "answer": 2,
+    "explanation": "The recording act treats a mortgage as a conveyance and a mortgagee for value as a purchaser. The bank lent in good faith and recorded first, so its mortgage has priority over Carla's unrecorded deed.",
+    "citation": "RPL §§290, 291"
+  },
+  {
+    "id": "title-deeds-a037",
+    "topic": "title-deeds",
+    "q": "Form TP-584, filed when a deed is recorded, is primarily the:",
+    "options": [
+      "Real property transfer report for assessors",
+      "Combined real estate transfer tax return",
+      "Property condition disclosure statement",
+      "Agency disclosure acknowledgment"
+    ],
+    "answer": 1,
+    "explanation": "The TP-584 reports and pays the New York State real estate transfer tax and includes related certifications. Sale data for assessors goes on the RP-5217.",
+    "citation": "Tax Law §§1402, 1409 (Form TP-584)"
+  },
+  {
+    "id": "title-deeds-a038",
+    "topic": "title-deeds",
+    "q": "The sale information on Form RP-5217 is used mainly by:",
+    "options": [
+      "Assessors and the state Office of Real Property Tax Services",
+      "The IRS, to compute the seller's capital gains",
+      "The Department of State, to track licensee commissions",
+      "The lender, to set the property's appraised value"
+    ],
+    "answer": 0,
+    "explanation": "The Real Property Transfer Report gives assessors and ORPTS sale prices and conditions used in assessment and equalization work. It is not a federal tax filing or a licensing record.",
+    "citation": "RPTL §333 (Form RP-5217)"
+  },
+  {
+    "id": "title-deeds-a039",
+    "topic": "title-deeds",
+    "q": "Who must sign the main affirmation on Form TP-584 in a typical sale?",
+    "options": [
+      "Only the grantor, as the seller",
+      "Only the grantee, as the buyer",
+      "Only the closing attorney or agent",
+      "Both the grantor and the grantee"
+    ],
+    "answer": 3,
+    "explanation": "The TP-584 is signed by both parties to the conveyance. The seller alone signs the separate personal income tax certification section.",
+    "citation": "Tax Law §1409; Form TP-584 instructions"
+  },
+  {
+    "id": "title-deeds-a040",
+    "topic": "title-deeds",
+    "q": "For the sale of a single-family house in Brooklyn, the deed, transfer tax returns, and RP-5217NYC are prepared and filed through:",
+    "options": [
+      "eAccessNY, the state licensing portal",
+      "The NYS Department of State's filing office",
+      "ACRIS, the city's online land records system",
+      "The local tax assessor's walk-in office"
+    ],
+    "answer": 2,
+    "explanation": "In New York City, deeds and related tax forms are prepared and recorded through ACRIS with the Department of Finance's City Register. eAccessNY is the DOS licensing system, unrelated to recording.",
+    "citation": "NYC Admin. Code; NYC Department of Finance (ACRIS)"
+  },
+  {
+    "id": "title-deeds-a041",
+    "topic": "title-deeds",
+    "q": "A house sells for $437,250. What New York State real estate transfer tax is reported on the TP-584, and who normally pays it?",
+    "options": [
+      "$1,749, paid by the seller",
+      "$1,750, paid by the seller",
+      "$1,748, paid by the buyer",
+      "$4,372.50, paid by the buyer"
+    ],
+    "answer": 1,
+    "explanation": "The tax is $2 per $500 or fraction: 437,250 ÷ 500 = 874.5, which rounds up to 875 units; 875 × $2 = $1,750, paid by the grantor. $1,749 skips the round-up, $1,748 rounds down, and $4,372.50 wrongly applies a 1% rate.",
+    "citation": "Tax Law §§1402, 1404"
+  },
+  {
+    "id": "title-deeds-a042",
+    "topic": "title-deeds",
+    "q": "A woman dies without a will and with no living relatives who qualify as heirs. Her house passes to the State of New York by:",
+    "options": [
+      "Escheat, a form of involuntary alienation",
+      "Devise, a form of voluntary alienation",
+      "Eminent domain, a form of involuntary alienation",
+      "Dedication, a form of voluntary alienation"
+    ],
+    "answer": 0,
+    "explanation": "When no one is entitled to inherit, property escheats to the state; the owner did not choose this, so it is involuntary. Eminent domain is a taking of a living owner's land for public use with just compensation.",
+    "citation": "EPTL §4-1.1; Abandoned Property Law"
+  },
+  {
+    "id": "title-deeds-a043",
+    "topic": "title-deeds",
+    "q": "Which of the following is NOT an example of involuntary alienation?",
+    "options": [
+      "A lender forecloses and a referee conveys the house",
+      "A county condemns land for a highway widening",
+      "A county takes title for unpaid real property taxes",
+      "An owner deeds land to a buyer after accepting an offer"
+    ],
+    "answer": 3,
+    "explanation": "A sale by deed is the owner's own choice, so it is voluntary alienation. Foreclosure, condemnation, and tax foreclosure all transfer title by operation of law without the owner's consent.",
+    "citation": "General property law"
+  },
+  {
+    "id": "title-deeds-a044",
+    "topic": "title-deeds",
+    "q": "The state takes 0.4 acre of a farm to widen a highway and pays the owner just compensation. How is the owner's loss of title classified?",
+    "options": [
+      "Voluntary alienation, because the owner was paid",
+      "Escheat, because the state takes title",
+      "Involuntary alienation through condemnation",
+      "Accretion, because the boundary shifts"
+    ],
+    "answer": 2,
+    "explanation": "Condemnation under the power of eminent domain transfers title without the owner's consent, so it is involuntary even though compensation is paid. Escheat applies only when an owner dies without heirs.",
+    "citation": "NY Eminent Domain Procedure Law; US Const. 5th Amend."
+  },
+  {
+    "id": "title-deeds-b001",
+    "topic": "title-deeds",
+    "q": "A title search comes back clean, but for 15 years a neighbor has openly driven across the seller's side yard to reach a garage. Why might the search have missed this?",
+    "options": [
+      "A prescriptive easement can exist without any recorded document",
+      "Easements must be recorded to be valid in New York",
+      "Title searches never review more than ten years of records",
+      "Driveway rights are only listed on the tax bill"
+    ],
+    "answer": 0,
+    "explanation": "Rights acquired by long use, such as a prescriptive easement, arise without a recorded instrument, so a records search cannot reveal them; an inspection or survey may. Easements are not invalid merely because they are unrecorded.",
+    "citation": "General real property law (prescriptive easements)"
+  },
+  {
+    "id": "title-deeds-b002",
+    "topic": "title-deeds",
+    "q": "A buyer relied on an abstract of title showing no problems. After closing, a deed in the chain turns out to have been forged. What does this illustrate?",
+    "options": [
+      "An abstract automatically makes the abstractor the new owner's insurer",
+      "An abstract summarizes the records but does not insure against hidden defects",
+      "A forged deed is valid once it has been recorded for one year",
+      "The buyer's mortgage lender becomes liable to the buyer for the loss"
+    ],
+    "answer": 1,
+    "explanation": "An abstract only condenses what the public records show; a forgery looks normal on the record. Protection against hidden risks such as forgery comes from a title insurance policy, not from recording or the abstract itself.",
+    "citation": "General real property law"
+  },
+  {
+    "id": "title-deeds-b003",
+    "topic": "title-deeds",
+    "q": "Which description best defines marketable title?",
+    "options": [
+      "Title that is subject to no easements, liens, or restrictions of any kind",
+      "Title that has been held by the same family for at least ten years",
+      "Title free from reasonable doubt that a prudent buyer would accept",
+      "Title that the buyer's lender has already appraised and approved"
+    ],
+    "answer": 2,
+    "explanation": "Marketable title is free from reasonable doubt about its validity, so a reasonably prudent, informed buyer would accept it. It need not be free of every easement or restriction, especially those the contract allows.",
+    "citation": "General real property law (marketable title)"
+  },
+  {
+    "id": "title-deeds-b004",
+    "topic": "title-deeds",
+    "q": "A contract says the buyer takes title subject to recorded utility easements that do not interfere with the use of the house. The title report shows such an easement. Can the seller still deliver the title the contract requires?",
+    "options": [
+      "No, because any easement makes title unmarketable",
+      "No, unless the utility company first releases the easement",
+      "Yes, but only if the seller credits the buyer its value",
+      "Yes, because the buyer agreed to take title subject to it"
+    ],
+    "answer": 3,
+    "explanation": "Marketability is measured against the contract. An encumbrance the buyer expressly agreed to accept does not breach the seller's title obligation, so no release or credit is required.",
+    "citation": "General contract and real property law"
+  },
+  {
+    "id": "title-deeds-b005",
+    "topic": "title-deeds",
+    "q": "Before closing, the title company sends a report listing the liens that must be paid off and the items it will not insure. What is this document?",
+    "options": [
+      "A title report or commitment",
+      "An abstract of title",
+      "An owner's title policy",
+      "A survey reading report"
+    ],
+    "answer": 0,
+    "explanation": "The title report (commitment) states the insurer's requirements and exceptions before the policy is issued. The owner's policy is issued at or after closing, and an abstract is only a summary of the records.",
+    "citation": "Customary NY title practice"
+  },
+  {
+    "id": "title-deeds-b006",
+    "topic": "title-deeds",
+    "q": "How long does an owner's title insurance policy generally protect the insured?",
+    "options": [
+      "For the term of the mortgage loan, which is usually 30 years",
+      "For as long as the insured or the insured's heirs hold an interest",
+      "For one year, renewable on each anniversary of the closing date",
+      "For ten years, matching the adverse possession period in New York"
+    ],
+    "answer": 1,
+    "explanation": "An owner's policy has no expiration date and no renewal premium; coverage continues while the insured or heirs keep an interest. The loan term limits only the lender's policy.",
+    "citation": "Standard owner's title policy terms"
+  },
+  {
+    "id": "title-deeds-b007",
+    "topic": "title-deeds",
+    "q": "A buyer finances $400,000 of a $500,000 purchase. How does the lender's title policy usually work?",
+    "options": [
+      "It covers the full $500,000 price, and the buyer is the insured party",
+      "It covers $100,000, the amount of the buyer's down payment",
+      "It covers up to the loan amount and ends once the loan is paid off",
+      "It continues to protect the lender after the loan has been paid off"
+    ],
+    "answer": 2,
+    "explanation": "A lender's policy is written for the loan amount ($400,000), protects only the lender, and its coverage shrinks as the debt is paid down and ends when the loan is satisfied. The buyer's equity is protected only by an owner's policy.",
+    "citation": "Standard loan title policy terms"
+  },
+  {
+    "id": "title-deeds-b008",
+    "topic": "title-deeds",
+    "q": "Three years after closing, a neighbor builds a shed that extends onto the insured owner's lot. Will the owner's title policy cover this?",
+    "options": [
+      "Yes, because the policy covers all boundary problems forever",
+      "Yes, because the policy follows the land rather than the owner",
+      "No, because title policies never cover encroachments",
+      "No, because the problem arose after the policy date"
+    ],
+    "answer": 3,
+    "explanation": "Title insurance covers defects existing on the policy date, not problems created later. Some encroachments that existed at closing can be covered, so saying the policy never covers encroachments is too broad.",
+    "citation": "Standard title policy terms"
+  },
+  {
+    "id": "title-deeds-b009",
+    "topic": "title-deeds",
+    "q": "After closing, a person with a valid claim to the property surfaces because a prior deed in the chain was signed by someone who lacked legal capacity. The buyer has an owner's policy. What should the buyer expect?",
+    "options": [
+      "The insurer will defend the title and pay covered losses up to the policy amount",
+      "The buyer must sue the prior grantor alone because policies exclude capacity issues",
+      "The policy is void because the defect existed before the policy was issued",
+      "The county clerk must refund the recording fees and void the deed"
+    ],
+    "answer": 0,
+    "explanation": "Defects that predate the policy and are not shown in the records, such as a grantor's incapacity, are exactly what title insurance covers; the insurer defends and pays covered losses up to the policy amount.",
+    "citation": "Standard owner's title policy terms"
+  },
+  {
+    "id": "title-deeds-b010",
+    "topic": "title-deeds",
+    "q": "Which item is a typical standard exception in a title insurance policy?",
+    "options": [
+      "A forged deed that appears earlier in the chain of title",
+      "Rights of parties in possession not shown by the public records",
+      "An error by the county clerk in indexing a recorded deed",
+      "A claim by a prior owner's heir who was never disclosed"
+    ],
+    "answer": 1,
+    "explanation": "Standard exceptions remove matters a records search cannot reveal but an inspection could, such as rights of people in possession. Forgery, indexing errors, and missing heirs are classic covered hidden risks.",
+    "citation": "Standard title policy exceptions"
+  },
+  {
+    "id": "title-deeds-b011",
+    "topic": "title-deeds",
+    "q": "In a typical New York residential sale, who customarily pays the premiums for both the owner's and the lender's title policies?",
+    "options": [
+      "The seller",
+      "The listing broker",
+      "The buyer",
+      "The lender"
+    ],
+    "answer": 2,
+    "explanation": "In New York, the buyer customarily pays for both the owner's (fee) policy and the lender's (mortgage) policy, though the contract may allocate costs differently. The seller customarily pays the transfer tax, not the title premiums.",
+    "citation": "Customary NY closing practice (contract controls)"
+  },
+  {
+    "id": "title-deeds-b012",
+    "topic": "title-deeds",
+    "q": "A seller bought her house with an owner's title policy. She now sells to a buyer. Does her policy protect the buyer?",
+    "options": [
+      "Yes; the policy transfers with the deed",
+      "Yes, but only for defects found within one year",
+      "No, unless the seller adds the buyer as a co-insured",
+      "No; the buyer needs a new owner's policy in his own name"
+    ],
+    "answer": 3,
+    "explanation": "An owner's policy protects the named insured (and heirs), not later buyers, so each purchaser obtains a new policy. The seller may keep limited protection for her warranty obligations, but coverage does not pass with the deed.",
+    "citation": "Standard owner's title policy terms"
+  },
+  {
+    "id": "title-deeds-b013",
+    "topic": "title-deeds",
+    "q": "A mortgage on a property was paid in full years ago, but no satisfaction was ever recorded. How is this best described, and how is it cured?",
+    "options": [
+      "A cloud on title, cured by recording a satisfaction of mortgage",
+      "A valid lien, which can be cured only by a foreclosure sale",
+      "An easement, which is cured by recording a release of easement",
+      "A gap in the chain of title, cured by a corrective deed"
+    ],
+    "answer": 0,
+    "explanation": "An undischarged but paid mortgage is a cloud: it appears on the record and casts doubt on title. Recording a satisfaction from the lender (or its successor) clears it.",
+    "citation": "RPL §321 (satisfaction of mortgage)"
+  },
+  {
+    "id": "title-deeds-b014",
+    "topic": "title-deeds",
+    "q": "A title search shows that a former owner's heirs may have a claim, but they cannot be located to sign quitclaim deeds. Which remedy can clear title?",
+    "options": [
+      "A notice of pendency",
+      "An action to quiet title",
+      "A survey reading",
+      "A new abstract of title"
+    ],
+    "answer": 1,
+    "explanation": "When adverse claimants cannot be found or will not sign, the owner can sue to quiet title (RPAPL Article 15) to have a court determine the claims. A notice of pendency only announces litigation; it does not resolve anything.",
+    "citation": "RPAPL Art. 15"
+  },
+  {
+    "id": "title-deeds-b015",
+    "topic": "title-deeds",
+    "q": "A neighbor has met every element of adverse possession for more than ten years, but the deed records still show the original owner. What gives the neighbor recordable, marketable title?",
+    "options": [
+      "Recording an affidavit of possession alone",
+      "Paying the property taxes for one more year",
+      "A court judgment in a quiet title action",
+      "Obtaining a new survey of the disputed strip"
+    ],
+    "answer": 2,
+    "explanation": "Title may vest by adverse possession without any document, but to make it marketable the possessor obtains a judgment determining the claim (RPAPL Article 15), which can be recorded. An affidavit or survey alone does not change record title.",
+    "citation": "RPAPL Art. 5 and Art. 15"
+  },
+  {
+    "id": "title-deeds-b016",
+    "topic": "title-deeds",
+    "q": "To measure a lot's height for a flood-zone review, a surveyor starts from a nearby government brass disk with its elevation stamped on it. Which statement correctly describes the terms involved?",
+    "options": [
+      "A datum is a permanent corner marker; a benchmark is the lot's tax map number",
+      "A datum is the deed's point of beginning; a benchmark is the final closing course",
+      "A datum is a bearing such as N 60° E; a benchmark is a filed subdivision plat",
+      "A datum is the base level for elevations; a benchmark is a marker of known height"
+    ],
+    "answer": 3,
+    "explanation": "A datum is the reference plane (based on mean sea level) from which elevations are measured. A benchmark is a permanent marker, usually set by a government survey, whose elevation above the datum is known, so surveyors can measure nearby heights from it. A point of beginning, bearings, and plats concern horizontal boundaries, not elevation.",
+    "citation": "General surveying principles (datum and benchmarks)"
+  },
+  {
+    "id": "title-deeds-b017",
+    "topic": "title-deeds",
+    "q": "A deed reads \"thence north 200 feet to an iron pipe.\" A surveyor finds the original iron pipe 204 feet away. Which generally controls?",
+    "options": [
+      "The location of the iron pipe",
+      "The stated distance of 200 feet",
+      "An average of the two measurements",
+      "Whichever result gives the buyer more land"
+    ],
+    "answer": 0,
+    "explanation": "When a monument conflicts with a stated distance, the monument generally controls because it is the physical evidence of what the parties intended. Courses and distances are given less weight than monuments.",
+    "citation": "General rules of construction for legal descriptions"
+  },
+  {
+    "id": "title-deeds-b018",
+    "topic": "title-deeds",
+    "q": "What does a course reading of S 30° W mean?",
+    "options": [
+      "Start facing west and turn 30 degrees toward the south",
+      "Start facing south and turn 30 degrees toward the west",
+      "Start facing south and turn 30 degrees toward the east",
+      "Start facing north and turn 30 degrees toward the west"
+    ],
+    "answer": 1,
+    "explanation": "Bearings always start from north or south and turn toward east or west, so S 30° W means 30 degrees west of due south. Starting from west reverses the reading; the angle is measured off the north–south line.",
+    "citation": "General surveying principles (quadrant bearings)"
+  },
+  {
+    "id": "title-deeds-b019",
+    "topic": "title-deeds",
+    "q": "A boundary line runs N 60° E from corner A to corner B. What is the bearing of the same line run from B back to A?",
+    "options": [
+      "N 60° W",
+      "S 60° E",
+      "S 60° W",
+      "S 30° W"
+    ],
+    "answer": 2,
+    "explanation": "Reversing a line keeps the angle and flips both letters: N becomes S and E becomes W, so N 60° E becomes S 60° W. Flipping only one letter, or changing the angle to its complement, gives a different line.",
+    "citation": "General surveying principles (reverse bearings)"
+  },
+  {
+    "id": "title-deeds-b020",
+    "topic": "title-deeds",
+    "q": "A New York City deed identifies a parcel as \"Borough of Queens, Block 1450, Lot 22.\" These numbers come from which source?",
+    "options": [
+      "A township-and-range grid",
+      "The metes-and-bounds courses in the deed",
+      "The zoning map",
+      "The city's tax map"
+    ],
+    "answer": 3,
+    "explanation": "Borough, block, and lot numbers come from the tax map used for assessment, a standard way to identify parcels in NYC. New York does not use the township-and-range (rectangular survey) grid.",
+    "citation": "NYC tax map; general real property law"
+  },
+  {
+    "id": "title-deeds-b021",
+    "topic": "title-deeds",
+    "q": "A deed describes land as \"Lot 14 as shown on the map of Maple Ridge Estates, filed in the County Clerk's Office as Map No. 3127.\" Which description method is this?",
+    "options": [
+      "Reference to a recorded plat (subdivision map)",
+      "Metes and bounds from a point of beginning",
+      "Rectangular (government) survey system",
+      "Assessor's appraisal card reference"
+    ],
+    "answer": 0,
+    "explanation": "Identifying a lot by its number on a subdivision map filed with the county clerk is a recorded plat (lot-and-block) description. It does not list courses and distances, so it is not metes and bounds.",
+    "citation": "General real property law (legal descriptions)"
+  },
+  {
+    "id": "title-deeds-b022",
+    "topic": "title-deeds",
+    "q": "When a title company performs a \"survey reading,\" what does it do?",
+    "options": [
+      "Sends its own surveyor to restake all four corners of the lot",
+      "Compares the survey with the deed description and lists encroachments",
+      "Checks the survey for compliance with the local zoning code",
+      "Calculates the property's assessed value from the survey's acreage"
+    ],
+    "answer": 1,
+    "explanation": "In a survey reading, the title company reviews the survey against the deed description and lists any encroachments, discrepancies, or easements as exceptions in the title report. It does not resurvey the land or decide zoning compliance.",
+    "citation": "Customary NY title practice"
+  },
+  {
+    "id": "title-deeds-b023",
+    "topic": "title-deeds",
+    "q": "A rectangular parcel measures 660 feet by 330 feet. How many acres does it contain?",
+    "options": [
+      "2.5 acres",
+      "4.5 acres",
+      "5 acres",
+      "50 acres"
+    ],
+    "answer": 2,
+    "explanation": "Area = 660 × 330 = 217,800 sq ft; 217,800 ÷ 43,560 sq ft per acre = 5 acres. Dividing by 48,400 (a mis-remembered acre) gives 4.5, and halving the area as if it were a triangle gives 2.5.",
+    "citation": "Real estate math: 1 acre = 43,560 sq ft"
+  },
+  {
+    "id": "title-deeds-b024",
+    "topic": "title-deeds",
+    "q": "A metes-and-bounds description encloses a triangular lot with a base of 400 feet and a perpendicular height of 217.8 feet. How many acres is the lot?",
+    "options": [
+      "2 acres",
+      "0.5 acre",
+      "4 acres",
+      "1 acre"
+    ],
+    "answer": 3,
+    "explanation": "Triangle area = ½ × 400 × 217.8 = 43,560 sq ft; 43,560 ÷ 43,560 = 1 acre. Forgetting the ½ gives 87,120 sq ft, or 2 acres.",
+    "citation": "Real estate math: 1 acre = 43,560 sq ft"
+  },
+  {
+    "id": "title-deeds-b025",
+    "topic": "title-deeds",
+    "q": "Which of the following is NOT a requirement for acquiring title by adverse possession in New York?",
+    "options": [
+      "Paying the property taxes on the land",
+      "Possession that is hostile and under a claim of right",
+      "Possession that is open and notorious",
+      "Possession that is exclusive and continuous"
+    ],
+    "answer": 0,
+    "explanation": "New York requires possession that is hostile under claim of right, actual, open and notorious, exclusive, and continuous for 10 years. Paying taxes can be evidence but is not a required element, unlike in some other states.",
+    "citation": "RPAPL §§501, 511, 522; CPLR 212(a)"
+  },
+  {
+    "id": "title-deeds-b026",
+    "topic": "title-deeds",
+    "q": "Since the 2008 amendments, how does RPAPL §501 define a \"claim of right\" for adverse possession?",
+    "options": [
+      "Possession of the land for at least ten years without any objection",
+      "A reasonable basis for the belief that the property belongs to the possessor",
+      "Written permission from the record owner to occupy and use the land",
+      "Payment of the property taxes on the land for the full statutory period"
+    ],
+    "answer": 1,
+    "explanation": "RPAPL §501(3) defines claim of right as a reasonable basis for believing the property belongs to the adverse possessor. Permission would defeat hostility, and ten years is the time period, not the state of mind.",
+    "citation": "RPAPL §501(3) (L. 2008, ch. 269)"
+  },
+  {
+    "id": "title-deeds-b027",
+    "topic": "title-deeds",
+    "q": "A man moves onto a vacant lot knowing it belongs to his neighbor, whose name and address are on the deed records, and builds a garden shed and fence enclosing it. Eleven years pass, all after 2008. Is his adverse possession claim likely to succeed?",
+    "options": [
+      "Yes, because the enclosure stood for more than the ten-year period",
+      "Yes, because building improvements on the land proves a claim of right",
+      "No, because he had no reasonable basis to believe the land was his",
+      "No, because adverse possession in New York requires at least 20 years"
+    ],
+    "answer": 2,
+    "explanation": "After the 2008 amendments, a possessor must have a reasonable basis for believing he owns the land; a knowing intruder lacks this claim of right when the record owner can be found. The 10-year period alone is not enough.",
+    "citation": "RPAPL §501(3)"
+  },
+  {
+    "id": "title-deeds-b028",
+    "topic": "title-deeds",
+    "q": "Under RPAPL §501(3), claim of right is NOT required when:",
+    "options": [
+      "The possessor has paid the property taxes on the land for at least five years",
+      "The possessor's fence has fully enclosed the land for the entire period",
+      "The possessor has occupied the land openly for more than twenty years",
+      "The record owner cannot be found in county records or located by reasonable means"
+    ],
+    "answer": 3,
+    "explanation": "The statute excuses claim of right only where the owner(s) throughout the statutory period cannot be ascertained in the county clerk's or register's records and located by reasonable means. Taxes, fencing, or longer possession do not substitute for it.",
+    "citation": "RPAPL §501(3)"
+  },
+  {
+    "id": "title-deeds-b029",
+    "topic": "title-deeds",
+    "q": "For 12 years, a homeowner has regularly mowed and raked a strip of the neighbor's lawn next to the boundary. What is the effect under New York law?",
+    "options": [
+      "The mowing is deemed permissive and non-adverse",
+      "The homeowner now owns the strip by adverse possession",
+      "The homeowner has acquired a prescriptive easement to the strip",
+      "The neighbor must compensate the homeowner for the maintenance"
+    ],
+    "answer": 0,
+    "explanation": "RPAPL §543(2) deems lawn mowing and similar maintenance across a boundary line permissive and non-adverse, so it cannot support an adverse possession claim. A prescriptive easement also requires hostile use, which is missing here.",
+    "citation": "RPAPL §543(2)"
+  },
+  {
+    "id": "title-deeds-b030",
+    "topic": "title-deeds",
+    "q": "Under RPAPL §522 as amended in 2008, land not held under a written instrument is treated as adversely possessed only where:",
+    "options": [
+      "The possessor recorded an affidavit of possession with the county clerk",
+      "Acts open enough to notify a diligent owner, or a substantial enclosure",
+      "The possessor was assessed and billed for the land's property taxes",
+      "The possessor obtained a building permit for improvements on the land"
+    ],
+    "answer": 1,
+    "explanation": "RPAPL §522 now requires either acts sufficiently open to put a reasonably diligent owner on notice or protection by a substantial enclosure. Recording an affidavit, paying taxes, or getting permits is not the statutory test.",
+    "citation": "RPAPL §522"
+  },
+  {
+    "id": "title-deeds-b031",
+    "topic": "title-deeds",
+    "q": "A claimant's 10 years of qualifying possession were completed in 2005, but she does not sue until 2026. Which law governs whether she acquired title?",
+    "options": [
+      "The 2008 amendments, because the lawsuit was filed afterward",
+      "Neither, because her claim is barred by waiting more than 10 years",
+      "The law before 2008, because title vested when the 10 years ran",
+      "The 2008 amendments, but only for possessions on enclosed land"
+    ],
+    "answer": 2,
+    "explanation": "Adverse possession title vests automatically when the statutory period ends, and courts apply the pre-2008 law to title that vested before the amendments took effect (July 7, 2008). Delay in suing does not undo title that has already vested.",
+    "citation": "RPAPL §501; L. 2008, ch. 269; Franza v. Olin, 73 A.D.3d 44 (4th Dept 2010)"
+  },
+  {
+    "id": "title-deeds-b032",
+    "topic": "title-deeds",
+    "q": "Possessor A occupies a strip openly and adversely for 6 years, then sells his house and his claim to B, who continues the same possession for 5 more years. What is the likely result?",
+    "options": [
+      "B must start a new 10-year period running from the day he bought",
+      "The claim fails because an adverse possession claim cannot be sold",
+      "B needs 20 years in total because ownership of the house changed",
+      "B can add A's time to his own, giving 11 years toward the 10-year period"
+    ],
+    "answer": 3,
+    "explanation": "Successive possessors in privity, such as a seller and a buyer, may \"tack\" their periods: 6 + 5 = 11 years, which exceeds the 10-year requirement. A break in privity or possession would restart the clock.",
+    "citation": "RPAPL Art. 5; CPLR 212(a) (tacking)"
+  },
+  {
+    "id": "title-deeds-b033",
+    "topic": "title-deeds",
+    "q": "A man dies intestate. Who is appointed by the Surrogate's Court to settle his estate?",
+    "options": [
+      "An administrator",
+      "An executor",
+      "A devisee",
+      "A court-appointed referee"
+    ],
+    "answer": 0,
+    "explanation": "With no will, the Surrogate's Court issues letters of administration to an administrator. An executor is named in a will and receives letters testamentary.",
+    "citation": "SCPA Art. 10; EPTL"
+  },
+  {
+    "id": "title-deeds-b034",
+    "topic": "title-deeds",
+    "q": "What is probate?",
+    "options": [
+      "The transfer of a decedent's property to the State when no heirs exist",
+      "The court process of proving a will valid and authorizing the executor",
+      "The division of an estate among the heirs when there is no will",
+      "The recording of the executor's deed with the county clerk's office"
+    ],
+    "answer": 1,
+    "explanation": "Probate takes place in the Surrogate's Court, which validates the will and issues letters testamentary to the executor. Transfer to the State with no heirs is escheat; distribution with no will is intestate succession.",
+    "citation": "SCPA Art. 14"
+  },
+  {
+    "id": "title-deeds-b035",
+    "topic": "title-deeds",
+    "q": "A will leaves \"my house to my niece and my car and savings account to my nephew.\" Which statement uses the terms correctly?",
+    "options": [
+      "The niece receives a bequest; the nephew is a devisee",
+      "Both the niece and the nephew are devisees",
+      "The niece is a devisee; the nephew receives a bequest",
+      "Both the niece and the nephew are administrators"
+    ],
+    "answer": 2,
+    "explanation": "A gift of real property by will is a devise, made to a devisee; a gift of personal property such as a car or money is a bequest (legacy). Administrators manage estates without wills; they are not recipients.",
+    "citation": "SCPA §103 (definitions of devise and bequest/legacy)"
+  },
+  {
+    "id": "title-deeds-b036",
+    "topic": "title-deeds",
+    "q": "A testator types his will, signs it at the end, and has one friend sign as a witness. Is the will properly executed under New York law?",
+    "options": [
+      "Yes, because a typed will needs only a single attesting witness",
+      "Yes, because the testator signed at the end of the document",
+      "No, because every will must also be notarized to be valid",
+      "No, because at least two attesting witnesses are required"
+    ],
+    "answer": 3,
+    "explanation": "EPTL §3-2.1 requires the testator to sign at the end and at least two attesting witnesses to sign within a 30-day period. Notarization is not a requirement for a will's validity.",
+    "citation": "EPTL §3-2.1"
+  },
+  {
+    "id": "title-deeds-b037",
+    "topic": "title-deeds",
+    "q": "A New York homeowner who is not in military service and not at sea writes her entire will by hand, signs it, and has no witnesses. Is it valid in New York?",
+    "options": [
+      "No; such wills are valid only in narrow wartime or at-sea situations",
+      "Yes; handwritten wills are valid in New York if they are signed and dated",
+      "Yes, but only to pass property worth less than $50,000 in total",
+      "No; handwritten wills become valid only if later notarized by a clerk"
+    ],
+    "answer": 0,
+    "explanation": "New York recognizes holographic (handwritten, unwitnessed) wills only when made by armed forces members, or people serving with or accompanying them, during war or armed conflict, or by mariners at sea (EPTL §3-2.2). An ordinary homeowner's unwitnessed handwritten will is not validly executed; a will needs two attesting witnesses under EPTL §3-2.1.",
+    "citation": "EPTL §3-2.2"
+  },
+  {
+    "id": "title-deeds-b038",
+    "topic": "title-deeds",
+    "q": "A man dies intestate, survived by his wife and his parents, but no children. Who inherits his estate?",
+    "options": [
+      "His wife and his parents share equally",
+      "His wife takes everything",
+      "His parents take everything",
+      "His wife takes $50,000 and his parents take the rest"
+    ],
+    "answer": 1,
+    "explanation": "Under EPTL §4-1.1, a spouse with no surviving issue takes the entire estate; parents inherit only when there is no spouse and no issue. The $50,000-plus-half rule applies only when issue survive.",
+    "citation": "EPTL §4-1.1"
+  },
+  {
+    "id": "title-deeds-b039",
+    "topic": "title-deeds",
+    "q": "A woman dies without a will and without any spouse, descendants, parents, or other relatives entitled to inherit. What happens to her real property?",
+    "options": [
+      "It passes to the town where it is located by eminent domain",
+      "It goes to her closest neighbor by adverse possession",
+      "It escheats to the State of New York",
+      "It remains ownerless until someone records a deed"
+    ],
+    "answer": 2,
+    "explanation": "When no one is entitled to inherit, the property passes to the State by escheat. Eminent domain is a taking with compensation, and adverse possession requires 10 years of qualifying possession.",
+    "citation": "EPTL §4-1.1; doctrine of escheat"
+  },
+  {
+    "id": "title-deeds-b040",
+    "topic": "title-deeds",
+    "q": "An owner dies with no will. Her only relative is a first cousin. Will her house escheat?",
+    "options": [
+      "Yes, because only spouses and children can inherit",
+      "Yes, because dying without a will always triggers escheat",
+      "No, because the house goes to the town automatically",
+      "No, because a cousin can qualify as a distributee"
+    ],
+    "answer": 3,
+    "explanation": "Dying intestate does not by itself cause escheat; property escheats only if no distributee survives. Under EPTL §4-1.1, first cousins can inherit when no closer relatives survive.",
+    "citation": "EPTL §4-1.1"
+  },
+  {
+    "id": "title-deeds-b041",
+    "topic": "title-deeds",
+    "q": "A husband's will leaves his entire estate to a charity and nothing to his wife. Under New York law, what can she do?",
+    "options": [
+      "Claim an elective share: the greater of $50,000 or one-third of the net estate",
+      "Nothing, because a properly executed will always controls who inherits",
+      "Take the entire estate, because a spouse can never be disinherited at all",
+      "Claim one-half of the estate as her share under tenancy by the entirety"
+    ],
+    "answer": 0,
+    "explanation": "EPTL §5-1.1-A gives a surviving spouse a right of election to take the greater of $50,000 or one-third of the net estate. A spouse can be partly disinherited, but not below the elective share without a valid waiver.",
+    "citation": "EPTL §5-1.1-A"
+  },
+  {
+    "id": "title-deeds-b042",
+    "topic": "title-deeds",
+    "q": "The State needs a strip of a farm to widen a highway, and the owner refuses to sell. What can the State do?",
+    "options": [
+      "Take it without payment under its police power",
+      "Acquire it by condemnation and pay just compensation",
+      "Wait for the strip to escheat to the State",
+      "Rezone the strip as a public highway without compensation"
+    ],
+    "answer": 1,
+    "explanation": "Eminent domain lets government take private property for public use through condemnation, but just compensation, usually fair market value, must be paid. Police power and zoning regulate use; they do not transfer title.",
+    "citation": "U.S. Const. 5th Amend.; NY Const. art. I §7; Eminent Domain Procedure Law"
+  },
+  {
+    "id": "title-deeds-b043",
+    "topic": "title-deeds",
+    "q": "A county takes the front 30 feet of a commercial lot for a road, and the smaller remaining parcel loses value because its parking is cut in half. What compensation may the owner seek?",
+    "options": [
+      "Only the value of the 30-foot strip that was actually taken",
+      "Only the relocation costs for moving the business elsewhere",
+      "Value of the strip taken plus severance damages to the remainder",
+      "Nothing, because a partial taking is not compensable at all"
+    ],
+    "answer": 2,
+    "explanation": "In a partial taking, just compensation includes the value of the part taken and the decrease in value of the remaining land (severance or consequential damages). Limiting the award to the strip alone ignores the remainder's loss.",
+    "citation": "Eminent Domain Procedure Law; NY Const. art. I §7"
+  },
+  {
+    "id": "title-deeds-b044",
+    "topic": "title-deeds",
+    "q": "A town's sewer project repeatedly floods a private lot, making it unusable, but the town never started a condemnation proceeding. What claim may the owner bring?",
+    "options": [
+      "An action to quiet title",
+      "A petition for escheat",
+      "An action for partition",
+      "Inverse condemnation"
+    ],
+    "answer": 3,
+    "explanation": "Inverse condemnation is a suit by an owner when government action effectively takes property without formal condemnation, seeking just compensation. Quiet title resolves competing ownership claims, and partition divides co-owned land.",
+    "citation": "U.S. Const. 5th Amend.; NY Const. art. I §7"
   }
 ]

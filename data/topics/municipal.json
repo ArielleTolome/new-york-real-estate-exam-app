@@ -306,5 +306,817 @@
     "answer": 1,
     "explanation": "Article 78 review is deferential. The court asks whether the agency acted lawfully and rationally (not arbitrarily or capriciously) and does not substitute its own judgment or rehear the application from scratch.",
     "citation": "CPLR § 7803"
+  },
+  {
+    "id": "municipal-a001",
+    "topic": "municipal",
+    "q": "A house sits inside an incorporated village that has adopted its own zoning law. The surrounding town also has a zoning law. Which zoning rules govern the house?",
+    "options": [
+      "The town's law, because the village lies inside the town",
+      "The village's law; town zoning does not reach village land",
+      "Whichever of the two laws is stricter on each point",
+      "The county's law, which overrides town and village rules"
+    ],
+    "answer": 1,
+    "explanation": "A town's zoning power covers only the territory outside its incorporated villages, so a village zones its own land. Being geographically inside the town does not subject village land to town zoning, and counties generally do not zone in New York.",
+    "citation": "Town Law §261; Village Law §7-700"
+  },
+  {
+    "id": "municipal-a002",
+    "topic": "municipal",
+    "q": "In a New York town, the town supervisor is best described as:",
+    "options": [
+      "An appointed manager who has no vote on the town board",
+      "The chair of the planning board, named by the governor",
+      "The official who values parcels for the assessment roll",
+      "The presiding officer and a voting member of the town board"
+    ],
+    "answer": 3,
+    "explanation": "The town board is made up of the elected supervisor and the town council members; the supervisor presides and votes. Valuing parcels is the assessor's job, and planning board members are appointed locally, not by the governor.",
+    "citation": "Town Law §§60, 63"
+  },
+  {
+    "id": "municipal-a003",
+    "topic": "municipal",
+    "q": "A town board wants to appoint one of its own council members to fill a vacancy on the town zoning board of appeals. Is this allowed?",
+    "options": [
+      "No; a town board member is ineligible to serve on the ZBA",
+      "Yes, if the member abstains on any variance votes",
+      "Yes, as long as the ZBA keeps five members in total",
+      "Yes, but only if the member also serves as ZBA chair"
+    ],
+    "answer": 0,
+    "explanation": "Town Law bars a member of the town board from serving on the zoning board of appeals. Keeping the legislative body off the quasi-judicial appeals board keeps the policy maker separate from the body that applies the law to individual cases.",
+    "citation": "Town Law §267"
+  },
+  {
+    "id": "municipal-a004",
+    "topic": "municipal",
+    "q": "A town planning board member did not complete the required annual training, and the town board did not waive it. What is the legal effect?",
+    "options": [
+      "Every decision the member voted on that year becomes void",
+      "The member must step down at once and repay any stipend",
+      "Board decisions stand, but the member may be denied reappointment",
+      "The planning board loses its power to review subdivisions"
+    ],
+    "answer": 2,
+    "explanation": "Planning board members must complete at least 4 hours of training a year unless the town board waives or modifies it. Missing it can make a member ineligible for reappointment, but the statute says no board decision is voided because of it.",
+    "citation": "Town Law §271(7-a)"
+  },
+  {
+    "id": "municipal-a005",
+    "topic": "municipal",
+    "q": "During site plan review, a planning board discovers the applicant's proposed use is not permitted in the zoning district. Short of a rezoning, where must the applicant seek relief?",
+    "options": [
+      "The planning board, which can waive the use restriction",
+      "The zoning board of appeals, through a use variance",
+      "The building inspector, through a conditional permit",
+      "The county planning agency, through a use approval"
+    ],
+    "answer": 1,
+    "explanation": "Only the ZBA grants use variances (the town board could instead rezone). A planning board reviews site layout for uses the zoning allows; it cannot authorize a use the zoning prohibits.",
+    "citation": "Town Law §§267-b, 274-a"
+  },
+  {
+    "id": "municipal-a006",
+    "topic": "municipal",
+    "q": "Which statement about a town comprehensive plan is accurate?",
+    "options": [
+      "The ZBA adopts it and uses it as its variance standard",
+      "The county clerk records it, and it then binds only buyers",
+      "The planning board adopts it, and it overrides the zoning law",
+      "The town board adopts it, and zoning must be consistent with it"
+    ],
+    "answer": 3,
+    "explanation": "The town board adopts the comprehensive plan, though it may have the planning board prepare it, and town land-use regulations must be in accordance with the plan. The planning board advises and drafts; it does not adopt the plan.",
+    "citation": "Town Law §272-a"
+  },
+  {
+    "id": "municipal-a007",
+    "topic": "municipal",
+    "q": "A developer proposes grouping 20 homes on smaller lots in one corner of a 60-acre tract, preserving the rest as permanent open space, with no more homes than a conventional layout would allow. This is:",
+    "options": [
+      "Cluster development, approved by the planning board as authorized by the town board",
+      "Spot zoning, which the ZBA must approve as a use variance for the reduced lot size",
+      "A realty subdivision, which only the county health department may approve as drawn",
+      "Inclusionary zoning, which the building department approves when issuing permits"
+    ],
+    "answer": 0,
+    "explanation": "Cluster development lets the planning board, when the town board has authorized it, modify lot sizes so homes are grouped and open space preserved, without exceeding the unit count of a conventional subdivision. No use variance is needed because the use stays residential.",
+    "citation": "Town Law §278"
+  },
+  {
+    "id": "municipal-a008",
+    "topic": "municipal",
+    "q": "An owner in a village wins architectural review board approval for a new storefront facade. Can the owner start construction right away?",
+    "options": [
+      "Yes, because ARB approval includes building code review",
+      "Yes, unless a neighbor objects within the next 30 days",
+      "No; a building permit is still needed from code enforcement",
+      "No; the county must also approve every facade change"
+    ],
+    "answer": 2,
+    "explanation": "Architectural review covers appearance; structural and code compliance is a separate building-department approval. One office's approval does not approve another office's subject matter.",
+    "citation": "NYS Uniform Fire Prevention and Building Code, 19 NYCRR Part 1203; local ARB law"
+  },
+  {
+    "id": "municipal-a009",
+    "topic": "municipal",
+    "q": "A town's conservation advisory council finishes an inventory and map of the town's open areas, and the town board accepts it as the official open space index. What may the town board now do?",
+    "options": [
+      "Let the council issue wetland permits in place of DEC",
+      "Redesignate the council as a conservation board",
+      "Give the council power to grant area variances",
+      "Let the council adopt zoning changes without a hearing"
+    ],
+    "answer": 1,
+    "explanation": "Once the open space index is accepted, the legislative body may redesignate the CAC as a conservation board, which must receive and report on applications affecting listed open areas. It remains advisory: it cannot issue DEC permits, grant variances or rezone.",
+    "citation": "General Municipal Law §§239-x, 239-y"
+  },
+  {
+    "id": "municipal-a010",
+    "topic": "municipal",
+    "q": "A member of a town conservation advisory council tells a buyer that the soggy back acre of a lot \"isn't a regulated wetland.\" The buyer's agent should recommend that the buyer:",
+    "options": [
+      "Rely on the statement, since the council regulates wetlands",
+      "Get the council's view in a signed letter and rely on that",
+      "Ask the assessor to reclassify the acre as dry upland",
+      "Obtain a written jurisdictional determination from DEC"
+    ],
+    "answer": 3,
+    "explanation": "A CAC studies and advises; an informal remark from a member is not a determination by the agency with wetland jurisdiction. The buyer needs a written determination from DEC (plus any local wetland regulator); a signed letter from the council still lacks that authority.",
+    "citation": "General Municipal Law §239-x; ECL Article 24"
+  },
+  {
+    "id": "municipal-a011",
+    "topic": "municipal",
+    "q": "A village has opted out of administering and enforcing the New York State Uniform Fire Prevention and Building Code. Who then enforces the code there?",
+    "options": [
+      "The county, or the Department of State if the county also opts out",
+      "No one, because opting out exempts the village from the code",
+      "The village zoning board of appeals, as part of its variances",
+      "The county health department, along with its septic reviews"
+    ],
+    "answer": 0,
+    "explanation": "A city, town or village may opt out of enforcing the Uniform Code, but the code still applies: the county takes over, and if the county also declines, the Department of State enforces it. Opting out shifts enforcement; it never exempts buildings from the code.",
+    "citation": "Executive Law §381(2); 19 NYCRR Part 1203"
+  },
+  {
+    "id": "municipal-a012",
+    "topic": "municipal",
+    "q": "A buyer's agent checks the town building department file for a listing. It shows a permit issued in 2019 for a rear deck, but no final inspection or certificate. What does this most likely mean?",
+    "options": [
+      "The deck is legal because the permit was issued",
+      "The permit is still open; the work was never signed off",
+      "The deck is grandfathered because the permit is old",
+      "The assessor's records will show it passed inspection"
+    ],
+    "answer": 1,
+    "explanation": "Issuing a permit authorizes work to start; the final inspection and certificate show it was completed in compliance. An open permit is a common closing problem the seller usually must close out, and age alone does not grandfather unapproved work.",
+    "citation": "19 NYCRR Part 1203 (building permits, inspections, certificates)"
+  },
+  {
+    "id": "municipal-a013",
+    "topic": "municipal",
+    "q": "Before closing, the buyer's attorney wants to confirm the seller has paid this year's town and county property taxes. Which local office keeps that payment record?",
+    "options": [
+      "The town assessor, who values each parcel",
+      "The board of assessment review, which hears grievances",
+      "The receiver of taxes, who collects the tax payments",
+      "The county clerk, who records deeds and mortgages"
+    ],
+    "answer": 2,
+    "explanation": "The receiver of taxes (tax collector or treasurer in some places) bills and collects taxes and keeps payment records. The assessor sets assessed values and the board of assessment review hears grievances; neither tracks whether a bill was paid.",
+    "citation": "Real Property Tax Law Article 9; local tax collection practice"
+  },
+  {
+    "id": "municipal-a014",
+    "topic": "municipal",
+    "q": "The assessor's property record card for a house lists a \"basement apartment.\" The seller says this proves the apartment is legal. Is the seller right?",
+    "options": [
+      "Yes; the assessor approves every dwelling unit it lists",
+      "Yes; any unit taxed for over ten years is legal by default",
+      "No; only the county clerk can confirm that a unit is legal",
+      "No; legality turns on zoning and the building department file"
+    ],
+    "answer": 3,
+    "explanation": "The assessor records physical characteristics for valuation; listing a unit does not approve it. Whether an apartment is legal depends on zoning and on permits and a certificate of occupancy from the building department.",
+    "citation": "Real Property Tax Law (assessment function); 19 NYCRR Part 1203"
+  },
+  {
+    "id": "municipal-a015",
+    "topic": "municipal",
+    "q": "Each of the following sites lies within 500 feet of a county road. Which local action would NOT require referral to the county planning agency under GML §239-m?",
+    "options": [
+      "Issuing a building permit for a house that meets zoning",
+      "Granting an area variance for a reduced side setback",
+      "Approving a site plan for a new medical office building",
+      "Issuing a special use permit for a drive-through bank"
+    ],
+    "answer": 0,
+    "explanation": "Section 239-m covers zoning and planning actions such as zoning amendments, special use permits, site plan approvals and use or area variances. A routine building permit for a conforming house is not one of the listed actions, so it is not referred.",
+    "citation": "General Municipal Law §239-m(1), (3)"
+  },
+  {
+    "id": "municipal-a016",
+    "topic": "municipal",
+    "q": "Which location would make a town's proposed special use permit subject to county planning referral under GML §239-m?",
+    "options": [
+      "Within 500 feet of a public elementary school",
+      "Within 500 feet of an adjoining town's boundary",
+      "Within 1,000 feet of a house of worship",
+      "Within 500 feet of a private golf course"
+    ],
+    "answer": 1,
+    "explanation": "Referral is triggered by land within 500 feet of features such as a municipal boundary, a county or state park, a county or state road, county-owned drainage, county or state land holding a public building, or a farm in an agricultural district. Schools, churches and private recreation sites are not on the list.",
+    "citation": "General Municipal Law §239-m(3)(b)"
+  },
+  {
+    "id": "municipal-a017",
+    "topic": "municipal",
+    "q": "The county planning agency recommends disapproval of a use variance referred by a five-member town ZBA. What is the minimum number of ZBA votes needed to grant the variance anyway?",
+    "options": [
+      "3 votes, a simple majority of the board",
+      "3 votes of whichever members attend",
+      "4 votes, a majority plus one of all members",
+      "5 votes, because the action must be unanimous"
+    ],
+    "answer": 2,
+    "explanation": "To act contrary to a county recommendation of disapproval or modification, the board needs a majority plus one of all its members and must state its reasons in a resolution. Majority of 5 = 3; 3 + 1 = 4. Counting only the members present is the trap.",
+    "citation": "General Municipal Law §239-m(5)"
+  },
+  {
+    "id": "municipal-a018",
+    "topic": "municipal",
+    "q": "A town planning board refers a site plan to the county planning agency under GML §239-m. Thirty days pass after the county received the full statement, and the county has sent no recommendation. The planning board may:",
+    "options": [
+      "Not act until the county formally responds",
+      "Act only by a majority plus one of its members",
+      "Treat the county's silence as a disapproval",
+      "Take final action without the county's report"
+    ],
+    "answer": 3,
+    "explanation": "The county has 30 days from receiving a full statement (or a longer agreed period) to respond. If it does not, the referring board may act without the report; silence is not a disapproval, so the majority-plus-one vote is not triggered.",
+    "citation": "General Municipal Law §239-m(4)(b)"
+  },
+  {
+    "id": "municipal-a019",
+    "topic": "municipal",
+    "q": "A buyer plans to build a home on a rural lot with a private well and a new septic system. Under State Health Department standards, the absorption field must generally be at least how far from the well?",
+    "options": [
+      "100 feet",
+      "25 feet",
+      "50 feet",
+      "200 feet"
+    ],
+    "answer": 0,
+    "explanation": "Appendix 75-A requires 100 feet between a well and an absorption field. 50 feet is the separation for the septic tank, and 200 feet applies when the field sits upgrade in the drainage path to the well; county health departments may require more.",
+    "citation": "10 NYCRR Appendix 75-A, §75-A.4 Table 2"
+  },
+  {
+    "id": "municipal-a020",
+    "topic": "municipal",
+    "q": "A buyer of a house served by a private well wants a reliable water quality test before the contingency expires. The most dependable approach is to:",
+    "options": [
+      "Rely on the seller's answers about the well on the PCDS",
+      "Have a State Health Department ELAP-certified lab test a sample",
+      "Ask the town building department for its file on the well",
+      "Use a store-bought home test kit and keep the printed results"
+    ],
+    "answer": 1,
+    "explanation": "Drinking water results are reliable when a lab certified by the NYS Department of Health's Environmental Laboratory Approval Program analyzes a properly taken sample; the county health department can help interpret them. A seller's disclosure and home kits are not lab-certified results.",
+    "citation": "Public Health Law §502 (ELAP)"
+  },
+  {
+    "id": "municipal-a021",
+    "topic": "municipal",
+    "q": "A Type I action needs a town board rezoning, a planning board site plan approval and a DEC permit. If the involved agencies cannot agree within 30 days on which will be lead agency under SEQR, who designates it?",
+    "options": [
+      "The county planning agency",
+      "The applicant, by written election",
+      "The Commissioner of DEC",
+      "The New York Secretary of State"
+    ],
+    "answer": 2,
+    "explanation": "In coordinated review the involved agencies have 30 days to agree on a lead agency; if they cannot, any involved agency or the project sponsor may ask the DEC Commissioner, who then designates one. The applicant can request a designation but does not choose the lead agency, and the county agency's role is the separate §239-m referral.",
+    "citation": "6 NYCRR §617.6(b)(5)"
+  },
+  {
+    "id": "municipal-a022",
+    "topic": "municipal",
+    "q": "A town's conservation advisory council wants to comment during SEQR review of a large subdivision, but it has no power to fund, approve or carry out the project. Under SEQR, the council is:",
+    "options": [
+      "An involved agency",
+      "The lead agency",
+      "A reviewing agency",
+      "An interested agency"
+    ],
+    "answer": 3,
+    "explanation": "An interested agency lacks jurisdiction to fund, approve or undertake the action but participates because of its expertise or concern. An involved agency has that jurisdiction, and only an involved agency can serve as lead agency.",
+    "citation": "6 NYCRR §617.2"
+  },
+  {
+    "id": "municipal-a023",
+    "topic": "municipal",
+    "q": "A town planning board schedules a hearing on a site plan for land 300 feet from the boundary of a neighboring village. Under GML §239-nn, the planning board must:",
+    "options": [
+      "Notify the village clerk at least 10 days before the hearing",
+      "Get the village board's consent before approving the plan",
+      "Transfer the application to the village planning board",
+      "Let the village ZBA hold the hearing on the plan instead"
+    ],
+    "answer": 0,
+    "explanation": "For subdivisions, site plans, special use permits and use variances within 500 feet of an adjacent municipality, the hearing board must notify that municipality's clerk at least 10 days before the hearing. The neighbor may appear and be heard, but its consent is not required.",
+    "citation": "General Municipal Law §239-nn"
+  },
+  {
+    "id": "municipal-a024",
+    "topic": "municipal",
+    "q": "Under the Town Law, what is the minimum published notice for a ZBA variance hearing compared with a town board hearing on a zoning amendment?",
+    "options": [
+      "10 days for the ZBA and 5 days for the town board",
+      "5 days for the ZBA and 10 days for the town board",
+      "10 days for both the ZBA and the town board",
+      "5 days for both the ZBA and the town board"
+    ],
+    "answer": 1,
+    "explanation": "The ZBA must publish notice at least 5 days before the hearing and mail notice to the parties at least 5 days before; a town board zoning amendment needs at least 10 days' published notice, because §265 applies the §264 hearing-notice rules to amendments. Local laws may require more, such as mailing to neighbors.",
+    "citation": "Town Law §§264, 265, 267-a(7)"
+  },
+  {
+    "id": "municipal-a025",
+    "topic": "municipal",
+    "q": "A village planning board schedules its next meeting three weeks ahead. Under the Open Meetings Law, when must it give notice of the time and place to the news media and post it publicly?",
+    "options": [
+      "At least 24 hours before the meeting",
+      "At least 10 days before the meeting",
+      "At least 72 hours before the meeting",
+      "At least 5 days before the meeting"
+    ],
+    "answer": 2,
+    "explanation": "For a meeting scheduled at least a week in advance, notice must go to the news media and be posted at least 72 hours beforehand (and on the website if the body has one). Meetings scheduled on shorter notice need notice at a reasonable time beforehand, to the extent practicable.",
+    "citation": "Public Officers Law §104"
+  },
+  {
+    "id": "municipal-a026",
+    "topic": "municipal",
+    "q": "A village board wants to talk privately about a parcel it hopes to buy for a park, fearing public discussion would drive up the price. Under the Open Meetings Law, the board:",
+    "options": [
+      "May never discuss real property outside a public session",
+      "May meet privately on any land matter if the mayor requests it",
+      "May meet privately only after the seller consents in writing",
+      "May enter executive session on a majority vote of its full membership"
+    ],
+    "answer": 3,
+    "explanation": "Executive session is allowed for a proposed purchase, sale or lease of real property when publicity would substantially affect its value. The motion must be made in an open meeting, name the general subject and pass by a majority of the total membership.",
+    "citation": "Public Officers Law §105(1)(h)"
+  },
+  {
+    "id": "municipal-a027",
+    "topic": "municipal",
+    "q": "A town ZBA wants to deliberate on a contested use variance behind closed doors, arguing that it acts like a court. Under the Open Meetings Law:",
+    "options": [
+      "Its deliberations must be open; the quasi-judicial exemption excludes ZBAs",
+      "It may deliberate privately, as long as it announces its vote publicly",
+      "It may deliberate privately, because quasi-judicial bodies are exempt",
+      "It may deliberate privately, but only if the applicant agrees to it"
+    ],
+    "answer": 0,
+    "explanation": "The Open Meetings Law exempts judicial and quasi-judicial proceedings, except proceedings of zoning boards of appeals. A ZBA's deliberations and vote must be held in public; voting publicly after private deliberation is the trap.",
+    "citation": "Public Officers Law §108(1)"
+  },
+  {
+    "id": "municipal-a028",
+    "topic": "municipal",
+    "q": "A salesperson files a Freedom of Information Law request with a town for the building permit file on a listing. Within what time must the town first respond, by granting, denying or acknowledging the request?",
+    "options": [
+      "72 hours",
+      "5 business days",
+      "14 calendar days",
+      "30 calendar days"
+    ],
+    "answer": 1,
+    "explanation": "Within 5 business days of receiving a FOIL request, an agency must make the records available, deny the request in writing, or acknowledge it with an approximate date for a response. 72 hours is the Open Meetings Law notice period, a different law.",
+    "citation": "Public Officers Law §89(3)(a)"
+  },
+  {
+    "id": "municipal-a029",
+    "topic": "municipal",
+    "q": "A listing agent for a vacant lot sees the assessor's property class code for vacant residential land and wants to tell buyers what may be built. The most reliable source is:",
+    "options": [
+      "The assessor's class code, which sets the permitted uses",
+      "The seller's account of what neighbors have built nearby",
+      "The current zoning law and map, confirmed with zoning officials",
+      "The tax receiver's bill, which shows the lot's legal use"
+    ],
+    "answer": 2,
+    "explanation": "Permitted uses come from the current zoning text and map, confirmed in writing with the zoning or building office. An assessor's class code describes how the parcel is classified for tax purposes and does not grant or limit development rights.",
+    "citation": "Town Law §261 et seq.; Real Property Tax Law (property classification)"
+  },
+  {
+    "id": "municipal-b001",
+    "topic": "municipal",
+    "q": "A buyer's agent is showing a Queens house advertised as a \"three-family.\" The Department of Buildings records show a certificate of occupancy for a two-family dwelling. What is the most accurate conclusion?",
+    "options": [
+      "The third unit is not a legal dwelling unit under the existing CO",
+      "The CO is outdated and the actual use controls for the sale",
+      "A three-family use is legal if the unit was rented over ten years",
+      "The third unit is legal once the seller registers it with HPD"
+    ],
+    "answer": 0,
+    "explanation": "The certificate of occupancy fixes the legal use and number of units; a unit beyond the CO is illegal until DOB approves an amended CO. Long rental history or HPD registration does not legalize occupancy, and lenders and title insurers often balk at the discrepancy.",
+    "citation": "NYC Building Code / NYC Admin. Code Title 28 (certificate of occupancy); MDL §301"
+  },
+  {
+    "id": "municipal-b002",
+    "topic": "municipal",
+    "q": "A Manhattan brownstone was completed in 1925 and has never had its use, egress, or number of units changed. The DOB has no certificate of occupancy on file. Which statement is correct?",
+    "options": [
+      "The building is illegally occupied and must obtain a new CO before any sale",
+      "The seller must obtain a temporary CO from HPD before title can close",
+      "A CO is generally not required; a Letter of No Objection can confirm use",
+      "A CO must now be obtained because the building is being sold to a new owner"
+    ],
+    "answer": 2,
+    "explanation": "NYC buildings completed before 1938 generally do not need a CO unless there has been a change in use, egress, or occupancy; owners often obtain a DOB Letter of No Objection for lenders and buyers. A sale itself does not trigger a CO requirement, and HPD does not issue COs.",
+    "citation": "NYC Department of Buildings certificate of occupancy rules (pre-1938 buildings)"
+  },
+  {
+    "id": "municipal-b003",
+    "topic": "municipal",
+    "q": "A seller's title report shows an open ECB violation issued by the Department of Buildings. The seller says she already paid the penalty. What else is generally needed to resolve the violation on DOB records?",
+    "options": [
+      "A release of the penalty recorded in ACRIS by the Department of Finance",
+      "Proof the condition was fixed, accepted by DOB as a certificate of correction",
+      "A dismissal letter from the local community board",
+      "Nothing; payment of the penalty closes the violation"
+    ],
+    "answer": 1,
+    "explanation": "Paying an ECB/OATH penalty settles the fine but does not cure the condition; the owner must certify correction to DOB before the violation is shown as resolved. Community boards have no enforcement role, and ACRIS records documents, not violation clearances.",
+    "citation": "NYC Department of Buildings / OATH violation procedures"
+  },
+  {
+    "id": "municipal-b004",
+    "topic": "municipal",
+    "q": "Summonses issued by the Department of Buildings, DEP, and the Fire Department for code violations are generally heard and decided by which body?",
+    "options": [
+      "The Board of Standards and Appeals",
+      "The NYC Housing Court",
+      "The City Planning Commission",
+      "The OATH Hearings Division"
+    ],
+    "answer": 3,
+    "explanation": "OATH's Hearings Division (which absorbed the former Environmental Control Board) adjudicates summonses written by many city enforcement agencies. The BSA hears zoning variances and appeals of DOB determinations, not penalty summonses.",
+    "citation": "NYC Charter ch. 45-A (OATH); NYC Charter §1049-a"
+  },
+  {
+    "id": "municipal-b005",
+    "topic": "municipal",
+    "q": "An owner of a six-unit Bronx building let his annual HPD multiple dwelling registration lapse. A tenant stops paying rent. What is the main legal consequence of the lapse?",
+    "options": [
+      "The tenant's lease is automatically converted to a month-to-month term",
+      "The building's certificate of occupancy is suspended by DOB",
+      "The owner generally cannot bring a nonpayment proceeding until registered",
+      "The tenant may deduct any unpaid rent from the security deposit"
+    ],
+    "answer": 2,
+    "explanation": "Owners of multiple dwellings (3+ units) must register annually with HPD; an unregistered owner is barred from suing for nonpayment of rent until registration is current. The lapse does not affect the CO or change the lease term.",
+    "citation": "NYC Housing Maintenance Code, Admin. Code §27-2097 and §27-2107"
+  },
+  {
+    "id": "municipal-b006",
+    "topic": "municipal",
+    "q": "An HPD inspector cites a building for having no heat in January. Under the Housing Maintenance Code, this type of violation is classified as:",
+    "options": [
+      "Class C, immediately hazardous",
+      "Class A, non-hazardous",
+      "Class B, hazardous",
+      "Class D, deferred maintenance"
+    ],
+    "answer": 0,
+    "explanation": "HPD classifies violations as A (non-hazardous), B (hazardous), or C (immediately hazardous); a lack of heat during heat season is a Class C condition requiring the fastest correction. There is no Class D.",
+    "citation": "NYC Housing Maintenance Code, Admin. Code §27-2115"
+  },
+  {
+    "id": "municipal-b007",
+    "topic": "municipal",
+    "q": "A buyer is purchasing a rowhouse in a New York City historic district and wants to add a rooftop addition visible from the street. What approval does the Landmarks Preservation Commission typically issue for work that affects protected exterior features?",
+    "options": [
+      "A Certificate of No Effect",
+      "A Letter of No Objection",
+      "A temporary certificate of occupancy",
+      "A Certificate of Appropriateness"
+    ],
+    "answer": 3,
+    "explanation": "Work affecting significant protected features, such as a visible rooftop addition, requires an LPC Certificate of Appropriateness after review. A Certificate of No Effect covers DOB-permitted work that does not affect protected features; LNOs and TCOs are DOB documents.",
+    "citation": "NYC Landmarks Law, Admin. Code §25-307"
+  },
+  {
+    "id": "municipal-b008",
+    "topic": "municipal",
+    "q": "An owner of an apartment in a designated landmark building wants to gut-renovate the kitchen. The work needs a DOB permit but does not touch any protected exterior or interior features. What LPC document is typically issued?",
+    "options": [
+      "A Certificate of Appropriateness",
+      "A Certificate of No Effect",
+      "A use variance",
+      "A zoning special permit"
+    ],
+    "answer": 1,
+    "explanation": "LPC issues a Certificate of No Effect when work requiring a DOB permit will not affect protected architectural features. A Certificate of Appropriateness is for work that does affect them; variances and special permits are zoning tools, not LPC approvals.",
+    "citation": "NYC Landmarks Law, Admin. Code §25-305"
+  },
+  {
+    "id": "municipal-b009",
+    "topic": "municipal",
+    "q": "A seller boasts that his private apartment's ornate living room could be designated an \"interior landmark.\" Why is that claim unlikely to be true?",
+    "options": [
+      "Interior landmarks must be customarily open or accessible to the public",
+      "Interior landmarks must be located in buildings over 100 years old",
+      "Only the City Council, not LPC, may designate any interior",
+      "Interiors can be designated only in city-owned buildings"
+    ],
+    "answer": 0,
+    "explanation": "The Landmarks Law limits interior landmarks to interiors customarily open or accessible to the public, such as lobbies and theaters, so a private apartment interior does not qualify. LPC, not the Council alone, designates, and there is no 100-year or city-ownership rule.",
+    "citation": "NYC Landmarks Law, Admin. Code §25-302"
+  },
+  {
+    "id": "municipal-b010",
+    "topic": "municipal",
+    "q": "A buyer's attorney orders municipal searches and finds unpaid water and sewer charges billed by the Department of Environmental Protection. Why does this matter for the sale?",
+    "options": [
+      "Water charges are personal debts that never affect title",
+      "DEP charges are paid only by tenants, not by owners",
+      "Unpaid water and sewer charges can become a lien on the property",
+      "The charges must be appealed to the City Planning Commission"
+    ],
+    "answer": 2,
+    "explanation": "NYC water and sewer charges are a lien on the property, like real estate taxes, and can even be sold in the tax lien sale; they are typically paid or escrowed at closing. They are not merely personal debts and are not a CPC matter.",
+    "citation": "NYC Admin. Code §11-301 and Title 11, ch. 3 (water and sewer charges)"
+  },
+  {
+    "id": "municipal-b011",
+    "topic": "municipal",
+    "q": "Each January, NYC owners receive a notice showing the city's estimate of their property's market value and assessed value for the coming tax year. This notice comes from:",
+    "options": [
+      "The Department of City Planning",
+      "The Department of Finance",
+      "The Department of Buildings",
+      "The Office of the Borough President"
+    ],
+    "answer": 1,
+    "explanation": "The Department of Finance values and assesses NYC property and mails the annual Notice of Property Value each January. DCP handles planning and zoning, DOB handles construction, and borough presidents have no assessment role.",
+    "citation": "NYC Charter ch. 11 (Department of Finance); RPTL Article 18"
+  },
+  {
+    "id": "municipal-b012",
+    "topic": "municipal",
+    "q": "A Brooklyn homeowner asks who decides her property tax rate. Which statement about New York City is accurate?",
+    "options": [
+      "Finance both assesses the property and sets the tax rates",
+      "The borough president sets a separate tax rate for each borough",
+      "The City Planning Commission sets the tax rates by zoning district",
+      "Finance assesses the property; the City Council sets the tax rates"
+    ],
+    "answer": 3,
+    "explanation": "The Department of Finance determines market and assessed values, while the City Council adopts the budget and fixes the tax rates for each tax class. Borough presidents and the CPC have no rate-setting power.",
+    "citation": "NYC Charter (City Council budget and tax-fixing powers); RPTL Article 18"
+  },
+  {
+    "id": "municipal-b013",
+    "topic": "municipal",
+    "q": "A buyer's agent wants to look up the recorded deed and mortgage history of a Bronx property online. Which Department of Finance system holds these records?",
+    "options": [
+      "ZoLa",
+      "BIS",
+      "ACRIS",
+      "HPD Online"
+    ],
+    "answer": 2,
+    "explanation": "ACRIS (Automated City Register Information System) is the Department of Finance's City Register system for recording and searching deeds and mortgages. ZoLa is DCP's zoning map tool, BIS is DOB's buildings database, and HPD Online shows housing-code data.",
+    "citation": "NYC Office of the City Register (Department of Finance); RPL §291"
+  },
+  {
+    "id": "municipal-b014",
+    "topic": "municipal",
+    "q": "Which of the following is NOT a role of a New York City borough president?",
+    "options": [
+      "Granting zoning variances for lots in the borough",
+      "Appointing members of the community boards in the borough",
+      "Issuing an advisory recommendation during ULURP",
+      "Appointing one member of the City Planning Commission"
+    ],
+    "answer": 0,
+    "explanation": "Borough presidents appoint community board members, appoint one CPC member each, and issue advisory ULURP recommendations. Zoning variances for individual lots are granted by the Board of Standards and Appeals, not the borough president.",
+    "citation": "NYC Charter §§82, 192, 197-c, 666, 2800"
+  },
+  {
+    "id": "municipal-b015",
+    "topic": "municipal",
+    "q": "How are members of a New York City community board selected?",
+    "options": [
+      "Elected by the voters of the community district for staggered four-year terms",
+      "Appointed by the mayor, subject to the advice and consent of the City Council",
+      "Chosen by the City Planning Commission from a pool of local applicants",
+      "Appointed by the borough president, half nominated by local council members"
+    ],
+    "answer": 3,
+    "explanation": "Community board members (up to 50, unpaid, serving staggered two-year terms) are appointed by the borough president, with half drawn from nominees of the City Council members who represent the district. They are not elected and are not mayoral or CPC appointees.",
+    "citation": "NYC Charter §2800"
+  },
+  {
+    "id": "municipal-b016",
+    "topic": "municipal",
+    "q": "How is the 13-member City Planning Commission composed?",
+    "options": [
+      "Thirteen members elected citywide on a nonpartisan ballot every four years",
+      "Seven mayoral appointees, one per borough president, and one public advocate pick",
+      "All thirteen appointed by the City Council speaker with full Council consent",
+      "The five borough presidents plus eight community board chairs serving ex officio"
+    ],
+    "answer": 1,
+    "explanation": "The mayor appoints seven members, including the chair (who also directs the Department of City Planning); each of the five borough presidents appoints one; and the public advocate appoints one. 7 + 5 + 1 = 13.",
+    "citation": "NYC Charter §192"
+  },
+  {
+    "id": "municipal-b017",
+    "topic": "municipal",
+    "q": "Before a private rezoning application can begin the formal ULURP clock, which agency reviews it and certifies it as complete?",
+    "options": [
+      "The Department of City Planning",
+      "The Board of Standards and Appeals",
+      "The Department of Buildings",
+      "The local community board"
+    ],
+    "answer": 0,
+    "explanation": "The Department of City Planning, staff to the CPC, reviews ULURP applications and certifies them complete, which starts the formal review timeline. The community board's 60-day review begins only after certification.",
+    "citation": "NYC Charter §197-c"
+  },
+  {
+    "id": "municipal-b018",
+    "topic": "municipal",
+    "q": "A DOB plan examiner rules that a proposed rear yard extension violates the Zoning Resolution. The owner believes the examiner misread the rule. After exhausting DOB review, where does the owner appeal the determination?",
+    "options": [
+      "The City Planning Commission",
+      "The Landmarks Preservation Commission",
+      "The Board of Standards and Appeals",
+      "The OATH Hearings Division"
+    ],
+    "answer": 2,
+    "explanation": "The BSA hears appeals from DOB decisions interpreting the Zoning Resolution and the building codes, much as a zoning board of appeals does outside NYC. The CPC makes zoning policy and map changes; it does not hear appeals of individual permit denials.",
+    "citation": "NYC Charter §666"
+  },
+  {
+    "id": "municipal-b019",
+    "topic": "municipal",
+    "q": "To grant a variance under the NYC Zoning Resolution, the Board of Standards and Appeals must make several findings. Which situation would most likely defeat the application?",
+    "options": [
+      "The lot has an unusually irregular shape",
+      "The owner's own lot split created the hardship",
+      "Strict compliance would prevent a reasonable return",
+      "The request is the minimum relief necessary"
+    ],
+    "answer": 1,
+    "explanation": "BSA variance findings include unique physical conditions, no reasonable return under strict compliance, no harm to neighborhood character, a hardship not created by the owner or a predecessor in title, and minimum variance. A self-created hardship defeats the application; the other choices support it.",
+    "citation": "NYC Zoning Resolution §72-21"
+  },
+  {
+    "id": "municipal-b020",
+    "topic": "municipal",
+    "q": "An owner seeks a BSA variance for a single lot in Brooklyn. Which statement about the review process is correct?",
+    "options": [
+      "It must go through every ULURP stage, ending with a binding City Council vote",
+      "It needs only Department of Buildings approval, with no hearing",
+      "It requires a borough-wide referendum after the BSA votes",
+      "It is not a ULURP action, but the community board gets notice and may comment"
+    ],
+    "answer": 3,
+    "explanation": "BSA variances and special permits follow the BSA's own procedure with a public hearing and community board notice, not ULURP. ULURP covers actions such as zoning map changes and CPC special permits; there is no referendum.",
+    "citation": "NYC Charter §§197-c, 668"
+  },
+  {
+    "id": "municipal-b021",
+    "topic": "municipal",
+    "q": "The City wants to amend the text of the Zoning Resolution citywide, without changing any district boundaries on the zoning map. Which statement is accurate?",
+    "options": [
+      "Text amendments follow ULURP exactly, starting with each community board",
+      "Text amendments take effect on a CPC vote, with no Council role",
+      "Text amendments are not ULURP actions, but CPC and Council review still apply",
+      "Text amendments are decided by the Board of Standards and Appeals"
+    ],
+    "answer": 2,
+    "explanation": "Zoning text amendments are governed by Charter §§200–201, not ULURP: they are referred for community and borough comment, require CPC approval, and are then automatically subject to City Council review under §197-d. Zoning map amendments, by contrast, are ULURP actions.",
+    "citation": "NYC Charter §§197-d(b), 200-201"
+  },
+  {
+    "id": "municipal-b022",
+    "topic": "municipal",
+    "q": "Counting only the four sequential ULURP review periods after certification (community board, borough president, City Planning Commission, City Council), what is the maximum total time?",
+    "options": [
+      "200 days",
+      "150 days",
+      "215 days",
+      "240 days"
+    ],
+    "answer": 0,
+    "explanation": "60 (community board) + 30 (borough president) + 60 (CPC) + 50 (City Council) = 200 days. 150 omits the Council's 50 days; 215 adds the 5-day mayoral veto and 10-day override periods; 240 wrongly assumes 60 days for each stage.",
+    "citation": "NYC Charter §§197-c, 197-d"
+  },
+  {
+    "id": "municipal-b023",
+    "topic": "municipal",
+    "q": "Under ULURP, the City Council approves a rezoning and the mayor vetoes it. What can the Council do?",
+    "options": [
+      "Override the veto by a simple majority of members present",
+      "Send the rezoning to the borough president for a final vote",
+      "Nothing; a mayoral veto of a land use action is final",
+      "Override the veto by a two-thirds vote of all members"
+    ],
+    "answer": 3,
+    "explanation": "Council land use actions are final unless the mayor files a disapproval within 5 days; the Council may override within 10 days by a two-thirds vote of all its members. A simple majority is insufficient. (Since the 2025 Charter amendments, a Council denial of certain affordable housing applications can instead be appealed to the Affordable Housing Appeals Board, but that does not apply to a mayoral veto of a Council approval.)",
+    "citation": "NYC Charter §197-d(e); §197-g (2025)"
+  },
+  {
+    "id": "municipal-b024",
+    "topic": "municipal",
+    "q": "A Brooklyn lot measures 25 feet by 100 feet in a district with a maximum floor area ratio (FAR) of 3.0. The existing building contains 5,500 square feet of floor area. How much unused floor area (\"air rights\") remains?",
+    "options": [
+      "7,500 sq ft",
+      "2,000 sq ft",
+      "2,500 sq ft",
+      "1,833 sq ft"
+    ],
+    "answer": 1,
+    "explanation": "Lot area = 25 × 100 = 2,500 sq ft. Maximum floor area = 2,500 × 3.0 = 7,500 sq ft. Unused = 7,500 − 5,500 = 2,000 sq ft. 7,500 forgets the existing building; 2,500 is just the lot area; 1,833 wrongly divides 5,500 by 3.",
+    "citation": "NYC Zoning Resolution §12-10 (floor area ratio)"
+  },
+  {
+    "id": "municipal-b025",
+    "topic": "municipal",
+    "q": "A buyer wants to open a small grocery on the ground floor of a building in a residence (R) district in New York City. On the zoning map, the block is shaded with a C2 designation. What does this indicate?",
+    "options": [
+      "A commercial overlay allowing local retail within the residence district",
+      "A manufacturing district in which new housing is generally prohibited",
+      "A special historic district placed under LPC design jurisdiction",
+      "A conservation area where new construction is barred entirely"
+    ],
+    "answer": 0,
+    "explanation": "NYC's Zoning Resolution has three basic district types: residence (R), commercial (C), and manufacturing (M). C1 and C2 overlays mapped within residence districts allow local retail and services, typically on the ground floor. Overlays are zoning, not landmark, designations.",
+    "citation": "NYC Zoning Resolution Article III (commercial overlay districts)"
+  },
+  {
+    "id": "municipal-b026",
+    "topic": "municipal",
+    "q": "A buyer is purchasing a Bronx building that has lawfully housed a non-conforming auto repair shop, but the shop has been closed for three continuous years. Under the NYC Zoning Resolution, the buyer generally:",
+    "options": [
+      "May resume the use because non-conforming status runs with the land forever",
+      "May resume the use after paying a fee to the Department of Finance",
+      "Cannot resume the non-conforming use after a two-year discontinuance",
+      "Needs only a new DOB permit to reopen the repair shop"
+    ],
+    "answer": 2,
+    "explanation": "ZR §52-61 provides that once substantially all of a non-conforming use is discontinued for a continuous two-year period, the property may thereafter be used only for a conforming use, regardless of intent to resume. Since 2024 (City of Yes for Economic Opportunity), vacant ground-floor storefronts in residential buildings in R districts may be reactivated with local retail or office uses, but that exception does not revive an auto repair shop.",
+    "citation": "NYC Zoning Resolution §52-61"
+  },
+  {
+    "id": "municipal-b027",
+    "topic": "municipal",
+    "q": "A buyer is considering an apartment in a 12-story Manhattan co-op. Which Department of Buildings program requires periodic inspection of the building's exterior walls, a possible source of special assessments?",
+    "options": [
+      "The Multiple Dwelling Registration, every year",
+      "The Facade Inspection Safety Program, every five years",
+      "The Uniform Land Use Review Procedure, every ten years",
+      "The Notice of Property Value review, every January"
+    ],
+    "answer": 1,
+    "explanation": "DOB's Facade Inspection Safety Program (Local Law 11) requires buildings taller than six stories to have their facades inspected every five years, and repairs can be costly for owners and shareholders. Registration is an HPD matter; ULURP and the NOPV are unrelated.",
+    "citation": "NYC Admin. Code §28-302 (FISP / Local Law 11)"
+  },
+  {
+    "id": "municipal-b028",
+    "topic": "municipal",
+    "q": "An investor is buying a 60,000-square-foot Manhattan office building. Which NYC law sets greenhouse gas emissions limits for most buildings over 25,000 square feet, with penalties for exceeding them?",
+    "options": [
+      "Local Law 11",
+      "The FARE Act",
+      "Local Law 1 of 2004",
+      "Local Law 97"
+    ],
+    "answer": 3,
+    "explanation": "Local Law 97 imposes carbon emissions caps, administered by DOB, on most buildings over 25,000 gross square feet, so a buyer should review compliance and potential penalties. Local Law 11 is facade inspection, the FARE Act concerns broker fees, and Local Law 1 of 2004 concerns lead paint.",
+    "citation": "NYC Admin. Code Title 28, Article 320 (Local Law 97 of 2019)"
+  },
+  {
+    "id": "municipal-b029",
+    "topic": "municipal",
+    "q": "A landlord rents lofts as apartments in a multiple dwelling that has no residential certificate of occupancy. A tenant stops paying rent. Under the Multiple Dwelling Law, the landlord generally:",
+    "options": [
+      "May collect double rent as a penalty for the tenant's default",
+      "May evict the tenant without a court proceeding",
+      "May be barred from recovering rent while the CO violation continues",
+      "May recover the rent once HPD approves the lease"
+    ],
+    "answer": 2,
+    "explanation": "Multiple Dwelling Law §302 bars an owner from recovering rent, or maintaining a nonpayment proceeding, for a period during which a multiple dwelling is occupied in violation of the CO requirement of §301 (Loft Law interim multiple dwellings in compliance are a statutory exception). Self-help eviction is unlawful in NY, and HPD does not approve leases.",
+    "citation": "Multiple Dwelling Law §§301-302"
   }
 ]

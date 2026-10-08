@@ -306,5 +306,957 @@
     "answer": 0,
     "explanation": "The NYC Rent Guidelines Board votes annual renewal increases for stabilized apartments, and stabilized tenants have renewal rights. The Good Cause Eviction rent test applies to covered unregulated units, and the 2019 HSTPA ended high-rent/high-income deregulation.",
     "citation": "NYC Rent Stabilization Law (NYC Admin. Code § 26-501 et seq.); HSTPA 2019"
+  },
+  {
+    "id": "property-mgmt-a001",
+    "topic": "property-mgmt",
+    "q": "After an owner says she 'likes' a manager's written management proposal, but before any contract is signed, the manager starts signing tenant leases in the owner's name. The manager's position is best described as:",
+    "options": [
+      "Lacking authority, since a proposal does not create the agency",
+      "Authorized, because the owner approved the proposal orally",
+      "Authorized, because praising a proposal makes it binding",
+      "Lacking authority only for leases longer than one year"
+    ],
+    "answer": 0,
+    "explanation": "A management proposal only recommends a plan; the manager's agency and authority come from the signed management agreement. Verbal approval of a proposal does not grant authority to bind the owner to leases, whatever their length.",
+    "citation": "Agency law; management agreement creates the agency (77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-a002",
+    "topic": "property-mgmt",
+    "q": "A management agreement gives a manager broad authority to lease, collect rent, hire staff, and contract for repairs at a 40-unit building. A buyer offers to purchase the building. The manager may:",
+    "options": [
+      "Sign the contract of sale, since general agents handle all owner affairs",
+      "Accept the offer if the price exceeds the building's appraised value",
+      "Present the offer to the owner, but not sell without specific authority",
+      "Reject the offer, since managers may not pass along purchase offers"
+    ],
+    "answer": 2,
+    "explanation": "A property manager is a general agent only for the management business the agreement defines. Selling the building is outside that scope, so the manager passes the offer to the owner; 'general agent' does not mean unlimited power over the owner's property.",
+    "citation": "Agency law; scope of authority defined by the management agreement"
+  },
+  {
+    "id": "property-mgmt-a003",
+    "topic": "property-mgmt",
+    "q": "An owner instructs his property manager to tell apartment applicants that the building has never had bedbugs, although the manager knows of two treated infestations last year. The manager should:",
+    "options": [
+      "Follow the instruction, since a manager owes the owner obedience",
+      "Refuse, since the duty of obedience covers only lawful, honest orders",
+      "Follow it only if applicants do not ask directly about pests",
+      "Refuse only if the infestations occurred within the past six months"
+    ],
+    "answer": 1,
+    "explanation": "The fiduciary duty of obedience extends only to lawful instructions. Telling applicants a false fact is misrepresentation, and the manager is liable for it regardless of the owner's order or the timing of the infestations.",
+    "citation": "Fiduciary duties; misrepresentation (RPL §441-c grounds for discipline)"
+  },
+  {
+    "id": "property-mgmt-a004",
+    "topic": "property-mgmt",
+    "q": "A prospective commercial tenant asks the building manager, 'What's the lowest rent the owner will really accept for this suite?' The manager knows the owner would take $500 a month less than the asking rent. The manager should:",
+    "options": [
+      "Disclose the figure to keep the negotiation honest and efficient",
+      "Disclose it only if the tenant signs a confidentiality agreement",
+      "Disclose it, because tenants are owed the same loyalty as owners",
+      "Keep it confidential, since it is the owner's bargaining information"
+    ],
+    "answer": 3,
+    "explanation": "The manager is the owner's agent and owes the owner confidentiality and loyalty. The tenant is a customer owed honesty, not the owner's private negotiating position; revealing the owner's floor would breach the fiduciary duty.",
+    "citation": "Fiduciary duties of loyalty and confidentiality"
+  },
+  {
+    "id": "property-mgmt-a005",
+    "topic": "property-mgmt",
+    "q": "Under DOS regulations, a broker who collects rents while managing property for a client must:",
+    "options": [
+      "Hold all collections until the management agreement ends, then remit",
+      "Remit only the net income left after the broker's fiscal year closes",
+      "Account to the client only if the client asks for it in writing",
+      "Account to the client and remit unspent funds within a reasonable time"
+    ],
+    "answer": 3,
+    "explanation": "19 NYCRR §175.2 requires a broker to render an account to the client and remit collected, unexpended money within a reasonable time. Holding funds until the agreement ends or the broker's year closes, or accounting only on written request, falls short of that duty.",
+    "citation": "19 NYCRR §175.2"
+  },
+  {
+    "id": "property-mgmt-a006",
+    "topic": "property-mgmt",
+    "q": "A management company receives a tenant's rent check on a Friday. Under 19 NYCRR §175.1, the owner's money must be deposited into a separate, special bank account:",
+    "options": [
+      "Within three business days, safeguarded securely until deposited",
+      "Within ten business days, along with that month's other receipts",
+      "By month's end, when the owner's statement is being prepared",
+      "Within thirty days, unless the owner asks for faster deposit"
+    ],
+    "answer": 0,
+    "explanation": "Section 175.1 bars commingling and requires client money to be deposited in a separate, special, federally insured account within three business days, kept in a secure location until then. Batching receipts until month-end or a 10- or 30-day window violates the rule.",
+    "citation": "19 NYCRR §175.1"
+  },
+  {
+    "id": "property-mgmt-a007",
+    "topic": "property-mgmt",
+    "q": "A management agreement pays the manager 5% of rents actually collected. This month the building's scheduled rents total $40,000, but $2,500 went uncollected. What is the manager's fee for the month?",
+    "options": [
+      "$2,000",
+      "$125",
+      "$1,875",
+      "$2,125"
+    ],
+    "answer": 2,
+    "explanation": "Collections = $40,000 − $2,500 = $37,500; fee = $37,500 × 0.05 = $1,875. Applying 5% to scheduled rent ($2,000) ignores the 'actually collected' basis; $125 is 5% of the uncollected amount.",
+    "citation": "Management agreement compensation terms (negotiated fee)"
+  },
+  {
+    "id": "property-mgmt-a008",
+    "topic": "property-mgmt",
+    "q": "A manager's agreement provides a base fee of $600 per month plus 4% of collected rents. Collections this month are $28,750. What is the manager's total fee?",
+    "options": [
+      "$1,150",
+      "$1,750",
+      "$1,174",
+      "$715"
+    ],
+    "answer": 1,
+    "explanation": "Percentage portion = $28,750 × 0.04 = $1,150; total = $600 + $1,150 = $1,750. Stopping at $1,150 omits the base fee; $1,174 takes 4% of collections plus the base fee ($29,350 × 0.04) instead of adding the base fee; $715 uses 0.4% instead of 4%.",
+    "citation": "Management agreement compensation terms (negotiated fee)"
+  },
+  {
+    "id": "property-mgmt-a009",
+    "topic": "property-mgmt",
+    "q": "A manager earns 5% of monthly collections plus a leasing fee of one-half month's rent for each new lease signed. In March the manager collects $30,000 and signs three new leases at $2,400 per month. What is the manager's total March compensation?",
+    "options": [
+      "$2,700",
+      "$5,100",
+      "$3,600",
+      "$8,700"
+    ],
+    "answer": 1,
+    "explanation": "Management fee = $30,000 × 0.05 = $1,500. Leasing fees = 3 × ($2,400 × 0.5) = $3,600. Total = $1,500 + $3,600 = $5,100. $2,700 counts only one lease; $3,600 omits the management fee; $8,700 pays a full month's rent per lease.",
+    "citation": "Management agreement compensation terms (leasing fee)"
+  },
+  {
+    "id": "property-mgmt-a010",
+    "topic": "property-mgmt",
+    "q": "At a trade association dinner, managers from three competing management firms agree that none will charge less than 6% of collections. This agreement is:",
+    "options": [
+      "Lawful, because management fees are not sales commissions",
+      "Lawful if the 6% minimum is disclosed in every agreement",
+      "A permissible industry standard set by a trade group",
+      "Illegal price fixing under federal and state antitrust law"
+    ],
+    "answer": 3,
+    "explanation": "Competitors must set their fees independently; agreeing on a minimum fee is price fixing. Antitrust law reaches management fees as well as sales commissions, and disclosing the fixed rate does not make the agreement legal.",
+    "citation": "Sherman Antitrust Act §1; NY Donnelly Act (GBL §340)"
+  },
+  {
+    "id": "property-mgmt-a011",
+    "topic": "property-mgmt",
+    "q": "A manager's budget for a newly purchased building strips out the one-time costs of the current lease-up and a temporary tax abatement to show income and expenses under normal, ongoing operation. This is a:",
+    "options": [
+      "Stabilized budget",
+      "Capital reserve budget",
+      "Construction budget",
+      "Cash-basis budget"
+    ],
+    "answer": 0,
+    "explanation": "A stabilized budget projects income and expenses under expected normal operation, excluding temporary conditions such as a lease-up period or a temporary abatement. A capital reserve budget funds large future replacements, not ordinary operations.",
+    "citation": "Property management budgeting (77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-a012",
+    "topic": "property-mgmt",
+    "q": "In a property's operating budget, which expense is generally classified as VARIABLE rather than fixed?",
+    "options": [
+      "Real estate taxes",
+      "Annual property insurance premium",
+      "Common-area cleaning supplies",
+      "Fixed-price elevator service contract"
+    ],
+    "answer": 2,
+    "explanation": "Variable expenses rise and fall with use or occupancy, as cleaning supplies do. Property taxes, an insurance premium, and a fixed-price service contract are set amounts for the period regardless of how heavily the building is used.",
+    "citation": "Property management budgeting: fixed vs. variable expenses"
+  },
+  {
+    "id": "property-mgmt-a013",
+    "topic": "property-mgmt",
+    "q": "The roof on a 20-unit building is expected to need a $96,000 replacement in 8 years. If the manager funds a capital reserve in equal monthly amounts, ignoring interest, how much should be set aside per unit per month?",
+    "options": [
+      "$400",
+      "$600",
+      "$50",
+      "$1,000"
+    ],
+    "answer": 2,
+    "explanation": "$96,000 ÷ 8 years = $12,000 per year; ÷ 12 = $1,000 per month; ÷ 20 units = $50 per unit per month. $1,000 is the whole building's monthly amount; $600 is per unit per year; $400 ($96,000 ÷ 20 ÷ 12) ignores the 8-year horizon.",
+    "citation": "Capital reserve budgeting"
+  },
+  {
+    "id": "property-mgmt-a014",
+    "topic": "property-mgmt",
+    "q": "Scheduled rent is $54,000 and the manager collects $52,300. Operating expenses paid are $18,450, the agreement sets a 6% fee on collections, and the owner directs a $2,000 transfer to the capital reserve. How much is remitted to the owner?",
+    "options": [
+      "$28,610",
+      "$28,712",
+      "$30,712",
+      "$31,850"
+    ],
+    "answer": 1,
+    "explanation": "Fee = $52,300 × 0.06 = $3,138. Remittance = $52,300 − $18,450 − $3,138 − $2,000 = $28,712. $28,610 takes the fee on scheduled rent ($3,240); $30,712 skips the reserve transfer; $31,850 skips the management fee.",
+    "citation": "Owner reporting and trust accounting; 19 NYCRR §175.2"
+  },
+  {
+    "id": "property-mgmt-a015",
+    "topic": "property-mgmt",
+    "q": "The periodic statement a manager sends the owner showing rents received, expenses paid, disbursements, and the ending account balance is the:",
+    "options": [
+      "Management proposal",
+      "Stabilized budget",
+      "Rent roll",
+      "Property management report"
+    ],
+    "answer": 3,
+    "explanation": "The property management report tells the owner what came in, what went out, and what remains for the period. A rent roll lists units, tenants, lease terms, rents, and arrears but does not account for expenses and disbursements.",
+    "citation": "Owner reporting (77-hr syllabus key term: property management report)"
+  },
+  {
+    "id": "property-mgmt-a016",
+    "topic": "property-mgmt",
+    "q": "A manager handles buildings for two different owners. Owner A's funds are $3,000 short for an emergency boiler repair, so the manager pays the contractor from Owner B's funds, planning to repay when A's rents arrive next week. This is:",
+    "options": [
+      "Improper, because each client's money may be used only for that client",
+      "Proper, because the repair was a genuine emergency",
+      "Proper if the manager repays Owner B within 30 days",
+      "Improper only if Owner B ends up suffering an actual loss"
+    ],
+    "answer": 0,
+    "explanation": "Each client's money is held in trust for that client alone; using one owner's funds to cover another's shortfall is conversion, even briefly and even with intent to repay. The proper step is to ask Owner A for funds.",
+    "citation": "19 NYCRR §175.1; fiduciary duty to account"
+  },
+  {
+    "id": "property-mgmt-a017",
+    "topic": "property-mgmt",
+    "q": "A tenant's rent, due on the 1st, still has not arrived by the 6th. Under RPL §235-e, the landlord or its agent must:",
+    "options": [
+      "Immediately serve a notice of petition for nonpayment",
+      "Charge the maximum late fee before taking any other step",
+      "Wait 30 days before contacting the tenant about the rent",
+      "Send the tenant written notice of the late rent by certified mail"
+    ],
+    "answer": 3,
+    "explanation": "RPL §235-e requires written notice by certified mail when rent is not received within five days of the due date; failing to send it is an affirmative defense in a later nonpayment case. This reminder is separate from, and does not replace, the 14-day rent demand.",
+    "citation": "RPL §235-e"
+  },
+  {
+    "id": "property-mgmt-a018",
+    "topic": "property-mgmt",
+    "q": "A residential tenant pays the month's rent with a money order. Under New York law, the landlord must:",
+    "options": [
+      "Refuse it, since only checks are lawful payment",
+      "Provide the tenant with a written receipt",
+      "Charge a processing fee of up to $20",
+      "Give a receipt only if requested in writing"
+    ],
+    "answer": 1,
+    "explanation": "RPL §235-e requires a written receipt whenever rent is paid in cash or any form other than the tenant's personal check, and money orders fall into that category. The 'only on request' rule applies to personal checks.",
+    "citation": "RPL §235-e"
+  },
+  {
+    "id": "property-mgmt-a019",
+    "topic": "property-mgmt",
+    "q": "A manager requires one applicant who speaks with a foreign accent to supply two extra landlord references, while other applicants with similar credit supply none. This practice:",
+    "options": [
+      "Violates fair housing law by applying screening criteria unequally",
+      "Is lawful, because references are a legitimate screening tool",
+      "Is lawful as long as the applicant is eventually approved",
+      "Violates fair housing law only if the owner ordered it"
+    ],
+    "answer": 0,
+    "explanation": "Imposing tougher terms on an applicant because of national origin is discrimination even if the applicant is later approved. A legitimate screening tool becomes unlawful when applied selectively, and the manager is liable for the manager's own conduct.",
+    "citation": "Fair Housing Act, 42 U.S.C. §3604(b); Executive Law §296(5)"
+  },
+  {
+    "id": "property-mgmt-a020",
+    "topic": "property-mgmt",
+    "q": "An owner tells the manager to turn away any applicant who would pay part of the rent with a Housing Choice (Section 8) voucher. Under the New York State Human Rights Law, the manager should:",
+    "options": [
+      "Comply, since federal law does not protect voucher holders",
+      "Comply only if the building has fewer than six units",
+      "Refuse, because lawful source of income is a protected class",
+      "Comply if the owner applies the policy to every applicant"
+    ],
+    "answer": 2,
+    "explanation": "New York's Human Rights Law prohibits housing discrimination based on lawful source of income, which includes vouchers. That federal law lacks this protection does not matter, and applying a discriminatory policy to everyone does not cure it.",
+    "citation": "Executive Law §296(5) (lawful source of income)"
+  },
+  {
+    "id": "property-mgmt-a021",
+    "topic": "property-mgmt",
+    "q": "An applicant has steady income and good credit, but a screening report shows she was a party to a summary proceeding against a prior landlord three years ago. Under New York law, the manager:",
+    "options": [
+      "May not deny her because of that past landlord-tenant case",
+      "May deny her automatically for any prior housing court case",
+      "May deny her only if the court ruled against her",
+      "May deny her if the case is less than five years old"
+    ],
+    "answer": 0,
+    "explanation": "RPL §227-f bars refusing to rent because an applicant was a party to a prior or pending landlord-tenant proceeding; denial after checking court records raises a presumption of a violation. No outcome or age-of-case exception exists.",
+    "citation": "RPL §227-f"
+  },
+  {
+    "id": "property-mgmt-a022",
+    "topic": "property-mgmt",
+    "q": "A month-to-month tenant in a non-rent-regulated apartment moved in seven months ago. The owner decides to end the tenancy. Under RPL §226-c, the manager must give written notice at least:",
+    "options": [
+      "30 days before the tenancy ends",
+      "90 days before the tenancy ends",
+      "14 days before the tenancy ends",
+      "60 days before the tenancy ends"
+    ],
+    "answer": 0,
+    "explanation": "RPL §226-c ties the notice to occupancy or lease term, whichever is longer: under 1 year = 30 days, at least 1 but under 2 years = 60 days, 2 years or more = 90 days. Seven months of occupancy with no lease of a year or more falls in the 30-day tier.",
+    "citation": "RPL §226-c"
+  },
+  {
+    "id": "property-mgmt-a023",
+    "topic": "property-mgmt",
+    "q": "A manager plans to offer a renewal at a 6% rent increase to a tenant who has occupied a non-regulated apartment for 15 months under one-year leases. What notice does New York law require?",
+    "options": [
+      "At least 60 days' written notice of the increase",
+      "At least 30 days' written notice of the increase",
+      "At least 90 days' written notice of the increase",
+      "None, since increases under 10% need no notice"
+    ],
+    "answer": 0,
+    "explanation": "RPL §226-c requires advance written notice of an increase of 5% or more, using the same 30/60/90-day tiers as non-renewal. With at least 1 but under 2 years of occupancy, 60 days applies; if notice is late, the tenancy continues at the existing rent until the period runs.",
+    "citation": "RPL §226-c"
+  },
+  {
+    "id": "property-mgmt-a024",
+    "topic": "property-mgmt",
+    "q": "After depositing a new tenant's security in a New York bank, the landlord must notify the tenant in writing of:",
+    "options": [
+      "The account number and the bank's current interest rate",
+      "The bank's name and address and the amount deposited",
+      "The date the deposit will be released to the landlord",
+      "The name of the bank officer who oversees the account"
+    ],
+    "answer": 1,
+    "explanation": "GOL §7-103(2) requires written notice to each tenant of the name and address of the banking organization holding the security and the amount deposited. The deposit stays the tenant's money; it is never 'released' to the landlord as income.",
+    "citation": "GOL §7-103(2)"
+  },
+  {
+    "id": "property-mgmt-a025",
+    "topic": "property-mgmt",
+    "q": "A tenant's $2,000 security deposit is held in an interest-bearing account for a 12-unit building. The account earns 3.2% this year. How much of the year's interest belongs to the tenant?",
+    "options": [
+      "$64",
+      "$44",
+      "$20",
+      "$63.36"
+    ],
+    "answer": 1,
+    "explanation": "Interest = $2,000 × 0.032 = $64. Landlord's administrative fee = 1% of the deposit = $2,000 × 0.01 = $20. Tenant's share = $64 − $20 = $44. $63.36 wrongly takes 1% of the interest instead of 1% of the deposit.",
+    "citation": "GOL §7-103(2), (2-a)"
+  },
+  {
+    "id": "property-mgmt-a026",
+    "topic": "property-mgmt",
+    "q": "A landlord of a 30-unit building in Albany wants to keep tenants' security deposits in an interest-bearing account at an online bank with no place of business in New York. Under GOL §7-103, this is:",
+    "options": [
+      "Allowed, as long as the account is federally insured",
+      "Allowed if each lease contains the tenant's written consent",
+      "Not allowed; the bank must have a place of business in New York",
+      "Allowed only if the bank pays above the local prevailing rate"
+    ],
+    "answer": 2,
+    "explanation": "GOL §7-103 requires security deposits placed in a bank to be held in a banking organization with a place of business within the state, and for buildings of six or more units the account must earn the prevailing local rate. Federal insurance or a higher rate does not satisfy the in-state rule, and a lease clause waiving the statute is void.",
+    "citation": "GOL §7-103(2), (2-a), (3)"
+  },
+  {
+    "id": "property-mgmt-a027",
+    "topic": "property-mgmt",
+    "q": "The owner of a non-rent-regulated four-unit building collects a security deposit from each tenant. Under GOL §7-103, the owner:",
+    "options": [
+      "May treat the deposits as rent income once each lease begins",
+      "Must use an interest-bearing account, just like larger buildings",
+      "May commingle them because the building has under six units",
+      "Must hold the deposits in trust, unmixed, but need not earn interest"
+    ],
+    "answer": 3,
+    "explanation": "Every security deposit remains the tenant's money, held in trust and not commingled with the owner's funds. The interest-bearing requirement applies only to buildings with six or more family dwelling units, so a four-unit owner need not earn interest.",
+    "citation": "GOL §7-103(1), (2-a)"
+  },
+  {
+    "id": "property-mgmt-a028",
+    "topic": "property-mgmt",
+    "q": "A lease drafted by the manager states that the tenant 'waives all rights under General Obligations Law §7-103 regarding the security deposit.' This clause is:",
+    "options": [
+      "Valid if the tenant initials the clause separately",
+      "Valid for leases with terms longer than one year",
+      "Void, because the statute's protections cannot be waived",
+      "Valid only in buildings with fewer than six units"
+    ],
+    "answer": 2,
+    "explanation": "GOL §7-103 declares any lease provision waiving its security-deposit protections void. Separate initials, a longer lease term, or building size do not make such a waiver enforceable.",
+    "citation": "GOL §7-103(3)"
+  },
+  {
+    "id": "property-mgmt-a029",
+    "topic": "property-mgmt",
+    "q": "After a landlord wins a judgment of possession and a warrant of eviction issues, who may physically remove the residential tenant?",
+    "options": [
+      "The property manager, once the judgment has been entered",
+      "The landlord, with a police officer standing by to observe",
+      "A sheriff, city marshal, or constable acting under the warrant",
+      "A locksmith hired by the owner's attorney to change locks"
+    ],
+    "answer": 2,
+    "explanation": "Only an enforcement officer (sheriff, marshal, or constable) executes a warrant of eviction. A judgment does not authorize the owner, manager, or a hired locksmith to remove the tenant, and doing so is an unlawful eviction.",
+    "citation": "RPAPL §749; RPAPL §768"
+  },
+  {
+    "id": "property-mgmt-a030",
+    "topic": "property-mgmt",
+    "q": "Before executing a warrant of eviction against a residential tenant, the enforcement officer must serve written notice at least:",
+    "options": [
+      "72 hours before the eviction",
+      "14 days before the eviction",
+      "30 days before the eviction",
+      "5 business days before the eviction"
+    ],
+    "answer": 1,
+    "explanation": "Since the 2019 HSTPA, RPAPL §749 requires at least 14 days' written notice before a warrant is executed, and execution must occur on a business day between sunrise and sunset. The 72-hour notice was the pre-2019 rule.",
+    "citation": "RPAPL §749 (as amended by HSTPA 2019)"
+  },
+  {
+    "id": "property-mgmt-a031",
+    "topic": "property-mgmt",
+    "q": "Which sequence correctly reflects a typical New York residential nonpayment eviction?",
+    "options": [
+      "Rent demand, petition, judgment, warrant, officer's notice, removal",
+      "Petition, rent demand, warrant, judgment, officer's notice, removal",
+      "Rent demand, warrant, petition, judgment, officer's notice, removal",
+      "Officer's notice, rent demand, petition, judgment, warrant, removal"
+    ],
+    "answer": 0,
+    "explanation": "A nonpayment case starts with the written 14-day rent demand, then the court petition and hearing, a judgment of possession, a warrant, the officer's 14-day notice, and only then removal. A warrant cannot precede the judgment, and the officer's notice follows the warrant.",
+    "citation": "RPAPL §§711(2), 749"
+  },
+  {
+    "id": "property-mgmt-a032",
+    "topic": "property-mgmt",
+    "q": "Which person does NOT need a New York real estate license for the activity described?",
+    "options": [
+      "A management firm employee who negotiates leases for the firm's clients",
+      "A person who collects rents for unrelated owners for a percentage fee",
+      "A leasing agent paid per lease by an owner she does not work for",
+      "An owner's building superintendent who only does repairs and upkeep"
+    ],
+    "answer": 3,
+    "explanation": "Building superintendents and maintenance workers doing only maintenance are not performing brokerage. Negotiating leases or collecting rent for another for a fee falls within the RPL §440 definition of a broker and requires a license.",
+    "citation": "RPL §440(1)"
+  },
+  {
+    "id": "property-mgmt-a033",
+    "topic": "property-mgmt",
+    "q": "An investor who owns three apartment buildings in her own name personally screens tenants, signs leases, and collects rent. She:",
+    "options": [
+      "Needs a broker's license once she owns more than two buildings",
+      "Needs a salesperson license to sign leases with tenants",
+      "Needs a license only if she charges application fees",
+      "Needs no license, because she acts for herself, not for another"
+    ],
+    "answer": 3,
+    "explanation": "The RPL §440 broker definition covers acting 'for another and for a fee,' so an owner managing her own property needs no license regardless of how many buildings she owns.",
+    "citation": "RPL §440(1)"
+  },
+  {
+    "id": "property-mgmt-a034",
+    "topic": "property-mgmt",
+    "q": "A licensed salesperson wants to manage rental buildings for several owners and collect a management fee directly from each owner. Under New York law, the salesperson:",
+    "options": [
+      "Must work through her supervising broker, not in her own name",
+      "May contract directly, since salespersons may collect rent",
+      "May contract directly if each owner signs a written agreement",
+      "May contract directly for buildings of fewer than six units"
+    ],
+    "answer": 0,
+    "explanation": "A salesperson acts only under a supervising broker and may be paid only through that broker. Managing for owners in her own name would be unlicensed brokerage, whatever the paperwork or building size.",
+    "citation": "RPL §440(3); RPL §442-a"
+  },
+  {
+    "id": "property-mgmt-b001",
+    "topic": "property-mgmt",
+    "q": "A tenant reports a dripping kitchen faucet, and the super replaces the worn cartridge that afternoon. This work is best classified as:",
+    "options": [
+      "preventive maintenance",
+      "corrective maintenance",
+      "deferred maintenance",
+      "construction maintenance"
+    ],
+    "answer": 1,
+    "explanation": "Corrective maintenance repairs an existing defect after it appears, as here. Preventive maintenance is scheduled servicing done before anything fails, so it is the tempting but wrong label for a same-day fix of a reported leak.",
+    "citation": "NYS Salesperson Syllabus, Subject 19 (corrective vs. preventive maintenance)"
+  },
+  {
+    "id": "property-mgmt-b002",
+    "topic": "property-mgmt",
+    "q": "Mopping the lobby daily, emptying common-area trash, and sweeping the sidewalk each morning are examples of:",
+    "options": [
+      "routine (custodial) maintenance",
+      "construction maintenance",
+      "corrective maintenance",
+      "capital improvement work"
+    ],
+    "answer": 0,
+    "explanation": "Routine or custodial maintenance is the recurring housekeeping that keeps a building clean and orderly day to day. Nothing is broken, so it is not corrective, and nothing new is built or replaced, so it is neither construction work nor a capital improvement.",
+    "citation": "General property management principles (types of maintenance)"
+  },
+  {
+    "id": "property-mgmt-b003",
+    "topic": "property-mgmt",
+    "q": "To show higher net operating income before a planned sale, an owner tells the manager to postpone repointing a deteriorating brick facade for several years. The postponed work is:",
+    "options": [
+      "construction maintenance for a future buyer",
+      "preventive maintenance that has been rescheduled",
+      "routine maintenance shifted to the next budget",
+      "deferred maintenance that tends to cost more later"
+    ],
+    "answer": 3,
+    "explanation": "Deferred maintenance is needed work that is put off; the deterioration keeps progressing, so the eventual repair usually costs more and the property's value suffers. Calling it 'rescheduled preventive maintenance' is the trap: preventive work is done before failure, while this facade is already deteriorating.",
+    "citation": "General property management principles (deferred maintenance)"
+  },
+  {
+    "id": "property-mgmt-b004",
+    "topic": "property-mgmt",
+    "q": "After several slip-and-fall complaints, a manager installs anti-slip stair treads, brighter lighting, and new handrails in the stairwells. This risk management technique is:",
+    "options": [
+      "risk retention",
+      "risk transfer",
+      "risk control",
+      "risk avoidance"
+    ],
+    "answer": 2,
+    "explanation": "Risk control (reduction) keeps the activity but lowers the chance or severity of loss, here through safer stairs and better lighting. It is not avoidance, because the stairwells stay in use; avoidance would mean eliminating the activity entirely.",
+    "citation": "NYS Salesperson Syllabus, Subject 19 (insurance and risk management)"
+  },
+  {
+    "id": "property-mgmt-b005",
+    "topic": "property-mgmt",
+    "q": "An owner chooses a property policy with a $25,000 deductible and plans to pay smaller losses out of building reserves. As to those smaller losses, the owner is using:",
+    "options": [
+      "risk transfer",
+      "risk retention",
+      "risk avoidance",
+      "risk control"
+    ],
+    "answer": 1,
+    "explanation": "Keeping a layer of loss on the owner's own books, through a deductible or self-insurance, is risk retention. Only the portion of a loss above the deductible is transferred to the insurer, so 'transfer' describes the policy as a whole, not the small losses the owner absorbs.",
+    "citation": "NYS Salesperson Syllabus, Subject 19 (insurance and risk management)"
+  },
+  {
+    "id": "property-mgmt-b006",
+    "topic": "property-mgmt",
+    "q": "A management agreement requires every contractor to carry liability insurance, name the owner and managing agent as additional insureds, and sign a hold-harmless (indemnification) clause. These requirements primarily:",
+    "options": [
+      "transfer the risk to the contractor and its insurer",
+      "avoid the risk by eliminating the activity",
+      "retain the risk within the owner's reserves",
+      "control the risk by supervising the contractor's work"
+    ],
+    "answer": 0,
+    "explanation": "Insurance requirements, additional-insured status, and indemnification clauses shift the financial consequences of a contractor's mistakes to the contractor and its insurer, which is risk transfer. The work still happens and nobody is supervising it more closely, so this is neither avoidance nor control.",
+    "citation": "NYS Salesperson Syllabus, Subject 19 (insurance and risk management)"
+  },
+  {
+    "id": "property-mgmt-b007",
+    "topic": "property-mgmt",
+    "q": "A building's property policy has a $5,000 per-occurrence deductible. This year there were two covered water losses, one of $3,200 and one of $14,500. How much of the losses did the owner retain in total?",
+    "options": [
+      "$3,200",
+      "$10,000",
+      "$5,000",
+      "$8,200"
+    ],
+    "answer": 3,
+    "explanation": "The $3,200 loss is below the deductible, so the owner pays all $3,200. On the $14,500 loss the owner pays the $5,000 deductible and the insurer pays $14,500 − $5,000 = $9,500. Total retained = $3,200 + $5,000 = $8,200. The $10,000 trap charges a full deductible on a loss smaller than the deductible.",
+    "citation": "General insurance principles (per-occurrence deductible as risk retention)"
+  },
+  {
+    "id": "property-mgmt-b008",
+    "topic": "property-mgmt",
+    "q": "A fire makes 6 of a building's 20 apartments uninhabitable for 5 months. Each of the 6 units rents for $2,250 per month, and the owner carries rent loss (loss of rents) coverage. Ignoring any waiting period, what is the covered rent loss?",
+    "options": [
+      "$225,000",
+      "$13,500",
+      "$67,500",
+      "$162,000"
+    ],
+    "answer": 2,
+    "explanation": "Rent loss coverage replaces rent lost from the damaged units during restoration: 6 units × $2,250 × 5 months = $67,500. Multiplying by all 20 units ($225,000) counts apartments that were never vacated, and using 12 months ($162,000) ignores the actual 5-month restoration period.",
+    "citation": "General insurance principles (rent loss / business income coverage)"
+  },
+  {
+    "id": "property-mgmt-b009",
+    "topic": "property-mgmt",
+    "q": "The managing agent's staff collect rents and handle tenants' security deposits. Which coverage protects the owner if an employee steals those funds?",
+    "options": [
+      "Rent loss coverage on the building property policy",
+      "A fidelity bond or employee dishonesty (crime) policy",
+      "Commercial general liability coverage",
+      "An umbrella (excess liability) policy"
+    ],
+    "answer": 1,
+    "explanation": "A fidelity bond or crime policy covers theft by employees who handle money. Rent loss coverage pays only when a covered physical loss, like a fire, interrupts rent; general liability and umbrella policies cover injury and damage claims by third parties, not employee embezzlement.",
+    "citation": "General insurance principles (fidelity bonds / commercial crime coverage)"
+  },
+  {
+    "id": "property-mgmt-b010",
+    "topic": "property-mgmt",
+    "q": "The standard property policy on an apartment building excludes mechanical breakdown. To cover a sudden boiler failure or the burnout of electrical switchgear, the manager should recommend:",
+    "options": [
+      "equipment breakdown coverage",
+      "flood insurance through the NFIP",
+      "umbrella excess liability coverage",
+      "a fidelity bond on employees"
+    ],
+    "answer": 0,
+    "explanation": "Equipment breakdown (boiler and machinery) coverage insures sudden mechanical and electrical failure of building equipment that standard property forms exclude. An umbrella policy only adds liability limits for injury claims; it does not pay to repair the owner's own boiler.",
+    "citation": "General insurance principles (equipment breakdown / boiler and machinery coverage)"
+  },
+  {
+    "id": "property-mgmt-b011",
+    "topic": "property-mgmt",
+    "q": "A management company runs a leasing office open to the public at a large apartment complex. Which law makes the leasing office itself subject to accessibility rules for places of public accommodation?",
+    "options": [
+      "No law, since it is privately owned",
+      "Only the Fair Housing Act",
+      "Only the local zoning code",
+      "The ADA's Title III"
+    ],
+    "answer": 3,
+    "explanation": "A rental or sales office open to the public is a place of public accommodation under ADA Title III, even though the apartments themselves are dwellings governed by the Fair Housing Act. Private ownership does not exempt a public-facing business from Title III.",
+    "citation": "Americans with Disabilities Act Title III, 42 U.S.C. §12181–12182; 28 CFR §36.104"
+  },
+  {
+    "id": "property-mgmt-b012",
+    "topic": "property-mgmt",
+    "q": "Under the ADA, a new commercial building designed and built for first occupancy after January 26, 1993 must generally be:",
+    "options": [
+      "altered only where barrier removal is readily achievable",
+      "made accessible only when a disabled tenant asks for it",
+      "readily accessible to and usable by people with disabilities",
+      "exempt if it is privately financed and privately owned"
+    ],
+    "answer": 2,
+    "explanation": "ADA Title III requires new construction for first occupancy after January 26, 1993 to be readily accessible to and usable by people with disabilities. The 'readily achievable' barrier-removal standard is the trap: it is the lower standard for existing facilities, not for new buildings.",
+    "citation": "Americans with Disabilities Act Title III; 28 CFR §36.401 (new construction)"
+  },
+  {
+    "id": "property-mgmt-b013",
+    "topic": "property-mgmt",
+    "q": "A landlord leases a storefront to a restaurant. Under ADA Title III, responsibility for making the space accessible:",
+    "options": [
+      "rests only with the tenant, because it operates the business",
+      "rests with both landlord and tenant, who may allocate it by lease",
+      "rests only with the landlord, because it owns the building",
+      "does not arise until a customer files a DOJ complaint"
+    ],
+    "answer": 1,
+    "explanation": "DOJ rules make both the landlord who owns the place of public accommodation and the tenant who operates it responsible for compliance; the lease may allocate the duty between them, but neither escapes it as to the public. Placing the duty on the tenant alone is the common misconception.",
+    "citation": "Americans with Disabilities Act Title III; 28 CFR §36.201(b) (landlord and tenant responsibilities)"
+  },
+  {
+    "id": "property-mgmt-b014",
+    "topic": "property-mgmt",
+    "q": "In New York City, a building taller than six stories must have its exterior walls (facade) inspected by a qualified professional:",
+    "options": [
+      "every five years under FISP (Local Law 11)",
+      "once a year before the heat season begins",
+      "only when the building is sold or refinanced",
+      "only after facade debris has actually fallen"
+    ],
+    "answer": 0,
+    "explanation": "NYC's Facade Inspection Safety Program (Local Law 11 of 1998) requires a periodic facade inspection every five years for buildings taller than six stories. It does not wait for a sale or an accident; the point is to catch unsafe conditions before anything falls.",
+    "citation": "NYC Admin. Code §28-302; 1 RCNY §103-04 (Facade Inspection Safety Program)"
+  },
+  {
+    "id": "property-mgmt-b015",
+    "topic": "property-mgmt",
+    "q": "A tenant calls the management office to report a strong smell of gas in a hallway. The manager's best first step is to:",
+    "options": [
+      "tell the tenant to open a window and wait it out",
+      "have the super locate the leak before calling anyone",
+      "enter it as a work order for the next business day",
+      "have people leave and call 911 and the gas utility"
+    ],
+    "answer": 3,
+    "explanation": "A suspected gas leak is an emergency: get people out and call 911 and the utility from a safe place, without operating switches or flames. Having the super hunt for the leak first delays the professional response a manager should recognize is required.",
+    "citation": "General building systems oversight; NYC HPD and utility gas-leak safety guidance"
+  },
+  {
+    "id": "property-mgmt-b016",
+    "topic": "property-mgmt",
+    "q": "Which New York City property must be registered annually with HPD?",
+    "options": [
+      "A one-family house occupied only by the owner's family",
+      "A two-family house whose owner lives in one of the units",
+      "A rented two-family house whose owner lives out of state",
+      "An office building with no residential units at all"
+    ],
+    "answer": 2,
+    "explanation": "HPD registration is required for every multiple dwelling (3+ units) and for one- or two-family homes where neither the owner nor the owner's immediate family lives. An owner-occupied two-family house is exempt, and a purely commercial building is not residential property.",
+    "citation": "NYC Admin. Code §27-2097 (Housing Maintenance Code registration)"
+  },
+  {
+    "id": "property-mgmt-b017",
+    "topic": "property-mgmt",
+    "q": "A NYC owner of a 12-unit building has not filed the required HPD property registration, and a tenant falls behind on rent. The owner:",
+    "options": [
+      "may proceed but owes HPD a late fee before the trial",
+      "cannot recover possession for nonpayment until it registers",
+      "must register with DHCR instead, since HPD has no role",
+      "faces no court effect, since registration is voluntary"
+    ],
+    "answer": 1,
+    "explanation": "An owner that fails to file a required HPD registration is denied the right to recover possession for nonpayment of rent during the period of noncompliance, and may also face civil penalties. DHCR registration of stabilized units is a separate obligation that does not replace HPD registration.",
+    "citation": "NYC Admin. Code §27-2107 (failure to register)"
+  },
+  {
+    "id": "property-mgmt-b018",
+    "topic": "property-mgmt",
+    "q": "On a November afternoon in New York City, the outdoor temperature is 48°F. Under the Housing Maintenance Code, the indoor temperature in each apartment must be at least:",
+    "options": [
+      "68°F",
+      "62°F",
+      "65°F",
+      "72°F"
+    ],
+    "answer": 0,
+    "explanation": "During the heat season, between 6 a.m. and 10 p.m., when it is below 55°F outside, the inside temperature must be at least 68°F. The 62°F figure is the overnight (10 p.m.–6 a.m.) minimum, which is the most common mix-up.",
+    "citation": "NYC Admin. Code §27-2029 (heat); HPD heat and hot water rules"
+  },
+  {
+    "id": "property-mgmt-b019",
+    "topic": "property-mgmt",
+    "q": "At 2 a.m. on a mild April night in New York City, it is 60°F outdoors and a tenant's apartment reads 59°F. Is the owner in compliance?",
+    "options": [
+      "No; 68°F is required at all hours during the heat season",
+      "Yes; overnight rules apply only when it is below 40°F outside",
+      "Yes; NYC's heat season ended on March 31",
+      "No; 62°F is required overnight regardless of outdoor temperature"
+    ],
+    "answer": 3,
+    "explanation": "The heat season runs October 1 through May 31, and from 10 p.m. to 6 a.m. the inside temperature must be at least 62°F no matter how warm it is outside. The 55°F outdoor trigger applies only to the daytime 68°F rule, so a mild night does not excuse 59°F.",
+    "citation": "NYC Admin. Code §27-2029 (heat); HPD heat and hot water rules"
+  },
+  {
+    "id": "property-mgmt-b020",
+    "topic": "property-mgmt",
+    "q": "In New York City, an owner must supply hot water at a constant minimum temperature of 120°F:",
+    "options": [
+      "only from 6 a.m. to 10 p.m.",
+      "only during the October–May heat season",
+      "year-round, every day",
+      "only in buildings with nine or more units"
+    ],
+    "answer": 2,
+    "explanation": "The 120°F hot water requirement applies 365 days a year, not just during heat season. The heat season (October 1–May 31) and the 6 a.m.–10 p.m. window are rules for heat, not hot water.",
+    "citation": "NYC Admin. Code §27-2031 (hot water); HPD heat and hot water rules"
+  },
+  {
+    "id": "property-mgmt-b021",
+    "topic": "property-mgmt",
+    "q": "In a NYC building with three or more apartments, the owner must install approved window guards in an apartment when:",
+    "options": [
+      "a child under age 6 lives there and the tenant also asks for them",
+      "a child age 10 or younger lives there, or the tenant asks for them",
+      "the apartment is located above the sixth floor of the building",
+      "a child under 18 lives there and the lease includes a guard rider"
+    ],
+    "answer": 1,
+    "explanation": "Window guards are required in any apartment where a child 10 or younger resides, and an owner must also install them whenever any tenant asks in writing, for any reason (windows giving access to a fire escape are excepted). 'Under 6' is the trap: that age threshold belongs to the lead paint law, not window guards.",
+    "citation": "NYC Health Code §131.15; NYC Admin. Code §27-2043.1 (window guards)"
+  },
+  {
+    "id": "property-mgmt-b022",
+    "topic": "property-mgmt",
+    "q": "A NYC owner delivers the combined annual lead paint and window guard notice in January. One tenant never returns it by February 15. The owner must:",
+    "options": [
+      "inspect the unit to find out whether a child lives there",
+      "assume no young children live there and close the file",
+      "charge the tenant a fee for failing to return the form",
+      "start a holdover proceeding for breach of the lease"
+    ],
+    "answer": 0,
+    "explanation": "If the annual notice is not returned by February 15, the owner may not assume no child lives there; the owner must try to inspect the apartment to find out, and report to the Health Department if access cannot be obtained. Treating silence as a 'no' is the violation.",
+    "citation": "NYC Admin. Code §27-2056.4; NYC Health Code §131.15 (annual notice)"
+  },
+  {
+    "id": "property-mgmt-b023",
+    "topic": "property-mgmt",
+    "q": "Under NYC's Local Law 1 of 2004, paint in a multiple dwelling is presumed to be lead-based, triggering duties for units where a child under 6 lives, when the building was built:",
+    "options": [
+      "before 1986",
+      "before 1978",
+      "before 1940",
+      "before 1960"
+    ],
+    "answer": 3,
+    "explanation": "NYC's lead law presumes lead-based paint in buildings built before 1960 (and in 1960–1978 buildings only if the owner knows lead paint is present). 1978 is the federal lead-disclosure cutoff for sales and leases, a separate rule and the most common trap.",
+    "citation": "NYC Admin. Code §27-2056.1 et seq. (Local Law 1 of 2004)"
+  },
+  {
+    "id": "property-mgmt-b024",
+    "topic": "property-mgmt",
+    "q": "When an apartment in a pre-1960 NYC multiple dwelling becomes vacant, Local Law 1 requires the owner, before the next tenant moves in, to:",
+    "options": [
+      "give the new tenant a pamphlet only, with no work required",
+      "do no work unless the incoming tenant has a child under age 6",
+      "fix lead hazards and make floors and sills smooth and cleanable",
+      "test only the common hallways, never the vacant unit itself"
+    ],
+    "answer": 2,
+    "explanation": "Turnover rules require the owner to correct lead hazards (including friction surfaces on doors and windows) and make floors, sills, and window wells smooth and cleanable before re-occupancy, whether or not the next tenant has a child. The duty does not wait for a young child to move in.",
+    "citation": "NYC Admin. Code §27-2056.8 (turnover requirements)"
+  },
+  {
+    "id": "property-mgmt-b025",
+    "topic": "property-mgmt",
+    "q": "When signing a vacancy lease for a NYC apartment, the owner must give the tenant a disclosure of the building's bedbug infestation history for the prior:",
+    "options": [
+      "two years",
+      "one year",
+      "five years",
+      "six months"
+    ],
+    "answer": 1,
+    "explanation": "NYC requires a bedbug history disclosure (HCR form DBB-N) at a vacancy lease covering the apartment and building for the preceding one year. Longer look-back periods appear in other disclosure rules but not this one.",
+    "citation": "NYC Admin. Code §27-2018.1; HCR Form DBB-N"
+  },
+  {
+    "id": "property-mgmt-b026",
+    "topic": "property-mgmt",
+    "q": "Under Local Law 69 of 2017, an owner of a NYC multiple dwelling must each year:",
+    "options": [
+      "file a bedbug report with HPD, even if there were no infestations",
+      "file a bedbug report only if an infestation was confirmed",
+      "send each unit's pest records to the Health Department",
+      "hire a licensed exterminator to treat every unit"
+    ],
+    "answer": 0,
+    "explanation": "Local Law 69 requires an annual bedbug filing with HPD for every multiple dwelling, including a report of zero infestations, and the owner must then share the filing with tenants. Believing the duty arises only after an infestation is the common error.",
+    "citation": "NYC Admin. Code §27-2018.2 (Local Law 69 of 2017)"
+  },
+  {
+    "id": "property-mgmt-b027",
+    "topic": "property-mgmt",
+    "q": "In a NYC apartment, who is generally responsible for replacing the battery in a battery-powered smoke or carbon monoxide detector after move-in?",
+    "options": [
+      "The Fire Department, during an annual inspection",
+      "The owner, who must replace batteries every six months",
+      "The super, under the janitorial services rules",
+      "The tenant, who must maintain the device during occupancy"
+    ],
+    "answer": 3,
+    "explanation": "The owner must install approved smoke and CO detectors and replace any missing or inoperable device before a new occupancy begins, but during the tenancy the occupant must keep them in good repair, which includes changing batteries. The owner's only mid-tenancy duty is to replace a device that fails within one year of installation because of a manufacturing defect.",
+    "citation": "NYC Admin. Code §§27-2045, 27-2046.1; HPD smoke and CO detector rules"
+  },
+  {
+    "id": "property-mgmt-b028",
+    "topic": "property-mgmt",
+    "q": "Under New York law, a stand-alone smoke alarm sold in the state that runs solely on battery power must:",
+    "options": [
+      "be hardwired into the building's electrical system",
+      "use a replaceable 9-volt battery changed each spring and fall",
+      "use a sealed, non-removable battery designed to last 10 years",
+      "be monitored by a licensed central-station company"
+    ],
+    "answer": 2,
+    "explanation": "Since April 1, 2019, battery-only smoke alarms sold in New York must have a sealed, non-removable battery with at least a 10-year life, so occupants cannot pull the battery to silence the alarm. Hardwired and panel-connected systems are exempt rather than required.",
+    "citation": "NY General Business Law §399-ccc"
+  },
+  {
+    "id": "property-mgmt-b029",
+    "topic": "property-mgmt",
+    "q": "Owners of rent-stabilized apartments must register each unit's legal rent and tenancy with:",
+    "options": [
+      "NYC HPD, but only when a unit becomes vacant",
+      "NYS Homes and Community Renewal (DHCR) every year",
+      "the NYC Rent Guidelines Board, every two years",
+      "the Department of State, with the broker's license"
+    ],
+    "answer": 1,
+    "explanation": "Rent-stabilized units are registered annually with the state's Division of Housing and Community Renewal (part of HCR), reporting the rent as of April 1, and the tenant gets a copy. The Rent Guidelines Board sets renewal increases but does not take registrations, and HPD registration is a separate city building filing.",
+    "citation": "NYC Rent Stabilization Law, Admin. Code §26-517; Rent Stabilization Code, 9 NYCRR Part 2528"
+  },
+  {
+    "id": "property-mgmt-b030",
+    "topic": "property-mgmt",
+    "q": "An owner fails to file the annual DHCR registration for a rent-stabilized unit. Until a proper registration is filed, the owner generally:",
+    "options": [
+      "cannot collect rent increases above the last registered rent",
+      "loses the right to collect any rent from the tenant",
+      "may raise the rent freely because the unit is deregulated",
+      "must refund all rent paid since the last registration"
+    ],
+    "answer": 0,
+    "explanation": "Failure to register freezes the rent at the last registered legal rent: the owner cannot collect increases until it files, and the cure is prospective only. The tenant still owes the lawful frozen rent, so 'no rent at all' overstates the penalty.",
+    "citation": "NYC Admin. Code §26-517(e); Rent Stabilization Code, 9 NYCRR §2528.4"
+  },
+  {
+    "id": "property-mgmt-b031",
+    "topic": "property-mgmt",
+    "q": "New York City's Local Law 97 primarily:",
+    "options": [
+      "requires solar panels on all new one-family homes",
+      "requires owners to post an energy-efficiency letter grade",
+      "bans gas stoves in every existing apartment building",
+      "caps carbon emissions for most buildings over 25,000 sq ft"
+    ],
+    "answer": 3,
+    "explanation": "Local Law 97 (Climate Mobilization Act of 2019) sets annual greenhouse gas emission limits, which tighten over time, for most buildings over 25,000 gross square feet, with penalties for exceeding them. The posted letter grade comes from a different law (Local Law 33).",
+    "citation": "NYC Admin. Code Title 28, Article 320 (Local Law 97 of 2019)"
+  },
+  {
+    "id": "property-mgmt-b032",
+    "topic": "property-mgmt",
+    "q": "A NYC manager must enter a large building's annual energy and water use into EPA's ENERGY STAR Portfolio Manager and then post the resulting efficiency grade near the public entrance. These duties come from:",
+    "options": [
+      "Local Law 1 of 2004 on lead-based paint hazards",
+      "the Housing Maintenance Code heat and hot water rules",
+      "the benchmarking and energy-grade laws (LL84 and LL33)",
+      "the Facade Inspection Safety Program (Local Law 11)"
+    ],
+    "answer": 2,
+    "explanation": "Local Law 84 requires annual energy and water benchmarking for large buildings, and Local Law 33 (as amended by Local Law 95) turns that score into a letter grade posted near each public entrance. Local Law 97 caps emissions; it is not the benchmarking and posting rule.",
+    "citation": "NYC Admin. Code §28-309 (Local Law 84 of 2009; Local Law 33 of 2018)"
+  },
+  {
+    "id": "property-mgmt-b033",
+    "topic": "property-mgmt",
+    "q": "A NYC owner who does not live in a 20-unit multiple dwelling and does not use an approved 24-hour janitorial service must provide a janitor who lives:",
+    "options": [
+      "anywhere in the same borough, as long as reachable by phone",
+      "in it or within the greater of one block or 200 feet",
+      "within one mile of the building, with a 24-hour phone line",
+      "in the building itself, never in a nearby or adjoining one"
+    ],
+    "answer": 1,
+    "explanation": "For multiple dwellings of nine or more units, the janitor must live in the building or within one block or 200 feet, whichever is greater, unless the owner lives there or an approved 24-hour service is used. A janitor may live in an adjoining building, so 'never nearby' is wrong.",
+    "citation": "NYC Admin. Code §§27-2053, 27-2054"
+  },
+  {
+    "id": "property-mgmt-b034",
+    "topic": "property-mgmt",
+    "q": "Under NYC's Housing Maintenance Code, 'janitorial services' include all of the following EXCEPT:",
+    "options": [
+      "collecting rent and signing renewal leases",
+      "making minor repairs to building equipment",
+      "removing garbage from the premises",
+      "clearing snow from the sidewalk"
+    ],
+    "answer": 0,
+    "explanation": "The code defines janitorial services as cleaning and maintenance, minor repairs, furnishing heat and hot water from a central source, garbage removal, and removing snow and ice from the sidewalk. Collecting rent and negotiating leases are management tasks, and doing them for others for a fee is licensed brokerage activity.",
+    "citation": "NYC Admin. Code §27-2052; RPL §440"
   }
 ]

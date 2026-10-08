@@ -1,24 +1,1402 @@
 [
-{"id":"construction-env-001","topic":"construction-env","q":"In which framing method do wall studs run continuously from the sill plate up to the roof line, creating hollow vertical channels that can spread fire unless firestops are installed?","options":["Platform framing","Post-and-beam framing","Balloon framing","Modular framing"],"answer":2,"explanation":"Balloon framing uses long, continuous studs from the foundation sill to the rafters; without firestops the open wall cavities act like chimneys. Platform framing, the most common method today, builds each floor as a separate platform so studs stop at every level; post-and-beam uses heavy, widely spaced timbers.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (platform, post and beam construction)"},
-{"id":"construction-env-002","topic":"construction-env","q":"A buyer tours a house that has no basement and no crawl space; the concrete floor was poured directly on the ground at grade level. What type of foundation is this?","options":["Slab-on-grade","Full basement","Crawl space","Pier and girder"],"answer":0,"explanation":"A slab-on-grade foundation is a concrete slab poured directly on prepared ground, often with plumbing or ducts embedded in or beneath it. A crawl space leaves a shallow open area under the floor, and a full basement provides a below-grade story.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (slab-on-grade construction)"},
-{"id":"construction-env-003","topic":"construction-env","q":"What is the primary purpose of a footing in residential construction?","options":["To anchor the wood sill plate and floor framing to the top of the foundation wall","To act as a vapor barrier that keeps ground moisture from rising through the basement slab","To carry roof loads down to the ceiling joists","To spread the building's weight over a wider soil area below the frost line"],"answer":3,"explanation":"The footing is the wide concrete base beneath foundation walls and columns; it distributes the structure's load over more soil and is set below the frost line to prevent heaving. Anchoring the wood framing to the foundation is the job of the sill plate and its anchor bolts.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (footing, foundation walls)"},
-{"id":"construction-env-004","topic":"construction-env","q":"A home inspector reports rot in the lowest horizontal wood member, which rests directly on top of the foundation wall and is secured with anchor bolts. Which component is damaged?","options":["Ridge board","Sill plate","Header","Rafter"],"answer":1,"explanation":"The sill plate is the first wood member of the frame, bolted to the foundation; floor joists rest on it. A header spans a door or window opening, and the ridge board and rafters are roof components.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (sill plates)"},
-{"id":"construction-env-005","topic":"construction-env","q":"Which structural members slope from the ridge down to the exterior walls and support the roof sheathing?","options":["Rafters","Floor joists","Studs","Girders"],"answer":0,"explanation":"Rafters are the sloped roof framing members. The common trap is joists: joists are horizontal members that support floors and ceilings, studs are vertical wall members, and girders are main beams that support joists.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (rafter, joists, studs, girder)"},
-{"id":"construction-env-006","topic":"construction-env","q":"A buyer compares two attics, one insulated to R-19 and the other to R-38. Which statement is correct?","options":["The R-19 attic insulates better because a lower R-value means less heat escapes through the ceiling","R-value rates the BTU output of the furnace, not the insulation","Both insulate equally because R-value measures only the material's thickness","The R-38 attic insulates better because higher R-values mean more resistance to heat flow"],"answer":3,"explanation":"R-value measures a material's resistance to heat flow; the higher the R-value, the better the insulation. BTU is a separate measure of heat quantity used to rate heating and cooling equipment.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (R-value, insulation)"},
-{"id":"construction-env-007","topic":"construction-env","q":"A British thermal unit (BTU) is the amount of heat required to:","options":["raise the temperature of one gallon of water by 1°F","raise the temperature of one pound of water by 1°F","raise the temperature of one cubic foot of air by 10°F","keep a 100-square-foot room at 68°F for one hour"],"answer":1,"explanation":"One BTU is the heat needed to raise one pound of water by one degree Fahrenheit. Furnaces, boilers, and air conditioners are rated in BTUs (per hour); the gallon option is the common trap.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (BTU/British Thermal Unit)"},
-{"id":"construction-env-008","topic":"construction-env","q":"During a showing, a circuit breaker trips every time the seller runs the microwave and space heater at the same time. What does this most likely indicate?","options":["The insulation's R-value is too low for the heating system","The breaker is defective, because properly working breakers never trip","The circuit is drawing more current (amps) than it is rated to carry","The home has too much amperage at the main service panel"],"answer":2,"explanation":"Circuit breakers (and older fuses) cut power when the current on a circuit exceeds its amperage rating, preventing overheated wiring; tripping under heavy load is the breaker doing its job. A licensee should note the condition and refer electrical evaluation to a licensed electrician rather than diagnose it.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (amperage, circuit breaker, fuse)"},
-{"id":"construction-env-009","topic":"construction-env","q":"What is the main function of the U-shaped trap installed beneath a sink drain?","options":["It holds a water seal that keeps sewer gases from entering the home","It increases water pressure in the supply lines","It carries sewer gases up and out through the vent stack on the roof","It filters sediment and debris out of the drinking water supply"],"answer":0,"explanation":"The trap retains water that blocks sewer gas from backing up through the fixture. Venting gases through the roof and admitting air to the drain lines is the vent stack's job, and supply lines (under pressure) are a separate system from gravity drain-waste-vent lines.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (plumbing systems)"},
-{"id":"construction-env-010","topic":"construction-env","q":"A one-and-a-half-story house with a steep gable roof, dormer windows, and a symmetrical front with a center door best describes which architectural style?","options":["Ranch","Split-level","Cape Cod","Colonial"],"answer":2,"explanation":"A Cape Cod is a compact 1½-story home with a steep roof and dormers that make the upper half-story usable. A Colonial has two full stories with a symmetrical facade, a Ranch is a single-story home, and a split-level has three or more levels offset by half-flights of stairs.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (architectural styles)"},
-{"id":"construction-env-011","topic":"construction-env","q":"A developer wants to fill a freshwater wetland on a parcel in upstate New York. Which statement is most accurate?","options":["Only the local zoning board regulates wetlands, so no state or federal review applies","A federal Clean Water Act permit and a NYS DEC freshwater wetlands permit may both be required","Wetlands may be filled freely once the parcel is zoned residential","Wetland rules apply only to tidal areas on the coast, not inland parcels"],"answer":1,"explanation":"Filling wetlands can require a U.S. Army Corps of Engineers permit under Clean Water Act § 404 and a NYS DEC permit under the Freshwater Wetlands Act, plus any local review. Zoning does not override these rules, so get a current jurisdictional determination rather than assume no rules apply.","citation":"Clean Water Act § 404 (33 U.S.C. § 1344); NY ECL Article 24 (Freshwater Wetlands)"},
-{"id":"construction-env-012","topic":"construction-env","q":"A buyer is under contract to buy a single-family home built in 1962. Under the federal lead-based paint disclosure rule, the buyer must be given:","options":["a lead-free certificate that the seller must obtain by having a certified inspector test all painted surfaces","a 3-day right to cancel the contract after receiving the seller's Property Condition Disclosure Statement","nothing, because the federal lead rule applies only to rental housing","a 10-day opportunity for a lead inspection or risk assessment, unless changed or waived in writing"],"answer":3,"explanation":"For pre-1978 target housing, the seller must disclose known lead information and reports, give the EPA pamphlet, and include the lead warning; the buyer gets a 10-day inspection/risk-assessment opportunity that can be changed by mutual written agreement or waived. The rule does not require the seller to test or remove lead.","citation":"40 CFR §§ 745.107, 745.110 (Lead-Based Paint Disclosure Rule)"},
-{"id":"construction-env-013","topic":"construction-env","q":"For the sale of pre-1978 housing, how long must the seller and the listing agent keep a copy of the signed lead-based paint disclosure and acknowledgment?","options":["1 year after closing","At least 3 years from the completion of the sale","6 years from the date of the listing agreement","Until the buyer resells the property"],"answer":1,"explanation":"The seller and any agent must keep the completed lead disclosure attachment for at least 3 years from the completion date of the sale. Lessors and agents likewise keep lease disclosures for 3 years from the start of the lease term.","citation":"40 CFR § 745.113(c)"},
-{"id":"construction-env-014","topic":"construction-env","q":"A radon test in the lowest lived-in level of a home reads 6.2 pCi/L. Which statement is accurate under EPA guidance?","options":["Radon matters only in commercial buildings, so no action is needed for a home","The result is acceptable because EPA's action level for homes is 10 pCi/L","It exceeds EPA's 4 pCi/L action level, so professional mitigation is recommended","A retest is unnecessary because radon at that level can be detected by its smell"],"answer":2,"explanation":"EPA recommends fixing homes at 4 pCi/L or higher (and considering mitigation between 2 and 4). Radon is an odorless, invisible radioactive gas, so only testing reveals levels, and a reading below 4 is not a guarantee of no risk.","citation":"EPA, A Citizen's Guide to Radon (4 pCi/L action level)"},
-{"id":"construction-env-015","topic":"construction-env","q":"During a showing, a buyer notices crumbling insulation wrapped around old basement heating pipes and asks whether it is asbestos. What should the salesperson do?","options":["Advise against disturbing it and recommend evaluation by a qualified asbestos professional","Break off a small sample herself and mail it to a testing lab to save the buyer the inspection fee","Assure the buyer it is safe because asbestos was banned from all residential products in 1978","Tell the seller to sweep it up and repaint the pipes before closing"],"answer":0,"explanation":"Crumbling (friable) asbestos can release dangerous fibers, and appearance alone cannot identify it, so the licensee should not sample or disturb it and should refer testing to qualified professionals. There is no blanket ban date that clears older materials.","citation":"EPA asbestos guidance; Clean Air Act asbestos NESHAP (40 CFR Part 61, Subpart M)"},
-{"id":"construction-env-016","topic":"construction-env","q":"Urea-formaldehyde foam insulation (UFFI) is an environmental concern primarily because it:","options":["contains radioactive particles that enter through foundation cracks","leaks petroleum into the groundwater from buried tanks","contains PCBs like those used in older electrical transformers","can release formaldehyde gas into the indoor air"],"answer":3,"explanation":"UFFI, a foam insulation used mostly in the 1970s, can emit formaldehyde gas that irritates the eyes and lungs. Radon is the radioactive soil gas, PCBs are associated with older electrical equipment, and petroleum leaks come from storage tanks.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 7: Environmental Issues (UFFI)"},
-{"id":"construction-env-017","topic":"construction-env","q":"Before listing, a seller wants to paint over a damp, moldy basement wall. What is the best advice?","options":["Painting is enough because federal law sets a maximum indoor mold level that a sealed wall will satisfy","Fix the moisture source and remediate properly; known material defects must not be concealed","Mold is never a disclosure issue because it is a naturally occurring substance found in every home","Have the buyer sign a waiver promising never to test for mold"],"answer":1,"explanation":"Mold grows from moisture, so lasting remediation starts with fixing the water source; painting over it hides the problem without solving it. There is no federal indoor mold limit that serves as a pass/fail standard, and concealing a known material defect can expose the seller and agent to liability.","citation":"EPA mold guidance; NY Labor Law Article 32 (mold assessment and remediation)"},
-{"id":"construction-env-018","topic":"construction-env","q":"A property inspection finds an abandoned underground heating-oil tank. What is the main environmental risk?","options":["A corroded tank can leak petroleum into the soil and groundwater","The tank will emit radon gas into the living space","The tank lowers the R-value of the foundation walls","The tank violates the federal lead-based paint disclosure rule"],"answer":0,"explanation":"Aging steel tanks can corrode and leak oil, contaminating soil and groundwater and creating costly cleanup liability. NY law imposes strict liability for petroleum discharges, so buyers should have tanks evaluated, tested, or properly removed and closed.","citation":"NY Navigation Law Article 12 (petroleum discharges); NYS DEC tank regulations"},
-{"id":"construction-env-019","topic":"construction-env","q":"Under New York's Amanda's Law, carbon monoxide alarms are required in one- and two-family dwellings that:","options":["are located within 1,000 feet of a highway, truck route, or other major source of vehicle exhaust","were built before the NYS Uniform Fire Prevention and Building Code took effect in 1984","have a fuel-burning appliance or system that can emit carbon monoxide, or an attached garage","have more than three bedrooms or more than one sleeping floor"],"answer":2,"explanation":"Amanda's Law requires CO alarms in homes with a CO source, such as a fossil-fuel-burning furnace, boiler, water heater, or fireplace, or an attached garage. This is separate from the smoke-alarm requirement; CO is odorless, and an alarm means leave the building and call for help.","citation":"Amanda's Law (NY Executive Law § 378)"},
-{"id":"construction-env-020","topic":"construction-env","q":"A company buys an industrial site and later discovers contamination dumped by a prior owner decades ago. Under CERCLA (Superfund), the current owner:","options":["is never liable because it did not cause the pollution","is liable only for the share of waste it personally dumped","is automatically protected as an innocent purchaser, with no prior investigation needed","can be held liable because liability is strict, joint and several, and retroactive"],"answer":3,"explanation":"CERCLA can impose cleanup liability on current owners regardless of fault (strict), for the entire cleanup (joint and several), and for contamination that occurred before the law (retroactive). Innocent-landowner type defenses require 'all appropriate inquiry,' such as a Phase I assessment, before buying; they are not automatic.","citation":"CERCLA, 42 U.S.C. § 9607"},
-{"id":"construction-env-021","topic":"construction-env","q":"What distinguishes a Phase II Environmental Site Assessment from a Phase I?","options":["Phase II is limited to reviewing historical records and interviewing owners","Phase II involves sampling and lab testing of soil, groundwater, or building materials","Phase II is the cleanup stage in which contamination is physically removed","Phase II is required for every residential sale in New York"],"answer":1,"explanation":"A Phase I is an investigative review (records, site reconnaissance, interviews) with no sampling; if it flags concerns, a Phase II samples and tests to confirm contamination. Remediation is a later, separate phase. These assessments are used mainly in commercial transactions.","citation":"ASTM E1527 / EPA All Appropriate Inquiries Rule (40 CFR Part 312)"},
-{"id":"construction-env-022","topic":"construction-env","q":"The seller of a covered single-family home in New York offers the buyer a $500 credit at closing instead of delivering a Property Condition Disclosure Statement. Under current law:","options":["the credit is still an acceptable alternative to the statement as long as the buyer agrees to it in writing","the credit must now be given in addition to the statement, and both are due at or before the closing","the statement must be delivered before the buyer signs a binding contract, because the $500 credit was repealed in 2024","the seller may skip both because the statement became optional for all residential sellers in 2024"],"answer":2,"explanation":"Amendments effective March 20, 2024 repealed the old $500 credit, so covered sellers of 1-4 family homes must deliver the PCDS before the buyer signs a binding contract unless an exemption applies (condo and co-op units are not covered). The statement reflects the seller's actual knowledge and is not a warranty.","citation":"NY RPL Article 14 (§§ 462, 465), as amended 2024"}
+  {
+    "id": "construction-env-001",
+    "topic": "construction-env",
+    "q": "In which framing method do wall studs run continuously from the sill plate up to the roof line, creating hollow vertical channels that can spread fire unless firestops are installed?",
+    "options": [
+      "Platform framing",
+      "Post-and-beam framing",
+      "Balloon framing",
+      "Modular framing"
+    ],
+    "answer": 2,
+    "explanation": "Balloon framing uses long, continuous studs from the foundation sill to the rafters; without firestops the open wall cavities act like chimneys. Platform framing, the most common method today, builds each floor as a separate platform so studs stop at every level; post-and-beam uses heavy, widely spaced timbers.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (platform, post and beam construction)"
+  },
+  {
+    "id": "construction-env-002",
+    "topic": "construction-env",
+    "q": "A buyer tours a house that has no basement and no crawl space; the concrete floor was poured directly on the ground at grade level. What type of foundation is this?",
+    "options": [
+      "Slab-on-grade",
+      "Full basement",
+      "Crawl space",
+      "Pier and girder"
+    ],
+    "answer": 0,
+    "explanation": "A slab-on-grade foundation is a concrete slab poured directly on prepared ground, often with plumbing or ducts embedded in or beneath it. A crawl space leaves a shallow open area under the floor, and a full basement provides a below-grade story.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (slab-on-grade construction)"
+  },
+  {
+    "id": "construction-env-003",
+    "topic": "construction-env",
+    "q": "What is the primary purpose of a footing in residential construction?",
+    "options": [
+      "To anchor the wood sill plate and floor framing to the top of the foundation wall",
+      "To act as a vapor barrier that keeps ground moisture from rising through the basement slab",
+      "To carry roof loads down to the ceiling joists",
+      "To spread the building's weight over a wider soil area below the frost line"
+    ],
+    "answer": 3,
+    "explanation": "The footing is the wide concrete base beneath foundation walls and columns; it distributes the structure's load over more soil and is set below the frost line to prevent heaving. Anchoring the wood framing to the foundation is the job of the sill plate and its anchor bolts.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (footing, foundation walls)"
+  },
+  {
+    "id": "construction-env-004",
+    "topic": "construction-env",
+    "q": "A home inspector reports rot in the lowest horizontal wood member, which rests directly on top of the foundation wall and is secured with anchor bolts. Which component is damaged?",
+    "options": [
+      "Ridge board",
+      "Sill plate",
+      "Header",
+      "Rafter"
+    ],
+    "answer": 1,
+    "explanation": "The sill plate is the first wood member of the frame, bolted to the foundation; floor joists rest on it. A header spans a door or window opening, and the ridge board and rafters are roof components.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (sill plates)"
+  },
+  {
+    "id": "construction-env-005",
+    "topic": "construction-env",
+    "q": "Which structural members slope from the ridge down to the exterior walls and support the roof sheathing?",
+    "options": [
+      "Rafters",
+      "Floor joists",
+      "Studs",
+      "Girders"
+    ],
+    "answer": 0,
+    "explanation": "Rafters are the sloped roof framing members. The common trap is joists: joists are horizontal members that support floors and ceilings, studs are vertical wall members, and girders are main beams that support joists.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (rafter, joists, studs, girder)"
+  },
+  {
+    "id": "construction-env-006",
+    "topic": "construction-env",
+    "q": "A buyer compares two attics, one insulated to R-19 and the other to R-38. Which statement is correct?",
+    "options": [
+      "The R-19 attic insulates better because a lower R-value means less heat escapes through the ceiling",
+      "R-value rates the BTU output of the furnace, not the insulation",
+      "Both insulate equally because R-value measures only the material's thickness",
+      "The R-38 attic insulates better because higher R-values mean more resistance to heat flow"
+    ],
+    "answer": 3,
+    "explanation": "R-value measures a material's resistance to heat flow; the higher the R-value, the better the insulation. BTU is a separate measure of heat quantity used to rate heating and cooling equipment.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (R-value, insulation)"
+  },
+  {
+    "id": "construction-env-007",
+    "topic": "construction-env",
+    "q": "A British thermal unit (BTU) is the amount of heat required to:",
+    "options": [
+      "raise the temperature of one gallon of water by 1°F",
+      "raise the temperature of one pound of water by 1°F",
+      "raise the temperature of one cubic foot of air by 10°F",
+      "keep a 100-square-foot room at 68°F for one hour"
+    ],
+    "answer": 1,
+    "explanation": "One BTU is the heat needed to raise one pound of water by one degree Fahrenheit. Furnaces, boilers, and air conditioners are rated in BTUs (per hour); the gallon option is the common trap.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (BTU/British Thermal Unit)"
+  },
+  {
+    "id": "construction-env-008",
+    "topic": "construction-env",
+    "q": "During a showing, a circuit breaker trips every time the seller runs the microwave and space heater at the same time. What does this most likely indicate?",
+    "options": [
+      "The insulation's R-value is too low for the heating system",
+      "The breaker is defective, because properly working breakers never trip",
+      "The circuit is drawing more current (amps) than it is rated to carry",
+      "The home has too much amperage at the main service panel"
+    ],
+    "answer": 2,
+    "explanation": "Circuit breakers (and older fuses) cut power when the current on a circuit exceeds its amperage rating, preventing overheated wiring; tripping under heavy load is the breaker doing its job. A licensee should note the condition and refer electrical evaluation to a licensed electrician rather than diagnose it.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (amperage, circuit breaker, fuse)"
+  },
+  {
+    "id": "construction-env-009",
+    "topic": "construction-env",
+    "q": "What is the main function of the U-shaped trap installed beneath a sink drain?",
+    "options": [
+      "It holds a water seal that keeps sewer gases from entering the home",
+      "It increases water pressure in the supply lines",
+      "It carries sewer gases up and out through the vent stack on the roof",
+      "It filters sediment and debris out of the drinking water supply"
+    ],
+    "answer": 0,
+    "explanation": "The trap retains water that blocks sewer gas from backing up through the fixture. Venting gases through the roof and admitting air to the drain lines is the vent stack's job, and supply lines (under pressure) are a separate system from gravity drain-waste-vent lines.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (plumbing systems)"
+  },
+  {
+    "id": "construction-env-010",
+    "topic": "construction-env",
+    "q": "A one-and-a-half-story house with a steep gable roof, dormer windows, and a symmetrical front with a center door best describes which architectural style?",
+    "options": [
+      "Ranch",
+      "Split-level",
+      "Cape Cod",
+      "Colonial"
+    ],
+    "answer": 2,
+    "explanation": "A Cape Cod is a compact 1½-story home with a steep roof and dormers that make the upper half-story usable. A Colonial has two full stories with a symmetrical facade, a Ranch is a single-story home, and a split-level has three or more levels offset by half-flights of stairs.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Construction (architectural styles)"
+  },
+  {
+    "id": "construction-env-011",
+    "topic": "construction-env",
+    "q": "A developer wants to fill a freshwater wetland on a parcel in upstate New York. Which statement is most accurate?",
+    "options": [
+      "Only the local zoning board regulates wetlands, so no state or federal review applies",
+      "A federal Clean Water Act permit and a NYS DEC freshwater wetlands permit may both be required",
+      "Wetlands may be filled freely once the parcel is zoned residential",
+      "Wetland rules apply only to tidal areas on the coast, not inland parcels"
+    ],
+    "answer": 1,
+    "explanation": "Filling wetlands can require a U.S. Army Corps of Engineers permit under Clean Water Act § 404 and a NYS DEC permit under the Freshwater Wetlands Act, plus any local review. Zoning does not override these rules, so get a current jurisdictional determination rather than assume no rules apply.",
+    "citation": "Clean Water Act § 404 (33 U.S.C. § 1344); NY ECL Article 24 (Freshwater Wetlands)"
+  },
+  {
+    "id": "construction-env-012",
+    "topic": "construction-env",
+    "q": "A buyer is under contract to buy a single-family home built in 1962. Under the federal lead-based paint disclosure rule, the buyer must be given:",
+    "options": [
+      "a lead-free certificate that the seller must obtain by having a certified inspector test all painted surfaces",
+      "a 3-day right to cancel the contract after receiving the seller's Property Condition Disclosure Statement",
+      "nothing, because the federal lead rule applies only to rental housing",
+      "a 10-day opportunity for a lead inspection or risk assessment, unless changed or waived in writing"
+    ],
+    "answer": 3,
+    "explanation": "For pre-1978 target housing, the seller must disclose known lead information and reports, give the EPA pamphlet, and include the lead warning; the buyer gets a 10-day inspection/risk-assessment opportunity that can be changed by mutual written agreement or waived. The rule does not require the seller to test or remove lead.",
+    "citation": "40 CFR §§ 745.107, 745.110 (Lead-Based Paint Disclosure Rule)"
+  },
+  {
+    "id": "construction-env-013",
+    "topic": "construction-env",
+    "q": "For the sale of pre-1978 housing, how long must the seller and the listing agent keep a copy of the signed lead-based paint disclosure and acknowledgment?",
+    "options": [
+      "1 year after closing",
+      "At least 3 years from the completion of the sale",
+      "6 years from the date of the listing agreement",
+      "Until the buyer resells the property"
+    ],
+    "answer": 1,
+    "explanation": "The seller and any agent must keep the completed lead disclosure attachment for at least 3 years from the completion date of the sale. Lessors and agents likewise keep lease disclosures for 3 years from the start of the lease term.",
+    "citation": "40 CFR § 745.113(c)"
+  },
+  {
+    "id": "construction-env-014",
+    "topic": "construction-env",
+    "q": "A radon test in the lowest lived-in level of a home reads 6.2 pCi/L. Which statement is accurate under EPA guidance?",
+    "options": [
+      "Radon matters only in commercial buildings, so no action is needed for a home",
+      "The result is acceptable because EPA's action level for homes is 10 pCi/L",
+      "It exceeds EPA's 4 pCi/L action level, so professional mitigation is recommended",
+      "A retest is unnecessary because radon at that level can be detected by its smell"
+    ],
+    "answer": 2,
+    "explanation": "EPA recommends fixing homes at 4 pCi/L or higher (and considering mitigation between 2 and 4). Radon is an odorless, invisible radioactive gas, so only testing reveals levels, and a reading below 4 is not a guarantee of no risk.",
+    "citation": "EPA, A Citizen's Guide to Radon (4 pCi/L action level)"
+  },
+  {
+    "id": "construction-env-015",
+    "topic": "construction-env",
+    "q": "During a showing, a buyer notices crumbling insulation wrapped around old basement heating pipes and asks whether it is asbestos. What should the salesperson do?",
+    "options": [
+      "Advise against disturbing it and recommend evaluation by a qualified asbestos professional",
+      "Break off a small sample herself and mail it to a testing lab to save the buyer the inspection fee",
+      "Assure the buyer it is safe because asbestos was banned from all residential products in 1978",
+      "Tell the seller to sweep it up and repaint the pipes before closing"
+    ],
+    "answer": 0,
+    "explanation": "Crumbling (friable) asbestos can release dangerous fibers, and appearance alone cannot identify it, so the licensee should not sample or disturb it and should refer testing to qualified professionals. There is no blanket ban date that clears older materials.",
+    "citation": "EPA asbestos guidance; Clean Air Act asbestos NESHAP (40 CFR Part 61, Subpart M)"
+  },
+  {
+    "id": "construction-env-016",
+    "topic": "construction-env",
+    "q": "Urea-formaldehyde foam insulation (UFFI) is an environmental concern primarily because it:",
+    "options": [
+      "contains radioactive particles that enter through foundation cracks",
+      "leaks petroleum into the groundwater from buried tanks",
+      "contains PCBs like those used in older electrical transformers",
+      "can release formaldehyde gas into the indoor air"
+    ],
+    "answer": 3,
+    "explanation": "UFFI, a foam insulation used mostly in the 1970s, can emit formaldehyde gas that irritates the eyes and lungs. Radon is the radioactive soil gas, PCBs are associated with older electrical equipment, and petroleum leaks come from storage tanks.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 7: Environmental Issues (UFFI)"
+  },
+  {
+    "id": "construction-env-017",
+    "topic": "construction-env",
+    "q": "Before listing, a seller wants to paint over a damp, moldy basement wall. What is the best advice?",
+    "options": [
+      "Painting is enough because federal law sets a maximum indoor mold level that a sealed wall will satisfy",
+      "Fix the moisture source and remediate properly; known material defects must not be concealed",
+      "Mold is never a disclosure issue because it is a naturally occurring substance found in every home",
+      "Have the buyer sign a waiver promising never to test for mold"
+    ],
+    "answer": 1,
+    "explanation": "Mold grows from moisture, so lasting remediation starts with fixing the water source; painting over it hides the problem without solving it. There is no federal indoor mold limit that serves as a pass/fail standard, and concealing a known material defect can expose the seller and agent to liability.",
+    "citation": "EPA mold guidance; NY Labor Law Article 32 (mold assessment and remediation)"
+  },
+  {
+    "id": "construction-env-018",
+    "topic": "construction-env",
+    "q": "A property inspection finds an abandoned underground heating-oil tank. What is the main environmental risk?",
+    "options": [
+      "A corroded tank can leak petroleum into the soil and groundwater",
+      "The tank will emit radon gas into the living space",
+      "The tank lowers the R-value of the foundation walls",
+      "The tank violates the federal lead-based paint disclosure rule"
+    ],
+    "answer": 0,
+    "explanation": "Aging steel tanks can corrode and leak oil, contaminating soil and groundwater and creating costly cleanup liability. NY law imposes strict liability for petroleum discharges, so buyers should have tanks evaluated, tested, or properly removed and closed.",
+    "citation": "NY Navigation Law Article 12 (petroleum discharges); NYS DEC tank regulations"
+  },
+  {
+    "id": "construction-env-019",
+    "topic": "construction-env",
+    "q": "Under New York's Amanda's Law, carbon monoxide alarms are required in one- and two-family dwellings that:",
+    "options": [
+      "are located within 1,000 feet of a highway, truck route, or other major source of vehicle exhaust",
+      "were built before the NYS Uniform Fire Prevention and Building Code took effect in 1984",
+      "have a fuel-burning appliance or system that can emit carbon monoxide, or an attached garage",
+      "have more than three bedrooms or more than one sleeping floor"
+    ],
+    "answer": 2,
+    "explanation": "Amanda's Law requires CO alarms in homes with a CO source, such as a fossil-fuel-burning furnace, boiler, water heater, or fireplace, or an attached garage. This is separate from the smoke-alarm requirement; CO is odorless, and an alarm means leave the building and call for help.",
+    "citation": "Amanda's Law (NY Executive Law § 378)"
+  },
+  {
+    "id": "construction-env-020",
+    "topic": "construction-env",
+    "q": "A company buys an industrial site and later discovers contamination dumped by a prior owner decades ago. Under CERCLA (Superfund), the current owner:",
+    "options": [
+      "is never liable because it did not cause the pollution",
+      "is liable only for the share of waste it personally dumped",
+      "is automatically protected as an innocent purchaser, with no prior investigation needed",
+      "can be held liable because liability is strict, joint and several, and retroactive"
+    ],
+    "answer": 3,
+    "explanation": "CERCLA can impose cleanup liability on current owners regardless of fault (strict), for the entire cleanup (joint and several), and for contamination that occurred before the law (retroactive). Innocent-landowner type defenses require 'all appropriate inquiry,' such as a Phase I assessment, before buying; they are not automatic.",
+    "citation": "CERCLA, 42 U.S.C. § 9607"
+  },
+  {
+    "id": "construction-env-021",
+    "topic": "construction-env",
+    "q": "What distinguishes a Phase II Environmental Site Assessment from a Phase I?",
+    "options": [
+      "Phase II is limited to reviewing historical records and interviewing owners",
+      "Phase II involves sampling and lab testing of soil, groundwater, or building materials",
+      "Phase II is the cleanup stage in which contamination is physically removed",
+      "Phase II is required for every residential sale in New York"
+    ],
+    "answer": 1,
+    "explanation": "A Phase I is an investigative review (records, site reconnaissance, interviews) with no sampling; if it flags concerns, a Phase II samples and tests to confirm contamination. Remediation is a later, separate phase. These assessments are used mainly in commercial transactions.",
+    "citation": "ASTM E1527 / EPA All Appropriate Inquiries Rule (40 CFR Part 312)"
+  },
+  {
+    "id": "construction-env-022",
+    "topic": "construction-env",
+    "q": "The seller of a covered single-family home in New York offers the buyer a $500 credit at closing instead of delivering a Property Condition Disclosure Statement. Under current law:",
+    "options": [
+      "the credit is still an acceptable alternative to the statement as long as the buyer agrees to it in writing",
+      "the credit must now be given in addition to the statement, and both are due at or before the closing",
+      "the statement must be delivered before the buyer signs a binding contract, because the $500 credit was repealed in 2024",
+      "the seller may skip both because the statement became optional for all residential sellers in 2024"
+    ],
+    "answer": 2,
+    "explanation": "Amendments effective March 20, 2024 repealed the old $500 credit, so covered sellers of 1-4 family homes must deliver the PCDS before the buyer signs a binding contract unless an exemption applies (condo and co-op units are not covered). The statement reflects the seller's actual knowledge and is not a warranty.",
+    "citation": "NY RPL Article 14 (§§ 462, 465), as amended 2024"
+  },
+  {
+    "id": "construction-env-a001",
+    "topic": "construction-env",
+    "q": "A lakeside cottage sits on a series of isolated concrete columns that extend below the frost line, with beams spanning between them to carry the floor framing. What type of foundation is this?",
+    "options": [
+      "Slab-on-grade foundation",
+      "Full basement foundation",
+      "Pier-and-beam foundation",
+      "Monolithic mat foundation"
+    ],
+    "answer": 2,
+    "explanation": "Piers are isolated vertical supports, each on its own footing, with beams spanning between them; the area beneath is typically an open or enclosed crawl space. A slab or mat is one continuous concrete layer, not separate columns.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a002",
+    "topic": "construction-env",
+    "q": "A buyer's inspector notes a white, chalky crust on the inside face of a concrete-block basement wall. What does this most likely indicate?",
+    "options": [
+      "Water has moved through the masonry and left mineral salts behind",
+      "Subterranean termites have built tunnels across the block face",
+      "Radon gas has reacted with the concrete and stained its surface",
+      "The foundation has settled and the blocks are being crushed"
+    ],
+    "answer": 0,
+    "explanation": "This is efflorescence: moisture migrating through masonry dissolves salts and deposits them as it evaporates, signaling a water-management issue to evaluate. Termite tubes are brown soil tunnels, and radon is colorless and leaves no visible residue.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a003",
+    "topic": "construction-env",
+    "q": "A builder frames the first-floor walls, sets the second-floor joists and subfloor on top of them, and then raises the second-floor walls on that deck. Which framing method is this?",
+    "options": [
+      "Balloon framing",
+      "Platform framing",
+      "Post-and-beam framing",
+      "Pole framing"
+    ],
+    "answer": 1,
+    "explanation": "In platform (western) framing each story is built on its own floor platform, and that deck acts as a firestop between stories; it is the dominant modern method. Balloon framing uses studs that run continuously through both stories with no intermediate platform.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a004",
+    "topic": "construction-env",
+    "q": "A buyer admires a home with widely spaced heavy timber columns, exposed ceiling beams, and large open rooms with few interior walls. Which framing method was most likely used?",
+    "options": [
+      "Platform framing",
+      "Balloon framing",
+      "Light-gauge framing",
+      "Post-and-beam framing"
+    ],
+    "answer": 3,
+    "explanation": "Post-and-beam framing carries loads on large members spaced far apart, which allows open interiors and exposed beams. Platform and balloon framing rely on many closely spaced light studs.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a005",
+    "topic": "construction-env",
+    "q": "When a wall is opened up for a new picture window, which framing member must span the top of the opening to carry the load from above around it?",
+    "options": [
+      "Sole plate",
+      "Ridge board",
+      "Header",
+      "Collar tie"
+    ],
+    "answer": 2,
+    "explanation": "A header (a lintel, in masonry) spans a window or door opening and transfers the load above to the studs at each side. The sole plate is the bottom horizontal member of a wall, not a span over an opening.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a006",
+    "topic": "construction-env",
+    "q": "A buyer plans to remove an interior wall to open up the kitchen. In the attic, the ceiling joists end and overlap directly on top of that wall. What is the best advice?",
+    "options": [
+      "Treat it as load-bearing until an engineer or architect plans the change",
+      "Remove it freely, because interior walls only divide space and carry no load",
+      "Remove it freely as long as the house has a gable roof rather than a hip roof",
+      "Cut out the studs and leave the top plate in place to carry the joists"
+    ],
+    "answer": 0,
+    "explanation": "Joists that end or lap over a wall show it likely carries load from above, so removal needs a properly designed beam or header and generally a building permit. Interior walls can be bearing walls, and a top plate alone cannot span the opening.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a007",
+    "topic": "construction-env",
+    "q": "A buyer measures a dry 2×4 stud in the garage and finds it is about 1½ by 3½ inches. What explains this?",
+    "options": [
+      "The stud was trimmed on site to fit an unusual wall height",
+      "The lumber is defective and should be noted as a code violation",
+      "The stud is metric lumber that was mislabeled at the mill",
+      "2×4 is a nominal size; dressed lumber is smaller than its name"
+    ],
+    "answer": 3,
+    "explanation": "Lumber is named by nominal dimensions; drying and surfacing (dressing) reduce a 2×4 to roughly 1½ × 3½ inches. The smaller actual size is standard, not a defect or code issue.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a008",
+    "topic": "construction-env",
+    "q": "Which component is the layer of plywood or oriented strand board (OSB) fastened to the outside of studs and rafters, beneath the siding and roofing?",
+    "options": [
+      "Sheathing",
+      "Fascia",
+      "Flashing",
+      "Drywall"
+    ],
+    "answer": 0,
+    "explanation": "Sheathing covers the exterior framing, adds rigidity, and provides a nailing base for siding and roofing. Flashing is metal or membrane at joints to shed water, and fascia is the trim board along the roof edge.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a009",
+    "topic": "construction-env",
+    "q": "A homeowner wants to cut out the diagonal web members of the prefabricated roof trusses to create attic storage. Why is this a serious concern?",
+    "options": [
+      "Truss webs only hold insulation and can be replaced with plywood",
+      "Removing webs is fine if the cut ends are nailed to the ceiling joists",
+      "Each truss is an engineered unit, and cutting any member can cause failure",
+      "Webs carry load only during construction and become redundant afterward"
+    ],
+    "answer": 2,
+    "explanation": "A truss is a factory-engineered triangulated assembly whose members work together; cutting or altering one can compromise the roof unless an engineer designs the change. The webs are permanent structural members, not construction aids.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a010",
+    "topic": "construction-env",
+    "q": "Which roof has two different slopes on each of its two sides—a steep lower slope and a shallower upper slope—like a traditional barn?",
+    "options": [
+      "Hip roof",
+      "Gambrel roof",
+      "Mansard roof",
+      "Saltbox roof"
+    ],
+    "answer": 1,
+    "explanation": "A gambrel roof has two pitches on each of two sides with gable ends, the classic barn profile also seen on Dutch Colonial homes. A mansard also has a double slope, but on all four sides.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a011",
+    "topic": "construction-env",
+    "q": "A roof slopes down toward the eaves on all four sides, with no vertical triangular wall at either end. Which style is it?",
+    "options": [
+      "Gable roof",
+      "Shed roof",
+      "Gambrel roof",
+      "Hip roof"
+    ],
+    "answer": 3,
+    "explanation": "A hip roof slopes on all four sides, so the eaves run around the entire house. A gable roof slopes on only two sides and leaves triangular gable-end walls; a shed roof has a single slope.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a012",
+    "topic": "construction-env",
+    "q": "A 19th-century house has a roof with a double slope on all four sides; the steep, nearly vertical lower slope is pierced by dormers, creating a full top story. What is the roof, and which style is it associated with?",
+    "options": [
+      "Mansard roof; Second Empire style",
+      "Gambrel roof; Dutch Colonial style",
+      "Hip roof; Prairie style",
+      "Gable roof; Greek Revival style"
+    ],
+    "answer": 0,
+    "explanation": "A mansard roof has two slopes on all four sides, with the steep lower slope enclosing a usable top floor; it is the hallmark of the Second Empire style. A gambrel has a double slope on only two sides.",
+    "citation": "General architectural style terminology"
+  },
+  {
+    "id": "construction-env-a013",
+    "topic": "construction-env",
+    "q": "A symmetrical gable roof spans 32 feet from outside wall to outside wall, and the ridge rises 8 feet above the top of the walls. What is the roof pitch, in inches of rise per 12 inches of run?",
+    "options": [
+      "3 in 12",
+      "6 in 12",
+      "8 in 12",
+      "4 in 12"
+    ],
+    "answer": 1,
+    "explanation": "Run is half the span: 32 ÷ 2 = 16 ft. Rise ÷ run = 8 ÷ 16 = 0.5, and 0.5 × 12 = 6, so the pitch is 6 in 12. Using the full span gives 8 ÷ 32 × 12 = 3 in 12, a common error.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a014",
+    "topic": "construction-env",
+    "q": "An attic floor has existing insulation rated R-11. The owner adds 8 inches of blown cellulose rated R-3.5 per inch. What is the combined R-value?",
+    "options": [
+      "R-28",
+      "R-14.5",
+      "R-39",
+      "R-88"
+    ],
+    "answer": 2,
+    "explanation": "New layer: 8 × 3.5 = R-28. R-values of layers add: 11 + 28 = R-39. R-28 ignores the existing layer, R-14.5 adds only one inch (11 + 3.5), and R-88 wrongly multiplies 11 × 8.",
+    "citation": "General building science: R-values of layers in series are additive"
+  },
+  {
+    "id": "construction-env-a015",
+    "topic": "construction-env",
+    "q": "To fit a shallow wall cavity, an installer squeezes R-21 batts into a space only half their designed thickness. What is the effect?",
+    "options": [
+      "The R-value doubles because the fibers become denser",
+      "The R-value stays R-21 because the material is unchanged",
+      "The R-value rises as long as a vapor retarder is added",
+      "The installed R-value drops below the rating on the label"
+    ],
+    "answer": 3,
+    "explanation": "Batt insulation resists heat flow largely through trapped air, so compressing it lowers its installed R-value below the labeled rating. Denser is not better for batts, and a vapor retarder does not restore the lost thickness.",
+    "citation": "General building science; insulation must be installed per manufacturer specifications"
+  },
+  {
+    "id": "construction-env-a016",
+    "topic": "construction-env",
+    "q": "A buyer comparing replacement windows sees one rated U-0.27 and another rated U-0.45. Which statement is correct?",
+    "options": [
+      "The U-0.27 window loses less heat, because a lower U-factor is better",
+      "The U-0.45 window insulates better, because a higher number is better",
+      "Both insulate equally; the U-factor measures only air leakage",
+      "The U-0.45 window is better, because U-factor equals R-value"
+    ],
+    "answer": 0,
+    "explanation": "U-factor measures the rate of heat flow through the window, so lower is better—the opposite of R-value, where higher is better. Air leakage is a separate rating.",
+    "citation": "General building science (NFRC window ratings)"
+  },
+  {
+    "id": "construction-env-a017",
+    "topic": "construction-env",
+    "q": "Which window type is hinged on one side and swings outward, usually opened with a crank?",
+    "options": [
+      "Double-hung window",
+      "Casement window",
+      "Awning window",
+      "Sliding window"
+    ],
+    "answer": 1,
+    "explanation": "A casement window is side-hinged and cranks outward like a door. An awning window is hinged at the top and swings out from the bottom; double-hung sashes slide vertically.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a018",
+    "topic": "construction-env",
+    "q": "During a showing, a buyer notices condensation trapped between the two panes of a double-glazed window that cannot be wiped from either side. What does this most likely indicate?",
+    "options": [
+      "The home's humidity is too low for winter",
+      "The window frame has been infested by termites",
+      "The seal of the insulated glass unit has failed",
+      "The low-E coating is working as intended"
+    ],
+    "answer": 2,
+    "explanation": "Moisture between the panes means the sealed insulated glass unit has failed, letting humid air in and reducing insulating value. Condensation on the room-side surface relates to indoor humidity, not a failed seal.",
+    "citation": "General residential construction practice (NYS salesperson syllabus: Construction and Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a019",
+    "topic": "construction-env",
+    "q": "A home's boiler heats water that a circulator pump sends through baseboard convectors in each room. What type of heating system is this?",
+    "options": [
+      "Forced warm-air system",
+      "Air-source heat pump system",
+      "Electric resistance baseboard system",
+      "Hydronic hot-water system"
+    ],
+    "answer": 3,
+    "explanation": "Hydronic systems heat water in a boiler and circulate it through baseboards, radiators, or radiant tubing. A forced warm-air system uses a furnace to heat air and blow it through ducts.",
+    "citation": "General HVAC practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a020",
+    "topic": "construction-env",
+    "q": "Which set of components would an inspector expect to find in a forced warm-air heating system?",
+    "options": [
+      "Furnace, blower, supply ducts, and return-air registers",
+      "Boiler, circulator pump, expansion tank, and radiators",
+      "Boiler, steam piping, air vents, and cast-iron radiators",
+      "Ground loop, heat exchanger, and in-floor radiant tubing"
+    ],
+    "answer": 0,
+    "explanation": "Forced warm-air systems heat air in a furnace and use a blower to push it through supply ducts, drawing it back through return registers. Boilers, circulators, and radiators belong to hot-water or steam systems.",
+    "citation": "General HVAC practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a021",
+    "topic": "construction-env",
+    "q": "Which statement about an air-source heat pump is accurate?",
+    "options": [
+      "It burns heating oil and distributes the heat through ducts",
+      "It moves heat with a refrigerant cycle and can reverse to cool",
+      "It heats water in a boiler for distribution to radiators",
+      "It cannot provide any useful heat once outdoor air is below 32°F"
+    ],
+    "answer": 1,
+    "explanation": "A heat pump uses electricity to move heat with a refrigerant cycle—pulling heat from outdoor air in winter and reversing to remove heat from the house in summer. Modern cold-climate units still deliver heat well below freezing, so the old 'useless below 32°F' claim is wrong.",
+    "citation": "General HVAC practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a022",
+    "topic": "construction-env",
+    "q": "A load calculation shows a house needs 42,000 BTU per hour of cooling. Air conditioners are sized in tons. What size unit is indicated?",
+    "options": [
+      "4.2 tons",
+      "2.8 tons",
+      "3.5 tons",
+      "3 tons"
+    ],
+    "answer": 2,
+    "explanation": "One ton of cooling = 12,000 BTU/hr. 42,000 ÷ 12,000 = 3.5 tons. Dividing by 10,000 gives the wrong 4.2 tons, and dividing by 15,000 gives 2.8 tons.",
+    "citation": "HVAC industry standard: 1 ton of cooling = 12,000 BTU/hr"
+  },
+  {
+    "id": "construction-env-a023",
+    "topic": "construction-env",
+    "q": "A gas furnace has an input rating of 90,000 BTU per hour and an AFUE of 80%. About how much heat does it deliver to the house per hour?",
+    "options": [
+      "90,000 BTU",
+      "112,500 BTU",
+      "18,000 BTU",
+      "72,000 BTU"
+    ],
+    "answer": 3,
+    "explanation": "AFUE is the share of fuel energy delivered as usable heat: 90,000 × 0.80 = 72,000 BTU/hr. 18,000 BTU is the amount lost (90,000 × 0.20), and 112,500 wrongly divides 90,000 by 0.80.",
+    "citation": "HVAC industry standard: AFUE (annual fuel utilization efficiency)"
+  },
+  {
+    "id": "construction-env-a024",
+    "topic": "construction-env",
+    "q": "How does a home's water supply system differ from its drain-waste-vent (DWV) system?",
+    "options": [
+      "Supply lines carry water under pressure; DWV lines rely on gravity",
+      "Supply lines rely on gravity; DWV lines are kept under pump pressure",
+      "Supply lines carry wastewater; DWV lines bring in fresh potable water",
+      "Both run under pressure, but DWV pipes use smaller copper tubing"
+    ],
+    "answer": 0,
+    "explanation": "Supply piping delivers potable water under pressure from a well pump or municipal main, while drain lines slope so waste flows by gravity to the sewer or septic system, with vents admitting air. DWV piping is not pressurized.",
+    "citation": "General residential plumbing practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a025",
+    "topic": "construction-env",
+    "q": "When a bathtub drains, the nearby sink gurgles and a sewer odor appears, even though the sink trap held water beforehand. Which plumbing component is most likely blocked?",
+    "options": [
+      "The sink's P-trap",
+      "The main water shutoff valve",
+      "The vent stack",
+      "The water heater relief valve"
+    ],
+    "answer": 2,
+    "explanation": "Vent pipes, usually exiting through the roof, admit air so draining water does not siphon fixture traps. A blocked vent lets drainage pull the water seal out of nearby traps, causing gurgling and sewer gas; the trap is the seal being lost, not the blockage.",
+    "citation": "General residential plumbing practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a026",
+    "topic": "construction-env",
+    "q": "What is the purpose of the temperature-and-pressure (T&P) relief valve on a tank water heater?",
+    "options": [
+      "To mix in cold water so the taps do not scald",
+      "To release water if temperature or pressure gets dangerously high",
+      "To shut off the gas supply when the pilot light goes out",
+      "To drain sediment from the bottom of the tank during service"
+    ],
+    "answer": 1,
+    "explanation": "The T&P valve opens to discharge water if the tank's temperature or pressure exceeds safe limits, preventing a rupture or explosion. Shutting off gas when the pilot fails is the thermocouple's job, and sediment is flushed through the drain valve.",
+    "citation": "General residential plumbing practice (NYS salesperson syllabus: Major Systems)"
+  },
+  {
+    "id": "construction-env-a027",
+    "topic": "construction-env",
+    "q": "An inspector recommends ground-fault circuit interrupter (GFCI) protection for the outlets beside the kitchen sink. What does a GFCI do?",
+    "options": [
+      "It detects arcing in damaged wiring that could start a fire",
+      "It raises a circuit's capacity so more appliances can run",
+      "It converts 120-volt outlets to 240 volts for appliances",
+      "It cuts power when current leaks to ground, reducing shock risk"
+    ],
+    "answer": 3,
+    "explanation": "A GFCI compares current leaving and returning on a circuit and shuts off within a fraction of a second if some leaks to ground—such as through a person—so it is used where water is present (kitchens, baths, outdoors, garages). Detecting dangerous arcing is the job of an AFCI.",
+    "citation": "National Electrical Code (NFPA 70), as referenced by the NYS Uniform Code"
+  },
+  {
+    "id": "construction-env-a028",
+    "topic": "construction-env",
+    "q": "Which device is designed mainly to prevent electrical fires by detecting dangerous arcing in damaged or loose wiring, and is commonly required for bedroom circuits?",
+    "options": [
+      "Arc-fault circuit interrupter (AFCI)",
+      "Ground-fault circuit interrupter (GFCI)",
+      "Surge protective device (SPD)",
+      "Time-delay cartridge fuse"
+    ],
+    "answer": 0,
+    "explanation": "An AFCI senses the electrical signature of arcing—from a nail through a cable or a loose connection—and trips before a fire starts; the code requires AFCI protection for bedroom and many other living-area circuits. A GFCI targets shock from ground faults, not arcing.",
+    "citation": "National Electrical Code (NFPA 70), as referenced by the NYS Uniform Code"
+  },
+  {
+    "id": "construction-env-a029",
+    "topic": "construction-env",
+    "q": "A 1,500-watt space heater and a 1,200-watt microwave run at the same time on one 120-volt, 20-amp kitchen circuit. How much current do they draw, and what happens?",
+    "options": [
+      "11.25 amps; the breaker will hold because the load is under 20 amps",
+      "22.5 amps; the breaker will likely trip because the load exceeds 20 amps",
+      "12.5 amps; the breaker will hold because only the heater draws power",
+      "27 amps; the breaker will likely trip because the load exceeds 20 amps"
+    ],
+    "answer": 1,
+    "explanation": "Amps = watts ÷ volts. Total load = 1,500 + 1,200 = 2,700 W; 2,700 ÷ 120 = 22.5 A, above the 20-A rating, so the breaker will likely trip. Dividing by 240 V gives the wrong 11.25 A; dividing by 100 gives 27 A.",
+    "citation": "Ohm's law/power formula: watts = volts × amps"
+  },
+  {
+    "id": "construction-env-a030",
+    "topic": "construction-env",
+    "q": "A 1940s house still has its original 60-amp electrical service. Which statement is most accurate?",
+    "options": [
+      "60 amps describes the home's monthly electricity use",
+      "The service is ideal because fewer amps mean lower bills",
+      "It is likely inadequate for modern loads; 100–200 amps is typical today",
+      "The voltage must be raised to 480 volts to support modern appliances"
+    ],
+    "answer": 2,
+    "explanation": "Service amperage describes capacity, not energy use (measured in kilowatt-hours). A 60-amp service is often too small for today's appliances; 100 amps is generally treated as a practical minimum, and 200 amps is common in newer homes.",
+    "citation": "National Electrical Code (NFPA 70), as referenced by the NYS Uniform Code"
+  },
+  {
+    "id": "construction-env-a031",
+    "topic": "construction-env",
+    "q": "An attached 19th-century row house in Brooklyn has a façade of brown sandstone, a tall exterior stoop leading to a raised parlor floor, and a flat roof. Which style best describes it?",
+    "options": [
+      "Dutch Colonial",
+      "Ranch",
+      "Tudor",
+      "Brownstone"
+    ],
+    "answer": 3,
+    "explanation": "Brownstones are attached urban row houses faced in brown sandstone, typically with a high stoop to the parlor floor and a flat or low-slope roof. Dutch Colonial and Tudor are detached styles with gambrel or steep cross-gabled roofs; a ranch is a one-story suburban style.",
+    "citation": "General architectural style terminology"
+  },
+  {
+    "id": "construction-env-a032",
+    "topic": "construction-env",
+    "q": "A house features an asymmetrical façade, a round corner tower, a wraparound porch, and decorative spindle and bracket trim. Which architectural style is it?",
+    "options": [
+      "Federal",
+      "Victorian (Queen Anne)",
+      "Greek Revival",
+      "Cape Cod"
+    ],
+    "answer": 1,
+    "explanation": "Victorian houses, especially the Queen Anne type, are known for irregular asymmetrical shapes, towers or turrets, wraparound porches, and ornate trim. Federal and Greek Revival houses emphasize symmetry and classical restraint.",
+    "citation": "General architectural style terminology"
+  },
+  {
+    "id": "construction-env-a033",
+    "topic": "construction-env",
+    "q": "The front door of a house opens onto a small landing; a short stair leads up to the main living level and another leads down to a partly below-grade lower level. Which style is this?",
+    "options": [
+      "Center-hall Colonial",
+      "Story-and-a-half Cape Cod",
+      "Raised ranch (split entry)",
+      "Craftsman bungalow"
+    ],
+    "answer": 2,
+    "explanation": "A raised ranch (split-entry or bi-level) has its front door on a landing between two stacked levels, with half-flights going up to the living floor and down to the partly below-grade level. A center-hall Colonial, a Cape Cod, and a bungalow are entered directly at the main floor.",
+    "citation": "General architectural style terminology"
+  },
+  {
+    "id": "construction-env-a034",
+    "topic": "construction-env",
+    "q": "Under New York law, a licensed home inspector must give the client a written report of the findings no later than:",
+    "options": [
+      "the day of the inspection",
+      "3 business days after the inspection",
+      "10 calendar days after the inspection",
+      "5 business days after the inspection"
+    ],
+    "answer": 3,
+    "explanation": "RPL §444-g(3) requires the written report within five business days after the inspection, and it must identify which systems and components were observed. Three business days is a common confusion with other deadlines.",
+    "citation": "RPL Article 12-B, §444-g"
+  },
+  {
+    "id": "construction-env-a035",
+    "topic": "construction-env",
+    "q": "The listing agent calls the buyer's licensed home inspector and asks for a copy of the inspection report to prepare the seller's response. What should the inspector do?",
+    "options": [
+      "Refuse unless the buyer, as the client, expressly consents",
+      "Send it, because the listing agent is a licensed party",
+      "Send it, because all parties to the deal share the report",
+      "File it with the seller's attorney before sharing it"
+    ],
+    "answer": 0,
+    "explanation": "A home inspector's duty runs to the client, and the report is confidential—it may not be disclosed without the client's express consent (RPL §444-g(1), (3)). Being a licensee or a party to the transaction does not entitle the listing agent to it.",
+    "citation": "RPL Article 12-B, §444-g"
+  },
+  {
+    "id": "construction-env-a036",
+    "topic": "construction-env",
+    "q": "Which of the following is PROHIBITED for a licensed New York home inspector?",
+    "options": [
+      "Showing the license number on every inspection report",
+      "Paying the buyer's agent a fee for each client referral",
+      "Stating which systems were observed in the written report",
+      "Recommending a structural engineer for a sagging beam"
+    ],
+    "answer": 1,
+    "explanation": "RPL §444-g(4)(c) bars inspectors from paying any commission, referral fee, or kickback to the seller or to either party's agent for referrals. Showing the license number and identifying observed systems are required, and referring a structural issue to an engineer is proper because inspectors may not practice engineering.",
+    "citation": "RPL Article 12-B, §444-g"
+  },
+  {
+    "id": "construction-env-a037",
+    "topic": "construction-env",
+    "q": "During an inspection, pencil-width tunnels of dried mud are found running up the concrete foundation wall to the wood sill. Which pest do they indicate?",
+    "options": [
+      "Carpenter ants",
+      "Powderpost beetles",
+      "Subterranean termites",
+      "Carpenter bees"
+    ],
+    "answer": 2,
+    "explanation": "Subterranean termites live in the soil and build mud shelter tubes to reach wood while staying moist and hidden. Carpenter ants, powderpost beetles, and carpenter bees do not build mud tubes.",
+    "citation": "General pest/wood-destroying insect identification (NYS salesperson syllabus: Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a038",
+    "topic": "construction-env",
+    "q": "Which statement about carpenter ants is accurate?",
+    "options": [
+      "They digest cellulose and eat wood the way termites do",
+      "They build mud tubes from the soil to reach wooden sills",
+      "They attack only dry hardwood flooring, not framing lumber",
+      "They hollow out wood for nests but do not actually eat it"
+    ],
+    "answer": 3,
+    "explanation": "Carpenter ants excavate galleries in (often moist or damaged) wood to nest, pushing out coarse sawdust-like debris called frass, but they do not digest wood. Eating wood is a termite trait, and mud tubes signal subterranean termites.",
+    "citation": "General pest/wood-destroying insect identification (NYS salesperson syllabus: Environmental Issues)"
+  },
+  {
+    "id": "construction-env-a039",
+    "topic": "construction-env",
+    "q": "An inspector finds many tiny round holes in old floor joists, with small piles of fine, flour-like powder beneath them. Which wood-destroying insect is most likely responsible?",
+    "options": [
+      "Powderpost beetles",
+      "Subterranean termites",
+      "Carpenter ants",
+      "Carpenter bees"
+    ],
+    "answer": 0,
+    "explanation": "Powderpost beetle larvae tunnel inside wood and emerge as adults through small round exit holes, leaving fine, powdery frass. Carpenter bee holes are about half an inch wide, and carpenter ant debris is coarse and fibrous.",
+    "citation": "General pest/wood-destroying insect identification (NYS salesperson syllabus: Environmental Issues)"
+  },
+  {
+    "id": "construction-env-b001",
+    "topic": "construction-env",
+    "q": "Under the federal lead-based paint disclosure rule, which EPA pamphlet must a seller of a 1955 house give the buyer before the buyer is bound by the contract?",
+    "options": [
+      "The Lead-Safe Certified Guide to Renovate Right",
+      "Protect Your Family From Lead in Your Home",
+      "A Citizen's Guide to Radon",
+      "A Brief Guide to Mold, Moisture, and Your Home"
+    ],
+    "answer": 1,
+    "explanation": "Sellers and lessors of pre-1978 target housing must provide the EPA/HUD pamphlet 'Protect Your Family From Lead in Your Home.' 'Renovate Right' is the trap: it is the pamphlet renovation contractors give under the separate RRP rule, not the sale/lease disclosure pamphlet.",
+    "citation": "40 CFR §745.107; 42 U.S.C. §4852d"
+  },
+  {
+    "id": "construction-env-b002",
+    "topic": "construction-env",
+    "q": "A landlord is renting a two-bedroom apartment in a 1940 building on a one-year lease. Under the federal lead disclosure rule, the landlord must do all of the following EXCEPT:",
+    "options": [
+      "give the tenant the EPA lead hazard information pamphlet",
+      "disclose any known lead-based paint or hazards in the unit",
+      "give the tenant a 10-day opportunity to conduct a lead inspection",
+      "include the required lead warning statement in the lease"
+    ],
+    "answer": 2,
+    "explanation": "Lessors must give the pamphlet, disclose known lead information and records, and attach the lead warning statement and acknowledgments. The 10-day inspection or risk-assessment opportunity is a right of purchasers only, so tenants do not receive it.",
+    "citation": "40 CFR §§745.107, 745.110, 745.113"
+  },
+  {
+    "id": "construction-env-b003",
+    "topic": "construction-env",
+    "q": "Which of the following transactions is exempt from the federal lead-based paint disclosure requirements?",
+    "options": [
+      "A 90-day summer rental of a 1920 cottage with no renewal option",
+      "A one-year lease of a two-bedroom apartment in a 1975 building",
+      "The resale of a two-bedroom co-op apartment in a 1970 building",
+      "The sale of a 1965 house to an investor who will never live there"
+    ],
+    "answer": 0,
+    "explanation": "Leases of 100 days or less with no possible renewal or extension are exempt. The other choices all involve pre-1978 target housing (multi-bedroom units, not exempt 0-bedroom units); co-op transfers and sales to non-occupant investors are still covered.",
+    "citation": "40 CFR §§745.101(c), 745.103"
+  },
+  {
+    "id": "construction-env-b004",
+    "topic": "construction-env",
+    "q": "A listing agent learns that the seller of a 1950 home has a lead inspection report showing lead-based paint on the window trim. The seller tells the agent not to mention it because no law requires testing. What must the agent do?",
+    "options": [
+      "Stay silent, since the seller was never required to test for lead",
+      "Disclose the report only if a buyer asks about lead in writing",
+      "Tell buyers to use their 10-day inspection right and say nothing else",
+      "Ensure the seller discloses the known lead paint and gives the buyer the report"
+    ],
+    "answer": 3,
+    "explanation": "The rule does not require testing, but it does require disclosure of known lead-based paint and any available records or reports. Agents must ensure the seller complies; if the seller refuses, the agent cannot go along with the concealment.",
+    "citation": "40 CFR §§745.107(a)(4), 745.115"
+  },
+  {
+    "id": "construction-env-b005",
+    "topic": "construction-env",
+    "q": "A contractor is hired to replace two windows in a 1960 house occupied by its owner. The work will disturb only about 4 square feet of painted surface. Under EPA's Renovation, Repair and Painting (RRP) rule:",
+    "options": [
+      "the job is exempt because it disturbs less than 6 square feet of paint",
+      "the job is exempt because exterior work under 20 square feet is minor",
+      "the RRP rule applies only if a child under 6 lives in the house",
+      "the RRP rule applies because window replacement is never treated as minor repair"
+    ],
+    "answer": 3,
+    "explanation": "The minor repair and maintenance exception (6 sq ft per interior room, 20 sq ft exterior) does not cover window replacement, so a certified firm must follow lead-safe work practices. The small-area exemption is the trap; and in pre-1978 housing the rule applies regardless of whether a young child lives there.",
+    "citation": "40 CFR §§745.82, 745.83 (minor repair and maintenance)"
+  },
+  {
+    "id": "construction-env-b006",
+    "topic": "construction-env",
+    "q": "Under EPA's RRP rule, interior work in pre-1978 housing qualifies as exempt minor repair and maintenance only if it disturbs no more than how much painted surface per room?",
+    "options": [
+      "2 square feet",
+      "10 square feet",
+      "6 square feet",
+      "20 square feet"
+    ],
+    "answer": 2,
+    "explanation": "The minor repair and maintenance exception covers interior work disturbing 6 square feet or less per room. The 20 square foot figure is the exterior threshold, a common mix-up.",
+    "citation": "40 CFR §745.83"
+  },
+  {
+    "id": "construction-env-b007",
+    "topic": "construction-env",
+    "q": "Which statement correctly distinguishes the federal lead disclosure rule from EPA's Renovation, Repair and Painting (RRP) rule?",
+    "options": [
+      "Disclosure requires certified renovators; RRP requires sellers to share known inspection reports",
+      "Both rules require the seller to test for lead before a contract is signed",
+      "Disclosure governs information in sales and leases; RRP governs how paid work disturbing paint is done",
+      "RRP replaced the disclosure rule for all pre-1978 housing built after 1960"
+    ],
+    "answer": 2,
+    "explanation": "The disclosure rule (Title X §1018) requires pamphlets, known-hazard disclosure and acknowledgments when target housing is sold or leased. The RRP rule separately requires certified firms and lead-safe practices for compensated renovation. Neither requires a seller to test.",
+    "citation": "40 CFR Part 745, Subparts E and F"
+  },
+  {
+    "id": "construction-env-b008",
+    "topic": "construction-env",
+    "q": "Asbestos-containing material is described as 'friable' when it:",
+    "options": [
+      "is hidden behind walls or under floors where it cannot be seen",
+      "can be crumbled or reduced to powder by hand pressure when dry",
+      "has been sealed with a coating that binds the fibers in place",
+      "is installed outdoors where it is exposed to rain and sun"
+    ],
+    "answer": 1,
+    "explanation": "Friable asbestos material can be crumbled, pulverized or reduced to powder by hand pressure when dry, so fibers release easily. Being hidden does not make material friable, and a sealing coating describes encapsulation, which reduces fiber release.",
+    "citation": "40 CFR §61.141 (NESHAP definitions)"
+  },
+  {
+    "id": "construction-env-b009",
+    "topic": "construction-env",
+    "q": "A buyer's inspector finds intact, undamaged vinyl floor tiles in a basement that likely contain asbestos. The buyer does not plan to renovate. Which statement is most accurate?",
+    "options": [
+      "Undisturbed intact material poses little risk; disturbing it can release fibers",
+      "State law requires all asbestos tiles to be removed before title can be transferred",
+      "The tiles may be safely sanded smooth and then painted to seal in the fibers",
+      "The buyer may pull up the tiles and use a household vacuum to limit any dust"
+    ],
+    "answer": 0,
+    "explanation": "EPA guidance is that asbestos material in good condition that will not be disturbed is often best left alone and monitored; sanding, scraping or improper removal releases fibers. There is no general rule that asbestos must be removed before a home can be sold.",
+    "citation": "EPA asbestos guidance for homeowners"
+  },
+  {
+    "id": "construction-env-b010",
+    "topic": "construction-env",
+    "q": "Radon gas found in homes comes primarily from:",
+    "options": [
+      "incomplete combustion in oil- or gas-fired furnaces",
+      "off-gassing from urea-formaldehyde foam insulation",
+      "leaks from older electrical transformers and ballasts",
+      "the natural radioactive decay of uranium in soil and rock"
+    ],
+    "answer": 3,
+    "explanation": "Radon is a naturally occurring radioactive gas produced by uranium decay in soil and rock; it enters through foundation cracks, sumps and other openings. Combustion produces carbon monoxide, UFFI releases formaldehyde, and old transformers are a PCB concern.",
+    "citation": "EPA, A Citizen's Guide to Radon"
+  },
+  {
+    "id": "construction-env-b011",
+    "topic": "construction-env",
+    "q": "A buyer orders a short-term radon test. Where should the test device generally be placed?",
+    "options": [
+      "In the attic, where trapped gases collect at the highest point",
+      "Outdoors next to the foundation, where gas leaves the soil",
+      "In the lowest lived-in level, with windows and doors kept closed",
+      "Directly inside the sump pit, where radon levels are highest"
+    ],
+    "answer": 2,
+    "explanation": "EPA directs testing in the lowest level that is used or could be used as living space, under closed-house conditions, away from drafts. Placing a device in a sump pit or outdoors does not measure the air people actually breathe.",
+    "citation": "EPA, Home Buyer's and Seller's Guide to Radon"
+  },
+  {
+    "id": "construction-env-b012",
+    "topic": "construction-env",
+    "q": "A radon test in the family room of a home reads 3.1 pCi/L. Under EPA guidance, which statement is accurate?",
+    "options": [
+      "It is below the 4 pCi/L action level, but EPA suggests considering mitigation",
+      "It is below 4 pCi/L, so the home is certified free of radon risk",
+      "New York law requires mitigation before the home can be sold",
+      "The reading is invalid because radon is measured in parts per million"
+    ],
+    "answer": 0,
+    "explanation": "EPA recommends fixing at 4 pCi/L or more and considering mitigation between 2 and 4 pCi/L, since there is no known safe level. New York does not require radon mitigation before a sale.",
+    "citation": "EPA, A Citizen's Guide to Radon"
+  },
+  {
+    "id": "construction-env-b013",
+    "topic": "construction-env",
+    "q": "What is the most common method of reducing high radon levels in a house with a basement slab?",
+    "options": [
+      "Sub-slab depressurization with a vent pipe and fan",
+      "Painting basement walls with waterproof sealant alone",
+      "Installing a carbon monoxide alarm in the basement",
+      "Running a portable air purifier with a HEPA filter"
+    ],
+    "answer": 0,
+    "explanation": "Sub-slab depressurization uses a pipe and fan to draw soil gas from beneath the slab and vent it above the roofline. Sealing cracks helps but alone is not a reliable fix, and HEPA filters capture particles, not the gas.",
+    "citation": "EPA, Consumer's Guide to Radon Reduction"
+  },
+  {
+    "id": "construction-env-b014",
+    "topic": "construction-env",
+    "q": "How does New York address radon when a one-family house is sold?",
+    "options": [
+      "The seller must test within 30 days before closing and give the buyer the result",
+      "Radon testing is required only for homes located within New York City limits",
+      "No test is required, but the PCDS asks whether a radon test has been done",
+      "A test is required only when the basement has been finished as living space"
+    ],
+    "answer": 2,
+    "explanation": "No New York law requires a radon test at sale. The Property Condition Disclosure Statement asks whether a radon test has been done and, if so, requires attaching the report.",
+    "citation": "RPL §462 (PCDS form)"
+  },
+  {
+    "id": "construction-env-b015",
+    "topic": "construction-env",
+    "q": "A seller hands a buyer a lab report stating that indoor mold spores are 'within EPA limits.' What is the best response?",
+    "options": [
+      "The report proves the home passes the federal indoor mold standard",
+      "EPA has not set federal numeric limits for indoor mold, so the claim is unfounded",
+      "The buyer must accept the report because EPA certifies mold labs",
+      "Mold is regulated only in commercial buildings, so the report is irrelevant"
+    ],
+    "answer": 1,
+    "explanation": "EPA has no federal standard or threshold limit for airborne mold spores, so no report can show a home 'passes' federal limits. EPA's guidance focuses on finding and fixing the moisture source and cleaning up mold.",
+    "citation": "EPA, A Brief Guide to Mold, Moisture, and Your Home"
+  },
+  {
+    "id": "construction-env-b016",
+    "topic": "construction-env",
+    "q": "Which statement about urea-formaldehyde foam insulation (UFFI) is accurate?",
+    "options": [
+      "It was sprayed onto steel beams as fireproofing and later banned as a carcinogen",
+      "It is a radioactive gas that seeps into basements from the surrounding soil",
+      "It was pumped into existing walls, mainly in the 1970s, and its emissions decline with age",
+      "Its formaldehyde emissions steadily increase the longer it stays in the walls"
+    ],
+    "answer": 2,
+    "explanation": "UFFI was injected as a foam into wall cavities of existing homes, mostly in the 1970s, and its formaldehyde release is highest soon after installation and diminishes over time. Sprayed fireproofing describes asbestos, and the soil gas describes radon.",
+    "citation": "U.S. CPSC and EPA guidance on formaldehyde"
+  },
+  {
+    "id": "construction-env-b017",
+    "topic": "construction-env",
+    "q": "In older buildings, polychlorinated biphenyls (PCBs) are most likely to be found in:",
+    "options": [
+      "copper water supply pipes and the soldered joints that connect them",
+      "fiberglass batt insulation installed between attic floor joists",
+      "electrical transformers, capacitors, and fluorescent light ballasts",
+      "gypsum drywall panels installed during later kitchen renovations"
+    ],
+    "answer": 2,
+    "explanation": "PCBs were used as insulating fluids in transformers and capacitors and in fluorescent light ballasts until their manufacture was banned under TSCA in 1979. They persist in the environment. Lead solder, not PCBs, is the concern in old copper plumbing.",
+    "citation": "Toxic Substances Control Act, 15 U.S.C. §2605(e)"
+  },
+  {
+    "id": "construction-env-b018",
+    "topic": "construction-env",
+    "q": "A homeowner discovers heating oil seeping from a basement tank into the soil under the floor. Under New York rules, the release must be reported to the DEC Spill Hotline:",
+    "options": [
+      "within 24 hours of discovery",
+      "within 72 hours of discovery",
+      "within 10 days, after a contractor estimate",
+      "within 2 hours of discovery"
+    ],
+    "answer": 3,
+    "explanation": "New York requires petroleum spills to be reported to the DEC Spill Hotline within 2 hours of discovery. The only exception is a spill known to be under 5 gallons, contained and under control, that has not reached and will not reach state waters or any land, and is cleaned up within 2 hours; oil reaching soil fails that test.",
+    "citation": "Navigation Law §175; 6 NYCRR Part 613"
+  },
+  {
+    "id": "construction-env-b019",
+    "topic": "construction-env",
+    "q": "A 275-gallon home heating-oil tank is below the threshold for New York petroleum bulk storage registration. If the tank leaks, which statement is accurate?",
+    "options": [
+      "An unregistered tank cannot create cleanup liability for the homeowner",
+      "Only the company that delivers the oil is liable for leaks from the tank",
+      "The homeowner's insurance policy must pay the full cost of the cleanup",
+      "Exemption from registration does not excuse reporting or cleanup of the spill"
+    ],
+    "answer": 3,
+    "explanation": "Registration rules and spill liability are separate. Under the Navigation Law, a petroleum discharge must be reported and cleaned up, and dischargers are strictly liable regardless of tank size. Many homeowners policies exclude or limit pollution cleanup.",
+    "citation": "Navigation Law Article 12 (§§175, 181)"
+  },
+  {
+    "id": "construction-env-b020",
+    "topic": "construction-env",
+    "q": "During a showing, a buyer's agent notices an oil fill pipe and vent pipe in the yard of a gas-heated home. The seller says an old buried tank was 'abandoned years ago.' What should the agent recommend?",
+    "options": [
+      "Ask for closure documentation and have the tank site professionally evaluated",
+      "Accept the statement, since abandoned tanks are no longer regulated",
+      "Remove the fill pipe so future buyers will not ask about the tank",
+      "Advise the buyer that buried tanks only matter on commercial land"
+    ],
+    "answer": 0,
+    "explanation": "A visible fill or vent pipe suggests a tank may remain; only closure records and a professional evaluation (tank sweep, soil testing) show whether it was properly closed and whether it leaked. Removing evidence would be concealment.",
+    "citation": "NYS DEC home heating-oil tank guidance; Navigation Law Article 12"
+  },
+  {
+    "id": "construction-env-b021",
+    "topic": "construction-env",
+    "q": "A buyer is purchasing a rural home served by a private well. Which statement is accurate?",
+    "options": [
+      "The county health department tests every private well each year at no cost",
+      "Federal drinking-water standards cover public systems, so the buyer should test the well",
+      "Private wells must follow the same monitoring schedule as municipal city water",
+      "A well that tested clean when it was first drilled never needs to be retested"
+    ],
+    "answer": 1,
+    "explanation": "The Safe Drinking Water Act's standards and monitoring apply to public water systems. Testing a private well (for example, for coliform bacteria and nitrates) is the owner's responsibility, so a buyer should test before closing.",
+    "citation": "Safe Drinking Water Act, 42 U.S.C. §300f et seq.; NYS DOH private well guidance"
+  },
+  {
+    "id": "construction-env-b022",
+    "topic": "construction-env",
+    "q": "Before a new septic system is designed, a percolation test is performed to measure:",
+    "options": [
+      "how quickly the soil absorbs water",
+      "how much water the household uses daily",
+      "how deep the septic tank must be buried",
+      "how much bacteria the wastewater contains"
+    ],
+    "answer": 0,
+    "explanation": "A perc test measures the soil's absorption rate, which determines whether the site can support an absorption field and how large it must be. Tank capacity is generally sized by the number of bedrooms, not by the perc test.",
+    "citation": "10 NYCRR Appendix 75-A"
+  },
+  {
+    "id": "construction-env-b023",
+    "topic": "construction-env",
+    "q": "Which property best fits the federal definition of a brownfield?",
+    "options": [
+      "A tidal marsh along the coast that state law protects from filling and dredging",
+      "A working dairy farm located inside a county-designated agricultural district",
+      "A vacant lot zoned for residential use that lacks public sewer and water",
+      "An old dry cleaner site whose reuse is hampered by possible solvent contamination"
+    ],
+    "answer": 3,
+    "explanation": "A brownfield is real property whose expansion, redevelopment or reuse may be complicated by the presence or potential presence of a hazardous substance, pollutant or contaminant. Wetlands, farmland and zoning restrictions are separate land-use issues.",
+    "citation": "42 U.S.C. §9601(39); ECL Article 27, Title 14 (NY Brownfield Cleanup Program)"
+  },
+  {
+    "id": "construction-env-b024",
+    "topic": "construction-env",
+    "q": "Under CERCLA, which of the following is NOT a potentially responsible party for cleanup costs?",
+    "options": [
+      "The current owner of land where hazardous substances were disposed of years ago",
+      "A company that owned the site at the time the substances were dumped there",
+      "A lender that holds only a mortgage and never took part in managing the site",
+      "A hauler that selected the site and transported the hazardous waste to it"
+    ],
+    "answer": 2,
+    "explanation": "CERCLA liability reaches current owners and operators, owners at the time of disposal, arrangers, and transporters who selected the site. A lender holding only a security interest without participating in management falls within the secured-creditor exemption.",
+    "citation": "42 U.S.C. §§9607(a), 9601(20)(E)-(F)"
+  },
+  {
+    "id": "construction-env-b025",
+    "topic": "construction-env",
+    "q": "To qualify for CERCLA's innocent landowner defense, a buyer of contaminated land must show that before acquiring the property the buyer:",
+    "options": [
+      "made all appropriate inquiries and did not know or have reason to know of contamination",
+      "bought an owner's title insurance policy that specifically covered environmental hazards",
+      "accepted the property 'as is' under a contract clause waiving all inspections",
+      "obtained a written indemnity from the seller covering any future cleanup costs"
+    ],
+    "answer": 0,
+    "explanation": "The defense requires all appropriate inquiries into prior ownership and uses before purchase, no knowledge or reason to know of the contamination, and continuing compliance obligations. Title insurance, as-is clauses and private indemnities do not create a statutory defense.",
+    "citation": "42 U.S.C. §§9601(35), 9607(b)(3); 40 CFR Part 312"
+  },
+  {
+    "id": "construction-env-b026",
+    "topic": "construction-env",
+    "q": "A developer's Phase I report reveals contamination at an industrial site, and the developer buys it anyway. Which CERCLA protection could still be available?",
+    "options": [
+      "The innocent landowner defense, because the developer did not cause the pollution",
+      "Bona fide prospective purchaser protection, if inquiries and continuing obligations are met",
+      "No protection at all, because any buyer who knows of contamination is barred",
+      "The secured creditor exemption, because the developer financed the purchase"
+    ],
+    "answer": 1,
+    "explanation": "The innocent landowner defense requires no knowledge of contamination, so it fails here. The bona fide prospective purchaser protection, added in 2002, allows a buyer who knows of contamination to be protected if it made all appropriate inquiries, did not cause or worsen it, and meets continuing obligations.",
+    "citation": "42 U.S.C. §§9601(40), 9607(r)"
+  },
+  {
+    "id": "construction-env-b027",
+    "topic": "construction-env",
+    "q": "A buyer of a commercial site relies on a Phase I Environmental Site Assessment completed 14 months before closing. For all appropriate inquiries purposes, the report is:",
+    "options": [
+      "valid, since a Phase I report remains effective for five years after it is issued",
+      "valid, as long as the seller signs an affidavit that nothing has changed",
+      "too old, since inquiries must be done within one year before acquisition",
+      "valid, because the property has not been sold to anyone in the meantime"
+    ],
+    "answer": 2,
+    "explanation": "AAI must be conducted within one year before the acquisition date, and certain components (such as interviews, lien search, records review and site visit) must be updated within 180 days. A 14-month-old report does not satisfy the standard.",
+    "citation": "40 CFR §312.20"
+  },
+  {
+    "id": "construction-env-b028",
+    "topic": "construction-env",
+    "q": "Which item is typically OUTSIDE the scope of a standard Phase I Environmental Site Assessment unless specifically added?",
+    "options": [
+      "A review of historical aerial photos and city directories",
+      "A survey sampling building materials for asbestos",
+      "A walk-through inspection of the site and its neighbors",
+      "Interviews with current owners and site occupants"
+    ],
+    "answer": 1,
+    "explanation": "A standard Phase I consists of records review, site reconnaissance and interviews, without sampling. Asbestos, lead paint, radon and mold surveys are non-scope items that must be added separately.",
+    "citation": "40 CFR Part 312; ASTM E1527-21"
+  },
+  {
+    "id": "construction-env-b029",
+    "topic": "construction-env",
+    "q": "Which federal agency issues permits under Section 404 of the Clean Water Act for placing fill in waters of the United States, including many wetlands?",
+    "options": [
+      "Federal Emergency Management Agency",
+      "U.S. Army Corps of Engineers",
+      "U.S. Department of Housing and Urban Development",
+      "U.S. Fish and Wildlife Service"
+    ],
+    "answer": 1,
+    "explanation": "The Army Corps of Engineers administers the Section 404 permit program, with EPA oversight. State programs run by NYS DEC for tidal and freshwater wetlands are separate, so a project may need both.",
+    "citation": "Clean Water Act §404, 33 U.S.C. §1344"
+  },
+  {
+    "id": "construction-env-b030",
+    "topic": "construction-env",
+    "q": "A buyer is told a house lies in the '100-year floodplain.' What does this mean?",
+    "options": [
+      "The area has a 1% chance of flooding in any given year",
+      "The area is expected to flood only once each century",
+      "The area has not flooded at all in the past 100 years",
+      "The house is 100 feet from a mapped body of water"
+    ],
+    "answer": 0,
+    "explanation": "A Special Flood Hazard Area (the 100-year floodplain) has a 1% annual chance of flooding. That chance repeats every year, so two floods in consecutive years are possible; it is not a once-a-century schedule.",
+    "citation": "National Flood Insurance Program, 44 CFR §59.1"
+  },
+  {
+    "id": "construction-env-b031",
+    "topic": "construction-env",
+    "q": "Under the current New York Property Condition Disclosure Statement, which of these must the seller answer?",
+    "options": [
+      "Whether any prior occupant of the house ever died on the premises",
+      "Whether the seller ever filed a flood insurance claim for the property",
+      "Why the seller has decided to put the property on the market now",
+      "The lowest price the seller would be willing to accept for the house"
+    ],
+    "answer": 1,
+    "explanation": "The current PCDS includes flood questions such as Special Flood Hazard Area location, required flood insurance, and past flood insurance claims or federal disaster aid. Deaths on the premises are stigma facts under RPL §443-a, which the seller is not required to disclose affirmatively.",
+    "citation": "RPL §462; RPL §443-a"
+  },
+  {
+    "id": "construction-env-b032",
+    "topic": "construction-env",
+    "q": "Which transfer of New York residential property requires a Property Condition Disclosure Statement?",
+    "options": [
+      "A sale of a newly built house that no one has ever lived in or occupied",
+      "A sale of a single-family home at a mortgage foreclosure auction",
+      "A gift of a house from a parent to the parent's adult child",
+      "An owner's resale of a single-family home to an unrelated buyer"
+    ],
+    "answer": 3,
+    "explanation": "The PCDS applies to sales of 1–4-family residential property unless an exemption applies. Never-inhabited new construction, foreclosure sales, and transfers to the transferor's spouse or to persons in the transferor's lineal consanguinity (such as children) are all exempt under §463.",
+    "citation": "RPL §§462, 463"
+  },
+  {
+    "id": "construction-env-b033",
+    "topic": "construction-env",
+    "q": "A seller completing the PCDS does not know whether a buried fuel tank exists on the property. How should the seller respond?",
+    "options": [
+      "Answer 'no,' since nobody has ever found a tank on the property",
+      "Hire an environmental engineer before signing the form",
+      "Leave the question blank and let the buyer's attorney decide",
+      "Answer 'unknown,' since the form reflects the seller's actual knowledge"
+    ],
+    "answer": 3,
+    "explanation": "The PCDS reports the seller's actual knowledge, may be answered 'unknown,' and is not a warranty or a substitute for inspection. Answering 'no' without knowledge risks a false statement, and the seller is not required to investigate.",
+    "citation": "RPL §462"
+  },
+  {
+    "id": "construction-env-b034",
+    "topic": "construction-env",
+    "q": "After delivering a PCDS, the seller notices water entering the basement during a storm, two weeks before closing. What does New York law require?",
+    "options": [
+      "Nothing, since the statement only covers conditions known at signing",
+      "The listing agent must file an amended statement with the Department of State",
+      "The seller must deliver a revised statement to the buyer as soon as practicable",
+      "The seller must give the buyer a $500 credit at the closing"
+    ],
+    "answer": 2,
+    "explanation": "If the seller learns facts that make the statement materially inaccurate, a revised statement must be delivered as soon as practicable; the duty ends at transfer of title or buyer occupancy, whichever is earlier. The $500 credit option was eliminated in 2024.",
+    "citation": "RPL §464"
+  },
+  {
+    "id": "construction-env-b035",
+    "topic": "construction-env",
+    "q": "A seller willfully fails to perform the requirements of the Property Condition Disclosure Act. Under the current statute, the seller is liable to the buyer for:",
+    "options": [
+      "the buyer's actual damages, in addition to other existing remedies",
+      "a fixed $500 credit, which is the buyer's only available remedy",
+      "nothing, because New York follows a strict caveat emptor rule",
+      "a civil penalty paid to the Department of State, not the buyer"
+    ],
+    "answer": 0,
+    "explanation": "Under §465, a seller who willfully fails to meet the Act's requirements is liable for the buyer's actual damages, and the Act does not limit other legal or equitable remedies. The fixed $500 credit was repealed effective March 20, 2024.",
+    "citation": "RPL §465 (as amended effective March 20, 2024)"
+  },
+  {
+    "id": "construction-env-b036",
+    "topic": "construction-env",
+    "q": "Under the Property Condition Disclosure Act, what is a listing broker's duty to the seller?",
+    "options": [
+      "Fill out the disclosure statement on the seller's behalf and sign it",
+      "Inspect the property and certify that the seller's answers are accurate",
+      "Deliver the statement to the buyer only after a contract is signed",
+      "Timely inform the seller of the seller's obligations under the Act"
+    ],
+    "answer": 3,
+    "explanation": "Section 466 requires the listing broker to timely inform the seller of the seller's obligations, and the buyer's agent to inform the buyer of the buyer's rights before a binding contract. An agent who does so has no further duty and no liability under the Act; agents should not complete the form for the seller.",
+    "citation": "RPL §466"
+  },
+  {
+    "id": "construction-env-b037",
+    "topic": "construction-env",
+    "q": "During a showing, the carbon monoxide alarm in a house starts sounding. What should the salesperson do?",
+    "options": [
+      "Open a window and continue the showing in the other rooms of the house",
+      "Get everyone outside to fresh air and call 911 or the fire department",
+      "Remove the alarm's battery, since false alarms are fairly common",
+      "Ask the buyers to sniff near the furnace to locate the source of the leak"
+    ],
+    "answer": 1,
+    "explanation": "Carbon monoxide is colorless and odorless, so the alarm is the only warning; everyone should leave immediately and emergency responders should be called. Smell cannot detect CO, and silencing the alarm ignores a potentially fatal hazard.",
+    "citation": "Executive Law §378 (Amanda's Law); NYS DOH carbon monoxide guidance"
+  },
+  {
+    "id": "construction-env-b038",
+    "topic": "construction-env",
+    "q": "A seller tells the listing agent that the basement floods every spring but asks the agent not to mention it to buyers. What should the agent do?",
+    "options": [
+      "Follow the instruction, since the duty of obedience comes first",
+      "Refuse to conceal it; known material defects must be disclosed to buyers",
+      "Mention the flooding only if a buyer asks a direct question",
+      "Recommend the seller paint the walls before the open house"
+    ],
+    "answer": 1,
+    "explanation": "An agent's duty of obedience covers only lawful instructions; concealing a known material defect is misrepresentation, and the PCDS itself asks about flooding and water. If the seller insists on concealment, the agent should withdraw from the listing.",
+    "citation": "RPL §462; RPL §441-c (misrepresentation); common-law fraud"
+  },
+  {
+    "id": "construction-env-b039",
+    "topic": "construction-env",
+    "q": "A buyer asks a salesperson whether a house has a radon problem. The salesperson knows of no test. What is the best response?",
+    "options": [
+      "Say no test result is known and recommend a radon test by a qualified tester",
+      "Assure the buyer that radon is not a concern anywhere in that neighborhood",
+      "State that newer homes are built too tightly for radon gas to get inside",
+      "Tell the buyer radon matters only in homes that have a full basement"
+    ],
+    "answer": 0,
+    "explanation": "Licensees should state the facts they know and refer testing to qualified professionals; only a test establishes radon levels. Assurances based on neighborhood, age or foundation type risk misrepresentation, and tight newer homes can trap radon.",
+    "citation": "EPA, Home Buyer's and Seller's Guide to Radon; RPL §441-c"
+  }
 ]

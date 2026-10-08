@@ -306,5 +306,1097 @@
     "answer": 1,
     "explanation": "In New York practice, the deal sheet is not the contract; the attorneys draft a contract of sale, and the deal is generally not binding until both parties sign it (the statute of frauds requires a signed writing for real property sales). Until then, the seller may still entertain other offers.",
     "citation": "NY GOL § 5-703 (statute of frauds)"
+  },
+  {
+    "id": "rentals-dealsheet-a001",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant of an ordinary market-rate apartment in Buffalo moved out on March 1. The landlord, who wants to deduct for a window the tenant broke, does not send an itemized statement until March 25. What is the result under the security-deposit law?",
+    "options": [
+      "The landlord forfeits the right to keep any part of the deposit",
+      "The landlord may still deduct, since the tenant caused the damage",
+      "The landlord must add a late charge of 5% to the refund owed",
+      "The landlord may keep the deposit but must pay the tenant interest"
+    ],
+    "answer": 0,
+    "explanation": "The landlord must return the deposit with an itemized statement of deductions within 14 days after the tenant vacates; missing that deadline forfeits the right to retain any portion. Tenant-caused damage is normally deductible, but only if it is itemized on time.",
+    "citation": "GOL § 7-108(1-a)"
+  },
+  {
+    "id": "rentals-dealsheet-a002",
+    "topic": "rentals-dealsheet",
+    "q": "After a three-year tenancy, a landlord lists several charges against the tenant's security deposit. Which one is a proper deduction?",
+    "options": [
+      "Repainting walls that faded from normal living",
+      "Replacing carpet worn thin along the hallway path",
+      "Replacing a door the tenant's dog chewed through",
+      "Fixing damage left by the previous tenant"
+    ],
+    "answer": 2,
+    "explanation": "Deductions are limited to items such as unpaid rent or utilities and damage beyond ordinary wear and tear. Faded paint and carpet worn by normal use are ordinary wear, and a prior occupant's damage cannot be charged to this tenant.",
+    "citation": "GOL § 7-108(1-a)"
+  },
+  {
+    "id": "rentals-dealsheet-a003",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord of a 20-unit building holds a tenant's $3,000 security deposit in an interest-bearing New York bank account that earned 2% this year. If the landlord takes the maximum administrative fee allowed, how much of the year's interest belongs to the tenant?",
+    "options": [
+      "$60",
+      "$30",
+      "$59.40",
+      "$0"
+    ],
+    "answer": 1,
+    "explanation": "Buildings with six or more units must hold deposits in interest-bearing accounts; the landlord may keep 1% per year of the deposit as an administrative fee. Interest: $3,000 × 2% = $60; fee: $3,000 × 1% = $30; tenant: $60 − $30 = $30. The $59.40 trap takes 1% of the interest instead of 1% of the deposit.",
+    "citation": "GOL § 7-103"
+  },
+  {
+    "id": "rentals-dealsheet-a004",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant's $850 monthly rent is due on the 1st and is paid on the 10th. The lease provides for a late fee. What is the most the landlord may charge?",
+    "options": [
+      "$50.00",
+      "$85.00",
+      "$8.50",
+      "$42.50"
+    ],
+    "answer": 3,
+    "explanation": "Rent paid more than five days late may draw a late fee capped at the lesser of $50 or 5% of monthly rent: $850 × 5% = $42.50, which is less than $50. The $50 figure is the ceiling only when 5% of the rent exceeds $50 (rent above $1,000).",
+    "citation": "RPL § 238-a(2)"
+  },
+  {
+    "id": "rentals-dealsheet-a005",
+    "topic": "rentals-dealsheet",
+    "q": "Rent due on the 1st still has not arrived on the 7th. What written step does New York law require the landlord to take at this point?",
+    "options": [
+      "Serve a three-day notice to pay the rent or move out",
+      "Post a notice of default on the door of the apartment",
+      "Mail the tenant a notice of nonpayment by certified mail",
+      "Wait 30 days before contacting the tenant about rent"
+    ],
+    "answer": 2,
+    "explanation": "If rent is not received within five days of the due date, the landlord must send a written notice of nonpayment by certified mail; failing to do so is an affirmative defense in a nonpayment case. The three-day demand is the pre-2019 rule, now replaced by a 14-day rent demand.",
+    "citation": "RPL § 235-e(d)"
+  },
+  {
+    "id": "rentals-dealsheet-a006",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord's screening policy rejects any applicant who appears in a housing-court database as a party to a past landlord-tenant case, even a case the tenant won. Is the policy lawful in New York?",
+    "options": [
+      "No; refusing to rent because of a past landlord-tenant case is prohibited",
+      "Yes, provided the policy is applied equally to every applicant",
+      "Yes, because housing-court records are public information",
+      "Yes, but only for prior cases that ended in a money judgment"
+    ],
+    "answer": 0,
+    "explanation": "Since 2019, New York bars landlords from refusing to rent to an applicant because of the applicant's involvement in a prior landlord-tenant action or summary proceeding (the so-called tenant blacklist ban). Applying an unlawful policy uniformly does not make it lawful.",
+    "citation": "RPL § 227-f"
+  },
+  {
+    "id": "rentals-dealsheet-a007",
+    "topic": "rentals-dealsheet",
+    "q": "A Rochester landlord does not plan to renew the lease of a tenant who has lived in the apartment for 18 months. How much advance written notice must the landlord give?",
+    "options": [
+      "30 days",
+      "90 days",
+      "14 days",
+      "60 days"
+    ],
+    "answer": 3,
+    "explanation": "Notice of nonrenewal (or of a rent increase of 5% or more) depends on the longer of occupancy or lease term: under 1 year, 30 days; at least 1 but under 2 years, 60 days; 2 years or more, 90 days. Eighteen months falls in the 60-day tier.",
+    "citation": "RPL § 226-c"
+  },
+  {
+    "id": "rentals-dealsheet-a008",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant has occupied an apartment for three years. At renewal the landlord wants to raise the rent by 7%. What notice is required?",
+    "options": [
+      "At least 60 days' written notice of the increase",
+      "At least 90 days' written notice of the increase",
+      "At least 30 days' written notice of the increase",
+      "No notice, because the increase is under 10%"
+    ],
+    "answer": 1,
+    "explanation": "An increase of 5% or more triggers advance written notice, and a tenancy of two years or longer requires 90 days. The 10% distractor confuses this rule with the Good Cause presumptive-unreasonableness cap.",
+    "citation": "RPL § 226-c"
+  },
+  {
+    "id": "rentals-dealsheet-a009",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord plans to renew a two-year tenant's lease with a 4% rent increase. The unit is not rent-regulated and not covered by Good Cause Eviction. Does the advance-notice statute require notice of this increase?",
+    "options": [
+      "No; for a renewal increase, notice applies only at 5% or more",
+      "Yes; 90 days' notice applies to any rent increase at all",
+      "Yes; 30 days' notice applies to any rent increase at all",
+      "No; the notice rule applies only to lease non-renewals"
+    ],
+    "answer": 0,
+    "explanation": "Section 226-c requires advance notice only for nonrenewal or a rent increase of 5% or more; a 4% increase falls below the trigger. The trap that the rule covers only non-renewals ignores the 5%-increase trigger.",
+    "citation": "RPL § 226-c"
+  },
+  {
+    "id": "rentals-dealsheet-a010",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord gives a tenant of four years only 40 days' written notice of a 10% rent increase before the lease ends. What is the result?",
+    "options": [
+      "The increase takes effect on the lease end date anyway",
+      "The notice is void and the tenant gets a new two-year lease",
+      "Old terms continue until 90 days after the notice was given",
+      "The tenant may stay rent-free until proper notice arrives"
+    ],
+    "answer": 2,
+    "explanation": "When the landlord gives late notice, the tenancy continues on the existing terms from the date actual notice was given until the full notice period (here 90 days for a tenancy of two years or more) runs. The law does not void the increase forever or excuse rent.",
+    "citation": "RPL § 226-c"
+  },
+  {
+    "id": "rentals-dealsheet-a011",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant moved in under a one-year lease. The landlord decides not to renew when the lease ends. What is the minimum advance notice the landlord must give?",
+    "options": [
+      "30 days, because occupancy is still under one year",
+      "60 days, because the lease term is at least one year",
+      "90 days, because the lease runs a full year",
+      "None, because the lease simply expires on its own"
+    ],
+    "answer": 1,
+    "explanation": "The notice tier uses occupancy or lease term, whichever qualifies for the longer period; a lease of at least one year but under two requires 60 days even though the tenant has lived there less than a year. The 30-day tier applies only when both occupancy and lease term are under a year.",
+    "citation": "RPL § 226-c"
+  },
+  {
+    "id": "rentals-dealsheet-a012",
+    "topic": "rentals-dealsheet",
+    "q": "In February a tenant in a 20-unit apartment building files a good-faith complaint with the city code-enforcement office about a broken boiler. In September of the same year the landlord notifies the tenant that the lease will not be renewed. How is the nonrenewal treated?",
+    "options": [
+      "It is lawful, because more than six months passed since the complaint",
+      "It is automatically void, and no landlord evidence can rebut it",
+      "It is lawful, because a nonrenewal is never treated as retaliation",
+      "It is presumed retaliatory, and the landlord must rebut that presumption"
+    ],
+    "answer": 3,
+    "explanation": "Since 2019, a landlord's notice to quit, eviction filing, or substantial change in tenancy terms within one year after a tenant's good-faith complaint is presumed retaliatory; the presumption is rebuttable. The six-month window was the pre-2019 rule.",
+    "citation": "RPL § 223-b"
+  },
+  {
+    "id": "rentals-dealsheet-a013",
+    "topic": "rentals-dealsheet",
+    "q": "Which tenant activity is protected from landlord retaliation?",
+    "options": [
+      "Subletting without asking for the landlord's consent",
+      "Keeping a pet that the lease expressly prohibits",
+      "Organizing a tenants' association in the building",
+      "Refusing the landlord access for a scheduled repair"
+    ],
+    "answer": 2,
+    "explanation": "The retaliation statute protects good-faith complaints to government agencies, good-faith efforts to enforce lease or habitability rights, and participation in a tenants' organization. Breaking lease terms or blocking repairs is not protected activity.",
+    "citation": "RPL § 223-b"
+  },
+  {
+    "id": "rentals-dealsheet-a014",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant falls asleep with the bathtub running, and the overflow ruins the bathroom floor. The tenant then withholds rent, claiming breach of the warranty of habitability. What is the best analysis?",
+    "options": [
+      "The warranty does not cover a condition the tenant's own conduct caused",
+      "The landlord is strictly liable for every condition in the unit",
+      "The claim succeeds because the warranty can never be limited",
+      "The claim succeeds only if the lease expressly mentions the warranty"
+    ],
+    "answer": 0,
+    "explanation": "The warranty of habitability is implied and cannot be waived, but the landlord is not liable for conditions caused by the misconduct of the tenant or persons under the tenant's control. 'Non-waivable' does not mean the landlord insures against the tenant's own acts.",
+    "citation": "RPL § 235-b"
+  },
+  {
+    "id": "rentals-dealsheet-a015",
+    "topic": "rentals-dealsheet",
+    "q": "Which statement accurately describes New York's warranty of habitability?",
+    "options": [
+      "It applies only to written leases that expressly recite it",
+      "It covers the apartment itself but never lobbies or hallways",
+      "It applies only in buildings containing three or more units",
+      "It is implied in every residential lease and covers common areas"
+    ],
+    "answer": 3,
+    "explanation": "The warranty is implied in every residential lease, written or oral, and covers the premises and areas used in connection with them; the landlord warrants they are fit for habitation and free of conditions dangerous to life, health, or safety.",
+    "citation": "RPL § 235-b"
+  },
+  {
+    "id": "rentals-dealsheet-a016",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant in a 30-unit building mails a complete sublet request to the landlord by certified mail. The landlord never responds. What is the effect after 30 days?",
+    "options": [
+      "The request is deemed denied and the tenant may not sublet",
+      "The landlord's silence is deemed consent to the sublet",
+      "The tenant is released from the lease on 30 days' notice",
+      "The tenant must refile the request before any sublet"
+    ],
+    "answer": 1,
+    "explanation": "The landlord must respond within 30 days after the request (or any requested additional information) is mailed; failure to respond is deemed consent. Release on 30 days' notice is the remedy for an unreasonably refused assignment, not for a sublet request.",
+    "citation": "RPL § 226-b(2)"
+  },
+  {
+    "id": "rentals-dealsheet-a017",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant in a privately owned three-unit building wants to sublet for the summer, but the lease prohibits subletting. Does the statutory sublet right let the tenant sublet over the landlord's objection?",
+    "options": [
+      "No; the sublet right covers buildings with four or more units",
+      "Yes; consent can never be unreasonably withheld in any building",
+      "Yes; any lease clause barring sublets is void as a matter of law",
+      "No; the sublet right covers only rent-stabilized apartments"
+    ],
+    "answer": 0,
+    "explanation": "The statutory right to sublet with consent that may not be unreasonably withheld applies to tenants in dwellings with four or more residential units; in a three-unit building the lease terms control. The right is not limited to rent-stabilized units.",
+    "citation": "RPL § 226-b(2)"
+  },
+  {
+    "id": "rentals-dealsheet-a018",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant asks the landlord to consent to assigning the lease to a creditworthy friend. The landlord refuses without giving any reason. If the refusal is unreasonable, what is the tenant's remedy?",
+    "options": [
+      "An automatic right to complete the assignment",
+      "A rent abatement for the rest of the lease term",
+      "Release from the lease on 30 days' notice",
+      "Release from the lease on 90 days' notice"
+    ],
+    "answer": 2,
+    "explanation": "A landlord may withhold consent to an assignment, but if consent is unreasonably withheld, the tenant's sole remedy is release from the lease on request with 30 days' notice. The tenant does not gain a right to force the assignment through.",
+    "citation": "RPL § 226-b(1)"
+  },
+  {
+    "id": "rentals-dealsheet-a019",
+    "topic": "rentals-dealsheet",
+    "q": "A rent-stabilized tenant whose legal regulated rent is $1,800 per month lawfully sublets the apartment fully furnished. What is the most the tenant may charge the subtenant?",
+    "options": [
+      "$1,800",
+      "$1,980",
+      "$2,160",
+      "$1,890"
+    ],
+    "answer": 1,
+    "explanation": "A stabilized prime tenant may charge a subtenant the legal regulated rent plus a surcharge of up to 10% if the unit is sublet fully furnished: $1,800 × 1.10 = $1,980. The $2,160 trap applies 20%, and $1,800 ignores the furnished surcharge.",
+    "citation": "Rent Stabilization Code, 9 NYCRR § 2525.6"
+  },
+  {
+    "id": "rentals-dealsheet-a020",
+    "topic": "rentals-dealsheet",
+    "q": "A lease names only one tenant. Without the landlord's consent, whom may that tenant share the apartment with?",
+    "options": [
+      "Immediate family only, unless the landlord later consents in writing",
+      "Immediate family and up to two unrelated adults and their children",
+      "One other adult occupant, but none of that occupant's children",
+      "Immediate family, one other occupant, and that occupant's dependent children"
+    ],
+    "answer": 3,
+    "explanation": "Under the roommate law, a sole named tenant may share with immediate family, one additional occupant, and the occupant's dependent children, provided the tenant or spouse occupies the unit as a primary residence. A lease clause restricting occupancy further is unenforceable to that extent.",
+    "citation": "RPL § 235-f"
+  },
+  {
+    "id": "rentals-dealsheet-a021",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant who lived with a lawful roommate under the roommate law moves out when the lease ends. What right does the roommate have to remain?",
+    "options": [
+      "The roommate automatically becomes the tenant of record",
+      "The roommate may stay one more year at the same rent",
+      "None, unless the landlord expressly consents in writing",
+      "The roommate may stay if they paid half of the rent"
+    ],
+    "answer": 2,
+    "explanation": "An occupant added under the roommate law gains no right to continued occupancy if the tenant leaves, unless the landlord gives express written consent. Paying part of the rent does not convert the occupant into a tenant.",
+    "citation": "RPL § 235-f"
+  },
+  {
+    "id": "rentals-dealsheet-a022",
+    "topic": "rentals-dealsheet",
+    "q": "Before starting a nonpayment proceeding against a residential tenant, what written rent demand must the landlord serve?",
+    "options": [
+      "A demand giving the tenant at least 14 days to pay",
+      "A demand giving the tenant at least 3 days to pay",
+      "A demand giving the tenant at least 30 days to pay",
+      "A demand giving the tenant at least 5 days to pay"
+    ],
+    "answer": 0,
+    "explanation": "Since the 2019 HSTPA, a nonpayment proceeding requires a written demand giving the tenant at least 14 days to pay (formerly 3 days). The 5-day figure is the separate certified-mail late-rent notice trigger, not the rent demand.",
+    "citation": "RPAPL § 711(2)"
+  },
+  {
+    "id": "rentals-dealsheet-a023",
+    "topic": "rentals-dealsheet",
+    "q": "A homeowner lets a friend stay in a spare room with no lease and no rent. After seven weeks the homeowner wants the friend out and changes the locks while the friend is away. What is the best analysis?",
+    "options": [
+      "Lawful, because the friend never signed a lease or paid any rent",
+      "Lawful, because self-help is allowed in an owner-occupied home",
+      "Unlawful only if the homeowner also removed the friend's belongings",
+      "Unlawful; an occupant of 30+ days can be removed only by court process"
+    ],
+    "answer": 3,
+    "explanation": "It is unlawful to evict, without a court-issued warrant executed by a marshal, sheriff, or constable, anyone who has lawfully occupied a dwelling for 30 consecutive days or longer, even without a lease. Changing the locks alone is a prohibited lockout.",
+    "citation": "RPAPL § 768"
+  },
+  {
+    "id": "rentals-dealsheet-a024",
+    "topic": "rentals-dealsheet",
+    "q": "To pressure a tenant who is behind on rent to leave, a landlord shuts off the apartment's heat and hot water. How does New York law treat this?",
+    "options": [
+      "As a permitted step once a 14-day rent demand goes unpaid",
+      "As an unlawful eviction, punishable as a class A misdemeanor",
+      "As lawful if the lease lets the landlord suspend services",
+      "As a building-code violation with no eviction consequences"
+    ],
+    "answer": 1,
+    "explanation": "Interrupting or discontinuing essential services to force out an occupant is an unlawful eviction: a class A misdemeanor, plus civil penalties of $1,000 to $10,000 per violation. A rent demand starts court process; it never authorizes self-help.",
+    "citation": "RPAPL § 768"
+  },
+  {
+    "id": "rentals-dealsheet-a025",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City apartment covered by the Good Cause Eviction Law rents for $2,400 per month. Assume the applicable annual CPI change is 3%. Above what monthly renewal rent is an increase presumptively unreasonable?",
+    "options": [
+      "$2,592",
+      "$2,640",
+      "$2,472",
+      "$2,520"
+    ],
+    "answer": 0,
+    "explanation": "The threshold is the lower of 5% plus CPI or 10%. Here 5% + 3% = 8%, which is lower than 10%: $2,400 × 1.08 = $2,592. The $2,640 trap applies 10% without comparing; $2,520 uses 5% alone.",
+    "citation": "RPL Article 6-A (Good Cause Eviction Law)"
+  },
+  {
+    "id": "rentals-dealsheet-a026",
+    "topic": "rentals-dealsheet",
+    "q": "Under the Good Cause Eviction Law, which reason, standing alone, is NOT good cause for a covered landlord to refuse to renew a tenant?",
+    "options": [
+      "The tenant has failed to pay the rent owed",
+      "The tenant is using the unit for an illegal purpose",
+      "The lease term has simply come to its end",
+      "The tenant unreasonably refused access for repairs"
+    ],
+    "answer": 2,
+    "explanation": "For covered units, expiration of the lease alone is not grounds to refuse renewal. Nonpayment, illegal use, and unreasonable refusal of access for required repairs are among the listed good-cause grounds.",
+    "citation": "RPL Article 6-A (Good Cause Eviction Law)"
+  },
+  {
+    "id": "rentals-dealsheet-a027",
+    "topic": "rentals-dealsheet",
+    "q": "Four New York City apartments each rent for well below any high-rent exemption level. Which one is exempt from the Good Cause Eviction Law?",
+    "options": [
+      "A market-rate unit in a 40-unit building built in 1965",
+      "A rent-stabilized unit in a 1960s elevator building",
+      "A market-rate unit owned by a landlord with 60 units",
+      "A market-rate unit in a prewar walk-up with 12 units"
+    ],
+    "answer": 1,
+    "explanation": "Good Cause exempts units already governed by rent regulation, such as rent stabilization, which has its own renewal and rent rules. Older market-rate units owned by landlords above the small-landlord threshold are covered.",
+    "citation": "RPL Article 6-A (Good Cause Eviction Law), § 214"
+  },
+  {
+    "id": "rentals-dealsheet-a028",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City rental building received its first certificate of occupancy in 2015. Its market-rate units are owned by a large landlord. How does the Good Cause Eviction Law apply to them?",
+    "options": [
+      "They are covered, because the landlord owns more than ten units",
+      "They are covered once each tenant's first lease is renewed",
+      "They are exempt only if the building has fewer than six units",
+      "They are exempt for 30 years from the date that certificate issued"
+    ],
+    "answer": 3,
+    "explanation": "Housing whose first certificate of occupancy issued on or after January 1, 2009 is exempt from Good Cause for 30 years from issuance. Portfolio size matters only for the separate small-landlord exemption.",
+    "citation": "RPL Article 6-A (Good Cause Eviction Law), § 214"
+  },
+  {
+    "id": "rentals-dealsheet-a029",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant in a village outside New York City asks whether the Good Cause Eviction Law protects her apartment. What determines coverage?",
+    "options": [
+      "Nothing; the law applies automatically to every rental statewide",
+      "Only whether her current lease was signed after April 2024",
+      "Whether her locality opted in, and whether the unit is exempt",
+      "Only whether her building contains six or more apartments"
+    ],
+    "answer": 2,
+    "explanation": "Good Cause applies automatically in New York City but elsewhere only in localities that opt in, and even then exemptions (small landlords, regulated units, newer buildings, high-rent units, and others) can apply. The six-unit test belongs to rent stabilization under ETPA.",
+    "citation": "RPL Article 6-A (Good Cause Eviction Law)"
+  },
+  {
+    "id": "rentals-dealsheet-a030",
+    "topic": "rentals-dealsheet",
+    "q": "A rent-stabilized tenant in New York City believes she is being charged more than the legal regulated rent. Which body handles her overcharge complaint?",
+    "options": [
+      "NYS Division of Housing and Community Renewal",
+      "NYC Rent Guidelines Board",
+      "NYS Department of State, Licensing Services",
+      "NYC Department of Consumer and Worker Protection"
+    ],
+    "answer": 0,
+    "explanation": "DHCR (part of NYS Homes and Community Renewal) administers rent stabilization, including rent registrations and overcharge complaints. The Rent Guidelines Board only sets the annual renewal-increase percentages; it does not decide individual complaints.",
+    "citation": "Rent Stabilization Law; Rent Stabilization Code (9 NYCRR Parts 2520–2531)"
+  },
+  {
+    "id": "rentals-dealsheet-a031",
+    "topic": "rentals-dealsheet",
+    "q": "Which change did the Housing Stability and Tenant Protection Act of 2019 make to rent stabilization?",
+    "options": [
+      "It created a 20% vacancy bonus on each apartment turnover",
+      "It required the Legislature to renew the law every year",
+      "It exempted all buildings with fewer than 50 apartments",
+      "It ended high-rent vacancy deregulation of stabilized units"
+    ],
+    "answer": 3,
+    "explanation": "The HSTPA ended high-rent vacancy and high-income deregulation, eliminated the vacancy bonus, and made the rent laws permanent rather than subject to periodic renewal. The 20% vacancy bonus is the opposite of what the law did.",
+    "citation": "Housing Stability and Tenant Protection Act of 2019"
+  },
+  {
+    "id": "rentals-dealsheet-a032",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City rent-stabilized tenant's lease expires on August 31. When must the owner offer a renewal lease, and what term may the tenant choose?",
+    "options": [
+      "30 to 60 days before expiration; a 1- or 2-year term at the owner's option",
+      "90 to 150 days before expiration; a 1- or 2-year term at the tenant's option",
+      "90 to 150 days before expiration; a 2-year term only, set by the owner",
+      "60 to 90 days before expiration; a 1-year term only, set by the owner"
+    ],
+    "answer": 1,
+    "explanation": "The owner must offer renewal on the DHCR form no more than 150 and no fewer than 90 days before the lease expires, and the tenant chooses a one- or two-year term at the Rent Guidelines Board rate for that term. The tenant then has 60 days to accept.",
+    "citation": "Rent Stabilization Code, 9 NYCRR § 2523.5"
+  },
+  {
+    "id": "rentals-dealsheet-a033",
+    "topic": "rentals-dealsheet",
+    "q": "In New York City, a broker posts a rental listing online with the landlord's permission. A prospective tenant contacts the broker and rents the unit. May the broker collect a fee from the tenant?",
+    "options": [
+      "No; an agent listing with permission may not charge the tenant",
+      "Yes, if the tenant signs a separate fee agreement at the showing",
+      "Yes, if the fee is capped at one month's rent for the unit",
+      "No, unless the landlord refuses to pay the broker any fee"
+    ],
+    "answer": 0,
+    "explanation": "Under the FARE Act, an agent who publishes a listing with the landlord's permission may not impose or collect any fee from the tenant, and an agent who publishes a listing is rebuttably presumed to have that permission. Signing a fee agreement at the showing does not change that.",
+    "citation": "NYC Admin. Code § 20-699.21(a)(2), (e) (FARE Act, effective June 11, 2025)"
+  },
+  {
+    "id": "rentals-dealsheet-a034",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City listing agent tells applicants they may apply for an apartment only if they first sign an agreement making the agent a dual agent and paying a fee. Is this permitted?",
+    "options": [
+      "Yes, because the dual agency arrangement is disclosed in writing",
+      "Yes, if the fee amount was stated in the listing beforehand",
+      "No; a rental cannot be conditioned on hiring any agent, dual or not",
+      "No, unless the agent holds a broker's rather than salesperson's license"
+    ],
+    "answer": 2,
+    "explanation": "The FARE Act prohibits conditioning the rental of an apartment on the tenant engaging any agent, including a dual agent. Written disclosure of dual agency does not cure the prohibited condition.",
+    "citation": "NYC Admin. Code § 20-699.21(c) (FARE Act)"
+  },
+  {
+    "id": "rentals-dealsheet-a035",
+    "topic": "rentals-dealsheet",
+    "q": "Compared with the sale of the same 1965-built house, what does the federal lead-based paint rule NOT require when the house is leased for one year?",
+    "options": [
+      "Disclosing any known lead-based paint or lead hazards",
+      "Giving the tenant a 10-day opportunity to test for lead",
+      "Providing the EPA lead hazard information pamphlet",
+      "Including a lead warning statement in the lease"
+    ],
+    "answer": 1,
+    "explanation": "For pre-1978 housing, lessors must disclose known lead-based paint and hazards, give the EPA pamphlet, and include a lead warning statement, just as sellers do. The 10-day risk-assessment or inspection opportunity applies only to purchasers.",
+    "citation": "42 U.S.C. § 4852d; 40 CFR Part 745, Subpart F"
+  },
+  {
+    "id": "rentals-dealsheet-a036",
+    "topic": "rentals-dealsheet",
+    "q": "NYC's lead law (Local Law 1 of 2004) presumes that paint contains lead in which apartments?",
+    "options": [
+      "Any apartment in a residential building built before 1978",
+      "Units with a child under 6 in buildings of 6+ units built before 1974",
+      "Any apartment in any building where a child under 6 resides",
+      "Units with a child under 6 in buildings of 3+ units built before 1960"
+    ],
+    "answer": 3,
+    "explanation": "Local Law 1 presumes that paint is lead-based in any dwelling unit where a child under 6 resides (and in common areas) in a multiple dwelling (three or more units) built before January 1, 1960; the owner may rebut the presumption with certified testing. The 1978 date is the federal disclosure cutoff, and the six-unit/1974 test belongs to rent stabilization.",
+    "citation": "NYC Admin. Code § 27-2056.5 (Local Law 1 of 2004)"
+  },
+  {
+    "id": "rentals-dealsheet-a037",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City landlord of a six-unit building must install window guards in an apartment where a child age 10 or under lives. Which window is excluded?",
+    "options": [
+      "A window in the apartment's bathroom",
+      "A window in the apartment's kitchen",
+      "A window that opens onto a fire escape",
+      "A window that faces an interior courtyard"
+    ],
+    "answer": 2,
+    "explanation": "Window guards must go on every window in the apartment, including bathroom and kitchen windows, except a window that gives access to a fire escape, which must stay clear for emergency exit.",
+    "citation": "NYC Health Code § 131.15; NYC Admin. Code § 27-2043.1"
+  },
+  {
+    "id": "rentals-dealsheet-a038",
+    "topic": "rentals-dealsheet",
+    "q": "In a New York City apartment building, who is responsible for replacing the removable battery in a working smoke detector that the owner installed?",
+    "options": [
+      "The tenant, who must keep the device maintained",
+      "The owner, within 30 days of the tenant's request",
+      "The superintendent, at least once each year",
+      "The fire department, during annual inspections"
+    ],
+    "answer": 0,
+    "explanation": "In NYC the owner must install smoke and carbon monoxide detectors, but the occupant must keep them in good repair, including replacing batteries. The owner replaces devices at the end of their useful life.",
+    "citation": "NYC Admin. Code §§ 27-2045, 27-2046.1"
+  },
+  {
+    "id": "rentals-dealsheet-a039",
+    "topic": "rentals-dealsheet",
+    "q": "What does New York's Amanda's Law require?",
+    "options": [
+      "Smoke alarms with sealed 10-year batteries in every rental unit",
+      "Annual radon testing in every rental that has a basement",
+      "CO alarms only in buildings that contain three or more units",
+      "CO alarms in homes with fuel-burning appliances or an attached garage"
+    ],
+    "answer": 3,
+    "explanation": "Amanda's Law (2010) extended carbon monoxide alarm requirements to one- and two-family homes and other residences that have fuel-burning appliances or systems or an attached garage, not only to larger buildings.",
+    "citation": "Executive Law § 378(5-a) (Amanda's Law)"
+  },
+  {
+    "id": "rentals-dealsheet-b001",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson represents a landlord who is renting out a two-family house. When must the salesperson give a prospective tenant the DOS-1735 agency disclosure?",
+    "options": [
+      "At the first substantive contact with the prospective tenant",
+      "When the tenant submits a completed rental application",
+      "At lease signing, together with the lease and riders",
+      "Only if the tenant asks whom the salesperson represents"
+    ],
+    "answer": 0,
+    "explanation": "The agency disclosure is due at the first substantive contact, before the tenant shares information or negotiates. Waiting until the application or the lease signing defeats its purpose, which is to let the tenant know whose interests the agent represents before anything is said.",
+    "citation": "RPL § 443; DOS-1735 (New York State Disclosure Form for Landlord and Tenant)"
+  },
+  {
+    "id": "rentals-dealsheet-b002",
+    "topic": "rentals-dealsheet",
+    "q": "After a showing, a prospective tenant signs the DOS-1735 the landlord's salesperson gives her. She then asks whether she is now committed to renting through that firm. What is the best answer?",
+    "options": [
+      "Yes; it commits her to rent through the firm for 30 days",
+      "No; her signature only acknowledges that she received the form",
+      "Yes; signing it creates a tenant's-agency relationship by law",
+      "No; it binds her only once the landlord also signs the form"
+    ],
+    "answer": 1,
+    "explanation": "The form is headed \"THIS IS NOT A CONTRACT.\" Signing only acknowledges receipt of the agency disclosure. It does not create an agency relationship or a duty to rent, and adding the landlord's signature would not change that.",
+    "citation": "RPL § 443; DOS-1735"
+  },
+  {
+    "id": "rentals-dealsheet-b003",
+    "topic": "rentals-dealsheet",
+    "q": "A prospective tenant reads the DOS-1735 the landlord's salesperson presents but refuses to sign the acknowledgment. What should the salesperson do?",
+    "options": [
+      "Refuse to keep working with the tenant until the form is signed",
+      "Write 'refused' on the form and discard it after the showing",
+      "Prepare a sworn written declaration of the facts and keep it",
+      "Have the landlord sign the form in the tenant's place instead"
+    ],
+    "answer": 2,
+    "explanation": "When a consumer refuses to sign, the licensee makes a written declaration of the facts of the refusal under oath or affirmation and keeps it for at least three years. A refusal does not cancel the duty to disclose, and it does not require the agent to stop working with the tenant.",
+    "citation": "RPL § 443(3)"
+  },
+  {
+    "id": "rentals-dealsheet-b004",
+    "topic": "rentals-dealsheet",
+    "q": "A listing broker at Firm A asks a salesperson at Firm B to help find a tenant for Firm A's landlord client. The Firm B salesperson does not represent any tenant. Which relationship should the Firm B salesperson check on DOS-1735?",
+    "options": [
+      "Tenant's agent for the prospective tenant",
+      "Dual agent for both the landlord and tenant",
+      "Landlord's agent engaged directly by the landlord",
+      "Broker's agent acting in the landlord's interest"
+    ],
+    "answer": 3,
+    "explanation": "A broker's agent is engaged by the listing agent, works at a different firm, and has no direct relationship with the landlord. The listing agent directs that work and answers for it, and the landlord has no vicarious liability for the broker's agent. That lack of a direct engagement is what separates it from a landlord's agent.",
+    "citation": "RPL § 443; DOS-1735"
+  },
+  {
+    "id": "rentals-dealsheet-b005",
+    "topic": "rentals-dealsheet",
+    "q": "Under New York City's FARE Act, what must every residential rental listing or advertisement disclose clearly and conspicuously?",
+    "options": [
+      "The listing broker's commission split with cooperating firms",
+      "The landlord's minimum income requirement for applicants",
+      "Every fee a tenant must pay to rent the unit",
+      "The unit's complete rent history for the past four years"
+    ],
+    "answer": 2,
+    "explanation": "The FARE Act requires listings to disclose clearly and conspicuously every fee a tenant must pay to rent the unit, so tenants are not surprised at signing. It does not require a listing to show broker splits, income criteria, or rent history.",
+    "citation": "NYC Admin. Code § 20-699.22(a) (FARE Act, Local Law 119 of 2024)"
+  },
+  {
+    "id": "rentals-dealsheet-b006",
+    "topic": "rentals-dealsheet",
+    "q": "Before a New York City tenant signs a lease, which FARE Act document must the tenant receive and sign?",
+    "options": [
+      "A sworn statement that the tenant chose not to hire a broker",
+      "A DOS-1736 buyer and seller agency acknowledgment form",
+      "A landlord certificate that the unit is not rent stabilized",
+      "An itemized written disclosure of all fees the tenant must pay"
+    ],
+    "answer": 3,
+    "explanation": "Before the lease is signed, the tenant must receive and sign an itemized written disclosure of every fee owed to the landlord or to a third party at the landlord's direction. The tenant gets a copy, and the landlord or agent keeps the signed disclosure for 3 years. DOS-1736 is the sales agency form; rentals use DOS-1735.",
+    "citation": "NYC Admin. Code § 20-699.22(b) (FARE Act)"
+  },
+  {
+    "id": "rentals-dealsheet-b007",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson posts a New York City apartment on a rental website. When an applicant calls, she says the tenant must pay her broker fee because she never signed a written listing agreement with the landlord. Which statement is correct?",
+    "options": [
+      "She is presumed to list with the landlord's OK; the fee is barred",
+      "The fee is allowed since no written listing agreement exists",
+      "The fee is allowed if it is disclosed clearly in the listing",
+      "The fee is allowed if the tenant acknowledges DOS-1735"
+    ],
+    "answer": 0,
+    "explanation": "Under the FARE Act, an agent who publishes a rental listing is rebuttably presumed to do so with the landlord's permission, and an agent who lists with the landlord's permission may not charge the tenant any fee. Permission does not require a written listing agreement, so its absence alone does not rebut the presumption. Disclosing an unlawful fee in the listing does not make it lawful, and DOS-1735 is only an agency disclosure.",
+    "citation": "NYC Admin. Code § 20-699.21(a)(2), (d), (e) (FARE Act)"
+  },
+  {
+    "id": "rentals-dealsheet-b008",
+    "topic": "rentals-dealsheet",
+    "q": "A Buffalo landlord's rental broker asks whether the FARE Act decides who pays her fee on Buffalo apartments. What is the correct answer?",
+    "options": [
+      "Yes; the FARE Act governs every rental in the state",
+      "No; the FARE Act is a New York City local law",
+      "Yes; it covers any city with 100,000+ residents",
+      "No; it covers only rent-stabilized units in NYC"
+    ],
+    "answer": 1,
+    "explanation": "The FARE Act is a New York City local law (Local Law 119 of 2024), so it does not reach a Buffalo rental. Statewide rules such as RPL § 238-a's fee limits still apply there. The FARE Act is not a statewide ban on broker fees, and within NYC it is not limited to stabilized units.",
+    "citation": "NYC Local Law 119 of 2024 (FARE Act); RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-b009",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City listing agent tells applicants they may tour her landlord's apartment only if they first sign a tenant-representation agreement with her firm and pay her a fee. Under the FARE Act, this practice is:",
+    "options": [
+      "Prohibited; access can't be conditioned on hiring a broker",
+      "Permitted, because the tenant signs the agreement voluntarily",
+      "Permitted if the fee is capped at one month's rent",
+      "Permitted if the fee is shown in the advertisement"
+    ],
+    "answer": 0,
+    "explanation": "No person may condition the rental of an NYC apartment on the tenant engaging any agent, including a dual agent; DCWP applies this even when the broker demands to be hired before the tenant can see the unit. A listing agent is also a landlord's agent, who may not collect any fee from the tenant. A tenant may still choose to hire her own broker, but a forced agreement is not voluntary, and neither a fee cap nor ad disclosure fixes it.",
+    "citation": "NYC Admin. Code § 20-699.21(a), (c) (FARE Act); DCWP FARE Act FAQ"
+  },
+  {
+    "id": "rentals-dealsheet-b010",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City landlord screens applicants with the common '40 times the rent' income standard. The apartment rents for $3,250 per month. What annual income must an applicant show?",
+    "options": [
+      "$39,000",
+      "$97,500",
+      "$130,000",
+      "$156,000"
+    ],
+    "answer": 2,
+    "explanation": "$3,250 × 40 = $130,000 of annual income. $39,000 is just one year's rent ($3,250 × 12), $97,500 uses 30×, and $156,000 uses 48×.",
+    "citation": "Landlord screening practice (40× monthly rent); no statute sets this multiplier"
+  },
+  {
+    "id": "rentals-dealsheet-b011",
+    "topic": "rentals-dealsheet",
+    "q": "An applicant earns $112,000 a year and is looking at buildings that use the 40-times-the-rent income standard. What is the highest monthly rent she qualifies for?",
+    "options": [
+      "$2,800",
+      "$3,733",
+      "$9,333",
+      "$2,333"
+    ],
+    "answer": 0,
+    "explanation": "$112,000 ÷ 40 = $2,800 per month. $3,733 divides by 30, $9,333 divides by 12 (her monthly income, not a rent ceiling), and $2,333 divides by 48.",
+    "citation": "Landlord screening practice (40× monthly rent)"
+  },
+  {
+    "id": "rentals-dealsheet-b012",
+    "topic": "rentals-dealsheet",
+    "q": "An applicant earns too little to qualify, so the building's policy calls for a guarantor earning 80 times the monthly rent. The rent is $2,900. What is the minimum annual income the guarantor needs?",
+    "options": [
+      "$116,000",
+      "$232,000",
+      "$34,800",
+      "$290,000"
+    ],
+    "answer": 1,
+    "explanation": "$2,900 × 80 = $232,000. Landlords commonly set the guarantor multiple higher than the tenant's 40× ($116,000) because the guarantor also carries their own housing costs. $34,800 is one year's rent, and $290,000 uses 100×.",
+    "citation": "Landlord screening practice (guarantor multiple set by building policy)"
+  },
+  {
+    "id": "rentals-dealsheet-b013",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant asks why so many New York City landlords demand annual income of 40 times the monthly rent. Which description of this standard is accurate?",
+    "options": [
+      "A state law limiting the rent any tenant may be charged",
+      "A requirement of RPL § 238-a for every rental application",
+      "A federal HUD rule that applies to all market-rate rentals",
+      "A common landlord screening policy, not a statutory rule"
+    ],
+    "answer": 3,
+    "explanation": "40× is a business practice landlords choose, not a legal requirement, and it is subject to fair housing limits. RPL § 238-a governs application and screening fees, not income ratios, and no HUD rule sets the 40× figure.",
+    "citation": "Landlord screening practice; RPL § 238-a (fees only)"
+  },
+  {
+    "id": "rentals-dealsheet-b014",
+    "topic": "rentals-dealsheet",
+    "q": "An NYC apartment rents for $2,800 a month. An applicant's housing voucher pays $2,100 of it, and she pays the rest. The landlord uses a 40-times-the-rent income test. What is the most income the landlord may lawfully require of her?",
+    "options": [
+      "$112,000",
+      "$84,000",
+      "$28,000",
+      "$0, because no income test is allowed"
+    ],
+    "answer": 2,
+    "explanation": "Under source-of-income guidance, an income test may apply only to the tenant's own share of the rent: $2,800 − $2,100 = $700, and $700 × 40 = $28,000. Applying 40× to the full rent ($112,000) discriminates against voucher holders. A ban on any income test applies only when the voucher covers 100% of the rent.",
+    "citation": "NYC Admin. Code § 8-107(5); NYC Commission on Human Rights source-of-income guidance; Executive Law § 296(5)"
+  },
+  {
+    "id": "rentals-dealsheet-b015",
+    "topic": "rentals-dealsheet",
+    "q": "A graduate student's father signs a lease guaranty for her apartment. What is the father's role?",
+    "options": [
+      "A co-tenant who gains the right to occupy the apartment",
+      "A third party who promises to pay if the tenant defaults",
+      "A broker who vouches for the tenant's credit to the landlord",
+      "An escrow agent who holds the tenant's security deposit"
+    ],
+    "answer": 1,
+    "explanation": "A guarantor promises to cover the tenant's lease obligations if the tenant fails to perform. A guarantor is liable but has no right to possession. That separates a guarantor from a co-tenant, who both owes the rent and may live in the unit.",
+    "citation": "General Obligations Law § 5-701 (guaranty must be in a signed writing); general contract law"
+  },
+  {
+    "id": "rentals-dealsheet-b016",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord turns down an applicant solely because a screening report shows she was named in a nonpayment case that was dismissed two years ago. This rejection is:",
+    "options": [
+      "Unlawful under RPL § 227-f's ban on tenant blacklisting",
+      "Lawful, because the case appears in a public court record",
+      "Lawful, as long as the landlord refunds the screening fee",
+      "Unlawful only if the tenant prevailed in the earlier case"
+    ],
+    "answer": 0,
+    "explanation": "RPL § 227-f bars refusing to rent because an applicant was involved in a past or pending landlord-tenant proceeding, whatever the outcome. If a landlord checks court or screening-bureau records and then rejects the applicant, the rejection is presumed to rest on that record. A record being public does not make relying on it lawful.",
+    "citation": "RPL § 227-f"
+  },
+  {
+    "id": "rentals-dealsheet-b017",
+    "topic": "rentals-dealsheet",
+    "q": "In New York City, a landlord hires a broker to rent an apartment at $3,400 per month. The credit and background check actually costs $30. Under current law, what is the most the tenant can be required to pay up to and including lease signing?",
+    "options": [
+      "$6,800",
+      "$12,940",
+      "$10,220",
+      "$6,820"
+    ],
+    "answer": 3,
+    "explanation": "$3,400 first month + $3,400 security (one-month cap) + $20 screening fee (the lesser of actual cost and $20) = $6,820. The landlord's broker fee cannot be charged to the tenant under FARE, so $12,940 (adding a 15% annual fee) is wrong. $10,220 adds a last-month advance, which the one-month deposit cap does not allow, and $6,800 leaves out the lawful $20 fee.",
+    "citation": "GOL § 7-108; RPL § 238-a; NYC Admin. Code § 20-699.21 (FARE Act)"
+  },
+  {
+    "id": "rentals-dealsheet-b018",
+    "topic": "rentals-dealsheet",
+    "q": "In New York City, a tenant voluntarily hires her own broker for a fee of one month's rent. She leases a $2,750-per-month apartment with a one-month security deposit and a $20 screening fee. What is her total due at signing, including her broker's fee?",
+    "options": [
+      "$5,520",
+      "$8,270",
+      "$11,020",
+      "$10,470"
+    ],
+    "answer": 1,
+    "explanation": "$2,750 rent + $2,750 security + $20 screening + $2,750 broker fee = $8,270. FARE allows a tenant to pay a broker she hired herself. $5,520 leaves out her broker's fee, $11,020 adds an extra month's rent, and $10,470 uses a 15%-of-annual-rent fee ($4,950) the stem doesn't give.",
+    "citation": "GOL § 7-108; RPL § 238-a; NYC Admin. Code § 20-699.21 (tenant-hired broker allowed)"
+  },
+  {
+    "id": "rentals-dealsheet-b019",
+    "topic": "rentals-dealsheet",
+    "q": "A Rochester landlord rents a non-regulated apartment for $1,600 a month. The applicant's background and credit check actually cost $15. What is the most the landlord may collect from the tenant up to and including lease signing?",
+    "options": [
+      "$3,215",
+      "$3,220",
+      "$4,815",
+      "$3,250"
+    ],
+    "answer": 0,
+    "explanation": "$1,600 first month + $1,600 security (one-month cap) + $15 screening fee = $3,215. The fee is the lesser of actual cost and $20, so $3,220 overcharges. $4,815 adds a third month, and $3,250 treats the $50 late-fee cap as an upfront fee.",
+    "citation": "GOL § 7-108; RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-b020",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord pays the listing brokerage a fee of one month's rent on a $4,200-per-month apartment. The listing salesperson's split with her broker is 60/40 in her favor. What does the salesperson earn?",
+    "options": [
+      "$1,680",
+      "$2,100",
+      "$2,520",
+      "$4,536"
+    ],
+    "answer": 2,
+    "explanation": "The fee is $4,200, and the salesperson gets 60%: $4,200 × 0.60 = $2,520. $1,680 is the brokerage's 40%, $2,100 assumes a 50/50 split, and $4,536 applies 60% to a 15% annual-rent fee the stem doesn't give.",
+    "citation": "Commission arithmetic; RPL § 442-a (salesperson paid through the broker)"
+  },
+  {
+    "id": "rentals-dealsheet-b021",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City tenant hiring her own broker is choosing between two fee offers on a $3,100-per-month apartment: (1) one month's rent, or (2) 15% of the first year's rent. Which fee is larger, and by how much?",
+    "options": [
+      "The one-month fee, by $2,635",
+      "The 15% fee, by $5,580",
+      "The two fees are exactly equal",
+      "The 15% fee, by $2,480"
+    ],
+    "answer": 3,
+    "explanation": "15% fee: $3,100 × 12 × 0.15 = $5,580. One-month fee: $3,100. Difference: $5,580 − $3,100 = $2,480. Taking 15% of a single month ($465) gives the $2,635 error, and $5,580 is the larger fee itself, not the difference.",
+    "citation": "Commission arithmetic; NYC Admin. Code § 20-699.21 (tenant-hired broker)"
+  },
+  {
+    "id": "rentals-dealsheet-b022",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson places an online rental ad that shows only her name, her cell number, and the apartment details. What is wrong with the ad?",
+    "options": [
+      "Her license number and expiration date must appear",
+      "The name of her associated brokerage must appear",
+      "Nothing; a salesperson may advertise in her own name",
+      "The landlord's name and phone number must appear"
+    ],
+    "answer": 1,
+    "explanation": "An ad that names a salesperson must also include the name of the broker or brokerage she is associated with; an ad lacking it is a blind ad. (The rule also requires the broker's address or phone number and an accurate statement of her license type.) License numbers, expiration dates and the landlord's contact information are not required.",
+    "citation": "19 NYCRR § 175.25"
+  },
+  {
+    "id": "rentals-dealsheet-b023",
+    "topic": "rentals-dealsheet",
+    "q": "A brokerage keeps advertising a $2,100 one-bedroom that was rented a month ago because the ad draws calls. Callers are then steered to $2,700 units. How is this practice best described?",
+    "options": [
+      "Acceptable if the ad says rents start 'from $2,100'",
+      "Allowed for up to 60 days after the unit is rented",
+      "False and misleading advertising by the licensees",
+      "A violation only if callers are in a protected class"
+    ],
+    "answer": 2,
+    "explanation": "Advertising a unit the firm knows is unavailable to lure inquiries is bait advertising, which is false and misleading and can lead to licensing discipline. No grace period applies, and the conduct is improper whoever responds. The fair housing angle is a separate question.",
+    "citation": "19 NYCRR § 175.25; RPL § 441-c"
+  },
+  {
+    "id": "rentals-dealsheet-b024",
+    "topic": "rentals-dealsheet",
+    "q": "A listing for a 24-unit apartment building in Albany says \"No Section 8.\" Which statement is correct?",
+    "options": [
+      "It violates the state's lawful-source-of-income protection",
+      "It is lawful because only NYC protects voucher holders",
+      "It is lawful if the landlord's broker placed the ad",
+      "It is lawful if the rule is applied to every applicant"
+    ],
+    "answer": 0,
+    "explanation": "Since 2019, the NYS Human Rights Law has protected lawful source of income, including housing vouchers, statewide, so this ad is discriminatory. Applying the exclusion to everyone is still discrimination, and a broker who places the ad shares the liability.",
+    "citation": "Executive Law § 296(5)"
+  },
+  {
+    "id": "rentals-dealsheet-b025",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson is the landlord's agent on a New York City rental. Which sequence meets the required disclosure timing?",
+    "options": [
+      "Application and screening; DOS-1735; fee disclosure; lease signing",
+      "DOS-1735; lease signing; fee disclosure; application and screening",
+      "Fee disclosure; application and screening; lease signing; DOS-1735",
+      "DOS-1735; application and screening; fee disclosure; lease signing"
+    ],
+    "answer": 3,
+    "explanation": "The agency disclosure comes at the first substantive contact. Next come the application and screening. The FARE itemized fee disclosure must be signed before the lease is signed. Giving DOS-1735 after the application, or the fee disclosure after the lease, misses the required timing.",
+    "citation": "RPL § 443; NYC Admin. Code § 20-699.22(b)"
+  },
+  {
+    "id": "rentals-dealsheet-b026",
+    "topic": "rentals-dealsheet",
+    "q": "At lease signing, a tenant gives the landlord's salesperson a check payable to the brokerage for first month's rent and the security deposit, both to be passed on to the landlord. What should happen to the check?",
+    "options": [
+      "The salesperson deposits it in her personal account for the landlord",
+      "The broker deposits it in a special escrow account within 3 business days",
+      "The salesperson holds it uncashed until the lease term begins",
+      "The broker deposits it in the firm's operating account for the landlord"
+    ],
+    "answer": 1,
+    "explanation": "Money held for others is trust money. The broker must deposit it in a separate special account within three business days and account for it promptly. Putting it in a personal or operating account is commingling, and holding the check indefinitely fails to protect the funds.",
+    "citation": "19 NYCRR § 175.1"
+  },
+  {
+    "id": "rentals-dealsheet-b027",
+    "topic": "rentals-dealsheet",
+    "q": "A deal sheet shows an accepted price of $1,150,000, a mortgage of $920,000, and the customary NYC 10% contract deposit. What are the loan-to-value ratio and the contract deposit?",
+    "options": [
+      "80% LTV; $115,000 deposit",
+      "80% LTV; $230,000 deposit",
+      "20% LTV; $115,000 deposit",
+      "80% LTV; $92,000 deposit"
+    ],
+    "answer": 0,
+    "explanation": "LTV = $920,000 ÷ $1,150,000 = 80%. Deposit = 10% × $1,150,000 = $115,000. $230,000 is the full 20% down payment, 20% is the equity share rather than LTV, and $92,000 takes 10% of the loan instead of the price.",
+    "citation": "LTV = loan ÷ price or appraised value (lower); customary NYC contract deposit"
+  },
+  {
+    "id": "rentals-dealsheet-b028",
+    "topic": "rentals-dealsheet",
+    "q": "A deal sheet shows an $875,000 sale with a 5% commission split 50/50 between the listing and cooperating brokerages. The buyer's salesperson works at the cooperating firm on a 60/40 split in her favor. What does she earn?",
+    "options": [
+      "$26,250",
+      "$21,875",
+      "$13,125",
+      "$8,750"
+    ],
+    "answer": 2,
+    "explanation": "$875,000 × 5% = $43,750. The co-broke half is $43,750 × 50% = $21,875, and her share is $21,875 × 60% = $13,125. $26,250 applies 60% to the whole commission, $21,875 is her firm's entire side, and $8,750 is her broker's 40%.",
+    "citation": "Commission arithmetic; listing agreement and office compensation plan"
+  },
+  {
+    "id": "rentals-dealsheet-b029",
+    "topic": "rentals-dealsheet",
+    "q": "A $1,240,000 sale carries a 6% commission, split 50/50 with the cooperating broker. The listing salesperson's split with her own broker is 70/30 in her favor. How much does the listing brokerage keep?",
+    "options": [
+      "$26,040",
+      "$22,320",
+      "$37,200",
+      "$11,160"
+    ],
+    "answer": 3,
+    "explanation": "$1,240,000 × 6% = $74,400. The listing side is $74,400 × 50% = $37,200. The brokerage keeps 30%: $37,200 × 0.30 = $11,160. $26,040 is the agent's 70%, $22,320 takes 30% of the whole commission, and $37,200 is the whole listing side.",
+    "citation": "Commission arithmetic; listing agreement and office compensation plan"
+  },
+  {
+    "id": "rentals-dealsheet-b030",
+    "topic": "rentals-dealsheet",
+    "q": "A cooperating brokerage was offered 2.5% of the sale price and receives a $15,000 commission check at closing. What was the sale price?",
+    "options": [
+      "$300,000",
+      "$600,000",
+      "$1,200,000",
+      "$750,000"
+    ],
+    "answer": 1,
+    "explanation": "Price = $15,000 ÷ 0.025 = $600,000. $300,000 divides by 5%, a total commission the stem doesn't give. $1,200,000 halves the 2.5% again, and $750,000 divides by 2%.",
+    "citation": "Commission arithmetic (part ÷ rate = whole)"
+  },
+  {
+    "id": "rentals-dealsheet-b031",
+    "topic": "rentals-dealsheet",
+    "q": "A listing agreement pays the listing brokerage 3% and offers the buyer's brokerage 2.5% on a $720,000 sale. What does the seller pay in total commission, and what does the cooperating broker receive?",
+    "options": [
+      "$39,600 total; $19,800 to the co-broke",
+      "$21,600 total; $18,000 to the co-broke",
+      "$36,000 total; $18,000 to the co-broke",
+      "$39,600 total; $18,000 to the co-broke"
+    ],
+    "answer": 3,
+    "explanation": "Total: $720,000 × 5.5% = $39,600. Co-broke share: $720,000 × 2.5% = $18,000, and the listing side gets $21,600 (3%). $19,800 wrongly splits the total 50/50, $21,600 is only the listing side, and $36,000 assumes a 5% total.",
+    "citation": "Commission arithmetic; listing agreement"
+  },
+  {
+    "id": "rentals-dealsheet-b032",
+    "topic": "rentals-dealsheet",
+    "q": "The buyer's side of a $560,000 sale pays 2.5%. The buyer's brokerage owes another licensed broker a 25% referral fee on its side. The buyer's salesperson is then paid 50% of what her firm keeps. What does she earn?",
+    "options": [
+      "$7,000",
+      "$5,250",
+      "$10,500",
+      "$3,500"
+    ],
+    "answer": 1,
+    "explanation": "Side: $560,000 × 2.5% = $14,000. Referral: $14,000 × 25% = $3,500, which leaves $10,500. Her 50%: $10,500 × 0.5 = $5,250. $7,000 ignores the referral, $10,500 is the firm's net, and $3,500 is the referral fee.",
+    "citation": "Commission arithmetic; RPL § 442 (fees shared only with licensed brokers)"
+  },
+  {
+    "id": "rentals-dealsheet-b033",
+    "topic": "rentals-dealsheet",
+    "q": "In a typical New York City residential sale, who holds the buyer's contract deposit after the contract is signed?",
+    "options": [
+      "The listing broker, in its operating account",
+      "The seller, who may use it for moving costs",
+      "The seller's attorney, as escrow agent",
+      "The buyer's lender, until the loan closes"
+    ],
+    "answer": 2,
+    "explanation": "In NYC practice, the seller's attorney usually holds the down payment in escrow under the contract's escrow terms until closing or a proper release. It is not the seller's money to spend, and a broker may not put trust funds in an operating account.",
+    "citation": "Customary NYC contract practice; escrow terms of the contract of sale"
+  },
+  {
+    "id": "rentals-dealsheet-b034",
+    "topic": "rentals-dealsheet",
+    "q": "A buyer's offer on a Manhattan condo has been accepted. She asks whether New York law requires her to put down a 10% contract deposit. What is the best answer?",
+    "options": [
+      "No; 10% is customary, and the amount is negotiable",
+      "Yes; state law requires 10% on all home contracts",
+      "Yes; lenders require exactly 10% before a commitment",
+      "No; state law caps contract deposits at 5% of price"
+    ],
+    "answer": 0,
+    "explanation": "The 10% deposit is NYC custom, not a statute. The parties may agree to a different amount, often outside NYC, and the deal sheet simply records what was agreed. No law sets a 10% requirement or a 5% cap.",
+    "citation": "Customary NYC practice; contract terms control"
+  },
+  {
+    "id": "rentals-dealsheet-b035",
+    "topic": "rentals-dealsheet",
+    "q": "After the listing agent sends out the deal sheet in a typical New York City sale, who ordinarily prepares the first draft of the contract of sale?",
+    "options": [
+      "The buyer's attorney",
+      "The seller's attorney",
+      "The listing salesperson",
+      "The buyer's mortgage lender"
+    ],
+    "answer": 1,
+    "explanation": "In NYC the seller's attorney drafts the contract from the deal sheet, and the buyer's attorney reviews it, does due diligence, and negotiates riders. The salesperson supplies the deal terms but does not draft the contract, which is legal work.",
+    "citation": "Customary NYC practice; Judiciary Law § 478 (practice of law)"
+  },
+  {
+    "id": "rentals-dealsheet-b036",
+    "topic": "rentals-dealsheet",
+    "q": "A buyer's agent fills out a deal sheet that will go to both attorneys and the listing side. In the notes, she writes that her client 'could go higher if needed.' What is the problem?",
+    "options": [
+      "Nothing, because a deal sheet is only an internal record",
+      "Nothing, because the price has already been agreed to",
+      "It is a problem only if the seller signs the deal sheet",
+      "It reveals the client's confidential negotiating position"
+    ],
+    "answer": 3,
+    "explanation": "A deal sheet goes to the other side, and terms can be renegotiated later, for example after an inspection. Revealing the buyer's willingness to pay more breaches the agent's fiduciary duty of confidentiality. The deal sheet is not a private office memo.",
+    "citation": "Fiduciary duty of confidentiality; RPL § 443 (buyer's agent duties)"
+  },
+  {
+    "id": "rentals-dealsheet-b037",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson is preparing a deal sheet for an accepted offer on a co-op apartment. Which contingency is standard for a co-op purchase but not for a typical house sale?",
+    "options": [
+      "Approval of the deed by the county clerk",
+      "Approval of the price by the Department of State",
+      "Approval of the purchaser by the co-op board",
+      "Approval of the sale by the seller's lender"
+    ],
+    "answer": 2,
+    "explanation": "A co-op buyer acquires shares and a proprietary lease, so the board must approve the purchaser, and the deal sheet should flag board approval. A co-op sale has no deed to record, and DOS does not approve prices.",
+    "citation": "Customary co-op contract practice; co-op proprietary lease and bylaws"
+  },
+  {
+    "id": "rentals-dealsheet-b038",
+    "topic": "rentals-dealsheet",
+    "q": "An office manager tells a salesperson to write 6% on every deal sheet because 'that's the board rate in this area.' What is the correct response?",
+    "options": [
+      "Commissions are negotiable; a set area rate raises antitrust issues",
+      "6% is the maximum commission allowed under New York license law",
+      "The board rate controls unless the seller objects to it in writing",
+      "The rate is fixed each year by the Department of State's rules"
+    ],
+    "answer": 0,
+    "explanation": "Each commission is negotiated between the broker and the client. Brokers who agree on or enforce a standard area rate risk price-fixing liability under antitrust law. Neither DOS nor license law sets or caps commission rates.",
+    "citation": "Sherman Antitrust Act; NY Donnelly Act (GBL § 340)"
+  },
+  {
+    "id": "rentals-dealsheet-b039",
+    "topic": "rentals-dealsheet",
+    "q": "Before closing, the cooperating broker's office asks the selling salesperson where to send her share of the commission. What is the proper answer?",
+    "options": [
+      "Pay me directly, since my license permits it",
+      "Pay me directly if my broker consents in writing",
+      "Pay my brokerage; I can be paid only through my broker",
+      "Pay the seller's attorney, who will forward it to me"
+    ],
+    "answer": 2,
+    "explanation": "A salesperson may receive compensation only from her own associated broker. The cooperating firm pays her brokerage, which then pays her under their split. Her broker's consent does not allow direct payment.",
+    "citation": "RPL § 442-a"
   }
 ]

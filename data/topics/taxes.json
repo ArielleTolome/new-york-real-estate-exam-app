@@ -306,5 +306,1097 @@
     "answer": 1,
     "explanation": "Land is not depreciable, so the basis is $350,000 − $75,000 = $275,000. $275,000 ÷ 27.5 = $10,000 per year. Using the full $350,000 gives $12,727, which is the trap. A personal residence cannot be depreciated at all.",
     "citation": "IRC §§ 167, 168"
+  },
+  {
+    "id": "taxes-a001",
+    "topic": "taxes",
+    "q": "A town's tax rate is 28.5 mills. Expressed per $100 of taxable assessed value, the rate is:",
+    "options": [
+      "$0.285 per $100",
+      "$2.85 per $100",
+      "$28.50 per $100",
+      "$285 per $100"
+    ],
+    "answer": 1,
+    "explanation": "A mill is $1 per $1,000 (0.001), so 28.5 mills = $28.50 per $1,000 = $28.50 ÷ 10 = $2.85 per $100. $28.50 is the per-$1,000 figure mislabeled as per $100.",
+    "citation": "Real Property Tax Law (tax rate computation); NYS ORPTS tax rate terminology"
+  },
+  {
+    "id": "taxes-a002",
+    "topic": "taxes",
+    "q": "A school district adopts a $12,500,000 budget and expects $4,100,000 from state aid and other non-property-tax revenue. The district's total assessed value is $300,000,000, of which $20,000,000 is wholly exempt. What tax rate is needed?",
+    "options": [
+      "$30.00 per $1,000",
+      "$28.00 per $1,000",
+      "$41.67 per $1,000",
+      "$44.64 per $1,000"
+    ],
+    "answer": 0,
+    "explanation": "Levy = $12,500,000 − $4,100,000 = $8,400,000; taxable value = $300,000,000 − $20,000,000 = $280,000,000; $8,400,000 ÷ $280,000,000 = 0.03 = $30 per $1,000. $28.00 results from forgetting to remove exempt property ($8,400,000 ÷ $300,000,000).",
+    "citation": "Real Property Tax Law; levy ÷ total taxable assessed value"
+  },
+  {
+    "id": "taxes-a003",
+    "topic": "taxes",
+    "q": "A house has a taxable assessed value of $85,000. The village tax rate is $4.20 per $100 of assessed value. What is the annual village tax?",
+    "options": [
+      "$357",
+      "$35,700",
+      "$1,785",
+      "$3,570"
+    ],
+    "answer": 3,
+    "explanation": "$85,000 ÷ 100 = 850 hundreds; 850 × $4.20 = $3,570. $357 comes from dividing by 1,000 instead of 100, treating the per-$100 rate as a per-$1,000 rate.",
+    "citation": "Real Property Tax Law; ad valorem tax computation"
+  },
+  {
+    "id": "taxes-a004",
+    "topic": "taxes",
+    "q": "A town assesses all property at a uniform 55% of market value. A home's market value is $320,000 and the town tax rate is $36 per $1,000 of assessed value, with no exemptions. What is the town tax?",
+    "options": [
+      "$11,520",
+      "$6,336",
+      "$5,184",
+      "$3,168"
+    ],
+    "answer": 1,
+    "explanation": "Assessed value = $320,000 × 0.55 = $176,000; tax = $176,000 ÷ 1,000 × $36 = $6,336. $11,520 applies the rate to market value instead of assessed value; $5,184 wrongly uses 45% (100% − 55%).",
+    "citation": "RPTL §305 (uniform percentage of value); tax computation"
+  },
+  {
+    "id": "taxes-a005",
+    "topic": "taxes",
+    "q": "Market values in a town have fallen since its last reassessment, and the state equalization rate for the town is now 125%. A home there is assessed at $250,000. What is its indicated full market value?",
+    "options": [
+      "$312,500",
+      "$250,000",
+      "$200,000",
+      "$125,000"
+    ],
+    "answer": 2,
+    "explanation": "Full value = assessed value ÷ equalization rate = $250,000 ÷ 1.25 = $200,000. An equalization rate above 100% means assessments exceed market value, so multiplying ($312,500) moves in the wrong direction.",
+    "citation": "RPTL Article 12 (state equalization rates); NYS ORPTS"
+  },
+  {
+    "id": "taxes-a006",
+    "topic": "taxes",
+    "q": "A school district lies in two towns. Town A has $45,000,000 of taxable assessed value and an equalization rate of 50%; Town B has $120,000,000 and an equalization rate of 80%. The district must raise $6,000,000. How much of the levy is apportioned to Town A?",
+    "options": [
+      "$1,636,364",
+      "$3,000,000",
+      "$3,750,000",
+      "$2,250,000"
+    ],
+    "answer": 3,
+    "explanation": "Full values: A = $45,000,000 ÷ 0.50 = $90,000,000; B = $120,000,000 ÷ 0.80 = $150,000,000; total $240,000,000. A's share = $90,000,000 ÷ $240,000,000 × $6,000,000 = $2,250,000. $1,636,364 splits by raw assessed value (45 ÷ 165), the very distortion equalization corrects.",
+    "citation": "RPTL Article 12 (equalization); apportionment of school district levies"
+  },
+  {
+    "id": "taxes-a007",
+    "topic": "taxes",
+    "q": "A town assesses uniformly at 60% of market value. An owner's home is assessed at $189,000, but a credible appraisal and recent comparable sales show its market value is $270,000. What assessment should the owner request at grievance?",
+    "options": [
+      "$162,000",
+      "$270,000",
+      "$144,000",
+      "$108,000"
+    ],
+    "answer": 0,
+    "explanation": "The fair assessment is market value × the town's level: $270,000 × 0.60 = $162,000 (the current $189,000 implies $189,000 ÷ 0.60 = $315,000). $270,000 ignores fractional assessment, and $144,000 subtracts the full $45,000 market-value difference from the assessment instead of 60% of it.",
+    "citation": "RPTL §305 (uniform percentage); RPTL Article 5, Title 1-A (assessment review)"
+  },
+  {
+    "id": "taxes-a008",
+    "topic": "taxes",
+    "q": "A veteran who served in a combat zone during wartime owns and lives in a home assessed at $240,000. The town offers the alternative veterans exemption, and its maximum caps are not reached. How much is the exemption from the town assessment?",
+    "options": [
+      "$36,000",
+      "$60,000",
+      "$24,000",
+      "$84,000"
+    ],
+    "answer": 1,
+    "explanation": "The alternative veterans exemption gives 15% for wartime service plus an additional 10% for combat-zone service: 25% × $240,000 = $60,000. $36,000 applies only the 15% wartime portion and misses the combat-zone add-on.",
+    "citation": "RPTL §458-a (alternative veterans exemption)"
+  },
+  {
+    "id": "taxes-a009",
+    "topic": "taxes",
+    "q": "A 72-year-old owner qualifies for a 50% senior citizens exemption that her town has adopted. Her home is assessed at $160,000 and the town tax rate is 22 mills. What is her town tax?",
+    "options": [
+      "$3,520",
+      "$176",
+      "$1,760",
+      "$2,640"
+    ],
+    "answer": 2,
+    "explanation": "Taxable assessed value = $160,000 × 50% = $80,000; tax = $80,000 × 0.022 = $1,760. $3,520 ignores the exemption ($160,000 × 0.022); $176 misplaces the decimal by dividing by 10,000 instead of 1,000.",
+    "citation": "RPTL §467 (senior citizens exemption)"
+  },
+  {
+    "id": "taxes-a010",
+    "topic": "taxes",
+    "q": "A village installs sidewalks along one street at a cost of $180,000, charged to the benefited lots by front footage. The street has 2,400 total front feet. A lot measures 90 feet of frontage by 150 feet deep. What is that lot's special assessment?",
+    "options": [
+      "$7,500",
+      "$11,250",
+      "$4,500",
+      "$6,750"
+    ],
+    "answer": 3,
+    "explanation": "Cost per front foot = $180,000 ÷ 2,400 = $75; 90 front feet × $75 = $6,750. $11,250 multiplies by the 150-foot depth ($75 × 150) instead of the frontage that faces the sidewalk.",
+    "citation": "Village Law and Town Law (local improvements / special assessments)"
+  },
+  {
+    "id": "taxes-a011",
+    "topic": "taxes",
+    "q": "A town keeps its levy at $5,000,000 and completes a full-value reassessment, raising its total taxable assessed value from $100,000,000 to $250,000,000. An owner's assessment rises from $40,000 to $100,000. What happens?",
+    "options": [
+      "The rate falls from $50 to $20 per $1,000, and her tax stays $2,000",
+      "The rate stays $50 per $1,000, and her tax rises to $5,000",
+      "The rate falls to $20 per $1,000, and her tax falls to $800",
+      "The rate rises to $125 per $1,000, and her tax rises to $12,500"
+    ],
+    "answer": 0,
+    "explanation": "Old rate = $5,000,000 ÷ $100,000,000 = $50/1,000, tax $40,000 × 0.05 = $2,000; new rate = $5,000,000 ÷ $250,000,000 = $20/1,000, tax $100,000 × 0.02 = $2,000. Her assessment rose 2.5x, the same as the town total, so her share of the unchanged levy (and her tax) stays the same; keeping the old rate is the trap.",
+    "citation": "RPTL; levy ÷ taxable assessed value"
+  },
+  {
+    "id": "taxes-a012",
+    "topic": "taxes",
+    "q": "A Queens two-family house in NYC tax class 1 had last year's assessed value of $30,000. This year the Department of Finance's market value rises sharply with no physical changes, and the five-year cap is not a limiting factor. What is the most its assessed value can be this year?",
+    "options": [
+      "$32,400",
+      "$36,000",
+      "$31,800",
+      "$43,500"
+    ],
+    "answer": 2,
+    "explanation": "Class 1 assessment increases are capped at 6% a year (and 20% over five years) absent physical changes: $30,000 × 1.06 = $31,800. $32,400 applies the 8% cap for small class 2 buildings; $36,000 applies the five-year 20% cap in a single year.",
+    "citation": "RPTL §1805(1) (NYC class 1 assessment caps)"
+  },
+  {
+    "id": "taxes-a013",
+    "topic": "taxes",
+    "q": "Four towns quote their tax rates differently. Which rate is the highest?",
+    "options": [
+      "31 mills",
+      "$3.05 per $100",
+      "2.9% of assessed value",
+      "$30.80 per $1,000"
+    ],
+    "answer": 0,
+    "explanation": "Convert all to dollars per $1,000: 31 mills = $31.00; $3.05 per $100 = $30.50; 2.9% = $29.00; $30.80 stays $30.80. 31 mills is highest; $3.05 per $100 looks larger only if you forget to multiply by 10.",
+    "citation": "Tax rate units (mills, per $100, per $1,000, percent)"
+  },
+  {
+    "id": "taxes-a014",
+    "topic": "taxes",
+    "q": "A fire district levies a tax on every taxable parcel inside its boundaries in proportion to each parcel's assessed value. This charge is best described as a:",
+    "options": [
+      "Special assessment based on front footage",
+      "Special district ad valorem levy",
+      "Countywide general municipal tax",
+      "Real estate transfer tax on the parcel"
+    ],
+    "answer": 1,
+    "explanation": "A special district (fire, water, sewer, lighting) serves a defined area and may levy by assessed value, making it an ad valorem levy confined to the district. A special assessment instead allocates a specific improvement's cost by benefit or frontage, not by value.",
+    "citation": "RPTL §102 (special ad valorem levy, special assessment definitions)"
+  },
+  {
+    "id": "taxes-a015",
+    "topic": "taxes",
+    "q": "Outside New York City and Nassau County, which statement about assessment levels is correct?",
+    "options": [
+      "Every town must assess at 100% of market value each year",
+      "Homes may be assessed at a lower percentage than stores",
+      "A town may use any percentage if it is uniform for all parcels",
+      "The county sets one assessment percentage for every town"
+    ],
+    "answer": 2,
+    "explanation": "New York lets an assessing unit assess at full value or at any uniform fraction of it, as long as every parcel shares the same percentage. Different percentages by property class are allowed only in the statutory class systems of NYC and Nassau County.",
+    "citation": "RPTL §305 (uniform percentage of value)"
+  },
+  {
+    "id": "taxes-a016",
+    "topic": "taxes",
+    "q": "After a buyer closes on a home for $600,000, the assessor raises only that parcel to reflect the sale price while similar unsold homes on the street keep their old assessments. The buyer's strongest grievance claim is that the assessment is:",
+    "options": [
+      "Unequal, because it is at a higher level than comparable parcels",
+      "Unlawful, because a sale price can never be used as evidence",
+      "Misclassified, because a sale changes the property's class",
+      "Excessive, because the levy exceeds the 2% tax cap"
+    ],
+    "answer": 0,
+    "explanation": "Reassessing only recently sold parcels (\"welcome stranger\" assessing) puts the buyer at a higher percentage of value than similar homes, which is an unequal assessment. Sale prices are valid evidence of value, so the claim is not that sales can never be used.",
+    "citation": "RPTL §522 and §524 (grounds for complaint: unequal assessment); RPTL §305"
+  },
+  {
+    "id": "taxes-a017",
+    "topic": "taxes",
+    "q": "Which agency establishes the state equalization rates used to apportion county and school levies among New York municipalities?",
+    "options": [
+      "Each town's Board of Assessment Review",
+      "The NYS Office of Real Property Tax Services",
+      "The county real property tax service agency",
+      "The local assessor of each assessing unit"
+    ],
+    "answer": 1,
+    "explanation": "Equalization rates are set at the state level by the Office of Real Property Tax Services in the Department of Taxation and Finance (via the State Board of Real Property Tax Services). The BAR hears individual grievances; it does not measure a municipality's overall level of assessment.",
+    "citation": "RPTL Article 12; NYS Department of Taxation and Finance, ORPTS"
+  },
+  {
+    "id": "taxes-a018",
+    "topic": "taxes",
+    "q": "A town's equalization rate drops from 80% to 70% with no change to any assessment. What does this most likely indicate?",
+    "options": [
+      "Every homeowner's tax bill in the town will fall by 10%",
+      "Market values rose while the town's assessments stayed the same",
+      "The assessor illegally lowered assessments on the town roll",
+      "Owners in the town automatically win their pending grievances"
+    ],
+    "answer": 1,
+    "explanation": "The equalization rate is total assessed value ÷ total market value; if assessments are unchanged and the rate falls, market values rose. It measures the town as a whole and neither changes an individual bill directly nor decides any owner's grievance.",
+    "citation": "RPTL Article 12 (equalization rates)"
+  },
+  {
+    "id": "taxes-a019",
+    "topic": "taxes",
+    "q": "A homeowner preparing a grievance wants a state-certified figure showing the overall ratio of residential assessments to residential market value in her town. Which figure should she use?",
+    "options": [
+      "The residential assessment ratio (RAR)",
+      "The town's tax rate per $1,000 of value",
+      "The school district's levy limit",
+      "The STAR credit savings amount"
+    ],
+    "answer": 0,
+    "explanation": "The residential assessment ratio measures residential assessed value against residential market value and may be used as evidence at the BAR and in SCAR. The tax rate converts value into tax and says nothing about the level of assessment.",
+    "citation": "RPTL §738 (residential assessment ratio)"
+  },
+  {
+    "id": "taxes-a020",
+    "topic": "taxes",
+    "q": "Which of the following is NOT a recognized ground for an assessment grievance?",
+    "options": [
+      "The parcel is assessed above its full market value",
+      "The parcel is assessed at a higher level than similar parcels",
+      "The parcel is wholly exempt but was assessed as taxable",
+      "The school board adopted a budget the owner thinks is wasteful"
+    ],
+    "answer": 3,
+    "explanation": "Grievances may claim an excessive, unequal, unlawful, or (where classes apply) misclassified assessment. Disagreeing with spending is a budget issue for the budget vote, not proof the parcel's assessment is wrong.",
+    "citation": "RPTL §522 and §524 (grounds for complaint)"
+  },
+  {
+    "id": "taxes-a021",
+    "topic": "taxes",
+    "q": "An owner in a typical town plans to file a formal assessment complaint (Form RP-524). When must it reach the assessor or Board of Assessment Review?",
+    "options": [
+      "Within 30 days after the final roll is filed in July",
+      "On or before Grievance Day, when the board meets",
+      "Any time before the first tax bill becomes due",
+      "Within 4 months after the owner's tax bill is paid"
+    ],
+    "answer": 1,
+    "explanation": "The RP-524 must be filed with the assessor before, or with the BAR on, Grievance Day (usually the fourth Tuesday in May in towns); a form mailed in time but arriving late is not enough. The 30-day window after the final roll is the later SCAR/Article 7 deadline.",
+    "citation": "RPTL §524 (time and manner of filing complaint)"
+  },
+  {
+    "id": "taxes-a022",
+    "topic": "taxes",
+    "q": "Place these events of a typical New York town's assessment calendar in order: (1) final assessment roll filed, (2) taxable status date, (3) Grievance Day, (4) tentative assessment roll filed.",
+    "options": [
+      "4, 2, 3, 1",
+      "2, 3, 4, 1",
+      "2, 4, 3, 1",
+      "4, 3, 2, 1"
+    ],
+    "answer": 2,
+    "explanation": "In most towns: taxable status date March 1, tentative roll May 1, Grievance Day the fourth Tuesday in May, final roll July 1. Grievance must follow the tentative roll because owners can only contest a published assessment.",
+    "citation": "RPTL §302, §506, §512, §516 (town assessment calendar)"
+  },
+  {
+    "id": "taxes-a023",
+    "topic": "taxes",
+    "q": "A farmer in a typical town wants a new partial exemption to appear on this year's assessment roll. By when must the application generally be filed with the assessor?",
+    "options": [
+      "The Grievance Day in late May",
+      "The final roll date of July 1",
+      "The taxable status date, March 1",
+      "The first day of the school tax year"
+    ],
+    "answer": 2,
+    "explanation": "Exemption applications (including agricultural assessment applications) are generally due by the taxable status date, March 1 in most towns. Grievance Day is for contesting the tentative roll, not the normal deadline for new exemption applications.",
+    "citation": "RPTL §302 (taxable status date); exemption application rules"
+  },
+  {
+    "id": "taxes-a024",
+    "topic": "taxes",
+    "q": "An eligible homeowner lost her BAR grievance and wants Small Claims Assessment Review. Which statement about the petition is correct?",
+    "options": [
+      "It must be filed within 30 days after the final roll is filed",
+      "It may be filed any time within one year of the BAR decision",
+      "It must be filed before Grievance Day with the town clerk",
+      "It requires a licensed attorney and a $500 index fee"
+    ],
+    "answer": 0,
+    "explanation": "A SCAR petition must be filed within 30 days after the final assessment roll is filed (or notice of filing, if later), with a $30 fee, and an attorney is not required. Missing the 30-day window ends the SCAR option for that roll.",
+    "citation": "RPTL §730 (small claims assessment review)"
+  },
+  {
+    "id": "taxes-a025",
+    "topic": "taxes",
+    "q": "The owner of a shopping center grieved her assessment and the Board of Assessment Review denied relief. What is her ordinary next step for judicial review?",
+    "options": [
+      "A SCAR petition before a hearing officer",
+      "A second complaint to the same Board of Assessment Review",
+      "An appeal to the county clerk who records deeds",
+      "An Article 7 tax certiorari proceeding in Supreme Court"
+    ],
+    "answer": 3,
+    "explanation": "Commercial owners use a tax certiorari proceeding under RPTL Article 7 in NY Supreme Court, generally commenced within 30 days after the final roll is filed. SCAR is limited to eligible owner-occupied one- to three-family homes and certain small vacant parcels.",
+    "citation": "RPTL Article 7 (§700 et seq.); RPTL §730"
+  },
+  {
+    "id": "taxes-a026",
+    "topic": "taxes",
+    "q": "A Brooklyn homeowner believes the NYC Department of Finance overvalued her house. Where does she file her administrative assessment appeal?",
+    "options": [
+      "The NYC Tax Commission",
+      "The county Board of Assessment Review",
+      "The Kings County clerk",
+      "The NYS Division of Licensing Services"
+    ],
+    "answer": 0,
+    "explanation": "New York City has no town-style BAR or Grievance Day; administrative assessment appeals go to the NYC Tax Commission. Nassau likewise uses its own Assessment Review Commission, so the upstate BAR model does not apply.",
+    "citation": "NYC Charter and Administrative Code (NYC Tax Commission); RPTL Article 5"
+  },
+  {
+    "id": "taxes-a027",
+    "topic": "taxes",
+    "q": "In New York City, a 20-unit rental apartment building is in which property tax class?",
+    "options": [
+      "Class 1",
+      "Class 3",
+      "Class 4",
+      "Class 2"
+    ],
+    "answer": 3,
+    "explanation": "Class 2 covers primarily residential property not in class 1, including rental buildings of four or more units, co-ops, and larger condos. Class 1 is mostly one- to three-family homes; class 3 is utility property; class 4 is commercial and industrial property such as offices and hotels.",
+    "citation": "RPTL §1802 (NYC/Nassau classes of real property)"
+  },
+  {
+    "id": "taxes-a028",
+    "topic": "taxes",
+    "q": "Which NYC property would be placed in tax class 4?",
+    "options": [
+      "A three-family house in the Bronx",
+      "A 50-unit co-op building in Manhattan",
+      "An office building in Long Island City",
+      "Equipment owned by an electric utility"
+    ],
+    "answer": 2,
+    "explanation": "Class 4 holds commercial and industrial property such as office buildings, stores, hotels, and factories. Utility equipment is class 3, co-ops are class 2, and a three-family house is class 1.",
+    "citation": "RPTL §1802 (NYC/Nassau classes of real property)"
+  },
+  {
+    "id": "taxes-a029",
+    "topic": "taxes",
+    "q": "A couple lives in a Westchester home and buys a lake cottage upstate as a weekend getaway. Regarding STAR, which is correct?",
+    "options": [
+      "They may receive STAR on both homes if each is owner-occupied",
+      "STAR can apply only to their primary residence, not the cottage",
+      "STAR reduces town and county taxes on any home they own",
+      "The cottage gets STAR if its seller had already received it"
+    ],
+    "answer": 1,
+    "explanation": "STAR relieves school taxes on an owner's primary residence only, so a vacation home does not qualify. STAR does not reduce town or county taxes, and a seller's STAR benefit never transfers with the property.",
+    "citation": "RPTL §425; Tax Law §606(eee) (STAR exemption and credit)"
+  },
+  {
+    "id": "taxes-a030",
+    "topic": "taxes",
+    "q": "A longtime homeowner still receiving the STAR exemption on her school tax bill is considering switching to the STAR credit. What should she know?",
+    "options": [
+      "The switch is temporary and reverses automatically next year",
+      "The credit replaces only her town tax, not her school tax",
+      "Once she switches to the credit, she cannot return to the exemption",
+      "The exemption may grow 2% a year, while the credit is frozen"
+    ],
+    "answer": 2,
+    "explanation": "Switching from the STAR exemption to the STAR credit is irreversible. The trap reverses the growth rules: the exemption savings are frozen, while the credit can increase up to 2% a year.",
+    "citation": "RPTL §425; Tax Law §606(eee); NYS Tax Department STAR guidance"
+  },
+  {
+    "id": "taxes-a031",
+    "topic": "taxes",
+    "q": "A married couple owns and lives in their home. One spouse turns 65 in November of this year; the other is 60. For this year's Enhanced STAR age requirement, the couple:",
+    "options": [
+      "Fails, because both owners must be 65 by January 1",
+      "Fails, because the younger spouse is under 62",
+      "Qualifies only after both spouses reach age 65",
+      "Meets it, if one owner is 65 by December 31 of the year"
+    ],
+    "answer": 3,
+    "explanation": "Enhanced STAR requires that at least one resident owner (or a spouse who resides there) be 65 by December 31 of the benefit year, and their combined qualifying income must be within the limit. Requiring both spouses to be 65 is the common trap.",
+    "citation": "RPTL §425(4); Tax Law §606(eee) (Enhanced STAR)"
+  },
+  {
+    "id": "taxes-a032",
+    "topic": "taxes",
+    "q": "A listing shows annual taxes of $4,100 because the 78-year-old seller receives Enhanced STAR and a senior citizens exemption. A 35-year-old buyer asks what she will pay. The licensee should explain that:",
+    "options": [
+      "The seller's exemptions end with her ownership, so the buyer's taxes may be higher",
+      "The seller's exemptions pass to the buyer at closing for five more years",
+      "Taxes are fixed at the sale price, so the $4,100 figure will not change",
+      "The buyer keeps the exemptions if she files a grievance by Grievance Day"
+    ],
+    "answer": 0,
+    "explanation": "Exemptions such as Enhanced STAR and the senior exemption depend on the owner's personal eligibility, so they do not transfer to a buyer who does not qualify. Advertising the seller's reduced bill as the buyer's future bill can mislead.",
+    "citation": "RPTL §425 and §467 (owner-specific eligibility)"
+  },
+  {
+    "id": "taxes-a033",
+    "topic": "taxes",
+    "q": "How does the senior citizens exemption differ from Enhanced STAR?",
+    "options": [
+      "The senior exemption is state-mandated; Enhanced STAR is optional",
+      "An owner may receive only one of the two in any given year",
+      "The senior exemption is local and can cover town and county taxes",
+      "Enhanced STAR can cut up to 50% of every tax on the bill"
+    ],
+    "answer": 2,
+    "explanation": "The senior citizens exemption is adopted locally by each county, city, town, village, or school district and can reduce up to 50% of the assessment for those taxes; Enhanced STAR applies only to school taxes. Eligible owners may receive both, so \"only one\" is the trap.",
+    "citation": "RPTL §467 (senior citizens exemption); RPTL §425 (STAR)"
+  },
+  {
+    "id": "taxes-a034",
+    "topic": "taxes",
+    "q": "A church owns a building and uses the first floor for worship. It leases the second floor to a for-profit accounting firm. How is the building generally treated for property tax purposes?",
+    "options": [
+      "Fully exempt, because a religious organization owns it",
+      "Fully taxable, because any rental income ends the exemption",
+      "Exempt only if the tenant firm agrees to pay the tax",
+      "Exempt for the worship space; the leased floor is taxable"
+    ],
+    "answer": 3,
+    "explanation": "The religious/charitable exemption requires both qualifying ownership and qualifying use, so the portion used for worship stays exempt while the portion leased for a nonexempt purpose is taxable. Ownership alone is the trap.",
+    "citation": "RPTL §420-a (nonprofit organizations; mandatory exemption)"
+  },
+  {
+    "id": "taxes-a035",
+    "topic": "taxes",
+    "q": "Land inside an agricultural district received an agricultural assessment last year. This year the owner sells it to a builder who starts constructing a subdivision. What is the likely property tax consequence?",
+    "options": [
+      "A conversion payment recapturing part of the taxes saved",
+      "No consequence, because the owner changed but not the soil",
+      "A permanent exemption, because land in an ag district stays farmland",
+      "A transfer of the agricultural assessment to the builder's homes"
+    ],
+    "answer": 0,
+    "explanation": "Converting land to a nonagricultural use within five years after it last received an agricultural assessment (eight years outside an ag district) triggers a conversion payment. Merely letting farmland sit idle is not a conversion; building a subdivision is.",
+    "citation": "Agriculture and Markets Law §305 and §306 (agricultural assessment; conversion payments)"
+  },
+  {
+    "id": "taxes-a036",
+    "topic": "taxes",
+    "q": "A county starts a tax foreclosure proceeding under RPTL Article 11 against a parcel with years of unpaid taxes. Calling this an in rem proceeding means that it:",
+    "options": [
+      "Seeks a personal money judgment against the owner's wages",
+      "Is directed against the property itself rather than the owner",
+      "Can be brought only after the owner files for bankruptcy",
+      "Applies only to commercial property and not to homes"
+    ],
+    "answer": 1,
+    "explanation": "In rem means against the thing: the action enforces the tax lien against the parcel, not a personal judgment against the owner. Article 11 in rem proceedings can reach residential as well as commercial parcels.",
+    "citation": "RPTL Article 11 (§1120 et seq., in rem tax foreclosure)"
+  },
+  {
+    "id": "taxes-a037",
+    "topic": "taxes",
+    "q": "Where a municipality sells its delinquent tax liens to an investor, what does the investor acquire at the sale?",
+    "options": [
+      "Immediate title and the right to evict the owner",
+      "The owner's mortgage and the duty to pay the lender",
+      "The right to collect the debt, while the owner keeps title",
+      "A deed that cuts off the owner's right to pay the taxes"
+    ],
+    "answer": 2,
+    "explanation": "A tax lien sale transfers the right to collect the delinquent taxes with interest and charges; the owner keeps title and can still pay off the lien. Title passes only if the lien is later foreclosed through the required legal process.",
+    "citation": "RPTL Article 11; NYC Admin. Code §11-319 et seq. (tax lien sales)"
+  },
+  {
+    "id": "taxes-a038",
+    "topic": "taxes",
+    "q": "Under New York's property tax cap, a school district that proposes a tax levy above its calculated levy limit must:",
+    "options": [
+      "Obtain written consent from every property owner",
+      "Obtain at least 60% voter approval of the budget",
+      "Lower all assessments by the amount of the excess",
+      "Get approval from the State Board of Real Property"
+    ],
+    "answer": 1,
+    "explanation": "The cap limits annual levy growth to the lesser of 2% or inflation (with adjustments and exclusions); a school budget exceeding the levy limit needs at least 60% voter approval. The cap governs the total levy, so an individual bill can still rise more than 2%.",
+    "citation": "Education Law §2023-a; General Municipal Law §3-c (property tax cap)"
+  },
+  {
+    "id": "taxes-a039",
+    "topic": "taxes",
+    "q": "A city adopts the homestead tax option after a reassessment. What is the main effect of this option?",
+    "options": [
+      "Residential owners pay no school taxes for five years",
+      "Every parcel is assessed at a different percentage of value",
+      "All exemptions are replaced by one flat credit per household",
+      "Separate tax rates apply to homestead and non-homestead property"
+    ],
+    "answer": 3,
+    "explanation": "The locally adopted homestead option creates two tax rates, one for homestead (mostly 1–3 family residential) property and one for non-homestead property, to keep residential owners from absorbing an outsized share after a reassessment. Assessments themselves stay at a uniform percentage of value.",
+    "citation": "RPTL Article 19 (§1901 et seq., homestead tax option)"
+  },
+  {
+    "id": "taxes-b001",
+    "topic": "taxes",
+    "q": "Under current federal law, interest on a home equity loan counts as deductible qualified residence interest only when the borrowed money is used to:",
+    "options": [
+      "Pay off high-interest credit card balances the owner carries",
+      "Buy, build, or substantially improve the home that secures it",
+      "Pay college tuition for the owner's dependent child",
+      "Purchase a vehicle the owner drives to work each day"
+    ],
+    "answer": 1,
+    "explanation": "Home equity debt is deductible only if it is acquisition debt, meaning the proceeds buy, build, or substantially improve the home securing the loan (within the $750,000 acquisition-debt limit, made permanent by the 2025 tax law). Paying off credit cards or tuition with a home equity loan is personal use, so the interest is not deductible even though the loan is secured by the home.",
+    "citation": "IRC §163(h)(3); IRS Publication 936"
+  },
+  {
+    "id": "taxes-b002",
+    "topic": "taxes",
+    "q": "A New York homeowner itemizes deductions. Under the federal SALT limitation, which items share one capped deduction?",
+    "options": [
+      "Real property taxes and state and local income (or sales) taxes combined",
+      "Real property taxes only, while state income taxes remain uncapped",
+      "Mortgage interest and real property taxes paid on the main home",
+      "State income taxes and federal income taxes withheld from wages"
+    ],
+    "answer": 0,
+    "explanation": "The SALT cap limits the combined itemized deduction for state and local taxes: property taxes plus state and local income (or sales) taxes. The 2025 tax law raised the cap from $10,000 to $40,000 ($40,400 for 2026, phased down for high incomes, reverting to $10,000 in 2030). Mortgage interest is a separate deduction outside the SALT cap, and federal income tax is never deductible.",
+    "citation": "IRC §164(b)(6)"
+  },
+  {
+    "id": "taxes-b003",
+    "topic": "taxes",
+    "q": "A first-time buyer pays $9,000 of mortgage interest and property taxes this year, but she takes the standard deduction because it is larger than her total itemized deductions. How much additional federal tax benefit does the $9,000 give her?",
+    "options": [
+      "A deduction of the full $9,000",
+      "A deduction of the interest portion only",
+      "No additional benefit at all",
+      "A deduction of half, or $4,500"
+    ],
+    "answer": 2,
+    "explanation": "Mortgage interest and property taxes are itemized deductions. A taxpayer who takes the standard deduction cannot also deduct them, so the $9,000 produces no extra federal benefit; the trap is assuming homeowners always deduct these costs.",
+    "citation": "IRC §63; IRS Publication 936"
+  },
+  {
+    "id": "taxes-b004",
+    "topic": "taxes",
+    "q": "At a July 1 closing, the seller had already paid the full calendar-year property tax, and the buyer reimbursed the seller for July through December as a proration credit. For federal income tax purposes, who deducts the July–December taxes?",
+    "options": [
+      "The seller, because the seller wrote the check to the tax collector",
+      "Neither party, because proration credits are not deductible taxes",
+      "Each party deducts half of the full-year tax regardless of dates",
+      "The buyer, because those taxes cover the period the buyer owns it"
+    ],
+    "answer": 3,
+    "explanation": "When real property is sold, the property tax for the year is divided by days of ownership: the seller deducts the part up to the sale date and the buyer deducts the rest. The buyer is treated as paying the July–December taxes through the proration, even though the seller paid the town.",
+    "citation": "IRC §164(d); IRS Publication 530"
+  },
+  {
+    "id": "taxes-b005",
+    "topic": "taxes",
+    "q": "A married couple used the home-sale exclusion on their previous home 14 months ago. They now sell their current main home, and no job change, health issue, or unforeseen circumstance is involved. The full exclusion on this sale is generally:",
+    "options": [
+      "Available, because married couples may use it every year",
+      "Unavailable, because it is a once-in-a-lifetime benefit",
+      "Unavailable, because it may be used only once in 2 years",
+      "Available, but only if both spouses are age 55 or older"
+    ],
+    "answer": 2,
+    "explanation": "The §121 exclusion can be claimed repeatedly, but generally not more than once in any 2-year period. The once-in-a-lifetime, age-55 rule is the old pre-1997 exclusion and no longer applies.",
+    "citation": "IRC §121(b)(3)"
+  },
+  {
+    "id": "taxes-b006",
+    "topic": "taxes",
+    "q": "For the home-sale exclusion's use test, the 2 years the seller lived in the home during the 5 years before the sale:",
+    "options": [
+      "Must be one unbroken 24-month stretch of residence",
+      "May be added up from separate periods within those 5 years",
+      "Must be the final 24 months immediately before the sale",
+      "Must be the first 24 months after the owner bought it"
+    ],
+    "answer": 1,
+    "explanation": "The ownership and use tests require 24 months (730 days) within the 5-year period ending on the date of sale, and the months need not be consecutive. Requiring the last 2 years or an unbroken stretch is a common misstatement of the rule.",
+    "citation": "IRC §121(a); Treas. Reg. §1.121-1(c)"
+  },
+  {
+    "id": "taxes-b007",
+    "topic": "taxes",
+    "q": "To exclude up to $500,000 of gain on a joint return, a married couple selling their home must generally show that:",
+    "options": [
+      "Either spouse meets the ownership test and both meet the use test",
+      "Both spouses are on title, though only one must have lived there",
+      "Only one spouse meets both the ownership and the use tests",
+      "Both spouses owned and lived in it for 5 of the last 8 years"
+    ],
+    "answer": 0,
+    "explanation": "For the $500,000 joint exclusion, only one spouse needs to meet the 2-year ownership test, but both must meet the 2-year use test, and neither may have used the exclusion in the prior 2 years. If only one spouse qualifies, the couple is generally limited to that spouse's $250,000.",
+    "citation": "IRC §121(b)(2)"
+  },
+  {
+    "id": "taxes-b008",
+    "topic": "taxes",
+    "q": "A single owner bought a condo, lived in it for exactly 12 months, and then sold it because her employer transferred her across the country. Her gain is $140,000. Assuming the job move qualifies for a reduced exclusion, how much gain is taxable?",
+    "options": [
+      "$0",
+      "$70,000",
+      "$140,000",
+      "$15,000"
+    ],
+    "answer": 3,
+    "explanation": "A qualifying job move allows a reduced maximum exclusion prorated by months: 12 ÷ 24 × $250,000 = $125,000. Taxable gain = $140,000 − $125,000 = $15,000. Answering $0 wrongly applies the full $250,000, and $140,000 ignores the partial exclusion.",
+    "citation": "IRC §121(c); Treas. Reg. §1.121-3"
+  },
+  {
+    "id": "taxes-b009",
+    "topic": "taxes",
+    "q": "A homeowner sells her main home for $60,000 less than her adjusted basis. For federal income tax purposes, the loss is:",
+    "options": [
+      "Deductible against ordinary income at $3,000 per year",
+      "Not deductible, because the home is personal-use property",
+      "Fully deductible as a capital loss in the year of sale",
+      "Added to the basis of the next home the seller buys"
+    ],
+    "answer": 1,
+    "explanation": "A loss on the sale of a personal residence is a nondeductible personal loss. The $3,000-per-year capital loss rule applies only to deductible capital losses, such as losses on investment property, so it is a trap here.",
+    "citation": "IRC §165(c); IRS Publication 523"
+  },
+  {
+    "id": "taxes-b010",
+    "topic": "taxes",
+    "q": "A seller qualifies for the home-sale exclusion but earlier claimed $8,000 of depreciation for a home office inside the house. How is gain equal to that $8,000 generally treated?",
+    "options": [
+      "It is excluded along with the rest of the qualifying gain",
+      "It is subtracted from the price as an ordinary closing cost",
+      "It is taxable even though the remaining gain is excluded",
+      "It raises the seller's exclusion limit by the same $8,000"
+    ],
+    "answer": 2,
+    "explanation": "The §121 exclusion does not cover gain equal to depreciation claimed after May 6, 1997, so that portion is taxed while the remaining qualifying gain can still be excluded. Depreciation never increases the exclusion limit.",
+    "citation": "IRC §121(d)(6); IRS Publication 523"
+  },
+  {
+    "id": "taxes-b011",
+    "topic": "taxes",
+    "q": "A buyer paid $320,000 for a home plus $6,000 of title insurance, recording, and attorney fees. Later she added a $15,000 new roof and a $30,000 family room, and spent $4,000 repainting several rooms. What is her adjusted basis?",
+    "options": [
+      "$375,000",
+      "$371,000",
+      "$365,000",
+      "$350,000"
+    ],
+    "answer": 1,
+    "explanation": "Basis = $320,000 price + $6,000 capitalized closing costs + $15,000 roof + $30,000 addition = $371,000. Repainting is a repair, not a capital improvement, so including it ($375,000) is the trap; leaving out closing costs gives $365,000.",
+    "citation": "IRC §§1012, 1016; IRS Publication 523"
+  },
+  {
+    "id": "taxes-b012",
+    "topic": "taxes",
+    "q": "An owner with an adjusted basis of $371,000 sells for $610,000, pays $36,000 in commission and other selling costs, and uses $250,000 of the proceeds to pay off her mortgage. What is her realized gain?",
+    "options": [
+      "$167,000",
+      "$239,000",
+      "$324,000",
+      "$203,000"
+    ],
+    "answer": 3,
+    "explanation": "Amount realized = $610,000 − $36,000 = $574,000; gain = $574,000 − $371,000 = $203,000. The mortgage payoff reduces cash at closing but not the gain; $324,000 is net cash after payoff ($610,000 − $36,000 − $250,000), and $239,000 ignores the selling costs.",
+    "citation": "IRC §1001; IRS Publication 523"
+  },
+  {
+    "id": "taxes-b013",
+    "topic": "taxes",
+    "q": "Which expenditure on a personal residence is a capital improvement that is added to the owner's basis?",
+    "options": [
+      "Installing a new central air-conditioning system",
+      "Repainting the living room and the front hallway",
+      "Fixing a leaking faucet in the kitchen sink",
+      "Replacing one cracked pane in a bedroom window"
+    ],
+    "answer": 0,
+    "explanation": "A capital improvement adds value, prolongs useful life, or adapts the home to new uses, as a new central air system does. Painting, fixing leaks, and replacing a broken pane only keep the home in ordinary repair, so they do not increase basis.",
+    "citation": "IRS Publication 523"
+  },
+  {
+    "id": "taxes-b014",
+    "topic": "taxes",
+    "q": "Each of the following generally increases a homeowner's basis EXCEPT:",
+    "options": [
+      "Owner's title insurance premium paid at the purchase closing",
+      "The cost of building a new detached two-car garage",
+      "Annual homeowner's insurance premiums paid each year",
+      "A special assessment for new sidewalks in front of the lot"
+    ],
+    "answer": 2,
+    "explanation": "Hazard insurance premiums are ongoing personal living costs and are never added to basis. Owner's title insurance is a capitalized acquisition cost, a garage is a capital improvement, and assessments for local improvements such as sidewalks increase basis.",
+    "citation": "IRS Publication 523; IRS Publication 551"
+  },
+  {
+    "id": "taxes-b015",
+    "topic": "taxes",
+    "q": "An investor buys an office building for $1,560,000, of which $390,000 is allocated to the land. Using straight-line depreciation over the nonresidential recovery period, what is the annual depreciation deduction (ignoring partial-year conventions)?",
+    "options": [
+      "$40,000",
+      "$42,545",
+      "$56,727",
+      "$30,000"
+    ],
+    "answer": 3,
+    "explanation": "Depreciable building = $1,560,000 − $390,000 = $1,170,000; $1,170,000 ÷ 39 years = $30,000. $40,000 wrongly depreciates the land ($1,560,000 ÷ 39), and $42,545 uses the 27.5-year residential period ($1,170,000 ÷ 27.5).",
+    "citation": "IRC §168(c); IRS Publication 946"
+  },
+  {
+    "id": "taxes-b016",
+    "topic": "taxes",
+    "q": "An investor bought a rental house for $500,000, with $87,500 allocated to land, and claimed $15,000 of depreciation each year for 6 years. She now sells for $650,000 (ignore selling costs). What is her gain?",
+    "options": [
+      "$240,000",
+      "$150,000",
+      "$327,500",
+      "$90,000"
+    ],
+    "answer": 0,
+    "explanation": "Depreciation reduces basis: $15,000 × 6 = $90,000; adjusted basis = $500,000 − $90,000 = $410,000; gain = $650,000 − $410,000 = $240,000. Ignoring depreciation gives $150,000, and subtracting the land from basis gives $327,500 ($650,000 − $322,500).",
+    "citation": "IRC §§1001, 1016(a)(2)"
+  },
+  {
+    "id": "taxes-b017",
+    "topic": "taxes",
+    "q": "An investor owns several properties. Which one may she depreciate for federal income tax purposes?",
+    "options": [
+      "The land underneath her rental duplex",
+      "The duplex building that she rents out",
+      "The house she lives in as her main home",
+      "A vacant lot she holds for appreciation"
+    ],
+    "answer": 1,
+    "explanation": "Only property used in a trade or business or held to produce income, with a limited useful life, can be depreciated: the rental building qualifies. Land never wears out, and a personal residence is not income-producing, so neither is depreciable.",
+    "citation": "IRC §167; IRS Publication 527"
+  },
+  {
+    "id": "taxes-b018",
+    "topic": "taxes",
+    "q": "A mixed-use building earns 85% of its gross rents from apartments and 15% from a ground-floor store. For depreciation, the building is generally recovered over:",
+    "options": [
+      "39 years, because any commercial use makes it nonresidential",
+      "27.5 years for the apartments and 39 years for the store",
+      "27.5 years, because at least 80% of rents come from dwellings",
+      "15 years, because it is classified as a mixed-use property"
+    ],
+    "answer": 2,
+    "explanation": "A building is residential rental property, depreciated over 27.5 years, if at least 80% of its gross rental income comes from dwelling units. At 85% residential rents, the whole building uses 27.5 years; the split-recovery option is the trap.",
+    "citation": "IRC §168(e)(2)(A)"
+  },
+  {
+    "id": "taxes-b019",
+    "topic": "taxes",
+    "q": "In a delayed §1031 exchange, the investor's relinquished property closes on March 1, 2026. Which deadlines generally apply?",
+    "options": [
+      "Identify by April 15, 2026; acquire by August 28, 2026",
+      "Identify by April 15, 2026; acquire by October 12, 2026",
+      "Identify by March 31, 2026; acquire by August 28, 2026",
+      "Identify by April 15, 2026; acquire by March 1, 2027"
+    ],
+    "answer": 0,
+    "explanation": "Both periods run from the relinquished closing: March 1 + 45 days = April 15 to identify, and March 1 + 180 days = August 28 to acquire (or the tax-return due date, if earlier). The 180 days are not added after the 45 days, which is how October 12 is reached.",
+    "citation": "IRC §1031(a)(3); Treas. Reg. §1.1031(k)-1(b)"
+  },
+  {
+    "id": "taxes-b020",
+    "topic": "taxes",
+    "q": "An investor has a $300,000 realized gain in a §1031 exchange. The replacement property costs less, and she receives $60,000 in cash at the closing. How much gain is recognized (taxable) now?",
+    "options": [
+      "$0",
+      "$240,000",
+      "$300,000",
+      "$60,000"
+    ],
+    "answer": 3,
+    "explanation": "Cash received is boot, and recognized gain is the lesser of boot received or realized gain: $60,000 vs. $300,000, so $60,000 is taxed now and $240,000 is deferred. $240,000 is the deferred amount, not the taxable amount.",
+    "citation": "IRC §1031(b)"
+  },
+  {
+    "id": "taxes-b021",
+    "topic": "taxes",
+    "q": "An investor exchanges a building subject to a $400,000 mortgage for a replacement building with a $300,000 mortgage. No cash is paid or received. Which statement is correct?",
+    "options": [
+      "The exchange is fully deferred because no cash changed hands",
+      "The $100,000 debt relief is boot that can produce taxable gain",
+      "The exchange fails because the two mortgages must be equal",
+      "The $100,000 debt reduction is deductible as a capital loss"
+    ],
+    "answer": 1,
+    "explanation": "Net relief from debt is treated like cash received, so $400,000 − $300,000 = $100,000 of mortgage boot can be taxed up to the realized gain. The trap is thinking only cash counts as boot; the investor could have avoided it by adding cash or taking on more debt.",
+    "citation": "IRC §1031(d); Treas. Reg. §1.1031(d)-2"
+  },
+  {
+    "id": "taxes-b022",
+    "topic": "taxes",
+    "q": "Why does an investor doing a delayed §1031 exchange use a qualified intermediary?",
+    "options": [
+      "To appraise both properties and confirm they are like-kind",
+      "To obtain advance IRS approval of the exchange before closing",
+      "To hold the sale proceeds so the investor never receives them",
+      "To act as the buyer's agent in locating the replacement property"
+    ],
+    "answer": 2,
+    "explanation": "If the investor actually or constructively receives the sale proceeds, the exchange fails and the gain is taxable. The qualified intermediary holds the funds and uses them to buy the replacement; no advance IRS approval exists.",
+    "citation": "Treas. Reg. §1.1031(k)-1(g)(4)"
+  },
+  {
+    "id": "taxes-b023",
+    "topic": "taxes",
+    "q": "Which exchange can qualify as like-kind under §1031?",
+    "options": [
+      "A rental house traded for vacant land held for investment",
+      "A personal residence traded for a rental condominium",
+      "A rental building traded for a fleet of delivery trucks",
+      "A builder's unsold new homes traded for an apartment building"
+    ],
+    "answer": 0,
+    "explanation": "Any real property held for investment or business use is like-kind to other such real property, so improved rental property for raw investment land qualifies. A personal home is not investment property, trucks are personal property (excluded since 2018), and a builder's inventory is held for sale.",
+    "citation": "IRC §1031(a)(1)-(2)"
+  },
+  {
+    "id": "taxes-b024",
+    "topic": "taxes",
+    "q": "An investor's relinquished property had an adjusted basis of $400,000 and sold for $650,000. She buys a $900,000 replacement, adds $250,000 of her own cash, and receives no boot. What is her basis in the replacement property?",
+    "options": [
+      "$900,000",
+      "$400,000",
+      "$650,000",
+      "$1,150,000"
+    ],
+    "answer": 2,
+    "explanation": "Deferred gain = $650,000 − $400,000 = $250,000. Replacement basis = $900,000 cost − $250,000 deferred gain = $650,000 (equivalently, $400,000 carried-over basis + $250,000 cash added). Using full cost of $900,000 would erase the deferred gain.",
+    "citation": "IRC §1031(d)"
+  },
+  {
+    "id": "taxes-b025",
+    "topic": "taxes",
+    "q": "A seller sells land for $400,000 with an adjusted basis of $240,000 and takes back a purchase-money note. No mortgage is assumed. In the year of sale she receives an $80,000 down payment. Using the installment method, how much gain does she report that year?",
+    "options": [
+      "$80,000",
+      "$32,000",
+      "$160,000",
+      "$48,000"
+    ],
+    "answer": 1,
+    "explanation": "Gross profit = $400,000 − $240,000 = $160,000; gross profit ratio = $160,000 ÷ $400,000 = 40%. Gain reported = 40% × $80,000 = $32,000. $48,000 wrongly applies the 60% basis share, and $160,000 reports all gain up front.",
+    "citation": "IRC §453; IRS Publication 537"
+  },
+  {
+    "id": "taxes-b026",
+    "topic": "taxes",
+    "q": "A father bought a house for $90,000. It was worth $410,000 when he died and left it to his daughter, who sold it a few months later for $425,000. What is her taxable gain (ignore selling costs)?",
+    "options": [
+      "$335,000",
+      "$0",
+      "$320,000",
+      "$15,000"
+    ],
+    "answer": 3,
+    "explanation": "Inherited property generally takes a stepped-up basis equal to fair market value at death: $410,000. Gain = $425,000 − $410,000 = $15,000. Using the father's $90,000 cost gives $335,000, which is the trap.",
+    "citation": "IRC §1014"
+  },
+  {
+    "id": "taxes-b027",
+    "topic": "taxes",
+    "q": "A father bought a house for $90,000 and, while still alive, gives it to his daughter when it is worth $410,000. Her basis for figuring gain on a later sale is generally:",
+    "options": [
+      "$90,000, carried over from the father",
+      "$410,000, the value on the gift date",
+      "$0, because she paid nothing for it",
+      "$250,000, the gift's excluded amount"
+    ],
+    "answer": 0,
+    "explanation": "A lifetime gift generally carries over the donor's basis ($90,000), so the built-in gain follows the property. Only property received at death gets a stepped-up basis to fair market value; confusing the two is a common trap.",
+    "citation": "IRC §1015"
+  },
+  {
+    "id": "taxes-b028",
+    "topic": "taxes",
+    "q": "To qualify for long-term capital gain treatment, investment real estate must generally be held for:",
+    "options": [
+      "At least 6 months before the sale",
+      "More than 1 year before the sale",
+      "At least 2 of the 5 years before the sale",
+      "More than 3 years before the sale"
+    ],
+    "answer": 1,
+    "explanation": "Gain on a capital asset held more than one year is long-term and qualifies for lower capital gain rates. The 2-of-5-year test belongs to the home-sale exclusion, not the holding period.",
+    "citation": "IRC §1222"
+  },
+  {
+    "id": "taxes-b029",
+    "topic": "taxes",
+    "q": "A house in Monroe County sells for $437,250. What is the New York State real estate transfer tax?",
+    "options": [
+      "$1,748",
+      "$1,749",
+      "$1,750",
+      "$4,373"
+    ],
+    "answer": 2,
+    "explanation": "The rate is $2 for each $500 or fractional part: $437,250 ÷ $500 = 874.5, rounded up to 875 units × $2 = $1,750. Rounding down gives $1,748, and multiplying without rounding units gives $1,749.",
+    "citation": "NY Tax Law §1402"
+  },
+  {
+    "id": "taxes-b030",
+    "topic": "taxes",
+    "q": "A seller closes and records the deed but fails to pay the NYS real estate transfer tax. Under the Tax Law, the unpaid tax:",
+    "options": [
+      "Is waived once the deed has been recorded",
+      "Is deducted from the listing broker's commission",
+      "Becomes a lien only on the seller's other property",
+      "Becomes the obligation of the buyer (grantee)"
+    ],
+    "answer": 3,
+    "explanation": "The grantor (seller) is primarily liable for the NYS transfer tax, but if the grantor fails to pay, the grantee (buyer) becomes liable for it. The tax is not waived by recording, and brokers are not liable for it.",
+    "citation": "NY Tax Law §1404(a)"
+  },
+  {
+    "id": "taxes-b031",
+    "topic": "taxes",
+    "q": "A single-family home in Westchester County sells for $1,250,000. How much is the additional 1% \"mansion tax,\" and who pays it?",
+    "options": [
+      "$12,500, paid by the buyer",
+      "$12,500, paid by the seller",
+      "$2,500, paid by the buyer",
+      "$5,000, paid by the seller"
+    ],
+    "answer": 0,
+    "explanation": "The mansion tax is 1% of the entire consideration once residential price reaches $1,000,000: 1% × $1,250,000 = $12,500, paid by the buyer. $2,500 taxes only the excess over $1 million, and $5,000 is the seller's basic transfer tax ($1,250,000 ÷ $500 × $2).",
+    "citation": "NY Tax Law §1402-a"
+  },
+  {
+    "id": "taxes-b032",
+    "topic": "taxes",
+    "q": "A Manhattan condominium unit sells for $750,000. Considering only the NYC Real Property Transfer Tax (not state tax), what is the tax?",
+    "options": [
+      "$8,562.50",
+      "$7,500.00",
+      "$3,562.50",
+      "$10,687.50"
+    ],
+    "answer": 3,
+    "explanation": "For residential property over $500,000, the NYC RPTT is 1.425% of the full price, not a tiered rate: 1.425% × $750,000 = $10,687.50. $8,562.50 wrongly applies 1% to the first $500,000 and 1.425% to the rest.",
+    "citation": "NYC Admin. Code §11-2102"
+  },
+  {
+    "id": "taxes-b033",
+    "topic": "taxes",
+    "q": "A Brooklyn house sells for $600,000. What is the seller's combined NYS transfer tax and NYC Real Property Transfer Tax?",
+    "options": [
+      "$8,550",
+      "$10,950",
+      "$8,400",
+      "$8,825"
+    ],
+    "answer": 1,
+    "explanation": "NYS: $600,000 ÷ $500 × $2 = $2,400. NYC residential over $500,000: 1.425% × $600,000 = $8,550. Total = $10,950. $8,550 omits the state tax, $8,400 uses NYC 1%, and $8,825 wrongly tiers the NYC rate ($5,000 + $1,425 + $2,400).",
+    "citation": "NY Tax Law §1402; NYC Admin. Code §11-2102"
+  },
+  {
+    "id": "taxes-b034",
+    "topic": "taxes",
+    "q": "A buyer purchases a home for $480,000 with a $384,000 mortgage. Assuming a combined mortgage recording tax rate of 1.05% in that county, what is the mortgage recording tax?",
+    "options": [
+      "$4,032",
+      "$5,040",
+      "$1,008",
+      "$3,840"
+    ],
+    "answer": 0,
+    "explanation": "Mortgage recording tax is based on the secured debt, not the price: 1.05% × $384,000 = $4,032. Using the price gives $5,040, and taxing the $96,000 down payment gives $1,008.",
+    "citation": "NY Tax Law Article 11 (§§253, 255)"
+  },
+  {
+    "id": "taxes-b035",
+    "topic": "taxes",
+    "q": "A homeowner owes $280,000 on her mortgage and refinances into a $350,000 loan using a consolidation, extension, and modification agreement (CEMA) with the existing mortgage assigned. Mortgage recording tax is generally due on:",
+    "options": [
+      "The full $350,000 new loan amount",
+      "The $280,000 existing unpaid balance",
+      "Only the $70,000 of new money borrowed",
+      "The combined $630,000 of both mortgages"
+    ],
+    "answer": 2,
+    "explanation": "With a CEMA, the existing mortgage is assigned and modified rather than paid off, so recording tax was already paid on the $280,000 balance; only the new money ($350,000 − $280,000 = $70,000) is taxed. This is why CEMAs save money on New York refinances.",
+    "citation": "NY Tax Law §255"
+  },
+  {
+    "id": "taxes-b036",
+    "topic": "taxes",
+    "q": "A foreign individual sells a $900,000 investment building to a U.S. buyer who will not live there. Under FIRPTA, the buyer must generally withhold:",
+    "options": [
+      "$90,000, which is 10% of the sales price",
+      "$45,000, which is 15% of the seller's gain",
+      "$135,000, which is 15% of the sales price",
+      "Nothing, because the seller owes the tax"
+    ],
+    "answer": 2,
+    "explanation": "FIRPTA requires the buyer, as withholding agent, to withhold 15% of the amount realized (gross price): 15% × $900,000 = $135,000. Withholding is on the gross price, not the gain, which is the $45,000 trap.",
+    "citation": "IRC §1445"
+  },
+  {
+    "id": "taxes-b037",
+    "topic": "taxes",
+    "q": "An individual buyer pays a foreign seller $280,000 for a condo and has definite plans to live in it as a residence. Under FIRPTA, the buyer generally must withhold:",
+    "options": [
+      "Nothing, under the residence exception for $300,000 or less",
+      "$42,000, which is the standard 15% of the purchase price",
+      "$28,000, which is the reduced 10% rate for residences",
+      "Nothing, because condominiums are exempt from FIRPTA"
+    ],
+    "answer": 0,
+    "explanation": "No FIRPTA withholding is required when an individual buyer acquires the property as a residence and the amount realized is $300,000 or less. The reduced 10% rate applies to residences priced above $300,000 up to $1,000,000.",
+    "citation": "IRC §1445(b)(5), (c)(4)"
+  },
+  {
+    "id": "taxes-b038",
+    "topic": "taxes",
+    "q": "A Florida resident with no New York residency sells her vacation home in the Catskills at a gain. At closing, New York generally requires her to:",
+    "options": [
+      "Have the buyer withhold 15% of the price for the state",
+      "Pay estimated NYS income tax on the gain before recording",
+      "Pay nothing, because only NYS residents owe state income tax",
+      "Pay the state tax only after filing her federal return"
+    ],
+    "answer": 1,
+    "explanation": "A nonresident individual selling NY real property must pay estimated NYS personal income tax on the gain (Form IT-2663) at closing; the county clerk will not record the deed without it. The 15% buyer withholding is the federal FIRPTA rule for foreign sellers, not a NY rule.",
+    "citation": "NY Tax Law §663; Form IT-2663"
+  },
+  {
+    "id": "taxes-b039",
+    "topic": "taxes",
+    "q": "For federal income tax purposes, how are real estate transfer taxes generally treated by the seller or buyer who pays them at closing?",
+    "options": [
+      "Both parties deduct them as property taxes in the year of sale",
+      "The seller deducts them as SALT; the buyer adds them to basis",
+      "Neither party's taxes are affected by any transfer tax paid",
+      "They reduce the seller's amount realized and add to the buyer's basis"
+    ],
+    "answer": 3,
+    "explanation": "Transfer taxes are not deductible as real property taxes. A seller treats them as a selling expense that reduces the amount realized (lowering gain), and a buyer who pays them adds them to basis.",
+    "citation": "IRS Publication 523; IRS Publication 551"
   }
 ]

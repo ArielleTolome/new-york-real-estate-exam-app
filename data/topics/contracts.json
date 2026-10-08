@@ -306,5 +306,1377 @@
     "answer": 0,
     "explanation": "A binder is a written outline of the main terms, often signed by the parties, after which attorneys draft the formal contract of sale. A binder may lack essential terms such as contingencies, but one that has all the required elements can be an enforceable contract.",
     "citation": "General contract law; NY GOL § 5-703"
+  },
+  {
+    "id": "contracts-a001",
+    "topic": "contracts",
+    "q": "Under contract law, the element that exists when one party's offer is accepted on exactly its terms is usually called:",
+    "options": [
+      "Mutual assent, or a meeting of the minds",
+      "Consideration, or a bargained-for exchange",
+      "Legal capacity of both parties",
+      "Legality of the contract's object"
+    ],
+    "answer": 0,
+    "explanation": "Offer plus unqualified acceptance produces mutual assent (a meeting of the minds). Consideration is a separate element: the exchange of value, not the agreement itself.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a002",
+    "topic": "contracts",
+    "q": "A seller's listing advertises her house 'for $600,000.' A buyer emails the listing agent, 'I accept your $600,000 price.' The seller has signed nothing further. Generally:",
+    "options": [
+      "A contract exists, because the buyer accepted the exact advertised price",
+      "A contract exists once the listing agent receives the buyer's email",
+      "No contract exists, because an advertised price is an invitation to negotiate",
+      "A contract exists, but only the buyer can enforce it against the seller"
+    ],
+    "answer": 2,
+    "explanation": "Advertisements and listing prices invite offers; they are not offers that can be accepted. The buyer's email is itself an offer, and the seller is free to accept, counter, or reject it.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a003",
+    "topic": "contracts",
+    "q": "A buyer signed an installment land contract at age 17. After turning 18, she kept making the monthly payments for two years without objecting. The contract is most likely:",
+    "options": [
+      "Still voidable at her option at any time she chooses",
+      "Void, because she lacked capacity when she signed it",
+      "Ratified by her conduct and now binding on her",
+      "Unenforceable until a court approves the original signing"
+    ],
+    "answer": 2,
+    "explanation": "A minor's contract is voidable, but continuing to perform for a substantial time after reaching majority (18 in New York) ratifies it. The 'void' trap confuses a minor's contract with one lacking any legal effect.",
+    "citation": "Common-law capacity rules; GOL §1-202 (minor = under 18)"
+  },
+  {
+    "id": "contracts-a004",
+    "topic": "contracts",
+    "q": "A 16-year-old and an adult sign a contract under which the minor will buy the adult's vacant lot. Before closing, the adult changes his mind. Which statement is correct?",
+    "options": [
+      "Either party may disaffirm because the contract is void",
+      "The adult may disaffirm at any time before the closing",
+      "Neither party may disaffirm once both have signed",
+      "The adult is bound; only the minor may disaffirm"
+    ],
+    "answer": 3,
+    "explanation": "Voidability protects the minor only: the minor may disaffirm, but the adult party stays bound. Calling the contract void is the trap; it is voidable, and only at the minor's option.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a005",
+    "topic": "contracts",
+    "q": "Which of the following contracts is generally VOID rather than merely voidable?",
+    "options": [
+      "One signed by a 17-year-old buyer of a building lot",
+      "One the buyer signed after the seller's fraudulent statement",
+      "One signed by a person a court had already declared incompetent",
+      "One a seller signed while too intoxicated to understand it"
+    ],
+    "answer": 2,
+    "explanation": "Under the traditional rule, a contract made by someone already adjudicated incompetent is void. Minority, fraud, and intoxication make a contract voidable by the protected party, so it stays valid unless that party chooses to avoid it.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a006",
+    "topic": "contracts",
+    "q": "At a party, a seller signs a sale contract while so intoxicated that he cannot understand what he is signing. When sober the next morning, he promptly objects. The contract is most likely:",
+    "options": [
+      "Void from the start for both parties",
+      "Valid, since he chose to drink",
+      "Voidable by the buyer only",
+      "Voidable by the seller"
+    ],
+    "answer": 3,
+    "explanation": "Intoxication severe enough to prevent understanding makes a contract voidable by the impaired party, who must act promptly once sober. It is not automatically void, and the sober buyer has no right to avoid it.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a007",
+    "topic": "contracts",
+    "q": "Each of the following ends an offer EXCEPT:",
+    "options": [
+      "The offeror's death before any acceptance",
+      "A counteroffer made by the offeree",
+      "The passing of the offer's stated deadline",
+      "The offeree asking whether the price is firm"
+    ],
+    "answer": 3,
+    "explanation": "A mere inquiry about the terms does not reject or change the offer, so the offer survives. Death of the offeror, a counteroffer (which acts as a rejection), and lapse of time all terminate an offer.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a008",
+    "topic": "contracts",
+    "q": "A buyer offers $475,000 with a June 30 closing. The seller signs the offer but crosses out 'June 30,' writes 'July 15,' and initials the change. The seller has made:",
+    "options": [
+      "A counteroffer that the buyer may accept or reject",
+      "A binding acceptance, because the change is minor",
+      "A binding acceptance on the original June 30 date",
+      "An acceptance that binds unless the buyer objects"
+    ],
+    "answer": 0,
+    "explanation": "Acceptance must match the offer exactly; changing any term, even a closing date, is a counteroffer that rejects the original offer. No contract exists until the buyer accepts the July 15 date.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a009",
+    "topic": "contracts",
+    "q": "Under the mailbox rule, an acceptance sent by a method the offer authorizes is generally effective when it is:",
+    "options": [
+      "Received by the offeror",
+      "Sent by the offeree",
+      "Read by the offeror",
+      "Acknowledged by the offeror"
+    ],
+    "answer": 1,
+    "explanation": "The mailbox (dispatch) rule makes a properly sent acceptance effective on dispatch, even before it arrives. Receipt is the rule for revocations, which is the usual trap.",
+    "citation": "General contract law (mailbox/dispatch rule)"
+  },
+  {
+    "id": "contracts-a010",
+    "topic": "contracts",
+    "q": "A seller mails a revocation of her offer on Monday. The buyer, who has not heard anything, mails an acceptance on Tuesday. The buyer receives the revocation Wednesday, and the seller receives the acceptance Thursday. Generally:",
+    "options": [
+      "A contract was formed Tuesday, when the acceptance was mailed",
+      "No contract exists, because the revocation was mailed first",
+      "No contract exists, because the revocation arrived Wednesday",
+      "A contract was formed Thursday, when the acceptance arrived"
+    ],
+    "answer": 0,
+    "explanation": "A revocation is effective only when received (Wednesday), but an acceptance is effective when dispatched (Tuesday). The acceptance took effect first, so the contract was formed Tuesday.",
+    "citation": "General contract law (mailbox/dispatch rule)"
+  },
+  {
+    "id": "contracts-a011",
+    "topic": "contracts",
+    "q": "An offer states, 'Your acceptance is effective only when I actually receive your signed copy.' The buyer mails the signed copy Monday; it arrives Friday. On Wednesday the offeror phones the buyer and revokes. Generally:",
+    "options": [
+      "A contract was formed Monday, when the buyer mailed the signed copy",
+      "No contract, since the offer required receipt and the revocation came first",
+      "A contract was formed Friday, when the signed copy reached the offeror",
+      "No contract, because a written offer cannot be revoked by telephone"
+    ],
+    "answer": 1,
+    "explanation": "The offeror controls the offer and may require receipt, displacing the dispatch rule. The Wednesday revocation reached the buyer before the acceptance reached the offeror, so the offer was gone when it arrived.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a012",
+    "topic": "contracts",
+    "q": "Unless an offer has been made irrevocable (for example, by a paid option), an offeror may generally revoke it:",
+    "options": [
+      "Only after giving the offeree 24 hours' notice",
+      "Only if the offer contained a stated deadline",
+      "At any time up until the scheduled closing",
+      "At any time before the acceptance takes effect"
+    ],
+    "answer": 3,
+    "explanation": "An ordinary offer can be withdrawn any time before acceptance becomes effective. Once acceptance takes effect a contract exists, so revoking afterward (up to closing) would be a breach, not a revocation.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a013",
+    "topic": "contracts",
+    "q": "A buyer pays an owner $5,000 for the right to buy his land for $300,000 at any time within 90 days. On day 30, the owner announces he is withdrawing the offer. The owner:",
+    "options": [
+      "May withdraw if he returns the buyer's $5,000 payment",
+      "Cannot withdraw; the paid option holds the offer open for 90 days",
+      "May withdraw, because the buyer has not yet agreed to buy",
+      "May withdraw with written notice, since options are revocable"
+    ],
+    "answer": 1,
+    "explanation": "Because the buyer gave consideration for the promise to keep the offer open, the option is a binding contract for its 90-day term. Refunding the money does not undo the bargain the owner already made.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a014",
+    "topic": "contracts",
+    "q": "A buyer's offer says, 'If I don't hear from you by Friday, I'll treat your silence as acceptance.' The seller never responds. Generally:",
+    "options": [
+      "No contract exists, because silence is ordinarily not acceptance",
+      "A contract formed Friday when the stated deadline passed",
+      "A contract formed, but only the buyer is bound by it",
+      "A contract formed once the buyer deposited earnest money"
+    ],
+    "answer": 0,
+    "explanation": "An offeror cannot force a contract on the offeree by declaring that silence will count as acceptance. Acceptance requires some words or conduct showing assent.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a015",
+    "topic": "contracts",
+    "q": "In contract law, consideration is best defined as:",
+    "options": [
+      "Something of legal value each party bargains for and gives",
+      "The earnest money the buyer deposits when the contract is signed",
+      "The fair market value of the property that is being sold",
+      "The written terms that both parties have read and signed"
+    ],
+    "answer": 0,
+    "explanation": "Consideration is the bargained-for exchange of legal value: money, property, a promise, or forbearance. A deposit is one common form, but exchanged promises alone can be enough.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a016",
+    "topic": "contracts",
+    "q": "A lender promises not to start foreclosure for 60 days in exchange for the borrower's promise to pay a $1,000 fee. The lender's agreement to refrain from exercising a legal right is called:",
+    "options": [
+      "Forbearance",
+      "Novation",
+      "Laches",
+      "Ratification"
+    ],
+    "answer": 0,
+    "explanation": "Forbearance (giving up or delaying a legal right) is valid consideration. Novation substitutes a new contract or party, and laches is an equitable defense based on delay.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a017",
+    "topic": "contracts",
+    "q": "All winter, without being asked, a neighbor clears snow from an owner's driveway. In the spring the owner orally promises to pay him $500, then refuses. The oral promise is generally:",
+    "options": [
+      "Enforceable, because the work had real value to the owner",
+      "Enforceable as an implied contract for the past work",
+      "Voidable at the neighbor's option for lack of a writing",
+      "Unenforceable, because past acts are not consideration"
+    ],
+    "answer": 3,
+    "explanation": "Consideration must be bargained for at the time of the promise; services already given freely are past consideration. New York's GOL §5-1105 can save such a promise only if it is in a signed writing that states the past consideration, and this one was oral.",
+    "citation": "General contract law; GOL §5-1105"
+  },
+  {
+    "id": "contracts-a018",
+    "topic": "contracts",
+    "q": "To get a buyer to sign, a seller covers a cracked foundation wall with paneling and denies any structural problems when asked. The buyer signs. The contract is:",
+    "options": [
+      "Voidable at the buyer's option",
+      "Void from the very beginning",
+      "Voidable at either party's option",
+      "Valid, because the buyer could inspect"
+    ],
+    "answer": 0,
+    "explanation": "Fraud impairs the deceived party's consent, so the buyer may affirm or avoid the contract. It is not void, and the seller who committed the fraud cannot use it to escape.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a019",
+    "topic": "contracts",
+    "q": "In a contract-classification question, an executed contract is one that:",
+    "options": [
+      "Both parties have finished signing",
+      "Both parties have fully performed",
+      "Has been recorded with the county",
+      "Both attorneys have approved in writing"
+    ],
+    "answer": 1,
+    "explanation": "In classification, 'executed' means fully performed, while 'executory' means performance remains. In everyday use 'executed' also means signed, which is the trap: a signed purchase contract is still executory until closing.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a020",
+    "topic": "contracts",
+    "q": "Which statement correctly distinguishes a bilateral contract from a unilateral contract?",
+    "options": [
+      "Bilateral contracts need a writing, while unilateral ones may be oral",
+      "Bilateral contracts bind both parties only after the closing occurs",
+      "Bilateral binds two parties; unilateral binds only one party's heirs",
+      "Bilateral trades a promise for a promise; unilateral trades a promise for an act"
+    ],
+    "answer": 3,
+    "explanation": "In a bilateral contract both sides promise. In a unilateral contract one side promises and the other accepts only by performing the requested act.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a021",
+    "topic": "contracts",
+    "q": "A seller signs a written sale contract, but the buyer never signs it. Under New York's statute of frauds, which statement is correct?",
+    "options": [
+      "Neither party can enforce it unless both have signed",
+      "The seller could enforce it against the buyer, but not the reverse",
+      "The buyer could enforce it against the seller, but not the reverse",
+      "Both parties can enforce it because the terms are in writing"
+    ],
+    "answer": 2,
+    "explanation": "GOL §5-703 requires the signature of the party to be charged, meaning the party being sued. The seller signed, so the contract can be enforced against the seller; the buyer did not sign, so it cannot be enforced against the buyer.",
+    "citation": "GOL §5-703(2)"
+  },
+  {
+    "id": "contracts-a022",
+    "topic": "contracts",
+    "q": "A landlord and tenant orally agree to a one-year lease of an apartment beginning today. Under GOL §5-703, the oral lease is:",
+    "options": [
+      "Unenforceable, because every real property lease must be in writing",
+      "Void, because a lease is a conveyance that must be recorded",
+      "Potentially enforceable, since only leases longer than one year need a writing",
+      "Enforceable only if the tenant has paid a security deposit"
+    ],
+    "answer": 2,
+    "explanation": "The statute of frauds reaches leases for longer than one year; a one-year lease starting immediately can be oral. A lease longer than one year would need a signed writing.",
+    "citation": "GOL §5-703(2)"
+  },
+  {
+    "id": "contracts-a023",
+    "topic": "contracts",
+    "q": "Under GOL §5-703, when an agent signs a real estate sale contract on a principal's behalf, the agent's authority to sign must be:",
+    "options": [
+      "Given in writing",
+      "Given orally before a witness",
+      "Recorded with the county clerk",
+      "Approved by the Department of State"
+    ],
+    "answer": 0,
+    "explanation": "The statute requires the writing to be signed by the party to be charged or by a lawful agent authorized in writing. Oral authority does not satisfy it.",
+    "citation": "GOL §5-703(2)"
+  },
+  {
+    "id": "contracts-a024",
+    "topic": "contracts",
+    "q": "Under an oral agreement to buy a house, a buyer moved in with the seller's consent, paid most of the price, and built an addition. The seller now refuses to deliver a deed. The buyer's strongest argument is that:",
+    "options": [
+      "Oral land contracts are void, but she has acquired title through adverse possession",
+      "Oral contracts for land become enforceable once six years have passed",
+      "Part performance may let a court order specific performance despite the lack of a writing",
+      "The parol evidence rule makes the oral terms binding against the seller"
+    ],
+    "answer": 2,
+    "explanation": "GOL §5-703(4) preserves a court's power to compel specific performance where part performance (such as possession plus improvements) is unequivocally referable to the oral agreement. Adverse possession fails because her possession was with the seller's permission, not hostile.",
+    "citation": "GOL §5-703(4)"
+  },
+  {
+    "id": "contracts-a025",
+    "topic": "contracts",
+    "q": "In New York, the general statute of limitations for an action for breach of contract is:",
+    "options": [
+      "Three years",
+      "Ten years",
+      "Six years",
+      "Two years"
+    ],
+    "answer": 2,
+    "explanation": "CPLR §213 gives six years for contract actions. Ten years is New York's adverse possession period, a common mix-up.",
+    "citation": "CPLR §213(2)"
+  },
+  {
+    "id": "contracts-a026",
+    "topic": "contracts",
+    "q": "A seller breached a purchase contract on April 15, 2022. Under New York's general limitations period for contract actions, the buyer's time to sue runs out on about:",
+    "options": [
+      "April 15, 2025",
+      "April 15, 2032",
+      "April 15, 2028",
+      "April 15, 2024"
+    ],
+    "answer": 2,
+    "explanation": "Contract actions have a six-year period: 2022 + 6 = 2028. The distractors apply 3, 10, or 2 years instead.",
+    "citation": "CPLR §213(2)"
+  },
+  {
+    "id": "contracts-a027",
+    "topic": "contracts",
+    "q": "A buyer waits many months to seek specific performance, and in the meantime the seller makes costly changes in reliance on the deal being dead. The equitable defense based on this unreasonable, prejudicial delay is:",
+    "options": [
+      "The statute of limitations",
+      "Laches",
+      "The statute of frauds",
+      "The parol evidence rule"
+    ],
+    "answer": 1,
+    "explanation": "Laches bars equitable relief when unreasonable delay prejudices the other side, even within the statutory deadline. The statute of limitations is a fixed time bar, and the statute of frauds concerns writings.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a028",
+    "topic": "contracts",
+    "q": "The parol evidence rule generally prevents a party from:",
+    "options": [
+      "Using earlier oral statements to contradict a complete written contract",
+      "Enforcing any oral agreement that involves an interest in real property",
+      "Introducing any evidence of fraud or duress during a lawsuit",
+      "Amending a written contract in any way after it has been signed"
+    ],
+    "answer": 0,
+    "explanation": "Once the parties adopt a final, complete writing, prior or contemporaneous oral agreements cannot change its terms. The rule does not bar proof of fraud or later modifications; the writing requirement for land is the statute of frauds.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a029",
+    "topic": "contracts",
+    "q": "A signed final contract with a merger clause says the sale includes all kitchen appliances. The seller claims that before signing, the buyer orally agreed she could take the refrigerator. A court will most likely:",
+    "options": [
+      "Let the seller take the refrigerator based on the oral deal",
+      "Follow the writing, so the refrigerator stays with the house",
+      "Void the contract because the parties now disagree",
+      "Split the refrigerator's value between the two parties"
+    ],
+    "answer": 1,
+    "explanation": "The merger clause shows the writing is the parties' complete agreement, so the parol evidence rule excludes the earlier oral side deal that contradicts it.",
+    "citation": "General contract law (parol evidence rule)"
+  },
+  {
+    "id": "contracts-a030",
+    "topic": "contracts",
+    "q": "Despite the parol evidence rule, which of the following may generally be proved with evidence outside a complete written contract?",
+    "options": [
+      "That the parties orally agreed to a lower price",
+      "That an earlier oral deal added a missing term",
+      "That the parties orally agreed to a later closing",
+      "That the buyer was tricked into signing by fraud"
+    ],
+    "answer": 3,
+    "explanation": "The rule bars prior or contemporaneous oral terms that vary the writing, but evidence of fraud, duress, or mistake is admissible because it attacks whether a valid contract was formed at all.",
+    "citation": "General contract law (parol evidence rule)"
+  },
+  {
+    "id": "contracts-a031",
+    "topic": "contracts",
+    "q": "Obtaining a party's signature on a contract by threatening physical harm is:",
+    "options": [
+      "Undue influence",
+      "Misrepresentation",
+      "Forbearance",
+      "Duress"
+    ],
+    "answer": 3,
+    "explanation": "Duress is coercion through threats, and it makes the contract voidable by the victim. Undue influence instead involves abusing a relationship of trust, without threats.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a032",
+    "topic": "contracts",
+    "q": "An elderly owner relies on her live-in caregiver for every decision. The caregiver persuades her to sell him her house for half its value. Her best ground to avoid the sale is:",
+    "options": [
+      "Duress",
+      "Mutual mistake",
+      "Lack of consideration",
+      "Undue influence"
+    ],
+    "answer": 3,
+    "explanation": "Undue influence is unfair persuasion by someone in a position of trust or dominance, and it makes the contract voidable. There was no threat (duress), and half the value is still consideration.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a033",
+    "topic": "contracts",
+    "q": "A buyer wants to cancel because the seller called the house 'the nicest home on the block,' and the buyer now disagrees. Generally the buyer:",
+    "options": [
+      "Can cancel for fraud, because the claim proved untrue",
+      "Can cancel for mutual mistake about the home's quality",
+      "Cannot cancel, because the remark is opinion (puffing)",
+      "Can cancel, because the statement was made orally"
+    ],
+    "answer": 2,
+    "explanation": "Fraud requires a false statement of material fact. Vague praise and opinion (puffing) are not statements of fact the buyer may justifiably rely on.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a034",
+    "topic": "contracts",
+    "q": "Unknown to both parties, the lakeside cottage being sold burned down the day before they signed the contract. The doctrine that best allows the buyer to avoid the contract is:",
+    "options": [
+      "Unilateral mistake about value",
+      "Undue influence by the seller",
+      "Laches",
+      "Mutual mistake of a material fact"
+    ],
+    "answer": 3,
+    "explanation": "Both parties shared a mistaken belief about a basic fact (the cottage existed), which allows the contract to be avoided. A unilateral mistake about value generally gives no relief.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a035",
+    "topic": "contracts",
+    "q": "A buyer signs believing the house will gain 20% in value within a year. Prices stay flat, and she wants out before closing. Generally she:",
+    "options": [
+      "May rescind for mutual mistake about the home's value",
+      "Is still bound, since a wrong value prediction is no defense",
+      "May rescind for fraud, since the seller gave no warning",
+      "May rescind because the contract is still executory"
+    ],
+    "answer": 1,
+    "explanation": "A party's mistaken prediction about future value is a business risk, not a mistake of existing fact, and nobody misrepresented anything. An executory contract is still binding.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a036",
+    "topic": "contracts",
+    "q": "Specific performance is generally available to enforce real estate sale contracts mainly because:",
+    "options": [
+      "Money damages are not allowed in real estate cases",
+      "The statute of frauds requires that remedy",
+      "Each parcel of land is considered unique",
+      "Brokers must be paid at the closing table"
+    ],
+    "answer": 2,
+    "explanation": "Because no two parcels are identical, money may not adequately replace the bargained-for property, so courts may order the breaching party to convey it. Money damages remain available as an alternative.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a037",
+    "topic": "contracts",
+    "q": "A buyer breaches a $450,000 purchase contract that has no liquidated damages clause. The seller promptly resells for $420,000 and incurs $6,000 in extra carrying costs from the delay. The seller's compensatory damages are most likely:",
+    "options": [
+      "$30,000",
+      "$36,000",
+      "$24,000",
+      "$45,000"
+    ],
+    "answer": 1,
+    "explanation": "Damages = ($450,000 − $420,000) + $6,000 = $30,000 + $6,000 = $36,000. $30,000 omits the carrying costs, $24,000 subtracts them, and $45,000 is merely a 10% deposit figure.",
+    "citation": "General contract law (compensatory damages)"
+  },
+  {
+    "id": "contracts-a038",
+    "topic": "contracts",
+    "q": "A $385,000 contract requires a 10% down payment and says the seller keeps it as liquidated damages if the buyer defaults. The buyer defaults without legal excuse, and the seller later resells for $400,000. The seller may generally keep:",
+    "options": [
+      "$38,500, the full down payment",
+      "$0, since the resale price was higher",
+      "$23,500, the deposit minus the resale gain",
+      "$19,250, half of the down payment"
+    ],
+    "answer": 0,
+    "explanation": "Down payment = 10% × $385,000 = $38,500. New York courts generally let a seller keep a down payment of up to 10% when the buyer defaults without lawful excuse, even if the seller later resells at a profit ($400,000 − $385,000 = $15,000 is not deducted).",
+    "citation": "General contract law (liquidated damages); Maxton Builders, Inc. v. Lo Galbo, 68 N.Y.2d 373 (1986)"
+  },
+  {
+    "id": "contracts-a039",
+    "topic": "contracts",
+    "q": "A court will generally refuse to enforce a liquidated damages clause when the stated amount:",
+    "options": [
+      "Is grossly out of proportion to any likely loss",
+      "Equals 10% of the contract purchase price",
+      "Was agreed upon before any breach occurred",
+      "Is stated as a fixed dollar figure"
+    ],
+    "answer": 0,
+    "explanation": "Liquidated damages must be a reasonable estimate of hard-to-measure losses fixed in advance. A grossly disproportionate amount is an unenforceable penalty; agreeing in advance on a fixed sum is the normal feature of such a clause.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a040",
+    "topic": "contracts",
+    "q": "A signed contract lists the wrong lot number because of a typing error, and both parties agree it does not reflect their actual deal. The remedy that corrects the document to match their true agreement is:",
+    "options": [
+      "Rescission",
+      "Reformation",
+      "Novation",
+      "Specific performance"
+    ],
+    "answer": 1,
+    "explanation": "Reformation rewrites the document to match what the parties actually agreed when a mutual mistake in drafting occurred. Rescission would cancel the contract instead of fixing it.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a041",
+    "topic": "contracts",
+    "q": "The transfer of one party's rights under a contract to another person is called:",
+    "options": [
+      "Delegation",
+      "Novation",
+      "Subordination",
+      "Assignment"
+    ],
+    "answer": 3,
+    "explanation": "Assignment transfers rights; delegation transfers duties. Neither releases the original party, which takes a novation.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a042",
+    "topic": "contracts",
+    "q": "A seller and buyer agree to cancel their existing contract and substitute a new one with a lower price and a later closing date, extinguishing the old contract entirely. This is:",
+    "options": [
+      "An assignment",
+      "A ratification",
+      "A novation",
+      "A reformation"
+    ],
+    "answer": 2,
+    "explanation": "A novation replaces an old obligation with a new one, either between the same parties or by substituting a new party. Reformation only corrects a writing to reflect the original deal.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a043",
+    "topic": "contracts",
+    "q": "Which contract right is generally NOT assignable without the other party's consent?",
+    "options": [
+      "A buyer's rights under a sale contract that is silent on assignment",
+      "A right to collect a sum of money already earned under a contract",
+      "A right to a personal service that depends on a particular person's skill",
+      "A seller's right to receive the balance due on a purchase-money note"
+    ],
+    "answer": 2,
+    "explanation": "Contracts for personal services rely on a specific person's skill or trust and cannot be shifted without consent. Rights to money and contract rights not restricted by a no-assignment clause are generally assignable.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a044",
+    "topic": "contracts",
+    "q": "A contract sets the closing 'on or about June 1' and does not say time is of the essence. The buyer is not ready on June 1 but can close June 10. Generally in New York:",
+    "options": [
+      "The buyer is allowed a reasonable adjournment and is not yet in default",
+      "The buyer defaults on June 2 and forfeits the entire down payment",
+      "The contract automatically terminates at the end of June 1",
+      "The seller may immediately keep the deposit and resell the house"
+    ],
+    "answer": 0,
+    "explanation": "Without a time-of-the-essence clause, New York courts treat the closing date as a target, allowing a reasonable adjournment. A party in default is one who fails to perform within a reasonable time after that date.",
+    "citation": "General contract law; New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-a045",
+    "topic": "contracts",
+    "q": "A contract states that time is of the essence for a June 1 closing. If the buyer cannot close on June 1, the buyer:",
+    "options": [
+      "Gets an automatic 30-day extension",
+      "Has until the end of that week to close",
+      "May close at any time before the loan commitment expires",
+      "Is in material breach of the contract"
+    ],
+    "answer": 3,
+    "explanation": "A time-of-the-essence clause makes the exact date a strict condition, so failing to perform on that date is a material breach that can cost the defaulting party the deal and the deposit.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a046",
+    "topic": "contracts",
+    "q": "A contract has no time-of-the-essence clause, and the closing date has passed with the buyer stalling. The seller can generally make time of the essence by:",
+    "options": [
+      "Immediately keeping the down payment once the original date passes",
+      "Giving clear written notice of a reasonable new date, warning that missing it is a default",
+      "Recording a notice of default in the county clerk's office",
+      "Asking the listing broker to cancel the contract on the seller's behalf"
+    ],
+    "answer": 1,
+    "explanation": "In New York, a party may make time of the essence after the fact by a clear, unequivocal notice that sets a reasonable date and states that failure to close then will be a default. Merely letting the original date pass does not create a default.",
+    "citation": "General contract law; New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-a047",
+    "topic": "contracts",
+    "q": "A seller dies after signing a binding contract to sell her house but before closing. Generally:",
+    "options": [
+      "The contract ends automatically at the seller's death",
+      "The contract binds her estate, which must complete the sale",
+      "The buyer must make a new offer to the seller's heirs",
+      "The contract becomes voidable by the seller's heirs"
+    ],
+    "answer": 1,
+    "explanation": "Death ends an unaccepted offer, but a binding contract to sell land survives and is enforceable against the seller's estate. Personal-service contracts, unlike land sales, may end on death.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a048",
+    "topic": "contracts",
+    "q": "Two months before closing, a seller emails the buyer, 'I will not sell to you under any circumstances.' The buyer:",
+    "options": [
+      "Must wait until the closing date passes before suing",
+      "May treat this as an anticipatory breach and pursue remedies now",
+      "Has no remedy, because no performance is yet due",
+      "Must accept return of the deposit as the only remedy"
+    ],
+    "answer": 1,
+    "explanation": "A clear, unequivocal refusal to perform before the due date is an anticipatory repudiation, which lets the other party treat the contract as breached immediately and seek damages or specific performance.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-a049",
+    "topic": "contracts",
+    "q": "A buyer with no mortgage contingency loses her job before closing and cannot get a loan. She claims the contract is discharged by impossibility. Generally:",
+    "options": [
+      "Her financial hardship does not excuse her from performing",
+      "The contract is discharged because performance is impossible",
+      "The contract becomes voidable at her option",
+      "The contract is void because consideration failed"
+    ],
+    "answer": 0,
+    "explanation": "Impossibility requires that performance itself become objectively impossible, as when the subject property is destroyed. A party's personal inability to pay is not impossibility, and she assumed the financing risk by omitting a contingency.",
+    "citation": "General contract law (common law)"
+  },
+  {
+    "id": "contracts-b001",
+    "topic": "contracts",
+    "q": "Under the explanation that 19 NYCRR §175.24 requires on exclusive residential listings, what happens under an exclusive agency listing if another broker, not the listing broker, finds the buyer?",
+    "options": [
+      "The owner owes a commission only to the broker who actually found the buyer",
+      "The owner owes a commission to both the selling broker and the listing broker",
+      "The owner owes no commission because the listing broker did not find the buyer",
+      "The owner owes one commission to the listing broker, who must share it by law"
+    ],
+    "answer": 1,
+    "explanation": "The DOS-mandated explanation warns that under an exclusive agency listing, if another broker finds a buyer, the owner will owe a commission to both the selling broker and the present broker. Only the owner's own sale escapes the commission; a sale by an outside broker does not.",
+    "citation": "19 NYCRR §175.24(b)"
+  },
+  {
+    "id": "contracts-b002",
+    "topic": "contracts",
+    "q": "A broker takes an exclusive right to sell listing on a two-family house. To comply with DOS rules, the required explanation of exclusive listing types must be:",
+    "options": [
+      "read aloud to the owner at signing, with no signature or initials required",
+      "filed by the broker with the Department of State within ten days of signing",
+      "given to the owner only if the owner asks how the two listing types differ",
+      "printed on or attached to the listing and signed or initialed by the owner"
+    ],
+    "answer": 3,
+    "explanation": "Section 175.24(b) requires the explanation to be printed on or attached to the exclusive listing, in at least six-point type, and signed or initialed by the homeowner or the homeowner's agent. Reading it aloud does not satisfy the signature requirement, and nothing is filed with DOS.",
+    "citation": "19 NYCRR §175.24(b)"
+  },
+  {
+    "id": "contracts-b003",
+    "topic": "contracts",
+    "q": "Which of the following exclusive listings does NOT require the DOS explanation of exclusive right to sell versus exclusive agency?",
+    "options": [
+      "A listing of a vacant lot on which the buyer plans to build a house",
+      "An exclusive agency listing of an owner-occupied condominium unit",
+      "An exclusive right to sell listing of a four-family dwelling",
+      "An exclusive right to sell listing of a cooperative apartment"
+    ],
+    "answer": 0,
+    "explanation": "Section 175.24 defines residential property as one-to-four family dwellings and condominium or cooperative apartments, and expressly excludes unimproved land on which such dwellings are to be built. A four-family house, a condo unit, and a co-op apartment are all covered, so only the vacant lot is outside the rule.",
+    "citation": "19 NYCRR §175.24(a)"
+  },
+  {
+    "id": "contracts-b004",
+    "topic": "contracts",
+    "q": "A broker who belongs to a multiple listing service takes an exclusive listing on a single-family home. DOS rules require the listing agreement to give the homeowner the option to:",
+    "options": [
+      "keep the property out of the MLS for the first 30 days of the listing term",
+      "cancel the listing without penalty if no offer arrives within the first 60 days",
+      "have negotiated offers submitted through the listing broker or the selling broker",
+      "pay any cooperating broker directly instead of through the listing broker"
+    ],
+    "answer": 2,
+    "explanation": "Section 175.24(c) requires an MLS member's exclusive residential listing to let the homeowner choose whether negotiated offers are submitted through the listing broker or through the selling broker. The other choices describe terms the parties might negotiate, not a DOS requirement.",
+    "citation": "19 NYCRR §175.24(c)"
+  },
+  {
+    "id": "contracts-b005",
+    "topic": "contracts",
+    "q": "An exclusive right to sell listing expired March 31. It has a 90-day protection clause covering buyers shown the property during the term. On May 10, the owner, who has not relisted with anyone, sells directly to a buyer the listing salesperson showed the house to in February. The listing broker:",
+    "options": [
+      "is owed nothing because the listing had already expired",
+      "is likely owed the commission under the protection clause",
+      "is owed only reimbursement of its advertising expenses",
+      "is owed a fee only if the buyer names that broker in writing"
+    ],
+    "answer": 1,
+    "explanation": "A protection (carryover or extension) clause makes the commission payable when, within the stated period after expiration, the owner sells to a buyer introduced during the listing term. The sale occurred 40 days after expiration to a buyer shown the home during the term, so the clause applies; expiration alone does not cut off the broker's claim.",
+    "citation": "Listing agreement terms; general contract law"
+  },
+  {
+    "id": "contracts-b006",
+    "topic": "contracts",
+    "q": "A salesperson obtains an exclusive right to sell listing, then transfers her license to a different brokerage before the house sells. The listing:",
+    "options": [
+      "moves automatically to the salesperson's new sponsoring broker",
+      "ends on the day the salesperson's license transfer takes effect",
+      "becomes an open listing that any broker may now market freely",
+      "stays with the original broker, who remains the owner's agent"
+    ],
+    "answer": 3,
+    "explanation": "A listing is a contract between the owner and the broker; a salesperson acts only on behalf of the sponsoring broker. When the salesperson leaves, the listing stays with the original firm unless the owner and that broker agree otherwise.",
+    "citation": "RPL §440; general agency law"
+  },
+  {
+    "id": "contracts-b007",
+    "topic": "contracts",
+    "q": "Two weeks into a six-month exclusive right to sell listing, the sole owner dies. No contract of sale has been signed. The listing:",
+    "options": [
+      "terminates by operation of law because the principal has died",
+      "continues for its full term and binds the owner's estate",
+      "converts to an exclusive agency listing for the executor",
+      "continues until the broker receives written notice of death"
+    ],
+    "answer": 0,
+    "explanation": "A listing creates an agency, and an agency ends automatically when the principal dies; notice to the broker is not required. The executor may sign a new listing, but the old one does not bind the estate.",
+    "citation": "General agency law"
+  },
+  {
+    "id": "contracts-b008",
+    "topic": "contracts",
+    "q": "A seller signs a contract of sale and dies a week before the scheduled closing. Generally:",
+    "options": [
+      "the contract is void because one of its parties has since died",
+      "the buyer must either cancel or renegotiate the price with the heirs",
+      "the contract binds the seller's estate, which must convey to the buyer",
+      "the down payment must be refunded and the transaction started over"
+    ],
+    "answer": 2,
+    "explanation": "Unlike a listing, which is a personal-service agency that ends at death, a contract to sell real property survives the seller's death and binds the estate. The executor or administrator must perform and deliver the deed.",
+    "citation": "General contract law"
+  },
+  {
+    "id": "contracts-b009",
+    "topic": "contracts",
+    "q": "An owner's listing offers $480,000 cash with closing within 60 days and says the commission is earned when the broker produces a buyer on those terms. The broker produces a buyer ready, willing, and able to pay exactly that, but the owner changes her mind and refuses to sell. Generally, the broker:",
+    "options": [
+      "has earned nothing because no contract of sale was signed",
+      "has likely earned the commission despite the owner's refusal",
+      "is owed half the commission as a cancellation fee by law",
+      "may sue only to force the owner to sell to that buyer"
+    ],
+    "answer": 1,
+    "explanation": "In New York, a broker generally earns the commission by producing a buyer ready, willing, and able to buy on the listing's terms, unless the agreement conditions payment on closing. The owner's change of heart does not defeat the claim, and the broker cannot force the sale itself.",
+    "citation": "New York common law of brokerage commissions"
+  },
+  {
+    "id": "contracts-b010",
+    "topic": "contracts",
+    "q": "A buyer's agent works under a written buyer agency agreement, but the agent's compensation will be paid out of the listing broker's commission, which the seller funds. Which statement is correct?",
+    "options": [
+      "The buyer's agent becomes the seller's subagent by accepting the payment",
+      "The payment creates a dual agency that needs the seller's written consent",
+      "The buyer's agent must refuse the payment to avoid divided loyalty",
+      "The buyer's agent still owes fiduciary duties to the buyer, not the seller"
+    ],
+    "answer": 3,
+    "explanation": "Who pays the commission does not decide whom the agent represents; the agency relationship and its fiduciary duties come from the buyer agency agreement. Seller-funded compensation is common and does not make the buyer's agent a subagent or a dual agent.",
+    "citation": "General agency law; RPL §443"
+  },
+  {
+    "id": "contracts-b011",
+    "topic": "contracts",
+    "q": "A buyer signs an exclusive buyer agency agreement stating that the broker is paid if the buyer buys any home of the described type during the term, no matter who finds it. The buyer locates a for-sale-by-owner house herself and buys it during the term. Under these terms:",
+    "options": [
+      "the buyer's broker is likely owed the agreed compensation",
+      "the buyer's broker is owed nothing because no listing existed",
+      "the for-sale-by-owner seller must pay the buyer broker's fee",
+      "the agreement is void because it limits the buyer's choices"
+    ],
+    "answer": 0,
+    "explanation": "This agreement works like an exclusive right to sell listing on the buyer side: the trigger is the buyer's purchase during the term, regardless of who locates the property. The seller never agreed to pay, so the buyer bears the fee under her own contract.",
+    "citation": "Buyer agency agreement terms; general contract law"
+  },
+  {
+    "id": "contracts-b012",
+    "topic": "contracts",
+    "q": "Both parties sign a binder stating the sale is \"subject to a formal contract to be prepared by the seller's attorney,\" and the buyer leaves a small good-faith deposit. Before any contract is signed, the seller accepts a higher offer. Generally:",
+    "options": [
+      "the seller is in breach and must convey the house to the first buyer",
+      "the seller must pay the first buyer the difference between the two prices",
+      "the seller may do so because the binder called for a later formal contract",
+      "the binder became a binding contract once the deposit was accepted"
+    ],
+    "answer": 2,
+    "explanation": "A binder that expressly makes the deal subject to a formal contract shows the parties did not intend to be bound until that contract is signed, so either side may withdraw before then. Accepting a deposit does not by itself turn the binder into an enforceable contract of sale.",
+    "citation": "GOL §5-703; New York contract law on agreements to agree"
+  },
+  {
+    "id": "contracts-b013",
+    "topic": "contracts",
+    "q": "A binder is most likely to be enforceable as a contract of sale when it:",
+    "options": [
+      "is accompanied by a good-faith deposit delivered to the listing broker",
+      "is signed and states all essential terms without reserving a formal contract",
+      "has been reviewed and initialed on each page by the buyer's salesperson",
+      "is later recorded by the listing broker in the county clerk's office"
+    ],
+    "answer": 1,
+    "explanation": "A binder can be a binding contract if it is a signed writing containing all essential terms and the parties did not condition their deal on a later formal contract. A deposit, a salesperson's initials, or recording does not supply the missing intent or terms.",
+    "citation": "GOL §5-703"
+  },
+  {
+    "id": "contracts-b014",
+    "topic": "contracts",
+    "q": "A salesperson filling out a binder writes in her own clause making the seller liable for any future problem with an unpermitted deck. Under New York law, this is best described as:",
+    "options": [
+      "acceptable, because licensees may write any clause both parties approve",
+      "acceptable, as long as the sponsoring broker reviews the clause first",
+      "acceptable only when the salesperson represents the seller, not the buyer",
+      "drafting a legal provision, which risks the unauthorized practice of law"
+    ],
+    "answer": 3,
+    "explanation": "Licensees may fill in factual blanks on a form, such as names, price, and dates, but composing clauses that allocate legal rights is the practice of law. New York courts have disciplined brokers for drafting contract provisions, and party approval or broker review does not cure it.",
+    "citation": "Judiciary Law §478; Duncan & Hill Realty v. Department of State (App. Div. 1978)"
+  },
+  {
+    "id": "contracts-b015",
+    "topic": "contracts",
+    "q": "In typical downstate (New York City area) practice, which sequence usually follows an accepted offer?",
+    "options": [
+      "Seller's attorney drafts; buyer signs and pays the down payment; seller signs and delivers",
+      "Listing broker drafts; both parties sign at the showing; attorneys review it at closing",
+      "Buyer's attorney drafts; seller signs first; buyer pays the down payment at closing",
+      "Title company drafts; lender signs first; both parties sign it at the closing table"
+    ],
+    "answer": 0,
+    "explanation": "Downstate, the seller's attorney customarily prepares the contract; the buyer signs first and delivers the down payment, and the deal binds once the seller signs and the contract is delivered. Brokers do not draft these contracts, and the down payment comes at contract signing, not at closing.",
+    "citation": "New York contract practice; GOL §5-703"
+  },
+  {
+    "id": "contracts-b016",
+    "topic": "contracts",
+    "q": "An upstate contract includes a standard attorney approval contingency. The buyer has second thoughts and tells her attorney to disapprove, and the attorney sends a timely written disapproval giving no reason. The result is:",
+    "options": [
+      "the buyer is bound, because buyer's remorse is not a valid ground",
+      "the disapproval is void unless it identifies a specific legal defect",
+      "the contract ends, because disapproval may rest on any reason or none",
+      "the seller may keep the deposit as liquidated damages for bad faith"
+    ],
+    "answer": 2,
+    "explanation": "New York's highest court held that an unrestricted attorney approval clause lets the attorney disapprove for any reason or no reason, even when the client simply changed her mind. Courts will not probe the motive, so a timely disapproval ends the contract.",
+    "citation": "Moran v. Erk, 11 N.Y.3d 452 (2008)"
+  },
+  {
+    "id": "contracts-b017",
+    "topic": "contracts",
+    "q": "Why do upstate purchase contracts prepared by licensees on a standard form commonly include an attorney approval contingency?",
+    "options": [
+      "It lets the listing broker extend the listing period until the attorneys meet",
+      "Each party's lawyer can review terms set by non-lawyers before they become binding",
+      "It replaces the need for a separate mortgage commitment contingency clause",
+      "It gives the buyer's lender the right to rewrite the agreed purchase price"
+    ],
+    "answer": 1,
+    "explanation": "Because a licensee, not a lawyer, fills in the form, the attorney approval clause gives each side's attorney a short window to review and disapprove before the contract becomes firm. It does not substitute for financing protection or affect the listing.",
+    "citation": "Upstate contract practice; Moran v. Erk, 11 N.Y.3d 452 (2008)"
+  },
+  {
+    "id": "contracts-b018",
+    "topic": "contracts",
+    "q": "A contract's attorney approval clause allows written disapproval within three business days after full execution, excluding weekends and holidays. The contract is fully executed on a Thursday, and no holidays intervene. The last day for disapproval is the following:",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "answer": 3,
+    "explanation": "Counting starts the day after execution and skips the weekend: Friday is day 1, Monday is day 2, Tuesday is day 3. Sunday comes from counting calendar days (Fri, Sat, Sun); Monday comes from wrongly counting Thursday itself as day 1.",
+    "citation": "Contract terms; Moran v. Erk, 11 N.Y.3d 452 (2008)"
+  },
+  {
+    "id": "contracts-b019",
+    "topic": "contracts",
+    "q": "A contract has a mortgage commitment contingency, but the buyer never submits a loan application. On the commitment date, she claims no commitment was issued and demands her down payment back. Most likely, the buyer:",
+    "options": [
+      "cannot rely on the contingency because she did not apply in good faith",
+      "gets the deposit back because no commitment was issued by the date",
+      "gets half the deposit back under the default rule for split deposits",
+      "may extend the commitment date on her own by another thirty days"
+    ],
+    "answer": 0,
+    "explanation": "A mortgage contingency requires the buyer to apply promptly and pursue the loan diligently and in good faith. A buyer who causes the condition to fail by never applying cannot use it to escape, so she risks being in default.",
+    "citation": "General contract law (implied good faith; prevention doctrine)"
+  },
+  {
+    "id": "contracts-b020",
+    "topic": "contracts",
+    "q": "A contract is contingent on the buyer obtaining a commitment for a $400,000 loan. The lender issues a commitment for only $340,000. Generally, the buyer:",
+    "options": [
+      "must accept the smaller loan and bring the shortfall in cash to the closing",
+      "is in default because the lender issued a commitment before the deadline",
+      "may treat the contingency as unmet because the loan is below the contract amount",
+      "must keep reapplying with the same lender until the full amount is approved"
+    ],
+    "answer": 2,
+    "explanation": "The contingency is satisfied only by a commitment meeting the contract's terms. A $340,000 commitment is $60,000 short of the $400,000 specified, so the buyer may rely on the contingency rather than make up the difference.",
+    "citation": "Contract terms; general contract law"
+  },
+  {
+    "id": "contracts-b021",
+    "topic": "contracts",
+    "q": "A contract says that if the buyer has not obtained a mortgage commitment by the commitment date, the buyer must notify the seller in writing by that date or the contingency is waived. The buyer sends no notice, and her loan is denied two weeks later. Most likely:",
+    "options": [
+      "the buyer may still cancel because the lender made the final decision",
+      "the contingency was waived, and the buyer's down payment is at risk",
+      "the seller must extend the commitment date for another thirty days",
+      "the contract becomes an all-cash deal with no deposit at risk"
+    ],
+    "answer": 1,
+    "explanation": "Contingencies protect the buyer only if she follows their notice procedures and deadlines. Here the contract deems the contingency waived when no timely notice is given, so a later denial leaves the buyer bound and her deposit exposed.",
+    "citation": "Contract terms; general contract law"
+  },
+  {
+    "id": "contracts-b022",
+    "topic": "contracts",
+    "q": "A contract's mortgage contingency exists solely for the buyer's benefit. The buyer decides to pay cash and notifies the seller that she waives the contingency. The seller, seeing prices rise, wants out. Generally:",
+    "options": [
+      "the seller may cancel because a contract term has been altered",
+      "the waiver is ineffective until the seller signs it as well",
+      "the waiver is ineffective until the lender confirms it in writing",
+      "the buyer may waive it, and the seller remains bound to sell"
+    ],
+    "answer": 3,
+    "explanation": "A party may waive a condition that exists only for that party's benefit, and the other party stays bound. The seller cannot treat the buyer's waiver as a modification that frees the seller.",
+    "citation": "General contract law (waiver of conditions)"
+  },
+  {
+    "id": "contracts-b023",
+    "topic": "contracts",
+    "q": "A contract gives the buyer ten days to deliver written notice that the home inspection is unsatisfactory. The inspector flags an aging roof, but the buyer sends nothing until day 14. Generally:",
+    "options": [
+      "the contingency has lapsed, so the buyer remains bound to the contract",
+      "the buyer may still cancel because the roof defect is material",
+      "the seller must replace the roof before the buyer has to close",
+      "the inspection period restarts when the written report arrives"
+    ],
+    "answer": 0,
+    "explanation": "An inspection contingency must be exercised within its stated period and in the required form. Notice on day 14 misses the ten-day window, so the contingency is treated as satisfied or waived and the buyer stays bound.",
+    "citation": "Contract terms; general contract law"
+  },
+  {
+    "id": "contracts-b024",
+    "topic": "contracts",
+    "q": "A purchase contract is contingent on the sale of the buyer's current home and includes a 72-hour kick-out clause. The seller receives an acceptable backup offer. Under the clause, the seller:",
+    "options": [
+      "may cancel at once without giving the first buyer any notice or chance to act",
+      "can require the first buyer to close within 72 hours or forfeit the deposit",
+      "notifies the buyer, who has 72 hours to remove the contingency or lose the deal",
+      "must make the backup buyer wait until the first buyer's home actually sells"
+    ],
+    "answer": 2,
+    "explanation": "A kick-out (escape) clause lets the seller keep marketing; when a backup offer arrives, the seller gives notice and the first buyer must waive the sale-of-home contingency within the stated time or the seller may cancel. It does not force the first buyer to close in 72 hours.",
+    "citation": "Contract terms; general contract law"
+  },
+  {
+    "id": "contracts-b025",
+    "topic": "contracts",
+    "q": "A downstate contract sets a $685,000 price with a 10% down payment due at contract signing. The buyer already gave a $5,000 binder deposit that the contract credits toward the down payment. How much must the buyer pay at contract signing?",
+    "options": [
+      "$68,500",
+      "$63,500",
+      "$68,000",
+      "$63,000"
+    ],
+    "answer": 1,
+    "explanation": "Down payment = $685,000 × 10% = $68,500; less the $5,000 credit = $63,500 due at signing. $68,500 ignores the credit; $68,000 and $63,000 come from wrongly subtracting the deposit from the price before taking 10% (($685,000 − $5,000) × 10% = $68,000).",
+    "citation": "Contract terms; arithmetic"
+  },
+  {
+    "id": "contracts-b026",
+    "topic": "contracts",
+    "q": "The buyer cancels, citing the mortgage contingency; the seller says the buyer defaulted. Both demand the down payment held by the seller's attorney as escrowee. The escrowee should generally:",
+    "options": [
+      "release the funds to the seller, because the escrowee is the seller's attorney",
+      "split the funds equally between the parties and close the escrow",
+      "return the funds to the buyer, because the buyer deposited them",
+      "hold the funds until joint written instructions or a court order"
+    ],
+    "answer": 3,
+    "explanation": "An escrowee is a neutral stakeholder bound by the escrow terms. When the parties dispute who is entitled to the down payment, the escrowee keeps it until both parties agree in writing or a court decides; the escrowee's relationship with the seller does not let it pick a side.",
+    "citation": "Escrow terms of the contract; general escrow law"
+  },
+  {
+    "id": "contracts-b027",
+    "topic": "contracts",
+    "q": "A $540,000 contract calls for a 10% down payment at signing, held in escrow and credited at closing, and an 80% mortgage. Ignoring closing costs and adjustments, how much more cash must the buyer bring to closing?",
+    "options": [
+      "$54,000",
+      "$108,000",
+      "$43,200",
+      "$0"
+    ],
+    "answer": 0,
+    "explanation": "Down payment = $540,000 × 10% = $54,000; loan = $540,000 × 80% = $432,000. Cash at closing = $540,000 − $54,000 − $432,000 = $54,000. $108,000 forgets to credit the escrowed down payment; $43,200 is 10% of the loan; $0 counts the down payment twice.",
+    "citation": "Contract terms; arithmetic"
+  },
+  {
+    "id": "contracts-b028",
+    "topic": "contracts",
+    "q": "An owner grants a six-month option to buy her house for $410,000 in exchange for $6,000. Two months later she gets a $450,000 offer and wants to revoke the option. Generally, she:",
+    "options": [
+      "may revoke by refunding the $6,000 option fee to the optionee",
+      "may revoke because the optionee never promised to buy the house",
+      "cannot revoke; the optionee may still buy at $410,000 during the term",
+      "must let the optionee match the $450,000 offer or lose the right"
+    ],
+    "answer": 2,
+    "explanation": "Because the optionee paid consideration, the owner's offer is irrevocable for the option period, and the optionee may buy at the fixed $410,000 price. Requiring a match of a third-party offer describes a right of first refusal, not an option.",
+    "citation": "General contract law (option contracts); GOL §5-703"
+  },
+  {
+    "id": "contracts-b029",
+    "topic": "contracts",
+    "q": "An optionee lets a purchase option expire without exercising it. Usually:",
+    "options": [
+      "the optionee owes the full purchase price as damages",
+      "the optionor keeps the option money and may sell to anyone",
+      "the optionor must refund the option money to the optionee",
+      "the optionee has breached a bilateral contract of sale"
+    ],
+    "answer": 1,
+    "explanation": "An option binds only the optionor; the optionee has the choice, not a duty, to buy. If the option lapses, the optionor keeps the consideration paid for holding the offer open and is free to sell elsewhere.",
+    "citation": "General contract law (option contracts)"
+  },
+  {
+    "id": "contracts-b030",
+    "topic": "contracts",
+    "q": "A tenant's lease gives her a right of first refusal. The owner receives a bona fide $600,000 offer she wants to accept. Generally, the owner must:",
+    "options": [
+      "sell to the tenant at a price set by an independent appraiser",
+      "accept the offer and notify the tenant after the sale closes",
+      "let the tenant buy at the price stated in the original lease",
+      "offer the tenant a chance to buy on the same terms before accepting"
+    ],
+    "answer": 3,
+    "explanation": "A right of first refusal is triggered when the owner decides to sell and receives an acceptable third-party offer; the holder may then match those terms. Unlike an option, it fixes no price in advance, so a lease-stated price is not the measure.",
+    "citation": "General contract law (rights of first refusal)"
+  },
+  {
+    "id": "contracts-b031",
+    "topic": "contracts",
+    "q": "A tenant with a right of first refusal declines to match a $600,000 offer. That deal collapses, and months later the owner sells to someone else for $540,000 without telling the tenant. Most likely:",
+    "options": [
+      "the owner had to re-offer the property to the tenant at the lower price",
+      "the tenant's right ended permanently once she declined the first offer",
+      "no re-offer was needed because a lower price only benefits the tenant",
+      "the tenant may now demand the property at the earlier $600,000 price"
+    ],
+    "answer": 0,
+    "explanation": "Declining one offer generally does not let the owner sell later on materially different, more favorable terms without giving the holder a new chance to match. A $60,000 price cut ($600,000 − $540,000) is a material change, so the tenant should have been offered the $540,000 deal.",
+    "citation": "General contract law (rights of first refusal)"
+  },
+  {
+    "id": "contracts-b032",
+    "topic": "contracts",
+    "q": "A lease-option tenant paid an $8,000 option fee credited toward a $350,000 purchase price and receives a $200 rent credit for each of 12 months. She exercises after 12 months. How much of the price remains?",
+    "options": [
+      "$342,000",
+      "$347,600",
+      "$339,600",
+      "$337,200"
+    ],
+    "answer": 2,
+    "explanation": "Rent credits = $200 × 12 = $2,400. Remaining = $350,000 − $8,000 − $2,400 = $339,600. $342,000 omits the rent credits, $347,600 omits the option fee, and $337,200 counts the rent credits twice.",
+    "citation": "Contract terms; arithmetic"
+  },
+  {
+    "id": "contracts-b033",
+    "topic": "contracts",
+    "q": "During an installment land contract, the buyer usually:",
+    "options": [
+      "holds legal title, while the seller holds a purchase-money mortgage",
+      "has possession and equitable title, while the seller keeps legal title",
+      "has no interest in the land at all until the final payment is made",
+      "shares legal title with the seller as a tenant in common until paid"
+    ],
+    "answer": 1,
+    "explanation": "Under a land (installment) contract the vendee takes possession and equitable title and pays over time; the vendor delivers the deed, and legal title, only when the contract is paid as agreed. If legal title passed with a mortgage back, it would be a purchase-money mortgage sale instead.",
+    "citation": "General real property law (installment land contracts)"
+  },
+  {
+    "id": "contracts-b034",
+    "topic": "contracts",
+    "q": "A land contract vendee has paid more than half the price over several years and improved the property, then defaults. The vendor wants to declare a forfeiture, keep every payment, and simply evict. In New York:",
+    "options": [
+      "the vendor may simply retake possession and keep every payment received",
+      "the vendee automatically receives a deed to a share matching the payments",
+      "the contract converts into a lease and the payments are treated as rent",
+      "a court may require the vendor to foreclose the vendee's equitable interest"
+    ],
+    "answer": 3,
+    "explanation": "New York courts treat a vendee who has paid a substantial part of the price as holding an equitable interest like a mortgagor's, so the vendor may be required to foreclose rather than declare a forfeiture. That protects the vendee's equity, including any surplus from a sale.",
+    "citation": "Bean v. Walker (App. Div. 4th Dept. 1983)"
+  },
+  {
+    "id": "contracts-b035",
+    "topic": "contracts",
+    "q": "How can a land contract vendee best protect against the vendor later selling or mortgaging the property to someone else?",
+    "options": [
+      "Record the contract or a memorandum of it with the county clerk",
+      "Keep the canceled checks for every installment payment made",
+      "Post a written notice of the contract on the property itself",
+      "File a copy of the contract with the Department of State"
+    ],
+    "answer": 0,
+    "explanation": "New York permits an executory contract for the sale of real property to be recorded, which gives constructive notice to later purchasers and lenders. Payment records and posted notices do not give record notice, and DOS does not record land documents.",
+    "citation": "RPL §294; RPL §291"
+  },
+  {
+    "id": "contracts-b036",
+    "topic": "contracts",
+    "q": "Before closing, while the seller still has both title and possession, a fire not caused by the buyer destroys a material part of the house. The contract is silent on risk of loss. The buyer:",
+    "options": [
+      "must close at the full price and collect from the seller's insurer",
+      "must close but may deduct the fire damage from the purchase price",
+      "may cancel and recover the down payment, since the seller cannot enforce",
+      "loses the deposit because equitable title passed when she signed"
+    ],
+    "answer": 2,
+    "explanation": "Under the Uniform Vendor and Purchaser Risk Act, when neither title nor possession has passed and a material part is destroyed without the purchaser's fault, the vendor cannot enforce the contract and the purchaser may recover what she paid. The common-law equitable-conversion rule that put risk on the buyer does not apply.",
+    "citation": "GOL §5-1311(1)(a)"
+  },
+  {
+    "id": "contracts-b037",
+    "topic": "contracts",
+    "q": "Before closing, with title and possession still in the seller, a storm destroys a small detached shed of minor value. Nothing else is damaged. Under the Uniform Vendor and Purchaser Risk Act:",
+    "options": [
+      "the buyer may cancel and recover the entire down payment",
+      "the contract remains enforceable, with a price abatement for the loss",
+      "the buyer must close at the full price with no reduction",
+      "the seller may cancel because the property has changed"
+    ],
+    "answer": 1,
+    "explanation": "When only an immaterial part is destroyed before title or possession passes, neither party may escape the contract, but the price is abated to the extent of the loss. Cancellation is available only when a material part is destroyed.",
+    "citation": "GOL §5-1311(1)(a)"
+  },
+  {
+    "id": "contracts-b038",
+    "topic": "contracts",
+    "q": "By agreement, the buyer moves in two weeks before closing. A storm then badly damages the house through no fault of the seller. The contract is silent on risk of loss. Generally:",
+    "options": [
+      "the seller bears the loss because the deed had not yet been delivered",
+      "the buyer may cancel because a material part of the house was damaged",
+      "the price is reduced by the cost of repairing the storm damage",
+      "the buyer must still pay the full price because possession had passed"
+    ],
+    "answer": 3,
+    "explanation": "Under GOL §5-1311, once either legal title or possession has passed to the purchaser, destruction without the vendor's fault does not relieve the purchaser of the duty to pay or entitle her to a refund. Early possession therefore shifts the risk to the buyer.",
+    "citation": "GOL §5-1311(1)(b)"
+  },
+  {
+    "id": "contracts-b039",
+    "topic": "contracts",
+    "q": "Before title or possession passes, the state takes most of the property by eminent domain. Under the Uniform Vendor and Purchaser Risk Act, generally:",
+    "options": [
+      "the seller cannot enforce the contract, and the buyer may recover the deposit",
+      "the act covers only fire damage, so ordinary contract rules apply instead",
+      "the buyer must close because the taking was not caused by the seller",
+      "the buyer must close and take the condemnation award as the property"
+    ],
+    "answer": 0,
+    "explanation": "GOL §5-1311 treats a taking by eminent domain of all or a material part like destruction: if neither title nor possession has passed, the vendor cannot enforce the contract and the purchaser may recover what she has paid. The act is not limited to fire.",
+    "citation": "GOL §5-1311(1)(a)"
+  },
+  {
+    "id": "contracts-b040",
+    "topic": "contracts",
+    "q": "Which statement about New York's Uniform Vendor and Purchaser Risk Act is accurate?",
+    "options": [
+      "It shifts the risk of loss to the buyer once the contract is signed",
+      "It applies only to sales of commercial and investment property",
+      "Its risk rules apply unless the contract expressly provides otherwise",
+      "Its rules cannot be changed by any term of the parties' contract"
+    ],
+    "answer": 2,
+    "explanation": "GOL §5-1311 is a default rule: it governs unless the contract expressly allocates risk differently, which many attorney-drafted contracts do. It keeps risk on the seller until title or possession passes, rather than shifting it at signing.",
+    "citation": "GOL §5-1311"
+  },
+  {
+    "id": "contracts-b041",
+    "topic": "contracts",
+    "q": "A contract sets closing \"on or about June 1\" and does not say time is of the essence. The buyer's lender is slow, and the buyer is ready June 9. On June 2 the seller declares the buyer in default. Generally, the seller:",
+    "options": [
+      "may cancel because the buyer missed the agreed closing date",
+      "likely cannot cancel, because the date was not made of the essence",
+      "may keep the deposit as liquidated damages for the delay",
+      "may charge the buyer a per-diem penalty fixed by state law"
+    ],
+    "answer": 1,
+    "explanation": "In New York, a closing date that is not made of the essence is a target date; either party is entitled to a reasonable adjournment. A one-day delay is not a default, so the seller cannot cancel or keep the deposit.",
+    "citation": "New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-b042",
+    "topic": "contracts",
+    "q": "When a contract does not make time of the essence, a party may later make it so by notice. To be effective, that notice generally must:",
+    "options": [
+      "be given orally at least one business day before the new closing date",
+      "be approved by the Department of State before it is served on the party",
+      "set any date the sender chooses, no matter how short the time allowed",
+      "be clear, set a reasonable date, and warn that failing to close is a default"
+    ],
+    "answer": 3,
+    "explanation": "New York courts require a time-of-the-essence notice to be clear and unequivocal, to fix a reasonable time to perform, and to warn that failure to perform by then will be treated as a default. An unreasonably short deadline is ineffective, and DOS plays no role.",
+    "citation": "New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-b043",
+    "topic": "contracts",
+    "q": "A contract states that the March 15 closing date is \"time of the essence.\" The seller is ready to close, but the buyer is not and asks for one more week. Generally:",
+    "options": [
+      "the buyer is in default, and the seller may pursue contract remedies",
+      "the buyer gets a reasonable adjournment as a matter of law",
+      "the seller must grant one 30-day extension before declaring default",
+      "the clause is unenforceable in residential home sales"
+    ],
+    "answer": 0,
+    "explanation": "When time is of the essence, the stated date is firm: a party who cannot perform on that date is in default, and the ready party may cancel and pursue its remedies. The reasonable-adjournment rule applies only when time is not of the essence.",
+    "citation": "New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-b044",
+    "topic": "contracts",
+    "q": "A seller serves a proper time-of-the-essence notice setting July 20 for closing. On July 20 the seller cannot deliver clear title because of an unpaid judgment lien, and the buyer does not appear. Generally, the seller:",
+    "options": [
+      "may keep the deposit because the buyer failed to appear on the date",
+      "may cancel because the notice made the July 20 date of the essence",
+      "cannot hold the buyer in default, because the seller was not ready either",
+      "may move the closing date alone and hold the buyer to the new date"
+    ],
+    "answer": 2,
+    "explanation": "A party who declares the other in default on a time-of-the-essence date must itself be ready, willing, and able to perform on that date. An unpaid judgment lien means the seller could not deliver the title required, so the seller cannot cancel or keep the deposit.",
+    "citation": "New York case law on time of the essence"
+  },
+  {
+    "id": "contracts-b045",
+    "topic": "contracts",
+    "q": "A contract of sale says nothing about assignment. Before closing, the buyer assigns her rights to her wholly owned LLC. Generally, the assignment is:",
+    "options": [
+      "void unless the seller consents in writing",
+      "valid even without the seller's consent",
+      "valid only if the LLC pays a new deposit",
+      "valid only after the contract is redrafted"
+    ],
+    "answer": 1,
+    "explanation": "A real estate purchase contract is generally assignable unless it prohibits assignment, so the LLC may take the buyer's place. The buyer as assignor stays liable unless the seller agrees to release her through a novation.",
+    "citation": "General contract law (assignment)"
+  },
+  {
+    "id": "contracts-b046",
+    "topic": "contracts",
+    "q": "A contract states that the buyer may not assign it without the seller's prior written consent. The buyer assigns it to a cousin anyway, and the seller objects. Generally:",
+    "options": [
+      "the seller must accept because sale contracts are assignable",
+      "the seller must accept if the cousin can pay all cash",
+      "the clause is void as an unlawful restraint on sale",
+      "the seller may refuse to close with the cousin"
+    ],
+    "answer": 3,
+    "explanation": "Parties may contract to bar assignment, and an anti-assignment clause requiring consent is enforceable. Without consent, the seller need not deal with the assignee; the general rule of assignability applies only when the contract is silent.",
+    "citation": "General contract law (assignment)"
+  },
+  {
+    "id": "contracts-b047",
+    "topic": "contracts",
+    "q": "A tenant has two years left on a three-year lease when the owner sells the building. Generally:",
+    "options": [
+      "the new owner takes title subject to the lease for its remaining term",
+      "the lease ends automatically when title passes to the new owner",
+      "the new owner may end the lease on 30 days' written notice",
+      "the tenant must sign a new lease with the new owner to stay"
+    ],
+    "answer": 0,
+    "explanation": "A lease is both a conveyance of possession and a contract, and a sale of the building does not end it. The buyer steps into the landlord's position and is bound by the lease for the rest of its term unless the lease says otherwise.",
+    "citation": "General landlord-tenant law"
+  },
+  {
+    "id": "contracts-b048",
+    "topic": "contracts",
+    "q": "A fire not caused by the tenant makes an apartment untenantable. The lease says nothing about fire damage. Under New York law, the tenant:",
+    "options": [
+      "must keep paying rent until the lease term expires",
+      "must stay and wait until the landlord completes repairs",
+      "may quit and surrender possession and owe no further rent",
+      "may withhold rent but must remain in possession"
+    ],
+    "answer": 2,
+    "explanation": "When leased premises are destroyed or made untenantable by fire or the elements without the tenant's fault, and there is no agreement to the contrary, the tenant may quit and surrender possession and is not liable for rent afterward.",
+    "citation": "RPL §227"
+  },
+  {
+    "id": "contracts-b049",
+    "topic": "contracts",
+    "q": "A lease automatically renews for another year unless the tenant gives notice 60 days before it expires. The landlord never reminds the tenant of this clause, and the tenant moves out when the term ends. Under New York law:",
+    "options": [
+      "the lease renews automatically for another full year",
+      "the renewal clause cannot be enforced against the tenant",
+      "the tenant owes rent for the missed 60-day notice period",
+      "the renewal binds the tenant because she signed the lease"
+    ],
+    "answer": 1,
+    "explanation": "GOL §5-905 makes an automatic renewal clause inoperative unless the landlord gives the tenant written notice of it 15 to 30 days before the tenant's notice deadline. Without that reminder, the tenant may leave at the end of the term.",
+    "citation": "GOL §5-905"
   }
 ]

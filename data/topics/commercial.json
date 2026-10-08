@@ -1,24 +1,1262 @@
 [
-{"id":"commercial-001","topic":"commercial","q":"Under a typical gross lease, which statement is correct?","options":["The tenant pays base rent plus its share of property taxes, insurance, and maintenance costs","The tenant pays fixed rent; the landlord pays operating costs like taxes, insurance, and maintenance","The tenant's rent is calculated solely as a percentage of the tenant's gross sales revenue","The tenant leases only the land and constructs and maintains its own building improvements"],"answer":1,"explanation":"In a gross lease the landlord pays the operating expenses out of the rent; it is common for residential and many office leases. Shifting taxes, insurance, and maintenance to the tenant describes a net lease; always read the actual clause for exceptions such as utilities.","citation":"Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-002","topic":"commercial","q":"A drugstore chain signs a triple net (NNN) lease. Conventionally, this means the tenant pays:","options":["Base rent plus property taxes, insurance, and maintenance/repairs","Base rent plus the property taxes only, with the landlord paying the rest","Base rent plus property taxes and insurance only","Only base rent, with the landlord paying all taxes, insurance, and maintenance"],"answer":0,"explanation":"Conventional shorthand: single net = taxes; double net = taxes + insurance; triple net = taxes + insurance + maintenance. The lease language still controls items like roof replacement or capital repairs.","citation":"Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-003","topic":"commercial","q":"A tenant's lease is described as a double net (net-net) lease. In addition to base rent, the tenant conventionally pays:","options":["Property taxes only","Utilities only","Property taxes and insurance","Property taxes, insurance, and maintenance"],"answer":2,"explanation":"Double net conventionally adds taxes and insurance; taxes alone is single net, and adding maintenance makes it triple net. Labels are shorthand only; the clause controls.","citation":"Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-004","topic":"commercial","q":"A retail lease requires base rent of $3,000 per month plus 4% of annual gross sales over $600,000. The tenant's gross sales this year were $850,000. What is the total annual rent?","options":["$13,000","$70,000","$34,000","$46,000"],"answer":3,"explanation":"Base: $3,000 × 12 = $36,000. Overage: ($850,000 − $600,000) × 0.04 = $250,000 × 0.04 = $10,000. Total = $36,000 + $10,000 = $46,000. Applying 4% to all sales ($36,000 + $34,000 = $70,000) ignores the breakpoint.","citation":"Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-005","topic":"commercial","q":"A percentage lease has annual base rent of $60,000 and percentage rent of 6% of gross sales. Assuming a natural breakpoint, at what level of annual gross sales does percentage rent begin?","options":["$3,600","$1,000,000","$636,000","$10,000,000"],"answer":1,"explanation":"Natural breakpoint = annual base rent ÷ percentage rate = $60,000 ÷ 0.06 = $1,000,000. Above that, 6% of sales exceeds the base rent. A lease may instead set a negotiated (artificial) breakpoint.","citation":"Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-006","topic":"commercial","q":"A boutique's percentage lease requires 5% of gross sales over a breakpoint. Sales exceeded the breakpoint, but the owner tells the landlord no percentage rent is owed because the store lost money this year. Is the owner correct?","options":["No, percentage rent is based on gross sales, not on profit","Yes, percentage rent is owed only when the tenant shows a net profit","Yes, a loss year automatically suspends percentage rent","No, percentage rent is based on the landlord's operating expenses"],"answer":0,"explanation":"Percentage rent is computed on defined gross sales above the breakpoint, regardless of whether the tenant's business is profitable. These leases are most common for retail tenants in shopping centers.","citation":"Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-007","topic":"commercial","q":"An index lease sets annual rent at $80,000 when the Consumer Price Index is 250. The rent adjusts by the full percentage change in the CPI, with no cap. If the CPI rises to 260, what is the new annual rent?","options":["$90,000","$80,260","$83,200","$82,000"],"answer":2,"explanation":"CPI change = (260 − 250) ÷ 250 = 10 ÷ 250 = 4%. New rent = $80,000 × 1.04 = $83,200. Treating the 10-point rise as 10 percent or adding points to the rent are the traps.","citation":"Commercial leasing principles — index lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-008","topic":"commercial","q":"An office lease sets rent at $30 per square foot in year 1, $32 in year 2, and $34 in year 3, as written in the lease from the start. This is a:","options":["Index lease","Percentage lease","Net lease","Graduated lease"],"answer":3,"explanation":"A graduated (step-up) lease raises rent by fixed, pre-set amounts on a schedule. An index lease instead moves rent with an outside measure such as the CPI, so the future amounts are not known in advance.","citation":"Commercial leasing principles — graduated lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-009","topic":"commercial","q":"A fast-food chain leases a vacant parcel for 49 years and constructs its own restaurant on it. This arrangement is best described as a:","options":["Ground lease","Gross lease","Percentage lease","Graduated lease"],"answer":0,"explanation":"A ground lease is a long-term lease of land only, with the tenant building and usually paying expenses on the improvements. Unless the lease provides otherwise, the improvements commonly pass to the landowner when the lease ends.","citation":"Commercial leasing principles — ground lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-010","topic":"commercial","q":"In an office building, how does rentable square footage differ from usable square footage?","options":["Rentable area excludes the lobbies and corridors that are included in usable area","Rentable area adds the tenant's pro-rata share of common areas like lobbies and restrooms","Rentable and usable area are always identical; the terms are interchangeable in office leases","Rentable area counts only the finished space with carpeting and ceilings installed"],"answer":1,"explanation":"Usable area is the space the tenant actually occupies; rentable area adds its share of building common areas. Rent is usually quoted per rentable square foot, so rentable is the larger number.","citation":"Commercial leasing principles — area measurement; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-011","topic":"commercial","q":"A suite has 10,000 rentable square feet and 8,500 usable square feet. What is the loss factor?","options":["17.6%","85%","15%","117.6%"],"answer":2,"explanation":"Loss factor = (rentable − usable) ÷ rentable = 1,500 ÷ 10,000 = 15%. Dividing by usable (1,500 ÷ 8,500 ≈ 17.6%) gives the add-on/load percentage instead, and 85% is the efficiency (usable ÷ rentable).","citation":"Commercial leasing principles — loss factor; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-012","topic":"commercial","q":"A tenant needs 4,000 usable square feet. The building has a 20% add-on (load) factor applied to usable area, and rent is $45 per rentable square foot per year. What is the monthly rent?","options":["$15,000","$12,000","$216,000","$18,000"],"answer":3,"explanation":"Rentable = 4,000 × 1.20 = 4,800 sq ft. Annual rent = 4,800 × $45 = $216,000; monthly = $216,000 ÷ 12 = $18,000. Using usable area (4,000 × $45 ÷ 12 = $15,000) ignores the load.","citation":"Commercial leasing principles — load factor; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-013","topic":"commercial","q":"A tenant occupies 3,000 square feet in a 60,000-square-foot shopping center. Annual common area maintenance (CAM) costs are $240,000, shared pro rata by square footage. What is the tenant's annual CAM charge?","options":["$12,000","$1,000","$20,000","$24,000"],"answer":0,"explanation":"Pro-rata share = 3,000 ÷ 60,000 = 5%. CAM = $240,000 × 0.05 = $12,000 per year ($1,000 per month). CAM is a cost-sharing charge for common areas such as parking lots and landscaping, not a measurement of space.","citation":"Commercial leasing principles — CAM charges; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-014","topic":"commercial","q":"A lease provides a tenant improvement (TI) allowance of $40 per rentable square foot on 5,000 rentable square feet. The tenant's build-out costs $260,000, and the lease says the tenant pays any excess. How much does the tenant pay toward the build-out?","options":["$260,000","$60,000","$200,000","$0"],"answer":1,"explanation":"TI allowance = $40 × 5,000 = $200,000 paid by the landlord. Tenant pays the excess: $260,000 − $200,000 = $60,000. TI allowances are a negotiated landlord concession to customize space.","citation":"Commercial leasing principles — tenant improvements; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-015","topic":"commercial","q":"An investor buys a building with $350,000 cash invested. NOI is $120,000 and annual debt service is $85,000. What is the investor's cash-on-cash return?","options":["34.3%","24.3%","10%","41.2%"],"answer":2,"explanation":"Before-tax cash flow = NOI − debt service = $120,000 − $85,000 = $35,000. Cash-on-cash = $35,000 ÷ $350,000 = 10%. Dividing NOI by cash invested (34.3%) skips debt service.","citation":"Real estate investment analysis; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-016","topic":"commercial","q":"An investor finances a purchase mostly with borrowed money. Positive leverage occurs when:","options":["The loan's interest rate is higher than the property's rate of return","The investor pays all cash so no debt service is owed","The property's NOI is less than the annual debt service","The property's rate of return exceeds the cost of the borrowed funds"],"answer":3,"explanation":"Leverage uses borrowed money to increase the return on the investor's own cash. It is positive when the property earns more than the debt costs; if the debt costs more, leverage is negative and magnifies losses.","citation":"Real estate investment analysis; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-017","topic":"commercial","q":"A building listed at $1,100,000 has gross scheduled income of $96,000, operating expenses of $30,000, and annual mortgage payments of $40,000. What is the capitalization rate at the list price?","options":["8.7%","6%","2.4%","16.7%"],"answer":1,"explanation":"NOI = $96,000 − $30,000 = $66,000 (mortgage payments are not operating expenses). Cap rate = NOI ÷ price = $66,000 ÷ $1,100,000 = 6%. Using gross income (8.7%) or deducting debt service (2.4%) are traps.","citation":"Real estate investment analysis — capitalization rate; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"},
-{"id":"commercial-018","topic":"commercial","q":"In an ordinary deferred Section 1031 exchange, after the relinquished property is transferred, the investor must identify replacement property and then receive it within what time limits?","options":["Identify within 45 days; receive within 180 days or by the tax-return due date, if earlier","Identify within 30 days; receive within 90 days or by the tax-return due date, if earlier","Identify within 60 days; receive within 120 days of closing on the relinquished property","Identify within 45 days; receive within one year"],"answer":0,"explanation":"Replacement property must be identified in writing within 45 days and received by the earlier of 180 days after the transfer or the tax-return due date (with extensions). A qualified intermediary should hold the proceeds so the investor never receives them.","citation":"26 U.S.C. § 1031"},
-{"id":"commercial-019","topic":"commercial","q":"An investor exchanges a rental building for a larger warehouse under Section 1031 and also receives $40,000 in cash. The $40,000 is:","options":["Like-kind property, so it is fully tax-deferred","A qualified intermediary fee deductible as an expense","Boot, generally taxable up to the amount of realized gain","Excluded from tax because the exchange was between real properties"],"answer":2,"explanation":"Cash or other non-like-kind property received is boot and can trigger taxable gain up to the realized gain. A rental building for a warehouse is like-kind because both are investment/business real property; a personal home does not qualify.","citation":"26 U.S.C. § 1031"},
-{"id":"commercial-020","topic":"commercial","q":"A salesperson represents a buyer of a 20,000-square-foot warehouse in New York. Which statement about required disclosure forms is correct?","options":["Both the RPL § 443 agency disclosure form and the fair housing and discrimination notice are required","Neither form is required because commercial transactions are exempt from all DOS notices","Only the RPL § 443 agency disclosure form is required","The RPL § 443 agency disclosure form is not required, but the fair housing and discrimination notice is"],"answer":3,"explanation":"The RPL § 443 agency disclosure form covers residential (1-4 family, condo, co-op) transactions, so it does not apply to a warehouse. The DOS Fair Housing and Discrimination notice under 19 NYCRR § 175.28 applies to all real property, including commercial and vacant land.","citation":"NY RPL § 443; 19 NYCRR § 175.28"},
-{"id":"commercial-021","topic":"commercial","q":"A restaurant tenant wants to lease space in a zoning district where restaurants are allowed only if the zoning board finds that specified conditions in the ordinance (parking, hours, traffic) are met. The tenant should apply for a:","options":["Use variance","Special use permit","Nonconforming use designation","Spot zoning amendment"],"answer":1,"explanation":"A special use permit (special exception) allows a use the ordinance already permits subject to stated conditions. A use variance is needed for a use the ordinance prohibits and requires proof of unnecessary hardship.","citation":"NY Town Law § 274-b; NY Village Law § 7-725-b"},
-{"id":"commercial-022","topic":"commercial","q":"A retail tenant's lease says the tenant is solely responsible for ADA compliance. A customer who uses a wheelchair cannot enter the store because of steps at the entrance. Under ADA Title III, who may be responsible to the public?","options":["Only the tenant, because the lease validly shifted all ADA compliance responsibility to it","Only the landlord, because it owns the building and controls the common entrance and steps","Both the landlord and the tenant; the lease allocates the burden but does not erase either's duty","Neither, because ADA Title III applies only to residential housing"],"answer":2,"explanation":"Title III covers public accommodations such as stores, and both the landlord and the tenant can be liable; a lease can allocate the burden between them but cannot waive duties owed to the public. Existing facilities must remove barriers where readily achievable.","citation":"Americans with Disabilities Act Title III, 42 U.S.C. § 12181 et seq.; 28 CFR § 36.201(b)"}
+  {
+    "id": "commercial-001",
+    "topic": "commercial",
+    "q": "Under a typical gross lease, which statement is correct?",
+    "options": [
+      "The tenant pays base rent plus its share of property taxes, insurance, and maintenance costs",
+      "The tenant pays fixed rent; the landlord pays operating costs like taxes, insurance, and maintenance",
+      "The tenant's rent is calculated solely as a percentage of the tenant's gross sales revenue",
+      "The tenant leases only the land and constructs and maintains its own building improvements"
+    ],
+    "answer": 1,
+    "explanation": "In a gross lease the landlord pays the operating expenses out of the rent; it is common for residential and many office leases. Shifting taxes, insurance, and maintenance to the tenant describes a net lease; always read the actual clause for exceptions such as utilities.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-002",
+    "topic": "commercial",
+    "q": "A drugstore chain signs a triple net (NNN) lease. Conventionally, this means the tenant pays:",
+    "options": [
+      "Base rent plus property taxes, insurance, and maintenance/repairs",
+      "Base rent plus the property taxes only, with the landlord paying the rest",
+      "Base rent plus property taxes and insurance only",
+      "Only base rent, with the landlord paying all taxes, insurance, and maintenance"
+    ],
+    "answer": 0,
+    "explanation": "Conventional shorthand: single net = taxes; double net = taxes + insurance; triple net = taxes + insurance + maintenance. The lease language still controls items like roof replacement or capital repairs.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-003",
+    "topic": "commercial",
+    "q": "A tenant's lease is described as a double net (net-net) lease. In addition to base rent, the tenant conventionally pays:",
+    "options": [
+      "Property taxes only",
+      "Utilities only",
+      "Property taxes and insurance",
+      "Property taxes, insurance, and maintenance"
+    ],
+    "answer": 2,
+    "explanation": "Double net conventionally adds taxes and insurance; taxes alone is single net, and adding maintenance makes it triple net. Labels are shorthand only; the clause controls.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-004",
+    "topic": "commercial",
+    "q": "A retail lease requires base rent of $3,000 per month plus 4% of annual gross sales over $600,000. The tenant's gross sales this year were $850,000. What is the total annual rent?",
+    "options": [
+      "$13,000",
+      "$70,000",
+      "$34,000",
+      "$46,000"
+    ],
+    "answer": 3,
+    "explanation": "Base: $3,000 × 12 = $36,000. Overage: ($850,000 − $600,000) × 0.04 = $250,000 × 0.04 = $10,000. Total = $36,000 + $10,000 = $46,000. Applying 4% to all sales ($36,000 + $34,000 = $70,000) ignores the breakpoint.",
+    "citation": "Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-005",
+    "topic": "commercial",
+    "q": "A percentage lease has annual base rent of $60,000 and percentage rent of 6% of gross sales. Assuming a natural breakpoint, at what level of annual gross sales does percentage rent begin?",
+    "options": [
+      "$3,600",
+      "$1,000,000",
+      "$636,000",
+      "$10,000,000"
+    ],
+    "answer": 1,
+    "explanation": "Natural breakpoint = annual base rent ÷ percentage rate = $60,000 ÷ 0.06 = $1,000,000. Above that, 6% of sales exceeds the base rent. A lease may instead set a negotiated (artificial) breakpoint.",
+    "citation": "Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-006",
+    "topic": "commercial",
+    "q": "A boutique's percentage lease requires 5% of gross sales over a breakpoint. Sales exceeded the breakpoint, but the owner tells the landlord no percentage rent is owed because the store lost money this year. Is the owner correct?",
+    "options": [
+      "No, percentage rent is based on gross sales, not on profit",
+      "Yes, percentage rent is owed only when the tenant shows a net profit",
+      "Yes, a loss year automatically suspends percentage rent",
+      "No, percentage rent is based on the landlord's operating expenses"
+    ],
+    "answer": 0,
+    "explanation": "Percentage rent is computed on defined gross sales above the breakpoint, regardless of whether the tenant's business is profitable. These leases are most common for retail tenants in shopping centers.",
+    "citation": "Commercial leasing principles — percentage lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-007",
+    "topic": "commercial",
+    "q": "An index lease sets annual rent at $80,000 when the Consumer Price Index is 250. The rent adjusts by the full percentage change in the CPI, with no cap. If the CPI rises to 260, what is the new annual rent?",
+    "options": [
+      "$90,000",
+      "$80,260",
+      "$83,200",
+      "$82,000"
+    ],
+    "answer": 2,
+    "explanation": "CPI change = (260 − 250) ÷ 250 = 10 ÷ 250 = 4%. New rent = $80,000 × 1.04 = $83,200. Treating the 10-point rise as 10 percent or adding points to the rent are the traps.",
+    "citation": "Commercial leasing principles — index lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-008",
+    "topic": "commercial",
+    "q": "An office lease sets rent at $30 per square foot in year 1, $32 in year 2, and $34 in year 3, as written in the lease from the start. This is a:",
+    "options": [
+      "Index lease",
+      "Percentage lease",
+      "Net lease",
+      "Graduated lease"
+    ],
+    "answer": 3,
+    "explanation": "A graduated (step-up) lease raises rent by fixed, pre-set amounts on a schedule. An index lease instead moves rent with an outside measure such as the CPI, so the future amounts are not known in advance.",
+    "citation": "Commercial leasing principles — graduated lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-009",
+    "topic": "commercial",
+    "q": "A fast-food chain leases a vacant parcel for 49 years and constructs its own restaurant on it. This arrangement is best described as a:",
+    "options": [
+      "Ground lease",
+      "Gross lease",
+      "Percentage lease",
+      "Graduated lease"
+    ],
+    "answer": 0,
+    "explanation": "A ground lease is a long-term lease of land only, with the tenant building and usually paying expenses on the improvements. Unless the lease provides otherwise, the improvements commonly pass to the landowner when the lease ends.",
+    "citation": "Commercial leasing principles — ground lease; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-010",
+    "topic": "commercial",
+    "q": "In an office building, how does rentable square footage differ from usable square footage?",
+    "options": [
+      "Rentable area excludes the lobbies and corridors that are included in usable area",
+      "Rentable area adds the tenant's pro-rata share of common areas like lobbies and restrooms",
+      "Rentable and usable area are always identical; the terms are interchangeable in office leases",
+      "Rentable area counts only the finished space with carpeting and ceilings installed"
+    ],
+    "answer": 1,
+    "explanation": "Usable area is the space the tenant actually occupies; rentable area adds its share of building common areas. Rent is usually quoted per rentable square foot, so rentable is the larger number.",
+    "citation": "Commercial leasing principles — area measurement; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-011",
+    "topic": "commercial",
+    "q": "A suite has 10,000 rentable square feet and 8,500 usable square feet. What is the loss factor?",
+    "options": [
+      "17.6%",
+      "85%",
+      "15%",
+      "117.6%"
+    ],
+    "answer": 2,
+    "explanation": "Loss factor = (rentable − usable) ÷ rentable = 1,500 ÷ 10,000 = 15%. Dividing by usable (1,500 ÷ 8,500 ≈ 17.6%) gives the add-on/load percentage instead, and 85% is the efficiency (usable ÷ rentable).",
+    "citation": "Commercial leasing principles — loss factor; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-012",
+    "topic": "commercial",
+    "q": "A tenant needs 4,000 usable square feet. The building has a 20% add-on (load) factor applied to usable area, and rent is $45 per rentable square foot per year. What is the monthly rent?",
+    "options": [
+      "$15,000",
+      "$12,000",
+      "$216,000",
+      "$18,000"
+    ],
+    "answer": 3,
+    "explanation": "Rentable = 4,000 × 1.20 = 4,800 sq ft. Annual rent = 4,800 × $45 = $216,000; monthly = $216,000 ÷ 12 = $18,000. Using usable area (4,000 × $45 ÷ 12 = $15,000) ignores the load.",
+    "citation": "Commercial leasing principles — load factor; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-013",
+    "topic": "commercial",
+    "q": "A tenant occupies 3,000 square feet in a 60,000-square-foot shopping center. Annual common area maintenance (CAM) costs are $240,000, shared pro rata by square footage. What is the tenant's annual CAM charge?",
+    "options": [
+      "$12,000",
+      "$1,000",
+      "$20,000",
+      "$24,000"
+    ],
+    "answer": 0,
+    "explanation": "Pro-rata share = 3,000 ÷ 60,000 = 5%. CAM = $240,000 × 0.05 = $12,000 per year ($1,000 per month). CAM is a cost-sharing charge for common areas such as parking lots and landscaping, not a measurement of space.",
+    "citation": "Commercial leasing principles — CAM charges; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-014",
+    "topic": "commercial",
+    "q": "A lease provides a tenant improvement (TI) allowance of $40 per rentable square foot on 5,000 rentable square feet. The tenant's build-out costs $260,000, and the lease says the tenant pays any excess. How much does the tenant pay toward the build-out?",
+    "options": [
+      "$260,000",
+      "$60,000",
+      "$200,000",
+      "$0"
+    ],
+    "answer": 1,
+    "explanation": "TI allowance = $40 × 5,000 = $200,000 paid by the landlord. Tenant pays the excess: $260,000 − $200,000 = $60,000. TI allowances are a negotiated landlord concession to customize space.",
+    "citation": "Commercial leasing principles — tenant improvements; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-015",
+    "topic": "commercial",
+    "q": "An investor buys a building with $350,000 cash invested. NOI is $120,000 and annual debt service is $85,000. What is the investor's cash-on-cash return?",
+    "options": [
+      "34.3%",
+      "24.3%",
+      "10%",
+      "41.2%"
+    ],
+    "answer": 2,
+    "explanation": "Before-tax cash flow = NOI − debt service = $120,000 − $85,000 = $35,000. Cash-on-cash = $35,000 ÷ $350,000 = 10%. Dividing NOI by cash invested (34.3%) skips debt service.",
+    "citation": "Real estate investment analysis; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-016",
+    "topic": "commercial",
+    "q": "An investor finances a purchase mostly with borrowed money. Positive leverage occurs when:",
+    "options": [
+      "The loan's interest rate is higher than the property's rate of return",
+      "The investor pays all cash so no debt service is owed",
+      "The property's NOI is less than the annual debt service",
+      "The property's rate of return exceeds the cost of the borrowed funds"
+    ],
+    "answer": 3,
+    "explanation": "Leverage uses borrowed money to increase the return on the investor's own cash. It is positive when the property earns more than the debt costs; if the debt costs more, leverage is negative and magnifies losses.",
+    "citation": "Real estate investment analysis; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-017",
+    "topic": "commercial",
+    "q": "A building listed at $1,100,000 has gross scheduled income of $96,000, operating expenses of $30,000, and annual mortgage payments of $40,000. What is the capitalization rate at the list price?",
+    "options": [
+      "8.7%",
+      "6%",
+      "2.4%",
+      "16.7%"
+    ],
+    "answer": 1,
+    "explanation": "NOI = $96,000 − $30,000 = $66,000 (mortgage payments are not operating expenses). Cap rate = NOI ÷ price = $66,000 ÷ $1,100,000 = 6%. Using gross income (8.7%) or deducting debt service (2.4%) are traps.",
+    "citation": "Real estate investment analysis — capitalization rate; NYS DOS Salesperson Syllabus (Commercial and Investment Property)"
+  },
+  {
+    "id": "commercial-018",
+    "topic": "commercial",
+    "q": "In an ordinary deferred Section 1031 exchange, after the relinquished property is transferred, the investor must identify replacement property and then receive it within what time limits?",
+    "options": [
+      "Identify within 45 days; receive within 180 days or by the tax-return due date, if earlier",
+      "Identify within 30 days; receive within 90 days or by the tax-return due date, if earlier",
+      "Identify within 60 days; receive within 120 days of closing on the relinquished property",
+      "Identify within 45 days; receive within one year"
+    ],
+    "answer": 0,
+    "explanation": "Replacement property must be identified in writing within 45 days and received by the earlier of 180 days after the transfer or the tax-return due date (with extensions). A qualified intermediary should hold the proceeds so the investor never receives them.",
+    "citation": "26 U.S.C. § 1031"
+  },
+  {
+    "id": "commercial-019",
+    "topic": "commercial",
+    "q": "An investor exchanges a rental building for a larger warehouse under Section 1031 and also receives $40,000 in cash. The $40,000 is:",
+    "options": [
+      "Like-kind property, so it is fully tax-deferred",
+      "A qualified intermediary fee deductible as an expense",
+      "Boot, generally taxable up to the amount of realized gain",
+      "Excluded from tax because the exchange was between real properties"
+    ],
+    "answer": 2,
+    "explanation": "Cash or other non-like-kind property received is boot and can trigger taxable gain up to the realized gain. A rental building for a warehouse is like-kind because both are investment/business real property; a personal home does not qualify.",
+    "citation": "26 U.S.C. § 1031"
+  },
+  {
+    "id": "commercial-020",
+    "topic": "commercial",
+    "q": "A salesperson represents a buyer of a 20,000-square-foot warehouse in New York. Which statement about required disclosure forms is correct?",
+    "options": [
+      "Both the RPL § 443 agency disclosure form and the fair housing and discrimination notice are required",
+      "Neither form is required because commercial transactions are exempt from all DOS notices",
+      "Only the RPL § 443 agency disclosure form is required",
+      "The RPL § 443 agency disclosure form is not required, but the fair housing and discrimination notice is"
+    ],
+    "answer": 3,
+    "explanation": "The RPL § 443 agency disclosure form covers residential (1-4 family, condo, co-op) transactions, so it does not apply to a warehouse. The DOS Fair Housing and Discrimination notice under 19 NYCRR § 175.28 applies to all real property, including commercial and vacant land.",
+    "citation": "NY RPL § 443; 19 NYCRR § 175.28"
+  },
+  {
+    "id": "commercial-021",
+    "topic": "commercial",
+    "q": "A restaurant tenant wants to lease space in a zoning district where restaurants are allowed only if the zoning board finds that specified conditions in the ordinance (parking, hours, traffic) are met. The tenant should apply for a:",
+    "options": [
+      "Use variance",
+      "Special use permit",
+      "Nonconforming use designation",
+      "Spot zoning amendment"
+    ],
+    "answer": 1,
+    "explanation": "A special use permit (special exception) allows a use the ordinance already permits subject to stated conditions. A use variance is needed for a use the ordinance prohibits and requires proof of unnecessary hardship.",
+    "citation": "NY Town Law § 274-b; NY Village Law § 7-725-b"
+  },
+  {
+    "id": "commercial-022",
+    "topic": "commercial",
+    "q": "A retail tenant's lease says the tenant is solely responsible for ADA compliance. A customer who uses a wheelchair cannot enter the store because of steps at the entrance. Under ADA Title III, who may be responsible to the public?",
+    "options": [
+      "Only the tenant, because the lease validly shifted all ADA compliance responsibility to it",
+      "Only the landlord, because it owns the building and controls the common entrance and steps",
+      "Both the landlord and the tenant; the lease allocates the burden but does not erase either's duty",
+      "Neither, because ADA Title III applies only to residential housing"
+    ],
+    "answer": 2,
+    "explanation": "Title III covers public accommodations such as stores, and both the landlord and the tenant can be liable; a lease can allocate the burden between them but cannot waive duties owed to the public. Existing facilities must remove barriers where readily achievable.",
+    "citation": "Americans with Disabilities Act Title III, 42 U.S.C. § 12181 et seq.; 28 CFR § 36.201(b)"
+  },
+  {
+    "id": "commercial-a001",
+    "topic": "commercial",
+    "q": "An office tenant pays a fixed base rent plus its own electricity and in-suite janitorial service, while the landlord pays the property taxes, insurance, and building maintenance. This lease is best described as a:",
+    "options": [
+      "Triple net lease",
+      "Percentage lease",
+      "Ground lease",
+      "Modified gross lease"
+    ],
+    "answer": 3,
+    "explanation": "A modified gross lease is a middle ground: the landlord carries the major operating costs (taxes, insurance, maintenance) while the tenant pays specified items such as its own utilities or janitorial. A triple net lease would shift taxes, insurance, and maintenance to the tenant.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — modified gross lease"
+  },
+  {
+    "id": "commercial-a002",
+    "topic": "commercial",
+    "q": "An office lease includes an expense stop of $8.00 per square foot. The tenant leases 5,000 square feet, and this year's operating expenses are $9.50 per square foot. How much does the tenant owe for operating expenses this year in addition to base rent?",
+    "options": [
+      "$7,500",
+      "$47,500",
+      "$40,000",
+      "$625"
+    ],
+    "answer": 0,
+    "explanation": "With an expense stop the landlord pays expenses up to the stop and the tenant pays the excess: ($9.50 − $8.00) × 5,000 = $1.50 × 5,000 = $7,500. Billing the full $9.50 × 5,000 = $47,500 ignores the stop; $40,000 is the landlord's portion; $625 is the monthly amount ($7,500 ÷ 12).",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — expense stop"
+  },
+  {
+    "id": "commercial-a003",
+    "topic": "commercial",
+    "q": "A tenant compares two 3,000-square-foot spaces. Space A is $40 per square foot per year on a gross lease. Space B is $28 per square foot per year on a triple net lease, with taxes, insurance, and maintenance estimated at $10 per square foot per year. Based on these figures, which is true?",
+    "options": [
+      "Space A costs about $6,000 less per year",
+      "Space B costs about $36,000 less per year",
+      "The two spaces cost exactly the same per year",
+      "Space B costs about $6,000 less per year"
+    ],
+    "answer": 3,
+    "explanation": "Space A: $40 × 3,000 = $120,000. Space B: ($28 + $10) × 3,000 = $38 × 3,000 = $114,000. Difference = $6,000 in B's favor. Comparing base rents alone (($40 − $28) × 3,000 = $36,000) ignores the net charges the NNN tenant pays on top of rent.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — gross vs. net lease comparison"
+  },
+  {
+    "id": "commercial-a004",
+    "topic": "commercial",
+    "q": "A retail tenant signed a lease that its broker described as \"triple net.\" The building's roof now needs a full replacement. What decides whether the tenant must pay for it?",
+    "options": [
+      "The triple net label, which always makes the tenant pay",
+      "A general rule that landlords pay for every roof repair",
+      "The specific repair and capital-cost terms of the lease",
+      "The broker's oral description of the lease at signing"
+    ],
+    "answer": 2,
+    "explanation": "\"Triple net\" is conventional shorthand for taxes, insurance, and maintenance; it does not by itself settle who pays capital items such as a roof replacement. The actual lease clauses control, so the label alone cannot answer the question.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — net lease cost allocation"
+  },
+  {
+    "id": "commercial-a005",
+    "topic": "commercial",
+    "q": "A store's lease calls for $72,000 annual base rent plus 6% of gross sales above the natural breakpoint. Annual gross sales are $1,500,000. What is the total annual rent (base plus percentage rent)?",
+    "options": [
+      "$90,000",
+      "$162,000",
+      "$18,000",
+      "$72,000"
+    ],
+    "answer": 0,
+    "explanation": "Natural breakpoint = $72,000 ÷ 0.06 = $1,200,000. Percentage rent = ($1,500,000 − $1,200,000) × 0.06 = $18,000. Total = $72,000 + $18,000 = $90,000 (which equals 6% of all sales once the natural breakpoint is passed). Adding 6% of all sales to base ($72,000 + $90,000 = $162,000) double-counts.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — percentage lease, natural breakpoint"
+  },
+  {
+    "id": "commercial-a006",
+    "topic": "commercial",
+    "q": "A lease sets $60,000 annual base rent plus 5% of gross sales over a negotiated breakpoint of $900,000. This year's gross sales are $1,100,000. How much percentage rent is owed for the year?",
+    "options": [
+      "$10,000",
+      "$0",
+      "$55,000",
+      "$70,000"
+    ],
+    "answer": 0,
+    "explanation": "The lease's artificial breakpoint controls: ($1,100,000 − $900,000) × 0.05 = $200,000 × 0.05 = $10,000. Answering $0 wrongly uses the natural breakpoint ($60,000 ÷ 0.05 = $1,200,000); $55,000 applies 5% to all sales; $70,000 is total rent, not percentage rent.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — percentage lease, artificial breakpoint"
+  },
+  {
+    "id": "commercial-a007",
+    "topic": "commercial",
+    "q": "In a percentage lease, an artificial breakpoint is:",
+    "options": [
+      "The sales level found by dividing annual base rent by the percentage rate",
+      "A negotiated sales threshold other than base rent divided by the rate",
+      "The point at which the tenant's business first becomes profitable",
+      "The maximum percentage rent the landlord may collect in one year"
+    ],
+    "answer": 1,
+    "explanation": "An artificial (negotiated) breakpoint is any sales threshold the parties agree to that differs from the natural breakpoint. Annual base rent ÷ percentage rate is the natural breakpoint, and breakpoints are tied to sales, not profitability.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — percentage lease breakpoints"
+  },
+  {
+    "id": "commercial-a008",
+    "topic": "commercial",
+    "q": "A tenant pays $48,000 annual base rent plus 4% of gross sales above the natural breakpoint. Total rent for the year (base plus percentage rent) was $60,000. What were the tenant's gross sales?",
+    "options": [
+      "$1,200,000",
+      "$300,000",
+      "$1,500,000",
+      "$2,700,000"
+    ],
+    "answer": 2,
+    "explanation": "Natural breakpoint = $48,000 ÷ 0.04 = $1,200,000. Percentage rent = $60,000 − $48,000 = $12,000, so sales above the breakpoint = $12,000 ÷ 0.04 = $300,000. Gross sales = $1,200,000 + $300,000 = $1,500,000. $300,000 is only the excess; $2,700,000 adds the breakpoint to $60,000 ÷ 0.04.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — percentage lease"
+  },
+  {
+    "id": "commercial-a009",
+    "topic": "commercial",
+    "q": "A lease adjusts its $60,000 annual rent each year by the change in the Consumer Price Index, capped at 3% per year. The CPI rises from 240 to 252. What is the new annual rent?",
+    "options": [
+      "$63,000",
+      "$61,800",
+      "$67,200",
+      "$64,800"
+    ],
+    "answer": 1,
+    "explanation": "CPI change = (252 − 240) ÷ 240 = 12 ÷ 240 = 5%, but the cap limits the increase to 3%: $60,000 × 1.03 = $61,800. $63,000 ignores the cap; $67,200 treats the 12-point rise as 12%; $64,800 stacks the 3% cap on top of the 5% change.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — index lease with cap"
+  },
+  {
+    "id": "commercial-a010",
+    "topic": "commercial",
+    "q": "A lease raises its $90,000 annual rent by 50% of the percentage change in the Consumer Price Index. The CPI moves from 300 to 318. What is the new annual rent?",
+    "options": [
+      "$92,700",
+      "$95,400",
+      "$98,100",
+      "$91,350"
+    ],
+    "answer": 0,
+    "explanation": "CPI change = (318 − 300) ÷ 300 = 18 ÷ 300 = 6%; 50% of 6% = 3%; $90,000 × 1.03 = $92,700. $95,400 passes through the full 6%; $98,100 treats the 18-point rise as 18% and halves it (9%); $91,350 halves the change twice (1.5%).",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — index lease, partial CPI pass-through"
+  },
+  {
+    "id": "commercial-a011",
+    "topic": "commercial",
+    "q": "A 2,000-square-foot lease starts at $25.00 per square foot per year and increases 3% each year, compounded. What is the annual rent in year 3?",
+    "options": [
+      "$53,045",
+      "$53,000",
+      "$54,636",
+      "$51,500"
+    ],
+    "answer": 0,
+    "explanation": "Year 3 reflects two increases: $25 × 1.03 × 1.03 = $26.5225 per sq ft; × 2,000 = $53,045. $53,000 uses a simple 6% ($25 × 1.06 × 2,000); $54,636 applies three increases (year 4); $51,500 applies only one.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — graduated lease"
+  },
+  {
+    "id": "commercial-a012",
+    "topic": "commercial",
+    "q": "A five-year lease sets monthly rent at $4,000 in year 1 and raises it by $200 per month at the start of each later year. What total rent will the tenant pay over the full term?",
+    "options": [
+      "$288,000",
+      "$240,000",
+      "$264,000",
+      "$206,400"
+    ],
+    "answer": 2,
+    "explanation": "Monthly rents by year: $4,000 + $4,200 + $4,400 + $4,600 + $4,800 = $22,000; × 12 months = $264,000. $288,000 charges the year-5 rate for all 60 months; $240,000 charges the year-1 rate throughout; $206,400 counts only four years.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — graduated lease"
+  },
+  {
+    "id": "commercial-a013",
+    "topic": "commercial",
+    "q": "Why are ground leases typically written for long terms, such as 49 or 99 years?",
+    "options": [
+      "The tenant needs time to recover the cost of the building it constructs",
+      "State law requires every ground lease to run at least 49 years",
+      "A long term lets the landowner avoid paying any property taxes",
+      "The tenant receives fee title to the land once the term ends"
+    ],
+    "answer": 0,
+    "explanation": "In a ground lease the tenant leases only the land and builds its own improvements, so it needs a term long enough to recoup and finance that investment. No statute sets a minimum term, and the land normally reverts to the owner, not the tenant, at the end.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — ground lease"
+  },
+  {
+    "id": "commercial-a014",
+    "topic": "commercial",
+    "q": "A shopping center's annual CAM costs are $180,000. The lease adds a 15% administrative fee to CAM costs, and the tenant's pro rata share is 4%. What is the tenant's annual CAM charge?",
+    "options": [
+      "$7,200",
+      "$1,080",
+      "$34,200",
+      "$8,280"
+    ],
+    "answer": 3,
+    "explanation": "CAM with fee = $180,000 × 1.15 = $207,000; tenant share = $207,000 × 0.04 = $8,280. $7,200 omits the fee ($180,000 × 0.04); $1,080 is only the tenant's share of the fee; $34,200 adds the whole fee without prorating it.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — CAM charges"
+  },
+  {
+    "id": "commercial-a015",
+    "topic": "commercial",
+    "q": "A tenant leases 2,500 square feet in a center with 50,000 square feet of gross leasable area, of which 10,000 square feet are vacant. Annual CAM costs are $300,000, and the lease allocates CAM by the tenant's area divided by total gross leasable area. What is the tenant's annual CAM charge?",
+    "options": [
+      "$18,750",
+      "$1,250",
+      "$1,562.50",
+      "$15,000"
+    ],
+    "answer": 3,
+    "explanation": "Share = 2,500 ÷ 50,000 = 5%; $300,000 × 0.05 = $15,000 per year. Dividing by the 40,000 occupied square feet ($18,750) would shift vacant-space costs to tenants, which this lease does not do; $1,250 is the monthly figure, and $1,562.50 is the monthly figure on the wrong occupied-area basis.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — CAM allocation"
+  },
+  {
+    "id": "commercial-a016",
+    "topic": "commercial",
+    "q": "A tenant pays estimated CAM of $1,200 per month. At the year-end reconciliation, the tenant's actual share of CAM costs is $15,600. Under a typical reconciliation clause, what happens?",
+    "options": [
+      "The landlord refunds $1,200 to the tenant",
+      "The tenant owes the landlord $15,600 more",
+      "Nothing, because monthly estimates are final",
+      "The tenant owes the landlord an additional $1,200"
+    ],
+    "answer": 3,
+    "explanation": "Estimates paid = $1,200 × 12 = $14,400. Actual share $15,600 − $14,400 = $1,200 underpaid, so the tenant pays the shortfall. Reconciliation true-ups run both ways; a refund would apply only if estimates exceeded the actual share.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — CAM reconciliation"
+  },
+  {
+    "id": "commercial-a017",
+    "topic": "commercial",
+    "q": "A tenant needs 6,000 usable square feet in a building with a 20% loss factor (measured against rentable area). Rent is $40 per rentable square foot per year. What is the annual base rent?",
+    "options": [
+      "$288,000",
+      "$240,000",
+      "$192,000",
+      "$300,000"
+    ],
+    "answer": 3,
+    "explanation": "Loss factor is a share of rentable area, so rentable = 6,000 ÷ (1 − 0.20) = 7,500 sq ft; 7,500 × $40 = $300,000. Multiplying usable by 1.20 (7,200 × $40 = $288,000) treats the loss factor as an add-on factor; $240,000 prices usable area; $192,000 shrinks the area by 20%.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — loss factor"
+  },
+  {
+    "id": "commercial-a018",
+    "topic": "commercial",
+    "q": "Two spaces each give a tenant 5,000 usable square feet. Space A rents for $50 per rentable square foot per year with a load factor of 1.15. Space B rents for $48 per rentable square foot per year with a load factor of 1.22. Which statement about annual base rent is correct?",
+    "options": [
+      "Space B costs $10,000 less per year",
+      "Space B costs $5,300 more per year",
+      "Space A costs $5,300 more per year",
+      "Both spaces cost the same per year"
+    ],
+    "answer": 1,
+    "explanation": "A: 5,000 × 1.15 = 5,750 rentable × $50 = $287,500. B: 5,000 × 1.22 = 6,100 rentable × $48 = $292,800. B costs $292,800 − $287,500 = $5,300 more. Comparing only the quoted rates on usable area ($2 × 5,000 = $10,000) ignores B's higher load.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — rentable vs. usable area"
+  },
+  {
+    "id": "commercial-a019",
+    "topic": "commercial",
+    "q": "An office is quoted at $45 per rentable square foot per year, and the building's load (rentable-to-usable) factor is 1.20. What is the tenant's effective cost per usable square foot per year?",
+    "options": [
+      "$54.00",
+      "$37.50",
+      "$36.00",
+      "$45.00"
+    ],
+    "answer": 0,
+    "explanation": "Each usable square foot carries 1.20 rentable square feet of rent: $45 × 1.20 = $54.00 per usable sq ft. Dividing ($45 ÷ 1.20 = $37.50) or multiplying by 0.80 ($36.00) moves the number the wrong way; $45 is the rentable rate, not the usable cost.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — load factor"
+  },
+  {
+    "id": "commercial-a020",
+    "topic": "commercial",
+    "q": "A lease grants a tenant improvement (TI) allowance of $50 per rentable square foot. The suite has 8,000 rentable and 6,800 usable square feet. What is the total allowance?",
+    "options": [
+      "$340,000",
+      "$60,000",
+      "$400,000",
+      "$460,000"
+    ],
+    "answer": 2,
+    "explanation": "The allowance is quoted per rentable square foot: $50 × 8,000 = $400,000. Using usable area ($50 × 6,800 = $340,000) misapplies the stated basis; $60,000 is only the difference between the two; $460,000 adds that difference on top.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — tenant improvement allowance"
+  },
+  {
+    "id": "commercial-a021",
+    "topic": "commercial",
+    "q": "A five-year lease has a face rent of $6,000 per month, with the first 6 months free. What is the effective (average) monthly rent over the full term?",
+    "options": [
+      "$6,000",
+      "$5,000",
+      "$5,400",
+      "$3,000"
+    ],
+    "answer": 2,
+    "explanation": "Rent paid = (60 − 6) × $6,000 = 54 × $6,000 = $324,000; $324,000 ÷ 60 months = $5,400. $6,000 is the face rent; $5,000 spreads the $36,000 concession over 36 months instead of 60; $3,000 deducts it all within one year.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — free rent concessions"
+  },
+  {
+    "id": "commercial-a022",
+    "topic": "commercial",
+    "q": "A triple net lease grants the tenant four months of \"base rent abatement.\" During those four months, the tenant ordinarily still owes:",
+    "options": [
+      "Its share of taxes, insurance, and CAM as additional rent",
+      "Nothing at all, because every lease charge is abated",
+      "Only the base rent, with all additional rent abated",
+      "Half of the base rent plus half of the CAM charges"
+    ],
+    "answer": 0,
+    "explanation": "A base rent abatement waives only fixed base rent; net charges such as taxes, insurance, and CAM are additional rent and remain payable unless the lease also abates them. Reading \"base rent\" as \"all charges\" is the common mistake.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — free rent / rent abatement"
+  },
+  {
+    "id": "commercial-a023",
+    "topic": "commercial",
+    "q": "A commercial lease states that it is subordinate to any present or future mortgage on the property. This means:",
+    "options": [
+      "The tenant's lease has priority over any later mortgage",
+      "The mortgage has priority over the tenant's leasehold interest",
+      "The tenant must pay the landlord's mortgage directly",
+      "The lender becomes the landlord as soon as the loan closes"
+    ],
+    "answer": 1,
+    "explanation": "Subordination places the lease below the mortgage in priority, so a foreclosure could cut off the lease unless the tenant also has nondisturbance protection. It does not make the tenant pay the debt or make the lender the landlord.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — SNDA (subordination)"
+  },
+  {
+    "id": "commercial-a024",
+    "topic": "commercial",
+    "q": "A tenant's lease is subordinate to the landlord's mortgage. Which agreement protects the tenant's right to stay in possession if the lender later forecloses, as long as the tenant is not in default?",
+    "options": [
+      "An estoppel certificate",
+      "An attornment agreement",
+      "A nondisturbance agreement",
+      "A personal guaranty"
+    ],
+    "answer": 2,
+    "explanation": "Nondisturbance is the lender's promise not to disturb a non-defaulting tenant's possession after foreclosure. Attornment is the tenant's reciprocal promise to recognize the new owner; an estoppel certificate only confirms lease facts.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — SNDA (nondisturbance)"
+  },
+  {
+    "id": "commercial-a025",
+    "topic": "commercial",
+    "q": "After a foreclosure sale, a commercial tenant agrees to recognize the purchaser as its new landlord and pay rent to it. This tenant obligation is called:",
+    "options": [
+      "Nondisturbance",
+      "Subordination",
+      "Assignment",
+      "Attornment"
+    ],
+    "answer": 3,
+    "explanation": "Attornment is the tenant's agreement to accept a successor (such as a foreclosure purchaser) as landlord. Nondisturbance runs the other way, protecting the tenant's possession; subordination concerns lien priority.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — SNDA (attornment)"
+  },
+  {
+    "id": "commercial-a026",
+    "topic": "commercial",
+    "q": "A buyer of an office building and the buyer's lender ask each tenant to sign a statement confirming its rent, lease dates, security deposit, prepaid rent, and any claimed landlord defaults. This document is:",
+    "options": [
+      "A subordination agreement",
+      "A letter of intent",
+      "A rent roll",
+      "An estoppel certificate"
+    ],
+    "answer": 3,
+    "explanation": "An estoppel certificate is a tenant-signed confirmation of lease facts that a buyer or lender can rely on. A rent roll is the landlord's own summary of tenants and rents, so it does not give the tenant's confirmation.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — estoppel certificate"
+  },
+  {
+    "id": "commercial-a027",
+    "topic": "commercial",
+    "q": "A tenant signed an estoppel certificate stating that no rent was prepaid and the landlord was not in default. After the sale, the tenant claims it prepaid three months' rent to the prior owner. Generally:",
+    "options": [
+      "The buyer must credit the prepaid rent because certificates are not binding",
+      "The tenant may be barred from asserting the prepayment against the buyer",
+      "The certificate binds only the seller, so the buyer has no protection",
+      "The tenant may void the lease because the building has been sold"
+    ],
+    "answer": 1,
+    "explanation": "The purpose of an estoppel certificate is reliance: a buyer who relied on the tenant's statements can generally hold the tenant to them, so the tenant is estopped from asserting contrary facts such as an undisclosed prepayment. A sale of the building does not let the tenant void the lease.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — estoppel certificate"
+  },
+  {
+    "id": "commercial-a028",
+    "topic": "commercial",
+    "q": "Tenant 1, with four years remaining on its lease, transfers the premises for the entire remaining term and keeps no interest. Tenant 2 transfers its space for all but the last month of its term. Which is correct?",
+    "options": [
+      "Tenant 1 made a sublease; Tenant 2 made an assignment",
+      "Both made assignments because each transferred possession",
+      "Tenant 1 made an assignment; Tenant 2 made a sublease",
+      "Both made subleases because each signed the original lease"
+    ],
+    "answer": 2,
+    "explanation": "An assignment transfers the tenant's entire remaining interest; a sublease transfers less than the whole, with the tenant keeping a reversion (here, the last month). Whether the lease permits either transfer is a separate question under its consent clause.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — assignment vs. sublease"
+  },
+  {
+    "id": "commercial-a029",
+    "topic": "commercial",
+    "q": "A tenant assigns its lease to a new operator with the landlord's consent, but the landlord signs no release. The assignee later stops paying rent. Generally, the original tenant:",
+    "options": [
+      "Is automatically released once the landlord consents",
+      "Is liable only if it shared in the assignee's profits",
+      "Remains liable on its lease promise to pay rent",
+      "Is liable only for rent due before the assignment"
+    ],
+    "answer": 2,
+    "explanation": "The original tenant's contractual promise to pay rent survives an assignment; consent alone is not a release. Only an express release or a novation substituting the assignee would end the original tenant's liability.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — assignment; privity of contract"
+  },
+  {
+    "id": "commercial-a030",
+    "topic": "commercial",
+    "q": "A tenant sublets half of its space to a subtenant for two years. The subtenant stops paying. Who is generally responsible to the landlord for the full rent under the main lease?",
+    "options": [
+      "The subtenant, who steps into all of the tenant's lease duties",
+      "The original tenant, who remains bound by the main lease",
+      "The tenant and subtenant, each for half of the total rent",
+      "No one, because subletting suspends the main lease"
+    ],
+    "answer": 1,
+    "explanation": "In a sublease the original tenant remains the landlord's tenant and stays liable for all rent; the subtenant's obligations run to the original tenant under the sublease, not directly to the landlord. The tenant's remedy is against the subtenant.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — sublease"
+  },
+  {
+    "id": "commercial-a031",
+    "topic": "commercial",
+    "q": "A newly formed LLC with no operating history wants to lease retail space. The landlord asks the LLC's owner to sign a personal guaranty. The main purpose of the guaranty is to:",
+    "options": [
+      "Convert the lease from a net lease into a gross lease",
+      "Make the owner personally liable if the LLC fails to perform",
+      "Give the owner a recorded ownership interest in the building",
+      "Replace the need for the LLC to sign the lease itself"
+    ],
+    "answer": 1,
+    "explanation": "A personal guaranty adds an individual's credit behind an entity tenant whose limited liability and thin history give the landlord little recourse. The LLC remains the tenant and must still sign; the guaranty does not change the lease type or create ownership.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — personal guaranty"
+  },
+  {
+    "id": "commercial-a032",
+    "topic": "commercial",
+    "q": "A New York City office lease includes a \"good guy\" guaranty. The guarantor's personal liability generally ends when the tenant:",
+    "options": [
+      "First misses a rent payment and receives a notice of default",
+      "Gives the required notice, pays rent through surrender, and vacates",
+      "Obtains landlord consent to refinance its business loans",
+      "Reaches the halfway point of the term, whether or not it stays"
+    ],
+    "answer": 1,
+    "explanation": "A good guy guaranty limits the guarantor's exposure: if the tenant gives the required advance notice, pays rent through the surrender date, and turns over vacant possession, the guarantor is released from rent accruing after surrender. A default triggers liability rather than ending it.",
+    "citation": "Commercial lease guaranty practice (NYC); the guaranty's specific terms control"
+  },
+  {
+    "id": "commercial-a033",
+    "topic": "commercial",
+    "q": "A commercial tenant's three-year lease expires, the tenant stays, and the landlord accepts a rent payment for the following month. With no other agreement, New York law treats the tenancy as:",
+    "options": [
+      "A renewal for another three-year term",
+      "A month-to-month tenancy",
+      "A renewal for a one-year term",
+      "A tenancy at will ending without notice"
+    ],
+    "answer": 1,
+    "explanation": "When a tenant whose term exceeded one month holds over and the landlord accepts rent for a later period, a month-to-month tenancy results unless the parties agreed otherwise. New York rejects the common-law rule letting a landlord bind the holdover tenant to a new term.",
+    "citation": "NY Real Property Law §232-c"
+  },
+  {
+    "id": "commercial-a034",
+    "topic": "commercial",
+    "q": "A commercial lease sets monthly rent at $10,000 and requires holdover rent of 150% of the last monthly rent. The tenant holds over for two months. Under the lease clause, how much does the tenant owe for those two months?",
+    "options": [
+      "$30,000",
+      "$20,000",
+      "$40,000",
+      "$15,000"
+    ],
+    "answer": 0,
+    "explanation": "Holdover rent = $10,000 × 1.50 = $15,000 per month; × 2 months = $30,000. $20,000 ignores the holdover premium; $40,000 assumes double rent; $15,000 counts only one month.",
+    "citation": "Commercial leasing principles; NYS DOS Salesperson Syllabus (Commercial and Investment Property) — holdover"
+  },
+  {
+    "id": "commercial-b001",
+    "topic": "commercial",
+    "q": "An investor compares office buildings in the same market. Which description best fits a Class A office building?",
+    "options": [
+      "A newer, high-quality building in a prime location that commands top-of-market rents",
+      "An older but well-kept building with rents somewhat below the best space in the market",
+      "A dated building needing major upgrades whose rents are among the lowest in the market",
+      "A building used mainly for light manufacturing with some office space near the docks"
+    ],
+    "answer": 0,
+    "explanation": "Class A space is the newest, best-located, best-finished space and earns the highest rents in its market. Class B is a step down (older but well maintained, lower rents); the trap is treating any well-kept building as Class A.",
+    "citation": "General commercial real estate practice (BOMA office building classes)"
+  },
+  {
+    "id": "commercial-b002",
+    "topic": "commercial",
+    "q": "A value-add investor wants an older office building with rents among the lowest in the market and systems needing major upgrades, which she can renovate and reposition. Which class of building is she most likely targeting?",
+    "options": [
+      "Class A",
+      "Class C",
+      "Class B",
+      "Trophy class"
+    ],
+    "answer": 1,
+    "explanation": "Class C buildings are older, often need significant upgrades, and rent at the low end of the market, which gives a renovating buyer room to raise rents. Class B buildings are older but still well maintained and desirable, so they offer less repositioning upside.",
+    "citation": "General commercial real estate practice (office building classes)"
+  },
+  {
+    "id": "commercial-b003",
+    "topic": "commercial",
+    "q": "A developer is planning a shopping center and first tries to sign a large supermarket chain before leasing the smaller stores. Why does the supermarket matter so much to the project?",
+    "options": [
+      "As the anchor tenant, it is legally required to guarantee the rent owed by the smaller stores",
+      "As the ground lessee, it takes title to the land under the center when its lease term expires",
+      "As the anchor tenant, it draws customer traffic that helps the smaller satellite stores succeed",
+      "As the managing agent, it controls the leasing and the common-area budget for the whole center"
+    ],
+    "answer": 2,
+    "explanation": "An anchor tenant is the major store whose customer draw supports the smaller (satellite) tenants, so lenders and other tenants care whether it is signed. An anchor does not guarantee other tenants' rent; any such obligation would have to be in a contract.",
+    "citation": "General commercial real estate practice (retail property, anchor tenants)"
+  },
+  {
+    "id": "commercial-b004",
+    "topic": "commercial",
+    "q": "How does a strip center generally differ from a regional mall?",
+    "options": [
+      "A strip center draws shoppers from a much wider trade area; a regional mall serves only the immediate neighborhood",
+      "A strip center always has a department store anchor; a regional mall usually has no anchor tenant at all",
+      "A strip center is zoned industrial; a regional mall is zoned commercial and may be built only in cities",
+      "A strip center is a small row of stores serving the immediate area; a regional mall draws shoppers from a much wider trade area"
+    ],
+    "answer": 3,
+    "explanation": "Strip centers are small, convenience-oriented rows of stores serving nearby residents, while regional malls are large enclosed or open centers with major anchors and a broad trade area. Reversing the trade areas is the common mix-up.",
+    "citation": "General commercial real estate practice (retail center types)"
+  },
+  {
+    "id": "commercial-b005",
+    "topic": "commercial",
+    "q": "A distribution company asks a salesperson to find warehouse space. Which set of building features is most important to verify for this type of user?",
+    "options": [
+      "Ceiling clear height, floor load capacity, loading docks, and truck access",
+      "Lobby finishes, elevator count, window lines, and the building's office class",
+      "Foot traffic, storefront visibility, co-tenancy, and nearby anchor stores",
+      "Unit mix, rent-stabilization status, laundry income, and tenant turnover"
+    ],
+    "answer": 0,
+    "explanation": "Industrial and warehouse users need stacking height, floor strength, loading facilities, and truck circulation. Foot traffic and storefront visibility are retail concerns, and lobby finishes matter for office tenants.",
+    "citation": "General commercial real estate practice (industrial and warehouse property)"
+  },
+  {
+    "id": "commercial-b006",
+    "topic": "commercial",
+    "q": "A client buys a 24-unit apartment building as an investment. In lending and brokerage practice, how is this property generally treated?",
+    "options": [
+      "As a one-to-four family home financed mainly on the buyer's personal salary",
+      "As income-producing multifamily property financed mainly on the building's income",
+      "As industrial property because it holds more than twenty dwelling units",
+      "As retail property because the owner collects rent from many separate tenants"
+    ],
+    "answer": 1,
+    "explanation": "Apartment buildings with five or more units are generally treated as commercial (income) multifamily property, and lenders underwrite them largely on NOI and debt coverage. One-to-four family dwellings are the residential category financed mainly on the borrower's personal income.",
+    "citation": "General real estate finance practice (multifamily 5+ units)"
+  },
+  {
+    "id": "commercial-b007",
+    "topic": "commercial",
+    "q": "Two otherwise similar buildings each produce $100,000 of NOI. Investors apply a 6% cap rate to one and a 9% cap rate to the other. What does the difference most likely reflect?",
+    "options": [
+      "Investors see more risk in the building valued at the 6% cap rate",
+      "The building valued at the 9% cap rate is worth more than the other",
+      "Investors see more risk in the building valued at the 9% cap rate",
+      "The 9% building must have larger mortgage payments than the other"
+    ],
+    "answer": 2,
+    "explanation": "A higher cap rate means investors demand a higher return for the same income, which signals greater perceived risk and produces a lower value ($100,000 ÷ 0.09 = $1,111,111 versus $100,000 ÷ 0.06 = $1,666,667). Financing does not determine the cap rate, because NOI is measured before debt service.",
+    "citation": "Income capitalization approach (Value = NOI ÷ cap rate)"
+  },
+  {
+    "id": "commercial-b008",
+    "topic": "commercial",
+    "q": "An 18-unit building rents each unit for $2,200 per month. Vacancy and collection loss is 6%, laundry income is $9,600 a year, operating expenses are $168,000, annual debt service is $140,000, and the owner claims $30,000 of depreciation. What is the annual net operating income?",
+    "options": [
+      "$148,288",
+      "$316,800",
+      "$258,288",
+      "$288,288"
+    ],
+    "answer": 3,
+    "explanation": "Potential gross = 18 × $2,200 × 12 = $475,200; minus 6% vacancy ($28,512) = $446,688; plus $9,600 other income = $456,288; minus $168,000 expenses = $288,288. Debt service ($148,288 trap) and depreciation ($258,288 trap) are not operating expenses, and skipping vacancy gives $316,800.",
+    "citation": "Income capitalization approach (reconstructed operating statement)"
+  },
+  {
+    "id": "commercial-b009",
+    "topic": "commercial",
+    "q": "A retail building has effective gross income of $210,000 and operating expenses of $84,000. Comparable sales indicate a 7% capitalization rate. What is the indicated value?",
+    "options": [
+      "$1,800,000",
+      "$3,000,000",
+      "$1,575,000",
+      "$1,200,000"
+    ],
+    "answer": 0,
+    "explanation": "NOI = $210,000 − $84,000 = $126,000; value = $126,000 ÷ 0.07 = $1,800,000. Capitalizing gross income instead of NOI gives $3,000,000, and using an 8% rate gives $1,575,000.",
+    "citation": "Income capitalization approach (IRV: Value = Income ÷ Rate)"
+  },
+  {
+    "id": "commercial-b010",
+    "topic": "commercial",
+    "q": "A seller prices a building with $150,000 of NOI at a 7.5% cap rate. The buyer insists on an 8% cap rate. By how much does the buyer's indicated value fall below the seller's?",
+    "options": [
+      "$10,000",
+      "$125,000",
+      "$9,375",
+      "$150,000"
+    ],
+    "answer": 1,
+    "explanation": "Seller: $150,000 ÷ 0.075 = $2,000,000. Buyer: $150,000 ÷ 0.08 = $1,875,000. Difference = $125,000. Multiplying the 0.5% rate change by the price ($10,000 or $9,375) understates how sensitive value is to the cap rate.",
+    "citation": "Income capitalization approach (Value = NOI ÷ cap rate)"
+  },
+  {
+    "id": "commercial-b011",
+    "topic": "commercial",
+    "q": "A small office building has effective gross income of $260,000, operating expenses of $95,000, and annual debt service of $112,000. The owner also claims $28,000 of depreciation. What is the before-tax cash flow?",
+    "options": [
+      "$25,000",
+      "$165,000",
+      "$53,000",
+      "$148,000"
+    ],
+    "answer": 2,
+    "explanation": "NOI = $260,000 − $95,000 = $165,000; before-tax cash flow = $165,000 − $112,000 = $53,000. Depreciation is a non-cash tax deduction, so subtracting it ($25,000) is the trap; $165,000 is NOI, not cash flow.",
+    "citation": "Investment analysis (NOI − debt service = before-tax cash flow)"
+  },
+  {
+    "id": "commercial-b012",
+    "topic": "commercial",
+    "q": "An investor buys a building for $2,400,000 with a 70% loan, paying the rest in cash plus $30,000 of closing costs. NOI is $180,000 and annual debt service is $115,500. What is the cash-on-cash return?",
+    "options": [
+      "8.96%",
+      "7.5%",
+      "24%",
+      "8.6%"
+    ],
+    "answer": 3,
+    "explanation": "Cash invested = $2,400,000 × 30% = $720,000 + $30,000 = $750,000. Cash flow = $180,000 − $115,500 = $64,500. $64,500 ÷ $750,000 = 8.6%. Leaving out closing costs gives 8.96%; $180,000 ÷ $2,400,000 = 7.5% is the cap rate, not cash-on-cash; and $180,000 ÷ $750,000 = 24% ignores debt service.",
+    "citation": "Investment analysis (cash-on-cash = before-tax cash flow ÷ cash invested)"
+  },
+  {
+    "id": "commercial-b013",
+    "topic": "commercial",
+    "q": "A $1,000,000 building earns $60,000 of NOI. A buyer finances $750,000 with annual debt service of $56,250 and invests $250,000 in cash. What is the buyer's cash-on-cash return?",
+    "options": [
+      "1.5%, showing negative leverage",
+      "6%, the same as an all-cash purchase",
+      "24%, showing positive leverage",
+      "22.5%, showing positive leverage"
+    ],
+    "answer": 0,
+    "explanation": "Cash flow = $60,000 − $56,250 = $3,750; $3,750 ÷ $250,000 = 1.5%. All cash would earn $60,000 ÷ $1,000,000 = 6%, so borrowing at a 7.5% annual loan constant ($56,250 ÷ $750,000) costs more than the property earns and lowers the equity return. Dividing NOI by the equity ($60,000 ÷ $250,000 = 24%) ignores debt service.",
+    "citation": "Investment analysis (leverage; cash-on-cash return)"
+  },
+  {
+    "id": "commercial-b014",
+    "topic": "commercial",
+    "q": "A lender requires a debt service coverage ratio of at least 1.25 on an apartment building with NOI of $210,000. What is the maximum annual debt service the lender will allow?",
+    "options": [
+      "$262,500",
+      "$168,000",
+      "$210,000",
+      "$157,500"
+    ],
+    "answer": 1,
+    "explanation": "DSCR = NOI ÷ debt service, so maximum debt service = $210,000 ÷ 1.25 = $168,000. Multiplying by 1.25 ($262,500) reverses the formula, and taking 75% of NOI ($157,500) is not the same as dividing by 1.25.",
+    "citation": "Commercial lending practice (DSCR = NOI ÷ annual debt service)"
+  },
+  {
+    "id": "commercial-b015",
+    "topic": "commercial",
+    "q": "A building's NOI is $140,000. Annual debt service is $85,000, of which $70,000 is interest and $15,000 is principal, and the owner may deduct $40,000 of depreciation. Ignoring other items, what is the taxable income from operations?",
+    "options": [
+      "$15,000",
+      "$55,000",
+      "$30,000",
+      "$70,000"
+    ],
+    "answer": 2,
+    "explanation": "Taxable income = NOI − mortgage interest − depreciation = $140,000 − $70,000 − $40,000 = $30,000. Principal repayment is not deductible, so subtracting the full $85,000 debt service gives $15,000; $55,000 is the before-tax cash flow, not taxable income.",
+    "citation": "Federal income tax treatment of investment property (interest and depreciation deductions)"
+  },
+  {
+    "id": "commercial-b016",
+    "topic": "commercial",
+    "q": "An investor owns a 40-unit apartment building and a medical office building. Ignoring land, over what straight-line recovery periods are the two buildings generally depreciated?",
+    "options": [
+      "39 years for the apartment building and 27.5 years for the medical office building",
+      "39 years for both, because each building is commercial investment property",
+      "27.5 years for both, because each building is leased to multiple tenants",
+      "27.5 years for the apartment building and 39 years for the medical office building"
+    ],
+    "answer": 3,
+    "explanation": "Residential rental buildings (including large apartment buildings) use 27.5 years, while nonresidential real property such as offices, stores, and warehouses uses 39 years. Treating a large apartment building as nonresidential just because it is a commercial investment is the trap.",
+    "citation": "IRC §168(c) (27.5-year residential rental; 39-year nonresidential real property)"
+  },
+  {
+    "id": "commercial-b017",
+    "topic": "commercial",
+    "q": "A restaurant owner sells his building along with the kitchen equipment and furniture, and wants to defer all gain under §1031. Which part of the sale can qualify for like-kind exchange treatment?",
+    "options": [
+      "Only the building and land, because §1031 now covers real property only",
+      "The building, land, equipment, and furniture, because all are business assets",
+      "Only the equipment and furniture, because they are used directly in the business",
+      "None of it, because property used in a business can never qualify under §1031"
+    ],
+    "answer": 0,
+    "explanation": "Since 2018, §1031 applies only to real property held for business or investment use; equipment and other personal property no longer qualify. Business-use real property still qualifies, so 'none of it' is wrong.",
+    "citation": "IRC §1031(a), as amended by the Tax Cuts and Jobs Act of 2017"
+  },
+  {
+    "id": "commercial-b018",
+    "topic": "commercial",
+    "q": "In a delayed §1031 exchange, an investor wants to list several possible replacement properties in case some deals fall through. Under the three-property rule, she may identify:",
+    "options": [
+      "Up to three properties worth no more than her sale price",
+      "Up to three properties of any value",
+      "Any number of properties of any total value",
+      "Only one property, plus one backup"
+    ],
+    "answer": 1,
+    "explanation": "The three-property rule lets the investor identify up to three replacement properties regardless of their value. Identifying more than three generally requires meeting the separate 200% rule (total value of identified properties no more than twice the relinquished property's value).",
+    "citation": "Treas. Reg. §1.1031(k)-1(c)(4)"
+  },
+  {
+    "id": "commercial-b019",
+    "topic": "commercial",
+    "q": "Which property is NOT eligible for a §1031 like-kind exchange?",
+    "options": [
+      "A warehouse leased to a distribution company",
+      "Vacant land held long-term for investment",
+      "Houses a builder renovates and holds for quick resale",
+      "An office building used in the owner's own business"
+    ],
+    "answer": 2,
+    "explanation": "Property held primarily for sale (dealer or fix-and-flip inventory) does not qualify, because §1031 requires property held for productive use in a business or for investment. A warehouse, investment land, and an owner-used office building all qualify.",
+    "citation": "IRC §1031(a)(1)-(2)"
+  },
+  {
+    "id": "commercial-b020",
+    "topic": "commercial",
+    "q": "A buyer's lender orders a Phase I environmental site assessment on a former gas station. Which activity is NOT normally part of a Phase I assessment?",
+    "options": [
+      "Reviewing historical records of the site's prior uses",
+      "Walking the site to look for signs of contamination",
+      "Interviewing owners and occupants about past operations",
+      "Drilling and sending soil samples to a laboratory"
+    ],
+    "answer": 3,
+    "explanation": "A Phase I is investigative: records review, site reconnaissance, and interviews to identify recognized environmental conditions. Collecting and testing soil or groundwater samples is Phase II work, ordered when a Phase I finds a concern.",
+    "citation": "ASTM E1527-21 Phase I ESA standard; CERCLA all appropriate inquiries (40 CFR Part 312)"
+  },
+  {
+    "id": "commercial-b021",
+    "topic": "commercial",
+    "q": "A buyer wants to purchase a building occupied by an auto repair shop that was legal when built but no longer conforms to the current zoning. The buyer plans to double the shop's size. What should the buyer expect?",
+    "options": [
+      "The use may generally continue, but expanding it usually needs zoning relief",
+      "The use must stop immediately once the title passes to the new owner",
+      "The use may expand freely because the legal status runs with the land",
+      "The use becomes conforming automatically after ten years of operation"
+    ],
+    "answer": 0,
+    "explanation": "A legal nonconforming use may generally continue and pass to a new owner, but local ordinances typically bar enlarging it and may end it if it is discontinued. Assuming the right to continue includes a right to expand is the trap; check the local ordinance.",
+    "citation": "NY Town Law, Village Law, and General City Law zoning; local zoning ordinance"
+  },
+  {
+    "id": "commercial-b022",
+    "topic": "commercial",
+    "q": "A buyer acquires an older retail building that predates the ADA and has a step at the entrance. Under ADA Title III, what is the owner generally required to do?",
+    "options": [
+      "Nothing, because buildings constructed before the ADA are exempt from it",
+      "Remove architectural barriers where readily achievable, such as adding a ramp",
+      "Rebuild the store to meet all new-construction standards within one year",
+      "Post a sign directing customers who use wheelchairs to another store"
+    ],
+    "answer": 1,
+    "explanation": "Title III requires places of public accommodation in existing buildings to remove barriers when doing so is readily achievable (easily accomplishable without much difficulty or expense). Older buildings are not exempt, but full new-construction standards apply to new construction and alterations.",
+    "citation": "Americans with Disabilities Act Title III, 42 U.S.C. §12182(b)(2)(A)(iv)"
+  },
+  {
+    "id": "commercial-b023",
+    "topic": "commercial",
+    "q": "A salesperson leases space in a large apartment complex. Which part of the complex is covered by ADA Title III?",
+    "options": [
+      "The individual apartment units leased to tenants",
+      "Every area of the complex, including each apartment",
+      "The rental leasing office that is open to the public",
+      "No part, because housing is fully exempt from the ADA"
+    ],
+    "answer": 2,
+    "explanation": "Title III covers places of public accommodation, such as a leasing office open to the public, but not the private dwelling units themselves. Accessibility in the apartments is governed by the Fair Housing Act and state and local law instead.",
+    "citation": "ADA Title III, 42 U.S.C. §12181(7); Fair Housing Act, 42 U.S.C. §3604(f)"
+  },
+  {
+    "id": "commercial-b024",
+    "topic": "commercial",
+    "q": "A salesperson lists a 12-unit apartment building for sale in New York. Which disclosure requirement applies when she meets a prospective buyer?",
+    "options": [
+      "The RPL §443 agency disclosure form is required; the fair housing notice is not",
+      "Both the RPL §443 agency form and the fair housing notice are required",
+      "Neither form is required, because the building is commercial property",
+      "The fair housing notice is required; the RPL §443 agency disclosure form is not"
+    ],
+    "answer": 3,
+    "explanation": "The RPL §443 agency disclosure covers sales of one-to-four family residential property, so a 12-unit building is outside it. The fair housing notice under 19 NYCRR §175.28 applies to all real property, including multifamily and commercial.",
+    "citation": "RPL §443(1); 19 NYCRR §175.28"
+  },
+  {
+    "id": "commercial-b025",
+    "topic": "commercial",
+    "q": "A commercial broker represents the landlord of an office building and is asked to represent a prospective tenant for the same space. The §443 agency form does not apply. What must the broker do before acting for both sides?",
+    "options": [
+      "Obtain the informed consent of both parties after full disclosure",
+      "Nothing, because agency duties do not apply to commercial deals",
+      "Obtain the consent of the tenant only, since it is the new client",
+      "Get permission from the Department of State for each dual agency"
+    ],
+    "answer": 0,
+    "explanation": "Common-law fiduciary duties apply in commercial transactions too, so dual agency requires full disclosure and the informed consent of both principals. The §443 form not applying removes only the prescribed form, not the duties behind it.",
+    "citation": "New York common law of agency; RPL §443 (form scope)"
+  },
+  {
+    "id": "commercial-b026",
+    "topic": "commercial",
+    "q": "The owner of a warehouse tells a broker, 'Sell it, and you keep anything over $3 million as your fee.' How should the broker treat this proposal in New York?",
+    "options": [
+      "Accept it, because the net listing ban applies only to residential sales",
+      "Decline it, because net listings are prohibited even for commercial property",
+      "Accept it, as long as the arrangement is signed by the owner in writing",
+      "Accept it, as long as the final fee stays under the customary 6 percent"
+    ],
+    "answer": 1,
+    "explanation": "New York prohibits net listings, and the rule does not exempt commercial property. Putting the arrangement in writing or capping the fee does not cure it; the broker should negotiate a stated commission instead.",
+    "citation": "19 NYCRR §175.19"
+  },
+  {
+    "id": "commercial-b027",
+    "topic": "commercial",
+    "q": "A landlord's broker earns 5% of the aggregate base rent on a 5-year lease of 4,000 square feet. Rent is $36 per square foot in year 1, rising by $1 per square foot each year. What is the total commission?",
+    "options": [
+      "$36,000",
+      "$7,200",
+      "$38,000",
+      "$40,000"
+    ],
+    "answer": 2,
+    "explanation": "Annual rates: $36 + $37 + $38 + $39 + $40 = $190 per sq ft over the term; × 4,000 sq ft = $760,000 aggregate rent; × 5% = $38,000. Using $36 for all five years gives $36,000, and using only year 1 rent gives $7,200.",
+    "citation": "Commercial leasing commission practice (percentage of aggregate rent)"
+  },
+  {
+    "id": "commercial-b028",
+    "topic": "commercial",
+    "q": "A salesperson finds a tenant for a retail space. The landlord offers to pay the salesperson's share directly to save time. What is the correct response?",
+    "options": [
+      "Accept, because commercial deals are exempt from the license law's fee rules",
+      "Accept, as long as the salesperson reports the payment to the broker later",
+      "Accept, as long as the tenant signs a statement consenting to the payment",
+      "Decline, because the salesperson may be paid only through the sponsoring broker"
+    ],
+    "answer": 3,
+    "explanation": "A salesperson acts on behalf of the sponsoring broker and may receive compensation only from that broker, not directly from a principal. Telling the broker afterward or getting the tenant's consent does not cure the violation.",
+    "citation": "RPL §442-a"
+  },
+  {
+    "id": "commercial-b029",
+    "topic": "commercial",
+    "q": "A building superintendent tips off a broker about a tenant looking for space, and the deal closes. The super holds no real estate license. May the broker pay him part of the commission?",
+    "options": [
+      "No, a broker may not share a commission with an unlicensed person",
+      "Yes, because he did not negotiate any of the lease's terms",
+      "Yes, if the payment is under the broker's $500 referral limit",
+      "Yes, if the landlord agrees in writing to the fee being shared"
+    ],
+    "answer": 0,
+    "explanation": "New York prohibits a broker from paying any part of a commission to a person who is not licensed for the services rendered. There is no small-referral exception, and the landlord's consent does not change the rule.",
+    "citation": "RPL §442"
+  },
+  {
+    "id": "commercial-b030",
+    "topic": "commercial",
+    "q": "Three commercial brokerage firms in a county agree that none of them will take an office listing for less than a 6% commission. This agreement is:",
+    "options": [
+      "Legal, because commercial commissions are not regulated",
+      "Illegal price fixing under the antitrust laws",
+      "Legal, as long as the rate is published to every client",
+      "Illegal only if a firm's commission rate exceeds 6%"
+    ],
+    "answer": 1,
+    "explanation": "Commission rates are negotiable between each broker and client; competing firms agreeing on a rate or a floor is price fixing. Publishing the rate or limiting it to commercial deals does not make a conspiracy lawful.",
+    "citation": "Sherman Antitrust Act, 15 U.S.C. §1; NY Donnelly Act, GBL §340"
+  },
+  {
+    "id": "commercial-b031",
+    "topic": "commercial",
+    "q": "A buyer purchases a bakery: the building it occupies, the ovens and display cases, the inventory, and the business name. Which documents typically transfer ownership?",
+    "options": [
+      "A deed for everything, because all of it is located inside the same building",
+      "A bill of sale for everything, because the property is being sold as a business",
+      "A deed for the land and building, and a bill of sale for the equipment and inventory",
+      "A lease for the building, and a deed for the ovens and the remaining inventory"
+    ],
+    "answer": 2,
+    "explanation": "Real property is conveyed by deed; personal property such as equipment, inventory, and goodwill is transferred by bill of sale or assignment. Selling a going business does not turn its building into personal property or its equipment into real property.",
+    "citation": "New York real property law (deeds) and UCC Article 2 (sale of goods)"
+  },
+  {
+    "id": "commercial-b032",
+    "topic": "commercial",
+    "q": "A deli tenant installed refrigerated display cases for its business. The landlord now sells the building. Unless the lease says otherwise, the display cases are generally:",
+    "options": [
+      "Fixtures that became part of the building and now pass to the landlord's buyer",
+      "Fixtures that the deli must leave behind but may bill the new owner for at closing",
+      "Fixtures that belong to whichever party is first to claim them after the closing",
+      "Trade fixtures that remain the tenant's property and may be removed before the lease ends"
+    ],
+    "answer": 3,
+    "explanation": "Equipment a tenant installs for its trade or business is a trade fixture: it remains the tenant's personal property and may be removed by the end of the lease, with any damage repaired. A listing broker should not describe such items as included in the building sale.",
+    "citation": "New York common law of trade fixtures"
+  },
+  {
+    "id": "commercial-b033",
+    "topic": "commercial",
+    "q": "A buyer is purchasing a retail business's assets, including its inventory and equipment, in New York. What must the buyer do to avoid becoming liable for the seller's unpaid sales tax?",
+    "options": [
+      "Notify the Tax Department at least 10 days before paying or taking possession",
+      "Notify the Tax Department within 10 days after the sale has fully closed",
+      "Obtain the seller's written promise that all of its sales taxes were paid",
+      "Record the bill of sale with the county clerk at least 30 days before closing"
+    ],
+    "answer": 0,
+    "explanation": "In a bulk sale of business assets, the purchaser must file Form AU-196.10 with the Tax Department at least 10 days before taking possession or paying, whichever comes first. A seller's assurance does not protect the buyer, and filing after closing is too late.",
+    "citation": "NY Tax Law §1141(c)"
+  },
+  {
+    "id": "commercial-b034",
+    "topic": "commercial",
+    "q": "A building and the business operating in it sell together for $1,500,000, with $300,000 of the price properly allocated to equipment and goodwill. The NYS real estate transfer tax is $2 per $500 of consideration for the real property. What is the transfer tax?",
+    "options": [
+      "$6,000",
+      "$4,800",
+      "$2,400",
+      "$1,200"
+    ],
+    "answer": 1,
+    "explanation": "The transfer tax applies to the consideration for the real property only: $1,500,000 − $300,000 = $1,200,000; $1,200,000 ÷ $500 = 2,400 units × $2 = $4,800. Taxing the full $1,500,000 gives $6,000, taxing only the $300,000 personal-property portion gives $1,200, and 2,400 is the number of units, not the tax.",
+    "citation": "NY Tax Law §§1401(d), 1402"
+  }
 ]

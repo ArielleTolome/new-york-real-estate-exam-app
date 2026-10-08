@@ -42,6 +42,20 @@ for (const [topic] of TOPICS) {
     questions.push({ id: q.id, topic, q: q.q, options: q.options, answer: q.answer, explanation: q.explanation, citation: q.citation });
   }
 }
+
+// Near-duplicates: same keyed answer and ≥85% overlapping stem words. Different numbers in a math stem are
+// different tokens, so variants of a computation with new inputs are not flagged.
+const words = (s) => new Set(s.toLowerCase().replace(/[^a-z0-9$%.\s]/g, ' ').split(/\s+/).filter((w) => w.length > 2));
+const norm = (s) => s.toLowerCase().replace(/\W+/g, ' ').trim();
+const sig = questions.map((q) => ({ id: q.id, w: words(q.q), a: norm(q.options[q.answer]) }));
+for (let i = 0; i < sig.length; i++) {
+  for (let j = i + 1; j < sig.length; j++) {
+    if (sig[i].a !== sig[j].a) continue;
+    let inter = 0;
+    for (const w of sig[i].w) if (sig[j].w.has(w)) inter++;
+    if (inter / (sig[i].w.size + sig[j].w.size - inter) >= 0.85) errors.push(`${sig[i].id} ~ ${sig[j].id}: near-duplicate question`);
+  }
+}
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);

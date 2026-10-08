@@ -1,24 +1,1122 @@
 [
-{"id":"insurance-001","topic":"insurance","q":"Which homeowner's policy form is the most widely used for owner-occupied homes and covers the dwelling against all losses except those specifically excluded?","options":["HO-2 (broad form)","HO-3 (special form)","HO-4 (tenants form)","HO-8 (market value form)"],"answer":1,"explanation":"HO-3, the special form, covers the dwelling on an open-peril basis: everything is covered unless it is excluded. Personal property under an HO-3 is usually covered only for named perils, while HO-2 is a named-peril form for both.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-3 Special Form)"},
-{"id":"insurance-002","topic":"insurance","q":"A tenant renting an apartment wants insurance for her furniture, clothing, and personal liability. Which policy form fits her needs?","options":["HO-3","HO-6","HO-8","HO-4"],"answer":3,"explanation":"HO-4 is the tenant's (renter's) form covering contents and personal liability; the building itself is insured by the landlord. HO-6 is for condominium unit owners, and HO-3 and HO-8 insure owner-occupied dwellings.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-4 Tenants Policy)"},
-{"id":"insurance-003","topic":"insurance","q":"A condominium association carries a master policy on the building. Which policy should an individual unit owner buy to cover personal property, interior improvements, and personal liability?","options":["HO-6","HO-2","HO-4","HO-1"],"answer":0,"explanation":"HO-6 is the condominium unit-owner form; the master policy does not automatically cover everything inside each unit. The DOS syllabus lists HO-6 for condominium owners and HO-4 for tenants and cooperative owners.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-6 Condominium Owners)"},
-{"id":"insurance-004","topic":"insurance","q":"An 1890s Victorian has a market value of $350,000 but would cost $700,000 to rebuild with its original ornate materials. Which policy form is designed for this situation?","options":["HO-5","HO-3","HO-8","HO-6"],"answer":2,"explanation":"HO-8 is the modified (market value) form for older homes whose rebuilding cost exceeds market value; it is a modified version of HO-1 that pays actual cash value or repair with common modern materials rather than full replacement cost. Don't assume it pays the home's sale price.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-8 Market Value Policy)"},
-{"id":"insurance-005","topic":"insurance","q":"Which homeowner's form includes all of the HO-3 coverage and also extends open-peril coverage to personal property, making it the broadest of the standard forms?","options":["HO-1","HO-2","HO-4","HO-5"],"answer":3,"explanation":"HO-5, the comprehensive form, covers both the dwelling and personal property against all perils not excluded. HO-3 covers personal property for named perils only; HO-1 and HO-2 are named-peril forms.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-5 Comprehensive Form)"},
-{"id":"insurance-006","topic":"insurance","q":"Under a named-peril homeowner's policy such as an HO-2, a loss is covered only if:","options":["it was caused by a peril specifically listed in the policy","it was not specifically excluded by the policy","the homeowner reports it within 24 hours","the home is insured for at least 80% of its market value"],"answer":0,"explanation":"A named-peril policy covers only the perils it lists, such as fire, windstorm, or theft. 'Covered unless excluded' describes open-peril (special) coverage, like the dwelling coverage in an HO-3; that difference is the key trap.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-1, HO-2 named perils)"},
-{"id":"insurance-007","topic":"insurance","q":"A single policy that combines property coverage for the dwelling and contents with personal liability coverage is called a:","options":["monoline policy","umbrella policy","package policy","title policy"],"answer":2,"explanation":"A package policy bundles several coverages, such as property and liability, in one contract; the standard homeowner's policy is a package. A monoline policy covers a single line, such as fire only.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (monoline vs. package policy)"},
-{"id":"insurance-008","topic":"insurance","q":"A guest slips on a homeowner's icy front steps and sues for her injuries. Which part of a standard homeowner's policy is designed to respond?","options":["Dwelling coverage (Coverage A)","Personal liability coverage (Coverage E)","Loss-of-use coverage (Coverage D)","Other structures coverage (Coverage B)"],"answer":1,"explanation":"Personal liability coverage pays for covered claims when the insured's negligence injures others or damages their property, including legal defense. Dwelling, other-structures, and loss-of-use coverages pay for the insured's own property losses and extra living costs.","citation":"ISO homeowners policy (Section II liability); NYS DOS 77-hr Syllabus, Subject 12 (liability coverage)"},
-{"id":"insurance-009","topic":"insurance","q":"What is the key difference between replacement cost coverage and actual cash value (ACV) coverage?","options":["ACV subtracts depreciation from the cost to replace; replacement cost pays to replace without that deduction","ACV pays the original purchase price of the item; replacement cost pays the current value of the land","Replacement cost always pays less than ACV for the same loss because it excludes upgrades","ACV applies only to flood losses, and replacement cost applies only to fire and windstorm losses"],"answer":0,"explanation":"Actual cash value equals replacement cost minus depreciation, while replacement cost coverage pays to repair or replace with like kind and quality without deducting depreciation. Land value is irrelevant because insurance covers rebuilding the structure.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (actual cash value or replacement cost)"},
-{"id":"insurance-010","topic":"insurance","q":"A covered fire destroys a homeowner's living room furniture. New replacement furniture costs $3,000, applicable depreciation is $1,800, and the policy pays actual cash value with a $500 deductible. Assuming no other limits, how much will the insurer pay?","options":["$2,500","$1,200","$3,000","$700"],"answer":3,"explanation":"ACV = $3,000 − $1,800 = $1,200; payment = $1,200 − $500 deductible = $700. $2,500 wrongly applies the deductible to replacement cost and ignores depreciation.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (actual cash value, deductibles)"},
-{"id":"insurance-011","topic":"insurance","q":"A home has a replacement cost of $450,000, and its policy has an 80% coinsurance clause. What is the minimum coverage needed to avoid a coinsurance penalty on partial losses?","options":["$450,000","$90,000","$360,000","$400,000"],"answer":2,"explanation":"$450,000 × 0.80 = $360,000. Meeting 80% avoids the partial-loss penalty, but it does not mean a total loss will be paid in full; payment is still capped at the policy limit.","citation":"Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"},
-{"id":"insurance-012","topic":"insurance","q":"A home's replacement cost is $400,000, and the owner carries $320,000 of coverage under a policy with an 80% coinsurance clause. A kitchen fire causes $50,000 of covered damage. Ignoring the deductible, how much will the insurer pay?","options":["$40,000","$50,000","$32,000","$64,000"],"answer":1,"explanation":"Required coverage = $400,000 × 0.80 = $320,000. The owner carries $320,000, which meets the requirement, so the full $50,000 partial loss is paid. $40,000 is the trap of paying only 80% of the loss.","citation":"Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"},
-{"id":"insurance-013","topic":"insurance","q":"A home's replacement cost is $300,000, and the owner carries only $180,000 of coverage under a policy with an 80% coinsurance clause. A storm causes $40,000 of covered damage. Ignoring the deductible, how much will the insurer pay?","options":["$40,000","$24,000","$32,000","$30,000"],"answer":3,"explanation":"Required = $300,000 × 0.80 = $240,000. Payment = ($180,000 ÷ $240,000) × $40,000 = 0.75 × $40,000 = $30,000. $24,000 wrongly divides by the full $300,000 replacement cost instead of the 80% requirement.","citation":"Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"},
-{"id":"insurance-014","topic":"insurance","q":"A homeowner raises the policy deductible from $500 to $2,500. What is the most likely effect?","options":["The premium goes down, and the homeowner pays more out of pocket on each claim","The premium goes up because the insurer now pays a larger share of each covered claim","The policy limits automatically double to match the higher deductible","Flood losses become covered under the policy"],"answer":0,"explanation":"The deductible is the portion of a covered loss the insured pays before the insurer pays. A higher deductible shifts more risk to the insured, so the premium is usually lower; it does not change limits or add excluded perils.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (insurance policy deductibles)"},
-{"id":"insurance-015","topic":"insurance","q":"A buyer assumes her new HO-3 policy will cover damage if a nearby river overflows into the house. Which statement is accurate?","options":["Standard homeowner's policies cover all water damage, including river and storm-surge flooding","Flood is generally excluded, so she needs a separate flood policy, such as one through the NFIP","Flood is covered automatically under an HO-3 only if the home is outside a mapped flood zone","Her owner's title insurance policy will cover any flood losses that happen after closing"],"answer":1,"explanation":"Standard homeowner's and renter's policies generally exclude flood; flood coverage is bought separately through FEMA's National Flood Insurance Program or a private flood insurer. Homes outside high-risk zones can still flood and are not automatically covered.","citation":"National Flood Insurance Program (FEMA); NYS DOS 77-hr Syllabus, Subject 12"},
-{"id":"insurance-016","topic":"insurance","q":"A buyer is financing a home with an FHA-insured mortgage, and the property lies in a FEMA-designated Special Flood Hazard Area. Which statement is correct?","options":["Flood insurance is optional because FHA loans are exempt","Flood insurance is required only if the home has flooded in the last 10 years","Flood insurance is required as a condition of the federally backed loan","The seller must buy flood insurance covering the buyer's first year"],"answer":2,"explanation":"Under the Flood Disaster Protection Act of 1973, loans made, insured, or guaranteed by federal agencies or federally regulated lenders on buildings in Special Flood Hazard Areas require flood insurance. The requirement depends on the flood zone and federal connection, not on past flooding.","citation":"Flood Disaster Protection Act of 1973, 42 U.S.C. § 4012a"},
-{"id":"insurance-017","topic":"insurance","q":"A homeowner with no pending mortgage transaction buys an NFIP flood policy on June 1. Flooding damages the home on June 15. What is the likely result?","options":["The loss is fully covered because the premium was paid before the flood occurred","The loss is covered at half the policy limit because it occurred within the first 30 days","It is generally not covered, because NFIP policies typically have a 30-day waiting period","The loss is covered only if the homeowner also carries an HO-3 policy on the dwelling"],"answer":2,"explanation":"NFIP coverage generally becomes effective 30 days after purchase. Exceptions include a policy bought in connection with making, increasing, extending, or renewing a loan, which can take effect at closing, so buying when a storm is forecast is usually too late.","citation":"National Flood Insurance Act, 42 U.S.C. § 4013(c); FEMA NFIP rules"},
-{"id":"insurance-018","topic":"insurance","q":"Which statement correctly distinguishes title insurance from hazard insurance?","options":["Both are paid as monthly premiums and protect the owner against future fire and storm damage","Hazard insurance protects against forgeries and defects in the chain of title, while title insurance covers fire losses","Title insurance covers physical damage occurring after closing; hazard insurance covers prior liens","Title insurance covers title defects existing before the policy date; hazard insurance covers future physical losses"],"answer":3,"explanation":"Title insurance looks backward: a one-time premium paid at closing protects against covered defects in title, such as forgeries or undisclosed liens, that existed on the policy date. Hazard (homeowner's) insurance looks forward, with ongoing premiums for physical losses such as fire.","citation":"NY Insurance Law Article 64 (title insurance); NYS DOS 77-hr Syllabus (title insurance; homeowner's insurance)"},
-{"id":"insurance-019","topic":"insurance","q":"A homeowner wants extra liability protection above the limits of his homeowner's and auto policies. Which coverage fits?","options":["Umbrella (excess liability) policy","HO-8 modified coverage form","NFIP flood policy","Owner's title insurance policy"],"answer":0,"explanation":"An umbrella policy provides additional liability coverage that kicks in after the underlying policies' liability limits are exhausted. It does not add property coverage such as flood protection for the house.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (umbrella policies)"},
-{"id":"insurance-020","topic":"insurance","q":"A landlord insures a rental two-family house under a landlord's (dwelling) policy. A tenant's laptop is stolen from her unit. Which statement is correct?","options":["The landlord's policy covers the laptop because the theft occurred inside the landlord's insured building","The landlord's policy generally does not cover tenants' belongings; she needs her own renter's (HO-4) policy","NY law requires the landlord to reimburse tenants for any theft that occurs inside a rental unit","The landlord's owner's title insurance policy covers theft losses suffered by tenants"],"answer":1,"explanation":"A landlord's policy insures the building, the landlord's own property, and typically liability and loss of rents, not the tenants' personal property. Tenants protect their contents and liability with an HO-4.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-4; commercial/landlord policies)"},
-{"id":"insurance-021","topic":"insurance","q":"A buyer's insurance agent warns that the home's CLUE report shows two prior water-damage claims. What is a CLUE report?","options":["A municipal record of open building permits and code violations filed against the property","A credit bureau report on the buyer's mortgage payment history and outstanding debts","A FEMA map showing the flood zone boundaries and base flood elevations for the property","An insurance-industry report of a property's claims history, typically for up to seven years"],"answer":3,"explanation":"The Comprehensive Loss Underwriting Exchange (CLUE) report lists past insurance claims on a property, typically for up to seven years. Prior claims can raise premiums or affect insurability, so sellers can order a report on their own property before listing.","citation":"Comprehensive Loss Underwriting Exchange (LexisNexis); Fair Credit Reporting Act"},
-{"id":"insurance-022","topic":"insurance","q":"Which comparison of the HO-1 and HO-2 forms is correct?","options":["Both are named-peril forms, but HO-2 (broad) covers more listed perils than HO-1 (basic)","HO-1 is an open-peril form covering all losses not excluded, while HO-2 is named-peril","HO-2 is designed only for renters, and HO-1 is designed only for condominium unit owners","HO-1 covers flood damage from rising water, while HO-2 excludes flood entirely"],"answer":0,"explanation":"HO-1 (basic) covers a limited list of named perils, and HO-2 (broad) covers those plus additional named perils. Neither is open-peril, and neither covers flood.","citation":"NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-1 Basic, HO-2 Broad)"}
+  {
+    "id": "insurance-001",
+    "topic": "insurance",
+    "q": "Which homeowner's policy form is the most widely used for owner-occupied homes and covers the dwelling against all losses except those specifically excluded?",
+    "options": [
+      "HO-2 (broad form)",
+      "HO-3 (special form)",
+      "HO-4 (tenants form)",
+      "HO-8 (market value form)"
+    ],
+    "answer": 1,
+    "explanation": "HO-3, the special form, covers the dwelling on an open-peril basis: everything is covered unless it is excluded. Personal property under an HO-3 is usually covered only for named perils, while HO-2 is a named-peril form for both.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-3 Special Form)"
+  },
+  {
+    "id": "insurance-002",
+    "topic": "insurance",
+    "q": "A tenant renting an apartment wants insurance for her furniture, clothing, and personal liability. Which policy form fits her needs?",
+    "options": [
+      "HO-3",
+      "HO-6",
+      "HO-8",
+      "HO-4"
+    ],
+    "answer": 3,
+    "explanation": "HO-4 is the tenant's (renter's) form covering contents and personal liability; the building itself is insured by the landlord. HO-6 is for condominium unit owners, and HO-3 and HO-8 insure owner-occupied dwellings.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-4 Tenants Policy)"
+  },
+  {
+    "id": "insurance-003",
+    "topic": "insurance",
+    "q": "A condominium association carries a master policy on the building. Which policy should an individual unit owner buy to cover personal property, interior improvements, and personal liability?",
+    "options": [
+      "HO-6",
+      "HO-2",
+      "HO-4",
+      "HO-1"
+    ],
+    "answer": 0,
+    "explanation": "HO-6 is the condominium unit-owner form; the master policy does not automatically cover everything inside each unit. The DOS syllabus lists HO-6 for condominium owners and HO-4 for tenants and cooperative owners.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-6 Condominium Owners)"
+  },
+  {
+    "id": "insurance-004",
+    "topic": "insurance",
+    "q": "An 1890s Victorian has a market value of $350,000 but would cost $700,000 to rebuild with its original ornate materials. Which policy form is designed for this situation?",
+    "options": [
+      "HO-5",
+      "HO-3",
+      "HO-8",
+      "HO-6"
+    ],
+    "answer": 2,
+    "explanation": "HO-8 is the modified (market value) form for older homes whose rebuilding cost exceeds market value; it is a modified version of HO-1 that pays actual cash value or repair with common modern materials rather than full replacement cost. Don't assume it pays the home's sale price.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-8 Market Value Policy)"
+  },
+  {
+    "id": "insurance-005",
+    "topic": "insurance",
+    "q": "Which homeowner's form includes all of the HO-3 coverage and also extends open-peril coverage to personal property, making it the broadest of the standard forms?",
+    "options": [
+      "HO-1",
+      "HO-2",
+      "HO-4",
+      "HO-5"
+    ],
+    "answer": 3,
+    "explanation": "HO-5, the comprehensive form, covers both the dwelling and personal property against all perils not excluded. HO-3 covers personal property for named perils only; HO-1 and HO-2 are named-peril forms.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-5 Comprehensive Form)"
+  },
+  {
+    "id": "insurance-006",
+    "topic": "insurance",
+    "q": "Under a named-peril homeowner's policy such as an HO-2, a loss is covered only if:",
+    "options": [
+      "it was caused by a peril specifically listed in the policy",
+      "it was not specifically excluded by the policy",
+      "the homeowner reports it within 24 hours",
+      "the home is insured for at least 80% of its market value"
+    ],
+    "answer": 0,
+    "explanation": "A named-peril policy covers only the perils it lists, such as fire, windstorm, or theft. 'Covered unless excluded' describes open-peril (special) coverage, like the dwelling coverage in an HO-3; that difference is the key trap.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-1, HO-2 named perils)"
+  },
+  {
+    "id": "insurance-007",
+    "topic": "insurance",
+    "q": "A single policy that combines property coverage for the dwelling and contents with personal liability coverage is called a:",
+    "options": [
+      "monoline policy",
+      "umbrella policy",
+      "package policy",
+      "title policy"
+    ],
+    "answer": 2,
+    "explanation": "A package policy bundles several coverages, such as property and liability, in one contract; the standard homeowner's policy is a package. A monoline policy covers a single line, such as fire only.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (monoline vs. package policy)"
+  },
+  {
+    "id": "insurance-008",
+    "topic": "insurance",
+    "q": "A guest slips on a homeowner's icy front steps and sues for her injuries. Which part of a standard homeowner's policy is designed to respond?",
+    "options": [
+      "Dwelling coverage (Coverage A)",
+      "Personal liability coverage (Coverage E)",
+      "Loss-of-use coverage (Coverage D)",
+      "Other structures coverage (Coverage B)"
+    ],
+    "answer": 1,
+    "explanation": "Personal liability coverage pays for covered claims when the insured's negligence injures others or damages their property, including legal defense. Dwelling, other-structures, and loss-of-use coverages pay for the insured's own property losses and extra living costs.",
+    "citation": "ISO homeowners policy (Section II liability); NYS DOS 77-hr Syllabus, Subject 12 (liability coverage)"
+  },
+  {
+    "id": "insurance-009",
+    "topic": "insurance",
+    "q": "What is the key difference between replacement cost coverage and actual cash value (ACV) coverage?",
+    "options": [
+      "ACV subtracts depreciation from the cost to replace; replacement cost pays to replace without that deduction",
+      "ACV pays the original purchase price of the item; replacement cost pays the current value of the land",
+      "Replacement cost always pays less than ACV for the same loss because it excludes upgrades",
+      "ACV applies only to flood losses, and replacement cost applies only to fire and windstorm losses"
+    ],
+    "answer": 0,
+    "explanation": "Actual cash value equals replacement cost minus depreciation, while replacement cost coverage pays to repair or replace with like kind and quality without deducting depreciation. Land value is irrelevant because insurance covers rebuilding the structure.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (actual cash value or replacement cost)"
+  },
+  {
+    "id": "insurance-010",
+    "topic": "insurance",
+    "q": "A covered fire destroys a homeowner's living room furniture. New replacement furniture costs $3,000, applicable depreciation is $1,800, and the policy pays actual cash value with a $500 deductible. Assuming no other limits, how much will the insurer pay?",
+    "options": [
+      "$2,500",
+      "$1,200",
+      "$3,000",
+      "$700"
+    ],
+    "answer": 3,
+    "explanation": "ACV = $3,000 − $1,800 = $1,200; payment = $1,200 − $500 deductible = $700. $2,500 wrongly applies the deductible to replacement cost and ignores depreciation.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (actual cash value, deductibles)"
+  },
+  {
+    "id": "insurance-011",
+    "topic": "insurance",
+    "q": "A home has a replacement cost of $450,000, and its policy has an 80% coinsurance clause. What is the minimum coverage needed to avoid a coinsurance penalty on partial losses?",
+    "options": [
+      "$450,000",
+      "$90,000",
+      "$360,000",
+      "$400,000"
+    ],
+    "answer": 2,
+    "explanation": "$450,000 × 0.80 = $360,000. Meeting 80% avoids the partial-loss penalty, but it does not mean a total loss will be paid in full; payment is still capped at the policy limit.",
+    "citation": "Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"
+  },
+  {
+    "id": "insurance-012",
+    "topic": "insurance",
+    "q": "A home's replacement cost is $400,000, and the owner carries $320,000 of coverage under a policy with an 80% coinsurance clause. A kitchen fire causes $50,000 of covered damage. Ignoring the deductible, how much will the insurer pay?",
+    "options": [
+      "$40,000",
+      "$50,000",
+      "$32,000",
+      "$64,000"
+    ],
+    "answer": 1,
+    "explanation": "Required coverage = $400,000 × 0.80 = $320,000. The owner carries $320,000, which meets the requirement, so the full $50,000 partial loss is paid. $40,000 is the trap of paying only 80% of the loss.",
+    "citation": "Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"
+  },
+  {
+    "id": "insurance-013",
+    "topic": "insurance",
+    "q": "A home's replacement cost is $300,000, and the owner carries only $180,000 of coverage under a policy with an 80% coinsurance clause. A storm causes $40,000 of covered damage. Ignoring the deductible, how much will the insurer pay?",
+    "options": [
+      "$40,000",
+      "$24,000",
+      "$32,000",
+      "$30,000"
+    ],
+    "answer": 3,
+    "explanation": "Required = $300,000 × 0.80 = $240,000. Payment = ($180,000 ÷ $240,000) × $40,000 = 0.75 × $40,000 = $30,000. $24,000 wrongly divides by the full $300,000 replacement cost instead of the 80% requirement.",
+    "citation": "Coinsurance (80% rule); NYS DOS 77-hr Syllabus, Subject 12 (amount of insurance needed)"
+  },
+  {
+    "id": "insurance-014",
+    "topic": "insurance",
+    "q": "A homeowner raises the policy deductible from $500 to $2,500. What is the most likely effect?",
+    "options": [
+      "The premium goes down, and the homeowner pays more out of pocket on each claim",
+      "The premium goes up because the insurer now pays a larger share of each covered claim",
+      "The policy limits automatically double to match the higher deductible",
+      "Flood losses become covered under the policy"
+    ],
+    "answer": 0,
+    "explanation": "The deductible is the portion of a covered loss the insured pays before the insurer pays. A higher deductible shifts more risk to the insured, so the premium is usually lower; it does not change limits or add excluded perils.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (insurance policy deductibles)"
+  },
+  {
+    "id": "insurance-015",
+    "topic": "insurance",
+    "q": "A buyer assumes her new HO-3 policy will cover damage if a nearby river overflows into the house. Which statement is accurate?",
+    "options": [
+      "Standard homeowner's policies cover all water damage, including river and storm-surge flooding",
+      "Flood is generally excluded, so she needs a separate flood policy, such as one through the NFIP",
+      "Flood is covered automatically under an HO-3 only if the home is outside a mapped flood zone",
+      "Her owner's title insurance policy will cover any flood losses that happen after closing"
+    ],
+    "answer": 1,
+    "explanation": "Standard homeowner's and renter's policies generally exclude flood; flood coverage is bought separately through FEMA's National Flood Insurance Program or a private flood insurer. Homes outside high-risk zones can still flood and are not automatically covered.",
+    "citation": "National Flood Insurance Program (FEMA); NYS DOS 77-hr Syllabus, Subject 12"
+  },
+  {
+    "id": "insurance-016",
+    "topic": "insurance",
+    "q": "A buyer is financing a home with an FHA-insured mortgage, and the property lies in a FEMA-designated Special Flood Hazard Area. Which statement is correct?",
+    "options": [
+      "Flood insurance is optional because FHA loans are exempt",
+      "Flood insurance is required only if the home has flooded in the last 10 years",
+      "Flood insurance is required as a condition of the federally backed loan",
+      "The seller must buy flood insurance covering the buyer's first year"
+    ],
+    "answer": 2,
+    "explanation": "Under the Flood Disaster Protection Act of 1973, loans made, insured, or guaranteed by federal agencies or federally regulated lenders on buildings in Special Flood Hazard Areas require flood insurance. The requirement depends on the flood zone and federal connection, not on past flooding.",
+    "citation": "Flood Disaster Protection Act of 1973, 42 U.S.C. § 4012a"
+  },
+  {
+    "id": "insurance-017",
+    "topic": "insurance",
+    "q": "A homeowner with no pending mortgage transaction buys an NFIP flood policy on June 1. Flooding damages the home on June 15. What is the likely result?",
+    "options": [
+      "The loss is fully covered because the premium was paid before the flood occurred",
+      "The loss is covered at half the policy limit because it occurred within the first 30 days",
+      "It is generally not covered, because NFIP policies typically have a 30-day waiting period",
+      "The loss is covered only if the homeowner also carries an HO-3 policy on the dwelling"
+    ],
+    "answer": 2,
+    "explanation": "NFIP coverage generally becomes effective 30 days after purchase. Exceptions include a policy bought in connection with making, increasing, extending, or renewing a loan, which can take effect at closing, so buying when a storm is forecast is usually too late.",
+    "citation": "National Flood Insurance Act, 42 U.S.C. § 4013(c); FEMA NFIP rules"
+  },
+  {
+    "id": "insurance-018",
+    "topic": "insurance",
+    "q": "Which statement correctly distinguishes title insurance from hazard insurance?",
+    "options": [
+      "Both are paid as monthly premiums and protect the owner against future fire and storm damage",
+      "Hazard insurance protects against forgeries and defects in the chain of title, while title insurance covers fire losses",
+      "Title insurance covers physical damage occurring after closing; hazard insurance covers prior liens",
+      "Title insurance covers title defects existing before the policy date; hazard insurance covers future physical losses"
+    ],
+    "answer": 3,
+    "explanation": "Title insurance looks backward: a one-time premium paid at closing protects against covered defects in title, such as forgeries or undisclosed liens, that existed on the policy date. Hazard (homeowner's) insurance looks forward, with ongoing premiums for physical losses such as fire.",
+    "citation": "NY Insurance Law Article 64 (title insurance); NYS DOS 77-hr Syllabus (title insurance; homeowner's insurance)"
+  },
+  {
+    "id": "insurance-019",
+    "topic": "insurance",
+    "q": "A homeowner wants extra liability protection above the limits of his homeowner's and auto policies. Which coverage fits?",
+    "options": [
+      "Umbrella (excess liability) policy",
+      "HO-8 modified coverage form",
+      "NFIP flood policy",
+      "Owner's title insurance policy"
+    ],
+    "answer": 0,
+    "explanation": "An umbrella policy provides additional liability coverage that kicks in after the underlying policies' liability limits are exhausted. It does not add property coverage such as flood protection for the house.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (umbrella policies)"
+  },
+  {
+    "id": "insurance-020",
+    "topic": "insurance",
+    "q": "A landlord insures a rental two-family house under a landlord's (dwelling) policy. A tenant's laptop is stolen from her unit. Which statement is correct?",
+    "options": [
+      "The landlord's policy covers the laptop because the theft occurred inside the landlord's insured building",
+      "The landlord's policy generally does not cover tenants' belongings; she needs her own renter's (HO-4) policy",
+      "NY law requires the landlord to reimburse tenants for any theft that occurs inside a rental unit",
+      "The landlord's owner's title insurance policy covers theft losses suffered by tenants"
+    ],
+    "answer": 1,
+    "explanation": "A landlord's policy insures the building, the landlord's own property, and typically liability and loss of rents, not the tenants' personal property. Tenants protect their contents and liability with an HO-4.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-4; commercial/landlord policies)"
+  },
+  {
+    "id": "insurance-021",
+    "topic": "insurance",
+    "q": "A buyer's insurance agent warns that the home's CLUE report shows two prior water-damage claims. What is a CLUE report?",
+    "options": [
+      "A municipal record of open building permits and code violations filed against the property",
+      "A credit bureau report on the buyer's mortgage payment history and outstanding debts",
+      "A FEMA map showing the flood zone boundaries and base flood elevations for the property",
+      "An insurance-industry report of a property's claims history, typically for up to seven years"
+    ],
+    "answer": 3,
+    "explanation": "The Comprehensive Loss Underwriting Exchange (CLUE) report lists past insurance claims on a property, typically for up to seven years. Prior claims can raise premiums or affect insurability, so sellers can order a report on their own property before listing.",
+    "citation": "Comprehensive Loss Underwriting Exchange (LexisNexis); Fair Credit Reporting Act"
+  },
+  {
+    "id": "insurance-022",
+    "topic": "insurance",
+    "q": "Which comparison of the HO-1 and HO-2 forms is correct?",
+    "options": [
+      "Both are named-peril forms, but HO-2 (broad) covers more listed perils than HO-1 (basic)",
+      "HO-1 is an open-peril form covering all losses not excluded, while HO-2 is named-peril",
+      "HO-2 is designed only for renters, and HO-1 is designed only for condominium unit owners",
+      "HO-1 covers flood damage from rising water, while HO-2 excludes flood entirely"
+    ],
+    "answer": 0,
+    "explanation": "HO-1 (basic) covers a limited list of named perils, and HO-2 (broad) covers those plus additional named perils. Neither is open-peril, and neither covers flood.",
+    "citation": "NYS DOS 77-hr Salesperson Syllabus, Subject 12: Property Insurance (HO-1 Basic, HO-2 Broad)"
+  },
+  {
+    "id": "insurance-a001",
+    "topic": "insurance",
+    "q": "In a standard homeowner's policy, which lettered coverage protects the house itself, including attached structures such as an attached garage?",
+    "options": [
+      "Coverage A (dwelling)",
+      "Coverage B (other structures)",
+      "Coverage C (personal property)",
+      "Coverage D (loss of use)"
+    ],
+    "answer": 0,
+    "explanation": "Coverage A insures the dwelling and structures attached to it, such as an attached garage or deck. Coverage B is the trap: it applies to structures set apart from the dwelling, like a detached garage or fence.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section I coverages"
+  },
+  {
+    "id": "insurance-a002",
+    "topic": "insurance",
+    "q": "A windstorm knocks over a homeowner's backyard fence and crushes a detached tool shed. The house is undamaged. Which part of the homeowner's policy responds?",
+    "options": [
+      "Coverage A (dwelling)",
+      "Coverage C (personal property)",
+      "Coverage B (other structures)",
+      "Coverage E (personal liability)"
+    ],
+    "answer": 2,
+    "explanation": "Fences and detached sheds are structures separated from the dwelling, so they fall under Coverage B. Coverage A is limited to the house and attached structures, and Coverage C covers movable belongings rather than buildings.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section I, Coverage B"
+  },
+  {
+    "id": "insurance-a003",
+    "topic": "insurance",
+    "q": "After a covered fire makes their house unlivable, a family stays in a hotel for six weeks and spends more than usual on meals. Which coverage helps pay these increased costs?",
+    "options": [
+      "Coverage F (medical payments to others)",
+      "Coverage D (loss of use)",
+      "Coverage B (other structures)",
+      "Coverage C (personal property)"
+    ],
+    "answer": 1,
+    "explanation": "Coverage D, loss of use, pays additional living expense (the increase over normal living costs) while a covered loss keeps the insured out of the home. Medical payments is unrelated; it pays guests' injury bills.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section I, Coverage D"
+  },
+  {
+    "id": "insurance-a004",
+    "topic": "insurance",
+    "q": "A neighbor's child cuts his hand on a homeowner's broken gate. No lawsuit is filed, and the homeowner wants the policy to pay the child's $600 urgent-care bill whether or not the homeowner was at fault. Which coverage is designed for this?",
+    "options": [
+      "Coverage E (personal liability)",
+      "Coverage D (loss of use)",
+      "Coverage A (dwelling)",
+      "Coverage F (medical payments)"
+    ],
+    "answer": 3,
+    "explanation": "Coverage F pays reasonable medical expenses of guests injured on the premises without requiring proof that the insured was legally liable. Coverage E is the trap: it responds when the insured is legally liable or sued, and it pays defense costs.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section II, Coverage F"
+  },
+  {
+    "id": "insurance-a005",
+    "topic": "insurance",
+    "q": "Which claim would a homeowner's personal liability coverage (Coverage E) generally NOT pay?",
+    "options": [
+      "A guest's broken wrist from a fall on loose stairs",
+      "An injury the insured intentionally caused in a fight",
+      "Legal defense costs for a covered injury lawsuit",
+      "A neighbor's window the insured's child broke by accident"
+    ],
+    "answer": 1,
+    "explanation": "Liability coverage excludes bodily injury or property damage the insured expected or intended. Accidental injuries to guests, accidental damage to others' property by household members, and defense of covered suits are what Coverage E is for.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section II exclusions"
+  },
+  {
+    "id": "insurance-a006",
+    "topic": "insurance",
+    "q": "Under an open-peril (special form) dwelling coverage, how is a loss treated compared with a named-peril policy?",
+    "options": [
+      "It is covered unless the policy specifically excludes its cause",
+      "It is covered only when its cause appears on a list of perils",
+      "It is covered only for fire, lightning, and windstorm losses",
+      "It is covered for every cause, with no exclusions of any kind"
+    ],
+    "answer": 0,
+    "explanation": "Open-peril (\"all risk\") coverage pays for direct physical loss unless an exclusion applies; named-peril coverage pays only if the cause is listed. The trap is believing \"all risk\" means no exclusions: flood, earth movement, and wear and tear are still excluded.",
+    "citation": "Homeowner's policy forms: named-peril vs open-peril coverage (NYS 77-hr syllabus, property insurance)"
+  },
+  {
+    "id": "insurance-a007",
+    "topic": "insurance",
+    "q": "A homeowner files a claim, and the insurer disputes coverage. Under an open-peril policy, which party generally must show that an exclusion applies?",
+    "options": [
+      "The homeowner, by proving a listed peril caused the loss",
+      "The mortgage lender named on the declarations page",
+      "The insurer, by proving the cause falls in an exclusion",
+      "The state insurance department, after an inspection"
+    ],
+    "answer": 2,
+    "explanation": "Under open-peril coverage the insured shows a direct physical loss, and the insurer must prove an exclusion applies to deny it. Under a named-peril policy the burden runs the other way: the insured must show a listed peril caused the loss.",
+    "citation": "General insurance law: burden of proof under named-peril vs open-peril policies"
+  },
+  {
+    "id": "insurance-a008",
+    "topic": "insurance",
+    "q": "An HO-3 policyholder accidentally spills a can of paint on an expensive area rug, ruining it. Accidental spills are not on the HO-3 personal property peril list. What is the likely result?",
+    "options": [
+      "Covered, since HO-3 covers all contents on an open-peril basis",
+      "Covered under Coverage A, since the rug was inside the dwelling",
+      "Covered under Coverage F, since it was an accident in the home",
+      "Not covered, though an HO-5 form would generally cover it"
+    ],
+    "answer": 3,
+    "explanation": "An HO-3 gives open-peril coverage to the dwelling but only named-peril coverage to personal property, so an unlisted cause is not covered. An HO-5 (or an HO-3 with a special personal property endorsement) extends open-peril coverage to contents.",
+    "citation": "Standard homeowner's policy forms HO-3 and HO-5 (NYS 77-hr syllabus, types of homeowner's policies)"
+  },
+  {
+    "id": "insurance-a009",
+    "topic": "insurance",
+    "q": "Which peril is typically covered by the HO-2 broad form but NOT by the HO-1 basic form?",
+    "options": [
+      "Fire or lightning",
+      "Weight of ice, snow, or sleet",
+      "Windstorm, hail, or explosion",
+      "Vandalism or malicious mischief"
+    ],
+    "answer": 1,
+    "explanation": "HO-2 adds perils to the HO-1 list, such as falling objects, weight of ice, snow, or sleet, and accidental discharge of water from plumbing or heating systems. Fire, lightning, windstorm, hail, explosion, and vandalism are already on the basic HO-1 list.",
+    "citation": "Standard homeowner's policy forms HO-1 and HO-2 (NYS 77-hr syllabus, types of homeowner's policies)"
+  },
+  {
+    "id": "insurance-a010",
+    "topic": "insurance",
+    "q": "A 30-year-old roof slowly deteriorates and finally leaks, staining the ceiling. The owner has an HO-3 policy. How will the insurer most likely treat the roof itself?",
+    "options": [
+      "Excluded as wear, tear, and deterioration",
+      "Covered in full as an open-peril dwelling loss",
+      "Covered as a windstorm loss to the dwelling",
+      "Covered at replacement cost after a deductible"
+    ],
+    "answer": 0,
+    "explanation": "Homeowner's policies insure sudden, accidental physical loss; gradual wear, tear, and deterioration is excluded even under open-peril coverage. Calling it a windstorm loss is the trap, because no storm caused the damage.",
+    "citation": "Standard homeowner's policy (ISO HO form) Section I exclusions"
+  },
+  {
+    "id": "insurance-a011",
+    "topic": "insurance",
+    "q": "During heavy rain, water backs up through a basement floor drain and ruins carpeting and furniture. The owner's standard HO-3 has no added endorsements. What is the likely outcome?",
+    "options": [
+      "Covered as an accidental discharge from plumbing",
+      "Covered under the NFIP because rain was involved",
+      "Not covered without a water backup endorsement",
+      "Covered under Coverage D as a loss of use claim"
+    ],
+    "answer": 2,
+    "explanation": "Standard homeowner's forms exclude water that backs up through sewers or drains; a water backup and sump overflow endorsement adds that coverage for an extra premium. Accidental discharge from plumbing is a different, covered event and is the trap here.",
+    "citation": "Standard homeowner's policy water exclusion; water backup endorsement"
+  },
+  {
+    "id": "insurance-a012",
+    "topic": "insurance",
+    "q": "In insurance terms, what is an endorsement?",
+    "options": [
+      "A sworn statement the insured files to support a claim",
+      "The summary page listing the insured, limits, and premium",
+      "A temporary contract of coverage issued before the policy",
+      "A written attachment that adds to or changes the policy"
+    ],
+    "answer": 3,
+    "explanation": "An endorsement (also called a rider) amends the policy by adding, removing, or changing coverage. The other choices describe a proof of loss, the declarations page, and a binder.",
+    "citation": "General insurance terminology; NYS 77-hr syllabus, adding to the basic policy"
+  },
+  {
+    "id": "insurance-a013",
+    "topic": "insurance",
+    "q": "A buyer's $18,000 engagement ring would be paid only up to a low special theft limit under her homeowner's personal property coverage. What is the usual way to insure it for its full value?",
+    "options": [
+      "Raise the Coverage A dwelling limit",
+      "Add a scheduled personal property endorsement",
+      "Add a loss assessment endorsement",
+      "Raise the Coverage F medical payments limit"
+    ],
+    "answer": 1,
+    "explanation": "Homeowner's forms cap theft of jewelry and similar valuables at a special sublimit; scheduling the item (a floater or scheduled personal property endorsement) insures it for an agreed value. Raising Coverage A does not lift a Coverage C sublimit.",
+    "citation": "Standard homeowner's policy special limits; scheduled personal property endorsement"
+  },
+  {
+    "id": "insurance-a014",
+    "topic": "insurance",
+    "q": "A homeowner worries that construction costs will rise faster than the dwelling limit over the next few years. Which endorsement automatically raises the Coverage A limit over the policy term?",
+    "options": [
+      "Inflation guard endorsement",
+      "Ordinance or law endorsement",
+      "Loss assessment endorsement",
+      "Scheduled property endorsement"
+    ],
+    "answer": 0,
+    "explanation": "An inflation guard endorsement increases the dwelling limit by a set percentage over time to keep pace with rebuilding costs. Ordinance or law coverage is the trap: it pays the extra cost of meeting current building codes, not general inflation.",
+    "citation": "Homeowner's policy inflation guard endorsement"
+  },
+  {
+    "id": "insurance-a015",
+    "topic": "insurance",
+    "q": "After a fire, the local building department requires an older home's rebuilt wiring and stairs to meet the current code, which raises the repair cost. Which coverage addresses that added expense?",
+    "options": [
+      "Additional living expense coverage",
+      "Inflation guard coverage",
+      "Ordinance or law coverage",
+      "Medical payments coverage"
+    ],
+    "answer": 2,
+    "explanation": "Ordinance or law coverage pays the increased cost to repair or rebuild in compliance with current building codes, which standard dwelling coverage limits or excludes. Inflation guard only adjusts the limit for general cost increases.",
+    "citation": "Homeowner's policy ordinance or law coverage"
+  },
+  {
+    "id": "insurance-a016",
+    "topic": "insurance",
+    "q": "A condominium association's master policy carries a $25,000 deductible, and after a covered roof loss the board assesses each unit owner a share. Which coverage in a unit owner's HO-6 policy can pay that assessment?",
+    "options": [
+      "Coverage B (other structures)",
+      "Coverage D (loss of use)",
+      "Coverage F (medical payments)",
+      "Loss assessment coverage"
+    ],
+    "answer": 3,
+    "explanation": "Loss assessment coverage pays the unit owner's share of an association assessment arising from a covered loss to common property, often including a master-policy deductible. The master policy itself does not pay its own deductible.",
+    "citation": "HO-6 condominium unit owner's policy, loss assessment coverage"
+  },
+  {
+    "id": "insurance-a017",
+    "topic": "insurance",
+    "q": "A roof with a 20-year useful life is 15 years old when a covered storm destroys it. Replacing it costs $24,000. The policy pays actual cash value using straight-line depreciation, with a $1,000 deductible. How much will the insurer pay?",
+    "options": [
+      "$5,000",
+      "$17,000",
+      "$6,000",
+      "$23,000"
+    ],
+    "answer": 0,
+    "explanation": "Depreciation = $24,000 × 15/20 = $18,000, so ACV = $24,000 − $18,000 = $6,000; payment = $6,000 − $1,000 = $5,000. $17,000 wrongly pays the depreciation amount less the deductible, $6,000 forgets the deductible, and $23,000 is replacement cost less the deductible.",
+    "citation": "Actual cash value = replacement cost − depreciation (NYS 77-hr syllabus, amount of insurance needed)"
+  },
+  {
+    "id": "insurance-a018",
+    "topic": "insurance",
+    "q": "A replacement cost policy pays actual cash value first and releases the withheld depreciation once repairs are finished. Kitchen cabinets cost $12,000 to replace, and depreciation is $4,000. Ignoring the deductible, how much is the second payment, released after the owner completes the replacement?",
+    "options": [
+      "$8,000",
+      "$12,000",
+      "$4,000",
+      "$3,200"
+    ],
+    "answer": 2,
+    "explanation": "Initial ACV payment = $12,000 − $4,000 = $8,000; the $4,000 holdback (recoverable depreciation) is released when replacement is complete. $8,000 is the first payment, and $12,000 is the total of both payments, not the second payment.",
+    "citation": "Replacement cost loss settlement with depreciation holdback"
+  },
+  {
+    "id": "insurance-a019",
+    "topic": "insurance",
+    "q": "A home's replacement cost is $500,000. The owner carries $300,000 of dwelling coverage under an 80% coinsurance clause. A fire causes $60,000 of covered damage. Ignoring the deductible, how much will the insurer pay?",
+    "options": [
+      "$36,000",
+      "$60,000",
+      "$48,000",
+      "$45,000"
+    ],
+    "answer": 3,
+    "explanation": "Required = 80% × $500,000 = $400,000. Payment = $300,000 ÷ $400,000 × $60,000 = $45,000. $36,000 divides by the full $500,000 instead of the required $400,000; $48,000 just takes 80% of the loss.",
+    "citation": "80% coinsurance formula: (insurance carried ÷ insurance required) × loss"
+  },
+  {
+    "id": "insurance-a020",
+    "topic": "insurance",
+    "q": "A home with a $400,000 replacement cost is insured for $240,000 under an 80% coinsurance clause. A fire totally destroys it, a $400,000 covered loss. Ignoring the deductible, what is the most the insurer will pay?",
+    "options": [
+      "$300,000",
+      "$240,000",
+      "$320,000",
+      "$192,000"
+    ],
+    "answer": 1,
+    "explanation": "The coinsurance formula gives $240,000 ÷ $320,000 × $400,000 = $300,000, but an insurer never pays more than the policy limit, so payment is capped at $240,000. Forgetting the face-amount cap produces the $300,000 trap.",
+    "citation": "Coinsurance formula limited by policy face amount"
+  },
+  {
+    "id": "insurance-a021",
+    "topic": "insurance",
+    "q": "A home's replacement cost rises from $350,000 to $425,000 after a large addition. The owner carries $300,000 under an 80% coinsurance clause. How much more coverage is needed to avoid a coinsurance penalty?",
+    "options": [
+      "$0",
+      "$60,000",
+      "$40,000",
+      "$125,000"
+    ],
+    "answer": 2,
+    "explanation": "New requirement = 80% × $425,000 = $340,000; $340,000 − $300,000 = $40,000. $0 relies on the old $280,000 requirement, $60,000 is 80% of only the $75,000 increase, and $125,000 insures to full replacement cost.",
+    "citation": "80% coinsurance requirement based on current replacement cost"
+  },
+  {
+    "id": "insurance-a022",
+    "topic": "insurance",
+    "q": "A home's replacement cost is $400,000, and it is insured for $300,000 under a policy with a 90% coinsurance clause. A covered loss totals $36,000. Ignoring the deductible, how much will the insurer pay?",
+    "options": [
+      "$30,000",
+      "$33,750",
+      "$27,000",
+      "$36,000"
+    ],
+    "answer": 0,
+    "explanation": "Required = 90% × $400,000 = $360,000. Payment = $300,000 ÷ $360,000 × $36,000 = $30,000. $33,750 wrongly assumes an 80% clause ($320,000 required), and $27,000 divides by the full $400,000.",
+    "citation": "Coinsurance formula: (insurance carried ÷ insurance required) × loss"
+  },
+  {
+    "id": "insurance-a023",
+    "topic": "insurance",
+    "q": "A Long Island home has a $450,000 dwelling limit and a 2% windstorm deductible. A hurricane causes $28,000 of covered damage. Assuming no other limits, how much will the insurer pay?",
+    "options": [
+      "$27,440",
+      "$9,000",
+      "$22,400",
+      "$19,000"
+    ],
+    "answer": 3,
+    "explanation": "A percentage deductible is applied to the dwelling limit, not the loss: 2% × $450,000 = $9,000; $28,000 − $9,000 = $19,000. $27,440 wrongly takes 2% of the $28,000 loss, and $9,000 is only the deductible.",
+    "citation": "Percentage (windstorm/hurricane) deductible based on Coverage A limit"
+  },
+  {
+    "id": "insurance-a024",
+    "topic": "insurance",
+    "q": "A policy sets Coverage B at 10% of the $380,000 dwelling limit. A covered fire causes $45,000 of damage to a detached garage. Ignoring the deductible, how much will Coverage B pay?",
+    "options": [
+      "$45,000",
+      "$36,000",
+      "$7,000",
+      "$38,000"
+    ],
+    "answer": 3,
+    "explanation": "Coverage B limit = 10% × $380,000 = $38,000, so payment is capped at $38,000 even though damage was $45,000. $7,000 is the uncovered shortfall, and $36,000 wrongly takes 80% of the loss.",
+    "citation": "Standard homeowner's policy Coverage B limit as a percentage of Coverage A"
+  },
+  {
+    "id": "insurance-a025",
+    "topic": "insurance",
+    "q": "A pipe bursts and the homeowner discovers it promptly. Under the policy's duties after a loss, what should the homeowner do right away besides notifying the insurer?",
+    "options": [
+      "Hire a contractor to finish full repairs before an inspection",
+      "Make reasonable temporary repairs to prevent further damage",
+      "Discard the damaged items so the home is safe to occupy",
+      "Wait for the adjuster's visit before touching anything at all"
+    ],
+    "answer": 1,
+    "explanation": "Policies require the insured to give prompt notice and protect the property from further damage, such as shutting off water and making reasonable temporary repairs. Completing full repairs or throwing out damaged items before the adjuster sees them can undermine the claim.",
+    "citation": "Standard homeowner's policy Section I conditions, duties after loss"
+  },
+  {
+    "id": "insurance-a026",
+    "topic": "insurance",
+    "q": "A contractor's careless welding starts a fire in a client's home. The homeowner's insurer pays the claim and then sues the contractor to recover what it paid. This right is called:",
+    "options": [
+      "subrogation",
+      "coinsurance",
+      "indemnification",
+      "contribution"
+    ],
+    "answer": 0,
+    "explanation": "Subrogation lets the insurer, after paying a loss, step into the insured's rights against the party who caused it. Indemnification is the broader principle of restoring the insured to the pre-loss position, not the insurer's right to sue.",
+    "citation": "General insurance law: subrogation"
+  },
+  {
+    "id": "insurance-a027",
+    "topic": "insurance",
+    "q": "A seller keeps her homeowner's policy in force after the closing. Two weeks later, the house burns. Why can she generally NOT collect on the dwelling coverage?",
+    "options": [
+      "Because property policies never cover fires after a sale",
+      "Because the buyer's lender holds the only valid claim",
+      "Because she no longer had an insurable interest at the time of loss",
+      "Because the policy limits were too low under the coinsurance clause"
+    ],
+    "answer": 2,
+    "explanation": "Property insurance indemnifies only a party with an insurable interest at the time of the loss; after the deed passed, the seller suffered no financial loss. The buyer, who now owns the home, needs a policy of the buyer's own in force from closing.",
+    "citation": "Insurable interest requirement for property insurance (NY Insurance Law §3401)"
+  },
+  {
+    "id": "insurance-a028",
+    "topic": "insurance",
+    "q": "A buyer's mortgage lender requires proof of hazard insurance at closing, but the insurer has not yet issued the formal policy. What document typically satisfies the lender until the policy arrives?",
+    "options": [
+      "A title insurance commitment",
+      "A CLUE claims-history report",
+      "A certificate of occupancy",
+      "An insurance binder"
+    ],
+    "answer": 3,
+    "explanation": "An insurance binder is temporary written evidence that coverage is in effect until the policy is issued; the lender wants it to show coverage starting at closing with the lender named in the mortgagee clause. A title commitment concerns title defects, not physical loss.",
+    "citation": "Lender hazard insurance requirement at closing; insurance binder"
+  },
+  {
+    "id": "insurance-a029",
+    "topic": "insurance",
+    "q": "A mortgaged home suffers a $40,000 covered fire loss. Because the policy contains a standard mortgagee clause, how is the claim check most likely issued?",
+    "options": [
+      "Payable to the homeowner alone",
+      "Payable jointly to the homeowner and the lender",
+      "Payable to the lender alone, which keeps the funds",
+      "Payable to the contractor selected by the insurer"
+    ],
+    "answer": 1,
+    "explanation": "A mortgagee clause protects the lender's insurable interest, so dwelling loss payments are typically made jointly to the owner and lender, which then supervises release of repair funds. The lender does not simply keep the money as a windfall.",
+    "citation": "Standard mortgage clause in homeowner's policies"
+  },
+  {
+    "id": "insurance-b001",
+    "topic": "insurance",
+    "q": "A FEMA map shows a house inside the \"100-year floodplain.\" What does that designation actually mean?",
+    "options": [
+      "The area is expected to flood exactly once every 100 years",
+      "The area has about a 1% chance of flooding in any given year",
+      "The area has not flooded at any time in the past 100 years",
+      "The area will remain flood-free for the next 100 years"
+    ],
+    "answer": 1,
+    "explanation": "A \"100-year\" or base flood is one with a 1% chance of being equaled or exceeded in any year, so it can strike in back-to-back years. Reading it as \"once per century\" is the classic trap; over a 30-year mortgage the cumulative odds are substantial.",
+    "citation": "44 CFR §59.1 (base flood definition); National Flood Insurance Program"
+  },
+  {
+    "id": "insurance-b002",
+    "topic": "insurance",
+    "q": "On a Flood Insurance Rate Map, a beachfront lot is labeled Zone VE. What does the V designation indicate?",
+    "options": [
+      "A coastal high-hazard area subject to storm-driven wave action",
+      "A moderate-risk area outside the Special Flood Hazard Area",
+      "An area where the flood risk has not yet been studied",
+      "A riverine area protected by a certified levee system"
+    ],
+    "answer": 0,
+    "explanation": "V zones are coastal high-hazard Special Flood Hazard Areas where waves (velocity) add to flood depth. Moderate- and low-risk areas are mapped as Zone X (or older B/C), and undetermined risk is Zone D.",
+    "citation": "FEMA Flood Insurance Rate Map zone designations; 44 CFR §64.3"
+  },
+  {
+    "id": "insurance-b003",
+    "topic": "insurance",
+    "q": "A buyer's home is in Zone X on the flood map, and her lender does not require flood insurance. Which advice is accurate?",
+    "options": [
+      "FEMA disaster aid will fully reimburse any flood loss, so coverage is unnecessary",
+      "Flood coverage cannot be purchased because the home sits outside the high-risk zone",
+      "Her HO-3 policy will cover flood damage because the zone is rated low risk",
+      "Flood coverage is optional there, but the home can still flood and a policy is available"
+    ],
+    "answer": 3,
+    "explanation": "Zone X is outside the Special Flood Hazard Area, so the federal purchase mandate does not apply, but NFIP coverage is still sold there and many claims come from outside high-risk zones. Standard homeowner's forms exclude flood regardless of zone.",
+    "citation": "National Flood Insurance Act of 1968; Flood Disaster Protection Act of 1973"
+  },
+  {
+    "id": "insurance-b004",
+    "topic": "insurance",
+    "q": "A buyer is taking a $320,000 federally backed mortgage on a single-family home in a Special Flood Hazard Area. The building's insurable value is $400,000, and the NFIP maximum building coverage for a residence is $250,000. What is the minimum flood coverage the lender must require?",
+    "options": [
+      "$400,000",
+      "$320,000",
+      "$250,000",
+      "$256,000"
+    ],
+    "answer": 2,
+    "explanation": "The mandate is the lesser of the outstanding loan balance or the maximum NFIP coverage available: min($320,000, $250,000) = $250,000 (and never more than insurable value). $320,000 ignores the program cap; $256,000 wrongly applies 80% of the loan ($320,000 × 0.80).",
+    "citation": "42 U.S.C. §4012a(b) (amount); 42 U.S.C. §4013(b) (NFIP limits)"
+  },
+  {
+    "id": "insurance-b005",
+    "topic": "insurance",
+    "q": "A homeowner buys her NFIP flood policy from a well-known private insurance company rather than directly from FEMA. Under the Write Your Own program, which statement is correct?",
+    "options": [
+      "The private company sets its own flood rates and keeps the underwriting risk itself",
+      "The private company sells and services it, while the federal program bears the risk",
+      "The policy is a private flood policy that federally backed lenders cannot accept",
+      "The policy covers less than a direct NFIP policy because a private carrier issued it"
+    ],
+    "answer": 1,
+    "explanation": "Write Your Own carriers issue and service NFIP policies under their own names, but coverage terms and rates are the federal program's and the government carries the risk. That differs from a separately underwritten private flood policy, which is a distinct product.",
+    "citation": "44 CFR Part 62 (Write Your Own arrangement)"
+  },
+  {
+    "id": "insurance-b006",
+    "topic": "insurance",
+    "q": "A buyer applies and pays the premium for an NFIP flood policy on May 1 as a condition of the mortgage, and the loan closes on May 10. A flood hits on May 12. What is the likely result?",
+    "options": [
+      "Covered, because coverage tied to a loan closing takes effect at closing without the 30-day wait",
+      "Not covered, because every NFIP policy carries a 30-day waiting period from purchase",
+      "Not covered, because coverage starts only 30 days after the loan closing date",
+      "Covered only for contents, because building coverage always waits 30 days"
+    ],
+    "answer": 0,
+    "explanation": "NFIP policies normally take effect 30 days after the application and premium are completed, but the wait does not apply to an initial purchase made in connection with making, increasing, extending, or renewing a loan; that coverage can be effective at closing. Applying the 30-day rule to every purchase is the trap.",
+    "citation": "42 U.S.C. §4013(c) (effective date and exceptions)"
+  },
+  {
+    "id": "insurance-b007",
+    "topic": "insurance",
+    "q": "A borrower with a federally backed mortgage on a house in a Special Flood Hazard Area lets his required flood policy lapse. What does federal law require the lender or servicer to do?",
+    "options": [
+      "Report the lapse to FEMA, which then buys a policy at public expense",
+      "Call the loan due immediately without giving the borrower any notice",
+      "Do nothing, because the purchase requirement applies only at loan closing",
+      "Notify him, then force-place coverage at his cost if he doesn't act within 45 days"
+    ],
+    "answer": 3,
+    "explanation": "Flood insurance must be maintained for the life of the loan. If it lapses, the lender or servicer must notify the borrower, and if he does not obtain coverage within 45 days of the notice, it must purchase (force-place) the coverage and may charge him the premiums and fees.",
+    "citation": "42 U.S.C. §4012a(e) (force placement)"
+  },
+  {
+    "id": "insurance-b008",
+    "topic": "insurance",
+    "q": "Why might an owner in a mapped flood-hazard area be unable to buy an NFIP policy at all?",
+    "options": [
+      "Her mortgage lender is a private bank rather than a federal government agency",
+      "Her home is worth more than the maximum NFIP building coverage limit",
+      "Her municipality does not participate in the NFIP's floodplain management program",
+      "Her home was built before the area's first flood insurance rate map was issued"
+    ],
+    "answer": 2,
+    "explanation": "NFIP coverage is sold only in communities that join the program and adopt and enforce floodplain management ordinances. A high home value just means coverage is capped, and older (pre-map) buildings remain eligible.",
+    "citation": "National Flood Insurance Act of 1968, 42 U.S.C. §4012(c); 44 CFR Part 60"
+  },
+  {
+    "id": "insurance-b009",
+    "topic": "insurance",
+    "q": "A tenant in a ground-floor apartment in a flood zone asks how to protect her belongings from flood damage. Which answer is correct?",
+    "options": [
+      "She cannot buy flood coverage, because only owners of the building may purchase NFIP policies",
+      "She can buy an NFIP contents-only policy, because building and contents coverage are separate",
+      "Her landlord's NFIP building policy automatically covers each tenant's belongings",
+      "Her HO-4 policy covers flood as long as the water enters through a window"
+    ],
+    "answer": 1,
+    "explanation": "NFIP building and contents coverage are bought separately, and renters may purchase contents coverage on their own. A landlord's building policy does not protect tenants' property, and renter's (HO-4) policies exclude flood.",
+    "citation": "NFIP Standard Flood Insurance Policy, Dwelling Form (44 CFR Part 61, App. A(1))"
+  },
+  {
+    "id": "insurance-b010",
+    "topic": "insurance",
+    "q": "A condominium's master policy is written on a \"bare walls\" basis. A fire guts one unit's kitchen. Who should have insured the cabinets, countertops, and flooring?",
+    "options": [
+      "The unit owner, under an HO-6 policy covering interior improvements",
+      "The association, because its master policy covers everything in the building",
+      "The unit owner's mortgage lender, under its lender's title policy",
+      "No one, because fixtures are excluded from every property policy"
+    ],
+    "answer": 0,
+    "explanation": "A bare-walls master policy covers the structure and common elements but not unit interiors, so fixtures, cabinets, and finishes fall to the owner's HO-6. Assuming the master policy covers everything inside each unit is the common mistake.",
+    "citation": "Condominium declaration and bylaws; ISO HO 00 06 (unit-owners form)"
+  },
+  {
+    "id": "insurance-b011",
+    "topic": "insurance",
+    "q": "A storm damages a condominium's roof, and the repair cost exceeds the master policy limit, so the board levies a $6,000 special assessment on each unit owner. Which coverage may reimburse an owner?",
+    "options": [
+      "The owner's title insurance policy on the unit",
+      "Fair rental value coverage under a dwelling policy",
+      "The building's workers' compensation policy",
+      "Loss assessment coverage under the owner's HO-6"
+    ],
+    "answer": 3,
+    "explanation": "Loss assessment coverage on an HO-6 can pay a unit owner's share of an association assessment resulting from a covered loss, subject to its limit. Title insurance addresses ownership defects, not physical damage or assessments.",
+    "citation": "ISO HO 00 06, Additional Coverages (loss assessment); condominium bylaws"
+  },
+  {
+    "id": "insurance-b012",
+    "topic": "insurance",
+    "q": "A cooperative shareholder spent $60,000 renovating her apartment's kitchen and bathroom. Which statement about insurance is most accurate?",
+    "options": [
+      "Her stock certificate and proprietary lease make her improvements uninsurable by any carrier",
+      "The building policy covers her improvements because the corporation owns the entire building",
+      "The co-op's building policy may not cover her improvements, so she needs her own coverage",
+      "She needs no coverage, because shareholders are not liable for anything inside their units"
+    ],
+    "answer": 2,
+    "explanation": "The cooperative corporation owns and insures the building, but shareholder improvements, personal property, and personal liability usually fall to the shareholder's own policy. Check the proprietary lease and building policy rather than assuming the corporation covers interior upgrades.",
+    "citation": "Proprietary lease and co-op bylaws; NYS DFS homeowner's insurance guidance"
+  },
+  {
+    "id": "insurance-b013",
+    "topic": "insurance",
+    "q": "A dinner guest trips over a rug inside a condo unit and sues the unit owner. Which policy is primarily designed to respond?",
+    "options": [
+      "The association's master policy for common areas",
+      "The unit owner's HO-6 personal liability coverage",
+      "The association's directors and officers policy",
+      "The unit owner's title insurance policy"
+    ],
+    "answer": 1,
+    "explanation": "Injuries occurring inside an individual unit are generally the unit owner's liability exposure, covered by the HO-6's personal liability section. The master policy's liability coverage is aimed at common areas such as lobbies and walkways.",
+    "citation": "ISO HO 00 06 (Section II liability); condominium bylaws"
+  },
+  {
+    "id": "insurance-b014",
+    "topic": "insurance",
+    "q": "A kitchen fire in a neighbor's unit makes a tenant's apartment uninhabitable for six weeks, and she must stay in a hotel. Which part of her HO-4 policy helps with the hotel bills?",
+    "options": [
+      "Loss of use (additional living expense) coverage",
+      "Personal liability coverage for claims by others",
+      "Medical payments to others coverage for guests",
+      "Dwelling coverage for the apartment building"
+    ],
+    "answer": 0,
+    "explanation": "Loss of use pays the increase in living costs, such as a hotel, while a covered loss makes the residence unfit to live in. HO-4 forms provide no dwelling coverage, because the landlord insures the building.",
+    "citation": "ISO HO 00 04, Coverage D (loss of use)"
+  },
+  {
+    "id": "insurance-b015",
+    "topic": "insurance",
+    "q": "A tenant leaves a candle burning, and the fire damages the landlord's hallway and a neighboring apartment. The landlord's insurer pays and then sues the tenant. Which coverage is most likely to respond for the tenant?",
+    "options": [
+      "Her NFIP contents policy, because water was used to fight the fire",
+      "Personal property coverage under her HO-4",
+      "The landlord's dwelling coverage, because it is the building's policy",
+      "Personal liability coverage under her HO-4"
+    ],
+    "answer": 3,
+    "explanation": "Negligently damaging other people's property is a liability exposure, and the HO-4's personal liability section can defend and pay such claims. Her personal property coverage protects only her own belongings, and the landlord's insurer can pursue her through subrogation.",
+    "citation": "ISO HO 00 04, Section II (personal liability)"
+  },
+  {
+    "id": "insurance-b016",
+    "topic": "insurance",
+    "q": "Which owner is most likely to need a dwelling (DP) policy rather than a homeowner's policy?",
+    "options": [
+      "A couple living full time in their owner-occupied single-family house",
+      "An owner who lives in one unit of her two-family home and rents the other",
+      "An investor who rents out a single-family house he does not live in",
+      "A condo owner who lives in his unit year-round"
+    ],
+    "answer": 2,
+    "explanation": "Homeowner's forms are built for owner-occupied residences, including an owner-occupied two-family home. A non-owner-occupied rental is generally insured under a dwelling (DP) policy.",
+    "citation": "ISO Dwelling Property program (DP 00 01/02/03); ISO homeowner's eligibility"
+  },
+  {
+    "id": "insurance-b017",
+    "topic": "insurance",
+    "q": "How does a DP-3 (special form) dwelling policy generally differ from a DP-1 (basic form)?",
+    "options": [
+      "DP-3 adds personal liability automatically; DP-1 excludes all liability coverage",
+      "DP-3 insures the dwelling against open perils; DP-1 covers only named perils",
+      "DP-3 is for condo units; DP-1 is for single-family rental houses",
+      "DP-3 covers flood damage; DP-1 excludes flood and earthquake"
+    ],
+    "answer": 1,
+    "explanation": "Like the HO-3, the DP-3 insures the building against all risks not excluded, while the DP-1 is a basic named-peril form often settled at actual cash value. Neither dwelling form includes liability automatically, and both exclude flood.",
+    "citation": "ISO Dwelling Property forms DP 00 01 and DP 00 03"
+  },
+  {
+    "id": "insurance-b018",
+    "topic": "insurance",
+    "q": "A fire forces the tenants out of a landlord's rental house for four months, and no rent is collected. Which dwelling policy coverage addresses that lost income?",
+    "options": [
+      "Fair rental value coverage",
+      "Additional living expense coverage",
+      "Loss assessment coverage",
+      "Medical payments coverage"
+    ],
+    "answer": 0,
+    "explanation": "Fair rental value pays the rent a landlord loses while a covered loss makes the rental unfit to occupy. Additional living expense is for the insured's own extra costs of living elsewhere, which does not fit a landlord who doesn't live there.",
+    "citation": "ISO Dwelling Property forms, Coverage D (fair rental value)"
+  },
+  {
+    "id": "insurance-b019",
+    "topic": "insurance",
+    "q": "A landlord insures his rental house under a standard DP-3 policy with no endorsements. A tenant's visitor falls on a broken step and sues the landlord. What is the likely problem?",
+    "options": [
+      "The DP-3 pays the claim, but only at actual cash value after depreciation",
+      "The DP-3 covers the injury only if the step was damaged by a named peril",
+      "The visitor must sue the tenant, because a landlord is never liable for injuries",
+      "Dwelling forms exclude liability unless an endorsement or separate policy adds it"
+    ],
+    "answer": 3,
+    "explanation": "Unlike homeowner's packages, dwelling policies are property-only; landlords add premises liability through an endorsement or a separate liability policy. Without it, the landlord may face the suit uninsured.",
+    "citation": "ISO Dwelling Property program (personal liability supplement)"
+  },
+  {
+    "id": "insurance-b020",
+    "topic": "insurance",
+    "q": "An owner has $300,000 of liability coverage on his homeowner's policy and a $1,000,000 umbrella policy. A court awards $1,100,000 to a guest injured on his property, a covered claim. How much does the umbrella insurer pay?",
+    "options": [
+      "$1,100,000",
+      "$1,000,000",
+      "$800,000",
+      "$700,000"
+    ],
+    "answer": 2,
+    "explanation": "The umbrella pays only after the underlying policy is exhausted: $1,100,000 − $300,000 = $800,000, which is within its $1,000,000 limit. $1,000,000 wrongly assumes the umbrella pays its full limit first; $700,000 is $1,000,000 − $300,000.",
+    "citation": "General insurance principles (excess liability coverage)"
+  },
+  {
+    "id": "insurance-b021",
+    "topic": "insurance",
+    "q": "A homeowner with a $2,000,000 umbrella policy assumes it will pay for flood damage to his house. Which statement is correct?",
+    "options": [
+      "The umbrella pays for flood damage once his HO-3 limit is exhausted",
+      "An umbrella is excess liability coverage and does not pay for damage to the insured's own property",
+      "The umbrella replaces the need for an NFIP policy if its limit exceeds the home's value",
+      "The umbrella covers flood only if the home is outside a Special Flood Hazard Area"
+    ],
+    "answer": 1,
+    "explanation": "Umbrella policies sit above underlying liability policies and respond to claims by others, not first-party property losses. Flood damage to his own home requires flood insurance, and insurers typically require specified underlying liability limits before issuing an umbrella.",
+    "citation": "General insurance principles (excess liability coverage)"
+  },
+  {
+    "id": "insurance-b022",
+    "topic": "insurance",
+    "q": "How do premium payments for an owner's title insurance policy and a homeowner's (hazard) policy typically differ?",
+    "options": [
+      "Title is a one-time premium paid at closing; hazard is paid periodically and renewed",
+      "Both are paid annually and escrowed by the lender with the property taxes",
+      "Title is paid monthly with the mortgage; hazard is a one-time charge at closing",
+      "Title premiums end when the mortgage is paid off; hazard premiums continue for life"
+    ],
+    "answer": 0,
+    "explanation": "An owner's title policy is bought once at closing and protects the owner (and heirs) for as long as they hold title. Hazard insurance protects against future physical losses and must be renewed, often through the lender's escrow account.",
+    "citation": "General insurance principles; NY Insurance Law Article 64 (title insurance)"
+  },
+  {
+    "id": "insurance-b023",
+    "topic": "insurance",
+    "q": "A homeowner has been turned down by several insurers because of the property's high risk. Which New York entity serves as the FAIR plan insurer of last resort?",
+    "options": [
+      "The Federal Housing Administration (FHA)",
+      "The National Flood Insurance Program (NFIP)",
+      "The NYS Department of State, Division of Licensing Services",
+      "The New York Property Insurance Underwriting Association (NYPIUA)"
+    ],
+    "answer": 3,
+    "explanation": "NYPIUA is a pool of the insurers writing property coverage in New York, offering limited property coverage to owners unable to get it in the voluntary market, generally at higher premiums. The NFIP handles only flood, and the Department of State licenses real estate agents.",
+    "citation": "NY Insurance Law Article 54; NYS DFS insurance availability programs"
+  },
+  {
+    "id": "insurance-b024",
+    "topic": "insurance",
+    "q": "An owner obtains a NYPIUA policy on her house after being declined in the voluntary market. Which gap should she expect?",
+    "options": [
+      "The policy covers only flood, so she must buy fire coverage elsewhere",
+      "The policy covers everything a standard HO-5 covers, but at a higher premium",
+      "It excludes liability, theft, and flood, which she must insure elsewhere",
+      "The policy covers the house only after a 30-day waiting period"
+    ],
+    "answer": 2,
+    "explanation": "DFS describes NYPIUA policies as limited property coverage that excludes liability, flood, and theft, so they are not a complete homeowner's package. Assuming the last-resort policy matches a full HO form is the trap.",
+    "citation": "NYS DFS insurance availability guidance; NY Insurance Law Article 54"
+  },
+  {
+    "id": "insurance-b025",
+    "topic": "insurance",
+    "q": "A seller wants to show buyers that the house has a clean insurance claims history. Which statement about a CLUE report is accurate?",
+    "options": [
+      "Only the buyer's insurer may order it, and neither the seller nor the buyer may see it",
+      "The owner can get a free copy each year, and it lists claims tied to the property and the owner",
+      "It is a public record kept by the county clerk alongside the deed",
+      "It reports only claims the insurer actually paid, not other reported losses"
+    ],
+    "answer": 1,
+    "explanation": "The Comprehensive Loss Underwriting Exchange (CLUE) is an insurance-industry claims database; a consumer can request a free annual disclosure under the Fair Credit Reporting Act. It is not a recorded public document, and it can show reported losses that were not paid.",
+    "citation": "Fair Credit Reporting Act, 15 U.S.C. §1681j(a)(1)(A)"
+  },
+  {
+    "id": "insurance-b026",
+    "topic": "insurance",
+    "q": "The superintendent of a cooperative apartment building injures his back while moving trash cans. Which statement best describes how workers' compensation applies?",
+    "options": [
+      "The co-op must carry it, and it pays medical costs and lost wages regardless of fault",
+      "Coverage applies only if the super proves the board was negligent",
+      "Building employees are exempt, so he must claim against his own health insurance",
+      "He must sue the shareholders individually, because the co-op cannot be an employer"
+    ],
+    "answer": 0,
+    "explanation": "New York requires employers, including co-op and condo boards or their managing agents who employ building staff, to carry workers' compensation. It is no-fault and is generally the employee's exclusive remedy against the employer.",
+    "citation": "NY Workers' Compensation Law §§10, 11, 50"
+  },
+  {
+    "id": "insurance-b027",
+    "topic": "insurance",
+    "q": "A building owner hires a roofing contractor to replace the roof. Before work starts, what is the prudent step regarding insurance?",
+    "options": [
+      "Rely on the owner's title insurance to cover any injuries on the roof",
+      "Add the roofers to the owner's homeowner's policy as named insureds",
+      "Ask the contractor to sign a waiver promising his workers will never sue",
+      "Get proof of the contractor's workers' compensation and liability coverage"
+    ],
+    "answer": 3,
+    "explanation": "Requiring proof of the contractor's workers' compensation and liability insurance helps keep a worker's injury from becoming a claim against the owner. New York also requires proof of workers' compensation coverage before a building permit is issued.",
+    "citation": "NY Workers' Compensation Law §57 (proof of coverage for permits)"
+  },
+  {
+    "id": "insurance-b028",
+    "topic": "insurance",
+    "q": "A salesperson's listing advertises a home as 2,400 square feet when it is actually 1,900, and the buyer sues for the overpayment. Which insurance is designed to cover this claim?",
+    "options": [
+      "The buyer's owner's title insurance policy, because the square footage was wrong",
+      "The seller's homeowner's policy, under its personal property coverage",
+      "The firm's errors and omissions policy, if the error was negligent, not intentional",
+      "The firm's workers' compensation policy, because an employee made the error"
+    ],
+    "answer": 2,
+    "explanation": "E&O is professional liability coverage that defends and pays claims arising from a licensee's negligent errors, subject to policy limits and deductibles. It typically excludes intentional fraud, so it is not immunity for knowingly false statements.",
+    "citation": "General insurance principles (professional liability/E&O)"
+  },
+  {
+    "id": "insurance-b029",
+    "topic": "insurance",
+    "q": "During an open house, a visitor slips on the listing agent's spilled coffee in the hallway and breaks her wrist. Which statement about the agent's errors and omissions policy is most accurate?",
+    "options": [
+      "E&O will pay, because the injury occurred while the agent was performing licensed services",
+      "E&O likely won't respond, since bodily injury is a general liability exposure",
+      "E&O will pay only if the seller's homeowner's policy denies the claim first",
+      "E&O will pay because any claim against a licensee counts as a professional claim"
+    ],
+    "answer": 1,
+    "explanation": "E&O policies cover economic harm from professional mistakes and generally exclude bodily injury and property damage. Injuries on premises fall under general liability coverage, such as the seller's homeowner's policy or the firm's commercial general liability policy.",
+    "citation": "General insurance principles (E&O vs. general liability)"
+  }
 ]

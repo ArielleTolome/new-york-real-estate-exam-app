@@ -1,24 +1,1542 @@
 [
-{"id":"valuation-001","topic":"valuation","q":"The four characteristics that must be present for real property to have value are commonly remembered as DUST. They are:","options":["Demand, utility, scarcity, and transferability","Demand, usefulness, supply, and taxation","Durability, utility, stability, and transferability","Desirability, uniqueness, scarcity, and title"],"answer":0,"explanation":"Value requires effective demand (desire plus purchasing power), utility, scarcity, and transferability of ownership rights. Uniqueness and durability are characteristics of land itself, not the elements of value.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-002","topic":"valuation","q":"A buyer eager to win a bidding war pays $410,000 for a house that an appraiser values at $400,000. The builder's cost to construct it new today would be $380,000. The $410,000 figure is the property's:","options":["Market value","Reproduction cost","Price","Assessed value"],"answer":2,"explanation":"Price is what was actually paid in a particular transaction; it can be above or below market value. Market value is the appraiser's estimate of the most probable price ($400,000), and cost is what it takes to build ($380,000).","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-003","topic":"valuation","q":"Which description best matches the appraisal definition of market value?","options":["The amount the seller needs to net after paying off the mortgage and closing costs","The most probable price in an open, competitive market with informed, typically motivated parties","The total cost of the land plus the cost to build the improvements new at today's prices","The highest price any single buyer has offered for the property during its listing period"],"answer":1,"explanation":"Market value assumes an arm's-length sale, reasonable market exposure, informed and typically motivated parties, and no unusual financing or pressure. A seller's needs, construction cost, or one buyer's offer do not define market value.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-004","topic":"valuation","q":"A buyer will not pay $520,000 for a house when nearly identical homes on the same street are readily available for $490,000. Which valuation principle does this illustrate?","options":["Anticipation","Contribution","Conformity","Substitution"],"answer":3,"explanation":"Substitution holds that a prudent buyer will not pay more than the cost of acquiring an equally desirable substitute. It is the foundation of the sales comparison approach.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-005","topic":"valuation","q":"An analyst finds that a gas station would be the most profitable use of a vacant lot and is physically possible and financially feasible, but current zoning prohibits it. As a highest-and-best-use candidate, the gas station fails because it is not:","options":["Legally permissible","Physically possible","Financially feasible","Maximally productive"],"answer":0,"explanation":"Highest and best use must be legally permissible, physically possible, financially feasible, and maximally productive. A use barred by zoning fails the legal test no matter how profitable it would be.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-006","topic":"valuation","q":"An owner builds a $1.2 million house in a neighborhood where most homes sell for about $400,000. The principle that the neighborhood will tend to pull the house's value down is:","options":["Progression","Contribution","Regression","Anticipation"],"answer":2,"explanation":"Regression: the value of a superior property is reduced by lesser surrounding properties. Progression is the opposite effect on an inferior property among better ones.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-007","topic":"valuation","q":"A modest two-bedroom cottage sits on a street lined with large, expensive homes. Its value benefits from the more valuable homes around it. This is an example of:","options":["Regression","Conformity","Contribution","Progression"],"answer":3,"explanation":"Progression: an inferior property gains value from superior neighboring properties. Regression is the reverse, where a superior property loses value from inferior surroundings.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-008","topic":"valuation","q":"A homeowner spends $40,000 installing an in-ground pool, but buyers in the area will pay only about $15,000 more for a home with a pool. Which principle explains why the pool adds only $15,000 in value?","options":["Substitution","Contribution","Highest and best use","Supply and demand"],"answer":1,"explanation":"Contribution: a component's value is what it adds to the whole property's market value, not what it cost. Here the $40,000 pool contributes only $15,000.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-009","topic":"valuation","q":"The principle holding that value is maximized when a property is reasonably similar in style, use, and quality to the properties around it is:","options":["Conformity","Anticipation","Progression","Contribution"],"answer":0,"explanation":"Conformity: reasonable homogeneity of land uses and improvements tends to maximize value, which is one reason zoning and subdivision restrictions can protect value.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-010","topic":"valuation","q":"An investor values an apartment building based on the net income it is expected to produce over the coming years. Which principle is the investor relying on most directly?","options":["Conformity","Regression","Anticipation","Substitution"],"answer":2,"explanation":"Anticipation: value is the present worth of expected future benefits. It underlies the income approach, which converts expected income into value.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-011","topic":"valuation","q":"Two developers finish 300 new condominium units in a small town at the same time, while the number of buyers stays the same. Prices for existing condos in town begin to fall. This best illustrates:","options":["Regression","Highest and best use","Conformity","Supply and demand"],"answer":3,"explanation":"When supply rises faster than demand, prices tend to fall; when demand outpaces supply, prices tend to rise. Regression concerns one superior property among lesser ones, not a market-wide supply shift.","citation":"Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-012","topic":"valuation","q":"A comparable sold for $350,000. It has a two-car garage valued at $15,000; the subject property has no garage. Otherwise they are similar. What is the comparable's adjusted sale price?","options":["$365,000","$335,000","$350,000","$320,000"],"answer":1,"explanation":"Adjust the comparable, never the subject. The comp is superior (it has the garage), so subtract: $350,000 − $15,000 = $335,000. Adding the $15,000 is the classic trap.","citation":"Appraisal principles — sales comparison approach; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-013","topic":"valuation","q":"The subject property has a fireplace that the market values at $5,000. A comparable without a fireplace sold for $300,000. What is the comparable's adjusted sale price?","options":["$305,000","$295,000","$300,000","$310,000"],"answer":0,"explanation":"The comparable is inferior to the subject (it lacks the fireplace), so add to the comparable: $300,000 + $5,000 = $305,000. Comps are adjusted to look like the subject; the subject is never adjusted.","citation":"Appraisal principles — sales comparison approach; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-014","topic":"valuation","q":"Using the cost approach: land value is $90,000, replacement cost of the improvements new is $300,000, and accrued depreciation is $45,000. What is the indicated value?","options":["$255,000","$390,000","$345,000","$435,000"],"answer":2,"explanation":"Cost approach = land + cost new of improvements − accrued depreciation: $90,000 + $300,000 − $45,000 = $345,000. Depreciation is taken from the improvements only; land is not depreciated.","citation":"Appraisal principles — cost approach; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-015","topic":"valuation","q":"An appraiser valuing a 1890s Victorian estimates the cost to build a structure of equal utility using modern materials and current methods, rather than an exact duplicate with hand-carved trim. This estimate is:","options":["Reproduction cost","Historical cost","Effective age cost","Replacement cost"],"answer":3,"explanation":"Replacement cost produces equivalent utility with modern materials and design; reproduction cost builds an exact replica with the same materials. Replacement cost is usually used for older, ornate buildings.","citation":"Appraisal principles — cost approach; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-016","topic":"valuation","q":"A well-maintained four-bedroom house has only one bathroom, and one bedroom can be reached only by walking through another bedroom. This loss in value is best classified as:","options":["Physical deterioration","Functional obsolescence","External obsolescence","Economic life"],"answer":1,"explanation":"Functional obsolescence is a loss from poor design, layout, or outdated features within the property. Physical deterioration is wear and tear; external obsolescence comes from outside the property.","citation":"Appraisal principles — depreciation; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-017","topic":"valuation","q":"After a new landfill opens next to a subdivision, home values there decline. Why is this type of depreciation generally considered incurable?","options":["The cause is outside the property, so the owner cannot correct it","The roof and siding would cost more to replace than they add","The floor plan cannot be changed without demolition","Land itself loses value as it physically wears out"],"answer":0,"explanation":"External (economic) obsolescence is caused by factors outside the property lines, such as a nearby landfill or highway, which the owner cannot fix; it is treated as incurable. Wear on the roof is physical deterioration, and a poor floor plan is functional obsolescence.","citation":"Appraisal principles — depreciation; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-018","topic":"valuation","q":"An apartment building has potential gross income of $150,000, vacancy and collection loss of 5%, operating expenses of $46,500, and annual mortgage payments of $40,000. At an 8% capitalization rate, what is the indicated value?","options":["$700,000","$1,781,250","$1,875,000","$1,200,000"],"answer":3,"explanation":"EGI = $150,000 − $7,500 = $142,500; NOI = $142,500 − $46,500 = $96,000; value = $96,000 ÷ 0.08 = $1,200,000. Mortgage payments are not an operating expense, so deducting them ($700,000) is wrong; a higher cap rate would lower the value.","citation":"Appraisal principles — income approach; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-019","topic":"valuation","q":"A comparable single-family home sold for $270,000 and rents for $1,800 per month. Using that comparable's monthly gross rent multiplier, what is the indicated value of a similar home that rents for $2,000 per month?","options":["$243,000","$270,000","$300,000","$360,000"],"answer":2,"explanation":"GRM = price ÷ monthly rent = $270,000 ÷ $1,800 = 150. Value = $2,000 × 150 = $300,000. Use the same time period (monthly vs. annual) for the multiplier and the rent.","citation":"Appraisal principles — gross rent multiplier; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-020","topic":"valuation","q":"After completing the sales comparison, cost, and income approaches, an appraiser arrives at a single opinion of value. In reconciliation, the appraiser:","options":["Averages the three indications equally so that no single approach dominates the result","Weighs each indication by its reliability and relevance to the property type","Always selects the highest of the three indications to protect the seller's equity","Uses only the cost approach for the final value because it is the most objective"],"answer":1,"explanation":"Reconciliation is a weighing process, not a simple average. For a single-family home the sales comparison approach typically gets the most weight; for an income property, the income approach.","citation":"Appraisal principles — reconciliation; NYS DOS Salesperson Syllabus (Valuation)"},
-{"id":"valuation-021","topic":"valuation","q":"A seller asks a salesperson for an 'appraisal' to use in her divorce settlement. The salesperson holds no appraiser credential. What is the best response?","options":["Prepare a written appraisal, since a real estate salesperson license already authorizes formal valuations","Prepare the appraisal but have the supervising broker sign it, since the broker's license covers appraisals","Refuse to discuss value at all, because licensees may never give any estimate of a property's value","Offer a CMA clearly labeled as not an appraisal and refer her to a state-licensed or certified appraiser"],"answer":3,"explanation":"A salesperson may prepare a comparative market analysis for pricing, but it must not be represented as an appraisal; appraisals are performed by appraisers licensed or certified by New York State. The broker's name does not cure the lack of an appraiser credential.","citation":"NY Executive Law Article 6-E (real estate appraisers)"},
-{"id":"valuation-022","topic":"valuation","q":"A lender handling a foreclosed property asks a broker for an estimate of its likely selling price based on recent sales and an exterior inspection. This estimate is generally called a:","options":["Broker price opinion","Certified appraisal","Tax assessment","Uniform residential appraisal report"],"answer":0,"explanation":"A broker price opinion (BPO) is a broker's estimate of probable selling price, often ordered by lenders for REO or short-sale decisions. It is not an appraisal and does not substitute for one where an appraisal is legally required.","citation":"NYS DOS Salesperson Syllabus (Valuation); NY Executive Law Article 6-E"}
+  {
+    "id": "valuation-001",
+    "topic": "valuation",
+    "q": "The four characteristics that must be present for real property to have value are commonly remembered as DUST. They are:",
+    "options": [
+      "Demand, utility, scarcity, and transferability",
+      "Demand, usefulness, supply, and taxation",
+      "Durability, utility, stability, and transferability",
+      "Desirability, uniqueness, scarcity, and title"
+    ],
+    "answer": 0,
+    "explanation": "Value requires effective demand (desire plus purchasing power), utility, scarcity, and transferability of ownership rights. Uniqueness and durability are characteristics of land itself, not the elements of value.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-002",
+    "topic": "valuation",
+    "q": "A buyer eager to win a bidding war pays $410,000 for a house that an appraiser values at $400,000. The builder's cost to construct it new today would be $380,000. The $410,000 figure is the property's:",
+    "options": [
+      "Market value",
+      "Reproduction cost",
+      "Price",
+      "Assessed value"
+    ],
+    "answer": 2,
+    "explanation": "Price is what was actually paid in a particular transaction; it can be above or below market value. Market value is the appraiser's estimate of the most probable price ($400,000), and cost is what it takes to build ($380,000).",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-003",
+    "topic": "valuation",
+    "q": "Which description best matches the appraisal definition of market value?",
+    "options": [
+      "The amount the seller needs to net after paying off the mortgage and closing costs",
+      "The most probable price in an open, competitive market with informed, typically motivated parties",
+      "The total cost of the land plus the cost to build the improvements new at today's prices",
+      "The highest price any single buyer has offered for the property during its listing period"
+    ],
+    "answer": 1,
+    "explanation": "Market value assumes an arm's-length sale, reasonable market exposure, informed and typically motivated parties, and no unusual financing or pressure. A seller's needs, construction cost, or one buyer's offer do not define market value.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-004",
+    "topic": "valuation",
+    "q": "A buyer will not pay $520,000 for a house when nearly identical homes on the same street are readily available for $490,000. Which valuation principle does this illustrate?",
+    "options": [
+      "Anticipation",
+      "Contribution",
+      "Conformity",
+      "Substitution"
+    ],
+    "answer": 3,
+    "explanation": "Substitution holds that a prudent buyer will not pay more than the cost of acquiring an equally desirable substitute. It is the foundation of the sales comparison approach.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-005",
+    "topic": "valuation",
+    "q": "An analyst finds that a gas station would be the most profitable use of a vacant lot and is physically possible and financially feasible, but current zoning prohibits it. As a highest-and-best-use candidate, the gas station fails because it is not:",
+    "options": [
+      "Legally permissible",
+      "Physically possible",
+      "Financially feasible",
+      "Maximally productive"
+    ],
+    "answer": 0,
+    "explanation": "Highest and best use must be legally permissible, physically possible, financially feasible, and maximally productive. A use barred by zoning fails the legal test no matter how profitable it would be.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-006",
+    "topic": "valuation",
+    "q": "An owner builds a $1.2 million house in a neighborhood where most homes sell for about $400,000. The principle that the neighborhood will tend to pull the house's value down is:",
+    "options": [
+      "Progression",
+      "Contribution",
+      "Regression",
+      "Anticipation"
+    ],
+    "answer": 2,
+    "explanation": "Regression: the value of a superior property is reduced by lesser surrounding properties. Progression is the opposite effect on an inferior property among better ones.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-007",
+    "topic": "valuation",
+    "q": "A modest two-bedroom cottage sits on a street lined with large, expensive homes. Its value benefits from the more valuable homes around it. This is an example of:",
+    "options": [
+      "Regression",
+      "Conformity",
+      "Contribution",
+      "Progression"
+    ],
+    "answer": 3,
+    "explanation": "Progression: an inferior property gains value from superior neighboring properties. Regression is the reverse, where a superior property loses value from inferior surroundings.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-008",
+    "topic": "valuation",
+    "q": "A homeowner spends $40,000 installing an in-ground pool, but buyers in the area will pay only about $15,000 more for a home with a pool. Which principle explains why the pool adds only $15,000 in value?",
+    "options": [
+      "Substitution",
+      "Contribution",
+      "Highest and best use",
+      "Supply and demand"
+    ],
+    "answer": 1,
+    "explanation": "Contribution: a component's value is what it adds to the whole property's market value, not what it cost. Here the $40,000 pool contributes only $15,000.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-009",
+    "topic": "valuation",
+    "q": "The principle holding that value is maximized when a property is reasonably similar in style, use, and quality to the properties around it is:",
+    "options": [
+      "Conformity",
+      "Anticipation",
+      "Progression",
+      "Contribution"
+    ],
+    "answer": 0,
+    "explanation": "Conformity: reasonable homogeneity of land uses and improvements tends to maximize value, which is one reason zoning and subdivision restrictions can protect value.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-010",
+    "topic": "valuation",
+    "q": "An investor values an apartment building based on the net income it is expected to produce over the coming years. Which principle is the investor relying on most directly?",
+    "options": [
+      "Conformity",
+      "Regression",
+      "Anticipation",
+      "Substitution"
+    ],
+    "answer": 2,
+    "explanation": "Anticipation: value is the present worth of expected future benefits. It underlies the income approach, which converts expected income into value.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-011",
+    "topic": "valuation",
+    "q": "Two developers finish 300 new condominium units in a small town at the same time, while the number of buyers stays the same. Prices for existing condos in town begin to fall. This best illustrates:",
+    "options": [
+      "Regression",
+      "Highest and best use",
+      "Conformity",
+      "Supply and demand"
+    ],
+    "answer": 3,
+    "explanation": "When supply rises faster than demand, prices tend to fall; when demand outpaces supply, prices tend to rise. Regression concerns one superior property among lesser ones, not a market-wide supply shift.",
+    "citation": "Appraisal principles; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-012",
+    "topic": "valuation",
+    "q": "A comparable sold for $350,000. It has a two-car garage valued at $15,000; the subject property has no garage. Otherwise they are similar. What is the comparable's adjusted sale price?",
+    "options": [
+      "$365,000",
+      "$335,000",
+      "$350,000",
+      "$320,000"
+    ],
+    "answer": 1,
+    "explanation": "Adjust the comparable, never the subject. The comp is superior (it has the garage), so subtract: $350,000 − $15,000 = $335,000. Adding the $15,000 is the classic trap.",
+    "citation": "Appraisal principles — sales comparison approach; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-013",
+    "topic": "valuation",
+    "q": "The subject property has a fireplace that the market values at $5,000. A comparable without a fireplace sold for $300,000. What is the comparable's adjusted sale price?",
+    "options": [
+      "$305,000",
+      "$295,000",
+      "$300,000",
+      "$310,000"
+    ],
+    "answer": 0,
+    "explanation": "The comparable is inferior to the subject (it lacks the fireplace), so add to the comparable: $300,000 + $5,000 = $305,000. Comps are adjusted to look like the subject; the subject is never adjusted.",
+    "citation": "Appraisal principles — sales comparison approach; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-014",
+    "topic": "valuation",
+    "q": "Using the cost approach: land value is $90,000, replacement cost of the improvements new is $300,000, and accrued depreciation is $45,000. What is the indicated value?",
+    "options": [
+      "$255,000",
+      "$390,000",
+      "$345,000",
+      "$435,000"
+    ],
+    "answer": 2,
+    "explanation": "Cost approach = land + cost new of improvements − accrued depreciation: $90,000 + $300,000 − $45,000 = $345,000. Depreciation is taken from the improvements only; land is not depreciated.",
+    "citation": "Appraisal principles — cost approach; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-015",
+    "topic": "valuation",
+    "q": "An appraiser valuing a 1890s Victorian estimates the cost to build a structure of equal utility using modern materials and current methods, rather than an exact duplicate with hand-carved trim. This estimate is:",
+    "options": [
+      "Reproduction cost",
+      "Historical cost",
+      "Effective age cost",
+      "Replacement cost"
+    ],
+    "answer": 3,
+    "explanation": "Replacement cost produces equivalent utility with modern materials and design; reproduction cost builds an exact replica with the same materials. Replacement cost is usually used for older, ornate buildings.",
+    "citation": "Appraisal principles — cost approach; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-016",
+    "topic": "valuation",
+    "q": "A well-maintained four-bedroom house has only one bathroom, and one bedroom can be reached only by walking through another bedroom. This loss in value is best classified as:",
+    "options": [
+      "Physical deterioration",
+      "Functional obsolescence",
+      "External obsolescence",
+      "Economic life"
+    ],
+    "answer": 1,
+    "explanation": "Functional obsolescence is a loss from poor design, layout, or outdated features within the property. Physical deterioration is wear and tear; external obsolescence comes from outside the property.",
+    "citation": "Appraisal principles — depreciation; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-017",
+    "topic": "valuation",
+    "q": "After a new landfill opens next to a subdivision, home values there decline. Why is this type of depreciation generally considered incurable?",
+    "options": [
+      "The cause is outside the property, so the owner cannot correct it",
+      "The roof and siding would cost more to replace than they add",
+      "The floor plan cannot be changed without demolition",
+      "Land itself loses value as it physically wears out"
+    ],
+    "answer": 0,
+    "explanation": "External (economic) obsolescence is caused by factors outside the property lines, such as a nearby landfill or highway, which the owner cannot fix; it is treated as incurable. Wear on the roof is physical deterioration, and a poor floor plan is functional obsolescence.",
+    "citation": "Appraisal principles — depreciation; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-018",
+    "topic": "valuation",
+    "q": "An apartment building has potential gross income of $150,000, vacancy and collection loss of 5%, operating expenses of $46,500, and annual mortgage payments of $40,000. At an 8% capitalization rate, what is the indicated value?",
+    "options": [
+      "$700,000",
+      "$1,781,250",
+      "$1,875,000",
+      "$1,200,000"
+    ],
+    "answer": 3,
+    "explanation": "EGI = $150,000 − $7,500 = $142,500; NOI = $142,500 − $46,500 = $96,000; value = $96,000 ÷ 0.08 = $1,200,000. Mortgage payments are not an operating expense, so deducting them ($700,000) is wrong; a higher cap rate would lower the value.",
+    "citation": "Appraisal principles — income approach; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-019",
+    "topic": "valuation",
+    "q": "A comparable single-family home sold for $270,000 and rents for $1,800 per month. Using that comparable's monthly gross rent multiplier, what is the indicated value of a similar home that rents for $2,000 per month?",
+    "options": [
+      "$243,000",
+      "$270,000",
+      "$300,000",
+      "$360,000"
+    ],
+    "answer": 2,
+    "explanation": "GRM = price ÷ monthly rent = $270,000 ÷ $1,800 = 150. Value = $2,000 × 150 = $300,000. Use the same time period (monthly vs. annual) for the multiplier and the rent.",
+    "citation": "Appraisal principles — gross rent multiplier; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-020",
+    "topic": "valuation",
+    "q": "After completing the sales comparison, cost, and income approaches, an appraiser arrives at a single opinion of value. In reconciliation, the appraiser:",
+    "options": [
+      "Averages the three indications equally so that no single approach dominates the result",
+      "Weighs each indication by its reliability and relevance to the property type",
+      "Always selects the highest of the three indications to protect the seller's equity",
+      "Uses only the cost approach for the final value because it is the most objective"
+    ],
+    "answer": 1,
+    "explanation": "Reconciliation is a weighing process, not a simple average. For a single-family home the sales comparison approach typically gets the most weight; for an income property, the income approach.",
+    "citation": "Appraisal principles — reconciliation; NYS DOS Salesperson Syllabus (Valuation)"
+  },
+  {
+    "id": "valuation-021",
+    "topic": "valuation",
+    "q": "A seller asks a salesperson for an 'appraisal' to use in her divorce settlement. The salesperson holds no appraiser credential. What is the best response?",
+    "options": [
+      "Prepare a written appraisal, since a real estate salesperson license already authorizes formal valuations",
+      "Prepare the appraisal but have the supervising broker sign it, since the broker's license covers appraisals",
+      "Refuse to discuss value at all, because licensees may never give any estimate of a property's value",
+      "Offer a CMA clearly labeled as not an appraisal and refer her to a state-licensed or certified appraiser"
+    ],
+    "answer": 3,
+    "explanation": "A salesperson may prepare a comparative market analysis for pricing, but it must not be represented as an appraisal; appraisals are performed by appraisers licensed or certified by New York State. The broker's name does not cure the lack of an appraiser credential.",
+    "citation": "NY Executive Law Article 6-E (real estate appraisers)"
+  },
+  {
+    "id": "valuation-022",
+    "topic": "valuation",
+    "q": "A lender handling a foreclosed property asks a broker for an estimate of its likely selling price based on recent sales and an exterior inspection. This estimate is generally called a:",
+    "options": [
+      "Broker price opinion",
+      "Certified appraisal",
+      "Tax assessment",
+      "Uniform residential appraisal report"
+    ],
+    "answer": 0,
+    "explanation": "A broker price opinion (BPO) is a broker's estimate of probable selling price, often ordered by lenders for REO or short-sale decisions. It is not an appraisal and does not substitute for one where an appraisal is legally required.",
+    "citation": "NYS DOS Salesperson Syllabus (Valuation); NY Executive Law Article 6-E"
+  },
+  {
+    "id": "valuation-a001",
+    "topic": "valuation",
+    "q": "A builder totals the labor, lumber, architect's fees, building permit fees, and construction-loan interest for a new house. How are these items classified?",
+    "options": [
+      "Labor and lumber are direct costs; the fees and loan interest are indirect costs",
+      "All five are direct costs because each was paid to construct the house",
+      "Labor and lumber are indirect costs; the fees and loan interest are direct costs",
+      "Only labor and lumber are costs; the fees and interest belong to the price"
+    ],
+    "answer": 0,
+    "explanation": "Direct (hard) costs are labor and materials; indirect (soft) costs include architectural fees, permits, financing, and administration. Paying for something during construction does not make it a direct cost.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a002",
+    "topic": "valuation",
+    "q": "Which of the following is NOT one of the conditions assumed in the definition of market value?",
+    "options": [
+      "The property receives reasonable exposure to the market",
+      "The buyer pays the highest price any purchaser might offer",
+      "Payment is in cash or terms equivalent to cash",
+      "Neither the buyer nor the seller is under undue duress"
+    ],
+    "answer": 1,
+    "explanation": "Market value is the most probable price, not the highest possible price. Reasonable exposure, cash equivalency, and absence of duress are all built into the definition.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a003",
+    "topic": "valuation",
+    "q": "An appraisal valued a house as of March 1. By September, local prices have dropped sharply. Why shouldn't the owner rely on the March figure today?",
+    "options": [
+      "New York law makes every residential appraisal void after ninety days",
+      "The appraiser's license must be renewed before the report can be reused",
+      "Value is estimated as of a specific effective date, and conditions have changed since",
+      "Market value is fixed only on the date a deed is finally recorded"
+    ],
+    "answer": 2,
+    "explanation": "An appraisal states value as of an effective date; under the principle of change, a later market can support a different value. There is no state rule voiding appraisals after a set number of days.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties); principle of change"
+  },
+  {
+    "id": "valuation-a004",
+    "topic": "valuation",
+    "q": "The town assessment roll lists a home at $150,000, but similar homes nearby recently sold for about $500,000. What is the best explanation?",
+    "options": [
+      "The home is overpriced by about $350,000 compared with its true market value",
+      "The assessor must have used the insurable value of the building alone",
+      "The owner cannot legally sell the home for more than its assessed value",
+      "Assessed value reflects the town's level of assessment and need not equal market value"
+    ],
+    "answer": 3,
+    "explanation": "Assessed value is the tax-roll figure and often reflects a fractional level of assessment, so it can differ greatly from market value. It does not cap the sale price.",
+    "citation": "NY Real Property Tax Law (assessment); DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a005",
+    "topic": "valuation",
+    "q": "A homeowner asks why her insurance coverage figure is lower than her appraised market value. The most likely reason is that insurable value:",
+    "options": [
+      "Is always based on the original price the owner paid for the property",
+      "Must equal the assessed value shown on the town's assessment roll",
+      "Generally omits the land and foundations, which a covered loss would not destroy",
+      "Includes only the depreciated value of the owner's furniture and fixtures"
+    ],
+    "answer": 2,
+    "explanation": "Insurable value concerns the cost to rebuild what could be destroyed, so it typically excludes land and foundations. It is not tied to purchase price or assessed value.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a006",
+    "topic": "valuation",
+    "q": "An investor who owns the adjacent office building could share a lobby and staff with the building next door, so she would pay more than a typical buyer. That higher, buyer-specific figure is:",
+    "options": [
+      "Market value",
+      "Assessed value",
+      "Liquidation value",
+      "Investment value"
+    ],
+    "answer": 3,
+    "explanation": "Investment value reflects a particular investor's requirements and benefits. Market value is what the typical informed buyer would most probably pay, not what one specially situated buyer would pay.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a007",
+    "topic": "valuation",
+    "q": "A lender must sell a repossessed warehouse within 30 days, far shorter than its normal marketing time. The price likely achieved under those conditions is best described as:",
+    "options": [
+      "Liquidation value",
+      "Market value",
+      "Insurable value",
+      "Value in use"
+    ],
+    "answer": 0,
+    "explanation": "Liquidation value assumes a forced sale with limited exposure. It is not market value, because market value requires reasonable exposure and no undue compulsion.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a008",
+    "topic": "valuation",
+    "q": "A specialized plant was built around one manufacturer's production process. It is worth more to that manufacturer than to buyers in the general market. The value to that occupant is:",
+    "options": [
+      "Market value",
+      "Value in use",
+      "Mortgage value",
+      "Assessed value"
+    ],
+    "answer": 1,
+    "explanation": "Value in use measures a property's utility to a particular user for a particular purpose. Market value would reflect what the broader market of buyers would pay, which may be much lower for a special-purpose building.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties)"
+  },
+  {
+    "id": "valuation-a009",
+    "topic": "valuation",
+    "q": "For demand to count as an element of value, prospective buyers must have:",
+    "options": [
+      "A desire to own the property, even without the means to pay",
+      "Both the desire to buy and the purchasing power to do so",
+      "A written preapproval from a federally chartered bank",
+      "Prior experience owning a property of a similar type"
+    ],
+    "answer": 1,
+    "explanation": "Effective demand requires desire backed by purchasing power. Desire alone does not create value, and no particular lender document is part of the concept.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties); elements of value (DUST)"
+  },
+  {
+    "id": "valuation-a010",
+    "topic": "valuation",
+    "q": "A town board rezones a corridor to allow higher-density housing, and land values along it rise. Which force affecting value is primarily at work?",
+    "options": [
+      "Governmental (political)",
+      "Economic",
+      "Social",
+      "Physical (environmental)"
+    ],
+    "answer": 0,
+    "explanation": "Zoning is an exercise of government power, so it is a governmental or political force. Economic forces include employment and interest rates; social forces reflect population and preferences.",
+    "citation": "General appraisal principles: forces affecting value"
+  },
+  {
+    "id": "valuation-a011",
+    "topic": "valuation",
+    "q": "Which sequence correctly describes the typical life cycle of a neighborhood under the principle of change?",
+    "options": [
+      "Growth, decline, stability, revitalization",
+      "Stability, growth, revitalization, decline",
+      "Revitalization, growth, stability, decline",
+      "Growth, stability, decline, revitalization"
+    ],
+    "answer": 3,
+    "explanation": "Neighborhoods typically develop (growth), reach equilibrium (stability), deteriorate (decline), and may be renewed (revitalization). Decline does not come before stability.",
+    "citation": "General appraisal principles: principle of change"
+  },
+  {
+    "id": "valuation-a012",
+    "topic": "valuation",
+    "q": "The only coffee shop in a new development earns unusually high profits. Within a year, three rival shops open nearby and its profits fall. This illustrates the principle of:",
+    "options": [
+      "Substitution",
+      "Conformity",
+      "Competition",
+      "Contribution"
+    ],
+    "answer": 2,
+    "explanation": "Under the principle of competition, excess profits attract new competitors, which reduces profits for all. Substitution concerns a buyer choosing among equal alternatives, not new entrants cutting margins.",
+    "citation": "General appraisal principles: competition"
+  },
+  {
+    "id": "valuation-a013",
+    "topic": "valuation",
+    "q": "A commuter rail station opens a short walk from a neighborhood, and home values rise even though no owner improved a house. Which principle explains the increase?",
+    "options": [
+      "Contribution",
+      "Progression",
+      "Conformity",
+      "Externalities"
+    ],
+    "answer": 3,
+    "explanation": "Externalities are influences outside the property's boundaries that raise or lower its value. Progression involves a lesser home gaining from nearby more valuable homes, not from a public facility.",
+    "citation": "General appraisal principles: externalities"
+  },
+  {
+    "id": "valuation-a014",
+    "topic": "valuation",
+    "q": "An older house sits on a lot now zoned for, and in demand for, a small apartment building. The site's value as vacant, less demolition cost, exceeds the property's value as currently improved. Highest and best use analysis suggests that:",
+    "options": [
+      "The house must remain, because the existing use always controls the analysis",
+      "Highest and best use cannot be determined until the house is actually sold",
+      "The house is an interim use, and redevelopment is the highest and best use",
+      "The current use is maximally productive simply because it is legally permitted"
+    ],
+    "answer": 2,
+    "explanation": "Highest and best use is analyzed both as vacant and as improved; when the vacant site net of demolition is worth more, the existing improvement is an interim use. Legal permissibility is only one of the four tests.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (highest and best use as vacant and as improved)"
+  },
+  {
+    "id": "valuation-a015",
+    "topic": "valuation",
+    "q": "Among the uses of a site that are legally permissible, physically possible, and financially feasible, the highest and best use is the one that is:",
+    "options": [
+      "Most recently approved",
+      "Maximally productive",
+      "Least expensive to build",
+      "Most like the current use"
+    ],
+    "answer": 1,
+    "explanation": "The fourth test picks the use producing the highest value among those passing the first three. Cost to build and similarity to the current use do not decide it.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (highest and best use)"
+  },
+  {
+    "id": "valuation-a016",
+    "topic": "valuation",
+    "q": "Word spreads that the town's largest employer will close its plant next year. Home prices begin falling now, before the closing. This best illustrates:",
+    "options": [
+      "Anticipation",
+      "Regression",
+      "Competition",
+      "Conformity"
+    ],
+    "answer": 0,
+    "explanation": "Anticipation holds that value reflects expected future benefits or detriments, so expected job losses lower prices today. Regression concerns a better home being pulled down by lesser homes around it.",
+    "citation": "General appraisal principles: anticipation"
+  },
+  {
+    "id": "valuation-a017",
+    "topic": "valuation",
+    "q": "What is the first step in the appraisal process?",
+    "options": [
+      "Defining the problem, including the client, intended use, and type of value",
+      "Collecting recent sales data on comparable properties in the market",
+      "Inspecting the interior and exterior of the subject property",
+      "Applying the sales comparison, cost, and income approaches"
+    ],
+    "answer": 0,
+    "explanation": "The process begins by identifying the assignment: client, intended use, property and rights, type of value, and effective date. Data collection and the approaches come later.",
+    "citation": "Appraisal process (USPAP Scope of Work Rule)"
+  },
+  {
+    "id": "valuation-a018",
+    "topic": "valuation",
+    "q": "Which order correctly reflects the appraisal process?",
+    "options": [
+      "Collect data, define problem, set scope of work, reconcile, apply approaches, report",
+      "Define problem, set scope of work, collect data, apply approaches, reconcile, report",
+      "Define problem, collect data, reconcile, set scope of work, apply approaches, report",
+      "Set scope of work, apply approaches, define problem, collect data, report, reconcile"
+    ],
+    "answer": 1,
+    "explanation": "The problem must be defined before the scope of work and data needs can be set; reconciliation follows the approaches and precedes the final report.",
+    "citation": "Appraisal process (USPAP Scope of Work Rule)"
+  },
+  {
+    "id": "valuation-a019",
+    "topic": "valuation",
+    "q": "An appraiser is valuing an office building leased to a tenant at below-market rent for 15 more years. When defining the problem, it is essential to identify:",
+    "options": [
+      "The original construction cost shown on the building's permits",
+      "The price the current owner paid when the building was acquired",
+      "The property rights being appraised, such as the leased fee interest",
+      "The assessed value shown on the most recent assessment roll"
+    ],
+    "answer": 2,
+    "explanation": "A leased fee subject to a below-market lease can be worth less than the unencumbered fee simple, so the rights appraised must be identified. Historical cost and price paid do not define the assignment.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (specified property rights)"
+  },
+  {
+    "id": "valuation-a020",
+    "topic": "valuation",
+    "q": "An appraiser is valuing a church. Few churches have sold locally, and the building produces no rental income. In reconciliation, the approach likely deserving the most weight is the:",
+    "options": [
+      "Sales comparison approach",
+      "Income approach",
+      "Gross rent multiplier method",
+      "Cost approach"
+    ],
+    "answer": 3,
+    "explanation": "Special-purpose properties with scarce sales and no income are best supported by the cost approach. Sales comparison needs comparable sales, and income methods need rental data.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (three approaches; reconciliation)"
+  },
+  {
+    "id": "valuation-a021",
+    "topic": "valuation",
+    "q": "A study of a site's feasibility for a proposed use, which does not necessarily produce an estimate of value, is called:",
+    "options": [
+      "An appraisal",
+      "A valuation",
+      "An evaluation",
+      "A comparative market analysis"
+    ],
+    "answer": 2,
+    "explanation": "The syllabus defines an evaluation as a study of nature, quality, or utility in which a value estimate is not necessarily required. Appraisals, valuations, and CMAs all produce an opinion of value.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (appraisal, valuation, and evaluation)"
+  },
+  {
+    "id": "valuation-a022",
+    "topic": "valuation",
+    "q": "Which New York appraiser credential authorizes appraisal of all types of real property, including commercial and industrial, without regard to value or complexity?",
+    "options": [
+      "State certified residential appraiser",
+      "State licensed residential appraiser",
+      "State licensed appraiser assistant",
+      "State certified general appraiser"
+    ],
+    "answer": 3,
+    "explanation": "Only the certified general credential covers all property types without value or complexity limits. Certified residential is limited to one-to-four family residential property.",
+    "citation": "NY Executive Law Art. 6-E; 19 NYCRR Part 1101"
+  },
+  {
+    "id": "valuation-a023",
+    "topic": "valuation",
+    "q": "Under New York's appraiser licensing law, a state licensed appraiser assistant may perform appraisal work:",
+    "options": [
+      "Only under the supervision of a state certified appraiser",
+      "Independently on any one-to-four family residential property",
+      "Independently once the assistant has passed the national exam",
+      "Only on properties in the county where the assistant resides"
+    ],
+    "answer": 0,
+    "explanation": "The appraiser assistant (trainee) license exists for supervised experience. The supervisor must be a state certified residential or certified general appraiser certified for at least three years; a licensed residential appraiser cannot supervise. The assistant license does not authorize independent assignments.",
+    "citation": "NY Executive Law Art. 6-E; 19 NYCRR Part 1101; NYS DOS, Become a Real Estate Appraiser (supervisory appraiser qualifications)"
+  },
+  {
+    "id": "valuation-a024",
+    "topic": "valuation",
+    "q": "Compared with a state licensed residential appraiser, a state certified residential appraiser may:",
+    "options": [
+      "Appraise office and retail buildings of any size or value",
+      "Appraise one-to-four family homes without regard to value or complexity",
+      "Sign appraisal reports without having to follow the USPAP standards",
+      "Appraise five-unit and larger apartment buildings of any value"
+    ],
+    "answer": 1,
+    "explanation": "The licensed residential credential is capped by transaction value and complexity; the certified residential credential removes those limits for one-to-four family homes. Commercial and 5+ unit property require a certified general appraiser.",
+    "citation": "NY Executive Law Art. 6-E; 19 NYCRR Part 1101"
+  },
+  {
+    "id": "valuation-a025",
+    "topic": "valuation",
+    "q": "Real estate appraisers in New York are licensed and certified under:",
+    "options": [
+      "Real Property Law Article 12-A, as part of the broker's license",
+      "Executive Law Article 6-E, administered by the Department of State",
+      "General Obligations Law, administered by the Attorney General",
+      "Banking Law, administered by the Department of Financial Services"
+    ],
+    "answer": 1,
+    "explanation": "Appraiser credentials come from Executive Law Article 6-E, with the Department of State and the State Board of Real Estate Appraisal. Article 12-A governs brokers and salespersons and confers no appraiser credential.",
+    "citation": "NY Executive Law Art. 6-E; 19 NYCRR Part 1101"
+  },
+  {
+    "id": "valuation-a026",
+    "topic": "valuation",
+    "q": "A salesperson with no appraiser credential prints flyers offering 'Free home appraisals.' What is the problem?",
+    "options": [
+      "She may offer a CMA, but it may not be represented as an appraisal",
+      "Nothing, because free appraisals are allowed when no fee is charged",
+      "Only that the flyer must also show her supervising broker's phone",
+      "She first needs each homeowner's written consent to the appraisal"
+    ],
+    "answer": 0,
+    "explanation": "A real estate license does not confer an appraiser credential, and a CMA may never be called an appraisal, whether or not a fee is charged.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (CMAs may never be referred to as appraisals); NY Executive Law Art. 6-E; 19 NYCRR Part 1101"
+  },
+  {
+    "id": "valuation-a027",
+    "topic": "valuation",
+    "q": "During a home sale, the listing agent calls the lender's appraiser and hints that future referrals depend on the value 'coming in at contract.' This conduct:",
+    "options": [
+      "Is permitted, as long as the agent does not pay the appraiser any money directly",
+      "Is permitted, because the agent represents the seller rather than the lender",
+      "Violates the rules only if the appraised value actually ends up at contract",
+      "Violates federal rules barring anyone from coercing or influencing the appraiser"
+    ],
+    "answer": 3,
+    "explanation": "Federal appraiser-independence rules prohibit persons with an interest in the transaction from coercing or influencing the appraiser's value, whether or not money changes hands or the attempt succeeds.",
+    "citation": "TILA §129E; Regulation Z, 12 CFR 1026.42"
+  },
+  {
+    "id": "valuation-a028",
+    "topic": "valuation",
+    "q": "After a low appraisal, which action by the buyer's agent is generally permitted under appraiser-independence rules?",
+    "options": [
+      "Telling the appraiser the exact value needed for the purchase to close on time",
+      "Offering the appraiser a bonus if the value is revised to match the contract",
+      "Asking, through the lender, that the appraiser consider additional comparable sales",
+      "Asking the lender to withhold the appraiser's fee until the value is raised"
+    ],
+    "answer": 2,
+    "explanation": "Requesting that the appraiser consider additional, appropriate property information such as comparable sales is allowed; stating a target value or tying payment to the result is prohibited influence.",
+    "citation": "Regulation Z, 12 CFR 1026.42(c)"
+  },
+  {
+    "id": "valuation-a029",
+    "topic": "valuation",
+    "q": "An appraiser agrees to be paid 1% of whatever value the report concludes. Under USPAP, this arrangement is:",
+    "options": [
+      "Acceptable, as long as the percentage fee is disclosed in the report",
+      "Acceptable for commercial assignments but not for residential ones",
+      "Acceptable, as long as the client is not a mortgage lender",
+      "Unethical, because pay may not depend on the value opinion reported"
+    ],
+    "answer": 3,
+    "explanation": "USPAP prohibits compensation contingent on reporting a predetermined result or the amount of the value opinion. Disclosure does not cure it.",
+    "citation": "USPAP Ethics Rule (Appraisal Standards Board, The Appraisal Foundation)"
+  },
+  {
+    "id": "valuation-a030",
+    "topic": "valuation",
+    "q": "The Uniform Standards of Professional Appraisal Practice (USPAP) are developed and published by:",
+    "options": [
+      "The New York Department of State, Division of Licensing",
+      "The Federal Housing Administration's appraisal office",
+      "The Appraisal Standards Board of The Appraisal Foundation",
+      "The National Association of Realtors' ethics committee"
+    ],
+    "answer": 2,
+    "explanation": "USPAP is written by the Appraisal Standards Board of The Appraisal Foundation, recognized by Congress under FIRREA Title XI. States such as New York require credentialed appraisers to follow it.",
+    "citation": "USPAP; FIRREA Title XI"
+  },
+  {
+    "id": "valuation-a031",
+    "topic": "valuation",
+    "q": "A certified general appraiser who has valued only office buildings is offered an assignment to appraise a marina. Under USPAP's Competency Rule, the appraiser must:",
+    "options": [
+      "Decline, because USPAP bars accepting any property type for the first time",
+      "Disclose the lack of experience and take steps to become competent, or decline",
+      "Proceed normally, because the certified general credential covers all types",
+      "Obtain the client's permission to skip the income approach for the marina"
+    ],
+    "answer": 1,
+    "explanation": "The Competency Rule allows accepting an unfamiliar assignment if the appraiser discloses the lack of knowledge and takes the necessary steps to complete it competently. A credential's scope of practice does not by itself establish competence.",
+    "citation": "USPAP Competency Rule"
+  },
+  {
+    "id": "valuation-a032",
+    "topic": "valuation",
+    "q": "Under federal Regulation B, when credit will be secured by a first lien on a dwelling, the lender must give the applicant a copy of the appraisal:",
+    "options": [
+      "Promptly on completion or three business days before closing, whichever is earlier",
+      "Only if the applicant makes a written request within 90 days after the decision",
+      "Only if the application is denied and an adverse action notice is sent",
+      "At the closing table, together with the deed and the closing statement"
+    ],
+    "answer": 0,
+    "explanation": "Regulation B requires the lender to provide appraisals promptly upon completion or three business days before consummation, whichever is earlier, unless the applicant waives the timing.",
+    "citation": "ECOA; Regulation B, 12 CFR 1002.14"
+  },
+  {
+    "id": "valuation-a033",
+    "topic": "valuation",
+    "q": "When preparing a CMA, why does a salesperson review recently expired listings?",
+    "options": [
+      "They show prices the market resisted, helping mark an upper limit",
+      "They are the strongest available evidence of today's market value",
+      "They show the prices at which similar homes actually closed",
+      "They show the asking prices the subject's competition holds now"
+    ],
+    "answer": 0,
+    "explanation": "Expired listings reveal prices buyers refused to pay. Closed sales show achieved prices, and active listings show current competition.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (residential market analysis)"
+  },
+  {
+    "id": "valuation-a034",
+    "topic": "valuation",
+    "q": "Under federal law, a broker price opinion may NOT be used as the primary basis for determining value when:",
+    "options": [
+      "Reviewing an existing loan for a possible modification",
+      "Originating a purchase mortgage on a consumer's principal dwelling",
+      "Setting a list price for a lender's foreclosed property",
+      "Screening a portfolio of rental properties for an investor"
+    ],
+    "answer": 1,
+    "explanation": "Federal law bars using a BPO as the primary basis of value for a residential mortgage origination in connection with the purchase of a consumer's principal dwelling. BPOs remain common for loss mitigation, REO pricing, and portfolio review.",
+    "citation": "12 U.S.C. §3355 (Dodd-Frank Act §1473)"
+  },
+  {
+    "id": "valuation-a035",
+    "topic": "valuation",
+    "q": "Which sale is LEAST suitable as a comparable for a three-bedroom colonial?",
+    "options": [
+      "A sale three months ago of a similar colonial two blocks away",
+      "A sale eight months ago of the same model in the same subdivision",
+      "A sale from a mother to her son at a below-market price last month",
+      "A sale last month of a similar colonial with one fewer bathroom"
+    ],
+    "answer": 2,
+    "explanation": "A family transfer is not an arm's-length sale, so its price does not reflect market value. Older, nearby, or slightly different sales can be adjusted.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison approach)"
+  },
+  {
+    "id": "valuation-a036",
+    "topic": "valuation",
+    "q": "A comparable sold for $482,000. It has an extra bathroom the market values at $12,000, but lacks central air conditioning, which the subject has and the market values at $7,000. What is the comparable's adjusted sale price?",
+    "options": [
+      "$487,000",
+      "$501,000",
+      "$463,000",
+      "$477,000"
+    ],
+    "answer": 3,
+    "explanation": "Subtract for the comparable's superior bath and add for its missing central air: $482,000 − $12,000 + $7,000 = $477,000. Reversing the signs gives the $487,000 trap.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison approach)"
+  },
+  {
+    "id": "valuation-a037",
+    "topic": "valuation",
+    "q": "A comparable sold 6 months ago for $400,000. Market data show prices rising 0.5% per month (simple rate). What is the time-adjusted sale price?",
+    "options": [
+      "$388,000",
+      "$402,000",
+      "$412,000",
+      "$424,000"
+    ],
+    "answer": 2,
+    "explanation": "6 × 0.5% = 3%; $400,000 × 1.03 = $412,000. Prices have risen since the sale, so the comparable is adjusted up; applying 0.5% only once gives $402,000.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison: market conditions adjustment)"
+  },
+  {
+    "id": "valuation-a038",
+    "topic": "valuation",
+    "q": "A comparable sold for $350,000, and the seller paid $10,000 of the buyer's closing costs, a concession not typical in this market. What is the comparable's sale price adjusted for the concession?",
+    "options": [
+      "$360,000",
+      "$350,000",
+      "$345,000",
+      "$340,000"
+    ],
+    "answer": 3,
+    "explanation": "The buyer paid part of the price for the concession, so it is removed: $350,000 − $10,000 = $340,000. Adding it treats the concession backward.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison: conditions of sale and concessions)"
+  },
+  {
+    "id": "valuation-a039",
+    "topic": "valuation",
+    "q": "Two otherwise identical homes sold for $415,000 (with a finished basement) and $396,000 (without). The subject has no finished basement. A third comparable with a finished basement sold for $430,000. What is its adjusted sale price?",
+    "options": [
+      "$411,000",
+      "$449,000",
+      "$430,000",
+      "$396,000"
+    ],
+    "answer": 0,
+    "explanation": "Paired sales: $415,000 − $396,000 = $19,000 for the finished basement. The comparable is superior, so subtract it: $430,000 − $19,000 = $411,000.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison: paired sales analysis)"
+  },
+  {
+    "id": "valuation-a040",
+    "topic": "valuation",
+    "q": "Adjusted prices are Comp A $505,000 (gross adjustments $8,000), Comp B $492,000 (gross $41,000), and Comp C $515,000 (gross $27,000). Which indication most deserves the greatest weight?",
+    "options": [
+      "$504,000, the simple average of the three comparables",
+      "$505,000, from the comparable needing the least adjustment",
+      "$492,000, the lowest and most conservative indication",
+      "$515,000, the highest indication among the three"
+    ],
+    "answer": 1,
+    "explanation": "The comparable needing the smallest gross adjustment is the most similar and usually most reliable. The average is (505,000 + 492,000 + 515,000) ÷ 3 = $504,000, but reconciliation weighs reliability rather than averaging.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison: reconciliation)"
+  },
+  {
+    "id": "valuation-a041",
+    "topic": "valuation",
+    "q": "Comp X has adjustments of +$22,000 and −$20,000. Comp Y has a single adjustment of −$4,000. Which statement is correct?",
+    "options": [
+      "Comp X is more similar because its net adjustment is only $2,000",
+      "Comp Y is likely more similar: gross adjustment $4,000 vs. $42,000",
+      "Both are equally similar because both net adjustments are small",
+      "Comp X must be discarded because it has an upward adjustment"
+    ],
+    "answer": 1,
+    "explanation": "Gross adjustment measures total dissimilarity: Comp X is $22,000 + $20,000 = $42,000, while its net is only $22,000 − $20,000 = $2,000. Offsetting adjustments hide large differences.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison: reconciliation)"
+  },
+  {
+    "id": "valuation-a042",
+    "topic": "valuation",
+    "q": "In the sales comparison approach, which adjustments are typically made before adjustments for physical differences such as size or condition?",
+    "options": [
+      "Financing terms and conditions of sale",
+      "Lot size and site improvements",
+      "Number of bedrooms and bathrooms",
+      "Quality of construction and finishes"
+    ],
+    "answer": 0,
+    "explanation": "Transaction adjustments (property rights, financing, conditions of sale, market conditions) are normally applied first, then location and physical features.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison approach)"
+  },
+  {
+    "id": "valuation-a043",
+    "topic": "valuation",
+    "q": "A 2,000 sq ft comparable sold for $500,000. The subject is 2,200 sq ft, and market data support $80 per sq ft for size differences. What is the comparable's size-adjusted price?",
+    "options": [
+      "$484,000",
+      "$550,000",
+      "$532,000",
+      "$516,000"
+    ],
+    "answer": 3,
+    "explanation": "The comparable is 200 sq ft smaller (inferior), so add: 200 × $80 = $16,000; $500,000 + $16,000 = $516,000. Using the comparable's overall $250/sq ft × 2,200 = $550,000 wrongly treats average price as the value of each extra foot.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison approach)"
+  },
+  {
+    "id": "valuation-a044",
+    "topic": "valuation",
+    "q": "The subject has 1,800 sq ft. Which set of comparable sizes best brackets the subject?",
+    "options": [
+      "1,950, 2,050, and 2,200 sq ft",
+      "1,400, 1,500, and 1,600 sq ft",
+      "1,650, 1,780, and 1,950 sq ft",
+      "2,400, 2,500, and 2,600 sq ft"
+    ],
+    "answer": 2,
+    "explanation": "Bracketing uses comparables both smaller and larger than the subject so the adjusted indications surround its value. Sets that are all larger or all smaller do not bracket.",
+    "citation": "DOS Salesperson Syllabus, Subject 8 (Valuation Process and Pricing Properties) (sales comparison approach)"
+  },
+  {
+    "id": "valuation-b001",
+    "topic": "valuation",
+    "q": "After a fire, an appraiser estimates what it would cost today to build an exact duplicate of a 1920s bank building, including its marble columns and ornamental plaster ceilings, using the same materials and design. This estimate is the building's:",
+    "options": [
+      "Replacement cost",
+      "Assessed value",
+      "Reproduction cost",
+      "Insurable value"
+    ],
+    "answer": 2,
+    "explanation": "Reproduction cost is the current cost of an exact replica using the same materials, design, and workmanship. Replacement cost is the trap: it prices a building of equal utility built with modern materials and methods, not a duplicate.",
+    "citation": "Appraisal principles, cost approach (NYS DOS salesperson syllabus, Valuation)"
+  },
+  {
+    "id": "valuation-b002",
+    "topic": "valuation",
+    "q": "Why do appraisers usually prefer replacement cost over reproduction cost when applying the cost approach to an older house with dated features?",
+    "options": [
+      "It prices modern equal utility instead of costly obsolete features",
+      "It always produces a higher indicated value for the property",
+      "It removes the need to estimate the value of the land",
+      "It is required by law for every residential appraisal"
+    ],
+    "answer": 0,
+    "explanation": "Replacement cost estimates a structure with the same utility built with current materials, so the appraiser does not have to price, then depreciate, outdated craftsmanship. It usually yields a lower cost figure, not a higher one, and land is still valued separately.",
+    "citation": "Appraisal principles, cost approach (NYS DOS salesperson syllabus, Valuation)"
+  },
+  {
+    "id": "valuation-b003",
+    "topic": "valuation",
+    "q": "Using the square-foot method, an appraiser prices a house's 2,400 sq ft of living area at $185 per sq ft and its 500 sq ft attached garage at $55 per sq ft. What is the estimated cost new of the improvements?",
+    "options": [
+      "$444,000",
+      "$536,500",
+      "$416,500",
+      "$471,500"
+    ],
+    "answer": 3,
+    "explanation": "2,400 × $185 = $444,000; 500 × $55 = $27,500; $444,000 + $27,500 = $471,500. Pricing the garage at the living-area rate (2,900 × $185 = $536,500) overstates cost, and $444,000 leaves the garage out entirely.",
+    "citation": "Cost estimating, square-foot (comparative unit) method"
+  },
+  {
+    "id": "valuation-b004",
+    "topic": "valuation",
+    "q": "A building has a 50 ft × 40 ft main section and a 20 ft × 15 ft rear wing. Recently built comparable structures cost $160 per square foot. Using the square-foot method, what is the estimated cost new?",
+    "options": [
+      "$320,000",
+      "$368,000",
+      "$616,000",
+      "$325,600"
+    ],
+    "answer": 1,
+    "explanation": "Main section 50 × 40 = 2,000 sq ft; wing 20 × 15 = 300 sq ft; total 2,300 sq ft × $160 = $368,000. Adding the wing's sides instead of multiplying them (2,035 sq ft) gives $325,600, and multiplying the combined outside dimensions (70 × 55) gives $616,000.",
+    "citation": "Cost estimating, square-foot (comparative unit) method"
+  },
+  {
+    "id": "valuation-b005",
+    "topic": "valuation",
+    "q": "An appraiser estimates cost new by pricing each building component separately, such as the foundation per linear foot, the roof per square, and the framing per square foot, with each figure including installation. This is the:",
+    "options": [
+      "Quantity survey method",
+      "Index method",
+      "Unit-in-place method",
+      "Square-foot method"
+    ],
+    "answer": 2,
+    "explanation": "The unit-in-place (segregated cost) method totals the installed cost of each major component, measured in its own unit. The quantity survey method is more detailed still: it itemizes every material quantity and labor hour plus overhead and profit, rather than using installed unit prices.",
+    "citation": "Cost estimating, unit-in-place method"
+  },
+  {
+    "id": "valuation-b006",
+    "topic": "valuation",
+    "q": "Which cost estimating method is the most detailed and time-consuming, listing every quantity of material, every labor hour, and the contractor's overhead and profit, and is used mainly by builders and cost estimators?",
+    "options": [
+      "Quantity survey method",
+      "Unit-in-place method",
+      "Square-foot method",
+      "Index method"
+    ],
+    "answer": 0,
+    "explanation": "The quantity survey method duplicates a contractor's bid line by line and is considered the most accurate, but it is too labor-intensive for most appraisals. The square-foot method is the quickest and most commonly used by appraisers.",
+    "citation": "Cost estimating, quantity survey method"
+  },
+  {
+    "id": "valuation-b007",
+    "topic": "valuation",
+    "q": "A warehouse cost $250,000 to build when the construction cost index stood at 160. The index is now 224. Using the index method, what is the estimated current cost to build it?",
+    "options": [
+      "$178,571",
+      "$321,429",
+      "$350,000",
+      "$410,000"
+    ],
+    "answer": 2,
+    "explanation": "Current cost = original cost × (current index ÷ original index) = $250,000 × (224 ÷ 160) = $250,000 × 1.4 = $350,000. Inverting the ratio gives $178,571, and treating the 64-point rise as 64% gives $410,000.",
+    "citation": "Cost estimating, index method"
+  },
+  {
+    "id": "valuation-b008",
+    "topic": "valuation",
+    "q": "Using the unit-in-place method: foundation, 160 linear feet at $110; roofing, 24 squares at $525; framing, 2,000 sq ft at $38. What is the combined installed cost of these three components?",
+    "options": [
+      "$93,600",
+      "$88,600",
+      "$118,800",
+      "$106,200"
+    ],
+    "answer": 3,
+    "explanation": "Foundation 160 × $110 = $17,600; roofing 24 × $525 = $12,600; framing 2,000 × $38 = $76,000; total $17,600 + $12,600 + $76,000 = $106,200. $93,600 drops the roofing and $88,600 drops the foundation.",
+    "citation": "Cost estimating, unit-in-place method"
+  },
+  {
+    "id": "valuation-b009",
+    "topic": "valuation",
+    "q": "A house has peeling exterior paint and worn carpeting. Fixing both would cost $6,000 and would raise the home's value by about $9,000. This depreciation is best classified as:",
+    "options": [
+      "Curable functional obsolescence",
+      "Curable physical deterioration",
+      "Incurable external obsolescence",
+      "Incurable physical deterioration"
+    ],
+    "answer": 1,
+    "explanation": "Wear and tear is physical deterioration, and it is curable because the cost to fix it ($6,000) is less than the value it adds ($9,000). Functional obsolescence is the trap: it comes from poor design or outdated features, not ordinary wear.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b010",
+    "topic": "valuation",
+    "q": "A 60-year-old building's foundation has settled and cracked. Repairs would cost $85,000, but the work would add only about $30,000 to the property's value. The appraiser should treat this as:",
+    "options": [
+      "Curable physical deterioration",
+      "Incurable functional obsolescence",
+      "Curable external obsolescence",
+      "Incurable physical deterioration"
+    ],
+    "answer": 3,
+    "explanation": "Structural wear is physical deterioration, and it is incurable because the cost to cure ($85,000) exceeds the value added ($30,000). In appraisal, curable means economically worth fixing, not merely physically repairable.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b011",
+    "topic": "valuation",
+    "q": "A sound, well-kept house still has its original 1970s kitchen. New cabinets and counters would cost $12,000 and would raise the home's market value by about $18,000. This is an example of:",
+    "options": [
+      "Curable functional obsolescence",
+      "Curable physical deterioration",
+      "Incurable external obsolescence",
+      "Incurable functional obsolescence"
+    ],
+    "answer": 0,
+    "explanation": "An outdated design that buyers penalize is functional obsolescence, and it is curable because the $12,000 cost is less than the $18,000 value gained. The kitchen is not worn out, so physical deterioration is the wrong category.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b012",
+    "topic": "valuation",
+    "q": "In a neighborhood of modest starter homes, one owner installed a commercial-grade kitchen and an eight-car heated garage. Buyers in the area will not pay for these features. The lost value is a form of:",
+    "options": [
+      "External obsolescence",
+      "Physical deterioration",
+      "Functional obsolescence",
+      "Economic life expiration"
+    ],
+    "answer": 2,
+    "explanation": "An overimprovement (superadequacy) is functional obsolescence because the features cost more than they contribute in that market. External obsolescence comes from forces outside the property line, not from the owner's own improvements.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b013",
+    "topic": "valuation",
+    "q": "All of the following are examples of external obsolescence EXCEPT:",
+    "options": [
+      "Noise from a newly widened highway",
+      "A floor plan with no first-floor bathroom",
+      "Rezoning of an adjacent block to industrial",
+      "Layoffs after the area's main plant closes"
+    ],
+    "answer": 1,
+    "explanation": "A poor floor plan is a defect within the property itself, which makes it functional obsolescence. Highway noise, adverse rezoning nearby, and a regional economic decline are all influences outside the property, which is what defines external obsolescence.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b014",
+    "topic": "valuation",
+    "q": "A brand-new, well-designed house loses market value when the town's largest employer shuts down and hundreds of homes come on the market at once. This loss is called:",
+    "options": [
+      "Functional obsolescence",
+      "Curable physical deterioration",
+      "Incurable physical deterioration",
+      "Economic (external) obsolescence"
+    ],
+    "answer": 3,
+    "explanation": "Economic obsolescence, also called external obsolescence, can strike even a new, flawless building because its cause lies outside the property. Nothing about the house's design or condition changed, so neither functional obsolescence nor physical deterioration applies.",
+    "citation": "Appraisal principles, accrued depreciation"
+  },
+  {
+    "id": "valuation-b015",
+    "topic": "valuation",
+    "q": "In the cost approach, accrued depreciation is subtracted from:",
+    "options": [
+      "The combined value of land and buildings",
+      "The cost new of the improvements only",
+      "The land value only, before buildings are added",
+      "The most recent sale price of the property"
+    ],
+    "answer": 1,
+    "explanation": "Depreciation is deducted only from the cost new of the improvements; land is valued separately, usually by sales comparison, and is then added back. Land is not treated as a wasting asset, so depreciating the combined total is the classic error.",
+    "citation": "Cost approach: value = land + (cost new − accrued depreciation)"
+  },
+  {
+    "id": "valuation-b016",
+    "topic": "valuation",
+    "q": "A building's replacement cost new is $360,000. Its effective age is 12 years and its total economic life is 60 years. Using the age-life method, what is the accrued depreciation?",
+    "options": [
+      "$72,000",
+      "$288,000",
+      "$43,200",
+      "$6,000"
+    ],
+    "answer": 0,
+    "explanation": "Depreciation fraction = effective age ÷ total economic life = 12 ÷ 60 = 20%; $360,000 × 20% = $72,000. $288,000 is the depreciated value of the building, not the depreciation, and $6,000 is only one year's share ($360,000 ÷ 60).",
+    "citation": "Age-life method: depreciation = cost new × (effective age ÷ total economic life)"
+  },
+  {
+    "id": "valuation-b017",
+    "topic": "valuation",
+    "q": "Land is worth $125,000. A 2,000 sq ft house would cost $200 per sq ft to replace today. Its effective age is 15 years and its total economic life is 50 years. What value does the cost approach indicate?",
+    "options": [
+      "$280,000",
+      "$367,500",
+      "$405,000",
+      "$525,000"
+    ],
+    "answer": 2,
+    "explanation": "Cost new = 2,000 × $200 = $400,000; depreciation = 15 ÷ 50 = 30% × $400,000 = $120,000; value = $125,000 + $400,000 − $120,000 = $405,000. Depreciating the land too gives ($525,000 × 70%) = $367,500, and omitting the land gives $280,000.",
+    "citation": "Cost approach with age-life depreciation"
+  },
+  {
+    "id": "valuation-b018",
+    "topic": "valuation",
+    "q": "A house was built 45 years ago but was gutted and fully renovated five years ago, so it now compares to homes about 15 years old. In the age-life method, which age should drive the depreciation estimate?",
+    "options": [
+      "The 45-year chronological age",
+      "The 5 years since the renovation",
+      "The average of the two ages",
+      "The 15-year effective age"
+    ],
+    "answer": 3,
+    "explanation": "The age-life method uses effective age, which reflects actual condition and utility, divided by total economic life. Chronological age is just calendar age and would overstate depreciation for a home that has been extensively renovated.",
+    "citation": "Age-life method: effective vs. chronological age"
+  },
+  {
+    "id": "valuation-b019",
+    "topic": "valuation",
+    "q": "A building has a total economic life of 55 years and an effective age of 20 years. What is its remaining economic life?",
+    "options": [
+      "35 years",
+      "20 years",
+      "55 years",
+      "75 years"
+    ],
+    "answer": 0,
+    "explanation": "Remaining economic life = total economic life − effective age = 55 − 20 = 35 years. Adding the figures (75) or confusing effective age with remaining life (20) are the common mistakes.",
+    "citation": "Age-life method: remaining economic life"
+  },
+  {
+    "id": "valuation-b020",
+    "topic": "valuation",
+    "q": "Under straight-line age-life depreciation, a building with a total economic life of 40 years loses what percentage of its cost new each year?",
+    "options": [
+      "4.0%",
+      "2.5%",
+      "0.4%",
+      "25%"
+    ],
+    "answer": 1,
+    "explanation": "Annual rate = 100% ÷ total economic life = 100% ÷ 40 = 2.5% per year. A 4% rate would correspond to a 25-year life, and 25% confuses the life with the rate.",
+    "citation": "Age-life method: annual depreciation rate"
+  },
+  {
+    "id": "valuation-b021",
+    "topic": "valuation",
+    "q": "An appraiser concludes that a building has suffered 30% accrued depreciation and is now worth $210,000 as depreciated. What was its cost new?",
+    "options": [
+      "$273,000",
+      "$147,000",
+      "$300,000",
+      "$280,000"
+    ],
+    "answer": 2,
+    "explanation": "After 30% depreciation the building retains 70% of cost new, so cost new = $210,000 ÷ 0.70 = $300,000. Multiplying $210,000 by 1.30 ($273,000) is wrong because the 30% applies to cost new, not to the depreciated figure.",
+    "citation": "Cost approach: depreciated cost = cost new × (1 − depreciation %)"
+  },
+  {
+    "id": "valuation-b022",
+    "topic": "valuation",
+    "q": "Which property would most likely be appraised with primary reliance on the cost approach?",
+    "options": [
+      "A 30-year-old ranch house in a busy subdivision",
+      "A vacant residential lot zoned for one home",
+      "A 24-unit apartment building with steady tenants",
+      "A municipal firehouse that rarely changes hands"
+    ],
+    "answer": 3,
+    "explanation": "Special-purpose properties such as firehouses, churches, and schools seldom sell and produce no rent, so the cost approach is the most reliable. The apartment building suits the income approach, and the house and lot have plenty of comparable sales.",
+    "citation": "Appraisal principles, selecting the approach"
+  },
+  {
+    "id": "valuation-b023",
+    "topic": "valuation",
+    "q": "Land is valued at $80,000 and replacement cost new is $350,000. The appraiser estimates physical deterioration of $35,000, functional obsolescence of $15,000, and external obsolescence of $20,000. What value does the cost approach indicate?",
+    "options": [
+      "$280,000",
+      "$360,000",
+      "$380,000",
+      "$430,000"
+    ],
+    "answer": 1,
+    "explanation": "Total accrued depreciation = $35,000 + $15,000 + $20,000 = $70,000; value = $80,000 + $350,000 − $70,000 = $360,000. Skipping the external obsolescence gives $380,000, and leaving out the land gives $280,000.",
+    "citation": "Cost approach: value = land + (cost new − accrued depreciation)"
+  },
+  {
+    "id": "valuation-b024",
+    "topic": "valuation",
+    "q": "A 12-unit building rents each unit for $1,450 per month. Vacancy in the area has averaged 6%. What is the building's annual potential gross income?",
+    "options": [
+      "$17,400",
+      "$196,272",
+      "$208,800",
+      "$191,400"
+    ],
+    "answer": 2,
+    "explanation": "Potential gross income assumes 100% occupancy for a full year: 12 × $1,450 × 12 = $208,800. Subtracting the 6% vacancy ($196,272) produces effective gross income, which is the next step, and $17,400 is only one month of rent.",
+    "citation": "Income approach: potential gross income"
+  },
+  {
+    "id": "valuation-b025",
+    "topic": "valuation",
+    "q": "A building's potential gross rental income is $208,800. Vacancy and collection loss on rents is 6%, and laundry machines bring in another $4,800 per year, unaffected by vacancy. What is the effective gross income?",
+    "options": [
+      "$201,072",
+      "$196,272",
+      "$213,600",
+      "$200,784"
+    ],
+    "answer": 0,
+    "explanation": "Rent after loss = $208,800 × 0.94 = $196,272; add other income: $196,272 + $4,800 = $201,072. Omitting the laundry gives $196,272, and skipping the vacancy deduction gives $213,600.",
+    "citation": "Income approach: EGI = PGI − vacancy and collection loss + other income"
+  },
+  {
+    "id": "valuation-b026",
+    "topic": "valuation",
+    "q": "Which item is deducted from effective gross income as an operating expense when computing net operating income?",
+    "options": [
+      "Monthly mortgage principal and interest",
+      "Annual real estate property taxes",
+      "The owner's personal income tax bill",
+      "Tax depreciation claimed by the owner"
+    ],
+    "answer": 1,
+    "explanation": "Property taxes are a cost of running the property, so they reduce NOI. Mortgage payments, the owner's income taxes, and tax depreciation depend on the particular owner's financing and tax situation, so they are excluded from NOI.",
+    "citation": "Income approach: operating expenses vs. owner-specific costs"
+  },
+  {
+    "id": "valuation-b027",
+    "topic": "valuation",
+    "q": "An owner manages her 10-unit building herself and pays no management fee. When estimating NOI for an appraisal, the appraiser should:",
+    "options": [
+      "Leave management out because no fee is actually paid",
+      "Deduct the owner's mortgage payments in place of a fee",
+      "Include a market-rate management fee as an expense",
+      "Add the value of her labor to effective gross income"
+    ],
+    "answer": 2,
+    "explanation": "The income approach values the property as a typical investor would operate it, so a market-level management expense is included even when the owner does the work. Leaving it out would overstate NOI and therefore value.",
+    "citation": "Income approach: normalized operating expenses"
+  },
+  {
+    "id": "valuation-b028",
+    "topic": "valuation",
+    "q": "In an income property analysis, reserves for replacement are best described as:",
+    "options": [
+      "Annual set-asides for short-lived items such as roofs and appliances",
+      "The lender's escrow account for the owner's property tax payments",
+      "Cash the owner keeps to make mortgage payments during vacancies",
+      "Security deposits held on behalf of tenants until their leases end"
+    ],
+    "answer": 0,
+    "explanation": "Reserves for replacement spread the cost of components that wear out before the building does, such as roofs, boilers, and appliances, over their useful lives, and they are treated as an operating expense. Money set aside for debt service is not part of NOI.",
+    "citation": "Income approach: reserves for replacement"
+  },
+  {
+    "id": "valuation-b029",
+    "topic": "valuation",
+    "q": "An office building has potential gross income of $480,000, 5% vacancy and collection loss, $12,000 of parking income, operating expenses of $150,000, reserves for replacement of $18,000 (treated as an operating expense), and annual debt service of $210,000. What is its net operating income?",
+    "options": [
+      "$318,000",
+      "$288,000",
+      "$90,000",
+      "$300,000"
+    ],
+    "answer": 3,
+    "explanation": "EGI = $480,000 × 0.95 + $12,000 = $468,000; NOI = $468,000 − $150,000 − $18,000 = $300,000. Subtracting debt service ($90,000) is the main trap, since financing is not an operating expense; $318,000 forgets the reserves.",
+    "citation": "Income approach: NOI = EGI − operating expenses (including reserves)"
+  },
+  {
+    "id": "valuation-b030",
+    "topic": "valuation",
+    "q": "A small retail strip produces net operating income of $93,500. Comparable sales support a capitalization rate of 8.5%. What value does direct capitalization indicate?",
+    "options": [
+      "$794,750",
+      "$1,100,000",
+      "$11,000,000",
+      "$110,000"
+    ],
+    "answer": 1,
+    "explanation": "Value = NOI ÷ cap rate = $93,500 ÷ 0.085 = $1,100,000. Dividing by 0.0085 instead of 0.085 inflates the answer tenfold to $11,000,000.",
+    "citation": "Income approach: value = NOI ÷ capitalization rate"
+  },
+  {
+    "id": "valuation-b031",
+    "topic": "valuation",
+    "q": "A comparable apartment building recently sold for $2,400,000. Its net operating income is $168,000. What capitalization rate does this sale indicate?",
+    "options": [
+      "0.7%",
+      "14.3%",
+      "7.0%",
+      "17.0%"
+    ],
+    "answer": 2,
+    "explanation": "Cap rate = NOI ÷ sale price = $168,000 ÷ $2,400,000 = 0.07 = 7.0%. Dividing price by income (about 14.3) gives a multiplier, not a rate.",
+    "citation": "Income approach: rate = income ÷ value"
+  },
+  {
+    "id": "valuation-b032",
+    "topic": "valuation",
+    "q": "An investor pays $850,000 for a property and expects a 9% capitalization rate. What annual net operating income must the property produce?",
+    "options": [
+      "$76,500",
+      "$765,000",
+      "$7,650",
+      "$9,444,444"
+    ],
+    "answer": 0,
+    "explanation": "Income = value × rate = $850,000 × 0.09 = $76,500. Dividing value by the rate ($9,444,444) applies the value formula backward.",
+    "citation": "Income approach: income = value × rate"
+  },
+  {
+    "id": "valuation-b033",
+    "topic": "valuation",
+    "q": "A property's NOI is $120,000. If the appropriate capitalization rate rises from 6% to 8% while NOI stays the same, how does the indicated value change?",
+    "options": [
+      "It rises by $500,000",
+      "It falls by $40,000",
+      "It falls by $666,667",
+      "It falls by $500,000"
+    ],
+    "answer": 3,
+    "explanation": "At 6%: $120,000 ÷ 0.06 = $2,000,000. At 8%: $120,000 ÷ 0.08 = $1,500,000. Value falls by $500,000 because value and cap rate move in opposite directions.",
+    "citation": "Income approach: inverse relationship of rate and value"
+  },
+  {
+    "id": "valuation-b034",
+    "topic": "valuation",
+    "q": "Two buildings produce identical NOI. One is leased to a single tenant whose lease expires next year in a weakening market; the other has dozens of long-term tenants. Compared with the second building, the first will most likely be valued with:",
+    "options": [
+      "A lower cap rate and a higher value",
+      "A higher cap rate and a higher value",
+      "A higher cap rate and a lower value",
+      "The same cap rate and the same value"
+    ],
+    "answer": 2,
+    "explanation": "Investors demand a higher return for greater risk, so the riskier income stream receives a higher cap rate. Dividing the same NOI by a higher rate produces a lower value.",
+    "citation": "Income approach: capitalization rate and risk"
+  },
+  {
+    "id": "valuation-b035",
+    "topic": "valuation",
+    "q": "Which pairing correctly classifies two common operating expenses of an apartment building?",
+    "options": [
+      "Property insurance is fixed; repairs are variable",
+      "Property taxes are variable; insurance is fixed",
+      "Utilities are fixed; property taxes are variable",
+      "Repairs are fixed; property insurance is variable"
+    ],
+    "answer": 0,
+    "explanation": "Fixed expenses, such as property taxes and insurance, stay about the same regardless of occupancy. Variable expenses, such as repairs, utilities, and supplies, rise and fall with occupancy and use.",
+    "citation": "Income approach: fixed vs. variable operating expenses"
+  },
+  {
+    "id": "valuation-b036",
+    "topic": "valuation",
+    "q": "Two nearby rental houses sold recently: one for $312,000 renting at $2,400 per month, another for $286,000 renting at $2,200 per month. The similar subject house rents for $2,500 per month. Using a monthly gross rent multiplier, what is the subject's indicated value?",
+    "options": [
+      "$312,000",
+      "$286,000",
+      "$3,900,000",
+      "$325,000"
+    ],
+    "answer": 3,
+    "explanation": "GRM = price ÷ monthly rent: $312,000 ÷ $2,400 = 130 and $286,000 ÷ $2,200 = 130. Value = $2,500 × 130 = $325,000. Applying the monthly GRM to annual rent ($30,000 × 130 = $3,900,000) mixes time periods.",
+    "citation": "Gross rent multiplier: value = monthly rent × GRM"
+  },
+  {
+    "id": "valuation-b037",
+    "topic": "valuation",
+    "q": "A small commercial building produces annual gross income of $180,000. Comparable sales show a gross income multiplier of 7.5. What value does the GIM indicate?",
+    "options": [
+      "$24,000",
+      "$1,350,000",
+      "$112,500",
+      "$13,500,000"
+    ],
+    "answer": 1,
+    "explanation": "Value = annual gross income × GIM = $180,000 × 7.5 = $1,350,000. Dividing income by the multiplier ($24,000) reverses the formula, and using monthly income ($15,000 × 7.5 = $112,500) mismatches an annual multiplier.",
+    "citation": "Gross income multiplier: value = annual gross income × GIM"
+  },
+  {
+    "id": "valuation-b038",
+    "topic": "valuation",
+    "q": "What is the main weakness of valuing a property with a gross rent multiplier instead of capitalizing NOI?",
+    "options": [
+      "It cannot be used for single-family rental homes",
+      "It requires a detailed estimate of land value",
+      "It ignores differences in vacancy and expenses",
+      "It depends on the buyer's mortgage interest rate"
+    ],
+    "answer": 2,
+    "explanation": "A GRM works from gross rent, so two properties with the same rent but very different vacancy or operating costs receive the same value. It is actually the common shortcut for single-family rentals, and it uses no land value or financing inputs.",
+    "citation": "Gross rent multiplier: limitations"
+  },
+  {
+    "id": "valuation-b039",
+    "topic": "valuation",
+    "q": "A rental house sold for $360,000. It rents for $2,000 per month. What is its monthly gross rent multiplier?",
+    "options": [
+      "15",
+      "180",
+      "150",
+      "1,800"
+    ],
+    "answer": 1,
+    "explanation": "Monthly GRM = sale price ÷ monthly rent = $360,000 ÷ $2,000 = 180. Dividing by annual rent ($24,000) gives 15, an annual multiplier, which must not be paired with monthly rents.",
+    "citation": "Gross rent multiplier: GRM = price ÷ monthly rent"
+  },
+  {
+    "id": "valuation-b040",
+    "topic": "valuation",
+    "q": "An appraiser is valuing a fully leased 40-unit apartment building that investors buy for its rental income. Which approach should normally receive the most weight?",
+    "options": [
+      "Income capitalization approach",
+      "Cost approach",
+      "Gross rent multiplier on one unit",
+      "Assessed value approach"
+    ],
+    "answer": 0,
+    "explanation": "Buyers of income-producing property pay for the income stream, so the income approach best reflects their thinking. The cost approach gives little guidance for an established, income-producing building whose value depends on its rents.",
+    "citation": "Appraisal principles, selecting the approach"
+  },
+  {
+    "id": "valuation-b041",
+    "topic": "valuation",
+    "q": "Why can the cost approach not be used by itself to value a vacant building lot?",
+    "options": [
+      "Vacant land is exempt from property appraisal",
+      "Land must always be valued by income capitalization",
+      "Vacant land depreciates faster than the improvements do",
+      "There are no improvements to cost out or depreciate"
+    ],
+    "answer": 3,
+    "explanation": "The cost approach estimates the cost of improvements less depreciation, then adds land value; with no improvements, it has nothing to measure. Land value itself is usually found by sales comparison, and land is not depreciated.",
+    "citation": "Appraisal principles, selecting the approach"
+  },
+  {
+    "id": "valuation-b042",
+    "topic": "valuation",
+    "q": "For an owner-occupied single-family home in an active market with many recent sales, the approaches indicate: sales comparison $405,000, cost $440,000, income $390,000. Which conclusion best reflects proper reconciliation?",
+    "options": [
+      "About $440,000, because cost new sets the ceiling on value",
+      "About $411,667, the simple average of the three indications",
+      "About $390,000, because the lowest figure is most conservative",
+      "About $405,000, giving the most weight to sales comparison"
+    ],
+    "answer": 3,
+    "explanation": "Reconciliation weighs each indication by how reliable and relevant it is; for a home with abundant comparable sales, sales comparison deserves the most weight. A simple average ($1,235,000 ÷ 3 = $411,667) treats weak indications as equally valid, which reconciliation specifically avoids.",
+    "citation": "Appraisal process: reconciliation"
+  },
+  {
+    "id": "valuation-b043",
+    "topic": "valuation",
+    "q": "An appraiser weights three indications: sales comparison $405,000 at 60%, cost $440,000 at 25%, and income $390,000 at 15%. What weighted value results?",
+    "options": [
+      "$411,667",
+      "$411,500",
+      "$406,500",
+      "$405,000"
+    ],
+    "answer": 1,
+    "explanation": "$405,000 × 0.60 = $243,000; $440,000 × 0.25 = $110,000; $390,000 × 0.15 = $58,500; total $411,500. Swapping the cost and income weights gives $406,500, and $411,667 is the unweighted average.",
+    "citation": "Appraisal process: weighted reconciliation"
+  },
+  {
+    "id": "valuation-b044",
+    "topic": "valuation",
+    "q": "A property's net operating income is $84,000 and its annual mortgage debt service is $54,000. The $30,000 left after paying the mortgage is called:",
+    "options": [
+      "Before-tax cash flow",
+      "Effective gross income",
+      "Net operating income",
+      "Potential gross income"
+    ],
+    "answer": 0,
+    "explanation": "$84,000 − $54,000 = $30,000 before-tax cash flow, the owner's return after financing. NOI is measured before debt service, which is why the income approach capitalizes NOI and not cash flow.",
+    "citation": "Income property analysis: NOI vs. before-tax cash flow"
+  }
 ]
