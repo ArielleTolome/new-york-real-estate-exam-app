@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1194, height=834, initial-scale=1.0, user-scalable=no">
+  <title>Custom Quiz Builder — NY RE Exam (iPad Landscape)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    :root {
+      --canvas: #090d16;
+      --surface: #111725;
+      --raised: #182033;
+      --hairline: rgba(148, 163, 184, 0.16);
+      --text-primary: #f1f5f9;
+      --text-secondary: #a3b1c6;
+      --go-green: #10b981;
+      
+      /* Transit line palette */
+      --line-red: #ef4444;
+      --line-green: #10b981;
+      --line-blue: #3b82f6;
+      --line-orange: #f97316;
+      --line-yellow: #eab308;
+      --line-purple: #a855f7;
+      --line-lime: #84cc16;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      background-color: var(--canvas);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Text", system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 1194px;
+      height: 834px;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .font-heading {
+      font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .tabular {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* iOS native toggle switch */
+    .ios-switch {
+      position: relative;
+      width: 48px;
+      height: 28px;
+      background-color: var(--go-green);
+      border-radius: 9999px;
+      transition: background-color 0.2s ease;
+      cursor: pointer;
+    }
+    .ios-switch::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      width: 24px;
+      height: 24px;
+      background-color: #ffffff;
+      border-radius: 9999px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Bullet styling */
+    .bullet {
+      width: 26px;
+      height: 26px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 1;
+      z-index: 2;
+      flex-shrink: 0;
+    }
+
+    /* Transit track lines */
+    .track-line {
+      position: absolute;
+      left: 11px;
+      width: 4px;
+      border-radius: 2px;
+      z-index: 1;
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      width: 0px;
+    }
+  </style>
+</head>
+<body class="flex flex-col justify-between px-[40px] pt-[34px] pb-[34px]">
+
+  <!-- Top Title Header -->
+  <header class="flex flex-col mb-4">
+    <h1 class="text-[34px] leading-[40px] font-bold font-heading text-[#f1f5f9]">Custom quiz</h1>
+    <p class="text-[15px] leading-[20px] text-[#a3b1c6] mt-0.5 tabular">286 questions match</p>
+  </header>
+
+  <!-- Main Two-Pane Body Area -->
+  <main class="flex-1 flex gap-[32px] items-start min-h-0">
+    
+    <!-- Left Pane: 62% width (~672px) -->
+    <section class="w-[62%] h-full flex flex-col">
+      <!-- Section Header -->
+      <div class="flex items-center justify-between mb-3 px-1">
+        <div class="flex items-baseline gap-2">
+          <h2 class="text-[20px] font-bold font-heading text-[#f1f5f9]">Topics</h2>
+          <span class="text-[15px] text-[#a3b1c6] tabular">12 of 19</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <button class="text-[15px] font-medium text-[#10b981] hover:text-[#34d399] transition-colors">All</button>
+          <button class="text-[15px] font-medium text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">None</button>
+        </div>
+      </div>
+
+      <!-- Subway Strip Map Card -->
+      <div class="flex-1 bg-[#111725] rounded-[18px] border border-[rgba(148,163,184,0.16)] p-5 grid grid-cols-2 gap-x-6 overflow-hidden">
+        
+        <!-- Left Column: Red, Green, Blue lines -->
+        <div class="flex flex-col gap-[12px] h-full justify-between">
+          
+          <!-- Red Line (3 stations) -->
+          <div class="relative flex flex-col">
+            <div class="track-line bg-[#ef4444]" style="top: 13px; height: 88px;"></div>
+            
+            <!-- Station 1 -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#ef4444] text-white">1</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">License Law & Article 12-A</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">128</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station 2 -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#ef4444] text-white">2</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Law of Agency</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">114</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station 3 -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#ef4444] text-white">3</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Human Rights & Fair Housing</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">56</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Green Line (3 stations - Math unselected) -->
+          <div class="relative flex flex-col">
+            <div class="track-line bg-[#10b981]" style="top: 13px; height: 88px;"></div>
+            
+            <!-- Station 4 -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#10b981] text-[#090d16]">4</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Real Estate Finance</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">94</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station 5 -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#10b981] text-[#090d16]">5</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Valuation & Market Analysis</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">52</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station 6 (Unselected) -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#10b981] text-[#10b981]">6</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Real Estate Math</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">38</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blue Line (3 stations) -->
+          <div class="relative flex flex-col">
+            <div class="track-line bg-[#3b82f6]" style="top: 13px; height: 88px;"></div>
+            
+            <!-- Station A -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#3b82f6] text-white">A</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Legal Issues & Land Title</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">48</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station C -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#3b82f6] text-white">C</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Estates & Encumbrances</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">86</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <!-- Station E -->
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#3b82f6] text-white">E</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Real Estate Contracts</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">102</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Orange, Yellow (unselected), Purple (unselected), Lime lines -->
+        <div class="flex flex-col gap-[10px] h-full justify-between">
+          
+          <!-- Orange Line (4 stations with dark glyphs) -->
+          <div class="relative flex flex-col">
+            <div class="track-line bg-[#f97316]" style="top: 13px; height: 132px;"></div>
+            
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#f97316] text-[#090d16]">B</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Land Use Regulations</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">40</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#f97316] text-[#090d16]">D</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Municipal Agencies</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">34</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#f97316] text-[#090d16]">F</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Construction & Environment</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">45</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#f97316] text-[#090d16]">M</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Property Insurance</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">31</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Yellow Line (4 stations - Entire line UNSELECTED) -->
+          <div class="relative flex flex-col">
+            <div class="track-line bg-[#eab308]/40" style="top: 13px; height: 132px;"></div>
+            
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#eab308] text-[#eab308]">N</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Taxes & Assessments</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">42</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#eab308] text-[#eab308]">Q</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Closing & Settlement</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">29</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#eab308] text-[#eab308]">R</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Commercial Real Estate</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">36</span>
+              </div>
+            </div>
+
+            <div class="h-[44px] flex items-center justify-between z-[2] pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#eab308] text-[#eab308]">W</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Property Management</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">25</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Purple Line (Condos & Co-ops - UNSELECTED) & Lime Line (Rentals - SELECTED) -->
+          <div class="flex flex-col gap-1">
+            <!-- Purple Line 7 (Unselected) -->
+            <div class="h-[44px] flex items-center justify-between pr-2 group cursor-pointer opacity-75">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-transparent border-2 border-[#a855f7] text-[#a855f7]">7</div>
+                <span class="text-[15px] font-medium text-[#a3b1c6]">Condos & Co-ops</span>
+              </div>
+              <div class="flex items-center gap-2 pr-[26px]">
+                <span class="text-[13px] text-[#a3b1c6] tabular">37</span>
+              </div>
+            </div>
+
+            <!-- Lime Line G (Selected, dark glyph) -->
+            <div class="h-[44px] flex items-center justify-between pr-2 group cursor-pointer">
+              <div class="flex items-center gap-3">
+                <div class="bullet bg-[#84cc16] text-[#090d16]">G</div>
+                <span class="text-[15px] font-medium text-[#f1f5f9]">Rentals & Deal Sheets</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[13px] text-[#a3b1c6] tabular">27</span>
+                <span class="material-symbols-outlined text-[#10b981] text-[18px] font-bold">check</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Right Pane: 38% width (~410px, Inspector Column) -->
+    <section class="w-[38%] h-full flex flex-col justify-between">
+      
+      <!-- Upper Settings Sections -->
+      <div class="flex flex-col gap-[14px]">
+        
+        <!-- Section: Questions -->
+        <div class="flex flex-col gap-1.5">
+          <label class="text-[13px] font-semibold text-[#a3b1c6] uppercase tracking-wider pl-1">Questions</label>
+          <div class="flex gap-2">
+            <!-- iOS Segmented Control -->
+            <div class="flex-1 bg-[#111725] p-1 rounded-[14px] border border-[rgba(148,163,184,0.16)] flex items-center">
+              <button class="flex-1 py-1.5 text-[15px] font-medium text-[#a3b1c6] rounded-[10px] hover:text-[#f1f5f9] transition-colors tabular">10</button>
+              <button class="flex-1 py-1.5 text-[15px] font-medium text-[#a3b1c6] rounded-[10px] hover:text-[#f1f5f9] transition-colors tabular">25</button>
+              <button class="flex-1 py-1.5 text-[15px] font-medium text-[#a3b1c6] rounded-[10px] hover:text-[#f1f5f9] transition-colors tabular">50</button>
+              <!-- 75 Selected -->
+              <button class="flex-1 py-1.5 text-[15px] font-bold text-[#f1f5f9] bg-[#182033] rounded-[10px] shadow-sm tabular border border-[rgba(148,163,184,0.12)]">75</button>
+            </div>
+            <!-- Custom Field -->
+            <div class="w-[84px] bg-[#111725] px-2.5 py-1 rounded-[14px] border border-[rgba(148,163,184,0.16)] flex flex-col justify-center items-center">
+              <span class="text-[11px] text-[#a3b1c6]">Custom</span>
+              <span class="text-[14px] font-semibold text-[#f1f5f9] tabular leading-tight">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Mode -->
+        <div class="flex flex-col gap-1.5">
+          <label class="text-[13px] font-semibold text-[#a3b1c6] uppercase tracking-wider pl-1">Mode</label>
+          <div class="grid grid-cols-2 gap-2.5">
+            <!-- Tutor Card (Unselected) -->
+            <div class="bg-[#111725] p-3 rounded-[14px] border border-[rgba(148,163,184,0.16)] flex flex-col justify-between cursor-pointer hover:border-[rgba(148,163,184,0.3)] transition-all h-[92px]">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[19px] text-[#a3b1c6]">menu_book</span>
+                <span class="text-[15px] font-bold text-[#f1f5f9]">Tutor</span>
+              </div>
+              <p class="text-[12px] leading-[15px] text-[#a3b1c6]">Instant feedback with the legal citation after every answer</p>
+            </div>
+
+            <!-- Timed Exam Card (Selected with 2px go-green ring and filled check) -->
+            <div class="bg-[#111725] p-3 rounded-[14px] border-2 border-[#10b981] flex flex-col justify-between cursor-pointer relative h-[92px] bg-gradient-to-b from-[#111725] to-[#141e2e]">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-[19px] text-[#10b981]">schedule</span>
+                  <span class="text-[15px] font-bold text-[#f1f5f9]">Timed exam</span>
+                </div>
+                <div class="w-5 h-5 rounded-full bg-[#10b981] flex items-center justify-center">
+                  <span class="material-symbols-outlined text-[#090d16] text-[15px] font-extrabold">check</span>
+                </div>
+              </div>
+              <p class="text-[12px] leading-[15px] text-[#a3b1c6]">Answers hidden until you submit, 90:00 on the clock</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Question Pool (4-segment control with label over count) -->
+        <div class="flex flex-col gap-1.5">
+          <label class="text-[13px] font-semibold text-[#a3b1c6] uppercase tracking-wider pl-1">Question pool</label>
+          <div class="bg-[#111725] p-1 rounded-[14px] border border-[rgba(148,163,184,0.16)] flex items-center">
+            <!-- All (Selected) -->
+            <div class="flex-1 py-1 flex flex-col items-center bg-[#182033] rounded-[10px] border border-[rgba(148,163,184,0.12)] cursor-pointer">
+              <span class="text-[12px] font-medium text-[#f1f5f9]">All</span>
+              <span class="text-[14px] font-bold text-[#10b981] tabular leading-tight">286</span>
+            </div>
+            <!-- Unseen -->
+            <div class="flex-1 py-1 flex flex-col items-center hover:bg-[#151c2d] rounded-[10px] cursor-pointer transition-colors">
+              <span class="text-[12px] font-medium text-[#a3b1c6]">Unseen</span>
+              <span class="text-[14px] font-bold text-[#a3b1c6] tabular leading-tight">214</span>
+            </div>
+            <!-- Bookmarked -->
+            <div class="flex-1 py-1 flex flex-col items-center hover:bg-[#151c2d] rounded-[10px] cursor-pointer transition-colors">
+              <span class="text-[12px] font-medium text-[#a3b1c6]">Bookmarked</span>
+              <span class="text-[14px] font-bold text-[#a3b1c6] tabular leading-tight">6</span>
+            </div>
+            <!-- Mistakes -->
+            <div class="flex-1 py-1 flex flex-col items-center hover:bg-[#151c2d] rounded-[10px] cursor-pointer transition-colors">
+              <span class="text-[12px] font-medium text-[#a3b1c6]">Mistakes</span>
+              <span class="text-[14px] font-bold text-[#a3b1c6] tabular leading-tight">14</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grouped Card with iOS Switches -->
+        <div class="bg-[#111725] rounded-[14px] border border-[rgba(148,163,184,0.16)] divide-y divide-[rgba(148,163,184,0.16)]">
+          <div class="flex items-center justify-between px-4 py-3">
+            <span class="text-[15px] font-medium text-[#f1f5f9]">Shuffle question order</span>
+            <div class="ios-switch"></div>
+          </div>
+          <div class="flex items-center justify-between px-4 py-3">
+            <span class="text-[15px] font-medium text-[#f1f5f9]">Shuffle answer positions (A-D)</span>
+            <div class="ios-switch"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Floating Glass Capsule Action Bar (Bottom Right, under right pane) -->
+      <div class="w-full h-[72px] bg-[#111725]/85 backdrop-blur-md rounded-[26px] border border-[rgba(148,163,184,0.16)] px-3 flex items-center justify-between gap-3 shadow-2xl">
+        <!-- Raised Pill with clock icon and 90:00 -->
+        <div class="h-[48px] px-4 rounded-[14px] bg-[#182033] border border-[rgba(148,163,184,0.16)] flex items-center gap-2">
+          <span class="material-symbols-outlined text-[19px] text-[#10b981]">schedule</span>
+          <span class="text-[17px] font-bold font-heading text-[#f1f5f9] tabular">90:00</span>
+        </div>
+
+        <!-- 56px Go Green Button -->
+        <button class="flex-1 h-[56px] bg-[#10b981] hover:bg-[#0ea5e9]/10 hover:bg-[#059669] text-[#090d16] font-bold text-[17px] font-heading rounded-[14px] flex items-center justify-center transition-transform active:scale-[0.98]">
+          Start 75-question exam
+        </button>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

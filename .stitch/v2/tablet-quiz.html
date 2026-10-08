@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NY RE Exam — Active Quiz (iPad Landscape)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"Helvetica Neue"', 'Helvetica', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'monospace'],
+        },
+        colors: {
+          canvas: '#090d16',
+          surface: '#111726',
+          'surface-raised': '#161f33',
+          'surface-dim': '#0d1321',
+          border: '#1f2a40',
+          'border-subtle': '#182235',
+          correct: '#10b981',
+          'correct-bg': 'rgba(16, 185, 129, 0.12)',
+          'correct-border': '#10b981',
+          missed: '#ef4444',
+          'missed-bg': 'rgba(239, 68, 68, 0.12)',
+          'missed-border': '#ef4444',
+          accent: '#6366f1',
+          'accent-bg': 'rgba(99, 102, 241, 0.14)',
+          text: '#f1f5f9',
+          'text-secondary': '#94a3b8',
+          'text-dim': '#64748b'
+        }
+      }
+    }
+  };
+</script>
+<style>
+  /* Pixel-fitted 1194x834 iPad landscape container */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #05080e;
+    color: #f1f5f9;
+    font-family: "Helvetica Neue", Helvetica, Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .transit-line {
+    background: #1e293b;
+    position: relative;
+  }
+  .transit-line-filled {
+    background: #10b981;
+  }
+</style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-[#05080e] select-none p-0">
+
+  <!-- Master iPad Pro 11-inch Frame (1194px x 834px) -->
+  <div class="relative w-[1194px] h-[834px] max-w-[1194px] max-h-[834px] bg-[#090d16] flex flex-col justify-between overflow-hidden shadow-2xl border border-[#1a2333]">
+
+    <!-- Top Section: Status Bar & Sticky Slim Navigation Bar -->
+    <header class="w-full shrink-0 border-b border-[#1b263b] bg-[#0c121f]">
+      <!-- iPadOS System Pill Header -->
+      <div class="h-6 px-7 flex items-center justify-between text-xs text-[#64748b] font-medium pt-1">
+        <span class="font-mono text-[#94a3b8]">9:41 AM</span>
+        <div class="w-20 h-1 bg-[#1e293b] rounded-full mx-auto"></div>
+        <div class="flex items-center space-x-2 text-[11px] font-mono">
+          <span>100%</span>
+          <svg class="w-3.5 h-3.5 inline fill-current text-[#94a3b8]" viewBox="0 0 24 24"><path d="M17 4h-3V2h-4v2H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/></svg>
+        </div>
+      </div>
+
+      <!-- Slim App Top Bar -->
+      <div class="h-14 px-8 flex items-center justify-between">
+        <div class="flex items-baseline space-x-3.5">
+          <span class="font-mono text-xl font-bold tracking-tight text-white">Q 4 of 25</span>
+          <span class="text-sm text-[#94a3b8] font-normal">3 answered</span>
+          <span class="text-xs px-2 py-0.5 rounded bg-[#151e30] border border-[#223049] text-[#94a3b8] font-normal ml-1">Study mode</span>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <!-- Bookmark Button -->
+          <button class="w-9 h-9 rounded-lg bg-[#141c2c] border border-[#223048] flex items-center justify-center text-[#94a3b8] hover:text-white hover:border-[#33466a] transition-colors" title="Bookmark question">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+            </svg>
+          </button>
+          
+          <!-- Plain Indigo Text Button 'End' -->
+          <button class="text-base font-semibold text-[#818cf8] hover:text-[#a5b4fc] px-2 py-1 rounded transition-colors">
+            End
+          </button>
+        </div>
+      </div>
+
+      <!-- Subway Line Progress Bar across full width -->
+      <div class="px-8 pb-3 pt-1">
+        <div class="relative w-full h-3 flex items-center">
+          <!-- Base background track line -->
+          <div class="absolute inset-x-0 h-1 bg-[#1c273b] rounded-full"></div>
+          <!-- Completed track segment up to current station -->
+          <div class="absolute left-0 h-1 bg-[#10b981] rounded-full" style="width: 12.5%;"></div>
+
+          <!-- Station Dots (25 stops) -->
+          <div class="relative w-full flex justify-between items-center z-10 px-0.5">
+            <!-- Stop 1 (Passed, Emerald) -->
+            <div class="w-2 h-2 rounded-full bg-[#10b981] ring-2 ring-[#0c121f]"></div>
+            <!-- Stop 2 (Passed, Emerald) -->
+            <div class="w-2 h-2 rounded-full bg-[#10b981] ring-2 ring-[#0c121f]"></div>
+            <!-- Stop 3 (Passed, Emerald) -->
+            <div class="w-2 h-2 rounded-full bg-[#10b981] ring-2 ring-[#0c121f]"></div>
+            
+            <!-- Stop 4 (CURRENT: larger ringed dot) -->
+            <div class="relative flex items-center justify-center">
+              <div class="w-3.5 h-3.5 rounded-full bg-[#0c121f] border-2 border-[#10b981] flex items-center justify-center shadow-[0_0_8px_rgba(16,185,129,0.5)]">
+                <div class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></div>
+              </div>
+            </div>
+
+            <!-- Future Stations (Muted line dots 5 to 25) -->
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+            <div class="w-2 h-2 rounded-full bg-[#27354d] ring-2 ring-[#0c121f]"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area: Two Wide Panes fitting without scrolling -->
+    <main class="flex-1 w-full px-8 pt-4 pb-20 flex gap-8 items-start justify-between overflow-hidden">
+
+      <!-- LEFT PANE: Reading Column (~680px wide) -->
+      <section class="w-[680px] shrink-0 flex flex-col justify-start">
+
+        <!-- Topic Route Badge (Subway Bullet Style) -->
+        <div class="flex items-center space-x-2.5 mb-3">
+          <div class="w-6 h-6 rounded-full bg-[#00933C] text-white flex items-center justify-center font-bold text-xs tracking-tighter shadow-sm">
+            4
+          </div>
+          <span class="text-xs font-semibold text-[#cbd5e1] tracking-wide">
+            Real estate finance
+          </span>
+          <span class="text-xs text-[#64748b]">NYS syllabus 12-A</span>
+        </div>
+
+        <!-- Question Prompt (Helvetica Neue bold ~28px, max ~75 chars per line) -->
+        <h1 class="text-[25px] leading-[1.28] font-bold text-[#f8fafc] mb-5 tracking-tight max-w-[670px]">
+          Under New York Real Property Law, how is the statutory mortgage recording tax calculated on a residential purchase financed with an institutional lender in New York City?
+        </h1>
+
+        <!-- Answer Options List (4 rows, 14px radius, rounded-square letters) -->
+        <div class="flex flex-col space-y-2.5 w-full">
+
+          <!-- Option A: Dimmed -->
+          <div class="w-full rounded-[14px] bg-[#111726]/60 border border-[#1b263b] p-3 flex items-center justify-between opacity-55">
+            <div class="flex items-center space-x-3.5 pr-3">
+              <div class="w-8 h-8 rounded-lg bg-[#161f33] border border-[#25334d] flex items-center justify-center font-mono font-bold text-sm text-[#94a3b8] shrink-0">
+                A
+              </div>
+              <p class="text-[14px] text-[#cbd5e1] leading-snug">
+                A flat state transfer surcharge of $500 plus 0.5% of the total loan commitment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Option B: CORRECT OPTION (Tinted Emerald + Correct answer tag) -->
+          <div class="w-full rounded-[14px] bg-[#0c2420] border-2 border-[#10b981] p-3 flex items-center justify-between shadow-[0_0_15px_rgba(16,185,129,0.08)]">
+            <div class="flex items-center space-x-3.5 pr-2">
+              <div class="w-8 h-8 rounded-lg bg-[#10b981] text-[#041d14] flex items-center justify-center font-mono font-bold text-sm shrink-0">
+                B
+              </div>
+              <p class="text-[14px] text-white font-medium leading-snug">
+                2.05% of the mortgage amount on loans under $500,000, or 2.175% for loans of $500,000 or greater.
+              </p>
+            </div>
+            <div class="shrink-0 flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-[#10b981]/20 border border-[#10b981]/40 text-[#34d399] text-xs font-semibold">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Correct answer</span>
+            </div>
+          </div>
+
+          <!-- Option C: Dimmed -->
+          <div class="w-full rounded-[14px] bg-[#111726]/60 border border-[#1b263b] p-3 flex items-center justify-between opacity-55">
+            <div class="flex items-center space-x-3.5 pr-3">
+              <div class="w-8 h-8 rounded-lg bg-[#161f33] border border-[#25334d] flex items-center justify-center font-mono font-bold text-sm text-[#94a3b8] shrink-0">
+                C
+              </div>
+              <p class="text-[14px] text-[#cbd5e1] leading-snug">
+                1.0% paid exclusively by the mortgagor at initial commitment.
+              </p>
+            </div>
+          </div>
+
+          <!-- Option D: USER'S WRONG PICK (Tinted Red + Your answer tag) -->
+          <div class="w-full rounded-[14px] bg-[#27151a] border-2 border-[#ef4444] p-3 flex items-center justify-between shadow-[0_0_15px_rgba(239,68,68,0.08)]">
+            <div class="flex items-center space-x-3.5 pr-2">
+              <div class="w-8 h-8 rounded-lg bg-[#ef4444] text-white flex items-center justify-center font-mono font-bold text-sm shrink-0">
+                D
+              </div>
+              <p class="text-[14px] text-[#fee2e2] leading-snug">
+                Exempt from county and city recording duties if under $750,000.
+              </p>
+            </div>
+            <div class="shrink-0 flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-[#ef4444]/20 border border-[#ef4444]/40 text-[#f87171] text-xs font-semibold">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <span>Your answer</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- RIGHT PANE: Inspector Side Panel (~380px wide) -->
+      <aside class="w-[380px] shrink-0 flex flex-col pt-1">
+
+        <!-- Verdict Line -->
+        <div class="flex items-center space-x-2 pb-3 mb-2 border-b border-[#1c273b]">
+          <span class="text-base font-bold text-[#ef4444]">Incorrect.</span>
+          <span class="text-base text-[#e2e8f0] font-medium">The correct answer is B.</span>
+        </div>
+
+        <!-- Inspector Surface Sheet: Legal Citation & Rationale -->
+        <div class="w-full rounded-[16px] bg-[#111726] border border-[#202c44] p-5 shadow-lg relative overflow-hidden">
+          
+          <!-- Indigo Left Rule Accent -->
+          <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-[#6366f1]"></div>
+
+          <!-- Header badge & Section title -->
+          <div class="flex items-center justify-between mb-3 pl-1">
+            <span class="text-xs uppercase tracking-wider font-semibold text-[#818cf8]">Statutory analysis</span>
+            <span class="text-[11px] font-mono text-[#64748b]">NY RPL § 253</span>
+          </div>
+
+          <!-- Sheet Heading -->
+          <h2 class="text-base font-bold text-white mb-2 pl-1">
+            Legal Citation &amp; Rationale
+          </h2>
+
+          <!-- Statute Citation in Indigo Bold -->
+          <div class="mb-3.5 pl-1">
+            <p class="text-xs font-mono font-semibold text-[#a5b4fc] bg-[#182038] py-1 px-2.5 rounded-md inline-block border border-[#2a375e]">
+              NY Tax Law § 253 &amp; NYC Admin Code § 11-2601
+            </p>
+          </div>
+
+          <!-- 3-5 sentence rationale paragraph in secondary ink -->
+          <div class="text-[13px] leading-[1.55] text-[#94a3b8] space-y-2.5 pl-1">
+            <p>
+              Mortgage recording tax within New York City includes the New York State basic tax, special additional tax, and local NYC recording surcharges.
+            </p>
+            <p>
+              For 1-to-3 family residential dwellings, loan obligations under $500,000 incur a total rate of 2.05% (with the lender paying 0.25% of that statutory requirement).
+            </p>
+            <p>
+              Once the mortgage indebtedness reaches or exceeds $500,000, the applicable rate steps up to 2.175%. New York provides no blanket exemption for institutional mortgages below $750,000.
+            </p>
+          </div>
+
+          <!-- Quick Tip Bar -->
+          <div class="mt-4 pt-3 border-t border-[#1b263b] flex items-center justify-between text-xs text-[#64748b] pl-1">
+            <span>Subway error queue</span>
+            <span class="text-[#ef4444] font-medium">+1 strike in mistakes bank</span>
+          </div>
+
+        </div>
+
+      </aside>
+
+    </main>
+
+    <!-- Bottom Floating Glass Thumb-Zone Action Bar -->
+    <div class="absolute bottom-5 inset-x-0 flex justify-center items-center pointer-events-none z-30">
+      <div class="pointer-events-auto bg-[#0d1424]/85 backdrop-blur-md border border-[#223049] shadow-[0_12px_32px_rgba(0,0,0,0.5)] rounded-2xl px-3.5 py-2.5 flex items-center space-x-3">
+        
+        <!-- Square Previous Button with Chevron -->
+        <button class="w-11 h-11 rounded-xl bg-[#141d30] border border-[#23314a] text-[#94a3b8] hover:text-white hover:bg-[#1b263e] flex items-center justify-center transition-all active:scale-95" title="Previous question">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+
+        <!-- Flag Toggle Button with Flag Icon -->
+        <button class="h-11 px-4 rounded-xl bg-[#141d30] border border-[#23314a] text-[#cbd5e1] hover:text-white hover:bg-[#1b263e] flex items-center space-x-2 text-sm font-semibold transition-all active:scale-95" title="Flag question for review">
+          <svg class="w-4 h-4 text-[#f59e0b]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+          </svg>
+          <span>Flag</span>
+        </button>
+
+        <!-- Vertical Separator in Bar -->
+        <div class="w-px h-6 bg-[#223049]"></div>
+
+        <!-- Dominant Emerald Next Button (No arrows, Sentence case) -->
+        <button class="h-11 px-8 rounded-xl bg-[#10b981] hover:bg-[#059669] text-[#022c22] font-bold text-sm flex items-center justify-center shadow-lg shadow-[#10b981]/20 transition-all active:scale-95">
+          <span>Next</span>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- iPadOS Home Indicator bar -->
+    <div class="absolute bottom-1 inset-x-0 flex justify-center pointer-events-none">
+      <div class="w-36 h-1 bg-[#334155] rounded-full"></div>
+    </div>
+
+  </div>
+
+</body>
+</html>

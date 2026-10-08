@@ -1,0 +1,88 @@
+{
+  "window_id": 38392,
+  "audits": [
+    {
+      "screen": "home",
+      "controls": 9,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study",
+      "controls": 8,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXRadioButton"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study-answered",
+      "controls": 5,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXDisclosureTriangle"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "results",
+      "controls": 12,
+      "roles": [
+        "AXButton",
+        "AXDisclosureTriangle",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "stats",
+      "controls": 13,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "mistakes",
+      "controls": 59,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "build",
+      "controls": 35,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXTextField"
+      ],
+      "issues": []
+    }
+  ],
+  "flow": [
+    "Q1: tapped 'This kitchen gets the best light on the block.\u2026",
+    "Q2: tapped 12%\u2026",
+    "Q3: tapped the seller must accept if the cousin can pay al\u2026",
+    "Q4: tapped Only the buyer's insurer may order it, and neit\u2026",
+    "Q5: tapped The loss is covered only if the homeowner also \u2026",
+    "Q6: tapped A fee simple determinable\u2026",
+    "Q7: tapped Undivided loyalty, since the seller pays the fe\u2026",
+    "Q8: tapped The firm's operating account, as long as a sepa\u2026",
+    "Q9: tapped Grant one owner an easement by necessity\u2026",
+    "Q10: tapped The bank's name and address and the amount depo\u2026"
+  ],
+  "result": [
+    "30%",
+    "FAIL"
+  ]
+}

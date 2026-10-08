@@ -17,14 +17,14 @@ function vMistakes() {
         <button class="btn ghost block" data-action="review-mistakes" disabled>Review mistakes</button></section>`;
   return {
     top: header('Mistakes'),
-    main: `${hero}
-    <section>${n ? '<div class="section-title"><h2>Missed questions</h2><span class="meta">Newest first</span></div>' : ''}
+    main: `<div class="mk-layout${n ? ' mk-split' : ''}">${hero}
+    <section class="mk-list">${n ? '<div class="section-title"><h2>Missed questions</h2><span class="meta">Newest first</span></div>' : ''}
     <ul class="mlist" id="mlist">${items.map(([id, m]) => {
       const q = byId.get(id);
       return `<li class="card mk-item">${topicLabel(q.topic)}<p class="mk-q">${esc(q.q)}</p>
         <div class="row"><span class="dots" role="img" aria-label="${m.streak} of 2 correct"><i class="${m.streak ? 'on' : ''}"></i><i></i><small>${m.streak} of 2</small></span>
         <button class="link mk-clear" data-action="clear-mistake" data-id="${esc(id)}">Clear</button></div></li>`;
-    }).join('')}</ul></section>`,
+    }).join('')}</ul></section></div>`,
     bottom: tabs('mistakes'),
   };
 }

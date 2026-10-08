@@ -9,6 +9,8 @@ import json, os, re, subprocess, sys, time
 
 PID = int(sys.argv[1])
 OUT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/nyre-cua"
+# Window size (points): default phone-like; e.g. `1194 834` for iPad landscape, `834 1194` for portrait.
+WIN_W, WIN_H = (int(sys.argv[3]), int(sys.argv[4])) if len(sys.argv) > 4 else (430, 932)
 os.makedirs(OUT, exist_ok=True)
 ACTIONABLE = {"AXButton", "AXLink", "AXRadioButton", "AXCheckBox", "AXTextField", "AXIncrementor", "AXPopUpButton", "AXDisclosureTriangle"}
 
@@ -56,7 +58,7 @@ for _ in range(20):
     time.sleep(1)
 assert win, "app window not found"
 try:
-    tool("set_window_frame", pid=PID, window_id=win, x=40, y=40, width=430, height=932)
+    tool("set_window_frame", pid=PID, window_id=win, x=40, y=40, width=WIN_W, height=WIN_H)
 except RuntimeError as e:
     print("resize skipped:", e)
 
@@ -85,9 +87,16 @@ def text_present(pattern):
     return any(rx.search(e.get(k) or "") for e in state["els"] for k in ("label", "value"))
 
 
-def click(role, pattern):
+def click(role, pattern, retries=10):
     e = find(role, pattern)
-    assert e, f"no {role} matching {pattern}"
+    for _ in range(retries):  # the DOM may still be re-rendering after the previous action
+        if e:
+            break
+        time.sleep(0.5)
+        snap()
+        e = find(role, pattern)
+    seen = [(x["role"], (x.get("label") or "")[:40]) for x in state["els"] if x["role"] == role]
+    assert e, f"no {role} matching {pattern}; have {seen[:12]}"
     tool("click", pid=PID, element_token=e["element_token"])
     return e
 
@@ -120,19 +129,18 @@ def audit(screen):
 
 
 report = {"window_id": win, "audits": [], "flow": []}
-snap()
-if not text_present(r"Quick 10-Question Drill"):
-    click("AXLink", r"^Home$")
-wait_for(r"Quick 10-Question Drill", shot="01-home")
+# Launch Safari at .../#/home; the page may still be loading, so wait for the dashboard itself.
+wait_for(r"Quick 10-Question Drill", shot="01-home", timeout=30)
 report["audits"].append(audit("home"))
 click("AXButton", r"^Quick 10-Question Drill$")
 wait_for(r"Q 1 of 10", shot="02-quiz")
 report["audits"].append(audit("quiz-study"))
 for q in range(1, 11):
-    opt = click("AXRadioButton", r"^A ")
+    opt = click("AXRadioButton", r"^A\. ")
     wait_for(r"Legal Citation & Rationale", shot="03-answered" if q == 1 else None)
-    verdict = "Incorrect" if text_present(r"^Incorrect") else "Correct" if text_present(r"^Correct$") else "?"
-    report["flow"].append(f"Q{q}: {(opt.get('label') or '')[2:50]}… -> {verdict}")
+    # Per-question right/wrong isn't recorded: the driver truncates long accessible names, so the
+    # ", Correct answer" suffix can be cut off. The results screen's score below is the source of truth.
+    report["flow"].append(f"Q{q}: tapped {(opt.get('label') or '')[3:50]}…")
     if q == 1:
         report["audits"].append(audit("quiz-study-answered"))
     if q < 10:

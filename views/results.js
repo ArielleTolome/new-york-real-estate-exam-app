@@ -11,7 +11,7 @@ function vResults(id) {
   return {
     top: header('Results', { sub: `${h.title}, ${h.mode === 'exam' ? 'exam' : 'study'} mode` }),
     main: `
-    <section class="sheet rs-hero ${h.passed ? 'pass' : 'fail'}">
+    <div class="rs-side"><section class="sheet rs-hero ${h.passed ? 'pass' : 'fail'}">
       <div class="rs-top"><p class="rs-score num" id="score">${pct(h.score)}%</p><span class="badge big ${h.passed ? 'ok' : 'bad'}" id="verdict">${h.passed ? 'PASS' : 'FAIL'}</span></div>
       <div class="rs-line" role="img" aria-label="${pct(h.score)} percent against the ${pct(PASS)} percent pass line"><i style="width:${pct(h.score)}%"></i><b><span>Pass line ${pct(PASS)}%</span></b></div>
       <p class="rs-gap">${h.passed ? (gap ? `${gap} correct answer${s(gap)} above the pass line` : 'Passed with no answers to spare') : `${gap} correct answer${s(gap)} short of passing`}</p>
@@ -21,11 +21,11 @@ function vResults(id) {
         <div><dt>Time</dt><dd class="num">${fmtClock(h.secs)}</dd></div>
       </dl>
     </section>
-    <section class="card">
+    <section class="card rs-topics">
       <div class="section-title"><h2>By topic</h2><span class="meta">Weakest first</span></div>
       <ul class="ac">${topics.map(([t, x]) =>
         `<li class="ac-row">${topicLabel(t)}<span class="ac-n${x.c / x.t >= PASS ? ' ok' : ''}">${x.c}/${x.t}</span>${bar(x.c / x.t, x.t)}</li>`).join('')}</ul>
-    </section>
+    </section></div>
     <section class="card rv">
       <div class="section-title"><h2>Review</h2><span class="meta">${missed.length} missed</span></div>
       ${h.qids.map((qid, i) => {

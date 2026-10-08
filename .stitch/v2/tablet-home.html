@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1194, height=834, user-scalable=no">
+  <title>NY RE Exam — iPad Home (Wayfinding)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#090d16',
+            surface: '#111725',
+            'surface-dark': '#05080f',
+            raised: '#182033',
+            'raised-hover': '#222c44',
+            hairline: 'rgba(148, 163, 184, 0.16)',
+            ink: '#f1f5f9',
+            'secondary-ink': '#a3b1c6',
+            go: '#10b981',
+            stop: '#ef4444',
+            caution: '#f59e0b',
+            'mta-orange': '#FF6319',
+            'mta-green': '#00843D',
+            'mta-blue': '#0039A6',
+          },
+          fontFamily: {
+            display: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+            body: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'system-ui', 'sans-serif'],
+          },
+          borderRadius: {
+            'card-hero': '24px',
+            'card-std': '18px',
+            'card-ctrl': '14px',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 1194px;
+      height: 834px;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.02em;
+    }
+
+    /* Split-flap mechanical display styling */
+    .split-flap {
+      position: relative;
+      background: #090d16;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.8), 0 4px 12px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .split-flap::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.95);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12);
+      z-index: 10;
+    }
+
+    /* Station line styling */
+    .station-track {
+      position: relative;
+    }
+    .station-track::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 6px;
+      right: 6px;
+      height: 4px;
+      background: rgba(148, 163, 184, 0.2);
+      transform: translateY(-50%);
+      border-radius: 9999px;
+      z-index: 1;
+    }
+    .station-track-active {
+      position: absolute;
+      top: 50%;
+      left: 6px;
+      width: calc((100% - 12px) * (1 / 9));
+      height: 4px;
+      background: #10b981;
+      transform: translateY(-50%);
+      border-radius: 9999px;
+      z-index: 2;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+</head>
+<body class="w-[1194px] h-[834px] flex flex-col justify-between p-0 m-0 bg-canvas relative selection:bg-go selection:text-canvas">
+
+  <!-- Top bar / iPad Header Area -->
+  <header class="w-full pt-8 px-10 pb-4">
+    <div class="max-w-[1120px] mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3.5">
+        <!-- Square subway-inspired app tile -->
+        <div class="w-9 h-9 rounded-xl bg-go flex items-center justify-center shadow-lg shadow-go/20">
+          <span class="font-display font-black text-canvas text-base tracking-tight leading-none">NY</span>
+        </div>
+        <h1 class="font-display font-bold text-[34px] tracking-tight text-ink leading-none">
+          NY RE Exam
+        </h1>
+      </div>
+
+      <!-- Subtle iPad status/badge indicator -->
+      <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface border border-hairline text-secondary-ink text-sm">
+        <span class="w-2 h-2 rounded-full bg-go animate-pulse"></span>
+        <span class="font-body text-xs font-medium text-secondary-ink">NYS Department of State standard</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Bento Dashboard Area (12 columns) -->
+  <main class="w-full px-10 flex-1 flex flex-col justify-start">
+    <div class="max-w-[1120px] w-full mx-auto flex flex-col gap-5">
+      
+      <!-- Top Row of Bento: 7 cols (Arrival Board Countdown) + 5 cols (Readiness Card) -->
+      <section class="grid grid-cols-12 gap-5 items-stretch">
+        
+        <!-- Left 7 columns: NYC Subway Platform Arrival Board Hero -->
+        <div class="col-span-7 bg-surface rounded-[24px] p-5 border border-hairline flex flex-col justify-between shadow-2xl shadow-black/40">
+          <div class="bg-surface-dark rounded-[18px] p-4 border border-white/[0.06] flex flex-col justify-between">
+            <!-- Board Header -->
+            <div class="flex items-center justify-between pb-3.5 border-b border-hairline">
+              <div class="flex items-center gap-2.5">
+                <div class="w-3 h-3 rounded-full bg-caution/90 animate-pulse"></div>
+                <span class="font-display font-bold text-sm tracking-wide text-ink uppercase">NYS salesperson exam</span>
+              </div>
+              <span class="font-display font-bold text-sm tracking-wide text-secondary-ink">Oct 14 &amp; 15</span>
+            </div>
+
+            <!-- Three Big Split-Flap Arrival Tiles -->
+            <div class="grid grid-cols-3 gap-3.5 my-3.5">
+              <!-- Tile 1: Days -->
+              <div class="flex flex-col items-center">
+                <div class="w-full h-[96px] split-flap">
+                  <span class="font-display font-bold text-[64px] text-ink tabular-nums leading-none z-20">6</span>
+                </div>
+                <span class="mt-2 font-body text-xs text-secondary-ink font-medium lowercase">days</span>
+              </div>
+
+              <!-- Tile 2: Hours -->
+              <div class="flex flex-col items-center">
+                <div class="w-full h-[96px] split-flap">
+                  <span class="font-display font-bold text-[64px] text-ink tabular-nums leading-none z-20">07</span>
+                </div>
+                <span class="mt-2 font-body text-xs text-secondary-ink font-medium lowercase">hours</span>
+              </div>
+
+              <!-- Tile 3: Minutes -->
+              <div class="flex flex-col items-center">
+                <div class="w-full h-[96px] split-flap">
+                  <span class="font-display font-bold text-[64px] text-ink tabular-nums leading-none z-20">05</span>
+                </div>
+                <span class="mt-2 font-body text-xs text-secondary-ink font-medium lowercase">minutes</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom requirement meta text -->
+          <p class="text-center font-body text-[14px] text-secondary-ink pt-3">
+            Pass with 53 of 75 correct in 90 minutes.
+          </p>
+        </div>
+
+        <!-- Right 5 columns: Readiness Card (18 radius, #111725) -->
+        <div class="col-span-5 bg-surface rounded-[18px] p-6 border border-hairline flex items-center justify-between shadow-2xl shadow-black/40">
+          <!-- 140px Ring Gauge -->
+          <div class="relative w-[140px] h-[140px] flex-shrink-0 flex items-center justify-center">
+            <svg class="w-full h-full -rotate-90" viewBox="0 0 140 140">
+              <!-- Background Ring Track -->
+              <circle cx="70" cy="70" r="56" stroke="rgba(148, 163, 184, 0.16)" stroke-width="12" fill="none" />
+              <!-- Amber Progress Arc (64% = 0.64 * 351.86 = 225.19 dasharray) -->
+              <circle cx="70" cy="70" r="56" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" fill="none"
+                      stroke-dasharray="225.2 351.86" />
+              <!-- 70% Pass Line Tick mark (70% of 360 deg = 252 deg rotation from -90 is 162 deg) -->
+              <!-- Stroke at 70% position: circumference = 351.86, 70% = 246.3 -->
+              <line x1="70" y1="6" x2="70" y2="22" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"
+                    transform="rotate(252 70 70)" />
+            </svg>
+            <!-- Center Gauge Label -->
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+              <span class="font-display font-bold text-[34px] leading-none text-ink tabular-nums">64%</span>
+              <span class="font-body text-xs font-medium text-secondary-ink mt-1">readiness</span>
+            </div>
+          </div>
+
+          <!-- Stat Rows with 1px hairlines -->
+          <div class="flex-1 ml-6 flex flex-col justify-center">
+            <div class="flex items-center justify-between py-2.5 border-b border-hairline">
+              <span class="font-body text-[15px] text-secondary-ink">Study streak</span>
+              <span class="font-display font-bold text-[16px] text-ink tabular-nums">4 days</span>
+            </div>
+            <div class="flex items-center justify-between py-2.5 border-b border-hairline">
+              <span class="font-body text-[15px] text-secondary-ink">Questions seen</span>
+              <span class="font-display font-bold text-[16px] text-ink tabular-nums">212 / 430</span>
+            </div>
+            <div class="flex items-center justify-between py-2.5">
+              <span class="font-body text-[15px] text-secondary-ink">Accuracy</span>
+              <span class="font-display font-bold text-[16px] text-ink tabular-nums">71%</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Second Row of Bento: 7 cols (Resume + Practice tiles) + 5 cols (Weakest Lines Card) -->
+      <section class="grid grid-cols-12 gap-5 items-stretch">
+        
+        <!-- Left 7 columns -->
+        <div class="col-span-7 flex flex-col gap-4 justify-between">
+          
+          <!-- Slim Resume Card -->
+          <div class="bg-surface rounded-[18px] p-4 border border-hairline flex flex-col gap-3 shadow-lg shadow-black/20">
+            <div class="flex items-center justify-between">
+              <div>
+                <h3 class="font-display font-bold text-[18px] text-ink leading-tight">Quick 10-Question Drill</h3>
+                <p class="font-body text-xs text-secondary-ink mt-0.5">Question 2 of 10, study mode</p>
+              </div>
+              <button class="px-4 py-1.5 rounded-full bg-go/15 border border-go/30 hover:bg-go/25 transition-colors flex items-center justify-center">
+                <span class="font-body text-xs font-semibold text-go">Resume</span>
+              </button>
+            </div>
+
+            <!-- Station dots progress bar (10 station dots) -->
+            <div class="station-track w-full flex items-center justify-between relative py-2">
+              <div class="station-track-active"></div>
+              
+              <!-- Dot 1: Completed station -->
+              <div class="w-3.5 h-3.5 rounded-full bg-go z-10 flex items-center justify-center shadow-sm"></div>
+              
+              <!-- Dot 2: Current active station (ringed green) -->
+              <div class="w-4 h-4 rounded-full bg-canvas border-2 border-go z-10 flex items-center justify-center">
+                <div class="w-1.5 h-1.5 rounded-full bg-go"></div>
+              </div>
+              
+              <!-- Dots 3-10: Upcoming station dots -->
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+              <div class="w-3 h-3 rounded-full bg-[#1e293b] border border-hairline z-10"></div>
+            </div>
+          </div>
+
+          <!-- Practice Tiles Row (3 equal tiles) -->
+          <div class="grid grid-cols-3 gap-3.5">
+            <!-- Primary Tile: Solid Go Green -->
+            <div class="bg-go rounded-[14px] p-4 flex flex-col justify-between cursor-pointer hover:brightness-105 active:scale-[0.99] transition-all min-h-[142px] shadow-lg shadow-go/10">
+              <span class="material-symbols-outlined text-[#052e16] text-[26px]">bolt</span>
+              <div>
+                <h4 class="font-display font-bold text-[16px] text-[#052e16] leading-tight mb-1">Quick 10-Question Drill</h4>
+                <p class="font-body text-xs text-[#064e3b] font-medium leading-normal">Ten mixed questions with instant feedback</p>
+              </div>
+            </div>
+
+            <!-- Tile 2: Mock 75 Exam -->
+            <div class="bg-raised rounded-[14px] p-4 border border-hairline flex flex-col justify-between cursor-pointer hover:bg-raised-hover active:scale-[0.99] transition-all min-h-[142px]">
+              <span class="material-symbols-outlined text-secondary-ink text-[26px]">schedule</span>
+              <div>
+                <h4 class="font-display font-bold text-[16px] text-ink leading-tight mb-1">Mock 75-Question NYS State Exam</h4>
+                <p class="font-body text-xs text-secondary-ink leading-normal">75 questions in 90 minutes, timed</p>
+              </div>
+            </div>
+
+            <!-- Tile 3: Custom Quiz Builder -->
+            <div class="bg-raised rounded-[14px] p-4 border border-hairline flex flex-col justify-between cursor-pointer hover:bg-raised-hover active:scale-[0.99] transition-all min-h-[142px]">
+              <span class="material-symbols-outlined text-secondary-ink text-[26px]">tune</span>
+              <div>
+                <h4 class="font-display font-bold text-[16px] text-ink leading-tight mb-1">Custom Quiz Builder</h4>
+                <p class="font-body text-xs text-secondary-ink leading-normal">Pick topics, length and mode</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right 5 columns: Weakest Lines Card (Full height of the row) -->
+        <div class="col-span-5 bg-surface rounded-[18px] p-5 border border-hairline flex flex-col justify-between shadow-2xl shadow-black/40">
+          <div>
+            <!-- Card Heading -->
+            <div class="flex items-center justify-between pb-3.5 border-b border-hairline">
+              <h3 class="font-display font-bold text-[22px] text-ink leading-none">Weakest lines</h3>
+              <span class="font-body text-xs text-secondary-ink">5 under 70%</span>
+            </div>
+
+            <!-- List of 3 weak topic rows with 1px hairlines -->
+            <div class="flex flex-col">
+              
+              <!-- Row 1: Commercial (MTA Orange 'R') -->
+              <div class="py-3 border-b border-hairline flex items-center justify-between gap-3">
+                <div class="flex items-center gap-3 flex-1">
+                  <!-- Circular route bullet with dark text -->
+                  <div class="w-7 h-7 rounded-full bg-mta-orange flex items-center justify-center flex-shrink-0 shadow-sm">
+                    <span class="font-display font-black text-xs text-[#1e1e1e] leading-none">R</span>
+                  </div>
+                  
+                  <div class="flex-1">
+                    <span class="font-body text-[15px] font-medium text-ink">Commercial</span>
+                    <!-- Thin accuracy bar with 70% tick -->
+                    <div class="relative w-full h-1.5 bg-canvas rounded-full mt-1.5 overflow-visible">
+                      <div class="h-full bg-stop rounded-full" style="width: 48%;"></div>
+                      <!-- 70% benchmark notch -->
+                      <div class="absolute top-[-3px] bottom-[-3px] left-[70%] w-[1.5px] bg-white/40"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="font-display font-bold text-[15px] text-stop tabular-nums ml-2 flex-shrink-0">48%</span>
+              </div>
+
+              <!-- Row 2: Math (MTA Green '6') -->
+              <div class="py-3 border-b border-hairline flex items-center justify-between gap-3">
+                <div class="flex items-center gap-3 flex-1">
+                  <!-- Circular route bullet -->
+                  <div class="w-7 h-7 rounded-full bg-mta-green flex items-center justify-center flex-shrink-0 shadow-sm">
+                    <span class="font-display font-black text-xs text-white leading-none">6</span>
+                  </div>
+                  
+                  <div class="flex-1">
+                    <span class="font-body text-[15px] font-medium text-ink">Math</span>
+                    <!-- Thin accuracy bar with 70% tick -->
+                    <div class="relative w-full h-1.5 bg-canvas rounded-full mt-1.5 overflow-visible">
+                      <div class="h-full bg-stop rounded-full" style="width: 53%;"></div>
+                      <!-- 70% benchmark notch -->
+                      <div class="absolute top-[-3px] bottom-[-3px] left-[70%] w-[1.5px] bg-white/40"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="font-display font-bold text-[15px] text-stop tabular-nums ml-2 flex-shrink-0">53%</span>
+              </div>
+
+              <!-- Row 3: Finance (MTA Green '4') -->
+              <div class="py-3 flex items-center justify-between gap-3">
+                <div class="flex items-center gap-3 flex-1">
+                  <!-- Circular route bullet -->
+                  <div class="w-7 h-7 rounded-full bg-mta-green flex items-center justify-center flex-shrink-0 shadow-sm">
+                    <span class="font-display font-black text-xs text-white leading-none">4</span>
+                  </div>
+                  
+                  <div class="flex-1">
+                    <span class="font-body text-[15px] font-medium text-ink">Finance</span>
+                    <!-- Thin accuracy bar with 70% tick -->
+                    <div class="relative w-full h-1.5 bg-canvas rounded-full mt-1.5 overflow-visible">
+                      <div class="h-full bg-stop rounded-full" style="width: 58%;"></div>
+                      <!-- 70% benchmark notch -->
+                      <div class="absolute top-[-3px] bottom-[-3px] left-[70%] w-[1.5px] bg-white/40"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="font-display font-bold text-[15px] text-stop tabular-nums ml-2 flex-shrink-0">58%</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Full-width tonal button "Retest Weak Areas" (dark raised #182033 fill, white text) -->
+          <button class="w-full mt-3 py-2.5 px-4 rounded-[14px] bg-raised border border-hairline hover:bg-raised-hover active:scale-[0.99] transition-all flex items-center justify-center cursor-pointer">
+            <span class="font-body text-sm font-semibold text-white">Retest Weak Areas</span>
+          </button>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Bottom Floating Glass Capsule Tab Bar (600px wide, 16px above bottom edge, fully rounded) -->
+  <footer class="w-full flex justify-center pb-4 pt-2">
+    <nav class="w-[600px] h-[58px] rounded-full bg-[#111725]/85 backdrop-blur-xl border border-hairline px-3 shadow-[0_12px_32px_rgba(0,0,0,0.65)] flex items-center justify-between">
+      
+      <!-- Tab 1: Home (active, green pill, green label) -->
+      <a href="#" class="flex items-center gap-2 px-4 py-2 rounded-full bg-go/15 text-go transition-all">
+        <span class="material-symbols-outlined text-[20px]">home</span>
+        <span class="font-body text-xs font-semibold leading-none">Home</span>
+      </a>
+
+      <!-- Tab 2: Build -->
+      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-full text-secondary-ink hover:text-ink transition-all">
+        <span class="material-symbols-outlined text-[20px]">tune</span>
+        <span class="font-body text-xs font-medium leading-none">Build</span>
+      </a>
+
+      <!-- Tab 3: Stats -->
+      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-full text-secondary-ink hover:text-ink transition-all">
+        <span class="material-symbols-outlined text-[20px]">analytics</span>
+        <span class="font-body text-xs font-medium leading-none">Stats</span>
+      </a>
+
+      <!-- Tab 4: Mistakes -->
+      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-full text-secondary-ink hover:text-ink transition-all">
+        <span class="material-symbols-outlined text-[20px]">error_outline</span>
+        <span class="font-body text-xs font-medium leading-none">Mistakes</span>
+      </a>
+
+      <!-- Tab 5: More -->
+      <a href="#" class="flex items-center gap-2 px-3 py-2 rounded-full text-secondary-ink hover:text-ink transition-all">
+        <span class="material-symbols-outlined text-[20px]">more_horiz</span>
+        <span class="font-body text-xs font-medium leading-none">More</span>
+      </a>
+
+    </nav>
+  </footer>
+
+</body>
+</html>

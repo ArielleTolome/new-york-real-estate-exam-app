@@ -11,9 +11,11 @@ Offline-first PWA for the New York State Real Estate Salesperson licensing exam.
 - **Mistake bank:** every miss is saved there. Answer a question correctly twice in a row to clear it.
 - **Offline & data:** a service worker precaches everything. Progress lives in `localStorage`. You can export or import your history, and import extra question batches as JSON.
 
-## Install on iPhone
+## Install on iPhone or iPad
 
 Open the live URL in Safari → Share → **Add to Home Screen**. After the first load it works with no connection.
+
+On iPad the layout changes at 700px wide (iPad portrait, or Split View at ⅔ width or more) and again at 1100px (landscape): screens switch to multi-column layouts, and the app rotates freely. With a hardware keyboard, **A–D** or **1–4** answer, **← / →** move between questions, and **F** flags the current question. Trackpad hover states are included.
 
 ## Develop
 
@@ -36,8 +38,8 @@ npm test               # E2E (8 checks) + chaos (100+ random actions) + visual Q
 |---|---|---|
 | E2E | `test-e2e.js [url]` | dashboard, 300+ bank integrity, topic-filtered quizzes, study feedback/citation, exam timer and scoring, mistake bank, bookmark persistence, offline service worker |
 | Tester army | `tests/chaos.js [url]` | 5 custom quizzes, 100 random actions, and a 148-click navigation burst with zero errors, no frame over 1 s, and no heap/DOM growth |
-| Visual QA | `tests/visual.js [url]` | iPhone 15 Pro screenshots in `qa/`; checks tap targets (≥52 px for primary controls), WCAG 4.5:1 contrast, no horizontal overflow, docked bars |
-| CUA Driver | `tests/cua-am1.py <safari_pid>` | `cua-driver mcp` AX audit (roles, labels, tap targets) and a token-clicked 10-question drill in real Safari; report in `qa/cua-am1-report.json` |
+| Visual QA | `tests/visual.js [url] [device]` | screenshots in `qa/<device>/` for iPhone 15 Pro, iPad mini portrait and iPad Pro 11 landscape. Checks tap targets (≥52 px for primary controls), WCAG 4.5:1 contrast, no horizontal overflow, docked bars, and that tablets use the full width |
+| CUA Driver | `tests/cua-am1.py <safari_pid> [out] [width height]` | `cua-driver mcp` AX audit (roles, labels, tap targets) and a token-clicked 10-question drill in real Safari, with the window at phone size (default) or iPad size (`1194 900`). Reports are in `qa/cua-am1-<phone/ipad>-report.json` |
 
 Question schema (`data/topics/<topic>.json` or an imported batch):
 

@@ -1,0 +1,88 @@
+{
+  "window_id": 38371,
+  "audits": [
+    {
+      "screen": "home",
+      "controls": 9,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study",
+      "controls": 8,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXRadioButton"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study-answered",
+      "controls": 5,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXDisclosureTriangle"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "results",
+      "controls": 12,
+      "roles": [
+        "AXButton",
+        "AXDisclosureTriangle",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "stats",
+      "controls": 12,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "mistakes",
+      "controls": 52,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "build",
+      "controls": 35,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXTextField"
+      ],
+      "issues": []
+    }
+  ],
+  "flow": [
+    "Q1: tapped Discrimination in real estate-related transacti\u2026",
+    "Q2: tapped $1,250\u2026",
+    "Q3: tapped Within 30 days after the first payment\u2026",
+    "Q4: tapped When the purchase contract or lease is signed\u2026",
+    "Q5: tapped $3,600\u2026",
+    "Q6: tapped $14,280\u2026",
+    "Q7: tapped Growing-equity mortgage\u2026",
+    "Q8: tapped Adverse possession needs no hostile use; prescr\u2026",
+    "Q9: tapped Right of disposition\u2026",
+    "Q10: tapped A mechanic's lien on every unit in equal dollar\u2026"
+  ],
+  "result": [
+    "10%",
+    "FAIL"
+  ]
+}

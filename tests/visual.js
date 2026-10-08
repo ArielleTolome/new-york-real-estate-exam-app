@@ -23,7 +23,7 @@ const audit = () => {
   const issues = [];
   const vw = innerWidth;
   if (document.documentElement.scrollWidth > vw) issues.push(`horizontal overflow ${document.documentElement.scrollWidth}px`);
-  for (const el of document.querySelectorAll('button, a.btn, a.tab, label.btn, .switch, summary')) {
+  for (const el of document.querySelectorAll('button, a.btn, a.tab, label.btn, .switch, summary, input[type=text], input[type=number]')) {
     const r = el.getBoundingClientRect();
     if (!r.width || getComputedStyle(el).visibility === 'hidden') continue;
     const min = el.matches('.btn, .opt, .switch, .drawer summary') ? 52 : 44;
@@ -41,22 +41,30 @@ const audit = () => {
   if (Math.abs(bar.bottom - innerHeight) > 1) issues.push(`bottom bar not docked (${bar.bottom} vs ${innerHeight})`);
   const top = document.querySelector('#top').getBoundingClientRect();
   if (top.top !== 0) issues.push('top bar not at top');
+  // Tablets must use the extra width instead of a stretched phone column.
+  if (innerWidth >= 700) {
+    const w = document.querySelector('main').getBoundingClientRect().width;
+    if (w < Math.min(innerWidth, 1040) * 0.8) issues.push(`main only ${Math.round(w)}px wide on a ${innerWidth}px tablet`);
+  }
   return [...new Set(issues)];
 };
 
-(async () => {
-  const server = await serve();
-  BASE = server.url;
-  mkdirSync(OUT, { recursive: true });
-  const browser = await chromium.launch();
-  const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'], viewport: { width: 393, height: 852 } });
+const DEVICES = {
+  phone: { ...devices['iPhone 15 Pro'], viewport: { width: 393, height: 852 } },
+  'ipad-mini': devices['iPad Mini'], // 768 x 1024 portrait, smallest tablet layout
+  'ipad-landscape': devices['iPad Pro 11 landscape'], // 1194 x 834, wide layout
+};
+
+async function run(browser, device) {
+  const dir = path.join(OUT, device);
+  mkdirSync(dir, { recursive: true });
+  const ctx = await browser.newContext(DEVICES[device]);
   const page = await ctx.newPage();
   const shots = [];
   const shot = async (name) => {
     await page.waitForTimeout(250);
-    await page.screenshot({ path: path.join(OUT, `${name}.png`) });
-    const issues = await page.evaluate(audit);
-    shots.push([name, issues]);
+    await page.screenshot({ path: path.join(dir, `${name}.png`) });
+    shots.push([`${device}/${name}`, await page.evaluate(audit)]);
   };
 
   await page.goto(BASE + '/#/home');
@@ -91,7 +99,17 @@ const audit = () => {
   await shot('09-more');
   await page.goto(BASE + '/#/home');
   await shot('10-home-after');
+  await ctx.close();
+  return shots;
+}
 
+(async () => {
+  const server = await serve();
+  BASE = server.url;
+  const browser = await chromium.launch();
+  const only = process.argv[3]; // optional: node tests/visual.js "" ipad-mini
+  const shots = [];
+  for (const device of Object.keys(DEVICES)) if (!only || only === device) shots.push(...(await run(browser, device)));
   await browser.close();
   server.close();
   let bad = 0;
@@ -99,6 +117,6 @@ const audit = () => {
     console.log(`${issues.length ? 'FAIL' : 'PASS'}  ${name}${issues.length ? '\n      ' + issues.join('\n      ') : ''}`);
     bad += issues.length ? 1 : 0;
   }
-  console.log(`\n${shots.length - bad}/${shots.length} screens clean · screenshots in qa/`);
+  console.log(`\n${shots.length - bad}/${shots.length} screens clean · screenshots in qa/<device>/`);
   process.exit(bad ? 1 : 0);
 })();

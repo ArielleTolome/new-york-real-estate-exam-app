@@ -1,8 +1,9 @@
-/* Results (#/results) and Performance (#/history). Design: .stitch/v2/DESIGN.md; mocks .stitch/v2/{results,performance}.png.
-   Classes are screen-unique (rs- rv- ac- hm- lg-); every 70% below is the PASS line. */
+/* Results (#/results) and Performance (#/history). Design: .stitch/v2/DESIGN.md; mocks .stitch/v2/{results,performance,tablet-performance}.png.
+   Classes are screen-unique (rs- rv- ac- hm- lg- pf-); every 70% below is the PASS line. */
 body[data-route="results"], body[data-route="history"] { --stop-ink: #f87171; } /* stop red that clears 4.5:1 as text */
 
 /* ---------- results: score against the pass line ---------- */
+.rs-side { display: contents; } /* hero + by-topic; a pane of its own only in landscape */
 .rs-top { display: flex; align-items: baseline; gap: 14px; }
 .rs-top .badge { align-self: baseline; }
 .rs-score { margin: 0; font-size: 64px; line-height: 1; letter-spacing: -.04em; }
@@ -72,13 +73,16 @@ body[data-route="results"], body[data-route="history"] { --stop-ink: #f87171; } 
 .hm-cell.low b { color: var(--stop-ink); }
 .hm-cell.none { background: transparent; box-shadow: inset 0 0 0 1px var(--hairline); }
 .hm-cell.none b, .hm-cell.none .hm-name { color: var(--ink-2); }
-.hm-key { display: flex; flex-direction: column; justify-content: center; gap: 4px; margin: 0; padding: 4px 10px; font-size: 13px; color: var(--ink-2); }
+.hm-key { display: flex; flex-direction: column; justify-content: center; gap: 4px; grid-column: span var(--k3); margin: 0; padding: 4px 10px; font-size: 13px; color: var(--ink-2); }
 .hm-key span { display: flex; align-items: center; gap: 8px; }
 .hm-key span::before { content: ""; width: 8px; height: 8px; flex: none; border-radius: 50%; }
 .hm-key .ok::before { background: var(--go); }
 .hm-key .low::before { background: var(--stop); }
 .hm-key .none::before { box-shadow: inset 0 0 0 1.5px var(--ink-2); }
 .hm-pill { padding: 3px 10px; border-radius: 99px; background: rgba(3, 20, 13, .16); font-size: 13px; font-weight: 700; }
+/* Phone: legend and Retest sit in the map grid (legend fills the last row, Retest takes a full row 20px below). */
+.hm-foot, .pf-cols { display: contents; }
+.hm-foot .btn { grid-column: 1 / -1; margin-top: 14px; }
 
 /* ---------- performance: quiz log ---------- */
 #log li + li { border-top: 1px solid var(--hairline); }
@@ -90,3 +94,42 @@ body[data-route="results"], body[data-route="history"] { --stop-ink: #f87171; } 
 #log b.ok { color: var(--go); }
 #log b.low { color: var(--stop-ink); }
 #log .ic { width: 16px; height: 16px; color: var(--ink-2); }
+
+/* ---------- tablet (shared breakpoints, see app.css) ---------- */
+@media (min-width: 700px) {
+  /* Results hero reads across: score and verdict left, counts right, the pass line underneath. */
+  .rs-hero { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "top stats" "line line" "gap gap"; column-gap: 32px; align-items: center; }
+  .rs-top { grid-area: top; }
+  .rs-stats { grid-area: stats; margin: 0; }
+  .rs-line { grid-area: line; }
+  .rs-gap { grid-area: gap; }
+  /* Topic rows go two-up wherever two 280px rows fit (full-width cards); one row stays full width. */
+  .ac { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); column-gap: 40px; }
+  .ac-un { column-gap: 40px; }
+  /* Review text: at most ~75 characters a line. */
+  .rv-q, .rv-ans, .rv-cite { max-width: 500px; }
+  /* Six-column map; the legend and Retest share its last row. */
+  .hm { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+  .hm-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; grid-column: span var(--k6); padding-left: 10px; }
+  .hm-key { flex-direction: row; gap: 20px; padding: 0; }
+  .hm-foot .btn { margin: 0; }
+}
+@media (min-width: 1100px) {
+  /* Results: summary pane beside the review. It stays put while the review scrolls: top = 96px large-title bar
+     + 12px main padding; bottom clears the 94px action-bar zone + 12px; taller content scrolls inside the pane. */
+  body[data-route="results"] main { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: start; }
+  .rs-side { display: flex; flex-direction: column; gap: var(--section); position: sticky; top: calc(var(--st) + 108px); max-height: calc(100dvh - var(--st) - var(--sb) - 214px); overflow-y: auto; }
+  .rs-hero { display: block; }
+  .rs-stats { margin-top: 16px; }
+  /* Performance: eight-column map, then accuracy beside the quiz log. */
+  .hm { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+  .hm-foot { grid-column: span var(--k8); }
+  .pf-cols { display: flex; gap: var(--section); align-items: flex-start; }
+  .pf-cols > * { flex: 11 1 0; min-width: 0; }
+  .pf-cols > :last-child:not(:first-child) { flex-grow: 9; }
+}
+/* Trackpad: tappable rows highlight like iPadOS list rows (bleed into the card padding, no layout shift). */
+@media (hover: hover) and (pointer: fine) {
+  #log a, .rv summary { margin-inline: -10px; padding-inline: 10px; border-radius: var(--r-ctl); }
+  #log a:hover, .rv summary:hover { background: var(--raised); }
+}

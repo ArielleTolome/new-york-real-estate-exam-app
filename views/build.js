@@ -1,6 +1,7 @@
 'use strict';
 // View: #/build. "Plan your trip": topics as a strip map of route bullets grouped by subway line,
-// then length, mode and pool. Layout reference: .stitch/v2/build.png. Globals come from app.js.
+// then length, mode and pool. Layout references: .stitch/v2/build.png (phone), tablet-build.png
+// (iPad: .bd splits into map + settings panes). Globals come from app.js.
 
 function vBuild() {
   const c = cfgGet();
@@ -33,13 +34,14 @@ function vBuild() {
 
   return {
     top: header('Custom quiz', { sub: avail === 1 ? '1 question matches' : `${avail} questions match` }),
-    main: `
+    main: `<div class="bd">
     <section aria-labelledby="bd-t">
       <div class="section-title bd-th"><h2 id="bd-t">Topics <span class="bd-of">${c.topics.length} of ${BANK.topics.length}</span></h2>
         <div><button class="link" data-action="topics-all">All</button><button class="link" data-action="topics-none">None</button></div></div>
       <div class="card bd-map" role="group" aria-labelledby="bd-t">${lines.map((l) =>
         `<div class="bd-line" style="--b:${l.color}">${l.topics.map(station).join('')}</div>`).join('')}</div>
     </section>
+    <div class="bd-set">
     <section aria-labelledby="bd-q">
       <h2 id="bd-q">Questions</h2>
       <div class="bd-len">
@@ -62,7 +64,8 @@ function vBuild() {
         <label class="switch"><input type="checkbox" data-action="toggle" data-key="shuffleQ"${c.shuffleQ ? ' checked' : ''}><span>Shuffle question order</span></label>
         <label class="switch"><input type="checkbox" data-action="toggle" data-key="shuffleO"${c.shuffleO ? ' checked' : ''}><span>Shuffle answer positions (A–D)</span></label>
       </div>
-    </section>`,
-    bottom: `<div class="actionbar">${exam && n ? `<span class="bd-clock">${svg('clock')}<span class="sr-only">Time limit </span><span class="num">${clock}</span></span>` : ''}<button class="btn primary grow" id="start" data-action="start"${n ? '' : ' disabled'}>${n ? `Start ${n}-question ${exam ? 'exam' : 'quiz'}` : 'No questions match'}</button></div>`,
+    </section>
+    </div></div>`,
+    bottom: `<div class="actionbar bd-bar">${exam && n ? `<span class="bd-clock">${svg('clock')}<span class="sr-only">Time limit </span><span class="num">${clock}</span></span>` : ''}<button class="btn primary grow" id="start" data-action="start"${n ? '' : ' disabled'}>${n ? `Start ${n}-question ${exam ? 'exam' : 'quiz'}` : 'No questions match'}</button></div>`,
   };
 }

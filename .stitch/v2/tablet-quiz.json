@@ -1,0 +1,53 @@
+{
+  "screenId": "dabbb09b73b64690be28cec6369f1424",
+  "title": "NY RE Exam — Active Quiz (iPad Landscape)",
+  "deviceType": "TABLET",
+  "prompt": "iPad Pro 11-inch LANDSCAPE (1194x834) screen for a single-user NY real estate salesperson exam prep app, design concept \"Wayfinding\" (already applied as this project's design system: dark OLED canvas, New York transit signage language, Helvetica Neue bold display type, route-bullet topic badges, line-with-stations progress, floating glass action bar). This is the ACTIVE QUIZ screen in study mode right after the user answered a question wrongly. Re-flow the phone layout for the wide landscape canvas the way a native iPadOS app would, so that everything fits in the 834px height without scrolling:\n- Slim sticky top bar across the full width: question position (e.g. \"Q 4 of 25\") in bold tabular type, a muted answered count, a bookmark icon button and a plain indigo text button \"End\" on the right; below it a full-width line progress drawn like a subway line with small station dots (passed stations emerald, current station a larger ringed dot).\n- Two panes under the bar. Left pane, a comfortable reading column about 680px wide: topic shown as a colored circular route bullet with a one-character code next to the topic name; the question in Helvetica Neue bold about 28px, at most ~75 characters per line; four full-width answer option rows (14px radius) each with the letter A-D in a rounded square: the correct option tinted emerald with a small \"Correct answer\" tag, the user's wrong pick tinted red with a \"Your answer\" tag, the other two dimmed.\n- Right pane, an inspector side panel about 380px wide that stays in view: a verdict line (\"Incorrect.\" in red, then \"The correct answer is B.\"), then a surface sheet \"Legal Citation & Rationale\" with an indigo left rule, the statute citation in indigo bold, and a 3-5 sentence rationale paragraph in secondary ink.\n- Floating glass thumb-zone action bar at the bottom: a square previous button with a chevron, a \"Flag\" toggle with a flag icon, and one dominant emerald \"Next\" button.\nSentence case everywhere, no all-caps labels, no middle-dot meta strings, no arrows on buttons, no gradients, elevation by surface lightness only. Realistic NY real estate exam content.",
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "deviceType": "DESKTOP",
+            "generatedBy": "create_datastore_entry",
+            "height": "2048",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzEyZjA5YmU3OTI3OTQ5MTJiNDZmNDc4Mjg0ZWVhZWUxEgsSBxCV6brFlQwYAZIBIwoKcHJvamVjdF9pZBIVQhM0NzU3NjA2NjkwODYyMTM4OTMx&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/4757606690862138931/files/8a428fbaaf114d479b74ff691a2244a0"
+            },
+            "id": "dabbb09b73b64690be28cec6369f1424",
+            "name": "projects/4757606690862138931/screens/dabbb09b73b64690be28cec6369f1424",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Utd9Jsnk21cdyTJLSzbg9kNBaZO-7uv-5puKBZkhWyBkQH1Ol4X2rkSeMuUtUAkItAjtQoN8BLrYaTX9glkDJgh-4EDUaxNBuZfqSjnLa2YqJ9o78yaIOFqxFWJ39FKzqqUCqatYuDcG6jVJAvigUTPuqoZ2DH2j37HeddQwFajSUkwNYMGee_X_PTQSpPCShYNtplkF3kijYlhWD52imrOxO-eJpCr4HvsbEfoRxu34UQB5tAr47nmuQ",
+              "name": "projects/4757606690862138931/files/d82e3144d0094422ad934e914662c5c7"
+            },
+            "theme": {},
+            "title": "NY RE Exam — Active Quiz (iPad Landscape)",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the **iPad Pro 11-inch Landscape (1194×834)** active quiz review screen for the NY Real Estate Salesperson exam app, adhering strictly to the **Wayfinding** transit design system:\n\n### Key Design Implementation:\n1. **Fit Without Scrolling (1194×834 Canvas)**:\n   - Carefully proportioned vertical rhythm ensures the entire layout—from status bar, slim header, reading pane, inspector card, down to the floating thumb bar—fits cleanly within the 834px viewport.\n\n2. **Top Bar & Transit Progress Line**:\n   - **Slim header**: Displays `Q 4 of 25` in bold tabular monospace, muted `3 answered` count, `Study mode` tag, a bookmark button, and a plain indigo `End` action button on the far right.\n   - **Transit station line**: A full-width track with passed stops marked as emerald dots (stations 1–3), and current question 4 marked as an illuminated larger ringed subway dot.\n\n3. **Left Reading Pane (~680px)**:\n   - Topic bullet: NYC subway-style green circular route badge with code `4` alongside `Real estate finance` and `NYS syllabus 12-A`.\n   - Question text: Helvetica Neue Bold at ~25px with balanced line height for high legibility.\n   - 4 full-width answer option cards (14px radius, rounded square letter pills):\n     - **Option B (Correct)**: Highlighted in emerald with `Correct answer` badge.\n     - **Option D (User's Pick)**: Highlighted in crimson/red with `Your answer` badge.\n     - **Options A & C**: Dimmed out to reduce cognitive load.\n\n4. **Right Inspector Panel (~380px)**:\n   - **Verdict line**: Red `Incorrect.` followed by `The correct answer is B.`\n   - **Legal Citation & Rationale card**: Elevated surface with an indigo left rule accent, `NY Tax Law § 253 & NYC Admin Code § 11-2601` in indigo bold, and a 3-sentence explanation of NYC mortgage recording tax thresholds in secondary ink.\n\n5. **Floating Glass Thumb-Zone Action Bar**:\n   - Translucent dark glass container centered in the thumb zone.\n   - Includes a square previous button with chevron, `Flag` toggle with flag icon, and an emerald `Next` primary button (no trailing arrows, sentence case throughout)."
+    },
+    {
+      "suggestion": "Create the Results screen for iPad landscape in Wayfinding style"
+    },
+    {
+      "suggestion": "Design the Question Map sheet / popover for jumping between questions on iPad"
+    },
+    {
+      "suggestion": "Create the iPad landscape Custom Quiz Builder screen"
+    }
+  ],
+  "projectId": "4757606690862138931",
+  "sessionId": "10947786602965039429"
+}

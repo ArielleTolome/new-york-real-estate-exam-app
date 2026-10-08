@@ -1,11 +1,20 @@
-// Screenshot one screen at iPhone 15 Pro size with realistic seeded progress.
-// Usage: node tests/shot.js <home|build|quiz-study|quiz-study-answered|quiz-exam|results|history|mistakes|more> <out.png> [--full]
+// Screenshot one screen with realistic seeded progress.
+// Usage: node tests/shot.js <home|build|quiz-study|quiz-study-answered|quiz-exam|results|history|mistakes|more> <out.png> [--full] [--device=phone|ipad-mini|ipad-portrait|ipad-landscape|ipad-pro-landscape]
 const { chromium, devices } = require('playwright');
 const serve = require('./serve');
 const bank = require('../questions.json');
 
-const [shot, out, full] = process.argv.slice(2);
-if (!shot || !out) { console.error('usage: node tests/shot.js <shot> <out.png> [--full]'); process.exit(2); }
+const [shot, out, ...flags] = process.argv.slice(2);
+const full = flags.includes('--full');
+const DEVICES = {
+  phone: { ...devices['iPhone 15 Pro'], viewport: { width: 393, height: 852 } },
+  'ipad-mini': devices['iPad Mini'], // 768 x 1024
+  'ipad-portrait': devices['iPad Pro 11'], // 834 x 1194
+  'ipad-landscape': devices['iPad Pro 11 landscape'], // 1194 x 834
+  'ipad-pro-landscape': { ...devices['iPad Pro 11 landscape'], viewport: { width: 1366, height: 1024 } }, // 12.9"
+};
+const device = (flags.find((f) => f.startsWith('--device=')) || '--device=phone').slice(9);
+if (!shot || !out || !DEVICES[device]) { console.error('usage: node tests/shot.js <shot> <out.png> [--full] [--device=' + Object.keys(DEVICES).join('|') + ']'); process.exit(2); }
 
 let seed = 7;
 const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
@@ -42,7 +51,7 @@ state.history = [mk('Mock NYS State Exam', 'exam', 75, .74, 0), mk('Quick 10-Que
   const server = await serve(''); // argv[2] is the shot name here, not a base URL
   const BASE = server.url;
   const browser = await chromium.launch();
-  const ctx = await browser.newContext({ ...devices['iPhone 15 Pro'], viewport: { width: 393, height: 852 } });
+  const ctx = await browser.newContext(DEVICES[device]);
   await ctx.addInitScript((s) => { if (!localStorage.getItem('nyre.v1')) localStorage.setItem('nyre.v1', s); }, JSON.stringify(state));
   const page = await ctx.newPage();
   const errors = [];
@@ -74,7 +83,7 @@ state.history = [mk('Mock NYS State Exam', 'exam', 75, .74, 0), mk('Quick 10-Que
     await go(shot);
   }
   await page.waitForTimeout(400);
-  await page.screenshot({ path: out, fullPage: full === '--full' });
+  await page.screenshot({ path: out, fullPage: full });
   await browser.close();
   server.close();
   if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

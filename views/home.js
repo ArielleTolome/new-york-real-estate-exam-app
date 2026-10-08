@@ -9,7 +9,7 @@ function vHome() {
   const weak = weakTopics().sort((a, b) => acc(a) - acc(b));
   return {
     top: header('NY RE Exam', { logo: true }),
-    main: `
+    main: `<div class="hm-grid">
     <section class="sheet hm-board" aria-labelledby="hm-dest">
       <div class="hm-panel">
         <p class="hm-dest"><span id="hm-dest">NYS salesperson exam</span><span>Oct 14 &amp; 15</span></p>
@@ -34,17 +34,18 @@ function vHome() {
       ${lineProgress(A.qids.length, A.i, A.qids.map((_, i) => (A.flags[i] ? 'flag' : A.answers[i] !== undefined ? 'done' : '')))}
     </section>` : ''}
     <section class="hm-actions" aria-label="Practice">
-      <button class="btn primary" data-action="drill">Quick 10-Question Drill</button>
+      <button class="btn primary" data-action="drill">${svg('bolt')}Quick 10-Question Drill</button>
       <button class="btn hm-act" data-action="mock">${svg('clock')}<span><span class="hm-act-t">Mock 75-Question NYS State Exam</span><span class="hm-act-s">75 questions in 90 minutes, timed</span></span></button>
       <a class="btn hm-act" href="#/build">${svg('build')}<span><span class="hm-act-t">Custom Quiz Builder</span><span class="hm-act-s">Pick topics, length and mode</span></span></a>
     </section>
-    ${weak.length ? `<section aria-labelledby="hm-weak-h">
+    ${weak.length ? `<section class="hm-lines" aria-labelledby="hm-weak-h">
       <div class="section-title"><h2 id="hm-weak-h">Weakest lines</h2><span class="meta">${weak.length} under 70%</span></div>
       <div class="card hm-weak">
         <ul>${weak.slice(0, 3).map((id) => `<li>${bullet(id)}<span class="hm-weak-name">${esc(topicName[id])}</span>${bar(acc(id), ts[id].n)}<span class="hm-weak-pct num">${pct(acc(id))}%</span></li>`).join('')}</ul>
         <button class="btn block" data-action="weak">Retest Weak Areas</button>
       </div>
-    </section>` : ''}`,
+    </section>` : ''}
+    </div>`,
     bottom: tabs('home'),
   };
 }

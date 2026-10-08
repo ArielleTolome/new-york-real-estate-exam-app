@@ -13,6 +13,8 @@ function vHistory() {
   const map = [...rows].sort((a, b) => at(a.id) - at(b.id));
   const state = (r) => (!r.n ? 'none' : r.acc >= PASS ? 'ok' : 'low');
   const day = (t) => new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  // Cells left in the map's last row at 3 (phone), 6 (tablet), 8 (wide) columns; tablet needs 3 for legend + Retest, else a full row.
+  const fill = (cols, min = 1) => { const n = cols - (map.length % cols); return n < min ? cols : n; };
   return {
     top: header('Performance', { sub: o.n ? `${o.n} answer${o.n === 1 ? '' : 's'}, ${pct(o.acc)}% right` : 'Your map fills in as you answer questions' }),
     main: `
@@ -20,11 +22,11 @@ function vHistory() {
       <div class="section-title"><h2>Weak topic heatmap</h2><span class="meta">${tested.length} of ${rows.length} tested</span></div>
       <div class="hm" id="heatmap">${map.map((r) =>
         `<div class="hm-cell ${state(r)}">${bullet(r.id)}<span class="hm-name">${esc(r.name).replace(/-/g, '\u2011')}</span><b class="num">${r.n ? pct(r.acc) + '%' : '—'}</b></div>`).join('')}
-        <p class="hm-key" style="grid-column:span ${3 - (map.length % 3)}"><span class="ok">${pct(PASS)}% and up</span><span class="low">Under ${pct(PASS)}%</span><span class="none">Not tested</span></p></div>
+        <div class="hm-foot" style="--k3:${fill(3)};--k6:${fill(6, 3)};--k8:${fill(8, 3)}"><p class="hm-key"><span class="ok">${pct(PASS)}% and up</span><span class="low">Under ${pct(PASS)}%</span><span class="none">Not tested</span></p>
+        ${weak.length ? `<button class="btn primary" data-action="weak">Retest weak areas<span class="hm-pill">${weak.length} topic${weak.length === 1 ? '' : 's'}</span></button>`
+          : '<button class="btn primary" data-action="weak" disabled>No weak topics yet</button>'}</div></div>
     </section>
-    ${weak.length ? `<button class="btn primary" data-action="weak">Retest weak areas<span class="hm-pill">${weak.length} topic${weak.length === 1 ? '' : 's'}</span></button>`
-      : '<button class="btn primary" data-action="weak" disabled>No weak topics yet</button>'}
-    ${tested.length ? `<section class="card">
+    <div class="pf-cols">${tested.length ? `<section class="card">
       <div class="section-title"><h2>Accuracy by topic</h2><span class="meta">Weakest first</span></div>
       <ul class="ac">${tested.map((r) =>
         `<li class="ac-row">${topicLabel(r.id)}<span class="ac-n"><b class="num ${state(r)}">${pct(r.acc)}%</b> ${r.c}/${r.n}</span>${bar(r.acc, r.n)}</li>`).join('')}</ul>
@@ -37,7 +39,7 @@ function vHistory() {
           <span class="lg-t"><strong>${esc(h.title)}</strong><small>${day(h.date)}, ${h.correct}/${h.total} correct</small></span>
           <b class="num ${h.passed ? 'ok' : 'low'}">${pct(h.score)}%</b>${svg('chevron')}</a></li>`).join('')}</ul>`
         : '<p class="muted">No quizzes yet. Finished quizzes land here with their score.</p>'}
-    </section>`,
+    </section></div>`,
     bottom: tabs('history'),
   };
 }

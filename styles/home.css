@@ -1,5 +1,8 @@
 /* Home (#/home): exam arrival board, readiness, practice, weakest lines. Every rule is scoped by an
-   hm- class (see .stitch/v2/DESIGN.md, mockup .stitch/v2/home.png). */
+   hm- class (see .stitch/v2/DESIGN.md, mockups .stitch/v2/home.png and tablet-home.png). */
+
+/* .hm-grid only lays the sections out on tablets; on phones they stay plain children of <main>. */
+.hm-grid { display: contents; }
 
 /* Arrival board: a near-black sign panel mounted in a lighter housing. */
 .hm-board { padding: 12px 12px 16px; }
@@ -51,8 +54,9 @@
 .hm-resume .line .st { box-shadow: 0 0 0 2px var(--surface); }
 .hm-resume .line .st.cur { background: var(--surface); box-shadow: 0 0 0 3px var(--go); }
 
-/* Practice: one dominant go button, then two quieter rows. */
+/* Practice: one dominant go button, then two quieter rows. The drill's icon only shows on tablet tiles. */
 .hm-actions { display: grid; gap: 10px; }
+.hm-actions .primary .ic { display: none; }
 .hm-act { justify-content: flex-start; gap: 12px; padding: 12px; text-align: left; }
 .hm-act .ic { width: 36px; height: 36px; padding: 8px; border-radius: 10px; background: var(--surface); color: var(--go); }
 .hm-act-t, .hm-act-s { display: block; }
@@ -69,3 +73,61 @@
 .hm-weak .bar { grid-column: 2; grid-row: 2; background: linear-gradient(90deg, transparent calc(70% - 1px), var(--ink-2) 0 calc(70% + 1px), transparent 0), var(--line-2); }
 .hm-weak-pct { grid-column: 3; grid-row: 1 / span 2; font-size: 17px; color: var(--stop); }
 .hm-weak .btn { margin-top: 4px; }
+
+/* ---------- tablet ----------
+   ≥700 (portrait): the board shares its row with a stacked readiness card; resume, practice and
+   weakest lines each take a full row.
+   ≥1100 (landscape): two columns, board/resume/practice left and readiness/weakest lines right,
+   short enough to sit above the tab bar on an 834pt-tall iPad. */
+@media (min-width: 700px) {
+  .hm-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--section); }
+  .hm-resume, .hm-actions, .hm-lines { grid-column: 1 / -1; }
+
+  /* The board fills its row; the split-flap tiles grow and stay centred in the panel. */
+  .hm-board { display: flex; flex-direction: column; padding: 14px 14px 18px; }
+  .hm-panel { flex: 1; display: flex; flex-direction: column; padding: 18px 16px 38px; }
+  .hm-cd { flex: 1; align-items: center; }
+  .hm-cd b { padding: 18px 0 16px; font-size: 56px; }
+  .hm-cd:not(:has(b)) { display: flex; align-items: center; font-size: 56px; }
+  .hm-resume { align-content: center; }
+
+  .hm-ready { flex-direction: column; justify-content: center; }
+  .hm-ready .gauge { width: 128px; height: 128px; }
+  .hm-stats { align-self: stretch; flex: none; padding: 16px 0 0; border-left: 0; border-top: 1px solid var(--hairline); }
+
+  /* Practice: the drill becomes a tall go tile (icon on top, label at its foot) beside the two quieter rows. */
+  .hm-actions { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 12px; }
+  .hm-actions .primary {
+    grid-row: span 2; flex-direction: column; align-items: flex-start; justify-content: space-between;
+    padding: 16px 18px 18px; text-align: left; line-height: 1.25;
+  }
+  .hm-actions .primary .ic { display: block; width: 36px; height: 36px; padding: 8px; border-radius: 10px; background: rgba(3, 20, 13, .12); }
+  .hm-act { padding: 14px 16px; }
+  .hm-act-t { text-wrap: balance; }
+
+  /* Weakest lines becomes one card with its heading inside; the retest stays at the card's foot. */
+  .hm-lines { display: flex; flex-direction: column; padding: 20px 22px 22px; border-radius: var(--r-card); background: var(--surface); }
+  .hm-lines .section-title { margin-bottom: 4px; }
+  .hm-lines .hm-weak { flex: 1; display: flex; flex-direction: column; padding: 0; }
+  .hm-weak ul { flex: 1; }
+}
+@media (min-width: 1100px) {
+  .hm-grid { grid-auto-flow: dense; }
+  .hm-resume, .hm-actions { grid-column: 1; }
+  .hm-lines { grid-column: 2; grid-row: span 2; }
+  .hm-ready { flex-direction: row; }
+  .hm-cd b, .hm-cd:not(:has(b)) { font-size: 72px; }
+  .hm-ready .gauge { width: 144px; height: 144px; }
+  .hm-stats { align-self: auto; flex: 1; padding: 0 0 0 20px; border-top: 0; border-left: 1px solid var(--hairline); }
+}
+/* Short landscape (iPad mini, 744pt tall): tighten so the dashboard still clears the tab bar. */
+@media (min-width: 1100px) and (max-height: 800px) {
+  .hm-grid { gap: 16px; }
+  .hm-cd b { padding: 14px 0 12px; font-size: 60px; }
+  .hm-weak li { padding: 10px 0; }
+  .hm-resume { padding-block: 16px; }
+  .hm-act { padding-block: 10px; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .hm-resume-btn:hover { background: rgba(16, 185, 129, .24); }
+}

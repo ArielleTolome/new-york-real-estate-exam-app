@@ -442,12 +442,16 @@ document.addEventListener('change', async (e) => {
   render();
 });
 
+// Hardware keyboard (iPad Magic Keyboard / desktop): A–D or 1–4 answer, ←/→ move, F flags.
 document.addEventListener('keydown', (e) => {
   if (!S.active || document.body.dataset.route !== 'quiz' || e.target.matches('input')) return;
+  if (e.metaKey || e.ctrlKey || e.altKey) return; // leave ⌘C, ⌘R etc. to the browser
   const k = e.key.toUpperCase();
-  if ('ABCD'.includes(k) && k.length === 1) answer('ABCD'.indexOf(k));
+  const pick = 'ABCD'.indexOf(k) >= 0 ? 'ABCD'.indexOf(k) : '1234'.indexOf(k);
+  if (k.length === 1 && pick >= 0) answer(pick);
   else if (e.key === 'ArrowRight' && S.active.i < S.active.qids.length - 1) { ACTIONS.next(); save(); render(); }
   else if (e.key === 'ArrowLeft') { ACTIONS.prev(); save(); render(); }
+  else if (k === 'F') { ACTIONS.flag(); save(); render(); }
 });
 
 setInterval(() => {

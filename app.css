@@ -39,7 +39,9 @@ p { margin: 0 0 8px; }
 :focus-visible { outline: 2px solid var(--statute); outline-offset: 2px; border-radius: 6px; }
 
 /* ---------- chrome ---------- */
-#app { min-height: 100dvh; display: flex; flex-direction: column; max-width: 640px; margin: 0 auto; }
+/* --app-max: content column width; screens that align a bar with a side pane read it instead of hardcoding. */
+:root { --app-max: 640px; }
+#app { min-height: 100dvh; display: flex; flex-direction: column; max-width: var(--app-max); margin: 0 auto; }
 .topbar {
   position: sticky; top: 0; z-index: 5;
   background: rgba(9, 13, 22, .82); backdrop-filter: saturate(160%) blur(20px); -webkit-backdrop-filter: saturate(160%) blur(20px);
@@ -180,3 +182,35 @@ main {
 }
 #toast.show { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- tablet (iPad) ----------
+   Breakpoints shared by every screen stylesheet:
+   - tablet: (min-width: 700px)  → iPad mini/Air/Pro portrait (incl. 12.9" portrait at 1024), Split View ≥ ~2/3
+   - wide:   (min-width: 1100px) → iPad landscape (11" 1194, 12.9" 1366)
+   Phone layout stays the default; tablet rules only widen and re-flow. */
+@media (min-width: 700px) {
+  :root { --gutter: 28px; --section: 24px; --tabbar: 64px; --app-max: 1040px; }
+  h1 { font-size: 34px; }
+  h2 { font-size: 22px; }
+  .topbar { padding-top: calc(var(--st) + 18px); padding-bottom: 14px; }
+  main { padding-top: 12px; }
+  .bottombar { padding-bottom: calc(var(--sb) + 16px); }
+  .bottombar > .tabs { max-width: 600px; }
+  .bottombar > .actionbar { max-width: 720px; }
+  .tab { flex-direction: row; gap: 8px; font-size: 14px; }
+  .card { padding: 22px; }
+  #toast { bottom: calc(var(--sb) + var(--tabbar) + 32px); }
+}
+@media (min-width: 1100px) {
+  :root { --gutter: 40px; --app-max: 1200px; }
+}
+
+/* Trackpad / mouse (iPad Magic Keyboard, desktop): hover feedback only where a real pointer exists. */
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover:not(:disabled) { background: var(--raised-2); }
+  .btn.primary:hover:not(:disabled) { background: #0ea371; }
+  .chip:hover { box-shadow: inset 0 0 0 1.5px rgba(148, 163, 184, .4); color: var(--ink); }
+  .chip[aria-pressed="true"]:hover { box-shadow: inset 0 0 0 1.5px var(--go); }
+  .tab:hover:not(.on), .link:hover { color: var(--ink); }
+  .iconbtn:hover { color: var(--ink); }
+}

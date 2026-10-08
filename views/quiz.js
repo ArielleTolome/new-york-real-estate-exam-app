@@ -1,5 +1,9 @@
 'use strict';
 // View: #/quiz (study + exam). Globals (state, helpers) come from app.js; called at render time.
+// Layout: .qz-q (question + options) and .qz-side (rationale or question map) are display:contents on phones and
+// portrait tablets, and become two panes at the wide breakpoint (styles/quiz.css), where the exam map renders open.
+const QZ_WIDE = matchMedia('(min-width: 1100px)');
+QZ_WIDE.addEventListener('change', () => { if (document.body.dataset.route === 'quiz') render(); });
 
 function vQuiz() {
   const A = S.active;
@@ -17,8 +21,12 @@ function vQuiz() {
 
   const opts = A.perm[A.i].map((orig, d) => {
     const cls = revealed ? (orig === q.answer ? 'correct' : orig === chosen ? 'wrong' : 'dim') : orig === chosen ? 'selected' : '';
-    const tag = cls === 'correct' ? '<small class="tag">✓ Correct answer</small>' : cls === 'wrong' ? '<small class="tag">✕ Your answer</small>' : '';
-    return `<button class="opt ${cls}" role="radio" data-action="answer" data-d="${d}" aria-checked="${orig === chosen}"${revealed ? ' aria-disabled="true"' : ''}><b>${LETTERS[d]}</b><span>${esc(q.options[orig])}${tag}</span></button>`;
+    const tagText = cls === 'correct' ? 'Correct answer' : cls === 'wrong' ? 'Your answer' : '';
+    const tag = tagText ? `<small class="tag">${cls === 'correct' ? '✓' : '✕'} ${tagText}</small>` : '';
+    // WebKit drops the gap between the letter tile and the text when building the accessible name ("A$498,200"),
+    // so name the option explicitly for VoiceOver: "A. $498,200, Correct answer".
+    const name = `${LETTERS[d]}. ${q.options[orig]}${tagText ? `, ${tagText}` : ''}`;
+    return `<button class="opt ${cls}" role="radio" data-action="answer" data-d="${d}" aria-checked="${orig === chosen}" aria-label="${esc(name)}"${revealed ? ' aria-disabled="true"' : ''}><b>${LETTERS[d]}</b><span>${esc(q.options[orig])}${tag}</span></button>`;
   }).join('');
 
   const reveal = revealed ? `
@@ -28,7 +36,7 @@ function vQuiz() {
       <p class="cite" id="cite">${esc(q.citation || 'General NYS real estate principle')}</p>${q.explanation ? `<p class="qz-why">${esc(q.explanation)}</p>` : ''}</details>` : '';
 
   const qmap = exam ? `
-    <details class="qmap qz-sheet"><summary>Question map<span class="meta">${answered} of ${total} answered</span>${svg('chevron')}</summary>
+    <details class="qmap qz-sheet"${QZ_WIDE.matches ? ' open' : ''}><summary>Question map<span class="meta">${answered} of ${total} answered</span>${svg('chevron')}</summary>
       <div class="qz-grid">${A.qids.map((_, i) => {
         const done = A.answers[i] !== undefined;
         return `<button data-action="jump" data-i="${i}" class="${done ? 'done' : ''}${A.flags[i] ? ' flag' : ''}${i === A.i ? ' cur' : ''}"${i === A.i ? ' aria-current="step"' : ''} aria-label="Question ${i + 1}${done ? ', answered' : ''}${A.flags[i] ? ', flagged' : ''}">${i + 1}</button>`;
@@ -44,11 +52,15 @@ function vQuiz() {
       <button class="link" data-action="end"${exam ? ' data-confirm="Confirm"' : ''}>${exam ? 'Submit' : 'End'}</button></div>
       <div class="qz-line">${lineProgress(total, A.i, A.qids.map((_, i) => (A.flags[i] ? 'flag' : A.answers[i] !== undefined ? 'done' : '')))}</div>`,
     main: `
-    <article class="qcard">
-      <p class="qz-topic">${topicLabel(q.topic)}</p>
-      <h1 class="qtext" id="qtext">${esc(q.q)}</h1>
-    </article>
-    <div class="opts" role="radiogroup" aria-label="Answer choices" aria-describedby="qtext">${opts}</div>${reveal}${qmap}`,
+    <div class="qz-q">
+      <article class="qcard">
+        <p class="qz-topic">${topicLabel(q.topic)}</p>
+        <h1 class="qtext" id="qtext">${esc(q.q)}</h1>
+      </article>
+      <div class="opts" role="radiogroup" aria-label="Answer choices" aria-describedby="qtext">${opts}</div>
+    </div>
+    <div class="qz-side">${reveal}${qmap}${exam || revealed ? '' : '<p class="qz-wait">Choose an answer to see the legal citation and rationale.</p>'}
+      <p class="qz-keys"><span><kbd>A</kbd>–<kbd>D</kbd> answer</span><span><kbd>←</kbd><kbd>→</kbd> previous, next</span><span><kbd>F</kbd> flag</span></p></div>`,
     bottom: `<div class="actionbar qz-actions">
       <button class="btn qz-prev" data-action="prev" aria-label="Previous question"${A.i ? '' : ' disabled'}>${svg('chevron')}</button>
       <button class="btn qz-flag${flagged ? ' warn' : ''}" data-action="flag" aria-pressed="${flagged}">${svg('flag')}${flagged ? 'Flagged' : 'Flag'}</button>
