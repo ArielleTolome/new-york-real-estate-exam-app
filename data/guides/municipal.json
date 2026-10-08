@@ -1,34 +1,34 @@
 {
   "topic": "municipal",
   "title": "Municipal Agencies",
-  "overview": "Municipal agencies is a short syllabus unit (2 of the 77 course hours), but agency-matching questions are easy points, and the same boards reappear in land use, tax and property management questions. This chapter covers how New York's counties, cities, towns and villages divide power; what the legislative body, planning board, zoning board of appeals, architectural review board, conservation advisory council, landmark commission, building department, assessor, receiver of taxes, engineer and county health department each do; county referral under GML §239-m; SEQR roles; and the Open Meetings Law and FOIL. It then covers New York City's agencies, the ULURP clock and the 2025 Charter amendments that created faster housing approvals. **Classic exam content** is the agency-to-function matching plus the planning board, ZBA and Article 78 rules; county referral, SEQR, the open-government laws and NYC's agencies and ULURP add depth. The 2025 NYC Charter changes and the 2026 SEQR housing exemptions are **recent updates the exam may not test yet**, and they're labeled as recent wherever they appear. The big theme: elected legislative bodies make the rules, appointed boards apply them, and advisory bodies only advise.",
+  "overview": "How New York's counties, cities, towns and villages split land-use power, which board or office does each job, and how NYC agencies and ULURP work. The exam hits hardest on agency-to-function matching, the planning board, ZBA and Article 78 rules, and one theme: **elected bodies make the rules, appointed boards apply them, and advisory bodies only advise**.",
   "cram": {
     "numbers": [
       { "value": "500 feet", "label": "County referral distance (GML §239-m) and neighbor-notice distance (§239-nn)" },
-      { "value": "30 days", "label": "County planning agency's time to respond after a full statement; then the local board may act without it" },
-      { "value": "Majority plus one", "label": "Vote of all members needed to act against a county disapproval or modification (5-member board: 4 votes)" },
-      { "value": "3/4", "label": "Town board vote to rezone after a 20% owner protest (land in the change, or within 100 ft adjacent or opposite)" },
-      { "value": "10 days", "label": "Published notice of a town board zoning hearing; §239-nn notice to a neighboring municipality's clerk" },
-      { "value": "5 days", "label": "Published notice of a ZBA hearing; ZBA decision filed with the clerk within 5 business days" },
+      { "value": "30 days", "label": "County's time to respond after a full statement; then the board may act" },
+      { "value": "Majority plus one", "label": "Votes of all members to override a county disapproval or modification (5 members: 4)" },
+      { "value": "3/4", "label": "All-member town board vote to rezone after a 20% owner protest petition" },
+      { "value": "10 days", "label": "Published notice of a town zoning hearing; §239-nn notice to a neighboring clerk" },
+      { "value": "5 days", "label": "Published notice of a ZBA hearing; ZBA decision filed within 5 business days" },
       { "value": "60 days", "label": "Time to appeal a zoning officer's or building inspector's filed determination to the ZBA" },
-      { "value": "62 days", "label": "ZBA decision deadline after its hearing; deadline to file a signed final subdivision plat with the county clerk" },
-      { "value": "30 days", "label": "Article 78 deadline after a ZBA or planning board decision is filed with the town clerk (general limit: 4 months)" },
+      { "value": "62 days", "label": "ZBA decision deadline after its hearing; deadline to file a signed final plat" },
+      { "value": "30 days", "label": "Article 78 deadline after a ZBA or planning board filing (general limit: 4 months)" },
       { "value": "4 hours", "label": "Yearly training for planning board and ZBA members" },
       { "value": "72 hours", "label": "Open Meetings Law notice for a meeting scheduled a week or more ahead" },
-      { "value": "5 business days", "label": "FOIL response deadline; appeal a denial within 30 days; appeal decided in 10 business days" },
-      { "value": "60 / 30 / 60 / 50", "label": "ULURP days: community board, borough president, City Planning Commission, City Council = 200" },
+      { "value": "5 business days", "label": "FOIL response; appeal a denial within 30 days, decided in 10 business days" },
+      { "value": "60-30-60-50", "label": "ULURP days: community board, borough president, City Planning Commission, City Council = 200" },
       { "value": "5 / 10 days, 2/3", "label": "Mayoral veto window; Council override window and vote (34 of 51 members)" },
-      { "value": "13", "label": "City Planning Commission: 7 mayoral (incl. chair), 1 per borough president, 1 public advocate; 7 votes approve" },
-      { "value": "90 days", "label": "Recent (2025), may not be tested yet: ELURP and Affordable Housing Fast Track review, with community board and borough president together 60, then CPC 30; the CPC is final" },
+      { "value": "13", "label": "CPC: 7 mayoral (incl. chair), 1 per borough president, 1 public advocate; 7 approve" },
+      { "value": "90 days (2025 update)", "label": "ELURP and Fast Track: community board and borough president 60 together, CPC 30, final" },
       { "value": "30 years", "label": "Minimum age for NYC landmark designation" },
       { "value": "1938", "label": "NYC buildings finished before 1938 need no CO unless use, egress or occupancy changed" },
       { "value": "2 years", "label": "Discontinuance that ends an NYC nonconforming use (ZR §52-61)" },
-      { "value": "100 feet", "label": "Private well to septic absorption field (tank 50 ft, seepage pit 150 ft, 200 ft if upgrade in the drainage path)" }
+      { "value": "100 feet", "label": "Well to absorption field; tank 50, seepage pit 150, upgrade in drainage path 200" }
     ],
     "mustKnow": [
       "The elected **legislative body** (city council, town board, village board of trustees) adopts local laws, zoning, **rezonings**, the comprehensive plan, the budget and the tax levy.",
-      "The **planning board** (appointed, 5 or 7 members) reviews **subdivision plats** and **site plans** and advises; it doesn't adopt the plan or grant variances.",
-      "The **ZBA** (appointed, 3 or 5 members) is **quasi-judicial**: appeals, interpretations, **use and area variances**, and some special permits. It can't rezone.",
+      "The **planning board** (appointed, 5 or 7 members) reviews **subdivision plats** and site plans and advises; it doesn't adopt the plan or grant variances.",
+      "The **ZBA** (appointed, 3 or 5 members) is quasi-judicial: appeals, interpretations, **use and area variances**, and some special permits. It can't rezone.",
       "Town board members can't serve on the town ZBA or planning board; village trustees can't serve on the village ZBA or planning board.",
       "Town zoning covers only land **outside incorporated villages**; villages zone their own land; New York counties generally don't zone.",
       "The town **supervisor** presides over the town board and votes; a village board is the **mayor plus four trustees** by default.",
@@ -37,24 +37,28 @@
       "**Use variance**: **unnecessary hardship**, meaning no reasonable return from any permitted use (financial proof), a unique hardship, no change in neighborhood character, and not self-created.",
       "**Area variance**: the owner's benefit is weighed against detriment to the neighborhood using five factors; self-created difficulty doesn't automatically bar it.",
       "A **special use permit** is for a use the zoning already lists for the district; meet its standards, no hardship needed.",
-      "Votes count **all members**, not those present: ZBA and planning board majorities, the §239-m **majority plus one**, and the protest-petition **three-fourths**. The one exception: a ZBA rehearing needs a unanimous vote of the members present.",
-      "Building inspector's zoning ruling → **ZBA** appeal within 60 days → **Article 78** within **30 days** after the ZBA decision is filed.",
+      "Votes count **all members**, not those present: ZBA and planning board majorities, the §239-m majority plus one, and protest-petition three-fourths. Exception: a ZBA rehearing needs **unanimity of members present**.",
+      "Building inspector's zoning ruling → ZBA appeal within **60 days** → Article 78 within **30 days** after the ZBA decision is filed.",
       "Article 78 asks only whether the decision was illegal, **arbitrary and capricious** or irrational; the court doesn't rehear the case.",
       "**ARB** approval covers appearance only; a building permit is still required.",
       "The **CAC** inventories open space and wetlands and advises; it can become a **conservation board**. Neither issues DEC permits.",
       "**Building department**: permits, inspections, **certificates of occupancy**, violations. A permit authorizes work; the CO confirms it.",
-      "The **assessor** values; the **legislative body** sets the levy and rate; the **receiver of taxes** collects; the **board of assessment review** hears grievances.",
+      "The **assessor** values; the **legislative body** sets the levy and rate; the receiver of taxes collects; the board of assessment review hears grievances.",
       "The **county health department** approves septic systems, wells, and water and sewer plans for **realty subdivisions** (5 or more lots of 5 acres or less within 3 years).",
-      "**GML §239-m**: plans, zoning changes, special permits, site plans and variances within **500 feet** of listed features go to the county before final action.",
+      "**County referral**: plans, zoning changes, special permits, site plans and variances within **500 feet** of listed features go to the county before final action (GML §239-m).",
       "County disapproval or modification → the board needs a **majority plus one of all members** and must report its reasons to the county within 30 days.",
-      "A SEQR **lead agency** must be an **involved agency**; an **interested agency** only comments; the DEC Commissioner settles lead-agency disputes after 30 days.",
-      "SEQR: **Type I** (likely significant; Full EAF), **Type II** (no review, such as ministerial building permits), **Unlisted** (the rest). **Negative declaration** = no EIS; **positive declaration** = EIS; a **conditioned negative declaration** is for Unlisted actions only.",
-      "**Open Meetings Law**: 72-hour notice for meetings set a week ahead; **executive session** only for listed subjects, by a majority of the total membership; **ZBA** deliberations must be public.",
+      "A SEQR **lead agency** must be an **involved agency**; an interested agency only comments; the DEC Commissioner settles lead-agency disputes after 30 days.",
+      "SEQR: **Type I** is likely significant (Full EAF); **Type II** needs no review (such as ministerial building permits); Unlisted is everything else.",
+      "A **negative declaration** means no EIS; a positive declaration means an EIS. A **conditioned negative declaration** is for Unlisted actions only.",
+      "**Open Meetings Law**: 72-hour notice for meetings set a week ahead; executive session only for listed subjects, by a majority of the total membership; **ZBA** deliberations must be public.",
       "**FOIL** covers records: 5 business days to respond; 30 days to appeal a denial.",
-      "NYC: **DOB** permits and COs; **BSA** variances and DOB appeals; **DCP/CPC** zoning changes and ULURP; **LPC** landmarks; **HPD** housing code and registration; **DEP** water and sewer; **DOF** assessments, taxes, ACRIS; **OATH** summonses.",
+      "NYC: DOB issues permits and COs; the **BSA** grants variances and hears DOB appeals; DCP and the CPC handle zoning changes and ULURP; the **LPC** handles landmarks.",
+      "NYC: **HPD** enforces the housing code and registration; DEP runs water and sewer; **DOF** handles assessments, taxes and ACRIS; OATH decides summonses.",
       "**ULURP**: certification → community board 60 → borough president 30 → CPC 60 → Council 50 → mayor 5 → override 10. Community board and borough president votes are **advisory**.",
-      "Zoning **map** changes go through ULURP; zoning **text** amendments and **BSA variances** don't (text changes still get CPC and Council review). Since 2025, modest qualifying map changes can use ELURP instead.",
-      "**Recent update (2025 NYC Charter; may not be tested yet)**: ELURP and the Affordable Housing Fast Track end at the CPC in about 90 days; the BSA can fast-track publicly financed affordable housing; the **Affordable Housing Appeals Board** (2 of 3 votes) can reverse Council denials or modifications of qualifying affordable-housing applications; even-year elections failed. Standard ULURP still ends with the Council."
+      "Zoning **map** changes go through ULURP; zoning **text** amendments and BSA variances don't (text changes still get CPC and Council review). Since 2025, modest qualifying map changes can use ELURP instead.",
+      "**Recent update (2025 NYC Charter; may not be tested yet)**: ELURP and the Affordable Housing Fast Track end at the CPC in about 90 days. Standard ULURP still ends with the Council.",
+      "Also new in 2025: the BSA can fast-track publicly financed affordable housing, and the **Affordable Housing Appeals Board** (2 of 3 votes) can reverse Council denials or modifications of qualifying affordable-housing applications.",
+      "The 2025 proposal to move NYC elections to even years failed."
     ],
     "traps": [
       { "trap": "The ZBA can rezone an area if enough owners want it.", "truth": "Rezoning is a legislative act of the town board, city council or village board. The ZBA gives relief to single parcels and interprets the law." },
@@ -71,8 +75,8 @@
       { "trap": "A community board or borough president 'no' kills a ULURP application.", "truth": "Their recommendations are advisory; the City Planning Commission and City Council decide." },
       { "trap": "Every NYC zoning, variance and landmark matter goes through ULURP.", "truth": "BSA variances, LPC actions and zoning text amendments have their own procedures. ULURP covers zoning map changes, CPC special permits, city property deals and similar actions." },
       { "trap": "ULURP takes 240 days because each step gets 60.", "truth": "60 + 30 + 60 + 50 = 200 days; a veto and override can add 15 more." },
-      { "trap": "Any old building is a landmark, and State Register listing blocks changes.", "truth": "Only designation by the LPC or a local landmark commission restricts alterations, and an NYC landmark must be at least 30 years old. State or National Register listing doesn't restrict a private owner's work unless state or federal funding, licenses or permits are involved." },
-      { "trap": "Since the 2025 Charter changes, NYC rezonings no longer go to the City Council.", "truth": "Only qualifying ELURP and Affordable Housing Fast Track applications end at the CPC. Standard ULURP rezonings still get a Council vote and a possible mayoral veto, and the new tracks are recent enough that the exam may not test them." }
+      { "trap": "Any old building is a landmark, and State Register listing blocks changes.", "truth": "Only LPC or local landmark-commission designation restricts alterations; NYC landmarks must be at least 30 years old. State or National Register listing restricts private work only when state or federal funding, licenses or permits are involved." },
+      { "trap": "Since the 2025 Charter changes, NYC rezonings no longer go to the City Council.", "truth": "Standard ULURP rezonings still get a Council vote and possible mayoral veto. Only qualifying ELURP and Affordable Housing Fast Track applications end at the CPC, and the exam may not test these new tracks yet." }
     ],
     "mnemonics": [
       { "name": "Make it, plan it, bend it", "meaning": "The legislative body makes the rules (zoning, rezoning, budget, tax rate); the planning board plans and reviews layouts (master plan, plats, site plans); the ZBA bends the rules for one parcel (variances, interpretations)." },
@@ -113,18 +117,21 @@
       "heading": "The legislative body: council, town board, village board",
       "intro": "If a question asks who changes the law, the zoning map, the budget or the tax rate, the answer is the elected legislative body.",
       "points": [
-        "Powers: local laws, the **zoning ordinance and map** and their amendments (**rezoning**), the **comprehensive plan** and **official map**, the **budget and tax levy** (which produces the rate), cluster authorization, **moratoria**, and **eminent domain** decisions.",
+        "Powers: local laws, the zoning ordinance and map and their amendments (**rezoning**), the comprehensive plan and official map, the **budget and tax levy** (which produces the rate), cluster authorization, moratoria, and eminent domain decisions.",
         "It creates and fills the appointed boards (planning board, ZBA, CAC, ARB, landmark commission). In a village, the mayor appoints planning board and ZBA members with trustee approval.",
         "The **town board** is the elected supervisor, who presides and votes, plus council members. The **village board of trustees** is the mayor plus four trustees by default.",
-        "Town rezoning steps: a hearing after at least **10 days'** published notice; written notice at least 10 days ahead to the clerk of any city, village, town or county whose boundary is within 500 feet (and to the state park commission or housing authority for a state park, parkway or public housing project within 500 feet); §239-m county referral; and SEQR review.",
-        "**Protest petition** (Town Law §265): if owners of **20%** of the land in the change, or of the land within **100 feet** adjacent or directly opposite, file a written protest, passage needs **three-fourths of all board members**. Villages match this (two-thirds on a three-member board).",
+        "Town rezoning steps: a hearing after at least **10 days'** published notice, a §239-m county referral, and SEQR review.",
+        "The town also sends written notice at least 10 days ahead to the clerk of any city, village, town or county whose boundary is within **500 feet**.",
+        "Notice also goes to the state park commission or housing authority when a state park, parkway or public housing project is within 500 feet.",
+        "**Protest petition** (Town Law §265): if owners of 20% of the land in the change, or of the land within 100 feet adjacent or directly opposite, file a written protest, passage needs **three-fourths of all board members**. Villages match this (two-thirds on a three-member board).",
         "The legislative body is not an appeals court for the ZBA; ZBA decisions are challenged in court."
       ],
       "example": {
         "title": "Worked example: a protest-petition vote",
         "steps": [
           "Owners of 25% of the land within 100 feet of a proposed rezoning file a written protest with a 5-member town board.",
-          "25% is at least 20%, so three-fourths applies: 5 × 3/4 = 3.75.",
+          "25% is at least 20%, so the three-fourths vote applies.",
+          "5 × 3/4 = 3.75.",
           "Round up, since there are no partial votes: 4 yes votes.",
           "A 7-member board would need 7 × 3/4 = 5.25, rounded up to 6.",
           "Answer: 4 of 5 (6 of 7). Without a protest, 3 of 5 would pass it."
@@ -160,10 +167,12 @@
       "points": [
         "**Membership**: 3 or 5 members appointed by the legislative body (in a village, by the mayor with trustee approval), staggered terms equal to the board size, and 4 hours of training a year. Legislative-body members are ineligible.",
         "**Appellate jurisdiction**: it hears appeals from the zoning officer's or building inspector's orders, interpretations and determinations, filed within **60 days**. An appeal usually stays enforcement.",
-        "**Procedure**: a hearing on at least **5 days'** published notice (with mailed notice to the parties and, when §239-m applies, the county); a decision within **62 days** after the hearing; filing with the clerk within **5 business days**.",
+        "**Procedure**: the ZBA holds a hearing on at least **5 days'** published notice, with mailed notice to the parties and, when §239-m applies, to the county.",
+        "The ZBA decides within **62 days** after the hearing and files the decision with the clerk within 5 business days.",
         "**Votes**: a majority of **all members**, regardless of absences; an appeal that falls short is denied by default. A rehearing needs a unanimous vote of the members present.",
         "It must grant the **minimum variance** needed, and any conditions must relate to the land and its use, because a variance runs with the land. It can't waive private deed covenants.",
-        "**Article 78** (CPLR) is the court challenge in State Supreme Court, due within **30 days** after a ZBA or planning board decision is filed with the town clerk (the general limit is 4 months). The court asks whether the decision was illegal, arbitrary and capricious or irrational; it doesn't rehear the case. The town board can't reverse a ZBA."
+        "**Article 78** (CPLR) is the court challenge in State Supreme Court. It's due within **30 days** after a ZBA or planning board decision is filed with the town clerk; the general limit is 4 months.",
+        "The court asks whether the decision was illegal, arbitrary and capricious or irrational; it doesn't rehear the case. The town board can't reverse a ZBA."
       ],
       "table": {
         "head": ["Relief", "When used", "Test"],
@@ -216,9 +225,10 @@
       "heading": "Building permits, certificates of occupancy and code enforcement",
       "intro": "Outside NYC, the NYS Uniform Fire Prevention and Building Code applies everywhere and is usually enforced by the city, town or village (see the opt-out chain below). NYC has its own Construction Codes, enforced by its Department of Buildings.",
       "points": [
-        "A **building permit** authorizes work; inspections follow; a **certificate of occupancy** (new buildings, changes of use) or **certificate of compliance** (other work) confirms compliance. A temporary CO can allow occupancy of finished, safe portions.",
+        "A **building permit** authorizes work, and inspections follow.",
+        "A **certificate of occupancy** (new buildings, changes of use) or certificate of compliance (other work) confirms compliance. A temporary CO can allow occupancy of finished, safe portions.",
         "An **open permit** (issued but never finaled) is a red flag; age doesn't grandfather it, and the seller usually must close it out.",
-        "**Opt-out chain** (Executive Law §381): if a city, town or village opts out of enforcing the Uniform Code, the **county** enforces it; if the county opts out too, the **Department of State** does. The code always applies.",
+        "**Opt-out chain** (Executive Law §381): if a city, town or village opts out of enforcing the Uniform Code, the county enforces it; if the county opts out too, the **Department of State** does. The code always applies.",
         "Stricter local construction standards need State Code Council approval, and Uniform Code variances come from Department of State regional boards of review, not the ZBA.",
         "A building permit for a conforming house is **ministerial** (no discretion), so it's Type II under SEQR and isn't referred to the county.",
         "A unit is legal only if zoning allows it and the building file supports it; tax records, rental history and listing descriptions don't legalize it."
@@ -231,7 +241,9 @@
         "The **county health department** (or a State Health Department office where the county has none) approves septic designs and private water supplies; local sanitary codes may be stricter than state minimums.",
         "**Realty subdivision** (Public Health Law §1115): a tract divided into **5 or more residential lots of 5 acres or less** within any 3 years needs health department approval of water and sewage plans before lots are sold, leased or offered.",
         "Reliable well-water results come from a lab certified under the State Health Department's **ELAP** program, not a home kit or the seller's disclosure.",
-        "**Wetlands**: DEC regulates freshwater wetlands of **12.4 acres** or more (**7.4 acres** from January 1, 2028) and wetlands DEC mapped before January 1, 2025 (including mapped wetlands of unusual local importance), plus a **100-foot adjacent area**; the Adirondack Park Agency covers the Adirondack Park. DEC narrowed its reach after an April 8, 2026 Albany County Supreme Court decision on its wetland rules, so get DEC's written **jurisdictional determination** and check Army Corps and local rules.",
+        "**Wetlands**: DEC regulates freshwater wetlands of **12.4 acres** or more (7.4 acres from January 1, 2028), plus a 100-foot adjacent area.",
+        "DEC also regulates wetlands it mapped before January 1, 2025, including mapped wetlands of unusual local importance. The Adirondack Park Agency covers the Adirondack Park.",
+        "DEC narrowed its reach after an April 8, 2026 Albany County Supreme Court decision on its wetland rules. Get DEC's written **jurisdictional determination** and check Army Corps and local rules.",
         "A CAC or local wetlands commission studies and advises (or runs a local permit law); it can't replace DEC."
       ],
       "table": {
@@ -249,11 +261,13 @@
       "intro": "Some local decisions affect people beyond town lines, so state law routes them past the county planning agency before final action.",
       "points": [
         "**What** (§239-m): adopting or amending a comprehensive plan or zoning law, special use permits, site plans, use or area variances, and other zoning authorizations. Subdivision plats go under **§239-n**.",
-        "**Where**: land within **500 feet** of a city, town or village boundary; a county or state park; a county or state road, parkway or expressway; a county drainage channel; county or state land with a public building; or a farm in an agricultural district (not for area variances). Schools, churches and private golf courses don't count.",
+        "**Where**: land within **500 feet** of a city, town or village boundary; a county or state park; a county or state road, parkway or expressway; a county drainage channel; county or state land with a public building; or a farm in an agricultural district (not for area variances).",
+        "Schools, churches and private golf courses don't count.",
         "Not referred: ministerial acts such as a building permit for a conforming house, or actions the county agrees in writing are of local concern only.",
-        "The county has **30 days** after receiving a **full statement** (application plus environmental assessment form) to recommend approval, modification or disapproval. If it misses that, the board may act, but a late report received at least **2 days** before final action still counts.",
-        "After a **disapproval or modification** recommendation, the board can act contrary only by a **majority plus one of all its members**, and must report its final action and reasons to the county within **30 days**. Skipping a required referral can void the approval.",
-        "**§239-nn**: a hearing on a special use permit, use variance, site plan or subdivision within 500 feet of an adjacent municipality requires notice to that municipality's clerk at least **10 days** before. The neighbor may be heard but its consent isn't needed (NYC is excluded)."
+        "The county has **30 days** after receiving a full statement (application plus environmental assessment form) to recommend approval, modification or disapproval.",
+        "If the county misses that deadline, the board may act. A late report received at least **2 days** before final action still counts.",
+        "After a disapproval or modification recommendation, the board can act contrary only by a **majority plus one of all its members**. It must report its final action and reasons to the county within 30 days. Skipping a required referral can void the approval.",
+        "**Neighbor notice**: a hearing on a special use permit, use variance, site plan or subdivision within 500 feet of an adjacent municipality requires notice to that municipality's clerk at least **10 days** before (§239-nn). The neighbor may be heard, but its consent isn't needed. NYC is excluded."
       ],
       "table": {
         "head": ["Full board", "Simple majority", "Majority plus one"],
@@ -277,11 +291,17 @@
       "heading": "SEQR: who reviews environmental impacts",
       "intro": "The State Environmental Quality Review Act (ECL Article 8; 6 NYCRR Part 617) makes state and local agencies weigh environmental impacts before approving, funding or carrying out a discretionary action.",
       "points": [
-        "**Type I** actions are listed as likely to be significant (for example, adopting a comprehensive plan or first zoning law, or changing allowed uses on 25 or more acres) and need a Full EAF and, when several agencies are involved, coordinated review. **Type II** actions need no review (ministerial building permits, area variances for 1–3 family homes, a 1–3 family home on an approved lot). Everything else is **Unlisted**.",
-        "A **negative declaration** means no significant adverse impact and no EIS; a **positive declaration** requires an EIS; a **conditioned negative declaration** is only for Unlisted actions, with mitigation conditions and a comment period of at least 30 days.",
+        "**Type I** actions are listed as likely to be significant, for example adopting a comprehensive plan or first zoning law, or changing allowed uses on 25 or more acres.",
+        "Type I actions need a Full Environmental Assessment Form (EAF) and, when several agencies are involved, coordinated review.",
+        "**Type II** actions need no review: ministerial building permits, area variances for 1–3 family homes, and a 1–3 family home on an approved lot. Everything else is **Unlisted**.",
+        "A **negative declaration** means no significant adverse impact and no environmental impact statement (EIS); a positive declaration requires an EIS.",
+        "A **conditioned negative declaration** is only for Unlisted actions, with mitigation conditions and a comment period of at least 30 days.",
         "EIS path: required **scoping** → draft EIS → public comment (at least 30 days, and at least 10 days after any hearing) → final EIS → written **findings** by each involved agency → decision. No involved agency may approve before SEQR is complete.",
         "Typical involved agencies: the town board for a rezoning, the planning board for a site plan or subdivision, the ZBA for a use variance, DEC for a state permit. A CAC is usually an interested agency.",
-        "**Recent update (May 2026; the exam may not test it yet)**: the FY2027 state budget, signed May 27, 2026, exempts many housing projects on previously disturbed land connected to existing water and sewer from SEQR (including NYC's CEQR), up to unit caps (NYC: 250 citywide, 500 in medium- and high-density areas; 300 in other urbanized areas; 100 in non-urbanized areas; 20 where there's no zoning), and sets a 2-year deadline to finish an EIS. Zoning, permits and other environmental rules still apply.",
+        "**Recent update (May 2026; the exam may not test it yet)**: the FY2027 state budget, signed May 27, 2026, exempts many housing projects from SEQR, including NYC's CEQR.",
+        "The exemption covers projects on previously disturbed land connected to existing water and sewer, up to unit caps.",
+        "Unit caps: NYC 250 citywide, or 500 in medium- and high-density areas; 300 in other urbanized areas; 100 in non-urbanized areas; 20 where there's no zoning.",
+        "The budget also sets a 2-year deadline to finish an EIS. Zoning, permits and other environmental rules still apply.",
         "NYC applies SEQR through **CEQR**, with a city agency such as DCP as lead agency for land-use applications."
       ],
       "table": {
@@ -300,9 +320,11 @@
       "heading": "Open Meetings Law and FOIL",
       "intro": "Two separate laws open local government: the Open Meetings Law, or Sunshine Law (Public Officers Law Article 7), covers meetings; the Freedom of Information Law (Article 6) covers records.",
       "points": [
-        "**Executive session** subjects are limited to public safety, law-enforcement matters, litigation, collective bargaining, a particular person's medical, financial or employment history (or hiring, discipline or firing), exams, and the **proposed acquisition, sale or lease of real property** (or securities) when publicity would substantially affect its value. No formal vote to spend public money may be taken there.",
+        "**Executive session** subjects are limited: public safety, law-enforcement matters, litigation, collective bargaining, exams, and a particular person's medical, financial or employment history (or hiring, discipline or firing).",
+        "Executive session also covers the **proposed acquisition, sale or lease of real property** (or securities) when publicity would substantially affect its value. No formal vote to spend public money may be taken there.",
         "Exempt from the Open Meetings Law: judicial and quasi-judicial proceedings **except zoning boards of appeals** (and the Public Service Commission), political caucuses, and matters made confidential by law.",
-        "**Minutes** are due within **2 weeks**; minutes of a vote taken in executive session within **1 week**. A public hearing (comments) differs from a meeting (deliberation), and an open meeting doesn't guarantee a right to speak.",
+        "**Minutes** are due within **2 weeks**; minutes of a vote taken in executive session are due within 1 week.",
+        "A public hearing (comments) differs from a meeting (deliberation). An open meeting doesn't guarantee a right to speak.",
         "FOIL lets a licensee request a town's permit file, violation history or ZBA decisions, but privacy, security and internal pre-decision memos may be withheld."
       ],
       "table": {
@@ -322,11 +344,13 @@
       "intro": "NYC has no town boards or village ZBAs. Its land-use and building functions are split among agencies created by the City Charter.",
       "points": [
         "**HPD registration**: every multiple dwelling (3 or more units) and every 1–2 family home where neither the owner nor an immediate family member lives must register yearly; an unregistered owner can't bring a nonpayment case. HPD doesn't issue COs.",
-        "**HPD violation classes**: A non-hazardous (90 days to correct), B hazardous (30 days), C immediately hazardous (generally 24 hours, with a few exceptions such as 21 days for lead paint; no heat in heat season is Class C). There is no Class D.",
-        "**LPC permits**: staff issue a Certificate of No Effect for DOB-permitted work that doesn't affect protected features and a Permit for Minor Work for rule-compliant work that does; work outside LPC's rules, such as a visible rooftop addition, demolition or new construction, needs a **Certificate of Appropriateness** from the full Commission after a public hearing.",
+        "**HPD violation classes**: A is non-hazardous (90 days to correct), B is hazardous (30 days), and C is immediately hazardous (generally 24 hours). Class C has a few exceptions, such as 21 days for lead paint. No heat in heat season is Class C. There is no Class D.",
+        "**LPC permits**: staff issue a Certificate of No Effect for DOB-permitted work that doesn't affect protected features, and a Permit for Minor Work for rule-compliant work that does.",
+        "Work outside LPC's rules, such as a visible rooftop addition, demolition or new construction, needs a **Certificate of Appropriateness** from the full Commission after a public hearing.",
         "**Landmarks** may be individual, interior, scenic or historic districts and must be at least **30 years** old. Interior landmarks must be customarily open or accessible to the public, so a private apartment doesn't qualify.",
-        "**BSA variance findings** (ZR §72-21): unique physical conditions, no reasonable return (not required for nonprofits), no harm to neighborhood character, hardship **not created by the owner or a predecessor**, and the **minimum variance**.",
-        "**Taxes**: DOF mails the Notice of Property Value each January; the separate **NYC Tax Commission** hears assessment appeals; the **City Council** fixes tax rates. ACRIS covers Manhattan, the Bronx, Brooklyn and Queens; Staten Island records go to the Richmond County Clerk."
+        "**BSA variance findings**: unique physical conditions, no reasonable return (not required for nonprofits), no harm to neighborhood character, hardship not created by the owner or a predecessor, and the **minimum variance** (ZR §72-21).",
+        "Taxes: DOF mails the Notice of Property Value each January; the separate **NYC Tax Commission** hears assessment appeals; the **City Council** fixes tax rates.",
+        "ACRIS covers Manhattan, the Bronx, Brooklyn and Queens; Staten Island records go to the Richmond County Clerk."
       ],
       "table": {
         "head": ["Agency", "Role", "Licensee angle"],
@@ -350,12 +374,16 @@
       "heading": "NYC zoning and building records to check",
       "intro": "Most NYC deal problems show up in DOB, HPD, DEP and DOF records. Know what each document proves.",
       "points": [
-        "The **certificate of occupancy** fixes legal use and unit count; an extra unit is illegal until DOB amends the CO. Buildings finished **before 1938** generally need no CO unless use, egress or occupancy changed; DOB can issue a **Letter of No Objection** confirming use.",
-        "**Multiple Dwelling Law §§301–302**: an owner can't collect rent or sue for nonpayment for periods a multiple dwelling is occupied without the required residential CO (compliant Loft Law units excepted).",
+        "The **certificate of occupancy** fixes legal use and unit count; an extra unit is illegal until DOB amends the CO.",
+        "Buildings finished **before 1938** generally need no CO unless use, egress or occupancy changed. DOB can issue a Letter of No Objection confirming use.",
+        "An owner can't collect rent or sue for nonpayment for periods a multiple dwelling is occupied without the required residential CO (Multiple Dwelling Law §§301–302). Compliant Loft Law units are excepted.",
         "**Districts**: R (residence), C (commercial), M (manufacturing). **C1 and C2 overlays** on residential blocks allow local retail; overlays are zoning, not landmark, designations.",
         "**Nonconforming use**: stop substantially all of it for **2 continuous years** and only conforming uses may follow, whatever the owner intended (ZR §52-61). City of Yes for Economic Opportunity (2024) lets some vacant ground-floor storefronts in residential districts reopen for local retail or offices, but it doesn't revive uses like auto repair.",
-        "**FISP (Local Law 11)**: buildings over **6 stories** need facade inspections every **5 years**. **Local Law 97** caps carbon emissions for most buildings over **25,000 square feet**. Both can mean big co-op or condo costs.",
-        "Paying an OATH penalty doesn't clear a DOB violation; the owner must certify correction. Unpaid **DEP water and sewer charges** are liens, so they're paid or escrowed at closing. **FAR** = floor area ÷ lot area; unused floor area is marketed as **air rights**."
+        "**FISP (Local Law 11)**: buildings over **6 stories** need facade inspections every 5 years.",
+        "**Local Law 97** caps carbon emissions for most buildings over **25,000 square feet**. Both FISP and Local Law 97 can mean big co-op or condo costs.",
+        "Paying an OATH penalty doesn't clear a DOB violation; the owner must certify correction.",
+        "Unpaid **DEP water and sewer charges** are liens, so they're paid or escrowed at closing.",
+        "**FAR** = floor area ÷ lot area; unused floor area is marketed as **air rights**."
       ],
       "example": {
         "title": "Worked example: unused floor area (air rights)",
@@ -393,7 +421,8 @@
         "title": "Worked example: the ULURP clock",
         "steps": [
           "Community board 60 + borough president 30 = 90 days of advisory review.",
-          "CPC 60 brings the total to 150; City Council 50 brings it to 200.",
+          "CPC 60 brings the total to 150.",
+          "City Council 50 brings it to 200.",
           "Mayoral veto 5 + override 10 = 215 days at most.",
           "Answer: the four sequential review periods total 200 days, about seven months."
         ]
@@ -401,19 +430,27 @@
     },
     {
       "heading": "The 2025 NYC Charter changes and recent updates",
-      "intro": "On November 4, 2025, NYC voters approved four Charter Revision Commission proposals (Questions 2–5): three reshape land-use review for housing (two fast tracks, ELURP and an appeals board), and one creates a digital City Map. A fifth, Question 6, moving city elections to even years, failed. **All of this is recent**: the state exam is built on the DOS syllabus and may not test it yet, so answer an ordinary ULURP question with the classic steps.",
+      "intro": "The state exam is built on the DOS syllabus and may not test these 2025 changes yet. **All of this is recent**, so answer an ordinary ULURP question with the classic steps.",
       "points": [
-        "Unchanged: ULURP still governs most rezonings, community boards keep a 60-day review in every track, and the Charter changes don't alter environmental review or landmark protections (the separate 2026 state SEQR exemptions can remove environmental review for some housing).",
-        "**Exam angle**: the classic answer, in the syllabus and older books, is that an NYC rezoning ends with a Council vote and a possible mayoral veto, and that's still true for standard ULURP. The exceptions are new: qualifying ELURP and Fast Track applications end at the CPC, BSA fast-track approvals skip ULURP, and Council denials or modifications of qualifying affordable housing can be reversed by the Affordable Housing Appeals Board.",
-        "Earlier Charter changes still in force: **2018** community board term limits (4 consecutive 2-year terms); **2019** a project summary 30 days before ULURP certification and longer community board review for June (90 days) and July 1–15 (75 days) certifications."
+        "On November 4, 2025, NYC voters approved four Charter Revision Commission proposals (Questions 2–5). Three reshape land-use review for housing (two fast tracks, ELURP and an appeals board); one creates a digital City Map.",
+        "A fifth proposal, Question 6, would have moved city elections to even years. It failed.",
+        "Unchanged: ULURP still governs most rezonings, community boards keep a 60-day review in every track, and the Charter changes don't alter environmental review or landmark protections.",
+        "Separately, the 2026 state SEQR exemptions can remove environmental review for some housing.",
+        "**Exam angle**: the classic answer, in the syllabus and older books, is that an NYC rezoning ends with a Council vote and a possible mayoral veto. That's still true for standard ULURP.",
+        "The new exceptions: qualifying ELURP and Fast Track applications end at the CPC, and BSA fast-track approvals skip ULURP. The Affordable Housing Appeals Board can reverse Council denials or modifications of qualifying affordable housing.",
+        "Earlier Charter changes still in force: **2018** community board term limits (4 consecutive 2-year terms); **2019** a project summary 30 days before ULURP certification and longer community board review for June (90 days) and July 1–15 (75 days) certifications.",
+        "**ELURP** (§197-e) rezonings must be modest: to districts with a standard height of 45 feet or less in lower-density areas, or up to 30% more residential floor area in medium- and high-density districts. Nothing that needs an EIS qualifies.",
+        "Under ELURP, the CPC holds a hearing and votes within 30 days, and its decision is final. Exception: city land sales to low-income housing companies (HDFCs) skip the CPC and go to the Council.",
+        "**BSA fast track** (§666-a): a 60-day community board review comes first, then a BSA hearing about 30 days later. The BSA must find no harm to neighborhood character and a real need for the relief, not variance hardship.",
+        "**Affordable Housing Appeals Board** (§197-g): it acts if the applicant appeals or the board calls the case up. It covers single-borough ULURP applications or text amendments that directly facilitate affordable housing, replacing the mayoral veto and Council override for them."
       ],
       "table": {
         "head": ["Change", "What it does", "Status in 2026"],
         "rows": [
-          ["ELURP (§197-e)", "Modest rezonings (to districts with a standard height of 45 feet or less in lower-density areas; up to 30% more residential floor area in medium- and high-density districts), City Map changes and city land deals for affordable housing, and resiliency, open-space and solar projects; nothing that needs an EIS qualifies. Community board and borough president review at the same time for 60 days, then the CPC holds a hearing and votes within 30 days. The CPC is final, except that city land sales to low-income housing companies (HDFCs) skip the CPC and go to the Council.", "In effect since the 2025 vote; the first project (351 Powers Ave., Bronx, a city land sale for about 84 affordable homes) was approved by the Council in May 2026"],
-          ["Affordable Housing Fast Track (§197-f)", "Rezonings that deliver permanent Mandatory Inclusionary Housing in the 12 community districts producing the least affordable housing use the ELURP clock, even if an EIS is needed; the CPC has 30 days (45 with an EIS) and is final", "12 districts named October 1, 2026; applies to applications filed from January 1, 2027; next list October 2031"],
-          ["BSA fast track (§666-a)", "Publicly financed affordable housing owned by low-income housing companies such as housing development fund companies (HDFCs) can get use, bulk and parking modifications from the BSA after a 60-day community board review and a BSA hearing about 30 days later; the BSA must find no harm to neighborhood character and a real need for the relief, not variance hardship", "In effect; BSA rules effective June 17, 2026"],
-          ["Affordable Housing Appeals Board (§197-g)", "Mayor, Council speaker and affected borough president; if the applicant appeals or the board calls the case up, 2 of 3 can reverse a Council disapproval or modification of a ULURP application or text amendment that directly facilitates affordable housing (single borough only); replaces the mayoral veto and Council override for those applications", "In effect since the 2025 vote; CPC procedure rules effective November 14, 2026"],
+          ["ELURP (§197-e)", "Modest rezonings, City Map changes, city land deals for affordable housing, resiliency, open-space and solar projects; 60 days of joint community board and borough president review, then CPC 30", "In effect since the 2025 vote. First project: 351 Powers Ave., Bronx, a city land sale for about 84 affordable homes; Council approved it May 2026"],
+          ["Affordable Housing Fast Track (§197-f)", "Rezonings delivering permanent Mandatory Inclusionary Housing in the 12 community districts producing the least affordable housing; ELURP clock even with an EIS; CPC final in 30 days (45 with EIS)", "12 districts named October 1, 2026; applies to applications filed from January 1, 2027; next list October 2031"],
+          ["BSA fast track (§666-a)", "Publicly financed affordable housing owned by low-income housing companies, such as housing development fund companies (HDFCs), can get use, bulk and parking modifications from the BSA", "In effect; BSA rules effective June 17, 2026"],
+          ["Affordable Housing Appeals Board (§197-g)", "Mayor, Council speaker and affected borough president; 2 of 3 can reverse a Council disapproval or modification of a qualifying affordable-housing ULURP application or text amendment", "In effect since the 2025 vote; CPC procedure rules effective November 14, 2026"],
           ["Digital City Map", "Moves the City Map and address assignment from the borough presidents' topographical bureaus to DCP", "Addresses January 1, 2027; single map by 2028 and digital map by 2029 (or later feasible dates)"],
           ["Even-year city elections", "Would have moved city elections to presidential years", "Failed"]
         ]

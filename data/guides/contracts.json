@@ -1,7 +1,7 @@
 {
   "topic": "contracts",
   "title": "Real Estate Contracts",
-  "overview": "This chapter covers how contracts are formed, classified, enforced, and broken, plus the contracts licensees handle daily: listings, buyer agency agreements, binders, the New York contract of sale, options, rights of first refusal, and installment land contracts. The syllabus gives contracts and leases only 3 of the 77 hours, but contract rules also drive many agency, closing, and finance questions. Core themes: the elements and labels of a valid contract, the statute of frauds (GOL §5-703), remedies, the §175.24 listing explanation, upstate versus downstate practice, contingencies, risk of loss (GOL §5-1311), time of the essence, and assignment versus novation. Most questions test a distinction, such as void vs. voidable or option vs. right of first refusal.",
+  "overview": "How contracts are formed, classified, enforced, and broken, plus the contracts licensees handle: listings, buyer agency agreements, binders, the New York contract of sale, options, rights of first refusal, and installment land contracts. The exam hits hardest on **void vs. voidable**, the **statute of frauds** (GOL §5-703), and **option vs. right of first refusal**.",
   "cram": {
     "numbers": [
       {
@@ -10,7 +10,7 @@
       },
       {
         "value": "1 year",
-        "label": "Leases longer than one year need a signed writing (GOL §5-703); one year or less may be oral"
+        "label": "Longest lease that may be oral; longer ones need a signed writing (GOL §5-703)"
       },
       {
         "value": "6 years",
@@ -63,25 +63,26 @@
       "**Bilateral** = promise for a promise (contract of sale); **unilateral** = promise for an act (option, open listing).",
       "A **counteroffer** kills the original offer; an acceptance is effective when sent, a revocation when received.",
       "**Forbearance** is consideration; **past consideration** is not; earnest money is customary, not required.",
-      "**GOL §5-703**: land sale contracts and leases over one year need a writing signed by the **party to be charged** or an agent with written authority.",
+      "**Statute of frauds**: land sale contracts and leases over one year need a writing signed by the **party to be charged** or an agent with written authority (GOL §5-703).",
       "**Parol evidence rule**: earlier oral side deals can't contradict a complete signed writing; fraud can still be proved.",
       "Contract suits: **6 years**; **laches** can bar equitable relief sooner.",
-      "**Specific performance** (land is unique); **rescission** cancels and restores; **reformation** corrects a drafting error.",
+      "Remedies: **specific performance** (land is unique); **rescission** cancels and restores; reformation corrects a drafting error.",
       "**Liquidated damages** can't be a penalty; NY sellers generally keep a down payment up to **10%** on a buyer's willful default.",
-      "**Exclusive right to sell**: broker paid whoever finds the buyer; **exclusive agency**: the owner's own sale owes nothing; **open listing**: only the procuring cause is paid.",
-      "**§175.24**: exclusive residential listings carry the DOS explanation, printed on or attached, at least **6-point**, **signed or initialed** by the homeowner; MLS brokers must let the owner route offers through the listing or the selling broker.",
-      "**§175.15** bans automatic listing renewals, but a **protection clause** is allowed; **net listings** are illegal (§175.19).",
-      "Listings belong to the **broker** and end at the owner's **death**; a signed **contract of sale binds the estate**.",
+      "**Exclusive right to sell**: broker paid whoever finds the buyer. Exclusive agency: the owner's own sale owes nothing. Open listing: only the **procuring cause** is paid.",
+      "Exclusive residential listings carry the DOS explanation, printed on or attached, in at least **6-point** type, **signed or initialed** by the homeowner (§175.24).",
+      "If the broker is in an MLS, the listing must let the owner route offers through the **listing or the selling broker** (§175.24).",
+      "Automatic listing renewals are banned (§175.15), but a **protection clause** is allowed. **Net listings** are illegal (§175.19).",
+      "Listings belong to the **broker** and end at the owner's death. A signed contract of sale **binds the estate**.",
       "A broker earns the fee by producing a **ready, willing, and able** buyer on the listing terms, unless payment depends on closing.",
       "**Who pays does not decide who is represented**; pay from more than one party needs the **client's** consent (§175.7).",
       "A binder **“subject to a formal contract”** binds no one; licensees fill in **facts only**, since drafting clauses is the unauthorized practice of law.",
       "**Attorney approval clause**: a timely disapproval for **any reason** ends the deal (Moran v. Erk); silence makes it binding.",
       "**Downstate**: the seller's attorney drafts, the **buyer signs first** and pays 10% to the seller's attorney as escrowee, and the seller signs last.",
-      "Broker escrow: separate account within **3 business days**, no **commingling** or **conversion**; disputed money waits for joint instructions or a court order.",
+      "Broker escrow: separate account within **3 business days**; no **commingling** or conversion. Disputed money waits for joint instructions or a court order.",
       "A **mortgage contingency** needs a prompt good-faith application and timely notice; the protected party may **waive** it.",
       "**Option**: only the optionor is bound and the price is fixed; **right of first refusal**: the holder can only match a bona fide offer.",
       "**Installment land contract**: vendee has possession and equitable title, vendor keeps legal title; NY may require **foreclosure**, not forfeiture.",
-      "**GOL §5-1311**: before title or possession passes, a material loss lets the buyer cancel; an immaterial loss means a price abatement.",
+      "Before title or possession passes, a material loss lets the buyer **cancel**; an immaterial loss means a **price abatement** (GOL §5-1311).",
       "No **time of the essence** clause: a reasonable adjournment is allowed; time can be made of the essence later by clear notice setting a reasonable date.",
       "The **PCDS** goes to the buyer before she signs a binding contract; lead disclosure applies to **pre-1978** housing."
     ],
@@ -112,15 +113,15 @@
       },
       {
         "trap": "An exclusive listing may auto-renew if the seller initials the clause.",
-        "truth": "§175.15 bans automatic continuation; only a separate extension or a protection clause is allowed."
+        "truth": "Automatic continuation is banned (§175.15); only a separate extension or a protection clause is allowed."
       },
       {
         "trap": "The attorney needs a good reason to disapprove.",
-        "truth": "Moran v. Erk: any reason or none, if timely."
+        "truth": "A timely disapproval can be for any reason or none (Moran v. Erk)."
       },
       {
         "trap": "Risk of loss shifts to the buyer at signing.",
-        "truth": "GOL §5-1311 keeps it on the seller until title or possession passes, unless the contract says otherwise."
+        "truth": "The seller keeps the risk until title or possession passes, unless the contract says otherwise (GOL §5-1311)."
       },
       {
         "trap": "Missing an “on or about” closing date by a few days is a default.",
@@ -135,8 +136,8 @@
         "truth": "The assignor stays liable; only a novation releases her."
       },
       {
-        "trap": "Lead-paint clauses apply to homes built after 1978 (the syllabus wording).",
-        "truth": "The federal rule covers housing built before 1978; the syllabus has it backwards."
+        "trap": "Lead-paint rules cover homes built after 1978.",
+        "truth": "The federal rule covers housing built **before 1978**; the syllabus wording has it backwards."
       },
       {
         "trap": "A seller may give a $500 credit instead of the PCDS.",
@@ -158,7 +159,7 @@
       },
       {
         "name": "Risk rides with title or possession",
-        "meaning": "GOL §5-1311: the seller carries the loss until legal title or possession moves to the buyer."
+        "meaning": "The seller carries the loss until legal title or possession moves to the buyer (GOL §5-1311)."
       }
     ],
     "formulas": [
@@ -201,7 +202,7 @@
       "points": [
         "A typical purchase contract is **express, bilateral, and executory** until closing; an option is **express and unilateral**; an installment land contract stays executory for years.",
         "In everyday speech “executed” means signed, but in classification it means **fully performed**. A contract signed today that closes next month is executory.",
-        "**Contracts affecting brokers** include the broker–salesperson independent contractor agreement (which must be written), listing and buyer agency agreements, contracts of sale, and leases."
+        "**Contracts affecting brokers** include the broker–salesperson independent contractor agreement, listing and buyer agency agreements, contracts of sale, and leases. The independent contractor agreement must be written."
       ],
       "table": {
         "head": [
@@ -262,9 +263,11 @@
       "heading": "Essential elements of a valid contract",
       "intro": "The syllabus lists five essentials: competent parties, mutual agreement, lawful objective, consideration, and a writing. Which one is missing decides the label.",
       "points": [
-        "**Competent parties**: in New York a minor (infant) is anyone under 18. Only the minor may disaffirm (cancel), before or within a reasonable time after turning 18; continuing to pay long after 18 **ratifies** (confirms) the contract.",
+        "**Competent parties**: in New York a minor (infant) is anyone under 18.",
+        "Only the minor may disaffirm (cancel), before or within a reasonable time after turning 18. Continuing to pay long after 18 **ratifies** (confirms) the contract.",
         "**Mutual agreement** (a meeting of the minds) is an offer plus an acceptance of exactly its terms, freely given.",
-        "**Consideration** is a bargained-for exchange of value: money, property, a promise, or **forbearance** (holding off on a legal right, as when a lender delays foreclosure). Exchanged promises are enough, so a deposit is customary but not required, and courts don't weigh adequacy: a sale at half price still has consideration.",
+        "**Consideration** is a bargained-for exchange of value: money, property, a promise, or **forbearance** (holding off on a legal right, as when a lender delays foreclosure).",
+        "Exchanged promises are enough, so a deposit is customary but not required. Courts don't weigh adequacy: a sale at half price still has consideration.",
         "**Past consideration** (work already done for free) does not support a promise, unless the promise is in a signed writing that states it (GOL §5-1105).",
         "**Writing**: land sale contracts and leases over one year (GOL §5-703). **Recording is not an element**; it only gives the public constructive notice.",
         "**Power of attorney**: an agent (attorney-in-fact) signing a real estate contract needs written authority, which ends at the principal's death."
@@ -314,11 +317,13 @@
       "intro": "The **offeror** makes the offer; the **offeree** accepts or rejects it. Each counteroffer swaps the roles.",
       "points": [
         "Listing prices and ads are **invitations to negotiate**; a buyer's “I accept your price” email is itself an offer.",
-        "Acceptance must match the offer exactly. Any change, even a new closing date, is a **counteroffer** that rejects and kills the original offer; a later “I accept” of the dead offer is only a new offer. A mere question (“Is the price firm?”) is not a rejection.",
-        "**Silence** is not acceptance. An offer may be **revoked any time before acceptance** unless it has been made irrevocable, classically by an **option** the buyer paid for.",
-        "**Mailbox rule**: an acceptance is effective when **sent**; a revocation only when **received**. The offeror may require actual receipt instead.",
+        "Acceptance must match the offer exactly. Any change, even a new closing date, is a **counteroffer** that rejects and kills the original offer.",
+        "A later “I accept” of the dead offer is only a new offer. A mere question (“Is the price firm?”) is not a rejection.",
+        "**Silence** is not acceptance.",
+        "An offer may be **revoked any time before acceptance**, unless it was made irrevocable. The classic way is an **option** the buyer paid for.",
+        "Mailbox rule: an acceptance is effective **when sent**; a revocation only **when received**. The offeror may require actual receipt instead.",
         "Offers also end by lapse of time, rejection, **death or incapacity** of either party, or destruction of the property; a signed contract survives death.",
-        "A **caveat** is a warning. **Caveat emptor** (buyer beware) limits a New York seller's duty to volunteer defects, but concealment is fraud, statutory disclosures apply, and licensees must disclose known material defects."
+        "A **caveat** is a warning. **Caveat emptor** (buyer beware) limits a New York seller's duty to volunteer defects. But concealment is fraud, statutory disclosures apply, and licensees must disclose known material defects."
       ],
       "table": {
         "head": [
@@ -381,16 +386,21 @@
     },
     {
       "heading": "Statute of frauds, parol evidence, and deadlines to sue",
-      "intro": "**General Obligations Law (GOL) §5-703** is New York's statute of frauds for land.",
+      "intro": "New York's **statute of frauds** for land is in the General Obligations Law (GOL §5-703).",
       "points": [
-        "A contract **to sell real property**, or **to lease it for more than one year**, needs a writing stating the consideration, **signed by the party to be charged** (the one being sued) or by an agent authorized in writing.",
+        "A contract to sell real property, or to lease it for **more than one year**, needs a writing that states the consideration.",
+        "The writing must be **signed by the party to be charged** (the one being sued) or by an agent authorized in writing.",
         "The statute says “void,” but courts treat an oral deal as **unenforceable**: it can still be performed voluntarily. If only the seller signed, the buyer can enforce it against the seller, not the reverse.",
         "A listing broker is a **special agent** (authorized only for a specific task) and normally cannot sign a sale contract for the seller.",
-        "Leases of one year or less may be oral, even one that starts in the future: the one-year limit measures the lease term, not the time from the agreement (Young v. Dake). Options and rights of first refusal need writings, and emails or e-signatures can qualify.",
-        "**Part performance** (GOL §5-703(4)): possession, payment, and improvements explainable only by the oral deal can support specific performance.",
-        "**GOL §5-701(a)(10)**: a promise to pay a fee for negotiating a real estate sale, lease, or loan (even just making the introduction, as a finder does) must be in a signed writing, but the rule **does not apply** to auctioneers, attorneys, or **duly licensed real estate brokers and salespersons**, so a licensed broker's oral commission agreement can be enforced. Put listings in writing anyway.",
-        "**Parol evidence rule** (parol means oral): earlier oral side deals cannot contradict a complete signed writing, and a **merger (entire agreement) clause** confirms the writing is the whole deal. Fraud, duress, and mistake can still be proved.",
-        "**Statute of limitations**: **6 years** from the breach for contract suits (CPLR §213(2)). **Laches** bars equitable relief after an unreasonable, prejudicial delay. The **Uniform Commercial Code** covers goods and checks, not land."
+        "Leases of one year or less may be oral, even one that starts in the future. The one-year limit measures the lease term, not the time from the agreement (Young v. Dake).",
+        "Options and rights of first refusal need writings, and emails or e-signatures can qualify.",
+        "**Part performance** can support specific performance: possession, payment, and improvements explainable only by the oral deal (GOL §5-703(4)).",
+        "A promise to pay a fee for negotiating a real estate sale, lease, or loan must be in a signed writing. This covers even a finder who only makes the introduction (GOL §5-701(a)(10)).",
+        "That rule **does not apply** to auctioneers, attorneys, or **duly licensed real estate brokers and salespersons**. So a licensed broker's oral commission agreement can be enforced. Put listings in writing anyway.",
+        "**Parol evidence rule** (parol means oral): earlier oral side deals cannot contradict a complete signed writing. A **merger (entire agreement) clause** confirms the writing is the whole deal. Fraud, duress, and mistake can still be proved.",
+        "Statute of limitations: **6 years** from the breach for contract suits (CPLR §213(2)).",
+        "**Laches** bars equitable relief after an unreasonable, prejudicial delay.",
+        "The Uniform Commercial Code covers goods and checks, not land."
       ],
       "example": {
         "title": "Worked example: statute of limitations",
@@ -406,7 +416,8 @@
       "intro": "A **breach** is a failure to perform without legal excuse. The injured party picks a remedy, unless the contract pre-sets one.",
       "points": [
         "**Specific performance** (a court order to complete the deal) exists because each parcel is unique. A buyer who sues for it can file a **notice of pendency** (lis pendens) to warn later buyers.",
-        "**Liquidated damages** (a sum agreed in advance, usually the down payment) must be a reasonable estimate, not a **penalty**. In New York a seller may generally keep a down payment up to **10%** when the buyer defaults without legal excuse, even after reselling at a profit (Maxton Builders v. Lo Galbo, 1986).",
+        "**Liquidated damages** (a sum agreed in advance, usually the down payment) must be a reasonable estimate, not a **penalty**.",
+        "In New York a seller may generally keep a down payment up to **10%** when the buyer defaults without legal excuse, even after reselling at a profit (Maxton Builders v. Lo Galbo, 1986).",
         "**Earnest money** (a good-faith deposit) is not refunded just because the buyer changes her mind, and it does not automatically become the broker's commission; the contract decides who gets it.",
         "Contracts end by performance, mutual release, **novation** (replacing the contract or a party), impossibility, or operation of law (statute of limitations, bankruptcy)."
       ],
@@ -458,13 +469,18 @@
       "heading": "Listing agreements and 19 NYCRR §175.24",
       "intro": "A **listing agreement** is an employment (agency) contract hiring a broker to find a buyer or tenant. It is not a contract to sell, and the broker is a special agent.",
       "points": [
-        "**§175.24**: exclusive listings of residential property (1–4 family, condo, or co-op; **not** vacant land) must include the DOS explanation, **printed on or attached**, in at least **6-point type**, **signed or initialed** by the homeowner or her agent. Nothing is filed with DOS.",
-        "Its wording: under exclusive right to sell, the owner pays the present broker even if she or another broker finds the buyer; under exclusive agency, the owner owes nothing if she finds the buyer, but owes **both the selling broker and the present broker** if another broker does.",
-        "**§175.24(c)**: if the broker belongs to a multiple listing service (MLS), the exclusive residential listing must let the owner choose to have negotiated offers submitted through the **listing broker or the selling broker**.",
-        "**§175.15** bars automatic continuation past the fixed end date, but a **protection (carryover) clause** covering buyers introduced during the term is allowed. **Net listings** are illegal (§175.19); commissions are negotiable.",
+        "Exclusive residential listings must include the DOS explanation, **printed on or attached**, in at least **6-point type** (§175.24).",
+        "Residential here means 1–4 family, condo, or co-op, **not** vacant land.",
+        "The explanation must be **signed or initialed** by the homeowner or her agent. Nothing is filed with DOS.",
+        "The explanation says: under exclusive right to sell, the owner pays the present broker even if she or another broker finds the buyer.",
+        "Under exclusive agency, the owner owes nothing if she finds the buyer, but owes **both the selling broker and the present broker** if another broker does.",
+        "If the broker belongs to a multiple listing service (MLS), the exclusive residential listing must let the owner choose to have negotiated offers submitted through the **listing broker or the selling broker** (§175.24(c)).",
+        "A listing can't continue automatically past its fixed end date (§175.15). A **protection (carryover) clause** covering buyers introduced during the term is allowed.",
+        "**Net listings** are illegal (§175.19); commissions are negotiable.",
         "Give the seller the **RPL §443 agency disclosure** before she signs, and a copy of the signed listing **immediately** (§175.12).",
         "The listing belongs to the **broker**, so it stays with the firm when the salesperson leaves.",
-        "The fee is earned when the broker produces a **ready, willing, and able** buyer on the listing terms, even if the seller backs out, unless payment depends on closing. In an open listing only the **procuring cause** (whose efforts started the unbroken chain to the sale) is paid.",
+        "The fee is earned when the broker produces a **ready, willing, and able** buyer on the listing terms, even if the seller backs out, unless payment depends on closing.",
+        "In an open listing only the **procuring cause** is paid: the broker whose efforts started the unbroken chain to the sale.",
         "A listing ends by sale, expiration, mutual agreement, or automatically on the owner's **death or incapacity** or the property's destruction; an owner who revokes early may owe damages."
       ],
       "table": {
@@ -518,11 +534,11 @@
     },
     {
       "heading": "Buyer agency agreements",
-      "intro": "A **buyer agency agreement** (the syllabus calls it the exclusive right to represent) makes the broker the buyer's agent, owing her fiduciary duties, and sets the fee.",
+      "intro": "A **buyer agency agreement** makes the broker the buyer's agent, owing her fiduciary duties, and sets the fee. The syllabus calls it the exclusive right to represent.",
       "points": [
         "Give the buyer the **§443 disclosure** before she signs the agreement; give it to the seller or listing agent at the first substantive contact.",
         "**Who pays does not decide who is represented**: a buyer's agent paid out of the listing broker's commission still represents the buyer. Pay from more than one party needs the **client's** consent (§175.7).",
-        "Since August 17, 2024, NAR policy (from its settlement) requires MLS participants to sign a written agreement spelling out the broker's compensation before touring a home with a buyer. It is association policy, not a New York statute."
+        "Since August 17, 2024, National Association of Realtors (NAR) policy from its settlement requires MLS participants to sign a written agreement on the broker's compensation before touring a home with a buyer. It is association policy, not a New York statute."
       ],
       "table": {
         "head": [
@@ -551,13 +567,18 @@
     },
     {
       "heading": "Binders, purchase offers, and limits on licensee drafting",
-      "intro": "A **binder** (also called a receipt, memorandum of sale, or purchase offer; in New York City the accepted-offer summary is a **deal sheet**) outlines the key terms before the formal contract.",
+      "intro": "A **binder** outlines the key terms before the formal contract. It is also called a receipt, memorandum of sale, or purchase offer. In New York City the accepted-offer summary is a **deal sheet**.",
       "points": [
         "A binder **“subject to a formal contract”** binds no one yet, so the seller may take a higher offer despite the buyer's deposit. A signed binder stating all essential terms, with no such reservation, can be enforceable.",
-        "**Judiciary Law §478** bars non-lawyers from practicing law, and **§484** bars them from charging to prepare instruments affecting real estate. Both are misdemeanors, and DOS separately disciplines licensees (Duncan & Hill Realty v. Department of State, 1978).",
-        "DOS Legal Memorandum LI04 (2020): a licensee may prepare a simple fill-in-the-blanks contract that is **subject to each party's attorney's approval**, or use a form approved by a **joint bar association–Realtor committee**, filling in only facts (names, price, closing date and place, property description). She may not devise legal terms, and adding any provision or **rider** (addendum) requires making the whole contract subject to attorney approval. No legal advice, no discouraging lawyers, and no separate fee or share of attorney fees.",
-        "**Attorney approval clause** (common upstate, where non-lawyers fill in the form): each side's attorney may disapprove in writing within the contract's window, often three business days. If no disapproval arrives in time, the contingency is **deemed waived** and the contract binds.",
-        "**Moran v. Erk** (N.Y. 2008): the attorney may disapprove for **any reason or no reason**, even the client's change of heart, as long as it is timely."
+        "Non-lawyers may not practice law (Judiciary Law §478). They also may not charge to prepare instruments affecting real estate (Judiciary Law §484). Both are misdemeanors.",
+        "DOS separately disciplines licensees for unauthorized practice (Duncan & Hill Realty v. Department of State, 1978).",
+        "A licensee may prepare a simple fill-in-the-blanks contract that is **subject to each party's attorney's approval** (DOS Legal Memorandum LI04, 2020).",
+        "Or she may use a form approved by a **joint bar association–Realtor committee**, filling in only facts: names, price, closing date and place, property description.",
+        "She may not devise legal terms. Adding any provision or rider (addendum) means the whole contract must be subject to attorney approval.",
+        "No legal advice, no discouraging lawyers, and no separate fee or share of attorney fees.",
+        "**Attorney approval clause**: each side's attorney may disapprove in writing within the contract's window, often three business days. It is common upstate, where non-lawyers fill in the form.",
+        "If no disapproval arrives in time, the contingency is **deemed waived** and the contract binds.",
+        "The attorney may disapprove for **any reason or no reason**, even the client's change of heart, as long as it is timely (Moran v. Erk, N.Y. 2008)."
       ],
       "example": {
         "title": "Worked example: attorney-review deadline",
@@ -645,21 +666,33 @@
       "heading": "Preparing and signing the contract in New York",
       "intro": "**Downstate** (New York City, Long Island, Westchester, and nearby counties) the seller's attorney drafts the contract. In much of **upstate**, a licensee fills in an approved form subject to attorney approval.",
       "points": [
-        "Downstate: deal sheet to the attorneys; the **seller's attorney drafts**; the buyer's attorney reviews; the **buyer signs first** and pays the down payment; the seller signs and delivers last, and only then is it binding. The buyer goes first because her signed contract and check are the offer.",
+        "Downstate: deal sheet to the attorneys; the **seller's attorney drafts**; the buyer's attorney reviews.",
+        "The **buyer signs first** and pays the down payment. The seller signs and delivers last, and only then is it binding. The buyer goes first because her signed contract and check are the offer.",
         "Before signing, confirm the terms with the seller: every owner's name, price, inclusions and exclusions, closing and move-out dates, and acceptable contingencies. Signing may be in person, by mail, or electronic.",
-        "Gather the **prior deed**, **prior title policy**, **survey**, **certificate of occupancy** (does the legal use match, say, a two-family? were additions permitted?), personal data (names, marital status, Social Security numbers), and **tax bills**.",
-        "**Property description**: a house is usually identified by street address and tax map number, often with the deed's legal description attached; for vacant land, attach or refer to the deed, filed map, or survey. Verify everything against the prior deed and survey; the deed itself needs a formal legal description (metes and bounds or a lot on a filed map).",
-        "Down payment: downstate usually **10%**, paid to the **seller's attorney as escrowee** (the neutral holder of the deposit); upstate a negotiated, often smaller deposit, frequently held by the listing broker. Paying the seller directly leaves the buyer unprotected.",
-        "Broker escrow (§175.1): separate federally insured account, deposit within **3 business days** (kept secure until then), no **commingling** (mixing) or **conversion** (using). Salespersons hand deposits to the broker promptly. Attorney-held money has an extra safeguard: the **Lawyers' Fund for Client Protection** can repay losses caused by a dishonest New York lawyer.",
-        "Before the buyer is bound, where each applies: the **§443** agency disclosure acknowledged; the seller's **Property Condition Disclosure Statement (PCDS)** delivered (the $500 credit opt-out ended in 2024); for **pre-1978** housing, the lead pamphlet, disclosure, warning statement, and a **10-day** inspection opportunity; and the agricultural district notice (RPL §333-c)."
+        "Gather the prior deed, prior title policy, survey, **certificate of occupancy**, personal data (names, marital status, Social Security numbers), and tax bills.",
+        "Check the certificate of occupancy: does the legal use match, say, a two-family? Were additions permitted?",
+        "**Property description**: a house is usually identified by street address and tax map number, often with the deed's legal description attached.",
+        "For vacant land, attach or refer to the deed, filed map, or survey. Verify everything against the prior deed and survey.",
+        "The deed itself needs a formal **legal description**: metes and bounds or a lot on a filed map.",
+        "Down payment downstate: usually **10%**, paid to the **seller's attorney as escrowee** (the neutral holder of the deposit).",
+        "Upstate: a negotiated, often smaller deposit, frequently held by the listing broker. Paying the seller directly leaves the buyer unprotected.",
+        "Broker escrow rules (§175.1): deposit into a separate, federally insured account within **3 business days**, keeping it secure until then.",
+        "No **commingling** (mixing) or **conversion** (using). Salespersons hand deposits to the broker promptly.",
+        "Attorney-held money has an extra safeguard: the **Lawyers' Fund for Client Protection** can repay losses caused by a dishonest New York lawyer.",
+        "Before the buyer is bound, deliver each disclosure that applies. First, the §443 agency disclosure, acknowledged.",
+        "Next, the seller's **Property Condition Disclosure Statement (PCDS)**. The $500 credit opt-out ended in 2024.",
+        "For **pre-1978** housing: the lead pamphlet, disclosure, warning statement, and a **10-day** inspection opportunity.",
+        "Where it applies, the agricultural district notice (RPL §333-c)."
       ],
       "example": {
         "title": "Worked example: down payment and cash to close",
         "steps": [
           "Facts: $720,000 price, 10% down at signing, a $5,000 binder credited, and an 80% loan.",
-          "Step 1: $720,000 × 10% = $72,000; minus the $5,000 credit = $67,000 due at signing.",
-          "Step 2: Loan = $720,000 × 80% = $576,000.",
-          "Answer: $67,000 at signing; $720,000 − $72,000 − $576,000 = $72,000 at closing, before costs."
+          "Step 1: Down payment = $720,000 × 10% = $72,000.",
+          "Step 2: Due at signing = $72,000 − $5,000 credit = $67,000.",
+          "Step 3: Loan = $720,000 × 80% = $576,000.",
+          "Step 4: Cash at closing = $720,000 − $72,000 − $576,000 = $72,000, before costs.",
+          "Answer: $67,000 at signing and $72,000 at closing, before costs."
         ]
       }
     },
@@ -669,7 +702,9 @@
       "points": [
         "**Mortgage contingency**: a buyer who applies promptly in good faith, is denied or offered less than the contract amount, and gives timely notice may cancel and recover her deposit.",
         "A buyer who never applies cannot use it, and a clause deeming it **waived** without timely notice is enforced. The party it benefits may **waive** it (for example, by paying cash), and the seller stays bound.",
-        "Financing types: conventional; **FHA or VA** (an amendatory clause lets the buyer cancel without losing her deposit if the appraisal is low); **purchase money mortgage** (seller financing); **assumption** (lender approval needed; the seller stays liable unless released).",
+        "Financing types: conventional, **FHA or VA**, **purchase money mortgage** (seller financing), and assumption.",
+        "FHA and VA loans carry an amendatory clause: the buyer may cancel without losing her deposit if the appraisal is low.",
+        "An **assumption** needs lender approval, and the seller stays liable unless released.",
         "**Kick-out clause**: with a sale-of-home contingency, the seller keeps marketing and, on a backup offer, gives the first buyer a set time (for example, 72 hours) to drop the contingency or lose the deal."
       ],
       "table": {
@@ -713,11 +748,17 @@
       "heading": "Options, rights of first refusal, and installment land contracts",
       "intro": "Each gives a future right to buy or a way to pay over time. Know who is bound and when title passes.",
       "points": [
-        "**Option**: the **optionee** may buy at a fixed price within a set time; the paid **optionor** is bound and cannot revoke, even by refunding the fee. Exercise creates a bilateral sale contract (the fee is often credited); if it lapses, the optionor keeps the fee.",
+        "An option lets the **optionee** buy at a fixed price within a set time.",
+        "The paid **optionor** is bound and cannot revoke, even by refunding the fee.",
+        "Exercising the option creates a bilateral sale contract, and the fee is often credited. If it lapses, the optionor keeps the fee.",
         "Options must be written and may be recorded (RPL §294). A **lease with option to buy** adds rent credits, and breaching the lease can cost the option.",
         "**Right of first refusal (ROFR)**: no preset price and no power to force a sale. When the owner decides to accept a bona fide offer, the holder may match it; materially better terms offered later must be re-offered. Condo boards often hold one.",
-        "**Installment land contract**: the **vendee** (buyer) gets possession and **equitable title** (the right to legal title once paid); the **vendor** (seller) keeps **legal title** and delivers the deed when paid. The buyer gains cash flow (little down, no bank loan); the seller spreads the taxable gain and keeps title as security.",
-        "An existing mortgage's due-on-sale clause may require lender **forbearance**. New York may make a vendor **foreclose** rather than forfeit a vendee who paid a substantial part (Bean v. Walker, 1983); vendees should **record** the contract or a memorandum (RPL §294)."
+        "Installment land contract: the **vendee** (buyer) gets possession and **equitable title** (the right to legal title once paid).",
+        "The **vendor** (seller) keeps **legal title** and delivers the deed when paid.",
+        "The buyer gains cash flow (little down, no bank loan); the seller spreads the taxable gain and keeps title as security.",
+        "An existing mortgage's due-on-sale clause may require lender **forbearance**.",
+        "New York may make a vendor **foreclose** rather than forfeit a vendee who paid a substantial part (Bean v. Walker, 1983).",
+        "Vendees should **record** the contract or a memorandum (RPL §294)."
       ],
       "table": {
         "head": [
@@ -758,7 +799,8 @@
         "steps": [
           "Facts: $400,000 price, $10,000 option fee credited, $250 rent credit for each of 18 months.",
           "Step 1: $250 × 18 = $4,500 in rent credits.",
-          "Answer: $400,000 − $10,000 − $4,500 = $385,500 still owed."
+          "Step 2: $400,000 − $10,000 − $4,500 = $385,500.",
+          "Answer: $385,500 still owed."
         ]
       }
     },
@@ -766,9 +808,12 @@
       "heading": "Risk of loss and time of the essence",
       "intro": "Between signing and closing, two questions arise: who bears a casualty loss, and how firm is the closing date?",
       "points": [
-        "**GOL §5-1311**, the Uniform Vendor and Purchaser Risk Act, replaces the common-law **equitable conversion** rule (risk on the buyer from signing). It applies **unless the contract expressly says otherwise**, and a taking by eminent domain counts like destruction.",
-        "Early possession shifts the risk to the buyer, so she should insure. For leases, a tenant whose unit becomes untenantable by fire or the elements through no fault of her own may **quit and surrender** and owe no further rent, unless a written agreement says otherwise (RPL §227).",
-        "A closing set “on or about” a date (the **law date**) is a target: without **time of the essence**, either side gets a **reasonable adjournment**. With it, a party not ready that day is in **material breach**.",
+        "The **Uniform Vendor and Purchaser Risk Act** replaces the common-law **equitable conversion** rule, which put the risk on the buyer from signing (GOL §5-1311).",
+        "It applies **unless the contract expressly says otherwise**. A taking by eminent domain counts like destruction.",
+        "Early possession shifts the risk to the buyer, so she should insure.",
+        "Leases: a tenant whose unit becomes untenantable by fire or the elements through no fault of her own may **quit and surrender** and owe no further rent, unless a written agreement says otherwise (RPL §227).",
+        "A closing set “on or about” a date (the **law date**) is a target. Without time of the essence, either side gets a **reasonable adjournment**.",
+        "With a **time of the essence** clause, a party not ready that day is in **material breach**.",
         "Time can be made of the essence later by **clear, unequivocal notice** setting a **reasonable** date and warning that missing it is a default.",
         "The party declaring a default must itself be **ready, willing, and able**; a seller with an unpaid judgment lien cannot hold the buyer in default."
       ],
@@ -809,11 +854,13 @@
       "heading": "Assignment, novation, death of a party, and leases",
       "intro": "Contracts can change hands. The exam asks whether the original party is still liable.",
       "points": [
-        "**Assignment** transfers rights; **delegation** transfers duties. A contract **silent** on assignment is generally assignable (for example, to the buyer's LLC), but an **anti-assignment clause** is enforced and personal-service contracts need consent.",
-        "The **assignor** (the party who transferred) stays liable; consenting to an assignment is not a release. **Novation** substitutes a new contract or party and **releases** the old one, as a lender's release does on a mortgage assumption.",
+        "**Assignment** transfers rights; **delegation** transfers duties.",
+        "A contract silent on assignment is generally assignable, for example to the buyer's LLC. But an **anti-assignment clause** is enforced, and personal-service contracts need consent.",
+        "The **assignor** (the party who transferred) stays liable; consenting to an assignment is not a release.",
+        "**Novation** substitutes a new contract or party and **releases** the old one, as a lender's release does on a mortgage assumption.",
         "Death ends an offer and a listing, but a signed **contract of sale binds the estate**.",
         "A sale doesn't end a lease: the buyer takes **subject to existing leases**. A lease assignment transfers the whole remaining term, a sublease only part, and neither releases the tenant.",
-        "**GOL §5-905**: an automatic lease renewal binds the tenant only if the landlord sends a written reminder **15 to 30 days** before her notice deadline."
+        "An automatic lease renewal binds the tenant only if the landlord sends a written reminder **15 to 30 days** before her notice deadline (GOL §5-905)."
       ],
       "table": {
         "head": [

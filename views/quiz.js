@@ -45,6 +45,7 @@ function vQuiz() {
 
   return {
     top: `<div class="qz-bar">
+      <button class="iconbtn qz-home" data-action="exit" aria-label="Save and go to Home">${svg('home')}</button>
       <strong class="qz-pos" id="qpos">Q ${A.i + 1} of ${total}</strong>
       ${exam ? `<span class="qz-clock">${svg('clock')}<span id="timer" class="${left < 300 ? 'low' : ''}" role="timer" aria-label="Time remaining">${fmtClock(left)}</span></span>`
         : `<span class="meta qz-count">${answered} answered</span>`}

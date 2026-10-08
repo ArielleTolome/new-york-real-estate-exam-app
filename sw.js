@@ -1,5 +1,5 @@
 // Precache the whole app; network-first so question fixes land immediately, cache when offline.
-const CACHE = 'nyre-v5'; // bump to evict old precaches on activate
+const CACHE = 'nyre-v6'; // bump to evict old precaches on activate
 const ASSETS = [
   './', 'index.html', 'app.css', 'app.js', 'questions.json', 'guides.json', 'manifest.json', 'favicon.ico',
   'views/home.js', 'views/build.js', 'views/quiz.js', 'views/results.js', 'views/history.js', 'views/mistakes.js', 'views/more.js', 'views/study.js',

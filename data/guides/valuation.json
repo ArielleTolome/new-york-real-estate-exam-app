@@ -1,11 +1,11 @@
 {
   "topic": "valuation",
   "title": "Valuation & Market Analysis",
-  "overview": "This chapter covers how value is estimated: value vs. price vs. cost, the principles behind value, highest and best use, the appraisal process and appraiser licensing in New York, and how a salesperson prepares a comparative market analysis (CMA) to price a listing. It is a 3-hour unit of the 77-hour course, so expect few direct questions, but its math (comparable adjustments, the cost approach with depreciation, NOI and cap rates, rent multipliers) also appears in math and investment questions. The big themes: adjust the comparable, never the subject; depreciate the building, never the land; capitalize NOI, not cash flow after the mortgage; reconcile by weighing, not simply averaging; and in New York a CMA is never an appraisal.",
+  "overview": "This chapter covers value vs. price vs. cost, the principles of value, highest and best use, the appraisal process, New York appraiser licensing, and pricing a listing with a comparative market analysis (CMA). The exam hits hardest: adjust the comparable, never the subject; capitalize NOI, not cash flow; and in New York a CMA is never an appraisal.",
   "cram": {
     "numbers": [
       { "value": "4", "label": "Elements of value: demand, utility, scarcity, transferability (DUST)" },
-      { "value": "4", "label": "Highest and best use tests, in order: legally permissible, physically possible, financially feasible, maximally productive" },
+      { "value": "4", "label": "Highest-and-best-use tests, in order: legally permissible, physically possible, financially feasible, maximally productive" },
       { "value": "3", "label": "Approaches to value: sales comparison, cost, income" },
       { "value": "3", "label": "Kinds of accrued depreciation: physical deterioration, functional obsolescence, external obsolescence" },
       { "value": "4", "label": "Neighborhood life-cycle stages: growth, stability, decline, revitalization" },
@@ -13,16 +13,18 @@
       { "value": "3", "label": "Minimum closed comparable sales in a Fannie Mae appraisal; 3 to 6 is typical" },
       { "value": "Art. 6-E", "label": "NY Executive Law article under which DOS licenses and certifies appraisers" },
       { "value": "4", "label": "NY appraiser credentials: assistant, licensed residential, certified residential, certified general" },
-      { "value": "3 years", "label": "Time a supervisory appraiser must have been state-certified; at most 3 trainees per supervisor at a time" },
-      { "value": "2 years", "label": "NY appraiser credential term; renewal takes 28 hours of CE, including the 7-hour USPAP course and a valuation bias and fair housing course" },
-      { "value": "1,000 / 1,500 / 3,000", "label": "Experience hours for licensed residential / certified residential / certified general; assistants need none and take no exam" },
-      { "value": "3 business days", "label": "Reg B: appraisal copy due on completion or 3 business days before closing, whichever is earlier" },
-      { "value": "$400,000", "label": "Federal bank appraisal threshold for home loans since 2019 (older books say $250,000); Fannie Mae, Freddie Mac, FHA and VA keep their own appraisal rules" }
+      { "value": "3 years", "label": "Minimum time a supervisor must be state-certified; max 3 trainees at once" },
+      { "value": "2 years", "label": "NY appraiser credential term" },
+      { "value": "28 hours", "label": "Continuing education per renewal: 7-hour USPAP plus valuation bias and fair housing course" },
+      { "value": "1,000 / 1,500 / 3,000", "label": "Experience hours: licensed residential / certified residential / certified general. Assistants: none, no exam" },
+      { "value": "3 business days", "label": "Reg B appraisal copy: on completion or 3 business days pre-closing, whichever is earlier" },
+      { "value": "$400,000", "label": "Federal bank appraisal threshold for home loans since 2019; older books say $250,000" }
     ],
     "mustKnow": [
-      "**Appraisal**: an unbiased, supported opinion of the value of defined rights as of an **effective date**; federally related loans require a state licensed or certified appraiser. **Valuation** is the process of estimating value; an **evaluation** studies utility or feasibility without necessarily estimating value.",
+      "**Appraisal**: an unbiased, supported opinion of the value of defined rights as of an **effective date**. Federally related loans require a state licensed or certified appraiser.",
+      "**Valuation** is the process of estimating value; an **evaluation** studies utility or feasibility without necessarily estimating value.",
       "In New York a **CMA** is an opinion of value and by law may never be called an **appraisal**; a real estate license carries no appraiser credential.",
-      "**Market value** is the **most probable** price (not the highest) after reasonable exposure, in cash or its equivalent, between informed parties under no duress, in an **arm's-length** sale.",
+      "**Market value** is the **most probable** price, not the highest, after reasonable exposure, in cash or its equivalent, between informed parties under no duress, in an arm's-length sale.",
       "**Price** is what a buyer actually paid; **cost** is what it takes to build; either can differ from value.",
       "**Direct (hard) costs** are labor and materials; **indirect (soft) costs** are fees, permits, financing and administration.",
       "**DUST**: demand (desire plus purchasing power), utility, scarcity and transferability must all exist.",
@@ -30,40 +32,41 @@
       "**Regression** pulls the best house on the block down; **progression** pulls a modest house among better ones up.",
       "**Contribution**: a feature is worth what it adds to value, not what it cost.",
       "**Anticipation** (value is the present worth of future benefits) underlies the income approach; **change** ties every value to a date.",
-      "**Highest and best use**: legally permissible, physically possible, financially feasible, maximally productive, analyzed **as vacant** and **as improved**.",
+      "**Highest and best use**: legally permissible, physically possible, financially feasible, maximally productive. Analyze it as vacant and as improved.",
       "Appraisal process: define the problem, set the scope of work, collect data, analyze (including highest and best use), value the land, apply the approaches, **reconcile**, report.",
-      "DOS licenses appraisers under **Executive Law Article 6-E**: **certified general** covers all property, **certified residential** covers 1–4 units of any value, **licensed residential** is capped by value and complexity, and an **assistant** works only under a certified supervisor.",
-      "**USPAP** (Appraisal Standards Board of The Appraisal Foundation) bans fees contingent on the value reported and requires competence.",
+      "DOS licenses appraisers under **Executive Law Article 6-E**.",
+      "**Certified general** covers all property; certified residential covers 1–4 units of any value; licensed residential is capped by value and complexity; an assistant works only under a certified supervisor.",
+      "**USPAP** bans fees contingent on the value reported and requires competence. The Appraisal Standards Board of The Appraisal Foundation writes it.",
       "**Appraiser independence**: no one may pressure an appraiser toward a value; asking through the lender to consider more comps or correct errors is allowed.",
       "A **BPO** is a broker's price estimate for lenders (foreclosures, short sales); it can't be the primary basis of value for a mortgage to buy a principal home.",
-      "CMA data: **solds** show what buyers paid, **actives** show the competition, **expireds** show prices the market rejected.",
+      "CMA data: solds show what buyers paid, **actives** show the competition, **expireds** show prices the market rejected.",
       "Adjust the **comparable**, never the subject: comp better, subtract; comp poorer, add.",
       "Transaction adjustments (financing, concessions, time) come before physical ones; use only **arm's-length** sales; the comp with the smallest **gross** adjustment usually gets the most weight.",
       "Cost approach: **land + (cost new − accrued depreciation)**; land is never depreciated.",
       "**Reproduction** cost = exact replica; **replacement** cost = equal utility with modern materials, the usual choice for older buildings.",
-      "Depreciation: **physical** (wear), **functional** (design or features inside the property, including overimprovement), **external** (outside the property, almost always incurable).",
+      "Depreciation: physical (wear), **functional** (design or features inside the property, including overimprovement), **external** (outside the property, almost always incurable).",
       "**Curable** means the cure costs no more than the value it adds.",
       "**Age-life**: depreciation = cost new × effective age ÷ total economic life; use **effective**, not calendar, age.",
-      "PGI − vacancy and collection loss + other income = **EGI**; EGI − operating expenses = **NOI**; **value = NOI ÷ cap rate**.",
+      "PGI − vacancy and collection loss + other income = EGI; EGI − operating expenses = **NOI**; **value = NOI ÷ cap rate**.",
       "NOI excludes **debt service**, tax depreciation, income taxes and capital improvements, but includes a market management fee and reserves for replacement.",
       "Higher risk means a higher cap rate and a **lower** value.",
-      "**GRM** = price ÷ monthly rent (a question may instead give an annual GRM for annual rent); **GIM** = price ÷ annual gross income. Match the periods; multipliers ignore vacancy and expenses.",
+      "**GRM** = price ÷ monthly rent; **GIM** = price ÷ annual gross income. Some questions give an annual GRM for annual rent. Match the periods; multipliers ignore vacancy and expenses.",
       "**Reconciliation** weighs the indications rather than simply averaging them: sales comparison for homes, income for investment property, cost for new or special-purpose buildings."
     ],
     "traps": [
-      { "trap": "A salesperson may call a CMA an appraisal if no fee is charged.", "truth": "Never, paid or free, so 'free home appraisal' flyers are improper. Only credential holders may use the state appraiser titles (Exec. Law §160-b)." },
-      { "trap": "When the comparable has a feature the subject lacks, add its value.", "truth": "The comp is superior, so subtract: a $350,000 comp with a $15,000 garage the subject lacks adjusts to $335,000. Adjust the comp, never the subject." },
+      { "trap": "A salesperson may call a CMA an appraisal if no fee is charged.", "truth": "A CMA is never an appraisal, paid or free, so 'free home appraisal' flyers are improper. Only credential holders may use the state appraiser titles (Exec. Law §160-b)." },
+      { "trap": "When the comparable has a feature the subject lacks, add its value.", "truth": "Subtract, because the comp is superior: a $350,000 comp with a $15,000 garage the subject lacks adjusts to $335,000. Adjust the comp, never the subject." },
       { "trap": "Depreciate the whole property, land included.", "truth": "Depreciation comes off the cost new of the improvements only; land is added back at full value." },
       { "trap": "Mortgage payments are an operating expense.", "truth": "Debt service is excluded from NOI. NOI − debt service is before-tax cash flow; the income approach capitalizes NOI, not cash flow, to value the property." },
-      { "trap": "Curable means the defect can physically be repaired.", "truth": "Curable is an economic test: an $85,000 foundation repair that adds $30,000 is incurable." },
-      { "trap": "A poor floor plan is external obsolescence.", "truth": "Problems inside the property are functional obsolescence; external obsolescence comes from outside, such as a landfill or a plant closing." },
-      { "trap": "Market value is the highest price a buyer might pay.", "truth": "It is the most probable price. One specially motivated buyer's higher figure is investment value." },
-      { "trap": "The age-life method uses the building's actual age.", "truth": "It uses effective age, which reflects condition and renovation; a gutted and rebuilt 45-year-old house might have an effective age of 15." },
-      { "trap": "Reconciliation averages the three approaches.", "truth": "It weighs each indication by reliability and relevance; a simple average gives weak data an equal say." },
-      { "trap": "A higher cap rate means a higher value.", "truth": "The opposite: $120,000 of NOI is worth $2,000,000 at 6% but only $1,500,000 at 8%." },
-      { "trap": "A monthly GRM can be applied to annual rent.", "truth": "Match the periods (monthly GRM × monthly rent, annual GIM × annual income) or the answer is off by a factor of 12." },
-      { "trap": "Comps must be under 6 months old, and every year of age knocks $1,000 off value.", "truth": "Neither is a rule. The DOS outline uses a 12-month look-back, and every adjustment must come from market evidence." },
-      { "trap": "Any licensed appraiser can supervise an appraiser assistant.", "truth": "In New York the supervisor must be state-certified for at least 3 years and approved by DOS, with no more than 3 trainees at a time; a licensed residential appraiser can't supervise." },
+      { "trap": "Curable means the defect can physically be repaired.", "truth": "Curable is an economic test: the cure costs no more than the value it adds. An $85,000 foundation repair that adds $30,000 is incurable." },
+      { "trap": "A poor floor plan is external obsolescence.", "truth": "Problems inside the property are functional obsolescence. External obsolescence comes from outside, such as a landfill or a plant closing." },
+      { "trap": "Market value is the highest price a buyer might pay.", "truth": "Market value is the most probable price. One specially motivated buyer's higher figure is investment value." },
+      { "trap": "The age-life method uses the building's actual age.", "truth": "Age-life uses effective age, which reflects condition and renovation. A gutted and rebuilt 45-year-old house might have an effective age of 15." },
+      { "trap": "Reconciliation averages the three approaches.", "truth": "Reconciliation weighs each indication by reliability and relevance. A simple average gives weak data an equal say." },
+      { "trap": "A higher cap rate means a higher value.", "truth": "A higher cap rate means a lower value: $120,000 of NOI is worth $2,000,000 at 6% but only $1,500,000 at 8%." },
+      { "trap": "A monthly GRM can be applied to annual rent.", "truth": "Match the periods: monthly GRM × monthly rent, annual GIM × annual income. Otherwise the answer is off by a factor of 12." },
+      { "trap": "Comps must be under 6 months old, and every year of age knocks $1,000 off value.", "truth": "The DOS outline uses a 12-month look-back, and every adjustment must come from market evidence. Neither the 6-month nor the $1,000 figure is a rule." },
+      { "trap": "Any licensed appraiser can supervise an appraiser assistant.", "truth": "The supervisor must be state-certified for at least 3 years and approved by DOS, with no more than 3 trainees at a time. A licensed residential appraiser can't supervise." },
       { "trap": "Plottage means combining parcels.", "truth": "Combining parcels is assemblage; plottage is the extra value the combined parcel has." }
     ],
     "mnemonics": [
@@ -90,7 +93,8 @@
       "heading": "Appraisal, valuation, evaluation, price and cost",
       "intro": "Many questions turn on picking the right word, so start with the Department of State (DOS) vocabulary.",
       "points": [
-        "An **appraisal** is an unbiased, supported estimate of the value (or nature, quality or utility) of an identified interest in real estate as of a stated date. Federally related loans require a state licensed or certified appraiser.",
+        "An **appraisal** is an unbiased, supported estimate of the value of an identified interest in real estate as of a stated date. It can also address the property's nature, quality or utility.",
+        "Federally related loans require a state licensed or certified appraiser.",
         "**Valuation** is the process of estimating value as of a given date. An appraisal is one kind of valuation; a CMA is a less formal one.",
         "An **evaluation** studies utility, feasibility, marketability or highest and best use without necessarily producing a value. Bank regulators also use 'evaluation' for a simplified estimate on some smaller loans; on the exam, use the syllabus meaning.",
         "**Price** is what one buyer and seller agreed to in one deal. **Cost** is the total outlay to build, including the contractor's and developer's overhead and profit. Either can sit above or below value."
@@ -111,9 +115,13 @@
     {
       "heading": "Market value and other types of value",
       "points": [
-        "DOS definition: **market value** is the most probable price, as of a specific date, in cash or its equivalent, for which the specified property rights should sell after reasonable exposure in a competitive market under all conditions requisite to a fair sale, with buyer and seller acting prudently, knowledgeably and in their own interest, and neither under undue duress.",
-        "Key pieces: **probable**, not the highest price or the first offer; a **specific date**; **cash equivalent**, so special financing and concessions are adjusted out; **specified rights**; **reasonable exposure** before the sale (marketing time is the separate estimate of how long a sale would take afterward); and fair-sale conditions: a broad market, wide publicity, time, knowledge and no duress.",
-        "It assumes an **arm's-length** sale between unrelated parties; family, related-company and forced sales are poor evidence. **Market price** is what a property actually sold for, which may or may not equal market value."
+        "DOS defines **market value** as the most probable price, as of a specific date, in cash or its equivalent, for which the specified property rights should sell after reasonable exposure in a competitive market.",
+        "The sale must meet all conditions requisite to a fair sale: buyer and seller act prudently, knowledgeably and in their own interest, and neither is under undue duress.",
+        "Key pieces: **probable**, not the highest price or the first offer; a specific date; and **cash equivalent**, so special financing and concessions are adjusted out.",
+        "The value is for the specified rights after **reasonable exposure** before the sale. Marketing time is the separate estimate of how long a sale would take afterward.",
+        "Fair-sale conditions: a broad market, wide publicity, time, knowledge and no duress.",
+        "It assumes an **arm's-length** sale between unrelated parties; family, related-company and forced sales are poor evidence.",
+        "**Market price** is what a property actually sold for, which may or may not equal market value."
       ],
       "table": {
         "head": ["Type of value", "Meaning", "Exam clue"],
@@ -132,8 +140,9 @@
       "heading": "Elements, forces and principles of value",
       "intro": "Principle questions usually tell a short story and ask which principle it shows.",
       "points": [
-        "All four **elements of value** (DUST) must exist: **demand** (desire backed by purchasing power, called effective demand), **utility**, **scarcity** and **transferability**. Immobility, indestructibility and uniqueness describe land itself, not value.",
-        "Four **forces** affect value (PEGS): **physical** (location, topography, access), **economic** (jobs, incomes, interest rates), **governmental** (zoning, taxes, codes) and **social** (population, household size, tastes).",
+        "All four **elements of value** (DUST) must exist: demand, utility, scarcity and transferability. Immobility, indestructibility and uniqueness describe land itself, not value.",
+        "Demand means **effective demand**: desire backed by purchasing power.",
+        "Four **forces** affect value (PEGS): physical (location, topography, access), economic (jobs, incomes, interest rates), governmental (zoning, taxes, codes) and social (population, household size, tastes).",
         "The protected traits of a neighborhood's residents are never a value factor. The federal Fair Housing Act expressly covers appraising, and New York's Human Rights Law bars discrimination in real estate transactions.",
         "Under the principle of change, neighborhoods follow a **life cycle**: growth, stability, decline, and sometimes revitalization."
       ],
@@ -158,9 +167,11 @@
     {
       "heading": "Highest and best use and site valuation",
       "points": [
-        "**Highest and best use** is the reasonably probable use that is **legally permissible**, **physically possible**, **financially feasible** and **maximally productive**, tested in that order. A use barred by zoning fails no matter how profitable; among uses passing the first three tests, the highest-value one wins.",
-        "Test it **as vacant** and **as improved**. If the site's value as vacant, minus demolition cost, exceeds the property's value as improved, the existing building is an **interim use**.",
-        "**Site valuation**: land is usually valued by comparing vacant-land sales, adjusted for location, size, shape, frontage, topography, utilities and zoning; usable area matters more than gross acreage. Other methods include **allocation** (a typical land-to-total ratio) and **extraction** (sale price minus the depreciated improvements).",
+        "**Highest and best use** is the reasonably probable use that is legally permissible, physically possible, financially feasible and maximally productive, **tested in that order**.",
+        "A use barred by zoning fails no matter how profitable. Among uses passing the first three tests, the highest-value one wins.",
+        "Test it **as vacant** and as improved. If the site's value as vacant, minus demolition cost, exceeds the property's value as improved, the existing building is an **interim use**.",
+        "**Site valuation**: land is usually valued by comparing vacant-land sales, adjusted for location, size, shape, frontage, topography, utilities and zoning. Usable area matters more than gross acreage.",
+        "Other land methods: **allocation** applies a typical land-to-total ratio; **extraction** takes the sale price minus the depreciated improvements.",
         "**Assemblage** is combining parcels; **plottage** is the extra value the combined parcel has."
       ],
       "example": {
@@ -176,8 +187,9 @@
       "heading": "The appraisal process",
       "intro": "Expect questions on the first step and on the order of the steps.",
       "points": [
-        "Step one is **defining the problem**: client and intended use, the property and the **rights** appraised, the type of value, the **effective date** and any assumptions.",
-        "Rights matter: **fee simple** is ownership free of leases; the **leased fee** is the landlord's interest in leased property; the **leasehold** is the tenant's. A building locked into a below-market lease can be worth less as a leased fee.",
+        "Step one is **defining the problem**: client and intended use, the property and the rights appraised, the type of value, the **effective date** and any assumptions.",
+        "Rights matter. **Fee simple** is ownership free of leases.",
+        "The **leased fee** is the landlord's interest in leased property; the **leasehold** is the tenant's. A building locked into a below-market lease can be worth less as a leased fee.",
         "The **effective date** is the date the value applies to. Values go stale as markets change; New York law sets no expiration date, though lenders and agencies limit how old an appraisal may be.",
         "USPAP's report options are the **Appraisal Report** and the **Restricted Appraisal Report**; home loans typically use forms such as the Uniform Residential Appraisal Report (URAR). An appraisal is not a home inspection."
       ],
@@ -199,14 +211,25 @@
       "heading": "Appraiser licensing, standards and independence",
       "intro": "Real estate licensees and appraisers are separate professions under separate laws.",
       "points": [
-        "In New York, the **Department of State** licenses and certifies appraisers under **Executive Law Article 6-E**, with the **State Board of Real Estate Appraisal**. A broker or salesperson license under Real Property Law Article 12-A is not an appraiser credential.",
-        "Only credential holders may use the titles 'state certified real estate appraiser', 'state licensed real estate appraiser' or 'state licensed real estate appraiser assistant', or call an appraisal 'certified' or 'licensed' (Exec. Law §160-b). Article 6-E is a title law that doesn't bar uncredentialed appraising (§160-b(2)), but federally related loans need a credentialed appraiser, and a licensee's CMA may never be called an appraisal. Reports must show the credential title and number (§160-r).",
-        "Title XI of the Financial Institutions Reform, Recovery, and Enforcement Act (**FIRREA**, 1989) requires credentialed appraisers for federally related loans above set thresholds and makes **USPAP** the standard. USPAP is written by the **Appraisal Standards Board** of **The Appraisal Foundation**.",
-        "USPAP **Ethics Rule**: be impartial, never discriminate, and never take a fee contingent on a predetermined result, the value reported or the loan closing; disclosure doesn't cure it, and Exec. Law §160-y bans such fees too. **Competency Rule**: be competent; or disclose the gap to the client before accepting, become competent and describe how in the report; or decline. Holding the right credential doesn't by itself prove competence for an unfamiliar property type.",
-        "**Appraiser independence** (Truth in Lending Act §129E; Regulation Z §1026.42): on a loan secured by a consumer's principal dwelling, no lender, broker, agent or other interested person may pressure the appraiser toward a value, even unsuccessfully. Asking through the lender to consider more comps, explain the conclusion or correct errors is allowed.",
+        "The Department of State licenses and certifies New York appraisers under **Executive Law Article 6-E**, with the **State Board of Real Estate Appraisal**.",
+        "A broker or salesperson license under Real Property Law Article 12-A is not an appraiser credential.",
+        "Only credential holders may use the titles 'state certified real estate appraiser', 'state licensed real estate appraiser' or 'state licensed real estate appraiser assistant', or call an appraisal 'certified' or 'licensed' (Exec. Law §160-b).",
+        "Article 6-E is a title law. It doesn't bar uncredentialed appraising (§160-b(2)), but federally related loans need a credentialed appraiser, and a licensee's CMA may never be called an appraisal.",
+        "Reports must show the credential title and number (§160-r).",
+        "**FIRREA** requires credentialed appraisers for federally related loans above set thresholds (Title XI of the Financial Institutions Reform, Recovery, and Enforcement Act, 1989).",
+        "FIRREA makes **USPAP** the standard. USPAP is written by the Appraisal Standards Board of The Appraisal Foundation.",
+        "The federal bank appraisal threshold for home loans is **$400,000** since 2019; older books say $250,000. Fannie Mae, Freddie Mac, FHA and VA keep their own appraisal rules.",
+        "USPAP **Ethics Rule**: be impartial and never discriminate. Never take a fee contingent on a predetermined result, the value reported or the loan closing.",
+        "Disclosure doesn't cure a contingent fee, and New York bans such fees too (Exec. Law §160-y).",
+        "USPAP **Competency Rule**: be competent. If not, disclose the gap to the client before accepting, become competent and describe how in the report; or decline.",
+        "Holding the right credential doesn't by itself prove competence for an unfamiliar property type.",
+        "**Appraiser independence**: on a loan secured by a consumer's principal dwelling, no lender, broker, agent or other interested person may pressure the appraiser toward a value, even unsuccessfully (Truth in Lending Act §129E; Regulation Z §1026.42).",
+        "Allowed: asking through the lender to consider more comps, explain the conclusion or correct errors.",
         "**Regulation B**: on a first-lien dwelling loan the applicant gets a free copy of each appraisal promptly on completion or 3 business days before closing, whichever is earlier, unless the applicant waives the timing. The lender orders the appraisal; the buyer usually pays for it.",
         "After a **low appraisal**, the buyer adds cash, the price is renegotiated, the lender is asked to reconsider with better comps, or the buyer uses an appraisal or mortgage contingency if the contract has one.",
-        "Since January 1, 2026, New York appraisers must take a Valuation Bias and Fair Housing Laws and Regulations course (8 hours in qualifying education; at least 7 hours for the first renewal and 4 for later ones). DOS doesn't count a licensee's CMAs as appraisal experience."
+        "Since January 1, 2026, New York appraisers must take a Valuation Bias and Fair Housing Laws and Regulations course.",
+        "That course is 8 hours in qualifying education, at least 7 hours for the first renewal and 4 for later renewals.",
+        "DOS doesn't count a licensee's CMAs as appraisal experience."
       ],
       "table": {
         "head": ["NY credential", "May appraise", "Key requirements"],
@@ -221,8 +244,11 @@
     {
       "heading": "CMA vs. appraisal vs. BPO",
       "points": [
-        "A **comparative market analysis (CMA)** compares the subject with recent sales, active listings and expired listings to recommend a price range. Per the DOS syllabus, by law a CMA may never be referred to as an appraisal.",
-        "A **broker price opinion (BPO)** is a broker's estimate of probable selling price, usually for lenders or investors handling foreclosed property (REO, real estate owned), short sales or portfolio reviews, often from an exterior-only look. Federal law (12 U.S.C. §3355) bars using a BPO as the primary basis of value for a mortgage to buy a consumer's principal dwelling.",
+        "A **comparative market analysis (CMA)** compares the subject with recent sales, active listings and expired listings to recommend a price range.",
+        "By law a CMA may never be referred to as an appraisal (DOS syllabus).",
+        "A **broker price opinion (BPO)** is a broker's estimate of probable selling price, often from an exterior-only look.",
+        "Lenders or investors use BPOs for foreclosed property (REO, real estate owned), short sales or portfolio reviews.",
+        "Federal law bars using a BPO as the primary basis of value for a mortgage to buy a consumer's principal dwelling (12 U.S.C. §3355).",
         "A client who wants an 'appraisal' for a divorce or estate should get a CMA clearly labeled as not an appraisal, plus a referral to a state licensed or certified appraiser."
       ],
       "table": {
@@ -243,8 +269,10 @@
         "**Data**: sale date, verified price, days on market, financing and concessions, plus size, rooms, baths, garage, age, condition and location, from the multiple listing service (MLS) and public records.",
         "**Comparable sales**: the DOS outline uses sales from the last 12 months. Newer and more similar is better, and older sales need a market-conditions adjustment.",
         "**Active listings** are the competition (asking, not selling, prices); **expired** listings show prices the market rejected, an upper limit.",
-        "Also weigh **buyer appeal**, **market position**, **assets** and **drawbacks**, **area market conditions**, **recommended terms** and the resulting **market value range**. The agent recommends; the seller sets the list price.",
-        "The **salesperson's role**: **competence**, **diligence** (follow up and track competition), **documentation** (showings and feedback) and **effective communication** with the seller. Never inflate a CMA to win a listing."
+        "Also weigh buyer appeal, market position, assets and drawbacks, area market conditions, recommended terms and the resulting **market value range**.",
+        "The salesperson recommends; the seller sets the list price.",
+        "The **salesperson's role**: competence, diligence (follow up and track competition), documentation (showings and feedback) and effective communication with the seller.",
+        "Never inflate a CMA to win a listing."
       ],
       "example": {
         "title": "Worked example: from CMA data to a price range",
@@ -262,7 +290,8 @@
         "Use at least 3 recent, nearby, similar, closed **arm's-length** sales; a family or forced sale doesn't qualify. **Bracket** the subject with comps both larger and smaller.",
         "Adjust the **comparable**, never the subject: a superior comp gets a subtraction; an inferior comp gets an addition.",
         "Order: transaction adjustments first (property rights, financing terms and seller concessions, conditions of sale, then market conditions over time), then location and physical features.",
-        "**Paired sales** isolate a feature: identical homes at $415,000 with a finished basement and $396,000 without imply $19,000 for it. Adjust size at the market's rate per added square foot, not the comp's overall price per square foot.",
+        "**Paired sales** isolate a feature: identical homes at $415,000 with a finished basement and $396,000 without imply $19,000 for it.",
+        "Adjust size at the market's rate per added square foot, not the comp's overall price per square foot.",
         "**Net** adjustment nets the pluses and minuses; **gross** adjustment totals them ignoring sign. The comp with the smallest gross adjustment is usually the most reliable."
       ],
       "table": {
@@ -293,7 +322,10 @@
       "points": [
         "**Value = land + cost new of improvements − accrued depreciation.** Land is valued separately, usually by sales comparison, and is never depreciated.",
         "**Reproduction cost** is an exact replica with the same materials (a 1920s bank's marble columns). **Replacement cost** is equal utility with modern materials; it is usually lower and preferred for older buildings.",
-        "Estimating methods: **square-foot** (area × cost per sq ft, the most common; price garages at their own rate and split irregular shapes into rectangles); **unit-in-place** (installed cost per component, such as foundation per linear foot and roofing per 100-sq-ft square); **quantity survey** (every material and labor hour, the most detailed); and **index** (original cost × current index ÷ original index).",
+        "The most common way to estimate cost new is the **square-foot** method: area × cost per sq ft. Price garages at their own rate and split irregular shapes into rectangles.",
+        "**Unit-in-place** method: installed cost per component, such as foundation per linear foot and roofing per 100-sq-ft square.",
+        "**Quantity survey** method: every material and labor hour, the most detailed.",
+        "**Index** method: original cost × current index ÷ original index.",
         "Best for new construction and **special-purpose** property that rarely sells and earns no rent (churches, schools, firehouses). It can't value a vacant lot by itself and is weak for old buildings."
       ],
       "example": {
@@ -315,8 +347,9 @@
         "**Functional obsolescence**: design or features inside the property that the market dislikes (a poor layout, too few baths, a walk-through bedroom, a dated kitchen), including a **superadequacy** or overimprovement.",
         "**External (economic) obsolescence**: causes outside the property lines, such as a landfill, a highway, a plant closing or nearby rezoning. It can hit a brand-new house and is almost always **incurable**.",
         "**Curable** means the cure costs no more than the value it adds: a $6,000 fix adding $9,000 is curable; an $85,000 fix adding $30,000 is not.",
-        "**Effective age** reflects condition; **chronological age** is calendar age. Remaining economic life = total life − effective age; the annual straight-line rate = 100% ÷ total life (40 years = 2.5%); cost new = depreciated value ÷ (1 − depreciation %).",
-        "Tax depreciation (commonly 27½ years for residential rental buildings, 39 for nonresidential) is a deduction, not a measure of market value."
+        "**Effective age** reflects condition; **chronological age** is calendar age.",
+        "Remaining economic life = total life − effective age. The annual straight-line rate = 100% ÷ total life (40 years = 2.5%). Cost new = depreciated value ÷ (1 − depreciation %).",
+        "Tax depreciation is a deduction, not a measure of market value. It commonly runs 27½ years for residential rental buildings and 39 for nonresidential."
       ],
       "table": {
         "head": ["Type", "Cause", "Examples", "Curable?"],
@@ -340,9 +373,12 @@
       "heading": "Income approach: NOI and capitalization",
       "intro": "Investors buy income, so this approach converts net operating income into value. It rests on anticipation.",
       "points": [
-        "**Potential gross income (PGI)** is all rent at full occupancy for a year (12 units × $1,450 × 12 = $208,800). Subtract **vacancy and collection loss** and add **other income** (laundry, parking) to get **effective gross income (EGI)**.",
-        "EGI − **operating expenses** = **net operating income (NOI)**. Expenses are **fixed** (taxes, insurance), **variable** (utilities, repairs) or **reserves for replacement** (roofs, boilers, appliances). Include a market management fee even if the owner self-manages.",
-        "Exclude **debt service**, tax depreciation, income taxes and capital improvements. NOI − debt service = **before-tax cash flow**, the owner's return after financing; the income approach capitalizes NOI, not cash flow.",
+        "**Potential gross income (PGI)** is all rent at full occupancy for a year (12 units × $1,450 × 12 = $208,800).",
+        "Subtract vacancy and collection loss and add other income (laundry, parking) to get **effective gross income (EGI)**.",
+        "EGI − operating expenses = **net operating income (NOI)**.",
+        "Operating expenses are fixed (taxes, insurance), variable (utilities, repairs) or **reserves for replacement** (roofs, boilers, appliances). Include a market management fee even if the owner self-manages.",
+        "Exclude **debt service**, tax depreciation, income taxes and capital improvements.",
+        "NOI − debt service = **before-tax cash flow**, the owner's return after financing. The income approach capitalizes NOI, not cash flow.",
         "**IRV**: value = NOI ÷ cap rate; a comparable sale's rate = NOI ÷ price ($168,000 ÷ $2,400,000 = 7%); NOI = value × rate.",
         "Riskier income gets a higher cap rate and a lower value. Watch decimals: 8.5% is 0.085."
       ],

@@ -53,11 +53,21 @@ main {
 }
 .bottombar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 5; padding: 0 12px calc(var(--sb) + 10px); pointer-events: none; }
 .bottombar > * { max-width: 616px; margin: 0 auto; pointer-events: auto; }
+/* A flow bar (e.g. Start quiz) can sit above the tab bar so tab screens never lose navigation. */
+.bottombar > * + * { margin-top: 8px; }
+body:has(.bottombar > .actionbar + .tabs) main { padding-bottom: calc(var(--sb) + var(--tabbar) + 120px); }
+body:has(.bottombar > .actionbar + .tabs) #toast { bottom: calc(var(--sb) + var(--tabbar) + 104px); }
 
 .hdr { display: flex; align-items: center; gap: 12px; min-height: 44px; }
 .hdr-t { flex: 1; min-width: 0; }
 .hdr-t p { margin: 2px 0 0; font-size: 15px; color: var(--ink-2); }
 .hdr-logo { border-radius: 9px; flex: none; }
+/* Back link above the large title on screens below a tab root. */
+.hdr-back {
+  display: inline-flex; align-items: center; gap: 2px; min-height: 36px; margin: -6px 0 2px -6px; padding: 0 8px 0 0;
+  color: #a5b4fc; font-size: 16px; font-weight: 600; text-decoration: none;
+}
+.hdr-back .ic { width: 22px; height: 22px; transform: scaleX(-1); }
 
 .tabs {
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; height: var(--tabbar); padding: 6px;

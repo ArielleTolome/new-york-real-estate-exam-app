@@ -1,54 +1,58 @@
 {
   "topic": "estates-liens",
   "title": "Estates & Encumbrances",
-  "overview": "This chapter covers what can be owned in New York real estate and what can burden that ownership: property rights and fixtures, air and water rights, freehold and leasehold estates, life estates, co-ownership and entity ownership, then liens and their priority, mechanic's liens, judgments, lis pendens, easements, licenses, encroachments and deed restrictions. The DOS syllabus gives these topics 5½ of the 77 course hours (3 for estates and interests, 2½ for liens and easements); DOS does not publish exam weights. Expect classification questions (freehold or leasehold, general or specific lien, easement or license) and New York numbers: 4 and 8 months, 1 year, 3 years and 10 years.",
+  "overview": "This chapter covers what can be owned in New York real estate and what can burden it: property rights, fixtures, estates, co-ownership, liens, easements, licenses, encroachments and deed restrictions. Expect classification questions (freehold or leasehold, general or specific lien, easement or license) and New York numbers: 4 and 8 months, 1 year, 3 years and 10 years.",
   "cram": {
     "numbers": [
       { "value": "4 months", "label": "Mechanic's lien filing deadline: single-family dwelling, after the last work or materials" },
       { "value": "8 months", "label": "Mechanic's lien filing deadline: all other property, including a two-family house" },
-      { "value": "5 days before to 30 days after", "label": "Window to serve the owner with a copy of the notice of lien" },
+      { "value": "5 before, 30 after", "label": "Days before and after filing to serve the owner with the notice of lien" },
       { "value": "35 days", "label": "Deadline after filing to file proof of service, or the lien terminates" },
-      { "value": "1 year", "label": "Life of a filed mechanic's lien unless foreclosure (with a lis pendens) starts or it is extended" },
+      { "value": "1 year", "label": "Life of a filed mechanic's lien unless foreclosed (with a lis pendens) or extended" },
       { "value": "110%", "label": "Bond that discharges a mechanic's lien from the property" },
       { "value": "10 years", "label": "Docketed judgment's lien on the debtor's real property in that county" },
-      { "value": "3 years", "label": "Lis pendens (notice of pendency) effective period; a court may extend it for good cause" },
+      { "value": "3 years", "label": "Lis pendens (notice of pendency) life; a court may extend it for good cause" },
       { "value": "10 years", "label": "New York period for adverse possession (title) or a prescriptive easement (use)" },
       { "value": "4 + 1", "label": "Unities: PITT for a joint tenancy, plus marriage for a tenancy by the entirety" },
       { "value": "30 days", "label": "Written notice to end a tenancy at will or at sufferance (RPL §228)" },
-      { "value": "30 / 60 / 90 days", "label": "Residential notice of non-renewal or a 5%+ increase, for occupancy or lease under 1 year, 1–2 years, 2+ years (RPL §226-c)" },
+      { "value": "30/60/90 days", "label": "Residential notice: non-renewal or 5%+ increase; tenancy under 1, 1–2, 2+ years (RPL §226-c)" },
       { "value": "1930", "label": "New York abolished dower and curtesy (RPL §§189–190)" },
       { "value": "Greater of 1/3 or $50,000", "label": "Surviving spouse's elective share of the net estate (EPTL §5-1.1-A)" },
-      { "value": "More than 3 years", "label": "Non-residential lease a broker must procure, under a written agreement, to file a mechanic's lien for a commission" },
-      { "value": "6 inches", "label": "Encroaching wall: sue to recover the strip within 1 year of completion or for damages within 1 more year; after that, the wall's owner has an easement while the wall stands (RPAPL §611)" }
+      { "value": "More than 3 years", "label": "Non-residential lease a broker must procure (written agreement) to file a commission mechanic's lien" },
+      { "value": "6 inches or less", "label": "Wall encroachment that becomes an easement unless the neighbor sues in time (RPAPL §611)" }
     ],
     "mustKnow": [
-      "**Real property** = land + permanent improvements + the **bundle of rights**; movable, unattached items are **personal property**.",
+      "**Real property** = land + permanent improvements + the **bundle of rights**; movable, unattached items are personal property.",
       "A **fixture** passes with the deed; test it with **MARIA**, where a specific written agreement outweighs every other factor.",
       "**Trade fixtures** stay the commercial tenant's property if removed by the end of the lease; items left behind go to the landlord by **accession**.",
       "Trees and perennials are real property; annual crops (**emblements**) are personal property a tenant may return to harvest if its tenancy ends through no fault of its own.",
-      "**Riparian** rights = flowing water; **littoral** rights = lakes and seas. **Air** and **mineral** rights can be sold, leased or reserved separately.",
-      "**Accretion** and **reliction** add land gradually and **erosion** removes it; a sudden **avulsion** generally doesn't move the boundary.",
+      "**Riparian** rights = flowing water; **littoral** rights = lakes and seas. Air and mineral rights can be sold, leased or reserved separately.",
+      "Accretion and reliction add land gradually and erosion removes it; a sudden **avulsion** generally doesn't move the boundary.",
       "**Freehold** = indefinite duration (fee simple, life estate); every **leasehold** is personal property (a chattel real), whatever its length.",
-      "'So long as' creates a **fee simple determinable** (ends automatically; **possibility of reverter**); 'but if' creates a **fee on condition subsequent** (**right of re-entry**; the grantor must act).",
-      "A **life estate** is followed by a **remainder** (a named third party) or a **reversion** (the grantor); **pur autre vie** is measured by someone else's life.",
+      "'So long as' creates a **fee simple determinable** (ends automatically; possibility of reverter); 'but if' creates a **fee on condition subsequent** (right of re-entry; the grantor must act).",
+      "After a life estate, a named third party takes a **remainder**; otherwise the grantor keeps a **reversion**.",
+      "A life estate **pur autre vie** is measured by someone else's life.",
       "A life tenant may lease, mortgage or sell only the life estate, pays taxes and ordinary repairs, and must not commit **waste**.",
-      "**New York abolished dower and curtesy**; a surviving spouse has a **right of election**. The **homestead exemption** only shields some home equity from judgment creditors.",
-      "**Estate for years** = fixed dates (even six months); **periodic** = renews until notice; **at will** = consent, ends at either party's death; **at sufferance** = holdover without consent.",
+      "New York **abolished dower and curtesy**; a surviving spouse has a **right of election**.",
+      "The **homestead exemption** only shields some home equity from judgment creditors.",
+      "**Estate for years** = fixed dates (even six months); **periodic tenancy** = renews until notice.",
+      "**Tenancy at will** = consent, ends at either party's death; **at sufferance** = holdover without consent.",
       "A New York landlord who **accepts rent from a holdover** creates a **month-to-month** tenancy (RPL §232-c), not a new term.",
       "**Severalty** = one owner, even a corporation with many shareholders.",
-      "New York default: co-grantees are **tenants in common** unless **joint tenancy** is expressly declared; **spouses** are **tenants by the entirety** unless the deed says otherwise (EPTL §6-2.2).",
-      "**Joint tenancy** needs **PITT**; **survivorship** beats any will; a conveyance by one joint tenant **severs** that share into a tenancy in common.",
+      "New York default: co-grantees are **tenants in common** unless joint tenancy is expressly declared; spouses are **tenants by the entirety** unless the deed says otherwise (EPTL §6-2.2).",
+      "**Joint tenancy** needs PITT; **survivorship** beats any will; a conveyance by one joint tenant severs that share into a tenancy in common.",
       "Tenancy by the entirety: one spouse can't sell the whole or force **partition**, and **divorce** converts it to a tenancy in common.",
       "Tenants in common may hold **unequal** shares and pass them by will; **partition** ends co-ownership by division or sale.",
-      "The **trustee** holds legal title for the **beneficiary**; an **LLC** shields members who manage; a **joint venture** is one project.",
+      "The **trustee** holds legal title for the beneficiary; an **LLC** shields members who manage; a joint venture is one project.",
       "Every **lien** is an **encumbrance**, but easements, deed restrictions and encroachments are encumbrances that secure no debt.",
-      "Mortgage = **voluntary, specific**; judgment and federal tax lien = **involuntary, general**; property tax, special assessment and mechanic's lien = **involuntary, specific**.",
+      "Mortgage = **voluntary, specific**; judgment and federal tax lien = **involuntary, general**; property tax, special assessment and mechanic's lien = involuntary, specific.",
       "**Property tax and special assessment liens** come first regardless of date; otherwise the first lien recorded, docketed or filed generally wins, unless a **subordination agreement** changes the order.",
-      "**Mechanic's lien**: file within **4 months** (single-family dwelling) or **8 months** (other property); it lasts **1 year** unless foreclosed or extended; priority runs from **filing**.",
+      "File a mechanic's lien within **4 months** (single-family dwelling) or **8 months** (other property).",
+      "A filed mechanic's lien lasts **1 year** unless foreclosed or extended; its priority runs from **filing**.",
       "A **110% bond** moves a mechanic's lien off the land; advance lien waivers and willfully exaggerated liens are void.",
       "A **docketed judgment** liens all of the debtor's real property in that county, including later purchases, for **10 years**.",
       "A **lis pendens** binds later buyers to the outcome of a pending lawsuit over title or possession and lasts **3 years** unless extended.",
-      "**Appurtenant** easement: the **dominant** parcel benefits, the **servient** parcel is burdened, and it runs with both; an easement **in gross** benefits a person or company, such as a utility.",
+      "**Appurtenant** easement: the dominant parcel benefits, the servient parcel is burdened, and it runs with both; an easement **in gross** benefits a person or company, such as a utility.",
       "**Prescription** = 10 years of open, notorious, continuous, hostile use and gives use, not title; nonuse alone doesn't end an easement created by grant.",
       "A **license** is revocable permission, not an interest in land; it ends at revocation, death or sale, and permissive use never ripens into a prescriptive easement.",
       "**Encroachments** show up on a **survey**, not a title search; New York deems de minimis fences, hedges and sheds over the line permissive (RPAPL §543).",
@@ -58,7 +62,7 @@
       { "trap": "The lien recorded first always gets paid first.", "truth": "Property tax and special assessment liens go first regardless of date, even ahead of an older mortgage, and a subordination agreement can reorder the rest." },
       { "trap": "An owner-occupied two-family house gets the 4-month mechanic's lien deadline.", "truth": "Only a single-family dwelling gets 4 months; all other property gets 8, owner-occupied or not." },
       { "trap": "A mechanic's lien relates back to the day work began.", "truth": "New York ranks it from the filing of the notice of lien (Lien Law §13), so a mortgage recorded before that filing generally stays ahead." },
-      { "trap": "A filed mechanic's lien lasts 4 or 8 months (or 10 years).", "truth": "4 and 8 months are filing deadlines; a filed lien lasts 1 year unless enforced or extended, and 10 years is the judgment-lien period." },
+      { "trap": "A filed mechanic's lien lasts 4 or 8 months (or 10 years).", "truth": "A filed lien lasts 1 year unless enforced or extended. 4 and 8 months are filing deadlines, and 10 years is the judgment-lien period." },
       { "trap": "Two names on a deed means a joint tenancy with survivorship.", "truth": "New York presumes a tenancy in common unless joint tenancy is expressly declared; the main exception is spouses, who take as tenants by the entirety." },
       { "trap": "A joint tenant can leave her share by will.", "truth": "Survivorship takes effect at death, so the share never enters her estate. She would have to sever, and record the severance, while alive." },
       { "trap": "Severalty means ownership by several people.", "truth": "Severalty is sole ownership; a corporation with 500 shareholders owns in severalty." },
@@ -92,11 +96,19 @@
       "heading": "Land, real estate and real property",
       "intro": "Start every question by identifying what is being owned and which rights in the bundle are involved.",
       "points": [
-        "**Land** is the earth's surface plus its natural attachments (soil, trees, minerals), extending below ground and into the airspace. **Real estate** adds permanent improvements such as buildings, and **real property** adds the legal rights of ownership.",
-        "**Personal property** (chattels) is movable and transfers by **bill of sale**, not deed. **Severance** turns realty into personalty (a cut tree becomes logs); **annexation** does the reverse (lumber built into a wall).",
-        "The **bundle of rights** is possession, control, enjoyment, exclusion and disposition. A lease transfers possession for the term while the owner keeps title and can still sell; **escheat** is a government power (**PETE**), not an owner's right.",
-        "**Appurtenances** pass automatically with the land, such as an appurtenant easement or unsevered air, water and mineral rights. **Possessory** interests (estates) include occupancy; **non-possessory** interests (easements, profits, liens) don't, and a license is mere permission, not an interest in land.",
-        "Real property is **immobile**, **indestructible** and **unique**, and its value is shaped by **scarcity**, **improvements**, **permanence of investment** and **location**; it is also **illiquid**. Uses are residential, commercial, industrial, agricultural and **special purpose** property (churches, schools, cemeteries), which is costly to convert and rarely sells; a **parcel** is an identifiable piece of land."
+        "**Land** is the earth's surface plus its natural attachments (soil, trees, minerals), extending below ground and into the airspace.",
+        "**Real estate** adds permanent improvements such as buildings, and **real property** adds the legal rights of ownership.",
+        "**Personal property** (chattels) is movable and transfers by bill of sale, not deed.",
+        "**Severance** turns realty into personalty (a cut tree becomes logs); **annexation** does the reverse (lumber built into a wall).",
+        "The **bundle of rights** is possession, control, enjoyment, exclusion and disposition.",
+        "A lease transfers possession for the term, while the owner keeps title and can still sell.",
+        "**Escheat** is a government power (PETE), not an owner's right.",
+        "**Appurtenances** pass automatically with the land, such as an appurtenant easement or unsevered air, water and mineral rights.",
+        "**Possessory** interests (estates) include occupancy; **non-possessory** interests (easements, profits, liens) don't.",
+        "A license is mere permission, not an interest in land.",
+        "Real property is immobile, indestructible and unique. Its value is shaped by scarcity, improvements, permanence of investment and location, and it is illiquid.",
+        "Uses are residential, commercial, industrial, agricultural and **special purpose** (churches, schools, cemeteries). Special purpose property is costly to convert and rarely sells.",
+        "A **parcel** is an identifiable piece of land."
       ],
       "table": {
         "head": ["Term", "What it includes", "Exam angle"],
@@ -112,11 +124,18 @@
       "heading": "Fixtures, trade fixtures and crops",
       "intro": "A **fixture** is former personal property that has become part of the real estate, so it conveys with the deed unless the contract excludes it.",
       "points": [
-        "Courts weigh the **MARIA** factors, but a specific written agreement carries the most weight: a signed exclusion lets a seller remove even a wired-in chandelier, leaving the wiring safely capped.",
-        "When the contract is silent, attached or custom-fitted items generally convey: built-in bookcases, chandeliers, a furnace, and custom storm windows even if stored in the basement at closing. Freestanding items such as a plug-in refrigerator usually don't, so list them as inclusions.",
-        "**Relationship of the parties**: an owner's improvements are presumed permanent, while a tenant is presumed to intend removal, so an identical air conditioner can be a fixture for an owner and personal property for a tenant.",
-        "**Trade fixtures** (a commercial tenant's ovens, display cases, shelving) stay the tenant's personal property even when bolted down and may be removed before the lease ends, with damage repaired. Items left behind become the landlord's by **accession**.",
-        "Trees and perennials (**fructus naturales**) are real property; annual crops such as wheat or corn (**fructus industriales**, or **emblements**) are personal property. A tenant whose estate ends through no fault of its own before harvest may come back for the crop it planted; if a life tenant dies in July, her estate, not the remainderman, takes that harvest."
+        "Courts weigh the **MARIA** factors, but a **specific written agreement** carries the most weight.",
+        "A signed exclusion lets a seller remove even a wired-in chandelier, leaving the wiring safely capped.",
+        "When the contract is silent, attached or custom-fitted items generally convey: built-in bookcases, chandeliers, a furnace, and custom storm windows even if stored in the basement at closing.",
+        "Freestanding items such as a plug-in refrigerator usually don't convey, so list them as inclusions.",
+        "**Relationship of the parties**: an owner's improvements are presumed permanent, while a tenant is presumed to intend removal.",
+        "So an identical air conditioner can be a fixture for an owner and personal property for a tenant.",
+        "**Trade fixtures** (a commercial tenant's ovens, display cases, shelving) stay the tenant's personal property even when bolted down.",
+        "The tenant may remove trade fixtures before the lease ends, repairing any damage. Items left behind become the landlord's by **accession**.",
+        "Trees and perennials (**fructus naturales**) are real property.",
+        "Annual crops such as wheat or corn (fructus industriales, or **emblements**) are personal property.",
+        "A tenant whose estate ends through no fault of its own before harvest may come back for the crop it planted.",
+        "If a life tenant dies in July, her estate, not the remainderman, takes that harvest."
       ],
       "table": {
         "head": ["MARIA factor", "Question it asks", "Example"],
@@ -133,10 +152,16 @@
       "heading": "Air, subsurface and water rights",
       "intro": "Ownership can be split vertically into air, surface and subsurface rights, and land that touches water carries rights of its own.",
       "points": [
-        "**Air rights** can be sold or leased separately, as when a railroad sells the right to build an office tower over tracks it keeps using; in New York City, unused development rights are often transferred to neighboring lots. **Subsurface (mineral) rights** can be reserved by a seller who conveys only the surface.",
-        "**Riparian rights** attach to land along **flowing** water such as rivers and streams; **littoral rights** attach to land along **stationary** water such as lakes and seas (a house on Lake George). New York follows the riparian reasonable-use approach, not the western prior-appropriation system.",
-        "Generally the state owns the beds of navigable waters, while an owner along a non-navigable stream usually owns to its center. Groundwater (**percolating water**) may be used reasonably, but runoff may not be piped or ditched onto a neighbor's land.",
-        "Gradual changes (accretion, reliction, erosion) move the legal boundary with the water; a sudden **avulsion** generally does not, so the owner who lost land can still claim it."
+        "**Air rights** can be sold or leased separately, as when a railroad sells the right to build an office tower over tracks it keeps using.",
+        "In New York City, unused development rights are often transferred to neighboring lots.",
+        "A seller can reserve the **subsurface (mineral) rights** and convey only the surface.",
+        "**Riparian rights** attach to land along flowing water, such as rivers and streams.",
+        "**Littoral rights** attach to land along stationary water, such as lakes and seas (a house on Lake George).",
+        "New York follows the riparian reasonable-use approach, not the western prior-appropriation system.",
+        "Generally the state owns the beds of navigable waters, while an owner along a non-navigable stream usually owns to its center.",
+        "Groundwater (**percolating water**) may be used reasonably, but runoff may not be piped or ditched onto a neighbor's land.",
+        "Gradual changes (accretion, reliction, erosion) move the legal boundary with the water.",
+        "A sudden **avulsion** generally does not, so the owner who lost land can still claim it."
       ],
       "table": {
         "head": ["Term", "What happens", "Effect on the owner"],
@@ -153,13 +178,21 @@
       "heading": "Freehold and leasehold estates",
       "intro": "An **estate** is a possessory interest classified by how long it lasts: freehold (ownership of indefinite length) or leasehold (a tenancy).",
       "points": [
-        "**Freehold** estates (fee simple and life estates) last an indefinite time; duration, not inheritability, is the test. **Leaseholds** give possession without title, and a lease of any length is a **chattel real** (personal property).",
-        "**Fee simple absolute** is the largest estate, freely transferable and inheritable, but still subject to zoning, taxes and recorded restrictions; the seller keeps no right of re-entry.",
-        "A **fee simple determinable** (also called a **qualified fee**) uses words of duration ('so long as,' 'while,' 'until') and ends **automatically** on breach through the **possibility of reverter**. A **fee on condition subsequent** uses 'but if' or 'provided that'; a breach gives a **right of re-entry**, and the grantee keeps title until the grantor acts. Both are **defeasible** fees.",
-        "'Forever' signals a fee simple absolute; 'for the life of' or 'for as long as [a person] lives' signals a life estate, because an estate that must end at a death is not a fee.",
-        "An **estate for years** has definite start and end dates, even if shorter than a year. In New York, a residential landlord who won't renew, or will raise the rent 5% or more, must still give 30, 60 or 90 days' written notice based on occupancy or lease length (RPL §226-c).",
-        "A **tenancy at will** (consent, no fixed term or period) ends at either party's death, while estates for years and periodic tenancies survive death. A New York landlord can end a tenancy at will or at sufferance with 30 days' written notice (RPL §228).",
-        "A **tenant at sufferance** entered lawfully and stayed without consent, unlike a trespasser. If the landlord accepts rent after expiration, the tenancy becomes **month-to-month** (RPL §232-c). Removing a residential holdover takes a court proceeding; self-help eviction is illegal (RPAPL §768)."
+        "**Freehold** estates (fee simple and life estates) last an indefinite time. Duration, not inheritability, is the test.",
+        "**Leaseholds** give possession without title, and a lease of any length is a **chattel real** (personal property).",
+        "**Fee simple absolute** is the largest estate, freely transferable and inheritable, but still subject to zoning, taxes and recorded restrictions. The seller keeps no right of re-entry.",
+        "A **fee simple determinable** (also called a qualified fee) uses words of duration: 'so long as,' 'while,' 'until.'",
+        "A fee simple determinable ends **automatically** on breach through the possibility of reverter.",
+        "A **fee on condition subsequent** uses 'but if' or 'provided that.' A breach gives the grantor a **right of re-entry**, and the grantee keeps title until the grantor acts.",
+        "Both are **defeasible** fees.",
+        "'Forever' signals a fee simple absolute. 'For the life of' or 'for as long as [a person] lives' signals a life estate, because an estate that must end at a death is not a fee.",
+        "An **estate for years** has definite start and end dates, even if shorter than a year.",
+        "A New York residential landlord who won't renew, or will raise the rent 5% or more, must still give **30, 60 or 90 days'** written notice based on occupancy or lease length (RPL §226-c).",
+        "A **tenancy at will** (consent, no fixed term or period) ends at either party's death. Estates for years and periodic tenancies survive death.",
+        "A New York landlord can end a tenancy at will or at sufferance with **30 days'** written notice (RPL §228).",
+        "A **tenant at sufferance** entered lawfully and stayed without consent, unlike a trespasser.",
+        "If the landlord accepts rent after expiration, the tenancy becomes **month-to-month** (RPL §232-c).",
+        "Removing a residential holdover takes a court proceeding; **self-help eviction is illegal** (RPAPL §768)."
       ],
       "table": {
         "head": ["Estate", "Type", "Key words or duration", "How it ends or what follows"],
@@ -179,12 +212,18 @@
       "heading": "Life estates, remainders and reversions",
       "intro": "A **life estate** lasts for a measuring life and is usually created by deed or will.",
       "points": [
-        "An **ordinary life estate** is measured by the life tenant's own life; an estate **pur autre vie** by someone else's ('to Dana for the life of Eli'), so if Dana dies first, her heirs or devisees hold it until Eli dies.",
-        "A named third party who takes next holds a **remainder** (the **remainderman**); if no one is named, the grantor keeps a **reversion**. The remainderman's future interest can be sold or mortgaged now but brings no possession until the life estate ends.",
-        "The life tenant may occupy, collect rents, and lease, mortgage or sell the life estate, but every transfer ends with the measuring life: if Grace sells to Hal, Hal's estate ends when Grace dies. She can't convey the fee or leave an ordinary life estate by will.",
-        "The life tenant pays property taxes and ordinary repairs and must not commit **waste**, either **voluntary** (demolishing a sound barn, clear-cutting timber) or **permissive** (neglect, such as letting the roof leak until the framing rots).",
-        "**In New York, dower and curtesy were abolished in 1930**; a surviving spouse instead has a **right of election** against the will, the greater of $50,000 or one-third of the net estate (EPTL §5-1.1-A).",
-        "The **homestead exemption** (CPLR §5206) shields a limited, county-based amount of principal-residence equity from judgment creditors. It is not a life estate or the STAR program, and it doesn't stop foreclosure of a mortgage the owner signed."
+        "An **ordinary life estate** is measured by the life tenant's own life.",
+        "An estate **pur autre vie** is measured by someone else's life ('to Dana for the life of Eli'). If Dana dies first, her heirs or devisees hold it until Eli dies.",
+        "A named third party who takes next holds a **remainder** and is called the remainderman. If no one is named, the grantor keeps a **reversion**.",
+        "The remainderman's future interest can be sold or mortgaged now but brings no possession until the life estate ends.",
+        "The life tenant may occupy, collect rents, and lease, mortgage or sell the life estate.",
+        "Every transfer **ends with the measuring life**: if Grace sells to Hal, Hal's estate ends when Grace dies.",
+        "A life tenant can't convey the fee or leave an ordinary life estate by will.",
+        "The life tenant pays property taxes and ordinary repairs and must not commit **waste**.",
+        "Waste can be **voluntary** (demolishing a sound barn, clear-cutting timber) or **permissive** (neglect, such as letting the roof leak until the framing rots).",
+        "New York **abolished dower and curtesy in 1930**. A surviving spouse instead has a **right of election** against the will: the greater of $50,000 or one-third of the net estate (EPTL §5-1.1-A).",
+        "The **homestead exemption** shields a limited, county-based amount of principal-residence equity from judgment creditors (CPLR §5206).",
+        "The homestead exemption is not a life estate or the STAR program, and it doesn't stop foreclosure of a mortgage the owner signed."
       ],
       "table": {
         "head": ["Deed language", "Present estate", "Future interest"],
@@ -200,11 +239,20 @@
       "heading": "Severalty and co-ownership",
       "intro": "**Severalty** is ownership by one person or entity. Co-owners each hold an **undivided interest**: a share of the whole, not a particular room or acre.",
       "points": [
-        "**Tenancy in common**: shares may be unequal, each owner may possess the whole and may sell, mortgage or will its share, and there is no survivorship.",
-        "**Joint tenancy** requires **PITT** (equal interests, same deed, same time, equal possession) and carries **survivorship**: a deceased joint tenant's share passes to the survivors outside the will. A conveyance by one joint tenant severs that share into a tenancy in common. A New York joint tenant can also sever alone by a written declaration, but a one-sided severance (a deed to an outsider or a declaration) cuts off the other joint tenants' survivorship only if recorded before the severing tenant dies (RPL §240-c).",
-        "**Tenancy by the entirety** is for legally married spouses only (PITT plus marriage), regardless of who paid or whether it is their home. One spouse can't convey the whole, defeat survivorship or force partition, a creditor of one spouse takes subject to the other's survivorship, and **divorce** makes it a tenancy in common.",
-        "**New York defaults** (EPTL §6-2.2): co-grantees take as tenants in common unless joint tenancy is expressly declared; spouses take by the entirety (co-op shares too, since 1996); unmarried grantees described as spouses, and co-executors or co-trustees, take as joint tenants; heirs without a will take as tenants in common.",
-        "**Partition** (RPAPL Article 9) lets a tenant in common or joint tenant have a court divide the land or order a sale and split the proceeds. New York is not a **community property** state (one where most property acquired during marriage belongs equally to both spouses)."
+        "**Tenancy in common**: shares may be unequal, and each owner may possess the whole and may sell, mortgage or will its share. There is no survivorship.",
+        "**Joint tenancy** requires PITT: equal interests, same deed, same time, equal possession.",
+        "Joint tenancy carries **survivorship**: a deceased joint tenant's share passes to the survivors outside the will.",
+        "A conveyance by one joint tenant severs that share into a tenancy in common.",
+        "A New York joint tenant can also sever alone by a written declaration.",
+        "A one-sided severance, such as a deed to an outsider or a declaration, cuts off the other joint tenants' survivorship only if **recorded before the severing tenant dies** (RPL §240-c).",
+        "**Tenancy by the entirety** is for legally married spouses only (PITT plus marriage), regardless of who paid or whether it is their home.",
+        "In a tenancy by the entirety, one spouse can't convey the whole, defeat survivorship or force partition.",
+        "A creditor of one spouse takes subject to the other spouse's survivorship, and **divorce** makes it a tenancy in common.",
+        "New York default: co-grantees take as **tenants in common** unless joint tenancy is expressly declared (EPTL §6-2.2).",
+        "Spouses take **by the entirety**, including co-op shares since 1996.",
+        "Unmarried grantees described as spouses, and co-executors or co-trustees, take as joint tenants. Heirs without a will take as tenants in common.",
+        "**Partition** lets a tenant in common or joint tenant have a court divide the land or order a sale and split the proceeds (RPAPL Article 9).",
+        "New York is not a **community property** state. In those states, most property acquired during marriage belongs equally to both spouses."
       ],
       "table": {
         "head": ["Feature", "Tenancy in common", "Joint tenancy", "Tenancy by the entirety"],
@@ -223,8 +271,9 @@
         "title": "Worked example: severance, then survivorship",
         "steps": [
           "Step 1: Eva, Finn and Gia are joint tenants, 1/3 each.",
-          "Step 2: Eva sells to Hugo and the deed is recorded, severing her 1/3 (RPL §240-c): Hugo is a tenant in common, while Finn and Gia remain joint tenants as to the other 2/3.",
-          "Step 3: Finn dies, and survivorship gives his 1/3 to Gia: 1/3 + 1/3 = 2/3.",
+          "Step 2: Eva sells to Hugo and the deed is recorded, severing her 1/3 (RPL §240-c).",
+          "Step 3: Hugo is a tenant in common; Finn and Gia remain joint tenants as to the other 2/3.",
+          "Step 4: Finn dies, and survivorship gives his 1/3 to Gia: 1/3 + 1/3 = 2/3.",
           "Answer: Gia owns 2/3 and Hugo 1/3, as tenants in common; Finn's heirs take nothing."
         ]
       }
@@ -233,10 +282,16 @@
       "heading": "Trusts, entities, condos and co-ops",
       "intro": "The form of ownership decides who holds title and who is personally liable.",
       "points": [
-        "In a **trust**, the **trustor** (settlor) creates it, the **trustee** holds legal title and manages, and the **beneficiary** receives the benefits; an executor handles a decedent's estate, not a trust.",
-        "A **corporation** owns in **severalty**, and its shareholders own stock, not real estate. General partners share management and unlimited liability, while limited partners are passive and risk only their investment; New York's Partnership Law lets property be titled in the partnership's name, and co-investors who take title in their own names hold as tenants in common by default.",
-        "An **LLC** lets members manage while generally shielding their personal assets. A **syndicate** pools many investors (its interests are generally securities), a **joint venture** handles one project and then disbands, and a **REIT** is an ongoing company owning many properties.",
-        "A **condo** owner holds a deed to the unit plus an undivided share of the common elements, which can include the land; a **co-op** buyer gets shares (personal property) and a **proprietary lease**."
+        "In a **trust**, the trustor (settlor) creates it, the **trustee** holds legal title and manages, and the beneficiary receives the benefits.",
+        "An executor handles a decedent's estate, not a trust.",
+        "A **corporation** owns in **severalty**; its shareholders own stock, not real estate.",
+        "General partners share management and unlimited liability. Limited partners are passive and risk only their investment.",
+        "New York's Partnership Law lets property be titled in the partnership's name. Co-investors who take title in their own names hold as tenants in common by default.",
+        "An **LLC** lets members manage while generally shielding their personal assets.",
+        "A **syndicate** pools many investors, and its interests are generally securities.",
+        "A **joint venture** handles one project and then disbands; a **REIT** is an ongoing company owning many properties.",
+        "A **condo** owner holds a deed to the unit plus an undivided share of the common elements, which can include the land.",
+        "A **co-op** buyer gets shares (personal property) and a **proprietary lease**."
       ],
       "table": {
         "head": ["Form", "Title held by", "Key feature"],
@@ -256,9 +311,13 @@
       "intro": "An **encumbrance** is any interest held by someone else that burdens title or limits use; liens are the money kind.",
       "points": [
         "A **lien** secures a debt and can be foreclosed. Every lien is an encumbrance, but easements, deed restrictions and encroachments are encumbrances that secure no debt.",
-        "**Voluntary** liens are chosen by the owner (a mortgage or home-equity loan; the foreclosure remedy doesn't make it involuntary), while **involuntary** liens arise by law (taxes, judgments, mechanic's liens). **Specific** liens attach to one parcel; **general** liens reach all of the debtor's property within their scope.",
-        "General liens include docketed judgments, federal and state tax liens, estate and inheritance taxes, a decedent's debts and unpaid corporate franchise taxes. A **special assessment** for sidewalks or sewers is involuntary and specific and shares property-tax priority.",
-        "Specific liens follow the property, so they are paid from the seller's proceeds at closing and a **satisfaction** is recorded; a New York lender must arrange for its satisfaction to be presented for recording within 30 days of payoff (RPAPL §1921)."
+        "**Voluntary** liens are chosen by the owner, such as a mortgage or home-equity loan. The foreclosure remedy doesn't make them involuntary.",
+        "**Involuntary** liens arise by law: taxes, judgments, mechanic's liens.",
+        "**Specific** liens attach to one parcel; **general** liens reach all of the debtor's property within their scope.",
+        "General liens include docketed judgments, federal and state tax liens, estate and inheritance taxes, a decedent's debts and unpaid corporate franchise taxes.",
+        "A **special assessment** for sidewalks or sewers is involuntary and specific, and it shares property-tax priority.",
+        "Specific liens follow the property, so they are paid from the seller's proceeds at closing and a **satisfaction** is recorded.",
+        "A New York lender must arrange for its satisfaction to be presented for recording within **30 days** of payoff (RPAPL §1921)."
       ],
       "table": {
         "head": ["Lien", "Voluntary?", "Scope", "Priority", "Duration in NY"],
@@ -277,10 +336,16 @@
       "heading": "Lien priority, judgments and lis pendens",
       "intro": "In a forced sale, proceeds pay liens in order of priority, and a junior lienholder collects only from what is left.",
       "points": [
-        "**Real property taxes and special assessments come first**; after that, generally first in time wins (mortgages by recording, judgments by docketing, mechanic's liens by filing), and the size of a debt is irrelevant. A **subordination agreement** lets a lienholder voluntarily take a lower position, such as a home-equity lender staying behind a refinance.",
-        "A **federal tax lien** is not valid against an earlier mortgagee until its notice is filed, so a mortgage recorded first stays ahead, and local property taxes outrank it even when they arise later (26 U.S.C. §6323).",
-        "A **docketed judgment** is a general lien on the debtor's real property in that county, including later acquisitions, for 10 years (CPLR §5203); to reach another county, the creditor dockets a **transcript** there. A **writ of execution** enforces a judgment, while an **attachment** holds property before judgment.",
-        "A **lis pendens** (notice of pendency) warns that a lawsuit affecting title or possession is pending. It is **constructive notice** that binds later buyers and lenders to the outcome even without actual knowledge (CPLR §6501), and it lasts **3 years**, extendable by court order for good cause (CPLR §6513)."
+        "**Real property taxes and special assessments come first.** After that, first in time generally wins: mortgages by recording, judgments by docketing, mechanic's liens by filing.",
+        "The size of a debt is irrelevant to priority.",
+        "A **subordination agreement** lets a lienholder voluntarily take a lower position, such as a home-equity lender staying behind a refinance.",
+        "A **federal tax lien** is not valid against an earlier mortgagee until its notice is filed, so a mortgage recorded first stays ahead. Local property taxes outrank it even when they arise later (26 U.S.C. §6323).",
+        "A **docketed judgment** is a general lien on the debtor's real property in that county, including later acquisitions, for **10 years** (CPLR §5203).",
+        "To reach another county, the creditor dockets a transcript there.",
+        "A **writ of execution** enforces a judgment; an **attachment** holds property before judgment.",
+        "A **lis pendens** (notice of pendency) warns that a lawsuit affecting title or possession is pending.",
+        "A lis pendens is **constructive notice**: it binds later buyers and lenders to the outcome even without actual knowledge (CPLR §6501).",
+        "It lasts **3 years**, extendable by court order for good cause (CPLR §6513)."
       ],
       "example": {
         "title": "Worked example: paying liens from a foreclosure sale",
@@ -295,13 +360,20 @@
     },
     {
       "heading": "New York mechanic's liens",
-      "intro": "A **mechanic's lien** (Lien Law Article 2) is an involuntary, specific lien securing payment for labor or materials that improved real property.",
+      "intro": "A **mechanic's lien** is an involuntary, specific lien securing payment for labor or materials that improved real property (Lien Law Article 2).",
       "points": [
-        "Contractors, subcontractors, laborers, suppliers, architects, engineers and surveyors may file. A real estate broker can file only for procuring a **non-residential lease longer than 3 years** under a written agreement.",
-        "The work must be done with the owner's consent or at its request; if a tenant orders work the landlord never consented to, the lien reaches only the **tenant's leasehold**. A subcontractor's lien can't exceed the amount earned and unpaid on the owner's contract when the notice is filed, plus any amount earned later (Lien Law §4).",
-        "An advance waiver of lien rights is void (a written waiver at or after payment is allowed), and a **willfully exaggerated** lien is void and can expose the lienor to damages (Lien Law §§34, 39, 39-a).",
-        "A lien is discharged by a satisfaction filed by the lienor, lapse, a deposit with the county clerk, a **110% bond** (the claim shifts to the bond and the land is freed), or a court order, including one that follows the owner's §59 notice requiring the lienor to sue within at least 30 days.",
-        "Priority runs from the **filing** of the notice (Lien Law §13); mechanic's liens share equally among themselves whatever their filing order, except that daily or weekly wage laborers are paid first. A mortgage recorded after work starts keeps priority for advances made before a lien is filed only with the Lien Law **trust fund** covenant, which New York deeds and mortgages recite."
+        "Contractors, subcontractors, laborers, suppliers, architects, engineers and surveyors may file.",
+        "A real estate broker can file only for procuring a **non-residential lease longer than 3 years** under a written agreement.",
+        "The work must be done with the owner's consent or at its request.",
+        "If a tenant orders work the landlord never consented to, the lien reaches only the **tenant's leasehold**.",
+        "A **subcontractor's lien** can't exceed the amount earned and unpaid on the owner's contract when the notice is filed, plus any amount earned later (Lien Law §4).",
+        "An **advance waiver** of lien rights is void, though a written waiver at or after payment is allowed. A **willfully exaggerated** lien is also void and can expose the lienor to damages (Lien Law §§34, 39, 39-a).",
+        "A lien is discharged by a satisfaction filed by the lienor, lapse, a deposit with the county clerk, a **110% bond**, or a court order.",
+        "With a bond, the claim shifts to the bond and the land is freed.",
+        "A discharging court order can follow the owner's notice under Lien Law §59, requiring the lienor to sue within at least 30 days.",
+        "Priority runs from the **filing** of the notice (Lien Law §13).",
+        "Mechanic's liens share equally among themselves whatever their filing order, except that daily or weekly wage laborers are paid first.",
+        "A mortgage recorded after work starts keeps priority for advances made before a lien is filed only with the Lien Law **trust fund** covenant. New York deeds and mortgages recite that covenant."
       ],
       "table": {
         "head": ["Step", "Deadline", "Lien Law"],
@@ -319,10 +391,11 @@
       "example": {
         "title": "Worked example: mechanic's lien dates and amounts",
         "steps": [
-          "Step 1: A single-family kitchen job ends March 2, 2026, so the notice must be filed by July 2, 2026 (for a two-family house, November 2, 2026).",
-          "Step 2: Filed May 12, 2026, the lien ends May 12, 2027 unless foreclosure with a lis pendens starts or a court extends it.",
-          "Step 3: Bond for a $23,600 lien: $23,600 × 1.10 = $25,960.",
-          "Step 4: The owner's contract is $40,000, the job is finished, and $34,000 was paid in good faith before a subcontractor filed for $10,000: cap = $40,000 − $34,000 = $6,000.",
+          "Step 1: A single-family kitchen job ends March 2, 2026, so the notice must be filed by July 2, 2026.",
+          "Step 2: For a two-family house, the deadline would be November 2, 2026.",
+          "Step 3: Filed May 12, 2026, the lien ends May 12, 2027 unless foreclosure with a lis pendens starts or a court extends it.",
+          "Step 4: Bond for a $23,600 lien: $23,600 × 1.10 = $25,960.",
+          "Step 5: The owner's contract is $40,000, the job is finished, and $34,000 was paid in good faith before a subcontractor filed for $10,000: cap = $40,000 − $34,000 = $6,000.",
           "Answer: July 2, 2026; May 12, 2027; $25,960; $6,000."
         ]
       }
@@ -331,12 +404,17 @@
       "heading": "Easements and profits",
       "intro": "An **easement** is a non-possessory right to use another's land for a limited purpose. It is an interest in land, so an express easement must be in writing.",
       "points": [
-        "**Appurtenant**: the **dominant** parcel benefits and the **servient** parcel is burdened, as with a driveway **right-of-way**; it runs with both parcels when either is sold and can't be sold separately. **In gross**: it benefits a person or company (utility lines) with no dominant parcel, and commercial ones are usually assignable interests in land.",
-        "Easements are created by **grant**, **reservation** (a seller keeps a right over the land sold), **implication** (an apparent, continuous use when one owner divides land), **necessity** (a landlocked parcel), **prescription**, **condemnation** or **dedication**.",
-        "**Prescription** in New York: 10 years of open, notorious, continuous, hostile use gives a right of use. Adverse possession also requires exclusive possession and gives title, and permissive use never qualifies for either.",
-        "A **negative easement**, such as an **easement for light and air**, restricts what the servient owner may do; New York gives no natural right to light or a view. A **party wall** is shared by two buildings, each owner owning its part with cross-easements for support.",
+        "**Appurtenant**: the **dominant** parcel benefits and the servient parcel is burdened, as with a driveway right-of-way.",
+        "An appurtenant easement runs with both parcels when either is sold and can't be sold separately.",
+        "**In gross**: the easement benefits a person or company (utility lines) with no dominant parcel. Commercial ones are usually assignable interests in land.",
+        "Easements are created by grant, reservation (a seller keeps a right over the land sold), implication (an apparent, continuous use when one owner divides land), necessity (a landlocked parcel), prescription, condemnation or dedication.",
+        "**Prescription** in New York: **10 years** of open, notorious, continuous, hostile use gives a right of use.",
+        "Adverse possession also requires exclusive possession and gives title. Permissive use never qualifies for either.",
+        "A **negative easement**, such as an easement for light and air, restricts what the servient owner may do. New York gives no natural right to light or a view.",
+        "A **party wall** is shared by two buildings; each owner owns its part, with cross-easements for support.",
         "A **profit** (profit à prendre) is the right to take timber, gravel or minerals from another's land; it is an interest in land and transferable.",
-        "An easement ends by recorded **release**, **merger** (no revival after a later split), end of the **necessity**, **abandonment** (intent shown by clear acts; nonuse alone isn't enough), **expiration**, **condemnation** or the servient owner's adverse blocking for 10 years."
+        "An easement ends by recorded release, merger (no revival after a later split), end of the necessity, abandonment, expiration, condemnation, or the servient owner's adverse blocking for 10 years.",
+        "**Abandonment** needs intent shown by clear acts; **nonuse alone** isn't enough."
       ],
       "table": {
         "head": ["Type", "Benefits", "Created by", "Ends when"],
@@ -353,12 +431,18 @@
       "heading": "Licenses, encroachments and deed restrictions",
       "intro": "Ask whether you are looking at permission, a physical intrusion or a recorded limit on use.",
       "points": [
-        "A **license** is revocable personal permission, such as letting a neighbor fish or park a boat. It is not an interest in land, can be oral, can't be assigned, and ends on revocation, either party's death or sale of the land.",
-        "An **encroachment** is an improvement that crosses the line without permission, such as a garage or fence. It is found by a **survey**, not a title search, so title policies typically except it, and the owner can sue for removal or damages.",
-        "New York deems **de minimis non-structural encroachments** (fences, hedges, plantings, sheds) and mowing across the line permissive and non-adverse (RPAPL §543). If a building's exterior wall encroaches **6 inches or less** and the neighbor's building abuts it, the neighbor must sue to recover the strip within 1 year of the wall's completion or for damages within 1 more year (paying that judgment transfers the strip); after that, the wall's owner holds an easement while the wall stands (RPAPL §611).",
+        "A **license** is revocable personal permission, such as letting a neighbor fish or park a boat.",
+        "A license is not an interest in land, can be oral, can't be assigned, and ends on revocation, either party's death or sale of the land.",
+        "An **encroachment** is an improvement that crosses the line without permission, such as a garage or fence.",
+        "An encroachment is found by a **survey**, not a title search, so title policies typically except it. The owner can sue for removal or damages.",
+        "New York deems **de minimis non-structural encroachments** (fences, hedges, plantings, sheds) and mowing across the line permissive and non-adverse (RPAPL §543).",
+        "If a building's exterior wall encroaches **6 inches or less** and the neighbor's building abuts it, the neighbor must sue to recover the strip within 1 year of the wall's completion, or for damages within 1 more year.",
+        "Paying that damages judgment transfers the strip. After that, the wall's owner holds an easement while the wall stands (RPAPL §611).",
         "**Adverse possession** gives title after 10 years of adverse, open and notorious, continuous, exclusive and actual possession under a **claim of right** (RPAPL §501).",
-        "**Deed restrictions** (restrictive covenants) are recorded private limits on use that run with the land; owners under the same subdivision plan can enforce them by **injunction**, and breach doesn't forfeit title.",
-        "When zoning and a deed restriction both apply, the **stricter** one controls, and a building permit doesn't override a restriction. **Racially restrictive covenants** are unenforceable (Shelley v. Kraemer, 1948; Fair Housing Act)."
+        "**Deed restrictions** (restrictive covenants) are recorded private limits on use that run with the land.",
+        "Owners under the same subdivision plan can enforce deed restrictions by **injunction**, and breach doesn't forfeit title.",
+        "When zoning and a deed restriction both apply, the **stricter** one controls, and a building permit doesn't override a restriction.",
+        "**Racially restrictive covenants** are unenforceable (Shelley v. Kraemer, 1948; Fair Housing Act)."
       ],
       "table": {
         "head": ["Interest", "What it is", "Binds a buyer?"],

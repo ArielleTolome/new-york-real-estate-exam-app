@@ -1,7 +1,7 @@
 {
   "topic": "taxes",
   "title": "Taxes & Assessments",
-  "overview": "New York property taxes (assessment, equalization, levy and rate), exemptions including STAR, assessment challenges and unpaid taxes; the taxes due at a sale (transfer, mansion, NYC RPTT, mortgage recording, FIRPTA); and federal income tax rules: deductions, basis and gain, the §121 exclusion, depreciation and 1031 exchanges. Syllabus Subjects 14 and 17 (3 hours each, about 8% of the course) supply many math questions. Themes: apply the rate to taxable assessed value, divide by the equalization rate, know the grievance calendar and who pays which tax.",
+  "overview": "How New York property taxes are set, cut by exemptions such as STAR, challenged and collected; the taxes due at a sale; and federal income tax: deductions, gain, §121, depreciation and 1031. The exam hits hardest: **tax = taxable assessed value × rate**, **full value = assessed value ÷ equalization rate**, the grievance calendar, and who pays each closing tax.",
   "cram": {
     "numbers": [
       {
@@ -14,11 +14,11 @@
       },
       {
         "value": "4th Tuesday in May",
-        "label": "Grievance Day in most towns (Suffolk towns: 3rd Tuesday in May; Westchester towns: 3rd Tuesday in June)"
+        "label": "Most towns' Grievance Day (Suffolk towns: 3rd Tuesday, May; Westchester towns: 3rd Tuesday, June)"
       },
       {
         "value": "30 days",
-        "label": "After the final roll (or notice of it, if later) to start SCAR or certiorari"
+        "label": "To start SCAR or certiorari, from the final roll or its later notice"
       },
       {
         "value": "$30",
@@ -29,7 +29,7 @@
         "label": "Senior citizens exemption (65+, limited income, local option)"
       },
       {
-        "value": "15% + 10% + ½ rating",
+        "value": "15% + 10% + ½",
         "label": "Alternative veterans exemption: wartime + combat zone + half the disability rating"
       },
       {
@@ -62,7 +62,7 @@
       },
       {
         "value": "15% / 10%",
-        "label": "FIRPTA on a foreign seller's gross price / buyer-occupied home at $300,001–$1,000,000 (none at $300,000 or less)"
+        "label": "Foreign seller (FIRPTA): gross price / buyer-occupied home at $300,001–$1,000,000; $300,000 or less: none"
       },
       {
         "value": "$250,000 / $500,000",
@@ -86,7 +86,7 @@
       },
       {
         "value": "$40,000 / $40,400",
-        "label": "SALT cap for 2025 / 2026, phased down above $500,000 / $505,000 of MAGI, never below $10,000"
+        "label": "SALT cap, 2025 / 2026; phased down above $500,000 / $505,000 MAGI; floor $10,000"
       },
       {
         "value": "More than 1 year",
@@ -94,23 +94,37 @@
       }
     ],
     "mustKnow": [
-      "**Tax = taxable assessed value × rate**; **rate = levy ÷ total taxable assessed value**; **levy = budget − other revenue**. **New York State levies no property tax.**",
-      "Outside NYC and Nassau, all parcels share one **uniform percentage** of value (RPTL §305). **Full value = assessed value ÷ equalization rate**; the ORPTS rate apportions county and school levies and can exceed 100%.",
-      "Town calendar: **March 1** taxable status date → **May 1** tentative roll → **Grievance Day** (4th Tuesday in May) → **July 1** final roll → **30 days** to start SCAR or certiorari.",
-      "**Welcome stranger** assessing (raising only homes that just sold) is illegal and supports an **unequal** claim. A **special assessment** charges only benefited parcels, often by **front foot**; a **special district levy** is by value.",
-      "**Property tax liens** outrank private liens, even earlier mortgages. **In rem** foreclosure follows a redemption period of about **2 years**; since **Tyler v. Hennepin County (2023)** and NY's 2024 law, surplus goes to lienholders, then the former owner. A **tax lien sale** sells only the right to collect.",
-      "**STAR** cuts **school taxes** on a **primary residence** only. **Enhanced**: one resident owner **65 by December 31** and a lower income limit. New owners since **2016** get the **STAR credit**; switching from the exemption to the credit is **irreversible**.",
-      "Exemptions are **personal**. **Senior** (§467): up to **50%**, local option, combinable with Enhanced STAR. **Alternative veterans**: **15%** + **10%** combat + **half the disability rating**. Nonprofits need **exempt ownership and use**. Farmland converted within **5 years** (**8** outside an ag district) owes a **conversion payment**.",
-      "**Tax cap**: levy growth limited to **2% or inflation**; a school budget over it needs **60%**, and one bill can still rise more. **Homestead option**: two tax rates. **NYC class 1** (1–3 family): 6% ratio; caps of 6% a year, 20% over five.",
-      "Grievance grounds: **excessive, unequal, unlawful, misclassified**. **RP-524** must be **received** by Grievance Day; the BAR can't raise an assessment. **SCAR** (owner-occupied 1–3 family): **30 days**, **$30**; other property uses **Article 7 certiorari**. NYC: **Tax Commission**; Nassau: **Assessment Review Commission**.",
-      "**NYS transfer tax**: **$2 per $500 or fraction**, **seller** (buyer if the seller doesn't pay). **Mansion tax**: **1% of the whole price** at **$1,000,000+**, **buyer**. **NYC RPTT**: **1%** up to $500,000, **1.425% of the whole price** above.",
-      "**Mortgage recording tax** is on the **loan**: none for cash buyers or co-op share loans; a **CEMA** taxes only **new money**.",
-      "**FIRPTA**: the buyer withholds **15% of the gross price** from a foreign seller (**10%** for a buyer-occupied home at $300,001–$1,000,000; none at $300,000 or less). Nonresident sellers pay NY estimated tax on **IT-2663**.",
-      "Mortgage interest (debt up to **$750,000**, now permanent) and property taxes (SALT cap **$40,000** for 2025, **$40,400** for 2026) help only **itemizers**; home-equity interest counts only if the loan buys, builds or improves the home; **mortgage insurance** is deductible again from 2026.",
-      "**§121**: exclude **$250,000/$500,000** after owning and using the home **2 of the last 5 years**; once every 2 years, any age. **Gain** = amount realized − adjusted basis; a mortgage payoff is irrelevant.",
-      "**Depreciation**: buildings only, never land or a personal home; **27.5 years** residential rental, **39** nonresidential; gain from past depreciation is taxed at up to **25%**.",
-      "**1031**: investment real estate for investment real estate; **45 / 180 days**, both from the sale; a **qualified intermediary** holds the cash; boot is taxed; gain is deferred.",
-      "**Inherited** property gets a **stepped-up** basis; a **gift** keeps the donor's basis. **Long-term** means held **more than 1 year**."
+      "**Tax = taxable assessed value × rate**; rate = levy ÷ total taxable assessed value; levy = budget − other revenue. **New York State levies no property tax.**",
+      "Outside NYC and Nassau, every parcel is assessed at one **uniform percentage** of value (RPTL §305).",
+      "**Full value = assessed value ÷ equalization rate.** The ORPTS rate apportions county and school levies and can exceed 100%.",
+      "Town calendar: March 1 taxable status date → May 1 tentative roll → **Grievance Day** (4th Tuesday in May) → July 1 final roll → **30 days** to start SCAR or certiorari.",
+      "**Welcome stranger** assessing (raising only homes that just sold) is illegal and supports an unequal claim.",
+      "A **special assessment** charges only benefited parcels, often by front foot; a special district levy is by value.",
+      "**Property tax liens** outrank private liens, even earlier mortgages. A **tax lien sale** sells only the right to collect.",
+      "**In rem** foreclosure follows a redemption period of about 2 years. Since Tyler v. Hennepin County (2023) and NY's 2024 law, surplus goes to lienholders, then the former owner.",
+      "**STAR** cuts school taxes on a primary residence only. **Enhanced STAR** needs one resident owner 65 by December 31 and a lower income limit.",
+      "New owners since 2016 get the **STAR credit**; switching from the exemption to the credit is **irreversible**.",
+      "Exemptions are **personal**. Nonprofits need **exempt ownership and use**.",
+      "Senior exemption: up to **50%**, local option, combinable with Enhanced STAR (§467). Alternative veterans: **15% + 10% combat + half the disability rating**.",
+      "Farmland converted within 5 years (8 outside an ag district) owes a **conversion payment**.",
+      "**Tax cap**: levy growth is limited to 2% or inflation. A school budget over it needs **60%**, and one bill can still rise more.",
+      "**Homestead option**: two tax rates. **NYC class 1** (1–3 family): 6% ratio; caps of 6% a year, 20% over five.",
+      "Grievance grounds: **excessive, unequal, unlawful, misclassified**. The RP-524 must be **received** by Grievance Day; the Board of Assessment Review (BAR) can't raise an assessment.",
+      "**SCAR** (owner-occupied 1–3 family): 30 days, $30. Other property uses **Article 7 certiorari**. NYC: Tax Commission; Nassau: Assessment Review Commission.",
+      "**NYS transfer tax**: $2 per $500 or fraction, paid by the **seller** (the buyer if the seller doesn't pay).",
+      "**Mansion tax**: 1% of the whole price at $1,000,000+, paid by the **buyer**.",
+      "**NYC RPTT**: 1% up to $500,000, and **1.425% of the whole price** above.",
+      "**Mortgage recording tax** is on the **loan**: none for cash buyers or co-op share loans; a CEMA taxes only new money.",
+      "**FIRPTA**: the buyer withholds **15% of the gross price** from a foreign seller; 10% for a buyer-occupied home at $300,001–$1,000,000; none at $300,000 or less.",
+      "Nonresident sellers pay NY estimated tax on **IT-2663**.",
+      "Mortgage interest and property taxes help only **itemizers**. Interest counts on debt up to **$750,000**, now permanent.",
+      "Property taxes fall under the **SALT cap**: $40,000 for 2025, $40,400 for 2026.",
+      "Home-equity interest counts only if the loan buys, builds or improves the home. **Mortgage insurance** is deductible again from 2026.",
+      "**§121**: exclude $250,000/$500,000 after owning and using the home **2 of the last 5 years**; once every 2 years, any age.",
+      "**Gain** = amount realized − adjusted basis; a mortgage payoff is irrelevant.",
+      "**Depreciation**: buildings only, never land or a personal home; **27.5 years** residential rental, 39 nonresidential. Gain from past depreciation is taxed at up to 25%.",
+      "**1031**: investment real estate for investment real estate; **45 / 180 days**, both from the sale. A qualified intermediary holds the cash; boot is taxed; gain is deferred.",
+      "Inherited property gets a **stepped-up** basis; a gift keeps the donor's basis. Long-term means held **more than 1 year**."
     ],
     "traps": [
       {
@@ -119,7 +133,7 @@
       },
       {
         "trap": "An equalization rate can never top 100%.",
-        "truth": "It can, when values fall and assessments aren't lowered. Some study guides wrongly say otherwise."
+        "truth": "It can, when values fall and assessments aren't lowered. Older study guides say otherwise."
       },
       {
         "trap": "Grievance Day is March 1.",
@@ -163,7 +177,7 @@
       },
       {
         "trap": "Paying off the mortgage at closing reduces the taxable gain.",
-        "truth": "It only reduces the seller's cash. Gain = amount realized − adjusted basis."
+        "truth": "Gain = amount realized − adjusted basis. The payoff only reduces the seller's cash."
       },
       {
         "trap": "FIRPTA withholding is 15% of the seller's profit.",
@@ -264,11 +278,13 @@
       "points": [
         "Property taxes fund local services: schools (usually the largest share), police, fire, roads, libraries and parks. **Taxation** is the T in PETE.",
         "Counties, cities, towns, villages, school districts and special districts levy them. **New York State levies none.**",
-        "Real estate is taxed because it is a **predictable** base, **hard to conceal** or move, and historically tied to **wealth and land productivity**.",
+        "Real estate is taxed because it is a predictable base, hard to conceal or move, and historically tied to wealth and land productivity.",
         "**Ad valorem** means 'according to value': taxable assessed value × rate on every taxable parcel. A transfer tax is due only on a conveyance.",
-        "An **assessing unit** (usually a city or town; Nassau and Tompkins counties assess countywide) keeps the **assessment roll**; school and other districts, whose lines can cross town lines, levy from it.",
+        "An **assessing unit**, usually a city or town, keeps the **assessment roll**. Nassau and Tompkins counties assess countywide. School and other districts, whose lines can cross town lines, levy from the roll.",
         "Wholly **exempt property** (government, religious, charitable, educational) pays no general tax, shifting the burden to other owners.",
-        "A **special assessment** charges only benefited parcels (a **special assessment district**) for one improvement, such as sidewalks or a sewer line, usually by front footage. It is a **specific lien**, often paid in installments, and adds to basis rather than being deducted. A **special district** (fire, water, sewer, lighting) levies by value inside its boundaries."
+        "A **special assessment** charges only benefited parcels (a special assessment district) for one improvement, such as sidewalks or a sewer line. It is usually figured by front footage.",
+        "A special assessment is a **specific lien**, often paid in installments. It adds to basis rather than being deducted.",
+        "A **special district** (fire, water, sewer, lighting) levies by value inside its boundaries."
       ],
       "table": {
         "head": [
@@ -315,7 +331,8 @@
         "steps": [
           "New curbs cost $96,000 along a street with 1,600 total front feet. A lot is 60 feet wide (frontage) and 120 feet deep.",
           "Step 1: Cost per front foot = $96,000 ÷ 1,600 = $60.",
-          "Step 2: Charge = 60 × $60 = $3,600, a specific lien until paid. Using the 120-foot depth ($7,200) is the trap."
+          "Step 2: Charge = 60 × $60 = $3,600.",
+          "Answer: $3,600, a specific lien until paid. Using the 120-foot depth ($7,200) is the trap."
         ]
       }
     },
@@ -323,20 +340,27 @@
       "heading": "Assessment, the assessment calendar, and reassessment",
       "intro": "The assessor values property and fixes factual errors; the receiver of taxes collects; the governing body (and school voters) adopts the budget.",
       "points": [
-        "**Market (full) value** is the likely sale price; **assessed value** is the roll figure; **taxable assessed value** is assessed value minus exemptions and can differ for county, town and school taxes.",
-        "**Uniform percentage** (RPTL §305): outside NYC and Nassau, every parcel is assessed at one percentage of value, 100% or any fraction; only those two use class percentages. **Level of assessment** = assessed value ÷ market value; with no required reassessment cycle, many towns sit far below 100%.",
-        "Town calendar: **valuation date** July 1 of the prior year (fixes market conditions) → **taxable status date** March 1 (fixes condition, ownership and exemption eligibility; applications due) → **tentative roll** May 1 → **Grievance Day**, the fourth Tuesday in May → **final roll** July 1 → **30 days** to start SCAR or certiorari.",
-        "Assessments drift: values change unevenly, **new construction** enters at current value while older homes keep stale values, and **undeclared improvements** stay off the roll until **building permits** alert the assessor.",
+        "**Market (full) value** is the likely sale price; **assessed value** is the roll figure.",
+        "**Taxable assessed value** is assessed value minus exemptions. It can differ for county, town and school taxes.",
+        "**Uniform percentage**: outside NYC and Nassau, every parcel is assessed at one percentage of value, 100% or any fraction (RPTL §305). Only those two use class percentages.",
+        "**Level of assessment** = assessed value ÷ market value. With no required reassessment cycle, many towns sit far below 100%.",
+        "Town calendar: the **valuation date** is July 1 of the prior year. It fixes market conditions.",
+        "The **taxable status date** is March 1. It fixes condition, ownership and exemption eligibility; exemption applications are due.",
+        "Then: tentative roll May 1 → **Grievance Day**, the fourth Tuesday in May → final roll July 1 → **30 days** to start SCAR or certiorari.",
+        "Assessments drift because values change unevenly. **New construction** enters at current value while older homes keep stale values.",
+        "**Undeclared improvements** stay off the roll until building permits alert the assessor.",
         "A **community-wide reassessment** redistributes the levy but doesn't raise it: when total assessed value rises and the levy doesn't, the rate falls.",
         "Raising only homes that just sold (**welcome stranger** assessing) is illegal and supports an **unequal** grievance; a town-wide revaluation, adding a newly found improvement or correcting an error is legal.",
-        "**Back taxes** are limited: RPTL §551 adds property omitted from the prior year's roll, at that year's rate; there's no general ten-year rule. Exempt property bought by a non-exempt owner is taxed at once, prorated (RPTL §520; STAR excepted)."
+        "**Back taxes** are limited. Property omitted from the prior year's roll is added at that year's rate (RPTL §551). There's no general ten-year rule.",
+        "Exempt property bought by a non-exempt owner is taxed at once, prorated (RPTL §520; STAR excepted)."
       ],
       "example": {
         "title": "Worked example: a revaluation with the levy unchanged",
         "steps": [
           "A $3,000,000 levy on $60,000,000 of taxable value is $50 per $1,000; owners A and B, each assessed at $24,000, pay $1,200.",
           "Step 1: A revaluation raises the total to $240,000,000, so the rate falls to $12.50 per $1,000.",
-          "Step 2: A rises 4 times, like the town, to $96,000: still $1,200. Under-assessed B rises 5 times, to $120,000: $1,500.",
+          "Step 2: A rises 4 times, like the town, to $96,000: still $1,200.",
+          "Step 3: Under-assessed B rises 5 times, to $120,000: $1,500.",
           "Answer: the levy didn't grow; the burden shifted to B. Keeping the old $50 rate is the trap."
         ]
       }
@@ -345,9 +369,11 @@
       "heading": "Equalization rates and the residential assessment ratio",
       "intro": "Equalization puts towns that assess at different percentages on a common full-value basis.",
       "points": [
-        "The **state equalization rate** = a municipality's total assessed value ÷ total market value. **ORPTS** (Department of Taxation and Finance) sets it from sales data, such as the **RP-5217** filed with each deed.",
+        "The **state equalization rate** = a municipality's total assessed value ÷ total market value.",
+        "ORPTS (Department of Taxation and Finance) sets it from sales data, such as the **RP-5217** filed with each deed.",
         "Its main job is **apportioning county and school levies**: convert each town's assessed value to full value, then split the levy by share of full value.",
-        "**Full value = assessed value ÷ equalization rate**; never multiply. The rate can **exceed 100%** when values fall; a falling rate with unchanged assessments means values rose. It describes a whole municipality, not anyone's bill.",
+        "**Full value = assessed value ÷ equalization rate**; never multiply.",
+        "The rate can **exceed 100%** when values fall; a falling rate with unchanged assessments means values rose. It describes a whole municipality, not anyone's bill.",
         "The **residential assessment ratio (RAR)** compares residential assessments with residential market values. At the BAR or in SCAR, a home whose assessment ÷ market value exceeds the RAR is unequally assessed."
       ],
       "table": {
@@ -382,9 +408,10 @@
         "title": "Worked example: apportioning a county levy",
         "steps": [
           "A county must raise $9,000,000. Town A: $60,000,000 assessed, rate 40%. Town B: $210,000,000, rate 70%.",
-          "Step 1: Full values: A = $60,000,000 ÷ 0.40 = $150,000,000; B = $210,000,000 ÷ 0.70 = $300,000,000.",
-          "Step 2: A pays 150 ÷ 450 = 1/3, or $3,000,000; B pays $6,000,000.",
-          "Trap: splitting by raw assessed value (60 ÷ 270) charges A only $2,000,000, rewarding the town that assesses lower."
+          "Step 1: Full value of A = $60,000,000 ÷ 0.40 = $150,000,000.",
+          "Step 2: Full value of B = $210,000,000 ÷ 0.70 = $300,000,000.",
+          "Step 3: A's share = 150 ÷ 450 = 1/3, or $3,000,000.",
+          "Answer: A pays $3,000,000; B pays $6,000,000. Splitting by raw assessed value (60 ÷ 270) is the trap: it charges A only $2,000,000, rewarding the town that assesses lower."
         ]
       }
     },
@@ -393,9 +420,10 @@
       "intro": "Assessments set each owner's share; the budget sets how much there is to share.",
       "points": [
         "An **appropriation** authorizes spending; the budget totals them. **Levy** = budget − other revenue (state aid, sales tax share, fees).",
-        "**Rate** = levy ÷ total **taxable** assessed value; leaving exempt property out raises everyone else's rate. Rates appear as decimals, percents, dollars per $100 or $1,000, or **mills**; to compare, convert to per $1,000 (per $100 × 10; percent × 10).",
+        "**Rate** = levy ÷ total taxable assessed value. Leaving exempt property out raises everyone else's rate.",
+        "Rates appear as decimals, percents, dollars per $100 or $1,000, or **mills**. To compare, convert to per $1,000 (per $100 × 10; percent × 10).",
         "**Tax = taxable assessed value × rate**, never market value × rate. Each bill line (county, town, school, village, district) has its own rate and exemptions.",
-        "**Agent responsibility**: compute taxes from the current roll and rates, note which exemptions the bill reflects, and never present the seller's bill as the buyer's future tax."
+        "**Agent duty**: compute taxes from the current roll and rates, and note which exemptions the bill reflects. Never present the seller's bill as the buyer's future tax."
       ],
       "table": {
         "head": [
@@ -437,7 +465,8 @@
           "Budget $14,200,000; state aid and fees $5,200,000; roll $320,000,000, including $20,000,000 wholly exempt.",
           "Step 1: Levy = $14,200,000 − $5,200,000 = $9,000,000.",
           "Step 2: Rate = $9,000,000 ÷ $300,000,000 = 0.03 = $30 per $1,000 (30 mills). Dividing by $320,000,000 ($28.125) is the trap.",
-          "Step 3: Assessed $150,000 with a $10,000 exemption: $140,000 ÷ 1,000 × $30 = $4,200."
+          "Step 3: Taxable assessed value = $150,000 − a $10,000 exemption = $140,000.",
+          "Answer: $140,000 ÷ 1,000 × $30 = $4,200."
         ]
       }
     },
@@ -445,21 +474,32 @@
       "heading": "Exemptions: STAR, seniors, veterans, farmland, and nonprofits",
       "intro": "Exemptions lower taxable assessed value (the STAR credit is a check instead). Most need an application by the taxable status date and belong to the owner: a buyer must qualify and apply anew.",
       "points": [
-        "**Wholly exempt**: government property and nonprofit religious, charitable, educational and hospital property (RPTL §420-a) with **exempt ownership and exempt use**; a floor a church leases to a for-profit firm is taxable.",
-        "**STAR** cuts **school taxes only**, on a **primary residence** only. **Basic**: no age test; income up to $500,000 (credit) or $250,000 (exemption). **Enhanced**: one resident owner (since 2026, whatever the owners' relationship) **65 by December 31** of the benefit year, and resident owners' and spouses' income of $110,750 or less (2026; $113,550 for 2027). Upgrades to Enhanced are automatic.",
-        "**Credit vs exemption**: new homeowners since 2016 register with the Tax Department for the **STAR credit** (check or direct deposit); the school-bill exemption is closed to newcomers. Switching from exemption to credit is **irreversible**; only the credit can grow (up to 2% a year).",
-        "**Senior citizens exemption** (RPTL §467; local option for each county, city, town, village and school district): up to **50%** off for owners 65+ under the local income limit (an added option reaches 65% at the lowest incomes). All owners must be 65 unless they are spouses or siblings (then one), and they must have owned the home 12 months. It combines with Enhanced STAR.",
-        "**Alternative veterans exemption** (§458-a; local option, schools included): 15% wartime + 10% combat zone + half the service-connected disability rating, under local caps; no special district relief. **Cold War** and **eligible funds** exemptions are separate. Where adopted, VA-rated **permanently and totally disabled** veterans get a **full** exemption on their primary residence, special levies and assessments included, on rolls with taxable status dates from **October 1, 2026** (§458-a(11)).",
-        "**Disabilities and limited incomes** (§459-c): up to 50% by local option; owners eligible for this and the senior exemption choose one.",
-        "**Agricultural assessment** (Agriculture and Markets Law §305) taxes farmland at farm value. Converting it within **5 years** (**8** outside an agricultural district) triggers a **conversion payment** (five times the last year's savings plus interest); idling land doesn't."
+        "**Wholly exempt**: government property and nonprofit religious, charitable, educational and hospital property with **exempt ownership and exempt use** (RPTL §420-a). A floor a church leases to a for-profit firm is taxable.",
+        "**STAR** cuts school taxes only, on a primary residence only.",
+        "**Basic STAR**: no age test. Income up to $500,000 for the credit or $250,000 for the exemption.",
+        "**Enhanced STAR**: one resident owner **65 by December 31** of the benefit year. Since 2026, the owners' relationship doesn't matter. Upgrades to Enhanced are automatic.",
+        "Enhanced STAR income limit: resident owners' and spouses' income of $110,750 or less for 2026, and $113,550 for 2027.",
+        "**Credit vs exemption**: new homeowners since 2016 register with the Tax Department for the STAR credit, paid by check or direct deposit. The school-bill exemption is closed to newcomers.",
+        "Switching from exemption to credit is **irreversible**. Only the credit can grow, up to 2% a year.",
+        "**Senior citizens exemption**: up to **50%** off for owners 65+ under the local income limit (RPTL §467). An added option reaches 65% at the lowest incomes.",
+        "The senior exemption is a local option for each county, city, town, village and school district. It combines with Enhanced STAR.",
+        "All owners must be 65 unless they are spouses or siblings; then one is enough. They must have owned the home 12 months.",
+        "**Alternative veterans exemption**: 15% wartime + 10% combat zone + half the service-connected disability rating, under local caps (§458-a; local option, schools included). It gives no special district relief.",
+        "**Cold War** and **eligible funds** exemptions are separate.",
+        "Where adopted, VA-rated **permanently and totally disabled** veterans get a full exemption on their primary residence, special levies and assessments included. It starts with rolls whose taxable status dates fall on or after **October 1, 2026** (§458-a(11)).",
+        "**Disabilities and limited incomes**: up to 50% by local option (§459-c). Owners eligible for this and the senior exemption choose one.",
+        "**Agricultural assessment** taxes farmland at farm value (Agriculture and Markets Law §305). Idling the land triggers nothing.",
+        "Converting farmland within **5 years** (**8** outside an agricultural district) triggers a conversion payment: five times the last year's savings plus interest."
       ],
       "example": {
         "title": "Worked example: a veterans exemption, then a sale",
         "steps": [
           "A combat-zone wartime veteran rated 40% disabled owns a home assessed at $200,000; the town rate is 24 mills and caps aren't reached.",
-          "Step 1: 15% + 10% + 20% (half of 40%) = 45% × $200,000 = $90,000 exempt.",
-          "Step 2: Town tax = ($200,000 − $90,000) × 24 ÷ 1,000 = $2,640.",
-          "Step 3: A non-veteran buyer pays on $200,000: $4,800, because the exemption is personal."
+          "Step 1: 15% + 10% + 20% (half of 40%) = 45%.",
+          "Step 2: 45% × $200,000 = $90,000 exempt.",
+          "Step 3: Town tax = ($200,000 − $90,000) × 24 ÷ 1,000 = $2,640.",
+          "Step 4: A non-veteran buyer pays on the full $200,000: $200,000 × 24 ÷ 1,000 = $4,800.",
+          "Answer: the veteran pays $2,640; the buyer pays $4,800, because the exemption is personal."
         ]
       }
     },
@@ -467,9 +507,12 @@
       "heading": "Tax cap, homestead option, and NYC and Nassau classes",
       "intro": "The levy cap, the two-rate homestead option, and the NYC and Nassau class systems change how the tax burden is divided.",
       "points": [
-        "The **property tax cap** (General Municipal Law §3-c; Education Law §2023-a; permanent since 2019) limits levy growth to **2% or inflation**, whichever is less, with adjustments. A school budget above it needs **60%** voter approval; a local government overrides by a local law passed by 60% of its board. NYC isn't covered.",
-        "**Homestead option** (RPTL Article 19): an **approved assessing unit** that completed a state-recognized revaluation may tax **homestead** (mostly 1–3 family) and **non-homestead** property at different rates, so homeowners don't absorb more after a revaluation. Assessments stay uniform.",
-        "NYC and Nassau are **special assessing units** with classes (RPTL Article 18), each with its own ratio and rate. NYC assesses class 1 at **6%** of market value and the rest at 45%; its tax year runs July 1–June 30.",
+        "The **property tax cap** limits levy growth to **2% or inflation**, whichever is less, with adjustments (General Municipal Law §3-c; Education Law §2023-a). It has been permanent since 2019.",
+        "A school budget above the cap needs 60% voter approval. A local government overrides it by a local law passed by 60% of its board. NYC isn't covered.",
+        "**Homestead option**: an approved assessing unit that completed a state-recognized revaluation may tax homestead (mostly 1–3 family) and non-homestead property at different rates (RPTL Article 19).",
+        "The homestead option keeps homeowners from absorbing more after a revaluation. Assessments stay uniform.",
+        "NYC and Nassau are **special assessing units** with classes, each with its own ratio and rate (RPTL Article 18).",
+        "NYC assesses class 1 at **6%** of market value and the rest at 45%. Its tax year runs July 1–June 30.",
         "NYC caps market-driven class 1 increases at **6% a year and 20% over five years**, and class 2 buildings of 10 or fewer units at 8% and 30%; larger class 2 and class 4 phase changes in over five years. Physical improvements aren't capped.",
         "Co-op owners pay through maintenance (the building is one class 2 parcel); condo units are assessed individually."
       ],
@@ -512,7 +555,7 @@
         "steps": [
           "A Staten Island two-family house was assessed at $28,000 last year; 6% of Finance's new market value is $36,000, with no physical change.",
           "Step 1: One-year cap: $28,000 × 1.06 = $29,680.",
-          "Trap: the small class 2 cap (8%) gives $30,240; the 20% five-year cap in one year gives $33,600. A new addition would be added outside the cap."
+          "Answer: $29,680. The small class 2 cap (8%) gives $30,240; the 20% five-year cap in one year gives $33,600. Both are traps. A new addition would be added outside the cap."
         ]
       }
     },
@@ -520,10 +563,17 @@
       "heading": "Challenging an assessment: grievance, SCAR, and certiorari",
       "intro": "Owners challenge the assessment, not the budget: informal review, then grievance, then court.",
       "points": [
-        "**Grounds** (RPTL §§522, 524): **excessive** (above full value, or a partial exemption denied), **unequal** (a higher level of assessment than comparable property), **unlawful** (e.g., exempt property assessed as taxable) and **misclassified**. A disliked budget isn't one.",
-        "**Grievance**: **Form RP-524** must be **received** by the assessor before, or the **Board of Assessment Review (BAR)** on, **Grievance Day** (4th Tuesday in May in most towns; Suffolk towns 3rd Tuesday in May, Westchester towns 3rd Tuesday in June); mailing in time isn't enough. The BAR has 3–5 appointed members, never the assessor or staff.",
-        "Evidence: comparable sales, an appraisal, similar homes' assessments, the level of assessment or RAR, condition. The BAR may **deny**, **grant** or **grant in part**, never raise. Taxes stay due; a win brings a refund.",
-        "**SCAR**: owner-occupied 1–3 family homes used only as residences (and lots too small to build on) claiming unequal or excessive assessment. File with the county clerk within **30 days** after the final roll (or notice of its filing, if later); **$30**; no lawyer needed. A hearing officer weighs sales, assessment and ratio evidence; outcomes match the BAR's.",
+        "Four grounds for a challenge: excessive, unequal, unlawful and misclassified (RPTL §§522, 524). A disliked budget isn't one.",
+        "**Excessive**: above full value, or a partial exemption denied. **Unequal**: a higher level of assessment than comparable property.",
+        "**Unlawful**: for example, exempt property assessed as taxable.",
+        "**Grievance**: Form RP-524 must be **received** by the assessor before Grievance Day, or by the Board of Assessment Review (BAR) on Grievance Day. Mailing in time isn't enough.",
+        "Grievance Day is the 4th Tuesday in May in most towns. Suffolk towns use the 3rd Tuesday in May; Westchester towns, the 3rd Tuesday in June.",
+        "The BAR has 3–5 appointed members, never the assessor or staff.",
+        "Evidence: comparable sales, an appraisal, similar homes' assessments, the level of assessment or RAR, condition.",
+        "The BAR may deny, grant or grant in part, but **never raise** an assessment. Taxes stay due; a win brings a refund.",
+        "**SCAR** (Small Claims Assessment Review) covers owner-occupied 1–3 family homes used only as residences, and lots too small to build on, claiming unequal or excessive assessment.",
+        "File SCAR with the county clerk within **30 days** after the final roll, or notice of its filing if later. The fee is **$30**; no lawyer is needed.",
+        "A SCAR hearing officer weighs sales, assessment and ratio evidence. Outcomes match the BAR's.",
         "SCAR limits: equalized value of $450,000 or less (otherwise a cut of no more than 25%), and no lower assessment than was requested at the BAR. Filing SCAR waives certiorari; review is only by **Article 78**."
       ],
       "table": {
@@ -577,8 +627,9 @@
         "steps": [
           "A town assesses at 50%. A home is assessed at $210,000; sales support $360,000; the rate is $32 per $1,000.",
           "Step 1: Implied value = $210,000 ÷ 0.50 = $420,000, $60,000 too high.",
-          "Step 2: Fair assessment = $360,000 × 0.50 = $180,000: a $30,000 cut saving $30,000 ÷ 1,000 × $32 = $960 a year.",
-          "Trap: subtracting the whole $60,000 gap ($150,000) ignores the 50% level."
+          "Step 2: Fair assessment = $360,000 × 0.50 = $180,000, a $30,000 cut.",
+          "Step 3: Savings = $30,000 ÷ 1,000 × $32 = $960 a year.",
+          "Answer: request $180,000. Subtracting the whole $60,000 gap ($150,000) is the trap; it ignores the 50% level."
         ]
       }
     },
@@ -589,7 +640,9 @@
         "Unpaid taxes become a **specific, involuntary lien** that outranks private liens, even earlier mortgages; lenders escrow taxes and title searches check for them.",
         "**In rem** ('against the thing'): an **RPTL Article 11** foreclosure targets the parcel, not the owner personally, and reaches homes as well as commercial property.",
         "**Redemption**: the owner can pay taxes, interest and charges until the period ends, generally **two years after the lien date** (longer by local law for residential or farm property; one year for listed vacant and abandoned homes). Then the court can award title to the tax district.",
-        "**Surplus**: **Tyler v. Hennepin County (2023)** held that keeping more than the tax debt is a taking. New York's 2024 law (RPTL §§1196–1197) makes the district pay any surplus into court (the public-sale price, or full value if not sold publicly, minus taxes, interest and charges); lienholders, then the former owner, claim it.",
+        "**Surplus**: **Tyler v. Hennepin County (2023)** held that keeping more than the tax debt is a taking.",
+        "New York's 2024 law makes the district pay any surplus into court (RPTL §§1196–1197). Lienholders, then the former owner, claim it.",
+        "The surplus is the public-sale price (or full value, if not sold publicly) minus taxes, interest and charges.",
         "**Tax lien sale** (NYC and some other places): an investor buys the right to collect the taxes plus interest. It isn't a transfer of title: the owner keeps title and can pay off the lien until a later foreclosure.",
         "**Agent duty**: confirm taxes are current and flag liens or pending tax sales early; delinquent taxes are paid from the seller's proceeds."
       ]
@@ -598,14 +651,19 @@
       "heading": "Transfer taxes and mortgage recording tax",
       "intro": "Transfer taxes are figured on the price; the mortgage recording tax on the loan.",
       "points": [
-        "**NYS transfer tax** (Tax Law §1402): **$2 per $500 or fraction** (about 0.4%) above $500 of consideration; round partial units up. The **seller** pays; if the seller doesn't or is exempt, the **buyer** must. It's reported on **Form TP-584**, due within 15 days of the deed's delivery.",
-        "**Mansion tax** (§1402-a): **1% of the entire price** when a residence (1–3 family house, condo or co-op unit) sells for **$1,000,000 or more**, paid by the **buyer**; exactly $1,000,000 owes $10,000.",
+        "**NYS transfer tax**: **$2 per $500 or fraction** (about 0.4%) above $500 of consideration. Round partial units up (Tax Law §1402).",
+        "The seller pays the transfer tax; if the seller doesn't or is exempt, the buyer must. It's reported on Form TP-584, due within 15 days of the deed's delivery.",
+        "**Mansion tax**: the buyer pays **1% of the entire price** when a residence (1–3 family house, condo or co-op unit) sells for $1,000,000 or more. Exactly $1,000,000 owes $10,000 (§1402-a).",
         "**NYC extras** (since July 1, 2019): the state base rate is 0.65% for NYC residences of $3 million+ and other NYC property of $2 million+ (seller); NYC residences of $2 million+ owe a **supplemental mansion tax** of 0.25% to 2.9% (buyer).",
-        "**NYC RPTT**: on NYC transfers over $25,000. Residential: **1%** at $500,000 or less, **1.425% of the whole price** above; other property 1.425% or 2.625%. The seller normally pays, on top of the state tax.",
+        "**NYC RPTT** applies to NYC transfers over $25,000. Residential: 1% at $500,000 or less; **1.425% of the whole price** above. Other property: 1.425% or 2.625%.",
+        "The seller normally pays the NYC RPTT, on top of the state tax.",
         "No state transfer tax on gifts, inheritances, deeds that only secure a debt, or correction deeds. Co-op sales are taxed; a co-op **flip tax** is a private building fee. Some localities (Yonkers, the Peconic Bay towns) add their own transfer taxes.",
-        "**Mortgage recording tax** (Tax Law Article 11) is on the recorded **loan**, per $100 (a remainder over $50 counts as $100); cash buyers pay none. It combines a basic 0.50%, a special additional 0.25% (paid by the **lender** on 1–6 family homes), an additional 0.25% (0.30% in the NYC-area commuter counties), with the first $10,000 of a 1–2 family loan excluded from it, and local taxes in NYC, Yonkers and some counties.",
+        "**Mortgage recording tax** is on the recorded **loan**, per $100; a remainder over $50 counts as $100. Cash buyers pay none (Tax Law Article 11).",
+        "Its parts: a basic 0.50%; a special additional 0.25%, paid by the lender on 1–6 family homes; and an additional 0.25% (0.30% in the NYC-area commuter counties).",
+        "The first $10,000 of a 1–2 family loan is excluded from the additional tax. NYC, Yonkers and some counties add local taxes.",
         "Suburban commuter counties typically total 1.05%; NYC borrowers pay 1.8% on 1–3 family or condo loans under $500,000 and 1.925% at $500,000 or more. Exam problems usually just multiply the loan by a given rate.",
-        "**Co-op share loans** pay none (no real property mortgage is recorded). A **CEMA** assigns the old mortgage to the new lender so only the **new money** is taxed (Tax Law §255)."
+        "**Co-op share loans** pay none, because no real property mortgage is recorded.",
+        "A **CEMA** assigns the old mortgage to the new lender, so only the new money is taxed (Tax Law §255)."
       ],
       "table": {
         "head": [
@@ -652,9 +710,10 @@
         "steps": [
           "A Brooklyn condo sells for $1,200,000; the buyer records a $900,000 mortgage at a stated borrower rate of 1.925%.",
           "Step 1: NYS transfer tax = 2,400 units × $2 = $4,800 (seller).",
-          "Step 2: NYC RPTT = 1.425% × $1,200,000 = $17,100 (seller); mansion tax = $12,000 (buyer). The NYC supplemental tax starts at $2,000,000.",
-          "Step 3: Mortgage tax = $900,000 × 1.925% = $17,325 (buyer); taxing the price is the trap.",
-          "Step 4: A later CEMA refinance from a $700,000 balance to $800,000 taxes only the $100,000 of new money.",
+          "Step 2: NYC RPTT = 1.425% × $1,200,000 = $17,100 (seller).",
+          "Step 3: Mansion tax = 1% × $1,200,000 = $12,000 (buyer). The NYC supplemental tax starts at $2,000,000.",
+          "Step 4: Mortgage tax = $900,000 × 1.925% = $17,325 (buyer); taxing the price is the trap.",
+          "Step 5: A later CEMA refinance from a $700,000 balance to $800,000 taxes only the $100,000 of new money.",
           "Answer: seller $21,900; buyer $29,325."
         ]
       }
@@ -666,8 +725,11 @@
         "Mortgage interest and property taxes are **itemized deductions**, useful only when itemizing beats the **standard deduction**.",
         "**Acquisition debt** (to buy, build or substantially improve the main home or one second home): interest on up to **$750,000** is deductible for loans after December 15, 2017 ($1,000,000 for older loans). The 2025 federal tax law (P.L. 119-21) made $750,000 permanent.",
         "**Home equity** interest qualifies only if the money buys, builds or substantially improves the home securing it, not credit cards, tuition or a car. A refinance stays acquisition debt up to the old balance plus improvement money; a home under construction qualifies for up to 24 months.",
-        "**Points** to buy a main home are generally deductible when paid (seller-paid points too, but they lower the buyer's basis); refinance points are spread over the loan. A **prepayment penalty** counts as interest. **Mortgage insurance premiums** are deductible again from 2026, phased out between $100,000 and $109,000 of AGI.",
-        "The **SALT cap** covers property taxes plus state and local income (or sales) taxes: $10,000 for 2018–2024, then **$40,000** for 2025 and **$40,400** for 2026 (1% more yearly through 2029), cut by 30% of MAGI over $500,000 ($505,000 in 2026) but never below $10,000; back to $10,000 in 2030. Married filing separately: half.",
+        "**Points** to buy a main home are generally deductible when paid. Seller-paid points are too, but they lower the buyer's basis. Refinance points are spread over the loan.",
+        "A prepayment penalty counts as interest. **Mortgage insurance premiums** are deductible again from 2026, phased out between $100,000 and $109,000 of AGI.",
+        "The SALT cap covers property taxes plus state and local income (or sales) taxes. It was $10,000 for 2018–2024, then **$40,000** for 2025 and **$40,400** for 2026.",
+        "The SALT cap rises 1% yearly through 2029 and returns to $10,000 in 2030.",
+        "The cap is cut by 30% of MAGI over $500,000 ($505,000 in 2026), but never below $10,000. Married filing separately: half.",
         "Sale year: the seller deducts taxes through the day before closing, the buyer from closing on, whoever paid the town; a buyer's proration credit counts as the buyer paying.",
         "**Not deductible**: principal, homeowners insurance, HOA or condo charges, utilities, repairs, personal-home depreciation, transfer taxes and special assessments (the last two adjust basis or the amount realized).",
         "Co-op owners deduct their share of building interest and taxes paid through maintenance (IRC §216). New York allows itemizing on the state return without itemizing federally.",
@@ -679,7 +741,8 @@
         "steps": [
           "The seller paid the $7,300 calendar-year town tax in January. Closing is April 1 (not a leap year); the buyer owns the closing day.",
           "Step 1: $7,300 ÷ 365 = $20 a day.",
-          "Step 2: Seller: January 1–March 31 = 90 days = $1,800. Buyer: April 1–December 31 = 275 days = $5,500, credited to the seller.",
+          "Step 2: Seller: January 1–March 31 = 90 days = $1,800.",
+          "Step 3: Buyer: April 1–December 31 = 275 days = $5,500, credited to the seller.",
           "Answer: each deducts its own share (if itemizing), though the seller paid the town."
         ]
       }
@@ -689,13 +752,18 @@
       "intro": "Gain is measured against adjusted basis, not the price or the mortgage. The Taxpayer Relief Act of 1997 created today's exclusion.",
       "points": [
         "**Basis** = price + capitalized purchase costs (owner's title insurance, recording and legal fees, survey, buyer-paid transfer tax, seller's back taxes the buyer paid). Loan costs and insurance premiums aren't added.",
-        "**Adjusted basis** = basis + **capital improvements** − depreciation. An improvement adds value, extends life or adapts the property (addition, new roof, central air, garage, sidewalk assessment); a **repair** (painting, fixing a leak) doesn't count.",
+        "**Adjusted basis** = basis + **capital improvements** − depreciation. An improvement adds value, extends life or adapts the property (addition, new roof, central air, garage, sidewalk assessment); a repair (painting, fixing a leak) doesn't count.",
         "**Amount realized** = price − selling costs (commission, legal fees, seller-paid transfer tax, which isn't deductible); **gain** = amount realized − adjusted basis. A mortgage payoff changes cash, not gain.",
-        "**§121**: exclude up to **$250,000** ($500,000 joint) if the seller **owned** and **used** the home as a main home **2 of the 5 years** before the sale; the months needn't be consecutive or the same for both tests. Usable **once every 2 years**, at any age, with no reinvestment; the age-55 one-time exclusion and rollover ended in 1997.",
+        "**§121**: exclude up to $250,000 ($500,000 joint) if the seller owned and used the home as a main home **2 of the 5 years** before the sale.",
+        "The months needn't be consecutive or the same for both tests.",
+        "The exclusion is usable once every 2 years, at any age, with no reinvestment. The age-55 one-time exclusion and rollover ended in 1997.",
         "**Joint**: either spouse may meet ownership, but **both** must meet use and neither may have used the exclusion in the prior 2 years; otherwise each qualifying spouse gets up to $250,000. An unmarried surviving spouse keeps $500,000 for a sale within 2 years of the death.",
         "**Reduced exclusion** (job change, health, unforeseen circumstances): maximum × qualifying months ÷ 24.",
-        "Not excluded: gain equal to depreciation taken after May 6, 1997 (home office, rental), gain allocated to post-2008 rental use before the home became the main home, and gain on a home acquired by 1031 exchange and sold within 5 years. A **loss** on a personal home isn't deductible; an investment capital loss offsets gains plus $3,000 a year of other income.",
-        "**Inherited** property gets a **stepped-up basis** (value at death) and is automatically long-term; a **gift** keeps the donor's **carryover basis**. **Long-term** gain (held more than 1 year) is taxed at 0%, 15% or 20%; short-term at ordinary rates."
+        "Not excluded: gain equal to depreciation taken after May 6, 1997 (home office, rental).",
+        "Also not excluded: gain allocated to post-2008 rental use before the home became the main home, and gain on a home acquired by 1031 exchange and sold within 5 years.",
+        "A **loss** on a personal home isn't deductible. An investment capital loss offsets gains plus $3,000 a year of other income.",
+        "**Inherited** property gets a **stepped-up basis** (value at death) and is automatically long-term. A gift keeps the donor's carryover basis.",
+        "**Long-term** gain (held more than 1 year) is taxed at 0%, 15% or 20%; short-term at ordinary rates."
       ],
       "example": {
         "title": "Worked example: gain and the exclusion",
@@ -703,7 +771,8 @@
           "A single owner paid $310,000 plus $4,000 of title, recording and legal costs, added a $40,000 kitchen and $16,000 roof, and spent $5,000 repainting. Seven years later she sold for $720,000 with $42,000 of selling costs, paying off a $200,000 mortgage.",
           "Step 1: Adjusted basis = $310,000 + $4,000 + $40,000 + $16,000 = $370,000 (painting excluded).",
           "Step 2: Gain = ($720,000 − $42,000) − $370,000 = $308,000; the mortgage plays no part.",
-          "Step 3: She meets the 2-of-5 tests: $308,000 − $250,000 = $58,000 taxable long-term gain. A qualifying married couple filing jointly would owe nothing."
+          "Step 3: She meets the 2-of-5 tests: $308,000 − $250,000 = $58,000.",
+          "Answer: $58,000 of taxable long-term gain. A qualifying married couple filing jointly would owe nothing."
         ]
       }
     },
@@ -711,10 +780,14 @@
       "heading": "Investment property: depreciation, taxable income, and sale",
       "intro": "Rentals are taxed like a business: rent is income; expenses and depreciation are deductions; and depreciation lowers basis, raising the gain at sale.",
       "points": [
-        "Income types: **active** (wages, commissions, a business the owner materially runs), **passive** (rentals, businesses without material participation), **portfolio** (interest, dividends, securities gains). Passive losses generally offset only passive income and carry forward until sale.",
+        "Three income types: **active** (wages, commissions, a business the owner materially runs), **passive** (rentals, businesses without material participation) and portfolio (interest, dividends, securities gains).",
+        "Passive losses generally offset only passive income and carry forward until sale.",
         "Exceptions: an actively participating landlord may deduct up to **$25,000** of rental losses, phased out between $100,000 and $150,000 of income; an IRS **real estate professional** (750+ hours and over half of working time in real estate, materially participating) isn't limited. A license alone doesn't qualify.",
-        "**Depreciation**: a yearly deduction for buildings and improvements used in business or held for income; **land** and a **personal residence** never qualify. Straight-line: **27.5 years** residential rental (80%+ of rents from dwelling units, so an 85% apartment building qualifies in full), **39 years** nonresidential, on cost − land; exam problems ignore the partial first year.",
-        "Depreciation is a non-cash **tax shelter**, lowering taxable income and basis even as the building appreciates. **Taxable income** = NOI − interest − depreciation (principal isn't deductible); **after-tax cash flow** = NOI − debt service − tax.",
+        "**Depreciation** is a yearly deduction for buildings and improvements used in business or held for income. Land and a personal residence never qualify.",
+        "Straight-line, on cost − land: **27.5 years** for residential rental, **39 years** nonresidential. Exam problems ignore the partial first year.",
+        "Residential rental means 80%+ of rents from dwelling units, so an 85% apartment building qualifies in full.",
+        "Depreciation is a non-cash **tax shelter**, lowering taxable income and basis even as the building appreciates.",
+        "**Taxable income** = NOI − interest − depreciation; principal isn't deductible. **After-tax cash flow** = NOI − debt service − tax.",
         "At a sale, gain equal to past depreciation (**unrecaptured §1250 gain**, the recapture portion) is taxed at up to **25%**; the rest is long-term capital gain.",
         "**Installment sale** (seller financing): gain is reported as principal arrives, at principal × (gross profit ÷ contract price); interest is ordinary income.",
         "**LIHTC**: federal low-income housing credits, allocated by housing agencies, cut tax dollar for dollar over 10 years, with a 15-year compliance period."
@@ -724,8 +797,12 @@
         "steps": [
           "A rental duplex costs $520,000, including $107,500 of land. NOI is $40,000; interest $20,000; principal $6,000; 24% bracket.",
           "Step 1: Depreciation = ($520,000 − $107,500) ÷ 27.5 = $15,000 (not $18,909 on the full cost).",
-          "Step 2: Taxable income = $40,000 − $20,000 − $15,000 = $5,000; tax $1,200. After-tax cash flow = $40,000 − $26,000 − $1,200 = $12,800.",
-          "Step 3: After 8 years, basis = $520,000 − $120,000 = $400,000; a $640,000 net sale gains $240,000: $120,000 (the depreciation) taxed at up to 25%, $120,000 as long-term capital gain."
+          "Step 2: Taxable income = $40,000 − $20,000 − $15,000 = $5,000.",
+          "Step 3: Tax = $5,000 × 24% = $1,200.",
+          "Step 4: After-tax cash flow = $40,000 − $26,000 debt service − $1,200 = $12,800.",
+          "Step 5: After 8 years, basis = $520,000 − $120,000 = $400,000.",
+          "Step 6: A $640,000 net sale gains $640,000 − $400,000 = $240,000.",
+          "Answer: $120,000 (the depreciation) is taxed at up to 25%; $120,000 is long-term capital gain."
         ]
       }
     },
@@ -736,7 +813,8 @@
         "**Eligible**: real property held for business or investment, exchanged for like-kind real property held the same way; since 2018, only real property.",
         "**Like-kind** is broad: rental houses, apartments, offices, industrial buildings, hotels and investment land are interchangeable, and a leasehold with 30+ years left is like-kind to ownership. U.S. and foreign property aren't.",
         "**Not eligible**: a personal or personally used vacation home, dealer property (a builder's lots, a flipper's houses), stocks and partnership interests.",
-        "**Deadlines**: identify in writing within **45 days**; acquire within **180 days** or by the return due date (with extensions), if earlier. Both run from the sale, concurrently, with no weekend extension. Identify up to three properties (more under the 200% rule).",
+        "**Deadlines**: identify in writing within **45 days**. Acquire within 180 days or by the return due date (with extensions), if earlier.",
+        "Both deadlines run from the sale, concurrently, with no weekend extension. Identify up to three properties, or more under the 200% rule.",
         "A **qualified intermediary** holds the proceeds; if the investor receives the cash, the exchange fails. The investor's agent, attorney or broker within the past 2 years can't serve; there's no advance IRS approval.",
         "**Boot** = cash, other property or **net debt relief**; recognized gain = the lesser of boot or realized gain. Full deferral needs equal or greater value, all equity reinvested, and debt replaced or offset with cash.",
         "**New basis** = replacement cost − deferred gain. In a **reverse exchange** the replacement is bought first and parked with an accommodation titleholder, under the same deadlines."
@@ -780,8 +858,9 @@
         "steps": [
           "A building with a $300,000 adjusted basis closes October 2, 2026 for $800,000 net; the investor buys a $750,000 replacement and keeps $50,000.",
           "Step 1: Identify by November 16, 2026; acquire by March 31, 2027, before the April 15 return due date.",
-          "Step 2: Gain = $500,000; the $50,000 boot is taxed now and $450,000 deferred.",
-          "Step 3: New basis = $750,000 − $450,000 = $300,000."
+          "Step 2: Gain = $800,000 − $300,000 = $500,000.",
+          "Step 3: The $50,000 boot is taxed now; $450,000 is deferred.",
+          "Answer: new basis = $750,000 − $450,000 = $300,000."
         ]
       }
     },
@@ -789,8 +868,10 @@
       "heading": "FIRPTA and nonresident sellers",
       "intro": "Two rules can cut a seller's cash at a New York closing: FIRPTA for foreign sellers and NY estimated tax for nonresidents. A foreign seller can face both.",
       "points": [
-        "**FIRPTA** (IRC §1445): when a **foreign person** sells U.S. real property, the **buyer** withholds **15% of the amount realized** (gross price, not gain) and remits it on Forms 8288 and 8288-A within **20 days**; a buyer who fails to withhold can be liable.",
-        "**Residence exceptions**, if an individual buyer plans to live there at least half the days it's used in each of the first two years: **none** at $300,000 or less; **10%** at $300,001–$1,000,000. Any other foreign-seller sale: 15%.",
+        "**FIRPTA**: when a foreign person sells U.S. real property, the buyer withholds **15% of the amount realized**, meaning the gross price, not the gain (IRC §1445).",
+        "The buyer remits it on Forms 8288 and 8288-A within 20 days. A buyer who fails to withhold can be liable.",
+        "Residence exceptions apply if an individual buyer plans to live there at least half the days it's used in each of the first two years.",
+        "Under those exceptions: **none** at $300,000 or less; **10%** at $300,001–$1,000,000. Any other foreign-seller sale: 15%.",
         "A U.S. seller's **certification of non-foreign status** ends the duty. A foreign seller can seek an IRS withholding certificate for less; withholding is credited against the actual tax.",
         "**NY nonresident sellers** (individuals, estates and trusts, foreign sellers included) pay estimated NY tax on the gain at closing on **Form IT-2663** (IT-2664 for co-ops), filed with the TP-584; the clerk won't record the deed without it. It's the seller's payment, not withholding, and a fully qualifying §121 sale is exempt.",
         "**Agent duty**: ask early whether the seller is foreign or a nonresident."
@@ -800,7 +881,9 @@
         "steps": [
           "A foreign individual sells a condo for $650,000.",
           "Step 1: To an investor: 15% × $650,000 = $97,500.",
-          "Step 2: To a buyer who will live there: 10% = $65,000; at $290,000, nothing. Taking 15% of the gain is the trap."
+          "Step 2: To a buyer who will live there: 10% × $650,000 = $65,000.",
+          "Step 3: At $290,000, such a sale owes nothing.",
+          "Answer: $97,500 to an investor; $65,000 to an occupying buyer. Taking 15% of the gain is the trap."
         ]
       }
     }

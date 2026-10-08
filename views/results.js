@@ -9,7 +9,7 @@ function vResults(id) {
   const gap = Math.abs(h.correct - Math.ceil((pct(PASS) * h.total) / 100)); // correct answers away from the pass line
   const topics = Object.entries(h.byTopic).sort(([, a], [, b]) => a.c / a.t - b.c / b.t || b.t - a.t);
   return {
-    top: header('Results', { sub: `${h.title}, ${h.mode === 'exam' ? 'exam' : 'study'} mode` }),
+    top: header('Results', { sub: `${h.title}, ${h.mode === 'exam' ? 'exam' : 'study'} mode`, back: ['#/history', 'Stats'] }),
     main: `
     <div class="rs-side"><section class="sheet rs-hero ${h.passed ? 'pass' : 'fail'}">
       <div class="rs-top"><p class="rs-score num" id="score">${pct(h.score)}%</p><span class="badge big ${h.passed ? 'ok' : 'bad'}" id="verdict">${h.passed ? 'PASS' : 'FAIL'}</span></div>

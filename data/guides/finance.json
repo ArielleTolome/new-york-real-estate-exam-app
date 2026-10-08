@@ -1,23 +1,23 @@
 {
   "topic": "finance",
   "title": "Real Estate Finance",
-  "overview": "Finance covers the note and mortgage, mortgage clauses, lien priority, New York's court-run foreclosure and deficiency rules, the lenders and secondary-market agencies, loan types and payment plans, mortgage insurance, ARMs, points and APR, the federal lending laws, underwriting ratios, and predatory lending. The syllabus gives it 5 of the 77 hours plus 1 hour of mortgage brokerage (course hours are not official exam weights), and it supplies many of the exam's calculations. The big themes: the mortgagor is the borrower, points are figured on the loan amount, LTV divides the loan by the lower of price or appraisal, a New York mortgage foreclosure goes through court, and each consumer law has its own job and deadline.",
+  "overview": "Covers the note and mortgage, lien priority, New York foreclosure and deficiency rules, lenders and the secondary market, loan types, mortgage insurance, adjustable-rate mortgages (ARMs), points and APR, lending laws, underwriting, and predatory lending. The exam's favorite ideas: the **mortgagor** is the borrower, **points** are figured on the loan amount, and New York foreclosure goes through **court**.",
   "cram": {
     "numbers": [
       { "value": "1 point = 1%", "label": "Of the loan amount, never the purchase price" },
       { "value": "80% LTV", "label": "Conventional loans above this (less than 20% down) usually require PMI" },
       { "value": "80%", "label": "PMI: borrower may request cancellation when the balance reaches this share of original value" },
-      { "value": "78%", "label": "PMI ends automatically when the balance is scheduled to reach this share (loan midpoint at the latest)" },
+      { "value": "78%", "label": "Scheduled share of original value at which PMI ends automatically (midpoint at latest)" },
       { "value": "3.5%", "label": "FHA minimum down payment with a 580+ credit score (10% for scores of 500–579)" },
-      { "value": "Life of loan", "label": "FHA annual MIP with under 10% down (11 years with 10% or more), loans since June 3, 2013" },
+      { "value": "Life of loan", "label": "Annual FHA MIP under 10% down; 11 years at 10%+ (since June 3, 2013)" },
       { "value": "$0 down", "label": "VA loan with full entitlement when the price does not exceed the appraised value" },
       { "value": "62", "label": "Minimum age for an FHA reverse mortgage (HECM)" },
       { "value": "28% / 36%", "label": "Traditional conventional ratios: housing (front-end) / total debt (back-end)" },
       { "value": "3 business days", "label": "Loan Estimate after application; Closing Disclosure before consummation; TILA rescission period" },
-      { "value": "90 days", "label": "RPAPL §1304 pre-foreclosure notice must precede a NY home-loan foreclosure filing" },
-      { "value": "60 days", "label": "CPLR 3408 settlement conference, measured from the filing of proof of service" },
+      { "value": "90 days", "label": "Pre-foreclosure notice before a NY home-loan foreclosure filing (RPAPL §1304)" },
+      { "value": "60 days", "label": "Settlement conference, counted from the filing of proof of service (CPLR 3408)" },
       { "value": "3 years", "label": "Life of a notice of pendency (lis pendens) unless extended" },
-      { "value": "90 days", "label": "Deadline to move for a deficiency judgment after the referee's deed is delivered (RPAPL §1371)" },
+      { "value": "90 days", "label": "Deadline to seek a deficiency judgment after delivery of the referee's deed (RPAPL §1371)" },
       { "value": "30 days", "label": "Lender must present the satisfaction of mortgage for recording after payoff (RPL §275)" },
       { "value": "30 days", "label": "ECOA: notice of action taken on a completed credit application" },
       { "value": "2% after 15 days", "label": "NY late-charge cap on owner-occupied 1–6 family and co-op loans (FHA and VA excepted)" },
@@ -28,20 +28,24 @@
       "**Mortgagor** = the borrower, who gives the mortgage; **mortgagee** = the lender, who receives it.",
       "New York is a **lien-theory** state: the borrower keeps title and possession until a foreclosure sale.",
       "Mortgagor duties: pay the debt, pay **taxes and assessments**, keep the property **insured**, and keep it in repair.",
-      "**Acceleration** = whole balance due on default; **alienation (due-on-sale)** = loan callable on transfer; **escalation** = the rate goes up.",
-      "**Defeasance** ends the lien at payoff; a New York lender must present the **satisfaction** for recording within **30 days**.",
+      "**Acceleration** = whole balance due on default; **escalation** = the rate goes up.",
+      "**Alienation (due-on-sale)** = the loan is callable on transfer.",
+      "**Defeasance** ends the lien at payoff; a New York lender must present the satisfaction for recording within **30 days**.",
       "Recording order sets priority under New York's **race-notice** act, but **real property tax liens** come first regardless of date.",
       "A foreclosure cuts off properly joined **junior** liens but never affects a **senior** lien.",
-      "**Subject to**: the buyer is not personally liable. **Assumption**: the buyer is primarily liable and the seller secondarily liable unless there is a **novation** or release.",
-      "New York mortgage foreclosure is **judicial**: 90-day notice, lawsuit and lis pendens, settlement conference, judgment of foreclosure and sale, auction by a **referee**. A co-op share loan is the exception (nonjudicial UCC sale).",
+      "**Subject to**: the buyer is not personally liable.",
+      "**Assumption**: the buyer is primarily liable and the seller secondarily liable, unless there is a novation or release.",
+      "New York mortgage foreclosure is **judicial**: 90-day notice, lawsuit and lis pendens, settlement conference, judgment of foreclosure and sale, then auction by a **referee**.",
+      "A co-op share loan is the exception to judicial foreclosure: the lender uses a nonjudicial UCC sale.",
       "The **equity of redemption** lasts until the sale; New York has **no statutory redemption** after it.",
       "NY deficiency = debt minus the **higher** of the sale price or fair market value; the motion is due within **90 days** of delivery of the referee's deed.",
       "The **primary market** originates loans; the **secondary market** (Fannie Mae, Freddie Mac) buys them so lenders can lend again.",
       "**Ginnie Mae** (inside HUD) guarantees securities backed by FHA, VA, and USDA loans; it does not buy loans.",
       "A **mortgage broker** arranges loans with other lenders' money; a **mortgage banker** funds and closes loans in its own name.",
-      "**Conventional** = no government insurance or guarantee; **conforming** = meets Fannie/Freddie rules; **jumbo** = above the conforming loan limit.",
+      "**Conventional** = no government insurance or guarantee.",
+      "**Conforming** = meets Fannie/Freddie rules; **jumbo** = above the conforming loan limit.",
       "**FHA insures** (borrower pays MIP) and **VA guarantees** (borrower pays a funding fee); private lenders make the loans, and neither program uses PMI.",
-      "**PMI** protects the lender: request cancellation at **80%** of original value, automatic at **78%**; original value = the lower of price or appraisal.",
+      "PMI protects the lender: request cancellation at **80%** of original value, automatic at **78%**; original value = the lower of price or appraisal.",
       "**SONYMA** (State of New York Mortgage Agency) uses tax-exempt bond money for below-market loans, mainly to first-time buyers.",
       "ARM rate = **index + margin**, then apply the periodic and lifetime **caps**; the margin never changes.",
       "A **payment cap** can cause **negative amortization** when the payment does not cover the interest due.",
@@ -49,24 +53,24 @@
       "TRID: **Loan Estimate** within 3 business days after application; **Closing Disclosure** received at least 3 business days before consummation.",
       "TILA **rescission** (3 business days) covers refinances (only the new money if the same lender refinances) and equity loans on a principal residence, never the loan used to buy the home.",
       "Ad **triggering terms** (down payment, number of payments or term, payment amount, finance charge) require the down payment, repayment terms, and APR.",
-      "**ECOA** protects **marital status**, age, and **public-assistance income** as well as race, color, religion, national origin, and sex; decision notice within **30 days**.",
+      "ECOA protects **marital status**, age, and **public-assistance income** as well as race, color, religion, national origin, and sex; decision notice within 30 days.",
       "Maximum PITI = the **lower** of income × front-end ratio or income × back-end ratio − other monthly debts.",
       "**Subprime** is not illegal; lending is **predatory** when it uses abusive terms such as flipping, packing, hidden fees, or ignoring the ability to repay.",
-      "NY **Banking Law §6-l** (high-cost loans) bans flipping, financed single-premium credit insurance, and negative amortization, and requires a counseling notice."
+      "New York **high-cost home loans** may not include flipping, financed single-premium credit insurance, or negative amortization, and require a counseling notice (Banking Law §6-l)."
     ],
     "traps": [
       { "trap": "The mortgagor is the lender, since it holds the mortgage.", "truth": "The mortgagor is the borrower, who gives the mortgage; the lender receives it and is the mortgagee." },
       { "trap": "Points are figured on the purchase price.", "truth": "Points are a percentage of the loan amount: 2 points on a $300,000 loan cost $6,000, whatever the price." },
-      { "trap": "PMI drops off automatically at 80%.", "truth": "80% of original value is the borrower-request point; automatic termination is at 78% (or the loan's midpoint). FHA MIP follows separate rules and often lasts for the life of the loan." },
-      { "trap": "A New York deficiency is the debt minus the auction price.", "truth": "The borrower is credited with the higher of the sale price or the court-set fair market value, and the lender must move within 90 days of the referee's deed." },
-      { "trap": "After a subject-to or assumption sale, the buyer alone owes any deficiency.", "truth": "A subject-to buyer never promised to pay, so only the seller is liable. An assuming buyer is primarily liable, and the seller stays secondarily liable unless released by the lender or a novation." },
+      { "trap": "PMI drops off automatically at 80%.", "truth": "PMI ends automatically at 78% (or the loan's midpoint); 80% of original value is only the borrower-request point. FHA MIP follows separate rules and often lasts for the life of the loan." },
+      { "trap": "A New York deficiency is the debt minus the auction price.", "truth": "The deficiency is the debt minus the higher of the sale price or the court-set fair market value. The lender must move within 90 days of the referee's deed." },
+      { "trap": "After a subject-to or assumption sale, the buyer alone owes any deficiency.", "truth": "Subject to: only the seller is liable, because the buyer never promised to pay. Assumption: the buyer is primarily liable; the seller stays secondarily liable unless released by the lender or a novation." },
       { "trap": "New York owners can redeem the home after the foreclosure auction.", "truth": "The equity of redemption ends at the sale; New York has no post-sale statutory redemption period." },
       { "trap": "Add the ARM margin to the teaser rate or to last year's rate.", "truth": "Add the margin to the current index, then apply the periodic and lifetime caps; the lowest limit controls." },
-      { "trap": "A deed in lieu gives the lender the same clean title as a foreclosure.", "truth": "A deed in lieu is a voluntary transfer, so junior liens survive; a foreclosure cuts off junior liens that were joined." },
+      { "trap": "A deed in lieu gives the lender the same clean title as a foreclosure.", "truth": "Junior liens survive a deed in lieu, because it is a voluntary transfer. Only a foreclosure cuts off junior liens that were joined." },
       { "trap": "Every home loan carries a 3-day right to rescind.", "truth": "Rescission covers non-purchase loans secured by a principal residence, such as refinances and equity loans; the purchase mortgage is exempt." },
-      { "trap": "The Loan Estimate must arrive 3 business days before closing.", "truth": "That is the Closing Disclosure. The Loan Estimate is due within 3 business days after the application." },
-      { "trap": "A referral payment is legal under RESPA if it is disclosed or called a marketing fee.", "truth": "Anything of value given for referring settlement business is a kickback regardless of label or disclosure; only payment for services actually performed is allowed." },
-      { "trap": "A prequalification or preapproval means the loan is approved.", "truth": "Prequalification is unverified and preapproval is conditional; only the lender's written commitment approves the loan, and it still has conditions such as appraisal and title." }
+      { "trap": "The Loan Estimate must arrive 3 business days before closing.", "truth": "The Loan Estimate is due within 3 business days after the application. The 3-days-before-closing rule is for the Closing Disclosure." },
+      { "trap": "A referral payment is legal under RESPA if it is disclosed or called a marketing fee.", "truth": "Anything of value given for referring settlement business is a kickback, whatever the label or disclosure; only payment for services actually performed is allowed." },
+      { "trap": "A prequalification or preapproval means the loan is approved.", "truth": "Only the lender's written commitment approves the loan, and it still has conditions such as appraisal and title. Prequalification is unverified; preapproval is conditional." }
     ],
     "mnemonics": [
       { "name": "-OR gives, -EE receives", "meaning": "Mortgagor (borrower) gives the mortgage; mortgagee (lender) receives it, like grantor/grantee and lessor/lessee." },
@@ -94,14 +98,20 @@
   "sections": [
     {
       "heading": "Note, mortgage, and New York's lien theory",
-      "intro": "Every home loan uses two documents with two different jobs, and exam questions love to swap them.",
+      "intro": "Every home loan uses two documents with two different jobs. Exam questions love to swap them.",
       "points": [
-        "The **promissory note** (often called a **bond** in New York) is the borrower's personal promise to repay. The **mortgage** is the **security instrument** that pledges the property and creates a voluntary, specific **lien**; without it the debt is unsecured, so the lender can sue on the note but cannot foreclose.",
-        "The borrower gives the mortgage and is the **mortgagor**; the lender receives it and is the **mortgagee**. Pledging property as collateral while keeping possession is **hypothecation**.",
-        "New York is a **lien-theory** state: the mortgagor keeps title and possession, and the lender holds only a lien until a foreclosure sale. A **deed of trust**, used in many other states, gives bare title to a trustee and is not New York's standard instrument.",
-        "The mortgagor must pay the debt, pay **taxes and assessments**, keep the property **insured**, and keep it in **repair**. Breaking any of these duties is a **default**, not just missing payments.",
-        "Lenders usually collect taxes and insurance monthly in an **escrow account**, making the payment **PITI**. Mortgage interest is paid **in arrears**: the payment due on the 1st covers the prior month's interest.",
-        "**Usury** is charging more than the legal maximum rate. In New York, 16% is the civil ceiling and over 25% is criminal usury, though federal law exempts most first-lien home loans made by institutional lenders."
+        "The **promissory note** (often called a bond in New York) is the borrower's personal promise to repay.",
+        "The **mortgage** is the security instrument that pledges the property and creates a voluntary, specific **lien**.",
+        "Without a mortgage the debt is unsecured: the lender can sue on the note but cannot foreclose.",
+        "The borrower gives the mortgage and is the **mortgagor**. The lender receives it and is the **mortgagee**.",
+        "**Hypothecation** is pledging property as collateral while keeping possession.",
+        "New York is a **lien-theory** state. The mortgagor keeps title and possession; the lender holds only a lien until a foreclosure sale.",
+        "A **deed of trust**, used in many other states, gives bare title to a trustee. It is not New York's standard instrument.",
+        "The mortgagor must pay the debt, pay taxes and assessments, keep the property insured, and keep it in repair. Breaking any of these duties is a **default**, not just missing payments.",
+        "Lenders usually collect taxes and insurance monthly in an **escrow account**, making the payment **PITI**.",
+        "Mortgage interest is paid **in arrears**: the payment due on the 1st covers the prior month's interest.",
+        "**Usury** is charging more than the legal maximum rate. In New York, 16% is the civil ceiling and over 25% is criminal usury.",
+        "Federal law exempts most first-lien home loans made by institutional lenders from usury limits."
       ],
       "table": {
         "head": ["Feature", "Note (bond)", "Mortgage"],
@@ -119,9 +129,12 @@
       "intro": "Questions usually describe what a clause does and ask for its name.",
       "points": [
         "Without an **acceleration clause**, the lender could sue only for installments already past due, one at a time.",
-        "The federal **Garn–St Germain Act** bars enforcing a **due-on-sale** clause on a home with fewer than five units for listed transfers, such as on the borrower's death, to a spouse or children, to a spouse under a divorce decree, or into the borrower's living trust.",
-        "**Prepayment penalties**: on a New York owner-occupied 1–6 family or co-op loan above 6% interest, a penalty is allowed only in the **first year** and only if the note says so (GOL §5-501). FHA, VA, and NY high-cost and subprime loans allow none; commercial loans often have them.",
-        "**Late charges** on owner-occupied 1–6 family and co-op loans: none until a payment is more than **15 days** late (the **grace period**), and never more than **2%** of the installment (RPL §254-b). FHA and VA loans are exempt from this cap."
+        "The federal **Garn–St Germain Act** bars enforcing a due-on-sale clause on a home with fewer than five units for listed transfers.",
+        "Protected transfers include the borrower's death, a transfer to a spouse or children, to a spouse under a divorce decree, or into the borrower's living trust.",
+        "**Prepayment penalties** on a New York owner-occupied 1–6 family or co-op loan above 6% interest are allowed only in the **first year**, and only if the note says so (GOL §5-501).",
+        "FHA, VA, and NY high-cost and subprime loans allow no prepayment penalty. Commercial loans often have them.",
+        "Late charges on owner-occupied 1–6 family and co-op loans start only after a payment is more than **15 days** late (the grace period). They never exceed **2%** of the installment (RPL §254-b).",
+        "FHA and VA loans are exempt from this late-charge cap."
       ],
       "table": {
         "head": ["Clause", "What it does", "Exam angle"],
@@ -141,30 +154,44 @@
       "heading": "Recording, lien priority, and payoff",
       "intro": "Priority decides who is paid first from a foreclosure sale, and recording is what fixes priority.",
       "points": [
-        "Recording with the county clerk (in most of NYC, the City Register) gives **constructive notice**. Under New York's **race-notice** act (RPL §291), a later good-faith lender without notice who records first outranks an earlier unrecorded mortgage.",
-        "Liens generally rank in recording order: the **first mortgage** is senior, while second mortgages and equity lines are **junior** and cost more because they are paid after senior liens. **Real property tax liens** outrank mortgages regardless of date.",
-        "A foreclosure wipes out junior liens whose holders were **joined as defendants** (they claim against any **surplus**) but never a **senior** lien, so a buyer at a second-mortgage foreclosure takes **subject to** the first.",
-        "A lender can sell the loan by **assignment** without changing the borrower's obligations. At payoff it must present a **satisfaction** for recording within **30 days**, and it owes the borrower $500, $1,000, or $1,500 if the satisfaction is not presented within 30, 60, or 90 days (RPL §275, RPAPL §1921).",
-        "New York's **mortgage recording tax** is based on the loan amount; a refinance done as a **CEMA** (consolidation, extension and modification agreement) is taxed only on new money. A co-op share loan is secured by shares, not a recorded mortgage, so it pays no mortgage tax."
+        "Recording gives **constructive notice**. Record with the county clerk or, in most of NYC, the City Register.",
+        "Under New York's **race-notice** act, a later good-faith lender without notice who records first outranks an earlier unrecorded mortgage (RPL §291).",
+        "Liens generally rank in recording order. The **first mortgage** is senior; second mortgages and equity lines are **junior**.",
+        "Junior liens cost more because they are paid after senior liens.",
+        "**Real property tax liens** outrank mortgages regardless of date.",
+        "A foreclosure wipes out junior liens whose holders were **joined as defendants**; they claim against any surplus.",
+        "A foreclosure never wipes out a **senior** lien, so a buyer at a second-mortgage foreclosure takes subject to the first.",
+        "A lender can sell the loan by **assignment** without changing the borrower's obligations.",
+        "At payoff the lender must present a **satisfaction** for recording within **30 days** (RPL §275).",
+        "If the satisfaction is not presented within 30, 60, or 90 days, the lender owes the borrower $500, $1,000, or $1,500 (RPL §275, RPAPL §1921).",
+        "New York's **mortgage recording tax** is based on the loan amount.",
+        "A refinance done as a **CEMA** (consolidation, extension and modification agreement) is taxed only on new money.",
+        "A co-op share loan is secured by shares, not a recorded mortgage, so it pays no mortgage tax."
       ],
       "example": {
         "title": "Worked example: distributing foreclosure proceeds",
         "steps": [
           "A referee's sale brings $500,000. Costs and referee fees are $15,000; the first mortgage is owed $310,000; a joined second mortgage $120,000; a judgment docketed after both $20,000.",
           "Step 1: Costs come off first: $500,000 − $15,000 = $485,000.",
-          "Step 2: Pay liens in priority order: $485,000 − $310,000 − $120,000 − $20,000 = $35,000.",
+          "Step 2: Pay the first mortgage: $485,000 − $310,000 = $175,000.",
+          "Step 3: Pay the second mortgage: $175,000 − $120,000 = $55,000.",
+          "Step 4: Pay the judgment: $55,000 − $20,000 = $35,000.",
           "Answer: the former owner receives the $35,000 surplus, last in line after every junior lien."
         ]
       }
     },
     {
       "heading": "Selling a property that has a mortgage",
-      "intro": "The syllabus names three ways to sell mortgaged property. The key question is who is personally liable if the loan later defaults.",
+      "intro": "There are three ways to sell mortgaged property. The key question is who is personally liable if the loan later defaults.",
       "points": [
-        "**Free and clear**: the seller's loan is paid off from the proceeds at closing and a satisfaction is recorded; this is the usual sale.",
-        "**Subject to the mortgage**: the buyer takes title and makes the payments but never promises to pay. The buyer can lose the property, but only the seller, who signed the note, owes a deficiency.",
-        "**Assumption**: the buyer agrees to pay and becomes **primarily liable**; the seller stays **secondarily liable** unless the lender grants a **release** or a **novation** (substituting the buyer as borrower). Lenders often charge an assumption fee on the balance.",
-        "Both methods can trigger the **due-on-sale clause**. FHA and VA loans can be assumed by a creditworthy buyer with approval; most conventional loans cannot."
+        "**Free and clear**: the seller's loan is paid off from the proceeds at closing and a satisfaction is recorded. This is the usual sale.",
+        "**Subject to the mortgage**: the buyer takes title and makes the payments but never promises to pay.",
+        "A subject-to buyer can lose the property, but only the seller, who signed the note, owes a deficiency.",
+        "**Assumption**: the buyer agrees to pay and becomes **primarily liable**.",
+        "After an assumption the seller stays **secondarily liable**, unless the lender grants a release or a **novation** (substituting the buyer as borrower).",
+        "Lenders often charge an assumption fee on the balance.",
+        "Subject-to sales and assumptions can both trigger the **due-on-sale clause**.",
+        "FHA and VA loans can be assumed by a creditworthy buyer with approval; most conventional loans cannot."
       ],
       "table": {
         "head": ["Method", "Old loan", "Buyer liable?", "Seller liable?"],
@@ -178,27 +205,37 @@
     },
     {
       "heading": "New York judicial foreclosure, step by step",
-      "intro": "New York lenders must sue to foreclose a mortgage; a default never lets them change the locks or sell without a court judgment.",
+      "intro": "New York lenders must sue to foreclose a mortgage. A default never lets them change the locks or sell without a court judgment.",
       "points": [
         "Step 1, **default**: the servicer reviews workout options. Federal servicing rules generally bar a foreclosure filing until the loan is more than **120 days** delinquent.",
-        "Step 2, the **90-day notice** (RPAPL §1304): mailed at least **90 days** before suit on a home loan, listing at least **five housing counseling agencies** serving the county, and reported to the Department of Financial Services (DFS) within 3 business days (§1306). A defective notice is a missing condition precedent, and the case can be dismissed.",
-        "Step 3, the **lawsuit**: a summons and complaint served with the **'Help for Homeowners in Foreclosure'** notice (RPAPL §1303), plus a **notice of pendency (lis pendens)** filed with the county clerk. The lis pendens gives constructive notice to later buyers and lenders and lasts **3 years** unless extended.",
-        "Step 4, the **settlement conference** (CPLR 3408): for owner-occupied home loans, within **60 days** after proof of service is filed. Both sides must negotiate in **good faith**, but the court imposes no deal.",
+        "Step 2, the **90-day notice**: mailed at least 90 days before suit on a home loan, listing at least five housing counseling agencies serving the county (RPAPL §1304).",
+        "The notice is reported to the Department of Financial Services (DFS) within 3 business days (RPAPL §1306).",
+        "A defective notice is a missing **condition precedent**, and the case can be dismissed.",
+        "Step 3, the **lawsuit**: a summons and complaint served with the 'Help for Homeowners in Foreclosure' notice (RPAPL §1303).",
+        "The lender also files a **notice of pendency (lis pendens)** with the county clerk. It gives constructive notice to later buyers and lenders and lasts **3 years** unless extended.",
+        "Step 4, the **settlement conference**: for owner-occupied home loans, held within **60 days** after proof of service is filed (CPLR 3408).",
+        "At the conference both sides must negotiate in **good faith**, but the court imposes no deal.",
         "Step 5, **judgment of foreclosure and sale**, after a court-appointed referee computes the amount due.",
-        "Step 6, the **sale**: after published notice, a court-appointed **referee** auctions the property and delivers a **referee's deed**, with no warranties. Proceeds pay costs, then liens in priority order, then the owner.",
-        "Step 7, **after the sale**: the lender may seek a deficiency, and residential tenants get notice and generally may stay at least 90 days or through their lease (RPAPL §1305).",
-        "Until the sale the borrower keeps the **equity of redemption**: paying the full debt, interest, and costs saves the home. There is **no statutory redemption** afterward. Vacant, abandoned homes in default must be maintained by the lender or servicer under the 2016 **zombie property law** (RPAPL §1308).",
-        "**Co-op exception**: a co-op loan is secured by shares and the proprietary lease, not a mortgage. After a 90-day notice (UCC §9-611(f)), the lender sells them in a **nonjudicial UCC sale**, with no foreclosure lawsuit or referee."
+        "Step 6, the **sale**: after published notice, a court-appointed **referee** auctions the property and delivers a referee's deed, with no warranties.",
+        "Sale proceeds pay costs, then liens in priority order, then the owner.",
+        "Step 7, **after the sale**: the lender may seek a deficiency. Residential tenants get notice and generally may stay at least 90 days or through their lease (RPAPL §1305).",
+        "Until the sale the borrower keeps the **equity of redemption**: paying the full debt, interest, and costs saves the home. There is **no statutory redemption** afterward.",
+        "The lender or servicer must maintain vacant, abandoned homes in default under the 2016 **zombie property law** (RPAPL §1308).",
+        "**Co-op exception**: a co-op loan is secured by shares and the proprietary lease, not a mortgage.",
+        "After a 90-day notice, the co-op lender sells the shares in a **nonjudicial** Uniform Commercial Code (UCC) sale, with no foreclosure lawsuit or referee (UCC §9-611(f))."
       ]
     },
     {
       "heading": "Deficiency judgments and alternatives to foreclosure",
-      "intro": "When the sale does not cover the debt, New York limits what the lender can collect personally, and several workouts can avoid foreclosure altogether.",
+      "intro": "When the sale does not cover the debt, New York limits what the lender can collect personally. Several workouts can avoid foreclosure altogether.",
       "points": [
         "A **deficiency judgment** is a personal judgment for the shortfall against anyone liable on the debt: the borrower, an assuming buyer, or a guarantor.",
-        "**RPAPL §1371** credits the borrower with the **higher** of the sale price or the court-determined **fair market value**, so a lender cannot buy cheaply at the auction and sue for an inflated balance.",
-        "The motion is due within **90 days** after the referee's deed is delivered; if the lender misses it, the sale proceeds count as **full satisfaction**.",
-        "A salesperson should not promise that a short sale forgives the shortfall; that depends on the lender's written terms, so refer the seller to a lawyer. Rescue firms may not collect fees until the owner signs an agreement with the lender (federal Regulation O), and New York distressed property consultants may not take fees before fully performing (RPL §265-b)."
+        "New York credits the borrower with the **higher** of the sale price or the court-determined **fair market value** (RPAPL §1371).",
+        "That rule stops a lender from buying cheaply at the auction and suing for an inflated balance.",
+        "The motion is due within **90 days** after the referee's deed is delivered. If the lender misses it, the sale proceeds count as **full satisfaction**.",
+        "Do not promise a seller that a short sale forgives the shortfall. That depends on the lender's written terms, so refer the seller to a lawyer.",
+        "Rescue firms may not collect fees until the owner signs an agreement with the lender (federal Regulation O).",
+        "New York distressed property consultants may not take fees before fully performing (RPL §265-b)."
       ],
       "table": {
         "head": ["Option", "What happens", "Watch for"],
@@ -225,10 +262,17 @@
       "intro": "The primary market makes loans; the secondary market buys them so lenders can lend again.",
       "points": [
         "**Primary market** lenders deal directly with borrowers: commercial banks, savings banks and savings and loan associations (thrifts), credit unions, mortgage bankers, and private lenders.",
-        "The **secondary market** buys loans and pools them into **mortgage-backed securities (MBS)**, replenishing lenders' funds. **Conforming** loans meet Fannie Mae and Freddie Mac rules, including the loan limit; a **jumbo** (nonconforming) loan exceeds it, which does not make it illegal or subprime.",
-        "**Fannie Mae** (FNMA) and **Freddie Mac** (FHLMC) are congressionally chartered **government-sponsored enterprises (GSEs)**, in Federal Housing Finance Agency conservatorship since 2008. **Ginnie Mae** (GNMA) is a government-owned corporation within the Department of Housing and Urban Development (**HUD**).",
-        "New York's DFS registers **mortgage brokers** and licenses **mortgage bankers** (Banking Law Article 12-D); individual **mortgage loan originators** need their own license through NMLS (Article 12-E). A real estate license alone does not authorize arranging residential mortgage loans.",
-        "A firm that is both the seller's real estate broker and the buyer's mortgage broker must disclose the dual role at its first substantive contact with the buyer, and the buyer and seller must sign the **mortgage broker dual agency disclosure** before mortgage services begin (3 NYCRR §38.12). Brokers also use a **pre-application disclosure and fee agreement**, and a **lender rebate** toward closing costs usually comes with a higher rate."
+        "The **secondary market** buys loans and pools them into **mortgage-backed securities (MBS)**, replenishing lenders' funds.",
+        "**Conforming** loans meet Fannie Mae and Freddie Mac rules, including the loan limit. A **jumbo** (nonconforming) loan exceeds the limit; that does not make it illegal or subprime.",
+        "Fannie Mae (FNMA) and Freddie Mac (FHLMC) are congressionally chartered **government-sponsored enterprises (GSEs)**. They have been in Federal Housing Finance Agency conservatorship since 2008.",
+        "**Ginnie Mae** (GNMA) is a government-owned corporation within the Department of Housing and Urban Development (HUD).",
+        "New York's Department of Financial Services (DFS) registers **mortgage brokers** and licenses **mortgage bankers** (Banking Law Article 12-D).",
+        "Individual mortgage loan originators need their own license through the Nationwide Multistate Licensing System, NMLS (Banking Law Article 12-E).",
+        "A real estate license alone does **not** authorize arranging residential mortgage loans.",
+        "A firm that is both the seller's real estate broker and the buyer's mortgage broker must disclose the dual role at its first substantive contact with the buyer.",
+        "The buyer and seller must sign the **mortgage broker dual agency disclosure** before mortgage services begin (3 NYCRR §38.12).",
+        "Mortgage brokers also use a **pre-application disclosure and fee agreement**.",
+        "A **lender rebate** toward closing costs usually comes with a higher rate."
       ],
       "table": {
         "head": ["Player", "Role", "Exam angle"],
@@ -246,12 +290,22 @@
       "heading": "Loan types and mortgage insurance",
       "intro": "Loans are first sorted by who backs them. Government backing and mortgage insurance protect the lender, not the borrower.",
       "points": [
-        "A **conventional** loan has no government insurance or guarantee. When the **loan-to-value (LTV)** ratio, loan ÷ value, exceeds 80%, the lender usually requires **private mortgage insurance (PMI)**, which the borrower pays to protect the lender.",
-        "Under the federal **Homeowners Protection Act**, a current borrower with a good payment history may request PMI cancellation in writing at **80%** of original value; it ends automatically when the balance is scheduled to reach **78%**, and no later than the loan's **midpoint**. **Original value** is the lower of price or appraisal (on a refinance, the appraisal). A rise in market value does not trigger HPA cancellation, although a lender or investor may allow removal based on a new appraisal.",
-        "**FHA** insures loans made by approved lenders: **3.5%** down with a 580+ score (10% at 500–579), an up-front **mortgage insurance premium (MIP)**, usually financed, and an annual MIP for the **life of the loan** if under 10% down (11 years with 10% or more). The HPA cancellation rules do not apply to MIP.",
-        "The **VA** guarantees part of loans to eligible veterans, service members, and some surviving spouses, shown by a **Certificate of Eligibility**. With full entitlement and a price no higher than the appraisal there is **no down payment** and no monthly mortgage insurance, only a one-time **funding fee**, waived for those receiving service-connected disability compensation. The home must be owner-occupied.",
-        "FHA and VA contracts include an **amendatory (escape) clause** letting the buyer cancel without losing the deposit if the appraisal is below the price, and neither allows prepayment penalties. USDA's **Rural Housing Service** makes or guarantees loans in eligible rural areas, often with no down payment.",
-        "**SONYMA**, the **State of New York Mortgage Agency** (part of NYS Homes and Community Renewal), sells tax-exempt bonds to fund below-market loans and down payment help through participating lenders. It generally serves **first-time buyers** (no primary home owned in the past 3 years), except in target areas or for qualified veterans, within income and price limits."
+        "A **conventional** loan has no government insurance or guarantee.",
+        "The **loan-to-value (LTV)** ratio is loan ÷ value. Above 80% LTV, the lender usually requires **private mortgage insurance (PMI)**, which the borrower pays to protect the lender.",
+        "Under the federal **Homeowners Protection Act (HPA)**, a current borrower with a good payment history may request PMI cancellation in writing at **80%** of original value.",
+        "PMI ends automatically when the balance is scheduled to reach **78%**, and no later than the loan's **midpoint**.",
+        "**Original value** is the lower of price or appraisal; on a refinance, it is the appraisal.",
+        "A rise in market value does not trigger HPA cancellation. A lender or investor may still allow removal based on a new appraisal.",
+        "**FHA** insures loans made by approved lenders. The minimum down payment is **3.5%** with a 580+ score, or 10% at 500–579.",
+        "FHA charges an up-front mortgage insurance premium (MIP), usually financed. The annual MIP lasts for the **life of the loan** if under 10% down, or 11 years with 10% or more.",
+        "The HPA cancellation rules do not apply to MIP.",
+        "The **VA** guarantees part of loans to eligible veterans, service members, and some surviving spouses, shown by a **Certificate of Eligibility**.",
+        "With full entitlement and a price no higher than the appraisal, a VA loan needs **no down payment** and no monthly mortgage insurance, only a one-time **funding fee**.",
+        "The VA funding fee is waived for those receiving service-connected disability compensation. The home must be owner-occupied.",
+        "FHA and VA contracts include an **amendatory (escape) clause**: the buyer may cancel without losing the deposit if the appraisal is below the price. Neither allows prepayment penalties.",
+        "USDA's **Rural Housing Service** makes or guarantees loans in eligible rural areas, often with no down payment.",
+        "The **State of New York Mortgage Agency (SONYMA)**, part of NYS Homes and Community Renewal, sells tax-exempt bonds to fund below-market loans and down payment help through participating lenders.",
+        "SONYMA generally serves **first-time buyers**: no primary home owned in the past 3 years. Exceptions apply in target areas and for qualified veterans. Income and price limits apply."
       ],
       "table": {
         "head": ["Loan", "Backing", "Down payment", "Mortgage insurance"],
@@ -278,9 +332,15 @@
       "heading": "Repayment plans and special-purpose loans",
       "intro": "Most questions describe a loan structure and ask for its name, so learn the one feature that defines each.",
       "points": [
-        "A **fully amortizing fixed-rate** loan has a level principal-and-interest (P&I) payment that retires the debt by maturity; early payments are mostly interest. A **straight (term) loan** is interest-only with all principal due at the end, and a **balloon** loan does not fully amortize, leaving a large final payment.",
-        "A **graduated payment mortgage** starts with low payments that rise on schedule and may negatively amortize early. A **pledged-account** mortgage draws on a pledged deposit to supplement the early payments. A **buydown** lowers the rate with points (permanent) or an up-front subsidy for the first years (temporary, such as 2-1).",
-        "A **construction loan** pays out in **draws**, charging interest only on money advanced, and is paid off by a permanent **takeout loan**. A **reverse mortgage** (FHA's Home Equity Conversion Mortgage, **HECM**, age **62+**) pays the owner from equity with no monthly loan payment; she keeps title but must pay taxes, insurance, and upkeep, and the loan comes due when the last borrower dies, sells, or moves out."
+        "A **fully amortizing fixed-rate** loan has a level principal-and-interest (P&I) payment that retires the debt by maturity. Early payments are mostly interest.",
+        "A **straight (term) loan** is interest-only, with all principal due at the end.",
+        "A **balloon** loan does not fully amortize, leaving a large final payment.",
+        "A **graduated payment mortgage** starts with low payments that rise on schedule and may negatively amortize early.",
+        "A **pledged-account** mortgage draws on a pledged deposit to supplement the early payments.",
+        "A **buydown** lowers the rate with points (permanent) or with an up-front subsidy for the first years (temporary, such as 2-1).",
+        "A **construction loan** pays out in draws, charging interest only on money advanced. A permanent **takeout loan** pays it off.",
+        "A **reverse mortgage** pays the owner from equity with no monthly loan payment. FHA's version is the Home Equity Conversion Mortgage (HECM), for owners aged **62+**.",
+        "A reverse-mortgage owner keeps title but must pay taxes, insurance, and upkeep. The loan comes due when the last borrower dies, sells, or moves out."
       ],
       "table": {
         "head": ["Loan", "Defining feature", "Exam clue"],
@@ -301,28 +361,38 @@
         "title": "Worked example: splitting the first two payments",
         "steps": [
           "A $320,000 loan for 30 years at 6% has a P&I payment of $1,918.56.",
-          "Step 1: Month 1 interest = $320,000 × 6% ÷ 12 = $1,600.00; principal = $1,918.56 − $1,600.00 = $318.56.",
-          "Step 2: New balance = $319,681.44; month 2 interest = $319,681.44 × 0.005 = $1,598.41; principal = $320.15.",
-          "Answer: interest falls and principal rises every month. Total interest over 30 years is about $1,918.56 × 360 − $320,000 = $370,682."
+          "Step 1: Month 1 interest = $320,000 × 6% ÷ 12 = $1,600.00.",
+          "Step 2: Month 1 principal = $1,918.56 − $1,600.00 = $318.56.",
+          "Step 3: New balance = $320,000 − $318.56 = $319,681.44.",
+          "Step 4: Month 2 interest = $319,681.44 × 0.005 = $1,598.41.",
+          "Step 5: Month 2 principal = $1,918.56 − $1,598.41 = $320.15.",
+          "Step 6: Total interest over 30 years is about $1,918.56 × 360 − $320,000 = $370,682.",
+          "Answer: interest falls and principal rises every month; total interest is about $370,682."
         ]
       }
     },
     {
       "heading": "Adjustable-rate mortgages",
-      "intro": "Lenders build expected **inflation** into rates; on a fixed-rate loan the lender bears the risk that rates rise, while an adjustable-rate mortgage (ARM) shifts that risk to the borrower. Every ARM question uses the index, margin, caps, and adjustment schedule.",
+      "intro": "Lenders build expected **inflation** into rates. On a fixed-rate loan the lender bears the risk that rates rise; an adjustable-rate mortgage (ARM) shifts that risk to the borrower. Every ARM question uses the index, margin, caps, and adjustment schedule.",
       "points": [
-        "The **index** is a published market rate the lender does not control, such as a Treasury yield or the Secured Overnight Financing Rate (**SOFR**), which replaced LIBOR. The **margin** is the lender's fixed markup and never changes.",
-        "**Fully indexed rate = index + margin.** A discounted **teaser** rate is not part of the formula; it simply expires.",
-        "**Caps**: an initial-adjustment cap, a **periodic cap** on each later change, and a **lifetime cap (ceiling)** over the initial rate, often written 2/2/5. A **payment cap** limits dollars, not the rate, so unpaid interest can be added to the balance: **negative amortization**.",
-        "A **5/1 ARM** is fixed for 5 years, then adjusts yearly; a 5/6 ARM adjusts every 6 months after year 5. Lenders give the CFPB's ARM booklet (CHARM) and program disclosures at application."
+        "The **index** is a published market rate the lender does not control, such as a Treasury yield or the Secured Overnight Financing Rate (SOFR). SOFR replaced the London Interbank Offered Rate (LIBOR).",
+        "The **margin** is the lender's fixed markup and never changes.",
+        "**Fully indexed rate = index + margin.** A discounted teaser rate is not part of the formula; it simply expires.",
+        "Caps come in three kinds: an initial-adjustment cap, a **periodic cap** on each later change, and a **lifetime cap (ceiling)** over the initial rate. They are often written 2/2/5.",
+        "A **payment cap** limits dollars, not the rate. Unpaid interest can then be added to the balance: **negative amortization**.",
+        "A **5/1 ARM** is fixed for 5 years, then adjusts yearly. A 5/6 ARM adjusts every 6 months after year 5.",
+        "Lenders give the Consumer Financial Protection Bureau (CFPB) ARM booklet (CHARM) and program disclosures at application."
       ],
       "example": {
         "title": "Worked example: applying the caps",
         "steps": [
           "An ARM starts at 4.75% with a 2.75% margin, a 2% periodic cap, and a 5% lifetime cap (ceiling 9.75%).",
-          "Adjustment 1: 4.20% index + 2.75% = 6.95%; the periodic cap allows only 6.75%. New rate 6.75%.",
-          "Adjustment 2: 5.10% + 2.75% = 7.85%; the cap allows up to 8.75%. New rate 7.85%.",
-          "Adjustment 3: 7.40% + 2.75% = 10.15%; the periodic cap allows 9.85%, but the ceiling is 9.75%. New rate 9.75%.",
+          "Adjustment 1: 4.20% index + 2.75% = 6.95%.",
+          "The periodic cap allows only 6.75%, so the new rate is 6.75%.",
+          "Adjustment 2: 5.10% + 2.75% = 7.85%.",
+          "The cap allows up to 8.75%, so the new rate is 7.85%.",
+          "Adjustment 3: 7.40% + 2.75% = 10.15%.",
+          "The periodic cap allows 9.85%, but the ceiling is 9.75%, so the new rate is 9.75%.",
           "Answer: compute index + margin first; the lowest applicable cap wins. Never add the margin to the old rate or the teaser rate."
         ]
       }
@@ -331,18 +401,25 @@
       "heading": "Points and APR",
       "intro": "Points and the annual percentage rate (APR) measure the cost of credit beyond the note rate.",
       "points": [
-        "One **point** equals **1% of the loan amount**. **Discount points** are prepaid interest that buy down the rate; **origination** points pay the lender for making the loan. Paying points makes sense only if the borrower keeps the loan past the break-even month.",
-        "The **APR** is the yearly cost of credit: the note rate plus prepaid **finance charges** such as points, origination and broker fees, and mortgage insurance. A loan with points therefore has an APR above its note rate.",
-        "For real estate loans, reasonable **appraisal**, **title**, **credit report**, and recording fees are **not** finance charges, and taxes, escrow deposits, and the down payment never enter the APR.",
-        "An APR increase of more than 1/8 of a percentage point after the Closing Disclosure (most loans) restarts the 3-business-day wait. Mortgage interest and purchase points may be tax-deductible (see the income tax chapter)."
+        "One **point** equals **1% of the loan amount**.",
+        "**Discount points** are prepaid interest that buy down the rate. **Origination** points pay the lender for making the loan.",
+        "Paying points makes sense only if the borrower keeps the loan past the break-even month.",
+        "The **APR** is the yearly cost of credit: the note rate plus prepaid **finance charges** such as points, origination and broker fees, and mortgage insurance.",
+        "A loan with points therefore has an APR above its note rate.",
+        "For real estate loans, reasonable appraisal, title, credit report, and recording fees are **not** finance charges.",
+        "Taxes, escrow deposits, and the down payment never enter the APR.",
+        "An APR increase of more than 1/8 of a percentage point after the Closing Disclosure (most loans) restarts the 3-business-day wait.",
+        "Mortgage interest and purchase points may be tax-deductible (see the income tax chapter)."
       ],
       "example": {
         "title": "Worked example: points and APR on one loan",
         "steps": [
           "A buyer borrows $300,000 toward a $375,000 price at 6.00% for 30 years, paying 2 discount points, a $1,500 origination fee, a $650 appraisal, and $1,800 in title charges.",
-          "Step 1: Points = $300,000 × 2% = $6,000 (2% of the price, $7,500, is the trap).",
-          "Step 2: Prepaid finance charges = $6,000 + $1,500 = $7,500; the appraisal and title charges are excluded.",
-          "Step 3: The P&I payment is $1,798.65. Amount financed = $300,000 − $7,500 = $292,500; the rate at which $1,798.65 a month for 360 months repays $292,500 is about 6.24%.",
+          "Step 1: Points = $300,000 × 2% = $6,000. Using 2% of the price, $7,500, is the trap.",
+          "Step 2: Prepaid finance charges = $6,000 + $1,500 = $7,500. The appraisal and title charges are excluded.",
+          "Step 3: The P&I payment is $1,798.65.",
+          "Step 4: Amount financed = $300,000 − $7,500 = $292,500.",
+          "Step 5: The rate at which $1,798.65 a month for 360 months repays $292,500 is about 6.24%.",
           "Answer: note rate 6.00%, APR about 6.24%."
         ]
       }
@@ -351,13 +428,26 @@
       "heading": "TILA, RESPA, ECOA, and other lending laws",
       "intro": "Each federal law has one job; questions describe a problem and ask which law applies.",
       "points": [
-        "The **Truth in Lending Act (TILA)**, Title I of the Consumer Credit Protection Act, carried out by **Regulation Z**, requires disclosure of the finance charge and APR, regulates credit ads, and grants **rescission**. It does not set rates.",
-        "**Rescission**: on a refinance or home equity loan or line secured by the **principal residence**, the borrower may cancel until midnight of the **third business day** after signing and receiving the disclosures and notice (Saturdays count; Sundays and federal holidays do not). A **purchase** mortgage has no rescission right, a refinance with the same lender can be rescinded only as to new money, and missing disclosures can extend the right up to 3 years.",
-        "**Advertising**: a **triggering term** (down payment, number of payments or repayment period, payment amount, or finance charge) requires the down payment, the repayment terms, and the **APR**. The APR alone or 'easy terms' triggers nothing, and licensees who advertise financing must comply.",
-        "**TRID** (the TILA-RESPA Integrated Disclosure rule): the **Loan Estimate** is due within **3 business days after application** (name, income, Social Security number, property address, estimated value, loan amount), and the borrower must receive the **Closing Disclosure** at least **3 business days before consummation**.",
-        "The **Real Estate Settlement Procedures Act (RESPA)**, Regulation X, covers federally related 1–4 family loans. Section 8 bans **kickbacks** and unearned fees (pay for real services and cooperating-broker splits are allowed); Section 9 bars a seller from requiring a particular title insurer; Section 10 caps the escrow cushion at **one-sixth** (about 2 months) of a year's escrow disbursements.",
-        "The **Equal Credit Opportunity Act (ECOA)**, Regulation B, bars credit discrimination by race, color, religion, national origin, sex, **marital status**, age (if able to contract), **public-assistance income**, or exercising credit rights. Marital status, age, and public assistance are not federal Fair Housing Act classes. Notice of action is due within **30 days** of a completed application.",
-        "The **Fair Housing Act** and New York's **Human Rights Law** bar lending discrimination, including **redlining** (refusing or worsening loans in an area because of its racial or ethnic makeup). Home Mortgage Disclosure Act (**HMDA**) data exposes redlining, and the **Community Reinvestment Act** (1977) rates banks on serving their whole community."
+        "The **Truth in Lending Act (TILA)** requires disclosure of the finance charge and APR, regulates credit ads, and grants rescission. It does not set rates.",
+        "TILA is Title I of the Consumer Credit Protection Act and is carried out by **Regulation Z**.",
+        "**Rescission** applies to a refinance or home equity loan or line secured by the **principal residence**.",
+        "The borrower may cancel until midnight of the **third business day** after signing and receiving the disclosures and notice. Saturdays count; Sundays and federal holidays do not.",
+        "A **purchase** mortgage has no rescission right. A refinance with the same lender can be rescinded only as to new money.",
+        "Missing disclosures can extend the rescission right up to 3 years.",
+        "A **triggering term** in an ad (down payment, number of payments or repayment period, payment amount, or finance charge) requires the down payment, the repayment terms, and the **APR**.",
+        "The APR alone or 'easy terms' triggers nothing. Licensees who advertise financing must comply.",
+        "**TRID** (the TILA-RESPA Integrated Disclosure rule): the **Loan Estimate** is due within 3 business days after application.",
+        "Application here means the borrower's name, income, Social Security number, property address, estimated value, and loan amount.",
+        "The borrower must receive the **Closing Disclosure** at least **3 business days before consummation**.",
+        "The **Real Estate Settlement Procedures Act (RESPA)**, carried out by Regulation X, covers federally related 1–4 family loans.",
+        "RESPA bans **kickbacks** and unearned fees. Pay for real services and cooperating-broker splits are allowed (RESPA Section 8).",
+        "A seller may not require a particular title insurer (RESPA Section 9).",
+        "The escrow cushion is capped at **one-sixth** (about 2 months) of a year's escrow disbursements (RESPA Section 10).",
+        "The **Equal Credit Opportunity Act (ECOA)**, Regulation B, bars credit discrimination by race, color, religion, national origin, sex, **marital status**, age (if able to contract), public-assistance income, or exercising credit rights.",
+        "Marital status, age, and public assistance are not federal Fair Housing Act classes.",
+        "Under ECOA, notice of action is due within **30 days** of a completed application.",
+        "The **Fair Housing Act** and New York's Human Rights Law bar lending discrimination, including **redlining**: refusing or worsening loans in an area because of its racial or ethnic makeup.",
+        "Home Mortgage Disclosure Act (HMDA) data exposes redlining. The **Community Reinvestment Act** (1977) rates banks on serving their whole community."
       ],
       "table": {
         "head": ["Law", "Purpose", "Key numbers"],
@@ -383,10 +473,19 @@
       "heading": "Underwriting and qualifying ratios",
       "intro": "**Underwriting** is the lender's risk review of the property and the borrower. Ratios in exam problems are stated assumptions, not universal law.",
       "points": [
-        "**Property**: the lender bases the loan on the **lower** of the price or appraised value and weighs location, condition, comparables, and type (1–4 family, owner-occupied, or income-producing, which needs more down). Example: price $500,000, appraisal $480,000, 90% LTV gives a $432,000 loan, so the buyer needs $68,000 down, not $50,000.",
-        "**Borrower**: verified, stable income likely to continue (usually a two-year history, or two years of tax returns for a self-employed sole proprietor, partner, or corporate owner), credit reports, liquid assets and reserves, and monthly debts. Federal **ability-to-repay** rules require a good-faith finding that the borrower can repay.",
-        "**Front-end (housing) ratio** = PITI ÷ gross monthly income; **back-end (total debt) ratio** = (PITI + other monthly debts) ÷ gross monthly income. Traditional guides: conventional **28/36**, FHA 31/43, and VA 41% total debt plus a residual-income test.",
-        "**Prequalification** is an informal estimate from unverified information; **preapproval** follows an application, credit check, and verification; a **mortgage commitment** is the lender's written approval on stated terms, usually with conditions. A **rate lock** holds a quoted rate for a set period."
+        "**Property**: the lender bases the loan on the **lower** of the price or appraised value.",
+        "The lender also weighs location, condition, comparables, and type: 1–4 family, owner-occupied, or income-producing, which needs more down.",
+        "Example: price $500,000, appraisal $480,000, 90% LTV gives a $432,000 loan. The buyer needs $68,000 down, not $50,000.",
+        "**Borrower**: verified, stable income likely to continue, credit reports, liquid assets and reserves, and monthly debts.",
+        "Income usually needs a two-year history. A self-employed sole proprietor, partner, or corporate owner usually shows two years of tax returns.",
+        "Federal **ability-to-repay** rules require a good-faith finding that the borrower can repay.",
+        "**Front-end (housing) ratio** = PITI ÷ gross monthly income.",
+        "**Back-end (total debt) ratio** = (PITI + other monthly debts) ÷ gross monthly income.",
+        "Traditional guides: conventional **28/36**, FHA 31/43, and VA 41% total debt plus a residual-income test.",
+        "**Prequalification** is an informal estimate from unverified information.",
+        "**Preapproval** follows an application, credit check, and verification.",
+        "A **mortgage commitment** is the lender's written approval on stated terms, usually with conditions.",
+        "A **rate lock** holds a quoted rate for a set period."
       ],
       "example": {
         "title": "Worked example: maximum PITI and loan amount",
@@ -394,9 +493,11 @@
           "A buyer earns $108,000 a year and pays $1,000 a month on other debts. The lender uses 28/36.",
           "Step 1: Gross monthly income = $108,000 ÷ 12 = $9,000.",
           "Step 2: Front-end limit = $9,000 × 28% = $2,520.",
-          "Step 3: Back-end limit = $9,000 × 36% = $3,240 − $1,000 = $2,240.",
-          "Step 4: Maximum PITI = the lower figure, $2,240.",
-          "Step 5: With $540 a month for taxes and insurance, P&I can be $1,700. At 6% for 30 years ($5.9955 per $1,000), the loan is about $1,700 ÷ 5.9955 × $1,000 ≈ $283,500.",
+          "Step 3: Back-end total = $9,000 × 36% = $3,240.",
+          "Step 4: Back-end limit = $3,240 − $1,000 other debts = $2,240.",
+          "Step 5: Maximum PITI = the lower figure, $2,240.",
+          "Step 6: With $540 a month for taxes and insurance, P&I can be $1,700.",
+          "Step 7: At 6% for 30 years ($5.9955 per $1,000), the loan is about $1,700 ÷ 5.9955 × $1,000 ≈ $283,500.",
           "Answer: $2,240 PITI and about a $283,500 loan. Subtracting the debts from the front-end limit is the trap."
         ]
       }
@@ -405,10 +506,16 @@
       "heading": "Predatory lending and mortgage fraud",
       "intro": "Predatory lending is a set of abusive practices rather than one statute. Licensees should spot the red flags and refer clients to housing counselors or lawyers.",
       "points": [
-        "**Subprime** loans charge more because of weaker credit and are legal by themselves; lending becomes **predatory** through hidden fees, equity stripping, unaffordable balloon payments, or ignoring the ability to repay.",
-        "**Loan flipping** is repeated refinancing, often of elderly owners, that piles on points and fees without real benefit. Illegal **property flipping** is different: a quick resale at a price propped up by an inflated appraisal.",
-        "Rolling credit card debt into a **home equity loan** turns unsecured debt into debt secured by the home. **Mortgage fraud** includes inflated appraisals, **straw buyers**, falsified income, and undisclosed cash back to the buyer.",
-        "New York **Banking Law §6-l** (high-cost home loans) bans flipping without a tangible net benefit, financing **single-premium credit insurance**, **negative amortization**, and prepayment penalties, and requires a notice at application recommending **financial counseling**, with a DFS list of counselors. **§6-m** adds ability-to-repay, escrow, and no-prepayment-penalty rules for **subprime** home loans. Federally, the Home Ownership and Equity Protection Act (**HOEPA**, 1994) restricts high-cost mortgages."
+        "**Subprime** loans charge more because of weaker credit and are legal by themselves.",
+        "Lending becomes **predatory** through hidden fees, equity stripping, unaffordable balloon payments, or ignoring the ability to repay.",
+        "**Loan flipping** is repeated refinancing, often of elderly owners, that piles on points and fees without real benefit.",
+        "Illegal **property flipping** is different: a quick resale at a price propped up by an inflated appraisal.",
+        "Rolling credit card debt into a home equity loan turns unsecured debt into debt secured by the home.",
+        "**Mortgage fraud** includes inflated appraisals, **straw buyers**, falsified income, and undisclosed cash back to the buyer.",
+        "New York **high-cost home loans** may not include flipping without a tangible net benefit, financed **single-premium credit insurance**, negative amortization, or prepayment penalties (Banking Law §6-l).",
+        "High-cost lenders must also give a notice at application recommending financial counseling, with a Department of Financial Services (DFS) list of counselors (Banking Law §6-l).",
+        "**Subprime** home loans in New York carry ability-to-repay, escrow, and no-prepayment-penalty rules (Banking Law §6-m).",
+        "Federally, the Home Ownership and Equity Protection Act (HOEPA, 1994) restricts high-cost mortgages."
       ],
       "table": {
         "head": ["Practice", "What it looks like", "Main protection"],

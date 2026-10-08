@@ -1,20 +1,20 @@
 {
   "topic": "closing",
   "title": "Closing & Settlement",
-  "overview": "Title closing is where the sale is finished: the seller delivers the deed and is paid, old liens are paid off, the buyer's loan funds, and the documents go out for recording. This chapter covers New York's attorney-run closing, the timeline from accepted offer to recording, RESPA and escrow accounts, TRID's Loan Estimate and Closing Disclosure, debits, credits, and prorations, who pays which New York taxes, title clearance, the walk-through, FIRPTA, 1099-S, the recording forms, and wire fraud. It is a 2-hour unit of the 10-hour Legal Issues subject (DOS publishes no exam weights), and its math also shows up in math questions. Most questions turn on who represents whom, which way an entry goes, who pays which tax, and exact deadlines.",
+  "overview": "Closing finishes the sale: the seller delivers the deed and gets paid, old liens are paid off, and the buyer's loan funds. This chapter covers New York's attorney-run closing, RESPA, TRID, prorations, New York taxes, title clearance, FIRPTA and recording. The exam hits hardest on who represents whom, which way each entry goes, who pays which tax, and deadlines.",
   "cram": {
     "numbers": [
-      { "value": "3 business days", "label": "Loan Estimate due after the lender receives the six-item application (days the lender's offices are open for business)" },
-      { "value": "7 business days", "label": "Latest the Loan Estimate may be delivered or mailed before consummation (Saturdays count; Sundays and federal holidays don't)" },
-      { "value": "3 business days", "label": "Closing Disclosure must be received before consummation (Saturdays count; Sundays and federal holidays don't)" },
-      { "value": "1/8 point", "label": "APR off by more than this (1/4 on irregular loans) forces a corrected CD and a new 3-day wait" },
+      { "value": "3 business days", "label": "Loan Estimate due after application; counts days the lender's offices are open" },
+      { "value": "7 business days", "label": "Loan Estimate lead time before consummation; Saturdays count, Sundays and federal holidays don't" },
+      { "value": "3 business days", "label": "Closing Disclosure must be received before consummation; Saturdays count, Sundays and federal holidays don't" },
+      { "value": "1/8 point (1/4 irregular loans)", "label": "APR error beyond this forces a corrected CD and a new 3-day wait" },
       { "value": "10%", "label": "Cumulative TRID tolerance: recording fees plus shoppable services from the lender's list" },
       { "value": "60 days", "label": "Lender's deadline after consummation to refund a TRID tolerance overcharge" },
       { "value": "1/6", "label": "Maximum escrow cushion: one-sixth of annual disbursements (2 months of payments)" },
       { "value": "$50 / 30 days", "label": "Escrow surplus that must be refunded, and the refund deadline after the analysis" },
-      { "value": "15 days", "label": "Servicing-transfer notice: old servicer at least 15 days before, new servicer within 15 days after" },
-      { "value": "60 days", "label": "After a servicing transfer, an on-time payment sent to the old servicer can't be treated as late" },
-      { "value": "3 times", "label": "RESPA §8 civil damages on the settlement charge (criminal: up to $10,000 and 1 year)" },
+      { "value": "15 days", "label": "Servicing-transfer notice: old servicer at least 15 days before, new within 15 after" },
+      { "value": "60 days", "label": "Post-transfer window: an on-time payment to the old servicer can't count as late" },
+      { "value": "3 times", "label": "RESPA §8 civil damages on the charge; criminal up to $10,000 and 1 year" },
       { "value": "$2 per $500", "label": "NYS transfer tax; any fraction of $500 rounds up; the seller pays" },
       { "value": "1% at $1,000,000+", "label": "Mansion tax on the whole price of a residence; the buyer pays" },
       { "value": "1% / 1.425%", "label": "NYC RPTT, residential: $500,000 or less / whole price above $500,000" },
@@ -23,51 +23,55 @@
       { "value": "$300,000 / $1,000,000", "label": "FIRPTA residence breakpoints: 0% up to $300,000; 10% above that up to $1,000,000" },
       { "value": "$250,000 / $500,000", "label": "Form 1099-S exemption for a certified main-home sale (single / married seller)" },
       { "value": "30 days", "label": "Old lender's deadline to present the satisfaction of mortgage for recording (RPAPL §1921)" },
-      { "value": "5 days", "label": "Seller's deadline to turn tenants' security deposits over to the buyer after the deed is delivered (GOL §7-105)" }
+      { "value": "5 days", "label": "Seller turns tenants' security deposits over to the buyer after deed delivery (GOL §7-105)" }
     ],
     "mustKnow": [
-      "New York uses **attorney closings**: buyer, seller, and lender each have a lawyer, a **title closer** represents the title insurer, and licensees can't draft deeds or give legal advice (**unauthorized practice of law**).",
+      "New York uses **attorney closings**: buyer, seller, and lender each have a lawyer, and a title closer represents the title insurer.",
+      "Licensees can't draft deeds or give legal advice; that is the **unauthorized practice of law**.",
       "The **bank attorney** represents only the lender, even though the buyer usually pays the fee.",
       "Downstate, the **seller's attorney** drafts the contract; the **buyer's attorney** orders title after it is signed.",
-      "Title passes on **delivery and acceptance**; **recording** gives constructive notice under NY's **race-notice** act.",
-      "NYC records through **ACRIS**; **Staten Island** deeds go to the Richmond County Clerk, though NYC tax forms are still made in ACRIS.",
-      "**TP-584** (transfer tax return) is filed with every deed, even a gift with no tax due; **RP-5217** gives assessors sale data.",
+      "Title passes on **delivery and acceptance**. **Recording** gives constructive notice under New York's race-notice act.",
+      "NYC records through **ACRIS**. **Staten Island** deeds go to the Richmond County Clerk, but NYC tax forms are still made in ACRIS.",
+      "**TP-584** (transfer tax return) is filed with every deed, even a gift with no tax due. **RP-5217** gives assessors sale data.",
       "**RESPA** covers federally related mortgage loans on 1–4 family homes, including refinances and second mortgages, but not all-cash sales.",
-      "**RESPA §8** bans referral fees and kickbacks; broker-to-broker commission splits and pay for work actually done are allowed.",
+      "**Referral fees and kickbacks** are banned (RESPA §8). Broker-to-broker commission splits and pay for work actually done are allowed.",
       "**Affiliated business arrangement**: disclose at or before the referral, no required use, ownership return only.",
-      "**RESPA §9**: a seller can't make the buyer use a particular title insurer.",
-      "Escrow **cushion** is capped at 1/6 of annual disbursements; a **surplus** of $50 or more is refunded within 30 days.",
-      "**Loan Estimate**: within 3 business days of application and at least 7 business days before consummation; only a **credit report fee** before intent to proceed.",
+      "A seller can't make the buyer use a particular **title insurer** (RESPA §9).",
+      "Escrow **cushion** is capped at 1/6 of annual disbursements. A **surplus** of $50 or more is refunded within 30 days.",
+      "**Loan Estimate**: within 3 business days of application and at least 7 business days before consummation. Before intent to proceed, only a **credit report fee** is allowed.",
       "**Closing Disclosure**: received at least 3 business days before consummation. In hand Monday → close Thursday; mailed Monday → close the next Monday.",
-      "Tolerances: **zero** (lender and affiliate fees, unshoppable services, transfer taxes), **10% cumulative** (recording fees, unaffiliated providers picked from the lender's list), **no limit** (prepaid interest, homeowner's insurance, escrow deposits, off-list providers, services the lender doesn't require); cure by refund within 60 days.",
+      "**Zero tolerance**: lender and affiliate fees, unshoppable services, transfer taxes. **10% cumulative**: recording fees and unaffiliated providers picked from the lender's list.",
+      "**No limit**: prepaid interest, homeowner's insurance, escrow deposits, off-list providers, and services the lender doesn't require. A tolerance overcharge is cured by refund within 60 days.",
       "**Debit** = charged to a party; **credit** = allowed to a party. Cash to close = buyer debits − buyer credits.",
-      "**Earnest money** and the **new loan** are buyer credits only; the **payoff** and **commission** are seller debits only.",
+      "**Buyer credits only**: earnest money and the new loan. **Seller debits only**: the payoff and the commission.",
       "Seller **prepaid**: seller credit, buyer debit. Seller's days **unpaid**: seller debit, buyer credit.",
-      "Collected **rent** and **security deposits**: seller debit, buyer credit. **Fuel oil**: seller credit, buyer debit. **Assumed loan**: buyer credit, seller debit.",
+      "Collected **rent** and **security deposits**: seller debit, buyer credit.",
+      "**Fuel oil**: seller credit, buyer debit. **Assumed loan**: buyer credit, seller debit.",
       "By New York custom the **buyer owns the closing day**; follow the question if it says otherwise.",
-      "NYS **transfer tax** ($2 per $500 or fraction) and **NYC RPTT** (1% up to $500,000; 1.425% of the whole price above) are **seller** costs; the **mansion tax** (1% of the whole price at $1,000,000+) is the **buyer's**.",
-      "**Mortgage recording tax** is figured on the loan and paid by the borrower, except the 0.25% the lender pays on 1–6 family homes; none on cash deals or co-op share loans.",
+      "The **seller** pays the NYS transfer tax ($2 per $500 or fraction) and NYC RPTT (1% up to $500,000; 1.425% of the whole price above).",
+      "The **buyer** pays the **mansion tax**: 1% of the whole price at $1,000,000 or more.",
+      "**Mortgage recording tax** is figured on the loan and paid by the borrower, except the 0.25% the lender pays on 1–6 family homes. None on cash deals or co-op share loans.",
       "NY buyers customarily pay **title insurance** (owner's and lender's), lender fees, inspections, and recording the deed and mortgage.",
       "The **final walk-through** confirms condition; it is not a new contingency, and problems go to the attorneys.",
-      "A salesperson is paid **only by her own broker** (RPL §442-a), never directly at the closing table.",
-      "**FIRPTA**: the buyer withholds 15% of the gross price from a foreign seller; a non-foreign certification ends the duty.",
+      "A salesperson is paid **only by her own broker**, never directly at the closing table (RPL §442-a).",
+      "**FIRPTA**: the buyer withholds 15% of the gross price from a foreign seller. A non-foreign certification ends the duty.",
       "**Form 1099-S** reports gross proceeds and is filed by the person responsible for closing."
     ],
     "traps": [
-      { "trap": "The Closing Disclosure is due 3 business days after the application.", "truth": "That is the Loan Estimate. The CD must be received at least 3 business days before consummation." },
-      { "trap": "Saturdays don't count when timing the CD.", "truth": "They do. For the CD wait and the mailbox rule, only Sundays and federal holidays are skipped." },
-      { "trap": "Any change after the CD restarts the 3-day wait.", "truth": "Only APR, product, or prepayment-penalty changes do. A higher fee needs just a corrected CD." },
+      { "trap": "The Closing Disclosure is due 3 business days after the application.", "truth": "The CD must be received at least 3 business days before consummation. The 3-days-after-application deadline is for the Loan Estimate." },
+      { "trap": "Saturdays don't count when timing the CD.", "truth": "Saturdays count. For the CD wait and the mailbox rule, only Sundays and federal holidays are skipped." },
+      { "trap": "Any change after the CD restarts the 3-day wait.", "truth": "Only APR, product, or prepayment-penalty changes restart it. A higher fee needs just a corrected CD." },
       { "trap": "Recording the deed transfers title.", "truth": "Delivery and acceptance transfer title; recording protects the buyer against later purchasers." },
-      { "trap": "The mansion tax applies only above $1,000,000, on the excess.", "truth": "It is 1% of the entire price starting at exactly $1,000,000, and the buyer pays." },
-      { "trap": "NYC RPTT above $500,000 is 1% on the first $500,000 and 1.425% on the rest.", "truth": "1.425% applies to the whole price once it exceeds $500,000; exactly $500,000 is taxed at 1%." },
-      { "trap": "NYS transfer tax is a flat 0.4% and starts above $25,000.", "truth": "It is $2 per $500 or fraction, with units rounded up, once consideration exceeds $500." },
-      { "trap": "The earnest money deposit is a seller debit.", "truth": "It is a buyer credit only; the price credited to the seller already includes it." },
-      { "trap": "The new mortgage is a buyer credit and a seller debit.", "truth": "Buyer credit only. Only an assumed loan or seller financing also hits the seller's side." },
-      { "trap": "Taxes the seller hasn't paid are a seller credit.", "truth": "The seller used those days without paying: seller debit, buyer credit." },
-      { "trap": "FIRPTA is 15% of the gain, withheld by the broker.", "truth": "It is 15% of the gross amount realized, and the buyer withholds." },
+      { "trap": "The mansion tax applies only above $1,000,000, on the excess.", "truth": "The mansion tax is 1% of the entire price starting at exactly $1,000,000, and the buyer pays." },
+      { "trap": "NYC RPTT above $500,000 is 1% on the first $500,000 and 1.425% on the rest.", "truth": "Once the price exceeds $500,000, 1.425% applies to the whole price. Exactly $500,000 is taxed at 1%." },
+      { "trap": "NYS transfer tax is a flat 0.4% and starts above $25,000.", "truth": "NYS transfer tax is $2 per $500 or fraction, with units rounded up, once consideration exceeds $500." },
+      { "trap": "The earnest money deposit is a seller debit.", "truth": "Earnest money is a buyer credit only; the price credited to the seller already includes it." },
+      { "trap": "The new mortgage is a buyer credit and a seller debit.", "truth": "The new mortgage is a buyer credit only. Only an assumed loan or seller financing also hits the seller's side." },
+      { "trap": "Taxes the seller hasn't paid are a seller credit.", "truth": "Unpaid taxes are a seller debit and buyer credit: the seller used those days without paying." },
+      { "trap": "FIRPTA is 15% of the gain, withheld by the broker.", "truth": "FIRPTA is 15% of the gross amount realized, and the buyer withholds." },
       { "trap": "A Florida resident selling NY property triggers FIRPTA.", "truth": "FIRPTA covers foreign persons. A nonresident U.S. seller pays NY estimated tax on Form IT-2663." },
       { "trap": "An exempt seller, such as a state agency, makes the sale transfer-tax-free.", "truth": "When the grantor is exempt, the grantee must pay the NYS transfer tax." },
-      { "trap": "To confirm new wiring instructions, call the number in the email.", "truth": "That may reach the criminal. Use an independently known, previously verified number." }
+      { "trap": "To confirm new wiring instructions, call the number in the email.", "truth": "Use an independently known, previously verified number. The number in the email may reach the criminal." }
     ],
     "mnemonics": [
       { "name": "APP", "meaning": "The only post-CD changes that restart the 3-business-day wait: APR beyond tolerance, loan Product change, Prepayment penalty added" },
@@ -83,20 +87,23 @@
       { "name": "Mortgage payoff", "formula": "Good-through amount + (per diem × extra days)", "example": "$212,400 + (14 × $34.50) = $212,883" },
       { "name": "Escrow cushion cap", "formula": "Annual escrow disbursements ÷ 6", "example": "($6,000 + $1,800) ÷ 6 = $1,300" },
       { "name": "FIRPTA withholding", "formula": "Amount realized × 15% (10% or 0% under the residence rules)", "example": "$600,000 rental × 15% = $90,000" },
-      { "name": "Mortgage recording tax", "formula": "Loan amount (rounded to the nearest $100) × the borrower's rate (the local total minus the 0.25% the lender pays on 1–6 family homes)", "example": "$360,000 × 1.05% (assumed borrower rate, no deductions) = $3,780" }
+      { "name": "Mortgage recording tax", "formula": "Loan amount, rounded to the nearest $100, × the borrower's rate. Borrower's rate = local total − the 0.25% the lender pays on 1–6 family homes.", "example": "$360,000 × 1.05% (assumed borrower rate, no deductions) = $3,780" }
     ]
   },
   "sections": [
     {
       "heading": "What a closing is and who is at the table",
-      "intro": "A **title closing** (settlement) consummates the sale: the seller delivers the deed and is paid the balance, existing liens are satisfied, and the buyer's loan funds. New York is an attorney-closing state.",
+      "intro": "A **title closing** (settlement) completes the sale. The seller delivers the deed and is paid the balance, existing liens are paid off, and the buyer's loan funds. New York is an attorney-closing state.",
       "points": [
         "Several deals close at once: buyer and seller (deed for price), buyer and lender (loan), buyer and title insurer (policy), seller and broker (commission), and seller and old lender (payoff).",
-        "The buyer pays with **acquisition mortgage** money plus her own funds; the seller's mortgage, judgments, and unpaid taxes are paid from the seller's proceeds.",
-        "New York customarily uses a **table closing**, where the parties meet and exchange papers and checks. In an **escrow closing**, a neutral escrow agent holds the deed and funds until every condition is met, so no one needs to meet. A seller who can't attend may sign the deed in advance for her attorney to hold in escrow, or act through an attorney-in-fact.",
+        "The buyer pays with **acquisition mortgage** money plus her own funds. The seller's mortgage, judgments, and unpaid taxes are paid from the seller's proceeds.",
+        "New York usually uses a **table closing**: the parties meet and exchange papers and checks.",
+        "In an **escrow closing**, a neutral escrow agent holds the deed and funds until every condition is met, so no one needs to meet.",
+        "A seller who can't attend may sign the deed in advance for her attorney to hold in escrow, or act through an attorney-in-fact.",
         "Closings are held at an attorney's office (often the lender's attorney's), the lender, a title company, or in some areas the county clerk's office. The clerk never runs the closing; it only records documents afterward.",
-        "Licensees may attend and coordinate, but drafting the deed or giving legal or tax advice is the **unauthorized practice of law** (Judiciary Law §§478, 484).",
-        "Co-op closings have no deed: the seller assigns the stock and proprietary lease, the managing agent attends, a **lien search** replaces the title search, and the share lender files a UCC-1."
+        "Licensees may attend and coordinate. Drafting the deed or giving legal or tax advice is the **unauthorized practice of law** (Judiciary Law §§478, 484).",
+        "Co-op closings have no deed. The seller assigns the stock and proprietary lease, and the managing agent attends.",
+        "In a co-op sale, a **lien search** replaces the title search, and the share lender files a UCC-1."
       ],
       "table": {
         "head": ["Participant", "Represents", "Typical job at a New York closing"],
@@ -115,9 +122,11 @@
       "heading": "From accepted offer to recording: the New York timeline",
       "intro": "Who writes the contract varies by region, but the checkpoints don't, and recording always comes last.",
       "points": [
-        "Downstate, the licensee's paperwork ends with a memorandum of sale and attorneys write the contract. Where licensees fill in preprinted contracts (much of upstate), they may only fill in blanks, never draft legal terms, and avoid the unauthorized practice of law by making the contract subject to each party's attorney's approval with an **attorney-approval clause** (Duncan & Hill Realty v. Department of State).",
+        "Downstate, the licensee's paperwork ends with a memorandum of sale, and attorneys write the contract.",
+        "In much of upstate, licensees fill in preprinted contracts. They may only fill in blanks, never draft legal terms.",
+        "To avoid the unauthorized practice of law, they make the contract subject to each party's attorney's approval with an **attorney-approval clause** (Duncan & Hill Realty v. Department of State).",
         "The **down payment** (often 10% downstate) is held in escrow, usually by the seller's attorney, and credited to the buyer at closing.",
-        "The **buyer's attorney** orders title after the contract is signed, so the buyer's own advocate reviews the exceptions and demands that the seller clear them."
+        "The **buyer's attorney** orders title after the contract is signed. That way the buyer's own advocate reviews the exceptions and demands that the seller clear them."
       ],
       "table": {
         "head": ["Stage", "What happens", "Who drives it"],
@@ -137,12 +146,18 @@
       "heading": "Title clearance before closing",
       "intro": "The seller must deliver **marketable, insurable title**. Each exception on the buyer's title report must be cleared, insured over, or accepted before the deed passes.",
       "points": [
-        "A **title search** traces the **chain of title** (the unbroken line of owners) through the public records; an **abstract of title** condenses that history; **title insurance** pays for covered defects. **Marketable title** is title a reasonable buyer would accept, though it may stay subject to easements the contract allows.",
+        "A title search traces the **chain of title** (the unbroken line of owners) through the public records.",
+        "An **abstract of title** condenses that history. Title insurance pays for covered defects.",
+        "**Marketable title** is title a reasonable buyer would accept. It may stay subject to easements the contract allows.",
         "The buyer's attorney sends the report's objections to the seller's attorney, and the seller pays to clear its own defects.",
-        "A **payoff letter** states the amount needed to retire a loan through a stated date plus a **per diem** for later days. A monthly-statement balance leaves out accrued interest and would leave the lien open.",
-        "Recorded judgments survive a sale and must be paid, bonded, or satisfied. A paid mortgage with no recorded satisfaction stays a cloud until one is recorded or the insurer accepts other proof; it doesn't expire on its own.",
-        "A **survey** reveals **encroachments**, which can make title unmarketable; without a survey the policy excepts survey matters. A **bring-down search** just before closing catches anything recorded since the original search.",
-        "Title insurance costs a one-time premium at closing and covers defects existing on the policy date. The **owner's policy** protects the buyer and the **lender's policy** protects the lender; New York buyers customarily pay for both."
+        "A **payoff letter** states the amount needed to retire a loan through a stated date, plus a **per diem** for later days.",
+        "Don't use a monthly-statement balance as the payoff. It leaves out accrued interest and would leave the lien open.",
+        "Recorded judgments survive a sale and must be paid, bonded, or satisfied.",
+        "A paid mortgage with no recorded satisfaction stays a cloud until one is recorded or the insurer accepts other proof. It doesn't expire on its own.",
+        "A **survey** reveals encroachments, which can make title unmarketable. Without a survey, the policy excepts survey matters.",
+        "A **bring-down search** just before closing catches anything recorded since the original search.",
+        "Title insurance costs a one-time premium at closing and covers defects that exist on the policy date.",
+        "The **owner's policy** protects the buyer and the **lender's policy** protects the lender. New York buyers customarily pay for both."
       ],
       "table": {
         "head": ["Title problem", "Usual cure"],
@@ -169,29 +184,38 @@
       "heading": "Walk-through, insurance, possession, and commission",
       "intro": "Three licensee-facing steps sit just before and at the closing: the walk-through, homeowner's insurance, and getting paid.",
       "points": [
-        "The **final walk-through**, usually within a day of closing, confirms the condition the contract requires: no new damage, repairs done, included fixtures still there, vacant and broom-clean if required. It is not a new contingency or a chance to renegotiate the price.",
-        "Problems, such as a missing dishwasher the contract included, go straight to the buyer's attorney, who can negotiate a credit, repair, or escrow holdback. The licensee shouldn't promise money, advise suing, or tell the buyer to walk away.",
+        "The **final walk-through**, usually within a day of closing, confirms the condition the contract requires: no new damage, repairs done, included fixtures still there, and vacant and broom-clean if required.",
+        "The walk-through is not a new contingency or a chance to renegotiate the price.",
+        "Problems, such as a missing dishwasher the contract included, go straight to the buyer's attorney. The attorney can negotiate a credit, repair, or escrow holdback.",
+        "The licensee shouldn't promise money, advise suing, or tell the buyer to walk away.",
         "If the seller must stay after closing, use a written **post-closing possession agreement** with a daily charge and an escrow holdback released at move-out. Delaying recording would only expose the buyer's title.",
-        "**Risk of loss** (GOL §5-1311): before title or possession passes, if a material part is destroyed without the buyer's fault, the seller can't enforce the contract and the buyer gets the deposit back. Once either passes, the risk is the buyer's.",
-        "Before closing the buyer shows **homeowner's insurance** (a policy or binder naming the lender as mortgagee); homes in a flood zone generally need flood insurance too.",
-        "The seller usually pays the **commission** at closing with one check to the listing broker, who pays cooperating brokers and its salespersons. A salesperson may be paid **only by her own broker** (RPL §442-a), never directly at the table, even with the broker's approval.",
-        "**Commission Escrow Act** (RPL §294-b): for 1–4 family homes, condos, and co-ops, if the listing has the required notice and the broker records an affidavit of entitlement before closing, a seller who won't pay must deposit the disputed commission (or the net proceeds, if less) with the county clerk."
+        "**Risk of loss**: if a material part is destroyed before title or possession passes, without the buyer's fault, the seller can't enforce the contract and the buyer gets the deposit back (General Obligations Law §5-1311).",
+        "Once title or possession passes, the risk of loss is the buyer's.",
+        "Before closing, the buyer shows **homeowner's insurance**: a policy or binder naming the lender as mortgagee. Homes in a flood zone generally need flood insurance too.",
+        "The seller usually pays the **commission** at closing with one check to the listing broker, who pays cooperating brokers and its salespersons.",
+        "A salesperson may be paid **only by her own broker**, never directly at the table, even with the broker's approval (Real Property Law §442-a).",
+        "The **Commission Escrow Act** covers 1–4 family homes, condos, and co-ops (RPL §294-b).",
+        "Under that act, if the listing has the required notice and the broker records an affidavit of entitlement before closing, a seller who won't pay must deposit the disputed commission with the county clerk. If the net proceeds are less, the seller deposits those."
       ]
     },
     {
       "heading": "RESPA: kickbacks, affiliated businesses, and escrow accounts",
-      "intro": "The **Real Estate Settlement Procedures Act** (RESPA, 1974; Regulation X, enforced by the CFPB) makes settlement costs visible, bans kickbacks that inflate them, and limits escrow accounts.",
+      "intro": "The **Real Estate Settlement Procedures Act** (RESPA, 1974) makes settlement costs visible, bans kickbacks that inflate them, and limits escrow accounts. The Consumer Financial Protection Bureau (CFPB) enforces it through Regulation X.",
       "points": [
-        "Covers **federally related mortgage loans** on 1–4 family residential property: purchases, refinances, home equity and second mortgages, and condo and co-op units.",
+        "RESPA covers **federally related mortgage loans** on 1–4 family residential property: purchases, refinances, home equity and second mortgages, and condo and co-op units.",
         "Not covered: all-cash sales, business or agricultural loans, temporary construction loans, most vacant-land loans, assumptions without lender approval, and secondary-market loan sales.",
-        "**Section 8** bans any fee or thing of value (cash, gift cards, parties) for referring settlement business, and fee splits for work not performed. Labels don't matter, and disclosure doesn't cure a kickback.",
+        "**Kickbacks**: RESPA bans any fee or thing of value (cash, gift cards, parties) for referring settlement business (Section 8).",
+        "Section 8 also bans fee splits for work not performed. Labels don't matter, and disclosure doesn't cure a kickback.",
         "Allowed: payment for goods or services actually provided, bona fide salaries, and **commission splits between brokers and agents**.",
-        "Section 8 penalties: fines up to $10,000 and up to 1 year in prison, plus civil liability for **3 times** the settlement charge, costs, and attorney's fees.",
-        "**Affiliated business arrangement**: written disclosure **at or before the referral**, no required use (though a lender may require its own attorney, credit bureau, or appraiser), and only a return on ownership.",
-        "**Section 9**: a seller can't require the buyer to buy title insurance from a particular company; the seller is liable for 3 times the title charges.",
+        "Penalties for Section 8 violations: fines up to $10,000 and up to 1 year in prison, plus civil liability for **3 times** the settlement charge, costs, and attorney's fees.",
+        "**Affiliated business arrangement**: written disclosure **at or before the referral**, no required use, and only a return on ownership.",
+        "One exception to no required use: a lender may require its own attorney, credit bureau, or appraiser.",
+        "A seller **can't require** the buyer to buy title insurance from a particular company. The seller is liable for 3 times the title charges (Section 9).",
         "Lenders often require an **escrow (impound) account** for taxes and insurance. The buyer's **initial escrow deposit** at closing is a buyer debit only, since it goes to the buyer's own lender.",
-        "RESPA §10 caps the account at what the bills need plus a **cushion** of at most **1/6 of annual disbursements** (2 months of payments). After the yearly analysis, a **surplus of $50 or more** goes back to a current borrower within **30 days**.",
-        "**Servicing transfers** (RESPA §6): the old servicer gives notice at least **15 days before** the transfer and the new servicer within **15 days after**. For **60 days**, an on-time payment sent to the old servicer can't be treated as late."
+        "The escrow account is capped at what the bills need plus a **cushion** of at most **1/6 of annual disbursements**, which is 2 months of payments (RESPA §10).",
+        "After the yearly analysis, a **surplus of $50 or more** goes back to a current borrower within **30 days**.",
+        "**Servicing transfers**: the old servicer gives notice at least **15 days before** the transfer, and the new servicer within 15 days after (RESPA §6).",
+        "For **60 days** after a servicing transfer, an on-time payment sent to the old servicer can't be treated as late."
       ],
       "table": {
         "head": ["Payment or practice", "Legal?", "Why"],
@@ -215,16 +239,22 @@
     },
     {
       "heading": "TRID: Loan Estimate, Closing Disclosure, and tolerances",
-      "intro": "The **TILA-RESPA Integrated Disclosure** rule (TRID, effective October 3, 2015) uses two forms: the **Loan Estimate** (LE) after application and the **Closing Disclosure** (CD) before consummation.",
+      "intro": "The **TILA-RESPA Integrated Disclosure** rule (TRID, effective October 3, 2015) uses two forms: the Loan Estimate (LE) after application and the Closing Disclosure (CD) before consummation.",
       "points": [
-        "Covers most closed-end consumer mortgages on real property or a **co-op unit** (since the 2017 amendments). Excludes HELOCs, reverse mortgages, mobile homes not attached to land, and business-purpose loans.",
+        "TRID covers most closed-end consumer mortgages on real property or a **co-op unit** (since the 2017 amendments).",
+        "TRID excludes home equity lines of credit (HELOCs), reverse mortgages, mobile homes not attached to land, and business-purpose loans.",
         "An **application** is six items: name, income, Social Security number, property address, estimated value, and loan amount. The lender can't hold up the LE to demand tax returns first.",
-        "**LE**: delivered or mailed within **3 business days** of application (counting days the lender's offices are open for substantially all business) and at least **7 business days before consummation** (counting Saturdays, as for the CD). Until the borrower receives it and signals intent to proceed, only a reasonable **credit report fee** may be charged.",
-        "**CD**: must be **received** at least **3 business days before consummation** (when the borrower becomes bound on the loan, usually by signing the note). For this wait and the mailbox rule, Regulation Z §1026.2(a)(6) uses its specific definition: every calendar day except **Sundays** and **federal legal public holidays** (such as Columbus Day, Veterans Day, and Juneteenth), so Saturdays count. In hand Monday → consummation Thursday.",
+        "The **LE** is delivered or mailed within **3 business days** of application. For this deadline, a business day is a day the lender's offices are open for substantially all business.",
+        "The LE must also be delivered or mailed at least **7 business days before consummation**, counting Saturdays as for the CD.",
+        "Until the borrower receives the LE and signals intent to proceed, only a reasonable **credit report fee** may be charged.",
+        "The **CD** must be received at least **3 business days before consummation**. Consummation is when the borrower becomes bound on the loan, usually by signing the note.",
+        "For the CD wait and the mailbox rule, a business day is every calendar day except **Sundays** and **federal legal public holidays**, so Saturdays count (Regulation Z §1026.2(a)(6)).",
+        "Federal holidays include Columbus Day, Veterans Day, and Juneteenth. In hand Monday → consummation Thursday.",
         "A mailed or emailed CD is presumed received **3 business days after it is sent**: mailed Monday → received Thursday → consummation the next Monday.",
-        "Only an inaccurate **APR** (off by more than 1/8 point, or 1/4 on irregular loans), a **product** change, or an added **prepayment penalty** forces a corrected CD plus a new 3-day wait. Other changes need only a corrected CD at or before consummation.",
-        "Only the borrower can waive the wait, for a **bona fide personal financial emergency**, in a dated written statement signed by every borrower that isn't a preprinted form.",
-        "A tolerance overcharge is cured by refunding the excess **within 60 days after consummation**; treble damages belong to RESPA §8, not TRID."
+        "Only three changes force a corrected CD plus a new 3-day wait: an inaccurate **APR** (off by more than 1/8 point, or 1/4 on irregular loans), a product change, or an added prepayment penalty.",
+        "Any other change needs only a corrected CD at or before consummation.",
+        "Only the borrower can waive the wait, for a **bona fide personal financial emergency**. It takes a dated written statement, signed by every borrower, that isn't a preprinted form.",
+        "A tolerance overcharge is cured by refunding the excess **within 60 days after consummation**. Treble damages belong to RESPA §8, not TRID."
       ],
       "table": {
         "head": ["Tolerance", "Charges in the bucket", "Exam angle"],
@@ -250,8 +280,10 @@
       "points": [
         "A **debit** is an amount charged to a party; a **credit** is an amount allowed to a party or already paid by it.",
         "**Double entries** move money between buyer and seller (price, prorations, concessions, assumed loans, tenants' security deposits, fuel). **Single entries** involve an outsider (new loan, earnest money, payoff, commission, title insurance, escrow deposit).",
-        "Earnest money is a buyer credit only, because the price credited to the seller already includes it. An **assumed mortgage** is a buyer credit and seller debit; a new bank loan never touches the seller's side.",
-        "**Cash to close** = buyer debits − buyer credits, paid in good funds. **Seller's net** = seller credits − seller debits. **Reconciliation** confirms both sides balance and money in equals money out."
+        "Earnest money is a buyer credit only, because the price credited to the seller already includes it.",
+        "An **assumed mortgage** is a buyer credit and seller debit. A new bank loan never touches the seller's side.",
+        "**Cash to close** = buyer debits − buyer credits, paid in good funds. **Seller's net** = seller credits − seller debits.",
+        "**Reconciliation** confirms both sides balance and money in equals money out."
       ],
       "table": {
         "head": ["Item", "Buyer", "Seller"],
@@ -287,12 +319,13 @@
       "heading": "Prorating taxes",
       "intro": "**Proration** splits a recurring expense or income item so each party bears only its own days of ownership. Taxes are the most tested item.",
       "points": [
-        "**Accrued** (paid in arrears): the seller used days that are unpaid and the buyer will pay the bill, so it is a **seller debit, buyer credit** for the seller's days.",
-        "**Prepaid** (paid in advance): the seller paid for days the buyer will own, so it is a **seller credit, buyer debit** for the buyer's days.",
+        "**Accrued** (paid in arrears): the seller used days that are unpaid, and the buyer will pay the bill. It is a **seller debit, buyer credit** for the seller's days.",
+        "**Prepaid** (paid in advance): the seller paid for days the buyer will own. It is a **seller credit, buyer debit** for the buyer's days.",
         "New York contracts customarily apportion as of midnight before closing, so the **buyer owns the closing day**. Some textbooks give it to the seller; follow the question.",
         "**365-day** method: annual amount ÷ 365 (366 in a leap year) with actual calendar days. **360-day** method: annual ÷ 360 with 30-day months. Don't switch midway.",
-        "Count from the bill's own start date: **school taxes** (and NYC property taxes) run July 1–June 30, while many town and county bills follow the calendar year.",
-        "**Special assessments** (charges for local improvements such as sewers or sidewalks): under the standard New York residential contract, if the first installment of an installment assessment is already a lien or has been paid, all unpaid installments are treated as due and the seller pays them at or before closing."
+        "Count from the bill's own start date. **School taxes** and NYC property taxes run July 1–June 30, while many town and county bills follow the calendar year.",
+        "**Special assessments** are charges for local improvements such as sewers or sidewalks.",
+        "Under the standard New York residential contract, if the first installment of an installment assessment is already a lien or has been paid, all unpaid installments count as due. The seller pays them at or before closing."
       ],
       "example": {
         "title": "Worked example: three tax prorations",
@@ -310,8 +343,10 @@
       "intro": "For every other item, ask the same two questions: who paid, and whose days were they?",
       "points": [
         "**Rent collected in advance** for the closing month: seller debit, buyer credit for the buyer's days. Overdue rent usually isn't credited to the seller.",
-        "**Security deposits**, plus any interest owed, are the tenants' money: seller debit, buyer credit for the full amount. Under GOL §7-105 the seller turns them over at closing or within 5 days after and notifies tenants by registered or certified mail.",
-        "**Fuel oil** left in the tank: seller credit, buyer debit at the contract price. **Insurance** is rarely prorated today because the buyer buys a new policy; if a transferable prepaid policy were assigned, the unused premium would be a seller credit and buyer debit.",
+        "**Security deposits**, plus any interest owed, are the tenants' money: seller debit, buyer credit for the full amount.",
+        "The seller turns the deposits over at closing or within 5 days after, and notifies tenants by registered or certified mail (General Obligations Law §7-105).",
+        "**Fuel oil** left in the tank: seller credit, buyer debit at the contract price.",
+        "**Insurance** is rarely prorated today because the buyer buys a new policy. If a transferable prepaid policy were assigned, the unused premium would be a seller credit and buyer debit.",
         "**Interest on an assumed mortgage** is paid in arrears: seller debit, buyer credit for the interest accrued since the last payment.",
         "**Co-op maintenance or condo charges** paid for the closing month: seller credit, buyer debit for the buyer's days. Water and sewer charges are settled from a final meter reading."
       ],
@@ -320,7 +355,8 @@
         "steps": [
           "Closing April 19; buyer owns the closing day; 30-day month. The tenant paid April rent of $2,100 and has a $2,100 deposit; 180 gallons of oil are priced at $3.75.",
           "Rent: $2,100 ÷ 30 = $70 × 12 buyer days (April 19–30) = $840, seller debit and buyer credit.",
-          "Deposit: $2,100, seller debit and buyer credit. Oil: 180 × $3.75 = $675, seller credit and buyer debit.",
+          "Deposit: $2,100, seller debit and buyer credit.",
+          "Oil: 180 × $3.75 = $675, seller credit and buyer debit.",
           "Answer: the buyer nets $840 + $2,100 − $675 = $2,265 in credits."
         ]
       }
@@ -330,8 +366,11 @@
       "intro": "Custom sets the defaults below, but the contract controls, and tax law decides who is primarily liable for transfer taxes.",
       "points": [
         "Contracts can shift costs: NYC sponsors often make new-condo buyers pay the transfer taxes, and seller concessions can cover a buyer's closing costs.",
-        "Co-op and condo extras: the seller must bring maintenance or common charges current; a co-op **flip tax** is a private transfer fee under the co-op's own documents (not a government tax), usually paid by the seller; managing agents charge each side processing fees; and the co-op buyer pays application and UCC-1 filing fees.",
-        "Co-op sales are still subject to the NYS transfer tax, the mansion tax at $1,000,000 or more, and in NYC the RPTT; only the mortgage recording tax drops out, because a share loan is perfected by a UCC filing, not a recorded mortgage."
+        "Co-op and condo sellers must bring maintenance or common charges current.",
+        "A co-op **flip tax** is a private transfer fee under the co-op's own documents, not a government tax. The seller usually pays it.",
+        "Managing agents charge each side processing fees, and the co-op buyer pays application and UCC-1 filing fees.",
+        "Co-op sales still owe the NYS transfer tax, the mansion tax at $1,000,000 or more, and in NYC the RPTT.",
+        "Only the mortgage recording tax drops out of a co-op sale, because a share loan is perfected by a UCC filing, not a recorded mortgage."
       ],
       "table": {
         "head": ["Cost", "Customarily paid by", "Note"],
@@ -356,22 +395,32 @@
         "title": "Worked example: seller's net proceeds outside NYC",
         "steps": [
           "Price $725,000; 5% commission; payoff $402,300; attorney and other costs $3,100; $940 tax proration credit.",
-          "Commission $36,250. NYS transfer tax: $725,000 ÷ $500 = 1,450 × $2 = $2,900.",
-          "Credits $725,940; debits $36,250 + $402,300 + $2,900 + $3,100 = $444,550.",
-          "Answer: net proceeds $281,390."
+          "Commission: $725,000 × 5% = $36,250.",
+          "NYS transfer tax: $725,000 ÷ $500 = 1,450 × $2 = $2,900.",
+          "Credits: $725,000 + $940 = $725,940.",
+          "Debits: $36,250 + $402,300 + $2,900 + $3,100 = $444,550.",
+          "Answer: net proceeds $725,940 − $444,550 = $281,390."
         ]
       }
     },
     {
       "heading": "Transfer taxes and the mortgage recording tax",
-      "intro": "Transfer taxes are charged on the deed and based on the price; the mortgage recording tax is charged on the mortgage and based on the loan.",
+      "intro": "Transfer taxes are charged on the deed and based on the price. The mortgage recording tax is charged on the mortgage and based on the loan.",
       "points": [
-        "**NYS transfer tax** (Tax Law §1402): $2 per $500 **or fraction** once consideration exceeds $500, so round units up ($412,300 → 824.6 → 825 units → $1,650). The **seller** pays with the TP-584; the **buyer** pays if the seller fails to or is exempt. Co-op share sales are taxed too.",
+        "**NYS transfer tax**: $2 per $500 **or fraction** once consideration exceeds $500, so round units up (Tax Law §1402). Example: $412,300 → 824.6 → 825 units → $1,650.",
+        "The **seller** pays the NYS transfer tax with the TP-584; the **buyer** pays if the seller fails to or is exempt. Co-op share sales are taxed too.",
         "Use the full price: a payoff isn't subtracted. A lien that stays on the property, such as an assumed mortgage, is excluded only for 1–3 family houses, residential condos, or sales under $500,000.",
-        "**Mansion tax** (§1402-a): 1% of the **whole** price of a 1–3 family house, condo, or co-op at **$1,000,000 or more**, paid by the **buyer**. $999,999 → $0; $1,000,000 → $10,000.",
-        "**NYC RPTT** (Admin. Code §11-2102), paid by the seller on top of the state tax: residential (1–3 family, condo, co-op) 1% at $500,000 or less and 1.425% of the whole price above; other property 1.425%, or 2.625% above $500,000.",
-        "NYC-only extras: a state **additional base tax** (0.65% in total) at residential $3 million+ or other $2 million+, paid by the seller, and a graduated **supplemental mansion tax** at residential $2 million+, paid by the buyer. Some towns, such as those in the Peconic Bay region, add buyer-paid local taxes.",
-        "**Mortgage recording tax** (Tax Law Article 11): local rate × loan amount (rounded to the nearest $100), paid to the county clerk or NYC City Register when the mortgage is recorded; Form MT-15 is needed only when the property spans localities with different rates. Totals run 0.75%–1.30% outside NYC (1.80% in Yonkers); NYC charges 2.05%, or 2.175% on 1–3 family and condo loans of $500,000 or more (2.80% on other loans that size). The borrower pays, except the **0.25% special additional tax** the lender must pay on 1–6 family homes, and on a one- or two-family home or condo unit the first $10,000 is exempt from the 0.25–0.30% additional tax. None applies to cash deals or co-op share loans, and a **CEMA** limits the tax to new money."
+        "**Mansion tax**: 1% of the **whole** price of a 1–3 family house, condo, or co-op at $1,000,000 or more, paid by the buyer (§1402-a). $999,999 → $0; $1,000,000 → $10,000.",
+        "The **NYC Real Property Transfer Tax** (RPTT) is paid by the seller on top of the state tax (NYC Administrative Code §11-2102).",
+        "RPTT rates: residential (1–3 family, condo, co-op) 1% at $500,000 or less and 1.425% of the whole price above. Other property: 1.425%, or 2.625% above $500,000.",
+        "NYC-only extras: a state **additional base tax** (0.65% in total) at residential $3 million+ or other $2 million+, paid by the seller. A graduated **supplemental mansion tax** applies at residential $2 million+, paid by the buyer.",
+        "Some towns, such as those in the Peconic Bay region, add buyer-paid local taxes.",
+        "**Mortgage recording tax**: local rate × loan amount, rounded to the nearest $100 (Tax Law Article 11). It is paid to the county clerk or NYC City Register when the mortgage is recorded.",
+        "Form MT-15 is needed only when the property spans localities with different rates.",
+        "Mortgage recording tax totals run 0.75%–1.30% outside NYC (1.80% in Yonkers). NYC charges 2.05%, or 2.175% on 1–3 family and condo loans of $500,000 or more. Other NYC loans that size pay 2.80%.",
+        "The borrower pays, except the **0.25% special additional tax**, which the lender must pay on 1–6 family homes.",
+        "On a one- or two-family home or condo unit, the first $10,000 is exempt from the 0.25–0.30% additional tax.",
+        "No mortgage recording tax applies to cash deals or co-op share loans. A **CEMA** (consolidation, extension and modification agreement) limits the tax to new money."
       ],
       "table": {
         "head": ["Tax", "Rate and base", "Who pays"],
@@ -390,7 +439,9 @@
           "NYS transfer tax: $1,150,000 ÷ $500 = 2,300 × $2 = $4,600, seller.",
           "NYC RPTT: above $500,000, so 1.425% × $1,150,000 = $16,387.50, seller.",
           "Mansion tax: 1% × $1,150,000 = $11,500, buyer. Neither NYC add-on applies at this price.",
-          "Mortgage recording tax if the buyer borrows $920,000: NYC's rate on a condo loan of $500,000 or more is 2.175%. The lender pays 0.25% ($2,300); the buyer pays 1.925% ($17,710) less $30, because a condo unit's first $10,000 is exempt from the 0.30% additional tax: $17,680.",
+          "Mortgage recording tax if the buyer borrows $920,000: NYC's rate on a condo loan of $500,000 or more is 2.175%.",
+          "The lender pays 0.25% ($2,300). The buyer pays 1.925% ($17,710).",
+          "A condo unit's first $10,000 is exempt from the 0.30% additional tax, so the buyer saves $30: $17,710 − $30 = $17,680.",
           "Answer: seller $20,987.50; buyer $11,500 + $17,680 = $29,180."
         ]
       }
@@ -399,10 +450,14 @@
       "heading": "Recording and the New York closing forms",
       "intro": "Delivery transfers title; recording protects it. Right after closing, the title closer takes the deed, mortgage, tax returns, and checks for recording.",
       "points": [
-        "Title passes when the signed deed is **delivered and accepted** during the grantor's lifetime; an unrecorded deed is still valid between the parties.",
-        "**Recording** (RPL §291) gives **constructive notice** to everyone; **actual notice** is real knowledge. Under New York's **race-notice** rule, an unrecorded deed loses to a later good-faith purchaser for value who records first. A deed must be acknowledged (or proved by a subscribing witness) to be recorded.",
-        "Record with the **county clerk** outside NYC; with the City Register through **ACRIS** for Manhattan, the Bronx, Brooklyn, and Queens; and with the **Richmond County Clerk** for Staten Island, though NYC tax forms are still prepared in ACRIS.",
-        "The old lender must present a **satisfaction of mortgage** for recording within **30 days** of payoff (RPAPL §1921) or owe the owner $500, rising to $1,000 at 60 days and $1,500 at 90 days."
+        "Title passes when the signed deed is **delivered and accepted** during the grantor's lifetime. An unrecorded deed is still valid between the parties.",
+        "**Recording** gives **constructive notice** to everyone (Real Property Law §291). Actual notice is real knowledge.",
+        "Under New York's **race-notice** rule, an unrecorded deed loses to a later good-faith purchaser for value who records first.",
+        "A deed must be acknowledged, or proved by a subscribing witness, to be recorded.",
+        "Outside NYC, record with the **county clerk**. For Manhattan, the Bronx, Brooklyn, and Queens, record with the City Register through **ACRIS**.",
+        "Staten Island deeds go to the Richmond County Clerk, though NYC tax forms are still prepared in ACRIS.",
+        "The old lender must present a **satisfaction of mortgage** for recording within **30 days** of payoff (RPAPL §1921).",
+        "A late lender owes the owner $500, rising to $1,000 at 60 days and $1,500 at 90 days."
       ],
       "table": {
         "head": ["Form", "What it is", "Key facts"],
@@ -417,13 +472,17 @@
     },
     {
       "heading": "FIRPTA and Form 1099-S",
-      "intro": "Two federal tax rules ride along with most closings: FIRPTA withholding when the seller is foreign, and 1099-S reporting of the sale.",
+      "intro": "Two federal tax rules ride along with most closings: withholding under the Foreign Investment in Real Property Tax Act (FIRPTA) when the seller is foreign, and 1099-S reporting of the sale.",
       "points": [
-        "**FIRPTA** (IRC §1445): the **buyer** must withhold when buying U.S. real property from a **foreign person**, and can be liable if it doesn't.",
-        "Rate: **15% of the amount realized** (the gross price), not of the gain. If the buyer is an individual who will live there (the buyer or a family member has definite plans to live there at least 50% of the days anyone uses it in each of the first two 12-month periods): $300,000 or less, no withholding; over $300,000 up to $1,000,000, **10%**.",
-        "A signed **non-foreign certification** with the seller's taxpayer ID ends the duty unless the buyer knows it is false; an IRS **withholding certificate** can reduce or eliminate it. The buyer sends the tax with Forms 8288 and 8288-A within 20 days.",
-        "FIRPTA isn't about Americans who live in other states: a nonresident U.S. seller of NY property pays estimated NY tax on **Form IT-2663**.",
-        "**Form 1099-S** reports **gross proceeds**, not gain. Filer order: the person responsible for closing (such as the closing attorney), then the buyer's mortgage lender, the seller's broker, the buyer's broker, and the buyer.",
+        "Under **FIRPTA**, the buyer must withhold when buying U.S. real property from a **foreign person**, and can be liable if it doesn't (IRC §1445).",
+        "Rate: **15% of the amount realized** (the gross price), not of the gain.",
+        "Residence rule: if the buyer is an individual who will live there, there is no withholding at $300,000 or less, and **10%** over $300,000 up to $1,000,000.",
+        "To qualify, the buyer or a family member must have definite plans to live there at least 50% of the days anyone uses it in each of the first two 12-month periods.",
+        "A signed **non-foreign certification** with the seller's taxpayer ID ends the duty unless the buyer knows it is false. An IRS **withholding certificate** can reduce or eliminate it.",
+        "The buyer sends the tax with Forms 8288 and 8288-A within 20 days.",
+        "FIRPTA isn't about Americans who live in other states. A nonresident U.S. seller of NY property pays estimated NY tax on **Form IT-2663**.",
+        "**Form 1099-S** reports **gross proceeds**, not gain.",
+        "1099-S filer order: the person responsible for closing (such as the closing attorney), then the buyer's mortgage lender, the seller's broker, the buyer's broker, and the buyer.",
         "No 1099-S is needed for a main-home sale of **$250,000 or less ($500,000 if married)** when the seller certifies in writing that the whole gain is excludable."
       ],
       "table": {
@@ -449,9 +508,12 @@
       "intro": "Closings move large sums by wire, which makes them a top target for email fraud.",
       "points": [
         "The buyer pays the balance in **good funds**: a wire or a certified or official bank check. A personal check isn't accepted for the balance.",
-        "The scam: criminals hack or imitate the email of an attorney, agent, or title company and send 'updated' wiring instructions near closing. Red flags are last-minute changes, pressure, a slightly altered address, or new bank details.",
-        "Verify any wiring instructions by phone using an **independently known, previously verified number**, never the number or link in the message, and don't reply to the email to ask. Confirm receipt by phone after wiring.",
-        "If money went out, call the sending bank at once to request a recall and report it at ic3.gov. Licensees should warn clients early, in writing, that wiring instructions will never change by email."
+        "The scam: criminals hack or imitate the email of an attorney, agent, or title company and send 'updated' wiring instructions near closing.",
+        "Red flags: last-minute changes, pressure, a slightly altered address, or new bank details.",
+        "Verify any wiring instructions by phone using an **independently known, previously verified number**, never the number or link in the message. Don't reply to the email to ask.",
+        "After wiring, confirm receipt by phone.",
+        "If money went out, call the sending bank at once to request a recall, and report it at ic3.gov.",
+        "Licensees should warn clients early, in writing, that wiring instructions will never change by email."
       ]
     }
   ],

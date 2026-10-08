@@ -66,6 +66,6 @@ function vBuild() {
       </div>
     </section>
     </div></div>`,
-    bottom: `<div class="actionbar bd-bar">${exam && n ? `<span class="bd-clock">${svg('clock')}<span class="sr-only">Time limit </span><span class="num">${clock}</span></span>` : ''}<button class="btn primary grow" id="start" data-action="start"${n ? '' : ' disabled'}>${n ? `Start ${n}-question ${exam ? 'exam' : 'quiz'}` : 'No questions match'}</button></div>`,
+    bottom: `<div class="actionbar bd-bar">${exam && n ? `<span class="bd-clock">${svg('clock')}<span class="sr-only">Time limit </span><span class="num">${clock}</span></span>` : ''}<button class="btn primary grow" id="start" data-action="start"${n ? '' : ' disabled'}>${n ? `Start ${n}-question ${exam ? 'exam' : 'quiz'}` : 'No questions match'}</button></div>${tabs('build')}`,
   };
 }

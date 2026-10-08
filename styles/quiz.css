@@ -9,6 +9,7 @@
 /* ---------- slim sticky bar: position, clock or count, bookmark, end, line progress ---------- */
 body[data-route="quiz"] .topbar { padding-top: calc(var(--st) + 4px); padding-bottom: 12px; border-bottom: 1px solid var(--hairline); }
 .qz-bar { display: flex; align-items: center; gap: 4px; min-height: 44px; margin-bottom: 8px; }
+.qz-home { margin-left: -10px; }
 .qz-pos { font: 700 17px/1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .qz-count { margin: 1px auto 0 8px; white-space: nowrap; }
 .qz-clock {

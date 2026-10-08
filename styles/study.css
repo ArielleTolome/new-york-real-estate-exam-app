@@ -12,56 +12,76 @@
 .st-row .ic { color: var(--ink-2); width: 18px; height: 18px; }
 
 /* Chapter header bits */
+body[data-route="study"] .hdr h1 { font-size: 28px; line-height: 1.12; }
 .st-intro { display: flex; gap: 12px; align-items: flex-start; }
-.st-intro .bullet { margin-top: 2px; }
-.st-intro p { margin: 0; color: var(--ink-2); font-size: 16px; line-height: 1.55; }
+.st-intro .bullet { margin-top: 3px; }
+.st-intro p { margin: 0; color: var(--ink); font-size: 17px; line-height: 1.6; }
 .st-seg a {
   min-height: 44px; display: grid; place-items: center; border-radius: 10px; color: var(--ink-2);
   font-size: 15px; font-weight: 650; text-decoration: none;
 }
 .st-seg a[aria-current="page"] { background: var(--raised-2); color: var(--ink); }
+/* Jump chips scroll sideways on phones instead of wrapping into a block. */
+.st-jump { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter); }
+.st-jump::-webkit-scrollbar { display: none; }
+.st-jump .chip { flex: none; color: var(--ink); }
+.st-jump .chip .meta { font-variant-numeric: tabular-nums; }
+.st-anchor { scroll-margin-top: calc(var(--st) + 150px); }
+/* Statute cites inside guide text: present but quiet, so the rule itself reads first. */
+.cite-i { color: var(--ink-2); font-size: .88em; }
+.st-cram strong, .st-notes strong { color: #fff; font-weight: 700; }
 
 /* Cram sheet */
 .st-cram, .st-notes { display: flex; flex-direction: column; gap: var(--section); }
-.st-cram h2, .st-notes h2 { margin-bottom: 10px; }
+.st-cram h2, .st-notes h2 { margin-bottom: 12px; }
 .st-nums { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.st-nums div { background: var(--surface); border-radius: var(--r-ctl); padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
-.st-nums dt { font-size: 22px; color: var(--go); line-height: 1.15; }
-.st-nums dd { margin: 0; font-size: 14px; line-height: 1.4; color: var(--ink-2); }
-.st-must { margin: 0; padding: 16px 16px 16px 40px; display: flex; flex-direction: column; gap: 10px; }
-.st-must li { font-size: 16px; line-height: 1.5; padding-left: 4px; }
-.st-must li::marker { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.st-nums div { background: var(--surface); border-radius: var(--r-ctl); padding: 14px; display: flex; flex-direction: column; gap: 6px; }
+.st-nums dt { font-size: 21px; color: var(--go); line-height: 1.15; font-weight: 700; }
+.st-nums dd { margin: 0; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.st-must { margin: 0; padding: 4px 18px 4px 46px; }
+.st-must li { font-size: 16px; line-height: 1.6; padding: 12px 0 12px 4px; }
+.st-must li + li { border-top: 1px solid var(--hairline); }
+.st-must li::marker { color: var(--go); font-weight: 700; font-variant-numeric: tabular-nums; }
 .st-traps, .st-formulas, .st-mnem { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.st-traps .card { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
-.st-trap, .st-truth { margin: 0; display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.5; }
-.st-trap { color: #fca5a5; }
-.st-truth { color: var(--ink); }
-.st-trap .ic { color: var(--stop); width: 18px; height: 18px; margin-top: 2px; }
-.st-truth .ic { color: var(--go); width: 18px; height: 18px; margin-top: 2px; }
+.st-traps .card { padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.st-trap, .st-truth { margin: 0; display: flex; gap: 10px; align-items: flex-start; font-size: 16px; line-height: 1.55; }
+.st-trap { color: var(--ink-2); }
+.st-trap strong { color: var(--ink-2); }
+.st-truth { color: var(--ink); padding-top: 10px; border-top: 1px solid var(--hairline); }
+.st-trap .ic { color: var(--stop); width: 18px; height: 18px; margin-top: 3px; }
+.st-truth .ic { color: var(--go); width: 18px; height: 18px; margin-top: 3px; }
 .st-formulas .card, .st-mnem .card { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
-.st-formulas code { font: 600 16px/1.4 var(--font-display); color: #c7d2fe; white-space: normal; }
-.st-mnem span { color: var(--ink-2); font-size: 15px; line-height: 1.5; }
+.st-formulas code { font: 600 16px/1.45 var(--font-display); color: #c7d2fe; white-space: normal; }
+.st-formulas small { font-size: 14px; line-height: 1.5; }
+.st-mnem span { color: var(--ink-2); font-size: 15px; line-height: 1.55; }
 
 /* Full notes */
-.st-toc ol { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; }
+.st-toc summary { display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; list-style: none; }
+.st-toc summary::-webkit-details-marker { display: none; }
+.st-toc summary h2 { margin: 0; font-size: 17px; }
+.st-toc summary .meta { margin-left: auto; }
+.st-toc summary .ic { width: 18px; height: 18px; color: var(--ink-2); transform: rotate(90deg); transition: transform .2s ease; }
+.st-toc[open] summary .ic { transform: rotate(-90deg); }
+.st-toc ol { margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; }
+.st-toc li + li { border-top: 1px solid var(--hairline); }
 .st-toc .link { text-align: left; color: var(--ink); font-weight: 500; font-size: 15px; padding: 10px 0; min-height: 44px; width: 100%; }
 .st-body { display: flex; flex-direction: column; gap: 12px; }
-.st-sec { scroll-margin-top: calc(var(--st) + 96px); }
-.st-sec h2 { font-size: 19px; }
-.st-lead { color: var(--ink-2); font-size: 16px; line-height: 1.55; }
-.st-points { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
-.st-points li { font-size: 16px; line-height: 1.55; }
+.st-sec h2 { font-size: 20px; line-height: 1.25; }
+.st-lead { color: var(--ink-2); font-size: 16px; line-height: 1.6; margin: 0 0 14px; }
+.st-points { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 14px; }
+.st-points li { font-size: 16px; line-height: 1.6; padding-left: 2px; }
 .st-points li::marker { color: var(--go); }
-.st-table { margin-top: 14px; overflow-x: auto; border-radius: var(--r-ctl); background: var(--canvas); -webkit-overflow-scrolling: touch; }
-.st-table table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; line-height: 1.45; }
+.st-table { margin-top: 16px; overflow-x: auto; border-radius: var(--r-ctl); background: var(--canvas); -webkit-overflow-scrolling: touch; }
+.st-table table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; line-height: 1.5; }
 .st-table th, .st-table td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line-2); }
 .st-table th { color: var(--ink-2); font-weight: 650; font-size: 13px; background: var(--raised); position: sticky; top: 0; }
 .st-table td:first-child { color: var(--ink); font-weight: 600; }
 .st-table tr:last-child td { border-bottom: 0; }
-.st-example { margin-top: 14px; padding: 14px 16px; border-radius: var(--r-ctl); background: var(--canvas); border-left: 3px solid var(--go); }
-.st-example h3 { font-size: 16px; margin: 0 0 8px; }
-.st-example ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.st-example { margin-top: 16px; padding: 14px 16px; border-radius: var(--r-ctl); background: var(--canvas); border-left: 3px solid var(--go); }
+.st-example h3 { font-size: 16px; margin: 0 0 10px; }
+.st-example ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 1.55; font-variant-numeric: tabular-nums; }
 .st-sources ul { margin: 0; padding-left: 20px; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+.st-practice { margin-top: 0; }
 .st-pager { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
 .st-nav { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-radius: var(--r-card); background: var(--surface); text-decoration: none; color: var(--ink); min-height: 64px; min-width: 0; font-size: 14px; }
 .st-nav * { white-space: normal; }
@@ -70,25 +90,29 @@
 @media (hover: hover) and (pointer: fine) {
   .st-row:hover, .st-nav:hover { background: var(--raised); }
   .st-toc .link:hover { color: var(--go); }
+  .st-jump .chip:hover { background: var(--raised); }
 }
 
-/* Tablet: two-column chapter list, 3–4 number tiles, readable 70ch notes column. */
+/* Tablet: two-column chapter list, 3–4 number tiles, one readable ~70ch reading column. */
 @media (min-width: 700px) {
+  body[data-route="study"] .hdr h1 { font-size: 34px; }
   .st-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .st-nums { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .st-traps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .st-formulas, .st-mnem { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-  .st-intro p, .st-points li, .st-lead { font-size: 17px; }
-  .st-points, .st-lead, .st-example ol { max-width: 70ch; }
-  .st-must { columns: 2; column-gap: 36px; display: block; }
-  .st-must li { break-inside: avoid; margin-bottom: 10px; }
+  .st-intro p, .st-points li, .st-must li, .st-lead, .st-trap, .st-truth { font-size: 17px; }
+  .st-intro p, .st-points, .st-lead, .st-example ol, .st-must { max-width: 72ch; }
+  .st-jump { flex-wrap: wrap; overflow: visible; margin: 0; padding: 0; }
   body[data-route="study"] .st-seg { max-width: 420px; }
+  .st-practice { max-width: 420px; }
 }
-/* Wide (iPad landscape): sticky table of contents beside the notes. */
+/* Wide (iPad landscape): open, sticky section list beside the notes. */
 @media (min-width: 1100px) {
   .st-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .st-nums { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .st-notes { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; align-items: start; }
-  .st-toc { position: sticky; top: calc(var(--st) + 100px); max-height: calc(100dvh - var(--st) - 220px); overflow-y: auto; }
+  .st-toc { position: sticky; top: calc(var(--st) + 140px); max-height: calc(100dvh - var(--st) - 240px); overflow-y: auto; }
+  .st-toc summary { pointer-events: none; }
+  .st-toc summary .ic, .st-toc summary .meta { display: none; }
   .st-toc .link { font-size: 14px; padding: 8px 0; }
 }

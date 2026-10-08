@@ -252,12 +252,17 @@ function guides() {
     .catch(() => { guidesLoading = null; toast('Study guides need one online visit before they work offline.'); });
   return null;
 }
-// Guide text is plain text with **bold** as the only markup.
-const rich = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+// Guide text is plain text with **bold** as the only markup. Parenthetical citations such as "(RPL §443)" are
+// rendered muted so the rule reads first; a parenthetical containing ** is left alone so tags never cross.
+const CITE = /§|NYCRR|CFR|U\.S\.C|\bv\. |\b(Law|Act|Code|Charter|Reg|Regulation|RPL|RPAPL|GOL|RPTL|EPTL|IRC|BCL|PHL|GML|EDPL|ECL|SCPA|CPLR|GBL)\b/;
+const rich = (s) => esc(s)
+  .replace(/\((?:[^()]|\([^()]*\))*\)/g, (m) => (CITE.test(m) && !m.includes('**') ? `<span class="cite-i">${m}</span>` : m))
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 
-// Large-title header. opts: { sub: plain-text subtitle, right: trusted HTML (e.g. a button), logo: bool }
-function header(title, { sub = '', right = '', logo = false } = {}) {
-  return `<div class="hdr">${logo ? '<img class="hdr-logo" src="icons/logo.svg" alt="" width="32" height="32">' : ''}
+// Large-title header. opts: { sub: plain-text subtitle, right: trusted HTML (e.g. a button), logo: bool,
+// back: [href, label] for screens below a tab root, so every screen has a visible way back }
+function header(title, { sub = '', right = '', logo = false, back = null } = {}) {
+  return `${back ? `<a class="hdr-back" href="${back[0]}">${svg('chevron')}<span>${esc(back[1])}</span></a>` : ''}<div class="hdr">${logo ? '<img class="hdr-logo" src="icons/logo.svg" alt="" width="32" height="32">' : ''}
     <div class="hdr-t"><h1>${esc(title)}</h1>${sub ? `<p>${esc(sub)}</p>` : ''}</div>${right}</div>`;
 }
 
@@ -397,6 +402,12 @@ const ACTIONS = {
     $('#toast').classList.remove('show'); // drop the "tap again" hint once the exam is submitted
     submit();
   },
+  // Leave a quiz without ending it: progress stays in S.active and Home shows Resume.
+  exit: () => {
+    save();
+    toast(S.active?.deadline ? 'Exam saved. The clock keeps running; resume from Home.' : 'Quiz saved. Resume it from Home.');
+    go('home');
+  },
   retest: (el) => {
     const h = S.history.find((x) => x.id === el.dataset.id);
     startQuiz({ title: 'Missed Questions Retest', mode: 'study', qids: h.qids.filter((qid, i) => h.answers[i] !== byId.get(qid)?.answer) });
@@ -413,7 +424,7 @@ const ACTIONS = {
   },
 };
 
-const ASYNC_SKIP = new Set(['answer', 'end', 'drill', 'mock', 'weak', 'start', 'retest', 'review-mistakes', 'resume', 'export', 'practice-topic', 'toc']);
+const ASYNC_SKIP = new Set(['answer', 'end', 'exit', 'drill', 'mock', 'weak', 'start', 'retest', 'review-mistakes', 'resume', 'export', 'practice-topic', 'toc']);
 
 document.addEventListener('click', (e) => {
   const el = e.target.closest('[data-action]');

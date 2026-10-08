@@ -1,25 +1,25 @@
 {
   "topic": "rentals-dealsheet",
   "title": "Rentals & Deal Sheets",
-  "overview": "This chapter covers New York residential leasing and the paperwork after an accepted offer on a sale. Rental rules include the 2019 Housing Stability and Tenant Protection Act (HSTPA) limits on deposits, fees, late charges and notices, plus habitability, retaliation, subletting, roommates, the self-help ban, Good Cause Eviction, rent stabilization, DOS-1735 and NYC's FARE Act. For sales, know what a deal sheet holds, that it isn't the contract, and how commissions split. DOS publishes no topic weights; leases and contract preparation get about an hour each in the syllabus, but these numbers recur in agency, property management and math questions.",
+  "overview": "New York residential leasing and the paperwork after an accepted sale offer. The exam hits hardest on the 2019 **Housing Stability and Tenant Protection Act (HSTPA)** limits on deposits, fees, late charges and notices; habitability, the self-help ban and Good Cause; and NYC's **FARE Act**. For sales, know that a **deal sheet** isn't the contract and how commissions split.",
   "cram": {
     "numbers": [
-      { "value": "1 month's rent", "label": "Cap on security deposit plus any advance ('last month's rent' counts toward it)" },
-      { "value": "14 days", "label": "Itemized statement and refund after move-out, or the landlord forfeits the right to keep any of it" },
+      { "value": "1 month's rent", "label": "Cap on security deposit plus any advance; 'last month's rent' counts toward it" },
+      { "value": "14 days", "label": "After move-out, itemized statement and refund due, or landlord forfeits right to keep any" },
       { "value": "$20 or actual cost", "label": "Screening-fee cap, whichever is less; waived for a report from the past 30 days" },
       { "value": "$50 or 5%", "label": "Late-fee cap, whichever is less, only once rent is more than 5 days late" },
-      { "value": "5 days", "label": "Rent not received by then: the landlord must send a nonpayment notice by certified mail" },
-      { "value": "14 days", "label": "Rent demand before a nonpayment case (was 3 days); also the marshal's notice before an eviction" },
-      { "value": "30 / 60 / 90 days", "label": "§226-c notice of nonrenewal or a 5%+ increase: under 1 year / 1 to under 2 years / 2+ years" },
+      { "value": "5 days", "label": "Rent not received by then: landlord must send a certified-mail nonpayment notice" },
+      { "value": "14 days", "label": "Rent demand before a nonpayment case (was 3 days); also marshal's eviction notice" },
+      { "value": "30/60/90 days", "label": "Nonrenewal or 5%+ increase notice: under 1, 1 to under 2, 2+ years (§226-c)" },
       { "value": "1 year", "label": "Retaliation presumption window after a good-faith complaint (was 6 months)" },
       { "value": "4+ units", "label": "Building size for the right to sublet with consent not unreasonably withheld" },
-      { "value": "30 days", "label": "Silence on a proper sublet request = consent; release notice after an unreasonably refused assignment" },
+      { "value": "30 days", "label": "Sublet request silence = consent; also release notice after unreasonably refused assignment" },
       { "value": "6+ units", "label": "Deposits must earn interest; the landlord keeps 1% per year of the deposit" },
       { "value": "30 consecutive days", "label": "Occupancy after which only a court warrant can remove someone, lease or no lease" },
       { "value": "$1,000–$10,000", "label": "Civil penalty per unlawful eviction, plus a class A misdemeanor" },
-      { "value": "Lower of 5% + CPI or 10%", "label": "Good Cause: renewal increases above this are presumptively unreasonable" },
-      { "value": "10 units", "label": "Good Cause small-landlord exemption: owns 10 or fewer units statewide (an opt-in locality may set a different number)" },
-      { "value": "90–150 days", "label": "Stabilized renewal offer window; tenant has 60 days to accept and picks 1 or 2 years" },
+      { "value": "5% + CPI or 10%", "label": "Good Cause: renewal increases above the lower of these are presumptively unreasonable" },
+      { "value": "10 units", "label": "Good Cause small-landlord exemption: 10 or fewer units statewide; opt-in localities may differ" },
+      { "value": "90–150 days", "label": "Stabilized renewal offer window; tenant accepts within 60 days, choosing 1 or 2 years" },
       { "value": "June 11, 2025", "label": "NYC FARE Act effective date (upheld by the 2d Circuit July 13, 2026)" },
       { "value": "3 years", "label": "Keep DOS-1735 acknowledgments or sworn refusal declarations and signed FARE fee disclosures" },
       { "value": "40× / 80×", "label": "Typical income screens: tenant 40× the monthly rent, guarantor 80× (landlord policy, not law)" },
@@ -27,35 +27,38 @@
     ],
     "mustKnow": [
       "**HSTPA** (2019) rules cover nearly every New York residential tenancy, and no lease clause can waive them.",
-      "Deposit plus advances can't exceed **one month's rent**; a 'last month's rent' counts, so first month's rent plus one month is the most rent and deposit due at signing.",
-      "No application, processing or move-in fees; the only allowed up-front fee is a screening fee of the lesser of **actual cost or $20**, waived for a report from the past **30 days**.",
+      "Deposit plus advances can't exceed **one month's rent**. A 'last month's rent' counts, so first month's rent plus one month is the most due at signing.",
+      "No application, processing or move-in fees. The only allowed up-front fee is a screening fee of the lesser of **actual cost or $20**, waived for a report from the past **30 days**.",
       "A late fee is allowed only after rent is more than **5 days** late and is capped at the lesser of **$50 or 5%** of the rent.",
-      "Deposits are **trust money**, never commingled; **6+ unit** buildings must use an interest-bearing New York account, and the landlord keeps **1% per year of the deposit**.",
-      "Return the deposit with an **itemized statement within 14 days after move-out** or **forfeit** the right to keep any of it; never deduct **ordinary wear and tear** or a prior tenant's damage.",
-      "Rent not received within **5 days**: send a **certified-mail** notice. Before suing for nonpayment: a written **14-day rent demand**.",
-      "**RPL §226-c**: nonrenewal or a **5%+** increase needs **30/60/90 days'** written notice based on the **longer** of occupancy or lease term; late notice extends the old terms rather than voiding the change.",
-      "The **warranty of habitability** is implied in every residential lease, covers **common areas**, and **can't be waived**, but excludes conditions the tenant caused.",
-      "Landlord action within **1 year** after a good-faith complaint (to the landlord or a government agency) or a good-faith effort to enforce lease or habitability rights is **presumed retaliatory**; tenant organizing is also protected, but without the presumption.",
-      "**Assignment** transfers the whole remaining term, and an unreasonable refusal's **only remedy is release on 30 days' notice**; a **sublease** transfers less. Neither releases the original tenant.",
+      "Deposits are trust money, never commingled. **6+ unit** buildings must use an interest-bearing New York account, and the landlord keeps **1% per year of the deposit**.",
+      "Return the deposit with an itemized statement **within 14 days after move-out** or **forfeit** the right to keep any of it. Never deduct ordinary wear and tear or a prior tenant's damage.",
+      "If rent isn't received within **5 days**, send a certified-mail notice. Before suing for nonpayment, serve a written **14-day rent demand**.",
+      "Not renewing, or raising rent 5% or more, needs **30/60/90 days'** written notice based on the **longer** of occupancy or lease term (RPL §226-c). Late notice delays, not voids, the change.",
+      "The **warranty of habitability** is implied in every residential lease, covers common areas, and **can't be waived**. It excludes conditions the tenant caused.",
+      "Landlord action within **1 year** after a good-faith complaint (to the landlord or a government agency) or an effort to enforce lease or habitability rights is **presumed retaliatory**.",
+      "Tenant organizing is also protected from retaliation, but without the 1-year presumption.",
+      "**Assignment** transfers the whole remaining term; an unreasonable refusal's **only remedy is release on 30 days' notice**. A sublease transfers less. Neither releases the original tenant.",
       "In **4+ unit** buildings, sublet consent can't be unreasonably withheld, and **30 days' silence** after a proper request is consent.",
-      "**Roommate law**: a sole tenant may live with immediate family plus **one occupant** and that occupant's dependent children; the occupant gets **no right to stay** after the tenant leaves without written consent.",
-      "**No self-help**: lockouts or utility shutoffs against anyone with a lease or **30+ days** of occupancy are **unlawful eviction**, a class A misdemeanor.",
+      "Roommate law: a sole tenant may live with immediate family plus **one occupant** and that occupant's dependent children; the occupant has **no right to stay** after the tenant leaves without written consent.",
+      "Self-help is banned: lockouts or utility shutoffs against anyone with a lease or **30+ days** of occupancy are **unlawful eviction**, a class A misdemeanor.",
       "Only a **marshal, sheriff or constable** executes an eviction warrant, after **14 days'** written notice.",
-      "**Good Cause** applies automatically in **NYC** and elsewhere only by **opt-in**; the lease simply ending is not a ground for removal.",
-      "Good Cause exempts owners of **10 or fewer units** (an opt-in locality may set another number), rent-regulated units, condo/co-op units, and buildings first certified on or after **Jan 1, 2009** (for 30 years).",
-      "**Rent stabilization** covers most NYC **6+ unit buildings built before 1974**; the **Rent Guidelines Board** sets renewal increases and **DHCR** handles **overcharge complaints**.",
-      "Stabilized renewals are offered **90–150 days** before expiration and the **tenant picks 1 or 2 years**; the **HSTPA** ended high-rent and high-income deregulation.",
+      "Good Cause applies automatically in **NYC** and elsewhere only by **opt-in**. A lease simply ending is not a ground for removal.",
+      "Good Cause exempts owners of **10 or fewer units** (opt-in localities may differ), rent-regulated units, condo/co-op units, and buildings first certified on or after **Jan 1, 2009**, for 30 years.",
+      "**Rent stabilization** covers most NYC **6+ unit buildings built before 1974**. The Rent Guidelines Board sets renewal increases, and DHCR handles overcharge complaints.",
+      "Stabilized renewals are offered **90–150 days** before expiration, and the **tenant picks 1 or 2 years**. The HSTPA ended high-rent and high-income deregulation.",
       "A stabilized tenant may sublet only **2 years in any 4**, charging at most the legal rent plus **10%** if furnished.",
       "Rejecting an applicant for a past or pending landlord-tenant case (**blacklisting**) is illegal, whatever the outcome.",
-      "Lawful **source of income** is protected statewide: no 'No Section 8,' and any income test applies only to the tenant's **own share** of the rent. In NYC, none at all when the voucher sets that share from her income (Section 8, CityFHEPS).",
-      "The **40×** income and **80×** guarantor rules are landlord policy, not law; a guarantor pays if the tenant defaults but has no right to live there.",
-      "**DOS-1735** (rentals of 1–4 family homes and condo/co-op units) goes to a prospective tenant at the **first substantive contact**; it is **not a contract**, and a refusal to sign calls for a **sworn declaration** kept 3 years.",
-      "**FARE Act**: the landlord's agent can't charge the tenant, a listing is **presumed** to have landlord permission, and a tenant may still **hire and pay her own broker**.",
+      "Lawful **source of income** is protected statewide: no 'No Section 8,' and any income test applies only to the tenant's **own share** of the rent.",
+      "In NYC, no income test applies at all when the voucher sets the tenant's share from her income (Section 8, CityFHEPS).",
+      "The **40×** income and **80×** guarantor rules are landlord policy, not law. A guarantor pays if the tenant defaults but has no right to live there.",
+      "**DOS-1735** goes to a prospective tenant at the **first substantive contact**. It covers rentals of 1–4 family homes and condo/co-op units.",
+      "DOS-1735 is **not a contract**. If the person refuses to sign, the agent makes a **sworn declaration** and keeps it 3 years.",
+      "FARE Act: the landlord's agent can't charge the tenant, and a listing is **presumed** to have landlord permission. A tenant may still **hire and pay her own broker**.",
       "FARE bans conditioning a rental on hiring any agent and requires an **itemized fee disclosure signed before the lease**. It is **NYC-only**.",
       "Rent and deposits a broker collects go into a special **escrow account within 3 business days**.",
-      "A **deal sheet** summarizes accepted terms so the **seller's attorney** can draft the contract; it is **not the contract**, and parties generally aren't bound until both sign the contract of sale.",
-      "Deal sheet essentials: **price, deposit, mortgage amount, contingencies, closing date, commission split, both attorneys' contacts**; no protected-class details or client secrets.",
-      "NYC's **10% deposit** is custom, usually held by the **seller's attorney**; **commissions are negotiable**, and a salesperson is paid **only by her own broker**."
+      "A **deal sheet** summarizes accepted terms so the seller's attorney can draft the contract. It is **not the contract**; parties generally aren't bound until both sign the contract of sale.",
+      "Deal sheet essentials: **price, deposit, mortgage amount, contingencies, closing date, commission split, both attorneys' contacts**. Never include protected-class details or client secrets.",
+      "NYC's **10% deposit** is custom, usually held by the seller's attorney. Commissions are negotiable, and a salesperson is paid **only by her own broker**."
     ],
     "traps": [
       { "trap": "First month, last month and a full month's security is a lawful move-in package.", "truth": "Last month's rent is an advance under the one-month cap; first month plus one month is the maximum." },
@@ -66,11 +69,11 @@
       { "trap": "Retaliation is presumed only for 6 months after a complaint.", "truth": "The HSTPA made it 1 year." },
       { "trap": "A tenant 8 months into a one-year lease gets 30 days' nonrenewal notice.", "truth": "Use the longer of occupancy or lease term; a lease of at least one year means 60 days." },
       { "trap": "A habitability waiver traded for lower rent is valid.", "truth": "Any waiver is void as against public policy; consideration doesn't save it." },
-      { "trap": "If an assignment is unreasonably refused, the tenant may assign anyway.", "truth": "The sole remedy is release on 30 days' notice; 'sublet anyway' is the remedy for an unreasonably refused sublet." },
+      { "trap": "If an assignment is unreasonably refused, the tenant may assign anyway.", "truth": "The sole remedy is release on 30 days' notice. 'Sublet anyway' is the remedy for an unreasonably refused sublet." },
       { "trap": "Good Cause caps every New York rent increase at 10%.", "truth": "It covers only non-exempt units in NYC and opt-in localities, uses the lower of 5% + CPI or 10%, and a bigger increase is only presumed unreasonable." },
       { "trap": "The FARE Act bans tenant-paid broker fees statewide.", "truth": "It's NYC-only, and even there a tenant may pay a broker she hires herself." },
       { "trap": "Without a written listing agreement, the broker advertising an NYC apartment may charge the tenant.", "truth": "Publishing a listing creates a presumption of landlord permission, so no tenant fee." },
-      { "trap": "A signed DOS-1735 or a signed deal sheet binds the signer.", "truth": "DOS-1735 only acknowledges receipt; a deal sheet is a summary, and a sale binds once both parties sign the contract." },
+      { "trap": "A signed DOS-1735 or a signed deal sheet binds the signer.", "truth": "DOS-1735 only acknowledges receipt. A deal sheet is a summary; a sale binds once both parties sign the contract." },
       { "trap": "Luxury decontrol at $2,000 rent and $175,000 income still applies.", "truth": "The HSTPA abolished high-rent and high-income deregulation in 2019; the syllabus figures are obsolete." }
     ],
     "mnemonics": [
@@ -92,11 +95,20 @@
       "heading": "Lease basics and leasehold estates",
       "intro": "A lease transfers possession, not ownership, for a term in exchange for rent. Contract law governs it, subject to tenant protections no lease can waive.",
       "points": [
-        "The **lessor** (landlord) grants possession to the **lessee** (tenant) through the **demising clause**. A valid lease also needs parties with capacity, a description of the premises, the **term**, and the **rent** and how it's paid. Both sign; notarization is needed only if the lease will be recorded.",
-        "**Statute of frauds** (GOL §5-703): a lease longer than **one year** needs a signed writing; one year or less may be oral. The **plain language law** (GOL §5-702) requires clear, everyday wording in residential leases (agreements up to $250,000; older books say $50,000).",
-        "If the lease is silent, the common-law default (repeated in the syllabus) is rent due **in arrears**; standard leases make it due in advance.",
-        "Lease types: **gross** (landlord pays operating costs; typical residential), **net** (tenant pays taxes, insurance and/or maintenance; triple net = all three), **percentage** (base rent plus a share of sales), **graduated** (scheduled step-ups), **index** (tied to an index such as the consumer price index, CPI), **ground or land lease** (land only), and **proprietary lease** (co-op occupancy).",
-        "The **use clause** limits permitted uses; in commercial leases 'for no other purpose' is narrow and 'any lawful purpose' is broad. There's no general statutory renewal right: renewal comes from rent stabilization, Good Cause, or an **option to renew**. Attached tenant improvements usually stay with the property; commercial **trade fixtures** may be removed if damage is repaired.",
+        "The **lessor** is the landlord, and the **lessee** is the tenant.",
+        "The **demising clause** grants possession. A valid lease also needs parties with capacity, a description of the premises, the term, and the rent and how it's paid.",
+        "Both parties sign. Notarization is needed only if the lease will be recorded.",
+        "**Statute of frauds**: a lease longer than **one year** needs a signed writing; one year or less may be oral (GOL §5-703).",
+        "The **plain language law** requires clear, everyday wording in residential leases, for agreements up to $250,000 (GOL §5-702). Older books say $50,000.",
+        "If the lease is silent, the common-law default (repeated in the syllabus) is rent due **in arrears**. Standard leases make it due in advance.",
+        "A **gross** lease has the landlord pay operating costs; it's typical for residential.",
+        "A **net** lease has the tenant pay taxes, insurance and/or maintenance. Triple net = all three.",
+        "A **percentage** lease is base rent plus a share of sales. A **graduated** lease has scheduled step-ups.",
+        "An **index** lease is tied to an index such as the consumer price index (CPI).",
+        "A **ground or land lease** covers land only. A **proprietary lease** is for co-op occupancy.",
+        "The **use clause** limits permitted uses. In commercial leases, 'for no other purpose' is narrow and 'any lawful purpose' is broad.",
+        "There's no general statutory renewal right. Renewal comes from rent stabilization, Good Cause, or an **option to renew**.",
+        "Attached tenant improvements usually stay with the property. Commercial **trade fixtures** may be removed if the damage is repaired.",
         "If possession isn't delivered at the start, the tenant may rescind (RPL §223-a). A sale, or the death of either party, doesn't end a lease."
       ],
       "table": {
@@ -111,13 +123,18 @@
     },
     {
       "heading": "Move-in money: deposits, fees and late charges",
-      "intro": "These HSTPA rules cover market-rate (GOL §7-108) and rent-stabilized (GOL §7-107) units statewide; rent-controlled units follow their own rules.",
+      "intro": "These HSTPA rules cover market-rate (GOL §7-108) and rent-stabilized (GOL §7-107) units statewide. Rent-controlled units follow their own rules.",
       "points": [
-        "**Deposit cap** (GOL §§7-107, 7-108): deposit plus advances can't exceed **one month's rent**. Narrow exceptions cover registered seasonal rentals, owner-occupied co-op purchases, and some senior and care housing.",
-        "**Fee ban** (RPL §238-a): no application, processing, move-in or other fee before or at the start of a tenancy. Calling a charge 'refundable' just makes it an illegal extra deposit.",
-        "The sole exception is a **background/credit check**: the lesser of actual cost or **$20**, only with a copy of the report and the receipt, and **waived** if the applicant brings a report from the past **30 days**.",
-        "**Late fee**: only if rent isn't paid within **5 days** of the due date, capped at the lesser of **$50 or 5%** ($50 controls only above $1,000 rent). A bounced-check fee needs a lease clause and is capped by statute.",
-        "Co-op purchases differ: a co-op may charge a buyer its actual screening cost, even above $20, plus managing-agent processing fees, and may charge shareholders a late fee of up to 8% of monthly maintenance if the proprietary lease provides for it."
+        "**Deposit cap**: deposit plus advances can't exceed **one month's rent** (GOL §§7-107, 7-108).",
+        "Narrow exceptions to the cap cover registered seasonal rentals, owner-occupied co-op purchases, and some senior and care housing.",
+        "**Fee ban**: no application, processing, move-in or other fee before or at the start of a tenancy (RPL §238-a).",
+        "Calling a charge 'refundable' just makes it an illegal extra deposit.",
+        "The sole exception is a **background/credit check**: the lesser of actual cost or **$20**, only with a copy of the report and the receipt.",
+        "The screening fee is **waived** if the applicant brings a report from the past 30 days.",
+        "A **late fee** is allowed only if rent isn't paid within 5 days of the due date. It's capped at the lesser of **$50 or 5%**; $50 controls only above $1,000 rent.",
+        "A bounced-check fee needs a lease clause and is capped by statute.",
+        "Co-op purchases differ: a co-op may charge a buyer its actual screening cost, even above $20, plus managing-agent processing fees.",
+        "A co-op may charge shareholders a late fee of up to 8% of monthly maintenance if the proprietary lease provides for it."
       ],
       "table": {
         "head": ["Charge", "Rule", "Quick check"],
@@ -133,19 +150,27 @@
         "steps": [
           "Rent of $850 is due on the 1st and paid on the 10th, more than 5 days late.",
           "Cap: 5% × $850 = $42.50, which is less than $50.",
-          "Answer: **$42.50**. On $1,400 rent, 5% is $70, so the $50 cap controls."
+          "Compare: on $1,400 rent, 5% is $70, so the $50 cap would control.",
+          "Answer: **$42.50**."
         ]
       }
     },
     {
       "heading": "Holding and returning the security deposit",
       "points": [
-        "**Trust money** (GOL §7-103): the deposit stays the tenant's and is never commingled. If banked, it must be in a bank with a New York office, and the tenant gets written notice of the bank's name and address and the amount.",
+        "**Trust money**: the deposit stays the tenant's and is never commingled (GOL §7-103).",
+        "If banked, the deposit must be in a bank with a New York office. The tenant gets written notice of the bank's name and address and the amount.",
         "**6+ units**: an interest-bearing account is required. The landlord keeps **1% per year of the deposit**; the rest of the interest is the tenant's (paid yearly, credited to rent, or paid at the end).",
-        "**Inspections**: before move-in the landlord must offer a joint inspection, and defects listed in a signed condition report can't be deducted later. Before move-out the landlord must tell the tenant of the right to an inspection 1–2 weeks before the end, on **48 hours' written notice**, then list proposed deductions so the tenant can cure.",
-        "**Refund**: an itemized statement and the balance within **14 days after the tenant vacates**; missing it **forfeits** any right to keep money, even for real damage.",
-        "**Deductions** only for unpaid rent, damage beyond normal wear and tear, landlord-billed utilities, and moving/storage of belongings; never faded paint, normally worn carpet, or a prior tenant's damage. The landlord bears the burden of proof, and a willful violation risks punitive damages up to twice the deposit.",
-        "**Building sale** (GOL §7-105): deposits go to the buyer within 5 days, tenants are notified by registered or certified mail, and the buyer owes the refunds (a seller debit and buyer credit at closing)."
+        "**Move-in inspection**: the landlord must offer a joint inspection. Defects listed in a signed condition report can't be deducted later.",
+        "Before move-out, the landlord must tell the tenant of the right to an inspection 1–2 weeks before the end, on **48 hours' written notice**.",
+        "After that inspection, the landlord lists proposed deductions so the tenant can cure.",
+        "**Refund**: an itemized statement and the balance are due within **14 days after the tenant vacates**.",
+        "Missing the refund deadline forfeits any right to keep money, even for real damage.",
+        "**Deductions** are allowed only for unpaid rent, damage beyond normal wear and tear, landlord-billed utilities, and moving/storage of belongings.",
+        "Never deduct faded paint, normally worn carpet, or a prior tenant's damage.",
+        "The landlord bears the burden of proof. A willful violation risks punitive damages up to twice the deposit.",
+        "**Building sale**: deposits go to the buyer within 5 days, and tenants are notified by registered or certified mail (GOL §7-105).",
+        "After a building sale, the buyer owes the refunds. This is a seller debit and buyer credit at closing."
       ],
       "example": {
         "title": "Worked example: deposit interest in a 20-unit building",
@@ -159,11 +184,17 @@
     {
       "heading": "Notices: renewals, nonrenewals and late rent",
       "points": [
-        "**RPL §226-c**: a landlord who won't renew, or will raise rent **5% or more**, must give written notice measured by the **longer** of occupancy or lease term. An increase under 5% needs no §226-c notice (Good Cause may still apply).",
-        "**Late notice** doesn't cancel the change: the old terms continue from the date notice was actually given until the full period runs. Month-to-month terminations use the same tiers; a tenancy at will or sufferance needs **30 days'** notice.",
-        "Statewide, every landlord must attach the **Good Cause notice** (RPL §231-c) to new leases, renewals, §226-c notices, 14-day rent demands and eviction petitions, stating whether the unit is covered and, if not, why (outside NYC, 'locality hasn't opted in' is one listed reason).",
-        "**Rent collection**: receipts for cash or money-order rent (personal checks only on request); a **certified-mail** notice if rent isn't received within **5 days** (RPL §235-e); then a **14-day rent demand** before a nonpayment case (RPAPL §711).",
-        "If a tenant leaves early, the landlord must try to re-rent (**duty to mitigate**, RPL §227-e). Tenants 62+ or disabled moving to care, senior or subsidized housing or a relative's home may end a lease early (RPL §227-a); domestic-violence victims and service members have similar rights."
+        "A landlord who won't renew, or will raise rent **5% or more**, must give written notice measured by the **longer** of occupancy or lease term (RPL §226-c).",
+        "An increase under 5% needs no §226-c notice, though Good Cause may still apply.",
+        "**Late notice** doesn't cancel the change. The old terms continue from the date notice was actually given until the full period runs.",
+        "Month-to-month terminations use the same tiers. A tenancy at will or sufferance needs **30 days'** notice.",
+        "Statewide, every landlord must attach the **Good Cause notice** to new leases, renewals, §226-c notices, 14-day rent demands and eviction petitions (RPL §231-c).",
+        "The Good Cause notice states whether the unit is covered and, if not, why. Outside NYC, 'locality hasn't opted in' is one listed reason.",
+        "Landlords give receipts for cash or money-order rent, and for personal checks only on request.",
+        "If rent isn't received within **5 days**, the landlord sends a certified-mail notice (RPL §235-e).",
+        "Before a nonpayment case, the landlord serves a **14-day rent demand** (RPAPL §711).",
+        "If a tenant leaves early, the landlord must try to re-rent: the **duty to mitigate** (RPL §227-e).",
+        "Tenants 62+ or disabled moving to care, senior or subsidized housing or a relative's home may end a lease early (RPL §227-a). Domestic-violence victims and service members have similar rights."
       ],
       "table": {
         "head": ["Longer of occupancy or lease term", "Notice required"],
@@ -185,10 +216,16 @@
     {
       "heading": "Habitability, safety and required lease disclosures",
       "points": [
-        "**Warranty of habitability** (RPL §235-b): implied in every written or oral residential lease and covering the unit and **common areas**; it **can't be waived** but excludes conditions the tenant caused. It protects co-op shareholders but not condo owners. The usual remedy is a court-ordered rent abatement.",
-        "**Constructive eviction**: landlord fault makes the unit unusable, and the tenant must **move out** to claim it. **Quiet enjoyment** protects possession from landlord interference. The landlord enters as the lease allows on reasonable notice, or anytime in an emergency.",
-        "**NYC buildings with 3+ units**: window guards on every window except fire-escape windows wherever a child **10 or younger** lives or the tenant asks; **Local Law 1** presumes lead paint in pre-1960 buildings where a child **under 6** lives. One January notice covers both; if it isn't returned by February 15, the owner must try to inspect.",
-        "NYC owners install smoke and carbon monoxide detectors, and occupants maintain them, batteries included. **Amanda's Law** requires CO alarms in homes with fuel-burning appliances or an attached garage."
+        "The **warranty of habitability** is implied in every written or oral residential lease and covers the unit and common areas (RPL §235-b).",
+        "The warranty **can't be waived** but excludes conditions the tenant caused. It protects co-op shareholders but not condo owners.",
+        "The usual habitability remedy is a court-ordered rent abatement.",
+        "**Constructive eviction**: landlord fault makes the unit unusable, and the tenant must move out to claim it.",
+        "**Quiet enjoyment** protects possession from landlord interference. The landlord enters as the lease allows on reasonable notice, or anytime in an emergency.",
+        "**Window guards** in NYC buildings with 3+ units: required on every window except fire-escape windows wherever a child **10 or younger** lives or the tenant asks.",
+        "**Local Law 1** presumes lead paint in pre-1960 NYC buildings with 3+ units where a child **under 6** lives.",
+        "One January notice covers window guards and lead paint. If it isn't returned by February 15, the owner must try to inspect.",
+        "NYC owners install smoke and carbon monoxide detectors, and occupants maintain them, batteries included.",
+        "**Amanda's Law** requires CO alarms in homes with fuel-burning appliances or an attached garage."
       ],
       "table": {
         "head": ["Disclosure", "Applies to", "Key point"],
@@ -204,12 +241,18 @@
     {
       "heading": "Assignment, subletting and roommates",
       "points": [
-        "**Assignment** transfers the entire remaining term; the original tenant stays liable unless the landlord releases them (a novation). A **sublease** transfers part and the tenant keeps a reversion, staying liable for everything.",
-        "**Assignment consent** (RPL §226-b(1)): may be withheld without a reason, but if the refusal is **unreasonable**, the tenant's **sole remedy** is release on **30 days' notice**.",
-        "**Sublet right** (RPL §226-b(2)), **4+ unit** buildings: consent can't be unreasonably withheld. The tenant requests by certified mail with the term, subtenant's name and addresses, reason, her address during the sublet, any co-tenant or guarantor consent, and the proposed sublease. The landlord may ask for more information within **10 days** and must answer within **30 days**; **silence = consent**. After an unreasonable refusal the tenant may sublet anyway, with legal fees if the landlord acted in bad faith.",
+        "An **assignment** transfers the entire remaining term. The original tenant stays liable unless the landlord releases them (a novation).",
+        "A **sublease** transfers part. The tenant keeps a reversion and stays liable for everything.",
+        "Assignment consent may be withheld without a reason (RPL §226-b(1)). If the refusal is **unreasonable**, the tenant's **sole remedy** is release on 30 days' notice.",
+        "**Sublet right** in **4+ unit** buildings: consent can't be unreasonably withheld (RPL §226-b(2)).",
+        "The tenant requests by certified mail. The request gives the term, the subtenant's name and addresses, the reason, her address during the sublet, any co-tenant or guarantor consent, and the proposed sublease.",
+        "The landlord may ask for more information within 10 days and must answer within **30 days**; **silence = consent**.",
+        "After an unreasonable refusal, the tenant may sublet anyway, with legal fees if the landlord acted in bad faith.",
         "§226-b doesn't cover public housing or **co-op proprietary leases**, and in buildings under 4 units the lease controls. Skipping the procedure is a substantial breach.",
-        "**Stabilized sublets**: the tenant keeps a primary residence there, sublets at most **2 years in any 4**, and charges no more than the legal rent plus **10%** if furnished.",
-        "**Roommate law** (RPL §235-f): one named tenant may add **one occupant** plus that occupant's dependent children if the tenant or spouse lives there as a primary residence; with several named tenants, the total can't exceed the number named. The landlord gets the occupant's name within **30 days**, and the occupant has **no right to stay** without written consent."
+        "**Stabilized sublets**: the tenant keeps a primary residence there, sublets at most **2 years in any 4**, and charges no more than the legal rent plus 10% if furnished.",
+        "**Roommate law**: one named tenant may add **one occupant** plus that occupant's dependent children, if the tenant or spouse lives there as a primary residence (RPL §235-f).",
+        "With several named tenants, the total can't exceed the number named.",
+        "The landlord gets the occupant's name within 30 days. The occupant has **no right to stay** without written consent."
       ],
       "table": {
         "head": ["Arrangement", "Transfers", "Landlord consent", "Tenant still liable?"],
@@ -231,11 +274,19 @@
     {
       "heading": "Evictions, retaliation and the ban on self-help",
       "points": [
-        "**Unlawful eviction** (RPAPL §768): without a court warrant, no one may remove anyone who has a lease or **30+ consecutive days** of lawful occupancy, by force, threats, **lock changes**, removing belongings, or **cutting utilities**. Penalties: class A misdemeanor, **$1,000–$10,000** per violation, and treble damages to the tenant (RPAPL §853).",
-        "Only a **marshal, sheriff or constable** executes a warrant, after **14 days' written notice**. In a nonpayment case, paying all rent due before execution vacates the warrant unless rent was withheld in bad faith.",
-        "Nonpayment path: 5-day certified notice → 14-day demand → petition → judgment → warrant → 14-day notice → execution. Holdover path: predicate notice (§226-c or 30 days) → petition → judgment → warrant.",
-        "**Retaliation** (RPL §223-b): no notice to quit, eviction, nonrenewal or substantial change in terms because of a good-faith complaint (to the landlord or a government agency), enforcing lease or habitability rights, or **tenant organizing**. Within **1 year** after a complaint or enforcement effort (or a resulting inspection, order or tenant judgment), retaliation is **presumed**; organizing gets no presumption. The landlord must rebut the presumption, and the tenant still owes rent.",
-        "Retaliation rules exclude owner-occupied buildings under 4 units and tenant-caused conditions, and lease violations (unapproved sublets, banned pets, blocking repairs) aren't protected activity."
+        "**Unlawful eviction**: without a court warrant, no one may remove anyone who has a lease or **30+ consecutive days** of lawful occupancy (RPAPL §768).",
+        "Banned removal methods include force, threats, lock changes, removing belongings, and cutting utilities.",
+        "Unlawful eviction penalties: class A misdemeanor, **$1,000–$10,000** per violation, and treble damages to the tenant (RPAPL §853).",
+        "Only a **marshal, sheriff or constable** executes a warrant, after **14 days' written notice**.",
+        "In a nonpayment case, paying all rent due before execution vacates the warrant unless rent was withheld in bad faith.",
+        "Nonpayment path: 5-day certified notice → 14-day demand → petition → judgment → warrant → 14-day notice → execution.",
+        "Holdover path: predicate notice (§226-c or 30 days) → petition → judgment → warrant.",
+        "**Retaliation** is banned: no notice to quit, eviction, nonrenewal or substantial change in terms because of protected activity (RPL §223-b).",
+        "Protected activity: a good-faith complaint to the landlord or a government agency, enforcing lease or habitability rights, or tenant organizing.",
+        "Retaliation is **presumed** within **1 year** after a complaint or enforcement effort, or after a resulting inspection, order or tenant judgment. Organizing gets no presumption.",
+        "The landlord must rebut the presumption, and the tenant still owes rent.",
+        "Retaliation rules exclude owner-occupied buildings under 4 units and tenant-caused conditions.",
+        "Lease violations aren't protected activity: unapproved sublets, banned pets, or blocking repairs."
       ],
       "example": {
         "title": "Worked example: a guest with no lease",
@@ -250,9 +301,13 @@
       "heading": "Good Cause Eviction Law",
       "intro": "Enacted in April 2024 as RPL Article 6-A; scheduled to expire June 15, 2034.",
       "points": [
-        "Applies automatically in **NYC**; elsewhere only where a city, town or village **opts in**, and then only to non-exempt units. (A six-unit test belongs to rent stabilization, not Good Cause.)",
-        "Covered tenants can be removed only for listed grounds: **nonpayment** (not caused by an unreasonable increase), an uncured substantial lease violation, nuisance, **illegal use**, **unreasonably refusing access**, good-faith **owner or family use** (not against tenants 65+ or disabled), demolition, leaving the rental market, or refusing reasonable renewal terms. **Lease expiration alone isn't a ground.**",
-        "**Local rent standard**: increases above the **lower of 5% + CPI or 10%** are **presumptively unreasonable**; the landlord can justify more (taxes, costs, significant repairs). HCR publishes the regional figure by August 1 each year; on the exam, use the CPI the question gives.",
+        "Applies automatically in **NYC**. Elsewhere it applies only where a city, town or village **opts in**, and then only to non-exempt units.",
+        "A six-unit test belongs to rent stabilization, not Good Cause.",
+        "Covered tenants can be removed only for listed grounds. **Lease expiration alone isn't a ground.**",
+        "Grounds: **nonpayment** (not caused by an unreasonable increase), an uncured substantial lease violation, nuisance, illegal use, or unreasonably refusing access.",
+        "More grounds: good-faith **owner or family use** (not against tenants 65+ or disabled), demolition, leaving the rental market, or refusing reasonable renewal terms.",
+        "**Local rent standard**: increases above the **lower of 5% + CPI or 10%** are presumptively unreasonable. The landlord can justify more (taxes, costs, significant repairs).",
+        "HCR publishes the regional figure by August 1 each year. On the exam, use the CPI the question gives.",
         "Leases, renewals and notices must include the Good Cause notice stating coverage or the exemption claimed."
       ],
       "table": {
@@ -278,12 +333,17 @@
     {
       "heading": "Rent stabilization, rent control and the HSTPA",
       "points": [
-        "**Rent stabilization** covers most NYC buildings of **6+ units built before 1974**. Outside NYC the **Emergency Tenant Protection Act (ETPA)** applies where localities adopt it (parts of Nassau, Westchester and Rockland; since 2019 any municipality may opt in).",
-        "The **Rent Guidelines Board** sets yearly maximum increases for 1- and 2-year renewals. **DHCR** (Division of Housing and Community Renewal, within NYS Homes and Community Renewal) handles registrations and **overcharge complaints**.",
-        "Renewals are offered on the DHCR form **90–150 days** before expiration; the tenant has **60 days** to accept and chooses **1 or 2 years**. The unit must be the tenant's **primary residence**. A family member who lived there **2 years** (1 if 62+ or disabled) before the tenant left has **succession** rights.",
-        "**HSTPA (2019)** made the rent laws permanent; ended high-rent vacancy and high-income deregulation, the up-to-20% **vacancy bonus** and the longevity bonus; protected preferential rents; limited improvement-based increases; and extended the overcharge look-back to 6 years with treble damages.",
+        "**Rent stabilization** covers most NYC buildings of **6+ units built before 1974**.",
+        "Outside NYC, the **Emergency Tenant Protection Act (ETPA)** applies where localities adopt it: parts of Nassau, Westchester and Rockland. Since 2019 any municipality may opt in.",
+        "The **Rent Guidelines Board** sets yearly maximum increases for 1- and 2-year renewals.",
+        "**DHCR** (Division of Housing and Community Renewal, within NYS Homes and Community Renewal) handles registrations and overcharge complaints.",
+        "Renewals are offered on the DHCR form **90–150 days** before expiration. The tenant has **60 days** to accept and chooses 1 or 2 years.",
+        "The unit must be the tenant's **primary residence**.",
+        "A family member who lived there 2 years (1 if 62+ or disabled) before the tenant left has **succession** rights.",
+        "The **HSTPA (2019)** made the rent laws permanent. It ended high-rent vacancy and high-income deregulation, the up-to-20% vacancy bonus, and the longevity bonus.",
+        "The HSTPA also protected preferential rents, limited improvement-based increases, and extended the overcharge look-back to 6 years with treble damages.",
         "The syllabus's **luxury decontrol** figures ($2,000 rent, $175,000 income) are obsolete: no unit deregulates that way after 2019.",
-        "**Rent control** mostly covers NYC pre-1947 buildings with tenants in place since before July 1, 1971 (Maximum Base Rent system); on vacancy the unit usually becomes stabilized or deregulated."
+        "**Rent control** mostly covers NYC pre-1947 buildings with tenants in place since before July 1, 1971 (Maximum Base Rent system). On vacancy the unit usually becomes stabilized or deregulated."
       ],
       "table": {
         "head": ["Regime", "Covers", "Increases", "Renewal right"],
@@ -298,10 +358,16 @@
     {
       "heading": "Agency disclosure for rentals: DOS-1735",
       "points": [
-        "RPL §443 covers rentals (and sales) of **1–4 family homes and condo/co-op units**, not commercial space or vacant land; its definition doesn't reach apartments in larger rental buildings. DOS-1736 is the sales version.",
-        "**Timing**: a listing agent gives it to the landlord before the listing agreement; a landlord's agent gives it to a prospective tenant at the **first substantive contact**; a tenant's agent gives it to the tenant before the agency agreement and to the landlord at first substantive contact.",
-        "It's headed **THIS IS NOT A CONTRACT**: signing only acknowledges receipt. Keep acknowledgments **3 years**; on a refusal, the agent writes a **sworn declaration** of the facts, keeps it 3 years, and may keep working with the person.",
-        "A landlord's agent owes the landlord full fiduciary duties but must deal honestly with the tenant and disclose known material facts. Owners renting directly need no form. The separate fair housing disclosure (**DOS-2156**, 19 NYCRR §175.28) goes at first substantive contact to every prospective buyer, tenant, seller or landlord, for any property type, commercial and vacant land included."
+        "The agency disclosure law covers rentals (and sales) of **1–4 family homes and condo/co-op units**, not commercial space or vacant land (RPL §443).",
+        "The definition doesn't reach apartments in larger rental buildings. DOS-1736 is the sales version.",
+        "A listing agent gives DOS-1735 to the landlord before the listing agreement.",
+        "A landlord's agent gives it to a prospective tenant at the **first substantive contact**.",
+        "A tenant's agent gives it to the tenant before the agency agreement, and to the landlord at first substantive contact.",
+        "It's headed **THIS IS NOT A CONTRACT**: signing only acknowledges receipt. Keep acknowledgments 3 years.",
+        "On a refusal to sign, the agent writes a **sworn declaration** of the facts and keeps it 3 years. The agent may keep working with the person.",
+        "A landlord's agent owes the landlord full fiduciary duties but must deal honestly with the tenant and disclose known material facts.",
+        "Owners renting directly need no form.",
+        "The separate **fair housing disclosure** (DOS-2156) goes at first substantive contact to every prospective buyer, tenant, seller or landlord (19 NYCRR §175.28), for any property type, commercial and vacant land included."
       ],
       "table": {
         "head": ["Relationship", "Who", "Key fact"],
@@ -318,17 +384,22 @@
       "heading": "NYC FARE Act: who pays the broker",
       "intro": "NYC Local Law 119 of 2024, effective **June 11, 2025**, upheld by the Second Circuit on July 13, 2026: whoever hires the broker pays.",
       "points": [
-        "An agent who **represents or was engaged by the landlord** can't charge the tenant any fee, and the landlord can't pass it along; disclosing the fee doesn't cure it.",
+        "An agent who **represents or was engaged by the landlord** can't charge the tenant any fee, and the landlord can't pass it along. Disclosing the fee doesn't cure it.",
         "Publishing a listing creates a **rebuttable presumption** of landlord permission, which bars a tenant fee even without a written listing agreement.",
-        "No rental, tour or application may be **conditioned** on hiring an agent, including a **dual agent**. A tenant may voluntarily **hire her own broker** and pay the agreed fee.",
-        "Listings must show **every tenant-paid fee**, and the tenant signs an **itemized fee disclosure before the lease**, kept **3 years**. Order: DOS-1735 → application and screening → fee disclosure → lease.",
-        "NYC's Department of Consumer and Worker Protection enforces it. FARE is **NYC-only**; elsewhere RPL §238-a limits landlords' fees but, per a 2021 court ruling, not brokers' commissions."
+        "No rental, tour or application may be **conditioned** on hiring an agent, including a dual agent.",
+        "A tenant may voluntarily **hire her own broker** and pay the agreed fee.",
+        "Listings must show **every tenant-paid fee**.",
+        "The tenant signs an **itemized fee disclosure before the lease**, kept 3 years.",
+        "Order: DOS-1735 → application and screening → fee disclosure → lease.",
+        "NYC's Department of Consumer and Worker Protection enforces it.",
+        "FARE is **NYC-only**. Elsewhere, RPL §238-a limits landlords' fees but, per a 2021 court ruling, not brokers' commissions."
       ],
       "example": {
         "title": "Worked example: tenant's own broker",
         "steps": [
           "An NYC tenant hires her own broker at 12% of the first year's rent and leases at $3,000 a month.",
-          "$3,000 × 12 = $36,000; × 12% = $4,320.",
+          "First year's rent: $3,000 × 12 = $36,000.",
+          "Fee: $36,000 × 12% = $4,320.",
           "Answer: she may pay **$4,320**; a landlord's listing agent could charge her nothing."
         ]
       }
@@ -337,32 +408,49 @@
       "heading": "Rental brokerage practice: screening, guarantors and move-in costs",
       "points": [
         "**40× rule**: annual income of at least 40 × the monthly rent (max rent = income ÷ 40). It's landlord policy, not law, and must be applied consistently.",
-        "A **guarantor** signs a written guaranty (GOL §5-701) to pay if the tenant defaults; liable, but with **no right to occupy**, unlike a co-tenant. Buildings often require **80×**; institutional guarantors are an alternative.",
-        "**Source of income** (Executive Law §296(5); NYC Admin. Code §8-107): no 'No Section 8' ads; income tests apply only to the tenant's share, and none if a voucher pays 100%. In NYC, no income minimum or guarantor at all when the voucher sets the tenant's share from income (Section 8, CityFHEPS).",
-        "**No blacklisting** (RPL §227-f): rejecting an applicant after checking court or screening-bureau records about past cases creates a rebuttable presumption of a violation, even if the old case was dismissed.",
-        "Rent and deposits the broker collects go into a special **escrow account within 3 business days** (19 NYCRR §175.1). Compensation from more than one party needs the client's knowledge and consent (§175.7).",
-        "Ads must name the brokerage plus its address or phone, or they're **blind ads** (19 NYCRR §175.25). Advertising a unit already rented is **bait advertising**, which is dishonest or misleading advertising (RPL §441-c). Selling rental lists requires an apartment information vendor license.",
+        "A **guarantor** signs a written guaranty to pay if the tenant defaults (GOL §5-701).",
+        "A guarantor is liable but has **no right to occupy**, unlike a co-tenant. Buildings often require 80×; institutional guarantors are an alternative.",
+        "**Source of income** is protected: no 'No Section 8' ads (Executive Law §296(5); NYC Admin. Code §8-107).",
+        "Income tests apply only to the tenant's share, and none apply if a voucher pays 100%.",
+        "In NYC, a landlord can't require any income minimum or guarantor when the voucher sets the tenant's share from income (Section 8, CityFHEPS).",
+        "**No blacklisting**: rejecting an applicant after checking court or screening-bureau records about past cases creates a rebuttable presumption of a violation, even if the old case was dismissed (RPL §227-f).",
+        "Rent and deposits the broker collects go into a special **escrow account within 3 business days** (19 NYCRR §175.1).",
+        "Compensation from more than one party needs the client's knowledge and consent (§175.7).",
+        "Ads must name the brokerage plus its address or phone, or they're **blind ads** (19 NYCRR §175.25).",
+        "Advertising a unit already rented is **bait advertising**, which is dishonest or misleading advertising (RPL §441-c).",
+        "Selling rental lists requires an apartment information vendor license.",
         "NYC tenant who hires her own broker at one month's rent on a $2,750 unit: $2,750 rent + $2,750 deposit + $20 + $2,750 fee = **$8,270**."
       ],
       "example": {
         "title": "Worked example: most due at signing (NYC, landlord's broker)",
         "steps": [
           "Rent $3,400; the screening check costs $30; the landlord hired the broker.",
-          "First month $3,400 + one-month deposit $3,400 + screening fee $20 (lesser of $30 or $20); broker fee $0 under FARE.",
+          "First month $3,400 + one-month deposit $3,400.",
+          "Screening fee: lesser of $30 or $20 = $20.",
+          "Broker fee: $0 under FARE.",
           "Answer: **$6,820**. Adding a last month ($10,220) or a 15% fee ($12,940) is illegal."
         ]
       }
     },
     {
       "heading": "Sales deal sheets",
-      "intro": "After an offer is accepted, an agent (in NYC usually the listing agent) circulates a deal sheet, also called a memorandum of sale, binder or offer to purchase, so the attorneys can prepare the contract.",
+      "intro": "After an offer is accepted, an agent circulates a deal sheet so the attorneys can prepare the contract. In NYC this is usually the listing agent. It's also called a memorandum of sale, binder or offer to purchase.",
       "points": [
-        "Downstate, the **seller's attorney** drafts the contract from the deal sheet, and the buyer's attorney reviews it and negotiates riders. Brokers may not draft contracts or riders; that's practicing law (Judiciary Law §478).",
-        "It is **not the contract**. The statute of frauds (GOL §5-703) requires a signed writing, and when parties plan a formal contract neither is bound until both sign it, so the seller may still take other offers. A signed binder with every essential term and no 'subject to contract' language can be binding, which is why forms include it.",
-        "**Upstate**, agents often fill in a preprinted contract with an **attorney approval clause**; they fill blanks only, and the §443 disclosure must already be done.",
-        "The attorneys (or an upstate agent filling in a form) need the seller's prior deed and title policy, survey, certificate of occupancy, tax bills, and each party's legal name and contacts. The deed's legal description (metes and bounds or lot on a filed map) identifies the property; the street address and tax-map number are cross-checks. Contracts are signed by exchange (mail or email) or at a sit-down signing.",
-        "**Down payment**: about **10%** in NYC by custom, negotiable. Downstate the **seller's attorney** usually holds it in escrow (backed by the **Lawyers' Fund for Client Protection**); upstate, often the broker. The **buyer signs first**, then the seller.",
-        "Never put client secrets ('buyer can go higher') or protected-class details on a deal sheet; it goes to the other side. Brokers keep transaction records **3 years** (19 NYCRR §175.23). Pre-1978 homes need the federal lead clause (the syllabus's 'after 1978' is backward)."
+        "Downstate, the **seller's attorney** drafts the contract from the deal sheet. The buyer's attorney reviews it and negotiates riders.",
+        "Brokers may not draft contracts or riders; that's practicing law (Judiciary Law §478).",
+        "A deal sheet is **not the contract**. The statute of frauds requires a signed writing (GOL §5-703).",
+        "When parties plan a formal contract, neither is bound until both sign it, so the seller may still take other offers.",
+        "A signed binder with every essential term and no 'subject to contract' language can be binding, which is why forms include it.",
+        "**Upstate**, agents often fill in a preprinted contract with an **attorney approval clause**. They fill blanks only, and the §443 disclosure must already be done.",
+        "The attorneys (or an upstate agent filling in a form) need the seller's prior deed and title policy, survey, certificate of occupancy, tax bills, and each party's legal name and contacts.",
+        "The deed's legal description (metes and bounds or lot on a filed map) identifies the property. The street address and tax-map number are cross-checks.",
+        "Contracts are signed by exchange (mail or email) or at a sit-down signing.",
+        "**Down payment**: about **10%** in NYC by custom, negotiable.",
+        "Downstate, the seller's attorney usually holds the down payment in escrow, backed by the **Lawyers' Fund for Client Protection**. Upstate, the broker often holds it.",
+        "The **buyer signs first**, then the seller.",
+        "Never put client secrets ('buyer can go higher') or protected-class details on a deal sheet; it goes to the other side.",
+        "Brokers keep transaction records **3 years** (19 NYCRR §175.23).",
+        "Pre-1978 homes need the federal lead clause. The syllabus's 'after 1978' is backward."
       ],
       "table": {
         "head": ["Item", "Record", "Why"],
@@ -380,18 +468,27 @@
         "title": "Worked example: $640,000 deal sheet",
         "steps": [
           "Price $640,000; 80% mortgage; 10% deposit; 5% commission split 60/40 listing/cooperating.",
-          "Loan $512,000; down payment $128,000; deposit $64,000; balance due at closing (before closing costs) $128,000 − $64,000 = $64,000.",
-          "Commission $32,000: cooperating broker 40% = **$12,800**, listing broker $19,200."
+          "Loan: $512,000.",
+          "Down payment: $640,000 − $512,000 = $128,000.",
+          "Deposit: $64,000.",
+          "Balance due at closing (before closing costs): $128,000 − $64,000 = $64,000.",
+          "Commission: $32,000.",
+          "Answer: cooperating broker 40% = **$12,800**; listing broker $19,200."
         ]
       }
     },
     {
       "heading": "Commission splits",
       "points": [
-        "**Commissions are negotiable**; no law or DOS rule sets them, and agreeing on an 'area rate' risks price fixing (Sherman Act; Donnelly Act).",
-        "The listing agreement sets the total and any co-broke share the seller offers: equal halves (5% split 50/50) or separate rates (3% + 2.5% = 5.5%; on $720,000, $39,600 total and $18,000 to the co-broke).",
-        "Each firm pays its salesperson under its plan, and a salesperson is paid **only by her own broker** (RPL §442-a). **Referral fees** go only to licensed brokers, including out-of-state brokers (RPL §442), and come off the firm's side first.",
-        "What the firm keeps: $1,240,000 × 6% × 50% = $37,200 side; at a 70/30 split the firm keeps **$11,160**. Rentals: a $4,200 landlord-paid fee at 60/40 pays the agent **$2,520**; 15% of a year's rent ($5,580 on $3,100) beats one month by $2,480.",
+        "**Commissions are negotiable**; no law or DOS rule sets them. Agreeing on an 'area rate' risks price fixing (Sherman Act; Donnelly Act).",
+        "The listing agreement sets the total and any co-broke share the seller offers.",
+        "The co-broke share can be equal halves (5% split 50/50) or separate rates (3% + 2.5% = 5.5%).",
+        "Separate rates on $720,000: $39,600 total and $18,000 to the co-broke.",
+        "Each firm pays its salesperson under its plan. A salesperson is paid **only by her own broker** (RPL §442-a).",
+        "**Referral fees** go only to licensed brokers, including out-of-state brokers (RPL §442). They come off the firm's side first.",
+        "What the firm keeps: $1,240,000 × 6% × 50% = $37,200 side; at a 70/30 split the firm keeps **$11,160**.",
+        "Rentals: a $4,200 landlord-paid fee at 60/40 pays the agent **$2,520**.",
+        "15% of a year's rent ($5,580 on $3,100) beats one month by $2,480.",
         "Reverse problems: **price = commission ÷ rate** ($15,000 ÷ 2.5% = $600,000)."
       ],
       "table": {

@@ -215,6 +215,7 @@ async function pick(page, correct) {
     const n = await page.locator('.st-sec').count();
     assert.ok(n >= 6, `only ${n} sections`);
     assert.equal(await page.locator('.st-toc [data-action="toc"]').count(), n);
+    await page.click('.st-toc summary'); // phones get the section list collapsed
     await page.click('[data-action="toc"][data-target="sec-3"]');
     await page.waitForFunction(() => Math.abs(document.getElementById('sec-3').getBoundingClientRect().top) < 260, null, { timeout: 3000 });
     assert.ok(!(await page.content()).includes('**'), 'no raw ** markup');
@@ -224,6 +225,23 @@ async function pick(page, correct) {
     const qt = await page.evaluate((ids) => [...new Set(ids.map((id) => window.__app.bank.questions.find((q) => q.id === id).topic))], s.active.qids);
     assert.deepEqual(qt, ['agency']);
     assert.equal(s.active.qids.length, 25);
+  });
+
+  await check('10. Every screen has a visible way back to Home; leaving a quiz keeps it resumable', async () => {
+    await page.click('[data-action="exit"]'); // the chapter-practice quiz from check 9 is still running
+    await page.waitForSelector('[data-action="resume"]');
+    assert.ok((await state(page)).active, 'quiz was discarded on exit');
+    const resultsId = (await state(page)).history[0].id;
+    for (const r of ['home', 'study', 'study/agency', 'study/agency/notes', 'build', 'quiz', 'history', 'mistakes', 'more', `results/${resultsId}`]) {
+      await page.goto(BASE + '/#/' + r);
+      await page.waitForSelector('#view > *:not(.muted)');
+      const ways = page.locator('#bottom a[href="#/home"], .hdr-back, [data-action="exit"]').filter({ visible: true });
+      assert.ok((await ways.count()) > 0, `no way back from #/${r}`);
+    }
+    await page.goto(BASE + '/#/build');
+    await page.waitForSelector('#start');
+    const [start, tabs] = await Promise.all([page.locator('#start').boundingBox(), page.locator('#bottom .tabs').boundingBox()]);
+    assert.ok(start.y + start.height <= tabs.y, 'Start bar overlaps the tab bar');
   });
 
   await check('No uncaught page errors during the run', async () => {

@@ -1,23 +1,23 @@
 {
   "topic": "property-mgmt",
   "title": "Property Management",
-  "overview": "Property management means running real estate for its owner for a fee: leasing, screening, rent collection, maintenance, risk control and reporting. It is a 2-hour syllabus subject (Subject 19), but it borrows from agency, license law, leases, fair housing, insurance and math, so its rules surface all over the exam. Core themes are the manager as a **general agent** bound by a written **management agreement**, strict handling of **trust money** (owner funds and tenant deposits), New York's post-2019 deposit, fee, notice and eviction rules, fee and budget math, and New York City's landlord duties.",
+  "overview": "Property management is running real estate for its owner for a fee: leasing, screening, rent collection, maintenance, risk control and reporting. Most tested: the manager as a **general agent** under a written **management agreement**; strict handling of **trust money**; New York's post-2019 deposit, fee, notice and eviction rules; fee and budget math; and NYC landlord duties.",
   "cram": {
     "numbers": [
-      { "value": "1 month's rent", "label": "Cap on a residential security deposit or any advance (GOL §7-108); first month's rent is separate" },
-      { "value": "14 days", "label": "Return the deposit balance with an itemized statement after move-out, or forfeit all of it" },
+      { "value": "1 month's rent", "label": "Cap on any residential deposit or advance; first month's rent is separate (GOL §7-108)" },
+      { "value": "14 days", "label": "Return the itemized deposit balance after move-out, or forfeit all of it" },
       { "value": "1% a year", "label": "Landlord's admin fee from deposit interest, computed on the deposit (GOL §7-103)" },
       { "value": "6+ units", "label": "Deposits must sit in an interest-bearing account at a New York bank" },
       { "value": "3 business days", "label": "Deposit client money in a separate, special, federally insured account (19 NYCRR §175.1)" },
       { "value": "$20", "label": "Background/credit check fee cap, or actual cost if lower (RPL §238-a)" },
       { "value": "5 days", "label": "Rent unpaid this long: late fee allowed and certified-mail late notice required" },
-      { "value": "$50 or 5%", "label": "Late fee cap, whichever is less; a co-op may charge shareholders up to 8% of maintenance if the proprietary lease allows (RPL §238-a)" },
+      { "value": "$50 or 5%", "label": "Late fee cap, whichever is less; co-ops may charge up to 8% (RPL §238-a)" },
       { "value": "14 days", "label": "Written rent demand before a nonpayment case (RPAPL §711)" },
       { "value": "14 days", "label": "Marshal's or sheriff's notice before executing a warrant of eviction (RPAPL §749)" },
-      { "value": "30 / 60 / 90 days", "label": "Notice of nonrenewal or a 5%+ increase: under 1 year / 1–2 years / 2+ years (RPL §226-c)" },
+      { "value": "30/60/90 days", "label": "Nonrenewal or 5%+ raise notice for tenancies under 1, 1–2, 2+ years (RPL §226-c)" },
       { "value": "1 year", "label": "Retaliation presumed if the landlord acts this soon after a good-faith complaint (RPL §223-b)" },
       { "value": "5% + CPI or 10%", "label": "Good Cause local rent standard (whichever is lower); bigger raises are presumed unreasonable" },
-      { "value": "68°F / 62°F", "label": "NYC heat, Oct 1–May 31: 68°F by day when below 55°F outside; 62°F overnight always" },
+      { "value": "68°F / 62°F", "label": "NYC heat season: 68°F by day when below 55°F outside; 62°F overnight always" },
       { "value": "120°F", "label": "NYC hot water, year-round" },
       { "value": "10 or younger", "label": "Child's age requiring NYC window guards (3+ unit buildings); also on any tenant's request" },
       { "value": "Before 1960 / under 6", "label": "NYC lead law: paint presumed lead-based; age of the protected child" },
@@ -26,36 +26,38 @@
       { "value": "Every 5 years", "label": "NYC facade inspection (FISP) for buildings over 6 stories" }
     ],
     "mustKnow": [
-      "The manager is a **general agent**, but only within the **management agreement**; selling or mortgaging the building needs specific authority.",
+      "The manager is a **general agent**, but only within the **management agreement**. Selling or mortgaging the building needs specific authority.",
       "A **management proposal** creates no authority; the signed **management agreement** does.",
       "In New York, negotiating leases or **collecting rent for another for a fee** requires a **broker's license** (RPL §440).",
       "**No license** is needed by owners managing their own property or by maintenance-only staff.",
       "A **salesperson** manages only through the sponsoring broker and is paid only by that broker.",
-      "Duties are **OLD CAR**; **obedience** covers only lawful orders, so refuse to discriminate or misrepresent.",
-      "Keep the owner's bottom-line rent **confidential**; tenants are **customers** owed honesty, not loyalty.",
+      "Duties are **OLD CAR**. **Obedience** covers only lawful orders, so refuse to discriminate or misrepresent.",
+      "Keep the owner's bottom-line rent **confidential**. Tenants are **customers** owed honesty, not loyalty.",
       "No vendor **rebate or profit on owner expenditures** without the owner's **full knowledge and consent** (19 NYCRR §175.3).",
-      "Fees are **negotiable** (competitors fixing a minimum is **price fixing**); percentage fees are usually on rent **actually collected**.",
-      "**Operating budget** = one year of routine income and expenses; **capital reserve budget** = big replacements; **stabilized budget** = normal operations over about 5 years, minus one-time items.",
+      "Fees are **negotiable**; competitors fixing a minimum fee is price fixing. Percentage fees are usually on rent **actually collected**.",
+      "**Operating budget** = one year of routine income and expenses. **Capital reserve budget** = big replacements.",
+      "**Stabilized budget** = normal operations over about 5 years, minus one-time items.",
       "**Fixed expenses** (taxes, insurance premium) don't vary with occupancy; **variable expenses** (supplies, repairs) do.",
-      "**NOI = EGI − operating expenses**; debt service is not an operating expense, but the **management fee** is.",
+      "**NOI = EGI − operating expenses**. Debt service is not an operating expense, but the **management fee** is.",
       "A **rent roll** shows what each unit owes; the **property management report** shows money in, money out and the ending balance.",
-      "Client money goes in a **separate, special, federally insured account within 3 business days**; no **commingling**, no **conversion**, and **remit unspent funds within a reasonable time**.",
-      "Deposits are the **tenant's money in trust** in every building; give written notice of the **bank's name, address and amount**; the bank needs a **New York** place of business.",
-      "**6+ units**: interest-bearing account; the landlord keeps **1% a year of the deposit** and the tenant gets the rest of the interest.",
-      "Deposit cap is **one month's rent**; offer a **move-in inspection** and notice of the right to a **pre-move-out inspection** (GOL §7-108).",
-      "Deduct only unpaid rent, unpaid landlord-billed utilities, damage beyond **normal wear and tear**, and moving or storage costs; **itemize and return in 14 days** or forfeit.",
-      "Use the **same written criteria** for every applicant; New York protects **lawful source of income** (vouchers) and more classes than federal law.",
+      "Client money goes in a **separate, special, federally insured account within 3 business days**. No commingling, no conversion, and **remit unspent funds within a reasonable time**.",
+      "Deposits are the **tenant's money in trust** in every building. Give written notice of the bank's name, address and amount; the bank needs a **New York** place of business.",
+      "**6+ units**: interest-bearing account. The landlord keeps **1% a year of the deposit**, and the tenant gets the rest of the interest.",
+      "Deposit cap is **one month's rent**. Offer a move-in inspection and notice of the right to a **pre-move-out inspection** (GOL §7-108).",
+      "Deduct only unpaid rent, unpaid landlord-billed utilities, damage beyond **normal wear and tear**, and moving or storage costs. **Itemize and return in 14 days** or forfeit.",
+      "Use the **same written criteria** for every applicant. New York protects **lawful source of income** (vouchers) and more classes than federal law.",
       "Never deny an applicant for a **past or pending landlord-tenant case** (RPL §227-f).",
-      "Only rental application charge: background/credit check at **actual cost or $20, whichever is less** (co-op purchase applications may cost more).",
-      "Written **receipt** for rent paid in cash or by money order; **certified-mail** late notice at 5 days; late fee max is the **lesser of $50 or 5%**; a bounced-check fee needs a lease clause and is capped at the greater of actual bank cost or $20.",
+      "The only rental application charge is a background/credit check at **actual cost or $20, whichever is less**. Co-op purchase applications may cost more.",
+      "Give a written **receipt** for rent paid in cash or by money order, and send a **certified-mail** late notice at 5 days.",
+      "Late fee max is the **lesser of $50 or 5%**. A bounced-check fee needs a lease clause and is capped at the **greater of actual bank cost or $20**.",
       "Nonrenewal or a **5%+ increase** needs **30/60/90 days'** notice based on length of occupancy or lease (RPL §226-c).",
-      "**Good Cause** (NYC and opt-in localities): removal needs a legal ground; raises above the lower of **5% + CPI or 10%** are presumed unreasonable.",
-      "Evict only through a **court summary proceeding**; a **sheriff, marshal or constable** removes the tenant after **14 days'** notice. **Self-help** is a crime.",
+      "**Good Cause** (NYC and opt-in localities): removal needs a legal ground. Raises above the lower of **5% + CPI or 10%** are presumed unreasonable.",
+      "Evict only through a **court summary proceeding**. A sheriff, marshal or constable removes the tenant after **14 days'** notice; self-help is a crime.",
       "**Constructive eviction**: the landlord makes the unit unusable and the tenant **moves out**.",
-      "Maintenance: **preventive** (before failure), **corrective** (fix what broke), **routine** (cleaning), **construction** (build-outs); **deferred** work costs more later.",
-      "Risk responses (**ACTOR**): **avoid, control, transfer or retain**; insurance transfers, deductibles retain.",
-      "**Fidelity bond** = employee theft; **equipment breakdown** = boiler failure; **rent loss** = rent lost after a covered loss.",
-      "ADA Title III: existing public accommodations (including **leasing offices**) remove barriers if **readily achievable**; buildings first occupied after **Jan 26, 1993** must be **readily accessible**.",
+      "Maintenance: **preventive** (before failure), corrective (fix what broke), routine (cleaning), construction (build-outs). **Deferred** work costs more later.",
+      "Risk responses (**ACTOR**): **avoid, control, transfer or retain**. Insurance transfers; deductibles retain.",
+      "**Fidelity bond** = employee theft; **equipment breakdown** = boiler failure; rent loss = rent lost after a covered loss.",
+      "ADA Title III: existing public accommodations, including leasing offices, remove barriers if **readily achievable**. Buildings first occupied after Jan 26, 1993 must be **readily accessible**.",
       "NYC: annual **HPD registration** or no nonpayment evictions; annual **DHCR registration** for stabilized units or the rent freezes."
     ],
     "traps": [
@@ -66,9 +68,9 @@
       { "trap": "Buildings under 6 units can mix deposits with operating cash.", "truth": "Every deposit is trust money. The 6-unit line only triggers the interest requirement." },
       { "trap": "First month, last month and security is a normal move-in package.", "truth": "Any deposit or advance is capped at one month's rent, so first month plus one month's security is the most." },
       { "trap": "The rent demand is 3 or 5 days, and a marshal gives 72 hours' notice.", "truth": "Both are 14 days since the 2019 HSTPA. Five days is the late-fee and late-notice trigger." },
-      { "trap": "A lockout clause or long nonpayment lets the landlord change the locks.", "truth": "Self-help is a class A misdemeanor with $1,000–$10,000 civil penalties per violation. Only an officer acting on a court warrant removes a tenant." },
+      { "trap": "A lockout clause or long nonpayment lets the landlord change the locks.", "truth": "Only an officer acting on a court warrant removes a tenant. Self-help is a class A misdemeanor with $1,000–$10,000 civil penalties per violation." },
       { "trap": "Postponed facade repairs are rescheduled preventive maintenance.", "truth": "That is deferred maintenance. Preventive work happens before anything fails." },
-      { "trap": "Once insured, a known hazard can wait.", "truth": "Insurance transfers the cost but doesn't reduce the risk; control (repairs) is still required. Deductibles are retention." },
+      { "trap": "Once insured, a known hazard can wait.", "truth": "Control (repairs) is still required. Insurance transfers the cost but doesn't reduce the risk. Deductibles are retention." },
       { "trap": "The ADA makes existing buildings rebuild to new standards, and only if federally funded.", "truth": "Existing places remove barriers where readily achievable, funding or not. Readily accessible is the standard for buildings first occupied after Jan 26, 1993." },
       { "trap": "NYC window guards protect children under 6, and NYC's lead law uses 1978.", "truth": "Window guards: 10 or younger, or on request. NYC lead law: under 6 and pre-1960. 1978 is the federal cutoff." },
       { "trap": "NYC heat must be 68°F all night in heat season.", "truth": "Overnight (10 p.m.–6 a.m.) the minimum is 62°F regardless; 68°F applies 6 a.m.–10 p.m. when it is below 55°F outside." },
@@ -97,14 +99,20 @@
   "sections": [
     {
       "heading": "Property management basics and licensing",
-      "intro": "A property manager runs real estate for its owner (the principal) for a fee, aiming for the best net return consistent with the owner's goals while preserving the property.",
+      "intro": "A property manager runs real estate for its owner (the principal) for a fee. The goal is the best net return consistent with the owner's goals, while preserving the property.",
       "points": [
         "**Functions**: leasing and marketing, screening, collecting rent, paying bills, hiring and supervising staff and contractors, maintenance, risk and insurance, records, legal compliance and owner reports.",
-        "**Manager types**: a **building manager** runs one large property; a **resident manager** lives on site as a salaried employee (of the owner, a broker or a management firm); an **asset manager** handles long-term investment strategy rather than daily operations.",
-        "**Markets**: office (tenant improvements, space planning); retail (tenant mix, common-area maintenance, **anchor stores** that draw shoppers to smaller tenants); residential (screening, turnover, habitability); condo, co-op and **planned unit development (PUD)** communities, where the manager answers to a board or owners' association and collects charges or assessments rather than rent.",
-        "**License rule (RPL §440)**: in New York, negotiating leases or **collecting rent for another for a fee** is brokerage, so a management firm needs a broker's license and its salespersons act under that broker. A salesperson can't take management fees directly from owners (RPL §442-a).",
-        "**No license** for an owner managing his or her own buildings (any number) or for staff who only clean, maintain and repair. Calling the work 'consulting' doesn't matter: the activity decides.",
-        "**Skills** (syllabus): supervising staff, accounting and reports, building systems, landlord-tenant law, leasing, marketing, codes, union negotiations, purchasing, finance and construction. A management office must also win and service accounts, staff efficiently and stay profitable. Many managers start on site or come from brokerage; designations such as IREM's Certified Property Manager (CPM) show training but never replace a license."
+        "A **building manager** runs one large property.",
+        "A **resident manager** lives on site as a salaried employee of the owner, a broker or a management firm.",
+        "An **asset manager** handles long-term investment strategy rather than daily operations.",
+        "Office management means tenant improvements and space planning. Retail means tenant mix, common-area maintenance and **anchor stores** that draw shoppers to smaller tenants. Residential means screening, turnover and habitability.",
+        "In condo, co-op and **planned unit development (PUD)** communities, the manager answers to a board or owners' association. The manager collects charges or assessments rather than rent.",
+        "In New York, negotiating leases or **collecting rent for another for a fee** is brokerage, so a management firm needs a **broker's license** (RPL §440). Its salespersons act under that broker.",
+        "A salesperson can't take management fees directly from owners (RPL §442-a).",
+        "**No license** is needed for an owner managing his or her own buildings (any number) or for staff who only clean, maintain and repair. Calling the work 'consulting' doesn't matter; the activity decides.",
+        "**Skills** the syllabus lists: supervising staff, accounting and reports, building systems, landlord-tenant law, leasing, marketing, codes, union negotiations, purchasing, finance and construction.",
+        "A management office must also win and service accounts, staff efficiently and stay profitable.",
+        "Many managers start on site or come from brokerage. Designations such as IREM's Certified Property Manager (CPM) show training but never replace a license."
       ],
       "table": {
         "head": ["Who or what", "License?", "Why"],
@@ -120,12 +128,15 @@
     {
       "heading": "The management proposal and the management agreement",
       "points": [
-        "A **management proposal** is the manager's plan to win the account (property description, maintenance needs, accounting methods, inspection schedule, market analysis, proposed budgets and fee). It creates **no authority**, even if the owner praises it.",
-        "The signed, written **management agreement** creates the agency: the owner is the principal and the manager a **general agent** (ongoing authority over a range of tasks for one business). A **universal agent** handles all of a principal's affairs (broad power of attorney); a **special agent** handles one transaction, like a typical listing.",
-        "**Contents** (syllabus): property description, term, the manager's authority and reporting duties, the fee, accounting for rents, deposits and expenses, insurance and risk management, the owner's responsibilities and objectives, and how the agreement can end.",
-        "**Spending limits**: planned work above the dollar cap needs owner approval; an emergency clause lets the manager act at once to protect people or property.",
+        "A **management proposal** is the manager's plan to win the account. It covers the property description, maintenance needs, accounting methods, inspection schedule, market analysis, proposed budgets and fee.",
+        "A proposal creates **no authority**, even if the owner praises it.",
+        "The signed, written **management agreement** creates the agency. The owner is the principal and the manager a **general agent**, with ongoing authority over a range of tasks for one business.",
+        "A **universal agent** handles all of a principal's affairs (broad power of attorney). A **special agent** handles one transaction, like a typical listing.",
+        "The agreement's **contents**, per the syllabus: property description, term, the manager's authority and reporting duties, the fee, accounting for rents, deposits and expenses, insurance and risk management, the owner's responsibilities and objectives, and how the agreement can end.",
+        "**Spending limits**: planned work above the dollar cap needs owner approval. An emergency clause lets the manager act at once to protect people or property.",
         "**Limits of general agency**: no selling, mortgaging or signing a sale contract without specific authority. Purchase offers go to the owner.",
-        "**Obligations to the owner**: pursue the owner's goals, set maintenance standards, plan for the property's future and report regularly. Agreements also assign insurance, require **fidelity bonds** for staff who handle money, and require turnover of funds and files when the agreement ends."
+        "**Obligations to the owner**: pursue the owner's goals, set maintenance standards, plan for the property's future and report regularly.",
+        "Agreements also assign insurance, require **fidelity bonds** for staff who handle money, and require turnover of funds and files when the agreement ends."
       ],
       "table": {
         "head": ["Clause", "Settles", "Exam angle"],
@@ -142,9 +153,11 @@
         "title": "Worked example: does the manager need approval?",
         "steps": [
           "Facts: the manager may approve repairs up to $1,500 without the owner, except in emergencies.",
-          "A $600 pipe repair is within the limit: order it and document it. A 2 a.m. burst pipe is an emergency: act now, report after.",
-          "A $14,000 quote to replace a working but aging boiler next spring is planned capital work over the limit: get the owner's approval.",
-          "Traps: splitting the job into ten $1,400 invoices evades the limit, and tenant security deposits can never fund it."
+          "A $600 pipe repair is within the limit: order it and document it.",
+          "A 2 a.m. burst pipe is an emergency: act now, report after.",
+          "A $14,000 quote to replace a working but aging boiler next spring is planned capital work over the limit.",
+          "Splitting it into ten $1,400 invoices would evade the limit, and tenant security deposits can never fund it.",
+          "Answer: the boiler job needs the owner's approval."
         ]
       }
     },
@@ -152,11 +165,14 @@
       "heading": "Fiduciary duties and conflicts of interest",
       "intro": "A **fiduciary** acts for another with the highest loyalty and care. The owner is the client; tenants and vendors are customers or third parties.",
       "points": [
-        "**Obedience** covers only lawful instructions: refuse orders to discriminate or to lie (for example, denying a known bedbug history). The owner's order is no defense.",
+        "**Obedience** covers only lawful instructions. Refuse orders to discriminate or to lie, such as denying a known bedbug history. The owner's order is no defense.",
         "**Confidentiality**: never reveal the owner's lowest acceptable rent. Tenants still get **honesty**: no misrepresentation and all required disclosures.",
-        "**No secret profits**: no commission, rebate or profit on the owner's expenditures without the owner's **full knowledge and consent** (19 NYCRR §175.3), even at a fair price. Pay from more than one party needs the knowledge and consent of the broker's **client** (§175.7).",
-        "**Antitrust**: competing firms must set fees independently; agreeing on a minimum fee is price fixing under the Sherman Act and New York's Donnelly Act, disclosed or not.",
-        "**Forms**: agents leasing 1–4 family homes or condo or co-op units give the NYS Disclosure Form for Landlord and Tenant (agency disclosure, not a contract), and all licensees give the Housing and Anti-Discrimination Disclosure at first substantive contact. DOS can suspend, revoke or fine up to $2,000 (RPL §441-c)."
+        "**No secret profits**: no commission, rebate or profit on the owner's expenditures without the owner's full knowledge and consent, even at a fair price (19 NYCRR §175.3).",
+        "Pay from more than one party needs the knowledge and consent of the broker's **client** (§175.7).",
+        "**Antitrust**: competing firms must set fees independently. Agreeing on a minimum fee is price fixing under the Sherman Act and New York's Donnelly Act, disclosed or not.",
+        "Agents leasing 1–4 family homes or condo or co-op units give the **NYS Disclosure Form for Landlord and Tenant**. It is an agency disclosure, not a contract.",
+        "All licensees give the **Housing and Anti-Discrimination Disclosure** at first substantive contact.",
+        "DOS can suspend, revoke or fine up to $2,000 (RPL §441-c)."
       ],
       "table": {
         "head": ["Duty", "Manager's version", "Example"],
@@ -175,15 +191,20 @@
       "intro": "Fees are negotiated; no law, board or trade group sets them.",
       "points": [
         "**Percentage of collections** (most common): fee % × rent **actually collected**, not scheduled rent, unless the agreement says otherwise.",
-        "**Base fee**: a fixed monthly amount, alone or plus a percentage. **Leasing fees** pay for new leases or renewals (often a fraction of a month's rent); some agreements add construction-supervision fees.",
-        "The management fee is an **operating expense** in NOI. Vendor rebates aren't compensation without the owner's informed consent."
+        "**Base fee**: a fixed monthly amount, alone or plus a percentage.",
+        "**Leasing fees** pay for new leases or renewals, often a fraction of a month's rent. Some agreements add construction-supervision fees.",
+        "The management fee is an **operating expense** in NOI.",
+        "Vendor rebates aren't compensation without the owner's informed consent."
       ],
       "example": {
         "title": "Worked example: three fee calculations",
         "steps": [
-          "A. 5% of collections; scheduled rent $40,000, uncollected $2,500. ($40,000 − $2,500) × 0.05 = **$1,875**.",
-          "B. $600 base plus 4% of $28,750 collected. $28,750 × 0.04 = $1,150; $600 + $1,150 = **$1,750**.",
-          "C. 5% of $30,000 collected plus half a month's rent for each of three new $2,400 leases. $1,500 + (3 × $1,200) = **$5,100**."
+          "A. 5% of collections; scheduled rent $40,000, uncollected $2,500. Fee = ($40,000 − $2,500) × 0.05 = $1,875.",
+          "B. $600 base plus 4% of $28,750 collected. Percentage part = $28,750 × 0.04 = $1,150.",
+          "B total = $600 + $1,150 = $1,750.",
+          "C. 5% of $30,000 collected = $1,500.",
+          "C leasing fees: half a month's rent for each of three new $2,400 leases = 3 × $1,200 = $3,600.",
+          "Answer: A = **$1,875**; B = $1,750; C = $1,500 + (3 × $1,200) = **$5,100**."
         ]
       }
     },
@@ -191,11 +212,14 @@
       "heading": "Budgets, expenses and the operating statement",
       "points": [
         "**Operating budget**: one year of rent, other income and recurring expenses, usually built from last year's actuals.",
-        "**Capital reserve budget** (replacement reserve): set-asides over the building's economic life for big, irregular items such as roofs, boilers and remodeling. NY texts list repairs, decorating and remodeling as its variable items, so pick it when a question pairs those with capital expenses.",
-        "**Stabilized budget**: income and expenses under normal operation over a short term (typically about 5 years), excluding one-time items like lease-up costs or a temporary tax abatement.",
-        "**Fixed expenses** stay put regardless of occupancy (real estate taxes, insurance premium, fixed-price contracts); **variable expenses** move with use or needs (cleaning supplies, utilities, repairs). **Capital expenses** replace or improve long-lived parts (a new roof), unlike patching a leak.",
-        "**EGI** (effective gross income) = potential gross rent − vacancy and collection loss + other income. **NOI** (net operating income) = EGI − operating expenses. Cash flow = NOI − debt service. Mortgage payments, depreciation and income taxes are never operating expenses.",
-        "**Setting rents**: cover expenses plus a fair return and match comparable space; very high occupancy (say 98%) hints rents are below market."
+        "**Capital reserve budget** (replacement reserve): set-asides over the building's economic life for big, irregular items such as roofs, boilers and remodeling.",
+        "New York textbooks list repairs, decorating and remodeling as the capital reserve budget's variable items. Pick it when a question pairs those with capital expenses.",
+        "**Stabilized budget**: income and expenses under normal operation over a short term (typically about 5 years). It excludes one-time items like lease-up costs or a temporary tax abatement.",
+        "**Fixed expenses** stay put regardless of occupancy (real estate taxes, insurance premium, fixed-price contracts). **Variable expenses** move with use or needs (cleaning supplies, utilities, repairs).",
+        "**Capital expenses** replace or improve long-lived parts (a new roof), unlike patching a leak.",
+        "**EGI** (effective gross income) = potential gross rent − vacancy and collection loss + other income. **NOI** (net operating income) = EGI − operating expenses. Cash flow = NOI − debt service.",
+        "Mortgage payments, depreciation and income taxes are never operating expenses.",
+        "**Setting rents**: cover expenses plus a fair return and match comparable space. Very high occupancy (say 98%) hints rents are below market."
       ],
       "table": {
         "head": ["Term", "Meaning", "Example"],
@@ -211,19 +235,26 @@
         "title": "Worked example: a 20-unit building's budget",
         "steps": [
           "Rent roll: 20 units × $750 × 12 = $180,000 potential gross income.",
-          "Less 5% vacancy ($9,000) = $171,000; plus $2,000 laundry = EGI of $173,000.",
-          "Less $70,000 operating expenses = NOI of **$103,000**. Subtracting the $40,000 mortgage too gives $63,000 cash flow, not NOI.",
-          "Roof reserve: $96,000 due in 8 years ÷ 8 = $12,000 a year ÷ 12 = $1,000 a month ÷ 20 units = **$50 per unit per month**."
+          "Less 5% vacancy ($9,000) = $171,000.",
+          "Plus $2,000 laundry = EGI of $173,000.",
+          "Less $70,000 operating expenses = NOI of $103,000.",
+          "Subtracting the $40,000 mortgage too gives $63,000 cash flow, not NOI.",
+          "Roof reserve: $96,000 due in 8 years ÷ 8 = $12,000 a year.",
+          "$12,000 ÷ 12 = $1,000 a month.",
+          "Answer: NOI is **$103,000**, and the roof reserve is $1,000 ÷ 20 units = **$50 per unit per month**."
         ]
       }
     },
     {
       "heading": "Trust accounts, accounting and owner reports",
       "points": [
-        "**19 NYCRR §175.1**: no **commingling** of client money with the broker's own. Deposit it in a **separate, special, federally insured account within 3 business days**, kept secure until then.",
-        "**Conversion** is spending trust money on anything unauthorized (payroll, the manager's bills, another owner's shortfall), even briefly and with intent to repay. If Owner A is short, ask Owner A for funds.",
-        "**19 NYCRR §175.2**: account to the client and **remit unspent funds within a reasonable time**, not only when the agreement ends or on written request.",
-        "**Rent roll**: units, tenants, lease dates, scheduled rents and arrears (what's owed, not proof of collection). **Property management report** (usually monthly): receipts, expenses, disbursements and the ending balance against the budget."
+        "No **commingling** of client money with the broker's own (19 NYCRR §175.1).",
+        "Deposit client money in a **separate, special, federally insured account within 3 business days**, kept secure until then.",
+        "**Conversion** is spending trust money on anything unauthorized (payroll, the manager's bills, another owner's shortfall), even briefly and with intent to repay.",
+        "If Owner A is short, ask Owner A for funds.",
+        "Account to the client and **remit unspent funds within a reasonable time**, not only when the agreement ends or on written request (19 NYCRR §175.2).",
+        "**Rent roll**: units, tenants, lease dates, scheduled rents and arrears. It shows what's owed, not proof of collection.",
+        "**Property management report** (usually monthly): receipts, expenses, disbursements and the ending balance against the budget."
       ],
       "table": {
         "head": ["Report", "Shows", "Not the same as"],
@@ -238,22 +269,31 @@
         "title": "Worked example: monthly owner remittance",
         "steps": [
           "Collected $52,300 (scheduled $54,000); expenses paid $18,450; fee 6% of collections; $2,000 to the capital reserve.",
-          "Fee = $52,300 × 0.06 = $3,138. Remittance = $52,300 − $18,450 − $3,138 − $2,000 = **$28,712**.",
-          "Traps: a fee on scheduled rent gives $28,610; skipping the reserve gives $30,712; skipping the fee gives $31,850."
+          "Fee = $52,300 × 0.06 = $3,138.",
+          "Remittance = $52,300 − $18,450 − $3,138 − $2,000 = $28,712.",
+          "Traps: a fee on scheduled rent gives $28,610; skipping the reserve gives $30,712; skipping the fee gives $31,850.",
+          "Answer: remit **$28,712** to the owner."
         ]
       }
     },
     {
       "heading": "Security deposits under GOL §7-103 and §7-108",
-      "intro": "In New York, §7-103 governs trust and interest for any rental of real property; §7-108 sets the cap, inspections and return rules for residential units, and §7-107 applies the same rules to rent-stabilized units.",
+      "intro": "In New York, trust and interest rules cover any rental of real property (GOL §7-103). Cap, inspection and return rules cover residential units (GOL §7-108), and rent-stabilized units follow the same rules (GOL §7-107).",
       "points": [
-        "**Trust**: a deposit stays the **tenant's money**, never commingled with the landlord's or manager's funds, whatever the building size and whatever the owner says.",
-        "**Bank**: tell each tenant in writing the **bank's name and address and the amount**; the bank must have a **New York** place of business (an out-of-state online bank won't do).",
-        "**6+ units**: interest at the prevailing rate; the landlord keeps **1% a year of the deposit**; the tenant's interest is paid yearly, credited to rent or paid at the end. Under 6 units, the trust rules still apply but no interest is required.",
-        "**Cap**: one month's rent for any deposit or advance (exceptions include rent-controlled units, registered seasonal rentals, some senior housing and owner-occupied co-ops).",
-        "**Inspections**: offer a move-in inspection (with a signed condition report if the tenant wants one). Before move-out, tell the tenant in writing of the right to an inspection 1–2 weeks before the end, on 48 hours' notice, with a chance to fix listed items.",
-        "**Deductions**: unpaid rent, landlord-billed utilities, damage beyond **normal wear and tear**, and moving or storage only. **Return** the itemized balance within **14 days** of move-out or forfeit it all. The landlord bears the burden of proof; willful violations risk punitive damages up to twice the deposit.",
-        "**No waivers**: lease clauses giving up these rights are void. On a sale, deposits go to the buyer within **5 days** with registered or certified-mail notice to tenants (§7-105)."
+        "**Trust**: a deposit stays the **tenant's money**. It is never commingled with the landlord's or manager's funds, whatever the building size and whatever the owner says.",
+        "Tell each tenant in writing the **bank's name and address and the amount**.",
+        "The bank must have a **New York** place of business; an out-of-state online bank won't do.",
+        "**6+ units**: the deposit earns interest at the prevailing rate, and the landlord keeps **1% a year of the deposit**. The tenant's interest is paid yearly, credited to rent or paid at the end.",
+        "Under 6 units, the trust rules still apply but no interest is required.",
+        "The cap is **one month's rent** for any deposit or advance.",
+        "Cap exceptions include rent-controlled units, registered seasonal rentals, some senior housing and owner-occupied co-ops.",
+        "Offer a **move-in inspection**, with a signed condition report if the tenant wants one.",
+        "Before move-out, tell the tenant in writing of the right to an inspection 1–2 weeks before the end, on 48 hours' notice, with a chance to fix listed items.",
+        "Deduct only unpaid rent, landlord-billed utilities, damage beyond **normal wear and tear**, and moving or storage.",
+        "Return the itemized balance within **14 days** of move-out or forfeit it all.",
+        "The landlord bears the burden of proof. Willful violations risk punitive damages up to twice the deposit.",
+        "**No waivers**: lease clauses giving up these rights are void.",
+        "On a sale, deposits go to the buyer within **5 days**, with registered or certified-mail notice to tenants (§7-105)."
       ],
       "table": {
         "head": ["Topic", "GOL §7-103", "GOL §7-108"],
@@ -268,23 +308,33 @@
       "example": {
         "title": "Worked example: deposit cap and interest",
         "steps": [
-          "Cap: rent is $1,950. Most collectible at signing = $1,950 first month + $1,950 security = **$3,900**; adding last month's rent breaks the cap.",
-          "Interest: $2,000 deposit in a 12-unit building at 3.2% = $64. Landlord's fee = 1% of $2,000 = $20 (not 1% of $64).",
-          "Tenant's share = $64 − $20 = **$44**."
+          "Cap: rent is $1,950. Most collectible at signing = $1,950 first month + $1,950 security = $3,900.",
+          "Adding last month's rent would break the cap.",
+          "Interest: $2,000 deposit in a 12-unit building at 3.2% = $64.",
+          "Landlord's fee = 1% of $2,000 = $20 (not 1% of $64).",
+          "Answer: tenant's share = $64 − $20 = **$44**; the most collectible at signing is **$3,900**."
         ]
       }
     },
     {
       "heading": "Marketing, tenant selection and fair housing",
       "points": [
-        "**Marketing plan**: study vacancy rates, competition and demographics, price the units, then choose channels and a budget. Cost per prospect = ad cost ÷ prospects produced.",
-        "**Screening**: one written application and identical standards for everyone. Demanding extra references only from an applicant with a foreign accent is national-origin discrimination, even if the applicant is later approved.",
-        "**Protected classes**: federal law covers race, color, religion, national origin, sex, familial status and disability. New York adds creed, age, marital status, military status, sexual orientation, gender identity or expression, **lawful source of income**, citizenship or immigration status and domestic-violence-victim status.",
-        "Banning children from a walk-up 'for safety' is familial status discrimination, and 'no vouchers' violates New York's source-of-income protection even though federal law doesn't cover it. The owner's order excuses neither; the manager is liable for his or her own acts.",
-        "**RPL §227-f**: no denials for a past or pending landlord-tenant case, whatever its age or outcome; denying after checking court records raises a presumption of a violation.",
-        "**RPL §238-a**: the only rental application charge is a background/credit-check fee at **actual cost or $20, whichever is less**, with a copy of the report and receipt; it is waived if the applicant provides a background or credit check from the past 30 days. Co-op purchase applicants differ: the co-op may charge managing-agent processing fees and the actual cost of credit checks, even above $20.",
-        "**Disability**: grant reasonable accommodations (an assistance animal despite a no-pets rule) and allow reasonable modifications (grab bars). Under the federal FHA the tenant usually pays for modifications in private housing; state, city and subsidy rules can differ.",
-        "**NYC FARE Act** (effective June 11, 2025; upheld by the Second Circuit July 13, 2026): a tenant can't be charged the fee of a broker the landlord hired."
+        "**Marketing plan**: study vacancy rates, competition and demographics, price the units, then choose channels and a budget.",
+        "**Cost per prospect** = ad cost ÷ prospects produced.",
+        "**Screening**: one written application and identical standards for everyone.",
+        "Demanding extra references only from an applicant with a foreign accent is national-origin discrimination, even if the applicant is later approved.",
+        "**Protected classes**: federal law covers race, color, religion, national origin, sex, familial status and disability.",
+        "New York adds creed, age, marital status, military status, sexual orientation, gender identity or expression, **lawful source of income**, citizenship or immigration status and domestic-violence-victim status.",
+        "Banning children from a walk-up 'for safety' is familial status discrimination. 'No vouchers' violates New York's source-of-income protection, even though federal law doesn't cover it.",
+        "The owner's order excuses neither; the manager is liable for his or her own acts.",
+        "Never deny an applicant for a past or pending landlord-tenant case, whatever its age or outcome (RPL §227-f).",
+        "Denying after checking court records raises a **presumption** of a violation.",
+        "The only rental application charge is a background/credit-check fee at **actual cost or $20, whichever is less** (RPL §238-a), with a copy of the report and a receipt.",
+        "The fee is waived if the applicant provides a background or credit check from the past 30 days.",
+        "Co-op purchase applicants differ: the co-op may charge managing-agent processing fees and the actual cost of credit checks, even above $20.",
+        "**Disability**: grant reasonable accommodations (an assistance animal despite a no-pets rule) and allow reasonable modifications (grab bars).",
+        "Under the federal FHA, the tenant usually pays for modifications in private housing. State, city and subsidy rules can differ.",
+        "**NYC FARE Act**: a tenant can't be charged the fee of a broker the landlord hired. It took effect June 11, 2025, and the Second Circuit upheld it July 13, 2026."
       ],
       "table": {
         "head": ["Practice", "Lawful?", "Why"],
@@ -302,33 +352,46 @@
       "heading": "Rent collection, notices and rent regulation",
       "intro": "The 2019 Housing Stability and Tenant Protection Act (HSTPA) rewrote most of these rules.",
       "points": [
-        "**Lessor** = landlord; **lessee** = tenant. A **tenancy for years** has fixed start and end dates (even under a year); a periodic tenancy renews until ended. New York's notice rules apply either way.",
-        "**Receipts (RPL §235-e)**: required for cash, money orders or anything but a personal check (personal checks: on written request).",
-        "**Late notice**: rent not received within **5 days** of the due date requires a certified-mail notice; skipping it gives the tenant a defense in a nonpayment case. It is separate from the 14-day rent demand.",
-        "**Late fee (RPL §238-a)**: only after 5 days, capped at the lesser of **$50 or 5%**.",
-        "**Other RPL §238-a limits**: a **bounced-check fee** is allowed only if the lease provides for it, capped at the greater of the landlord's actual bank charges or $20, with proof on request above $20 (added Oct 16, 2025). A **co-op** may charge shareholders a late fee of up to **8%** of monthly maintenance if the proprietary lease allows (2021 amendment; not for Mitchell-Lama, HDFC or similar supervised co-ops).",
-        "**RPL §226-c**: nonrenewal or a **5%+ increase** needs 30, 60 or 90 days' written notice (under 1 year, 1–2 years, 2+ years, using the longer of occupancy or lease). If notice is late, the tenant stays at the old rent until the period runs.",
-        "**Good Cause Eviction Law (2024)**: NYC and opt-in localities. Covered tenants can be removed only on a legal ground, and raises above the lower of **5% + CPI or 10%** are presumed unreasonable. Exempt: landlords with 10 or fewer units, owner-occupied buildings of 10 or fewer units, regulated and subsidized units, co-ops and condos, buildings with a 2009-or-later certificate of occupancy (for 30 years) and high-rent units.",
-        "**Rent stabilization**: tenants have renewal rights; the **NYC Rent Guidelines Board** sets renewal increases; owners register with **DHCR** yearly. HSTPA ended high-rent and high-income deregulation.",
-        "**Retaliation (RPL §223-b)** is presumed if the landlord acts within **1 year** of a good-faith complaint. The **warranty of habitability (RPL §235-b)** can't be waived, and a landlord must try to re-rent if a tenant leaves early (RPL §227-e)."
+        "**Lessor** = landlord; **lessee** = tenant.",
+        "A **tenancy for years** has fixed start and end dates, even if under a year. A periodic tenancy renews until ended. New York's notice rules apply either way.",
+        "Give a **receipt** for rent paid in cash, by money order or by anything but a personal check. For a personal check, give one on written request (RPL §235-e).",
+        "**Late notice**: if rent isn't received within **5 days** of the due date, send a certified-mail notice. Skipping it gives the tenant a defense in a nonpayment case.",
+        "The late notice is separate from the 14-day rent demand.",
+        "A late fee is allowed only after 5 days, capped at the lesser of **$50 or 5%** (RPL §238-a).",
+        "A **bounced-check fee** is allowed only if the lease provides for it. It is capped at the greater of the landlord's actual bank charges or $20, with proof on request above $20. This rule was added Oct 16, 2025 (RPL §238-a).",
+        "A **co-op** may charge shareholders a late fee of up to **8%** of monthly maintenance if the proprietary lease allows. This 2021 amendment doesn't cover Mitchell-Lama, HDFC or similar supervised co-ops.",
+        "Nonrenewal or a **5%+ increase** needs 30, 60 or 90 days' written notice: under 1 year, 1–2 years, 2+ years, using the longer of occupancy or lease (RPL §226-c).",
+        "If notice is late, the tenant stays at the old rent until the period runs.",
+        "**Good Cause Eviction Law (2024)** covers NYC and opt-in localities. Covered tenants can be removed only on a legal ground, and raises above the lower of **5% + CPI or 10%** are presumed unreasonable.",
+        "Good Cause exemptions: landlords with 10 or fewer units, owner-occupied buildings of 10 or fewer units, regulated and subsidized units, co-ops and condos, buildings with a 2009-or-later certificate of occupancy (for 30 years) and high-rent units.",
+        "**Rent stabilization**: tenants have renewal rights, and the NYC Rent Guidelines Board sets renewal increases.",
+        "Owners of stabilized units register yearly with DHCR (the state Division of Housing and Community Renewal). HSTPA ended high-rent and high-income deregulation.",
+        "**Retaliation** is presumed if the landlord acts within **1 year** of a good-faith complaint (RPL §223-b).",
+        "The **warranty of habitability** can't be waived (RPL §235-b).",
+        "A landlord must try to re-rent if a tenant leaves early (RPL §227-e)."
       ],
       "example": {
         "title": "Worked example: late fee and notice periods",
         "steps": [
-          "Rent $1,800, paid more than 5 days late: 5% = $90, so the fee is capped at **$50**.",
-          "Month-to-month tenant in a non-regulated unit for 7 months: under 1 year, so **30 days'** notice to end it.",
-          "Tenant of 15 months offered a 6% renewal increase: 5%+ and 1–2 years, so **60 days'** notice."
+          "Rent $1,800, paid more than 5 days late: 5% = $90, so the fee is capped at $50.",
+          "Month-to-month tenant in a non-regulated unit for 7 months: under 1 year, so 30 days' notice to end it.",
+          "Tenant of 15 months offered a 6% renewal increase: 5%+ and 1–2 years, so 60 days' notice.",
+          "Answer: late fee **$50**; notice periods **30 days** and 60 days."
         ]
       }
     },
     {
       "heading": "Evictions: court process, self-help and constructive eviction",
       "points": [
-        "**Nonpayment** case: brought after a **14-day written rent demand**. **Holdover** case: the tenant stays after the lease ends or after proper termination (Good Cause units need a legal ground).",
+        "A **nonpayment** case is brought after a **14-day written rent demand**.",
+        "A **holdover** case is for a tenant who stays after the lease ends or after proper termination. Good Cause units need a legal ground.",
         "**Order**: rent demand → petition (served 10–17 days before the hearing) → judgment of possession → warrant → officer's **14-day written notice** → removal on a business day between sunrise and sunset.",
-        "Only a **sheriff, marshal or constable** executes the warrant; a judgment doesn't let the owner, manager or a locksmith remove anyone. In a nonpayment case, paying all rent due before execution generally voids the warrant.",
-        "**Unlawful eviction (RPAPL §768)**: lockouts, utility shutoffs, or removing belongings or doors against an occupant of 30+ days (or with a lease) is a **class A misdemeanor** with $1,000–$10,000 civil penalties per violation. No lease clause can authorize it.",
-        "**Actual eviction** is removal by legal process. **Constructive eviction** happens when the landlord's act or neglect makes the unit unusable and the tenant moves out."
+        "Only a **sheriff, marshal or constable** executes the warrant. A judgment doesn't let the owner, manager or a locksmith remove anyone.",
+        "In a nonpayment case, paying all rent due before execution generally voids the warrant.",
+        "**Unlawful eviction** means lockouts, utility shutoffs, or removing belongings or doors against an occupant of 30+ days or with a lease.",
+        "Unlawful eviction is a **class A misdemeanor** with $1,000–$10,000 civil penalties per violation (RPAPL §768). No lease clause can authorize it.",
+        "**Actual eviction** is removal by legal process.",
+        "**Constructive eviction** happens when the landlord's act or neglect makes the unit unusable and the tenant moves out."
       ],
       "table": {
         "head": ["Term", "Meaning", "Exam angle"],
@@ -344,10 +407,14 @@
     {
       "heading": "Maintenance types and building operations",
       "points": [
-        "**Preventive (preventative)**: scheduled servicing before failure, such as quarterly filter changes. **Corrective**: fixing a reported defect, such as a dripping faucet.",
-        "**Routine (custodial)**: daily housekeeping such as mopping halls, trash removal and sweeping. **Construction**: budgeted remodeling, tenant improvements (build-outs for a new tenant) and capital improvements.",
-        "**Deferred**: needed work postponed (for example, skipping facade repairs to boost NOI before a sale); deterioration continues and costs rise. **Cosmetic** work improves appearance more than function.",
-        "Use inspections, an annual schedule, work orders and purchasing controls, and know when licensed trades, engineers or code officials are needed. For a gas smell, get people out and call 911 and the utility from a safe place; don't send the super to find the leak first."
+        "**Preventive (preventative)**: scheduled servicing before failure, such as quarterly filter changes.",
+        "**Corrective**: fixing a reported defect, such as a dripping faucet.",
+        "**Routine (custodial)**: daily housekeeping such as mopping halls, trash removal and sweeping.",
+        "**Construction**: budgeted remodeling, tenant improvements (build-outs for a new tenant) and capital improvements.",
+        "**Deferred**: needed work postponed, such as skipping facade repairs to boost NOI before a sale. Deterioration continues and costs rise.",
+        "**Cosmetic** work improves appearance more than function.",
+        "Use inspections, an annual schedule, work orders and purchasing controls. Know when licensed trades, engineers or code officials are needed.",
+        "For a gas smell, get people out and call 911 and the utility from a safe place. Don't send the super to find the leak first."
       ],
       "table": {
         "head": ["Type", "What it is", "Example"],
@@ -364,10 +431,12 @@
       "heading": "Risk management and insurance",
       "intro": "**Risk management** means identifying what could go wrong and choosing how to handle it.",
       "points": [
-        "**Avoid**: eliminate the activity (fill in the pool). **Control**: reduce the odds or size of a loss (handrails, anti-slip treads, lighting, inspections).",
-        "**Transfer**: shift the cost to others through insurance, contractor insurance naming the owner and manager as **additional insureds**, and **hold-harmless (indemnification)** clauses.",
+        "**Avoid**: eliminate the activity (fill in the pool).",
+        "**Control**: reduce the odds or size of a loss (handrails, anti-slip treads, lighting, inspections).",
+        "**Transfer**: shift the cost to others through insurance, contractor insurance naming the owner and manager as additional insureds, and **hold-harmless (indemnification)** clauses.",
         "**Retain**: absorb a layer of loss through deductibles or self-insurance. A per-occurrence deductible applies to each loss separately.",
-        "**Coinsurance**: if a policy requires coverage of, say, 80% of value and the owner carries less, a partial loss pays loss × (carried ÷ required), minus the deductible. **Workers' compensation** is required in New York for employees such as building staff."
+        "**Coinsurance**: say a policy requires coverage of 80% of value and the owner carries less. A partial loss then pays loss × (carried ÷ required), minus the deductible.",
+        "**Workers' compensation** is required in New York for employees such as building staff."
       ],
       "table": {
         "head": ["Coverage", "Pays for", "Exam angle"],
@@ -384,8 +453,12 @@
       "example": {
         "title": "Worked example: deductibles and rent loss",
         "steps": [
-          "$5,000 per-occurrence deductible; losses of $3,200 and $14,500. The owner pays all $3,200 plus $5,000 of the larger loss = **$8,200** retained (not $10,000).",
-          "Fire closes 6 of 20 apartments for 5 months at $2,250 each: rent loss = 6 × $2,250 × 5 = **$67,500**."
+          "Deductible: $5,000 per occurrence; losses of $3,200 and $14,500.",
+          "The owner pays all of the $3,200 loss.",
+          "The owner pays $5,000 of the $14,500 loss.",
+          "Retained: $3,200 + $5,000 = $8,200 (not $10,000).",
+          "Rent loss: fire closes 6 of 20 apartments for 5 months at $2,250 each.",
+          "Answer: retained loss **$8,200**; rent loss = 6 × $2,250 × 5 = **$67,500**."
         ]
       }
     },
@@ -393,9 +466,11 @@
       "heading": "Accessibility: ADA Title III and Fair Housing Act design rules",
       "points": [
         "**ADA Title III** covers places of public accommodation, including a **leasing or sales office** open to the public, even when privately owned and with no federal funding.",
-        "**Existing facilities**: remove barriers where **readily achievable** (easily done without much difficulty or expense), such as ramps. The duty is ongoing, needs no complaint, and doesn't require a full rebuild.",
-        "**New construction** first occupied after **January 26, 1993** must be **readily accessible to and usable by** people with disabilities.",
-        "**Landlord and tenant are both responsible** for a public accommodation in leased space; the lease can divide the work, but neither escapes liability. The apartments themselves fall under the Fair Housing Act (FHA)."
+        "**Existing facilities**: remove barriers where **readily achievable**, meaning easily done without much difficulty or expense (ramps, for example).",
+        "The barrier-removal duty is ongoing, needs no complaint, and doesn't require a full rebuild.",
+        "New construction first occupied after **January 26, 1993** must be **readily accessible to and usable by** people with disabilities.",
+        "**Landlord and tenant are both responsible** for a public accommodation in leased space. The lease can divide the work, but neither escapes liability.",
+        "The apartments themselves fall under the Fair Housing Act (FHA)."
       ],
       "table": {
         "head": ["Question", "ADA Title III", "Fair Housing Act"],
@@ -409,15 +484,25 @@
     },
     {
       "heading": "New York City landlord obligations",
-      "intro": "HPD (Housing Preservation and Development) enforces most housing rules, the Department of Buildings handles facades and energy, and the state's DHCR (Division of Housing and Community Renewal) handles rent stabilization.",
+      "intro": "HPD (Housing Preservation and Development) enforces most housing rules. The Department of Buildings handles facades and energy, and the state's DHCR (Division of Housing and Community Renewal) handles rent stabilization.",
       "points": [
-        "**Window guards**: windows onto a fire escape are exempt. The combined lead and window-guard notice goes out each January; if a tenant hasn't returned it by **February 15**, the owner must try to inspect, because silence isn't a 'no.'",
-        "**Lead (Local Law 1 of 2004)**: pre-1960 paint is presumed lead-based (1960–1978 if the owner knows of lead). Duties attach where a child under 6 lives or regularly spends 10+ hours a week. At **turnover**, fix lead hazards (including door and window friction surfaces) and make floors, sills and window wells smooth and cleanable, child or no child. Federal rules for leases of pre-1978 housing apply too: EPA pamphlet, disclosure of known lead paint and reports, and a lead warning in the lease (the 10-day inspection right is for buyers only).",
-        "**Bedbugs**: give the 1-year history (HCR form DBB-N) with a vacancy lease, and file a bedbug report with HPD every December for each multiple dwelling, **even with zero infestations**, then share it with tenants.",
-        "**Detectors**: the owner installs smoke and CO alarms and replaces missing or broken ones before a new tenancy; the tenant changes batteries; the owner replaces a unit that fails within 1 year from a manufacturing defect. Battery-only smoke alarms sold in New York since April 1, 2019 need sealed 10-year batteries (GBL §399-ccc).",
-        "**Registration consequences**: without HPD registration an owner can't recover possession for nonpayment and faces penalties. A missed DHCR filing freezes the rent at the last registered amount until the owner files (the cure is prospective only).",
-        "**Janitor**: a building of 9+ units whose owner doesn't live there needs a janitor in the building or within one block or 200 feet (whichever is greater), unless a 24-hour service is used. Janitorial services cover cleaning, minor repairs, heat, hot water, garbage and sidewalk snow, not rent collection or leasing.",
-        "**Energy**: Local Law 84 requires annual energy and water benchmarking, and Local Law 33 (amended by LL95) requires posting the energy letter grade near each public entrance. Local Law 97 emission caps began in 2024 and tighten in 2030."
+        "**Window guards**: windows onto a fire escape are exempt.",
+        "The combined lead and window-guard notice goes out each January. If a tenant hasn't returned it by **February 15**, the owner must try to inspect, because silence isn't a 'no.'",
+        "**Lead (Local Law 1 of 2004)**: pre-1960 paint is presumed lead-based (1960–1978 if the owner knows of lead).",
+        "Lead duties attach where a **child under 6** lives or regularly spends 10+ hours a week.",
+        "At **turnover**, fix lead hazards, including door and window friction surfaces. Make floors, sills and window wells smooth and cleanable, child or no child.",
+        "Federal rules for leases of pre-1978 housing apply too: EPA pamphlet, disclosure of known lead paint and reports, and a lead warning in the lease. The 10-day inspection right is for buyers only.",
+        "**Bedbugs**: give the 1-year history (HCR form DBB-N) with a vacancy lease.",
+        "File a bedbug report with HPD every December for each multiple dwelling, **even with zero infestations**, then share it with tenants.",
+        "**Detectors**: the owner installs smoke and CO alarms and replaces missing or broken ones before a new tenancy. The tenant changes batteries.",
+        "The owner replaces a detector that fails within 1 year from a manufacturing defect.",
+        "Battery-only smoke alarms sold in New York since April 1, 2019 need sealed 10-year batteries (GBL §399-ccc).",
+        "Without **HPD registration**, an owner can't recover possession for nonpayment and faces penalties.",
+        "A missed **DHCR filing** freezes the rent at the last registered amount until the owner files. The cure is prospective only.",
+        "**Janitor**: a building of 9+ units whose owner doesn't live there needs a janitor in the building or within one block or 200 feet (whichever is greater), unless a 24-hour service is used.",
+        "Janitorial services cover cleaning, minor repairs, heat, hot water, garbage and sidewalk snow, not rent collection or leasing.",
+        "**Energy**: Local Law 84 requires annual energy and water benchmarking. Local Law 33 (amended by LL95) requires posting the energy letter grade near each public entrance.",
+        "Local Law 97 emission caps began in 2024 and tighten in 2030."
       ],
       "table": {
         "head": ["Obligation", "Core rule", "Exam angle"],
