@@ -542,7 +542,7 @@
       "5 votes, because the action must be unanimous"
     ],
     "answer": 2,
-    "explanation": "To act contrary to a county recommendation of disapproval or modification, the board needs a majority plus one of all its members and must state its reasons in a resolution. Majority of 5 = 3; 3 + 1 = 4. Counting only the members present is the trap.",
+    "explanation": "To act contrary to a county recommendation of disapproval or modification, the board needs a majority plus one of all its members, and it must give its reasons in the report of final action filed with the county within 30 days. Majority of 5 = 3; 3 + 1 = 4. Counting only the members present is the trap.",
     "citation": "General Municipal Law §239-m(5)"
   },
   {
@@ -917,10 +917,10 @@
       "Elected by the voters of the community district for staggered four-year terms",
       "Appointed by the mayor, subject to the advice and consent of the City Council",
       "Chosen by the City Planning Commission from a pool of local applicants",
-      "Appointed by the borough president, half nominated by local council members"
+      "Appointed by the borough president, at least half nominated by local council members"
     ],
     "answer": 3,
-    "explanation": "Community board members (up to 50, unpaid, serving staggered two-year terms) are appointed by the borough president, with half drawn from nominees of the City Council members who represent the district. They are not elected and are not mayoral or CPC appointees.",
+    "explanation": "Community board members (up to 50, unpaid, serving staggered two-year terms) are appointed by the borough president, and at least half must come from nominees of the City Council members who represent the district. They are not elected and are not mayoral or CPC appointees.",
     "citation": "NYC Charter §2800"
   },
   {
@@ -1032,7 +1032,7 @@
       "Override the veto by a two-thirds vote of all members"
     ],
     "answer": 3,
-    "explanation": "Council land use actions are final unless the mayor files a disapproval within 5 days; the Council may override within 10 days by a two-thirds vote of all its members. A simple majority is insufficient. (Since the 2025 Charter amendments, a Council denial of certain affordable housing applications can instead be appealed to the Affordable Housing Appeals Board, but that does not apply to a mayoral veto of a Council approval.)",
+    "explanation": "Council land use actions are final unless the mayor files a disapproval within 5 days. The Council may override within 10 days by a two-thirds vote of all its members; a simple majority is not enough. This rule applies to an ordinary rezoning. Since the 2025 Charter amendments, qualifying affordable-housing applications instead go to the Affordable Housing Appeals Board, which replaces the veto and override for those applications.",
     "citation": "NYC Charter §197-d(e); §197-g (2025)"
   },
   {

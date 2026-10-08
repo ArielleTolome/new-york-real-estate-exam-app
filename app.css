@@ -60,7 +60,7 @@ main {
 .hdr-logo { border-radius: 9px; flex: none; }
 
 .tabs {
-  display: grid; grid-template-columns: repeat(5, 1fr); height: var(--tabbar); padding: 6px;
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; height: var(--tabbar); padding: 6px;
   background: rgba(24, 32, 51, .78); backdrop-filter: saturate(160%) blur(20px); -webkit-backdrop-filter: saturate(160%) blur(20px);
   border: 1px solid var(--hairline); border-radius: 26px; box-shadow: 0 12px 32px rgba(0, 0, 0, .45);
 }
@@ -195,7 +195,7 @@ main {
   .topbar { padding-top: calc(var(--st) + 18px); padding-bottom: 14px; }
   main { padding-top: 12px; }
   .bottombar { padding-bottom: calc(var(--sb) + 16px); }
-  .bottombar > .tabs { max-width: 600px; }
+  .bottombar > .tabs { max-width: 700px; }
   .bottombar > .actionbar { max-width: 720px; }
   .tab { flex-direction: row; gap: 8px; font-size: 14px; }
   .card { padding: 22px; }

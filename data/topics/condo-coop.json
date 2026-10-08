@@ -164,8 +164,8 @@
       "A penalty the Attorney General imposes on sponsors who sell units too quickly"
     ],
     "answer": 0,
-    "explanation": "Despite its name, a flip tax is not a government tax; it is a charge the co-op corporation levies on transfers under its proprietary lease or bylaws, commonly paid by the seller and often credited to the building's reserves. Government transfer taxes are a separate item.",
-    "citation": "Co-op proprietary lease/bylaws (cooperative transfer fee)"
+    "explanation": "Despite its name, a flip tax is not a government tax. It is a transfer fee that the co-op corporation charges under its proprietary lease, offering plan, or a properly adopted amendment. The seller commonly pays it, and it often goes to the building's reserves. Government transfer taxes are a separate item.",
+    "citation": "BCL §501(c) (cooperative transfer fees); co-op proprietary lease"
   },
   {
     "id": "condo-coop-013",
@@ -276,7 +276,7 @@
       "HO-2"
     ],
     "answer": 0,
-    "explanation": "HO-6 is the unit-owner form used for condos (and commonly co-ops), complementing the association's master policy on the building. HO-4 is a renter's policy; HO-2 and HO-3 are for owners of whole houses.",
+    "explanation": "HO-6 is the unit-owner form for condos, complementing the association's master policy on the building. For the exam, a co-op owner's answer is HO-4 (DFS groups it with tenant policies), although some insurers use HO-6 for co-ops. HO-2 and HO-3 are for owners of whole houses.",
     "citation": "Standard homeowners insurance forms (ISO HO-6)"
   },
   {

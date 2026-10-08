@@ -1,0 +1,513 @@
+{
+  "topic": "math",
+  "title": "Real Estate Math",
+  "overview": "This chapter covers the exam's calculations: commissions, seller net and buyer cash, New York transfer and mortgage recording taxes, loan math, qualifying ratios, area, property tax, prorations, and income-property math (NOI, cap rates, GRM, percentage leases, loss factors, depreciation, appreciation). Subject 10 gets one course hour, but arithmetic also appears in the finance, closing, valuation, tax and commercial subjects. Wrong choices come from predictable slips: the wrong base (price vs. loan, cost vs. sale price, usable vs. rentable area), a skipped split, a monthly/annual mix-up, a closing-day off-by-one, or treating a whole-price tax as marginal. Learn the formulas and tax rates, then work each example without looking.",
+  "cram": {
+    "numbers": [
+      { "value": "43,560 sq ft", "label": "One acre (4,840 sq yd)" },
+      { "value": "640 acres", "label": "One square mile (a survey section)" },
+      { "value": "5,280 ft", "label": "One mile" },
+      { "value": "2.471 acres", "label": "One hectare (10,000 sq m)" },
+      { "value": "9 / 27", "label": "Sq ft in a sq yd / cu ft in a cu yd" },
+      { "value": "$2 per $500", "label": "NYS transfer tax; a fraction of $500 counts as a full unit ($4 per $1,000, about 0.4%); seller pays" },
+      { "value": "$1,000,000", "label": "Mansion tax: 1% of the whole residential price at $1M or more (exactly $1M is taxed); buyer pays" },
+      { "value": "$500,000", "label": "NYC residential RPTT: 1% at or below; 1.425% of the whole price above; seller pays" },
+      { "value": "1.8% / 1.925%", "label": "NYC borrower's mortgage recording tax, 1–3 family house or condo unit: loan under / at least $500,000" },
+      { "value": "0.5%", "label": "Basic state mortgage recording tax, on the loan rounded to the nearest $100" },
+      { "value": "1% of the loan", "label": "One point (discount or origination)" },
+      { "value": "0.001", "label": "One mill = $1 of tax per $1,000 of taxable assessed value" },
+      { "value": "360 / 365", "label": "Proration day counts: twelve 30-day months vs. actual days" },
+      { "value": "28% / 36%", "label": "Typical front-end / back-end ratios (lender guidelines, not law)" },
+      { "value": "80% / 78%", "label": "PMI: borrower may request cancellation / automatic termination, as a share of original value" },
+      { "value": "27.5 / 39 years", "label": "Straight-line tax depreciation: residential rental / nonresidential" },
+      { "value": "1 month / $20", "label": "NY caps: security deposit / background-check fee (or actual cost, if less)" },
+      { "value": "15% / 10%", "label": "FIRPTA withholding from a foreign seller; 10% on a home the buyer will live in priced over $300,000 up to $1M (none at $300,000 or less)" },
+      { "value": "90 minutes", "label": "State exam time; silent, nonprinting calculator with no alphabetic keyboard" }
+    ],
+    "mustKnow": [
+      "Find the **base**: commission and transfer taxes use the **price**; points, PMI and mortgage recording tax the **loan**; property tax **taxable assessed value**; profit the **cost**; a loss factor **rentable area**.",
+      "Splits **chain**: the co-broke split comes off the total commission, and each later split (team, salesperson) applies to what the step before it left.",
+      "Commission rates are **negotiable**, and a salesperson is paid only **through the sponsoring broker** (RPL §442-a).",
+      "**Net listings are prohibited** in New York (19 NYCRR §175.19); the target-net formula only estimates a price.",
+      "**Who pays**: the **seller** pays the NYS transfer tax (the buyer, if the seller is exempt) and NYC's RPTT; the **buyer** pays the mansion tax; the **borrower** normally pays the mortgage recording tax, but the lender pays the 0.25% special additional tax on 1–6 unit homes.",
+      "**Mortgage recording tax** is figured on the **loan**, not the price; a co-op share loan owes none.",
+      "An **assumed mortgage** is credited to the buyer and a **seller concession** debited to the seller; the commission stays on the full price.",
+      "**Discount points** buy down the rate; an **origination fee** pays for making the loan. Both are a percentage of the loan.",
+      "A level payment's **interest share falls** and **principal share rises** each month.",
+      "**Qualifying ratios** use **gross** monthly income; the maximum housing payment is the **lower** test result, and the minimum income is the **higher**.",
+      "Back-end debts are recurring obligations (car, student loan, card minimums), not groceries or utilities.",
+      "By convention, in a lot described as 90 × 140 the first number is the **frontage**; a front-foot price ignores depth.",
+      "**Prorations**: use the stated day count and closing-day owner, count days inclusively, and prorate over the bill's own period.",
+      "Seller **prepaid** → credit seller, debit buyer. Seller **owes or collected ahead** (unpaid taxes, assumed-loan interest, rent) → debit seller, credit buyer.",
+      "**Security deposits** go to the buyer in full, not prorated; prorate only **rent actually collected**.",
+      "**IRV** uses annual NOI, and a **higher cap rate means a lower value**.",
+      "**Percentage leases**: annualize a monthly base rent before dividing by the rate; below the breakpoint the tenant pays base rent only.",
+      "Equal percentage losses and gains don't cancel: a 20% drop then a 20% rise leaves 96% of the start."
+    ],
+    "traps": [
+      { "trap": "Points are a percentage of the purchase price.", "truth": "One point is 1% of the loan: on a $400,000 purchase with a 90% loan, 2 points cost $7,200, not $8,000." },
+      { "trap": "Above $500,000, NYC's 1.425% RPTT rate applies only to the excess.", "truth": "Residential RPTT is a cliff: 1.425% of the whole price once it exceeds $500,000. Exactly $500,000 still pays 1%." },
+      { "trap": "Exactly $1,000,000 owes no mansion tax, and above it only the excess is taxed.", "truth": "It is 1% of the whole price at $1,000,000 or more ($10,000 at exactly $1 million); the buyer pays." },
+      { "trap": "The NYS transfer tax is simply 0.4% of the price.", "truth": "It is $2 per $500 or fractional part, so round the units up; 0.4% is exact only when the price is a multiple of $500." },
+      { "trap": "The seller's mortgage payoff reduces the commission or the transfer tax.", "truth": "Both are figured on the full price; a payoff reduces only the seller's cash." },
+      { "trap": "Mortgage debt service is an operating expense.", "truth": "NOI comes before debt service, depreciation and income taxes; property taxes and insurance are operating expenses." },
+      { "trap": "The whole monthly payment reduces the loan balance.", "truth": "Only the principal portion does; interest and the tax-and-insurance escrow don't." },
+      { "trap": "Any gross rent multiplier can be applied to monthly rent.", "truth": "Match the periods: a monthly GRM with monthly rent, an annual GRM with annual rent." },
+      { "trap": "To find rentable area, add the loss-factor percentage to usable area.", "truth": "Divide: rentable = usable ÷ (1 − loss factor). Multiplying by (1 + factor) is the add-on method and understates rentable area." },
+      { "trap": "Appreciation or profit percentage is divided by the sale price.", "truth": "Divide by the original cost. 'Sold for 20% more than she paid' means cost = price ÷ 1.20, not price × 0.80." },
+      { "trap": "Property tax = market value × tax rate.", "truth": "Tax = taxable assessed value (after exemptions) × rate." },
+      { "trap": "Full market value = assessed value × equalization rate.", "truth": "Divide: full value = assessed value ÷ equalization rate. The assessment is normally the smaller number." },
+      { "trap": "The seller always owns the day of closing.", "truth": "Use the question's rule. The standard NY bar-association contract apportions as of midnight before closing (the buyer owns the day); some textbooks give it to the seller." },
+      { "trap": "A higher appraisal lets the buyer borrow more.", "truth": "Lenders use the lower of price or appraisal; a low appraisal shrinks the loan and raises the buyer's cash." },
+      { "trap": "Land is depreciated along with the building.", "truth": "Land is never depreciated, in the cost approach or for taxes, but it stays in the tax basis." }
+    ],
+    "mnemonics": [
+      { "name": "IRV", "meaning": "Income = Rate × Value; cover the unknown to see the formula. Income means annual NOI." },
+      { "name": "PITI", "meaning": "Principal, Interest, Taxes, Insurance: the monthly housing expense in the front-end ratio." },
+      { "name": "IS over OF", "meaning": "Percent = is ÷ of. 'What percent IS $64,000 OF $320,000?' = $64,000 ÷ $320,000 = 20%." }
+    ],
+    "formulas": [
+      { "name": "Percentage", "formula": "Part = Whole × Rate; Whole = Part ÷ Rate; Rate = Part ÷ Whole", "example": "$27,000 ÷ $450,000 = 6%" },
+      { "name": "Commission chain", "formula": "Share = Price × Rate × each split; Price = Share ÷ (Rate × splits)", "example": "$560,000 × 5% × 50% × 70% = $9,800" },
+      { "name": "Seller's net and target price", "formula": "Net = Price − Commission − Payoffs − Costs − Concessions; Target price = (Net + Payoffs + Fixed costs) ÷ (1 − Commission rate)", "example": "($135,000 + $240,000 + $5,000) ÷ 0.95 = $400,000" },
+      { "name": "Buyer's cash to close", "formula": "Down payment + Closing costs − Deposit paid − Seller credits", "example": "$95,000 + $12,000 − $20,000 − $5,000 = $82,000" },
+      { "name": "NYS transfer tax (seller)", "formula": "(Price ÷ $500, rounded up) × $2", "example": "$347,800 ÷ $500 = 695.6 → 696 × $2 = $1,392" },
+      { "name": "Mansion tax (buyer)", "formula": "Price × 1% (residential, $1,000,000 or more)", "example": "$1,080,000 × 1% = $10,800" },
+      { "name": "NYC RPTT, residential (seller)", "formula": "Price × 1% at $500,000 or less; Price × 1.425% above", "example": "$800,000 × 1.425% = $11,400" },
+      { "name": "Mortgage recording tax", "formula": "Loan (rounded to the nearest $100) × Rate", "example": "$320,000 × 0.5% basic tax = $1,600" },
+      { "name": "Loan-to-value", "formula": "LTV = Loan ÷ Lower of price or appraisal; Most price = Cash for down payment ÷ (1 − Maximum LTV)", "example": "$380,000 ÷ $475,000 = 80%; $30,000 ÷ 0.10 = $300,000" },
+      { "name": "Points, PMI and break-even", "formula": "Points = Loan × Points %; Monthly PMI = Loan × Annual rate ÷ 12; Break-even months = Points cost ÷ Monthly savings", "example": "$380,000 × 1.5% = $5,700; $5,700 ÷ $95 = 60 months" },
+      { "name": "Interest and amortization", "formula": "Monthly interest = Balance × Rate ÷ 12; Principal = P&I − Interest; New balance = Balance − Principal", "example": "$240,000 × 6.5% ÷ 12 = $1,300; $1,516.96 − $1,300 = $216.96 principal" },
+      { "name": "Payment factor and total interest", "formula": "P&I = Loan ÷ 1,000 × Factor; Total interest = P&I × Number of payments − Loan", "example": "300 × $6.65 = $1,995; $1,995 × 360 − $300,000 = $418,200" },
+      { "name": "Qualifying ratios", "formula": "Front-end = Housing ÷ Gross monthly income; Back-end = (Housing + Debts) ÷ Income; Maximum PITI = Lower of (Income × Front limit) and (Income × Back limit − Debts)", "example": "$7,500 income at 28/36 with $750 of debts: lower of $2,100 and $2,700 − $750 = $1,950" },
+      { "name": "Areas", "formula": "Rectangle = L × W; Triangle = Base × Perpendicular height ÷ 2; Trapezoid = (Side 1 + Side 2) ÷ 2 × Height", "example": "(100 + 140) ÷ 2 × 120 = 14,400 sq ft" },
+      { "name": "Unit conversions", "formula": "Acres = Sq ft ÷ 43,560; Sq yd = Sq ft ÷ 9; Cu yd = Cu ft ÷ 27", "example": "40 × 18 × 0.5 ft = 360 cu ft ÷ 27 = 13.33 cu yd" },
+      { "name": "Front-foot price", "formula": "Price = Frontage × Price per front foot", "example": "75 ft × $2,400 = $180,000" },
+      { "name": "Property tax and rate", "formula": "Tax = Taxable assessed value × Mills ÷ 1,000; Rate = Levy ÷ Total taxable assessed value", "example": "$160,000 × 27.5 ÷ 1,000 = $4,400" },
+      { "name": "Equalization", "formula": "Full value = Assessed value ÷ Equalization rate; Equalization rate = Total assessed ÷ Total full value", "example": "$54,000 ÷ 0.18 = $300,000" },
+      { "name": "Proration", "formula": "Daily rate = Annual amount ÷ 360 or 365; Share = Daily rate × Days", "example": "$7,200 ÷ 360 = $20 × 75 days = $1,500" },
+      { "name": "Net operating income", "formula": "NOI = PGI − Vacancy and collection loss + Other income − Operating expenses", "example": "$200,000 − $10,000 + $4,000 − $74,000 = $120,000" },
+      { "name": "Value and cap rate (IRV)", "formula": "Value = NOI ÷ Cap rate; Cap rate = NOI ÷ Value", "example": "$120,000 ÷ 0.08 = $1,500,000" },
+      { "name": "Cash flow measures", "formula": "Cash flow = NOI − Debt service; Cash-on-cash = Cash flow ÷ Cash invested; DSCR = NOI ÷ Debt service", "example": "$120,000 − $90,000 = $30,000; $30,000 ÷ $375,000 = 8%" },
+      { "name": "After-tax cash flow", "formula": "ATCF = Cash flow − (NOI − Mortgage interest − Depreciation) × Tax rate", "example": "$30,000 − ($120,000 − $70,000 − $25,000) × 24% = $24,000" },
+      { "name": "Gross rent multiplier", "formula": "GRM = Price ÷ Gross rent (same period); Value = GRM × Rent", "example": "$540,000 ÷ $4,500 a month = 120; 120 × $4,200 = $504,000" },
+      { "name": "Percentage lease", "formula": "Rent = Annual base + Rate × (Sales − Breakpoint); Natural breakpoint = Annual base ÷ Rate", "example": "$84,000 ÷ 0.06 = $1,400,000" },
+      { "name": "Loss and add-on factors", "formula": "Loss factor = (Rentable − Usable) ÷ Rentable; Rentable = Usable ÷ (1 − Loss factor); Add-on = (Rentable − Usable) ÷ Usable", "example": "6,400 ÷ 0.80 = 8,000 rentable sq ft" },
+      { "name": "Cost approach", "formula": "Value = Land + Cost new − Accrued depreciation; Depreciation = Cost new × Effective age ÷ Economic life", "example": "$150,000 + $500,000 − ($500,000 × 10 ÷ 50) = $550,000" },
+      { "name": "Tax depreciation", "formula": "(Price + Capitalized costs + Improvements − Land) ÷ 27.5 (residential rental) or 39 (nonresidential)", "example": "($1,000,000 − $220,000) ÷ 39 = $20,000 a year" },
+      { "name": "Adjusted basis and gain", "formula": "Adjusted basis = Cost + Improvements − Depreciation taken; Gain = Price − Selling costs − Adjusted basis", "example": "$600,000 − $36,000 − $450,000 = $114,000" },
+      { "name": "Percent change and original cost", "formula": "Change = (New − Old) ÷ Old; Cost = Price ÷ (1 + Gain %) or Price ÷ (1 − Loss %)", "example": "$378,000 ÷ 1.08 = $350,000" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How to read a math question",
+      "intro": "Many missed math questions are reading errors, not arithmetic errors. Run the same routine on every problem.",
+      "points": [
+        "**Read the last sentence first.** Name the unknown, its unit and whose number it is: salesperson or broker, seller's net or buyer's cash, monthly or annual.",
+        "**Find the base** (table below): the word after 'of' usually names it.",
+        "**Underline the conventions**: 360 or 365 days, who owns the closing day, paid or unpaid, lower of price or appraisal, monthly or annual multiplier, a rate per $100, per $1,000 or in mills. Use only what the question gives.",
+        "**Convert first**: 5.5% = 0.055; 1.5 points = 0.015; 6 in = 0.5 ft; monthly × 12 = annual; mills ÷ 1,000.",
+        "**Reverse percents divide.** Given the result of a percentage (an agent's check, a price 'X% more than' cost), divide; multiplying is the classic error. Round only the final answer unless told to round each step.",
+        "**Estimate, then check the choices.** 5% of about $600,000 is about $30,000, so $3,000 or $300,000 is a decimal slip; on 'what price' questions, plug a choice back in. Expect a wrong choice for each common slip: wrong base, skipped split, period mix-up, inverted ratio, off-by-one day."
+      ],
+      "table": {
+        "head": ["Question mentions", "Base or rule to use", "Typical wrong choice"],
+        "rows": [
+          ["Commission, transfer tax, mansion tax", "Sale (contract) price", "Using the seller's equity or the loan"],
+          ["Points, origination fee, PMI, mortgage recording tax", "Loan amount", "Using the price"],
+          ["Property tax", "Taxable assessed value (after exemptions)", "Using market value or skipping the exemption"],
+          ["Profit, appreciation, 'X% more than paid'", "Original cost or starting value", "Dividing by the sale price"],
+          ["Cap rate or value", "NOI (before debt service)", "Using gross income or cash flow"],
+          ["Loss factor", "Rentable area", "Dividing by usable area"],
+          ["GRM, rent, interest", "Matching periods (monthly with monthly)", "Annual multiplier × monthly rent"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: a reverse-percent question",
+        "steps": [
+          "Question: A house sold for $517,500, which was 15% more than the seller paid. What did the seller pay?",
+          "Step 1: '15% more than the seller paid' makes the cost the base (100%), so the price is 115% of cost.",
+          "Step 2: Cost = $517,500 ÷ 1.15 = $450,000.",
+          "Step 3: Check forward: $450,000 × 1.15 = $517,500.",
+          "Trap: taking 15% off the sale price ($517,500 × 0.85 = $439,875) uses the wrong base.",
+          "Answer: $450,000."
+        ]
+      }
+    },
+    {
+      "heading": "Commissions and splits",
+      "intro": "Commission math is a chain of percentages. Each split applies to the share produced by the step before it.",
+      "points": [
+        "**Rates are negotiable**; no law, board or MLS sets a standard rate, and flat or tiered fees are lawful. **Tiered rates** apply each rate only to its band: 6% on the first $500,000 and 3% above earns $30,000 + $4,500 = $34,500 on a $650,000 sale.",
+        "**Co-broke**: the listing broker shares as the listing agreement authorizes, often half the commission but sometimes a percentage of the price (such as 2%), so read the base. If one brokerage's salespeople handle both sides, there is no co-broke; it keeps what is left after paying each salesperson.",
+        "**Salesperson split** applies to the salesperson's own brokerage's share (the whole commission only if there is no co-broke), paid only through the **sponsoring broker** (RPL §442-a). Referral fees and team splits come off the brokerage's side first; a broker may share fees only with its salespersons, another licensed broker, or a person regularly in the brokerage business in another state (RPL §442).",
+        "**Caps**: a salesperson keeps 75% until the broker's 25% reaches $20,000 for the year, then 100%. If the broker has already kept $18,500, it needs $1,500, which is 25% of $6,000; on a $10,000 brokerage side, the salesperson gets 75% of $6,000 ($4,500) plus the other $4,000, for $8,500.",
+        "**Working backward**: a $7,560 check that is 60% of half of a 4.5% commission means $7,560 ÷ 0.0135 = $560,000. Rate = total commission ÷ price; sales needed = income goal ÷ earnings per sale ($84,000 ÷ $7,000 = 12).",
+        "**Price changes**: each $10,000 price cut on a 5% commission, split 50/50 with a 60% salesperson split, costs the salesperson $150 ($10,000 × 0.05 × 0.5 × 0.6).",
+        "**Buyer-agency fees** offset by a seller contribution: owing her broker 2.5% with the seller contributing 1.5%, the buyer pays the 1% difference ($7,000 on $700,000)."
+      ],
+      "example": {
+        "title": "Worked example: tiered commission with two splits",
+        "steps": [
+          "Facts: $910,000 sale; 6% on the first $500,000 and 4% on the rest; the listing broker pays the cooperating broker 45% of the total commission; the listing salesperson receives 60% of what the listing broker keeps.",
+          "Step 1: First tier = $500,000 × 6% = $30,000.",
+          "Step 2: Second tier = $410,000 × 4% = $16,400; total commission = $46,400.",
+          "Step 3: Cooperating broker = $46,400 × 45% = $20,880, so the listing broker keeps $25,520.",
+          "Step 4: Listing salesperson = $25,520 × 60% = $15,312.",
+          "Trap: 60% of the whole $46,400 ($27,840) skips the co-broke split, and 6% of the full price ($54,600) ignores the tiers.",
+          "Answer: $15,312."
+        ]
+      }
+    },
+    {
+      "heading": "Net to seller and cash to close",
+      "intro": "A net sheet answers what the seller walks away with; a cash-to-close calculation answers what the buyer must bring.",
+      "points": [
+        "**Seller's net** subtracts every lien payoff (first mortgage, home-equity line), seller costs (transfer tax, attorney fee) and concessions, and adds seller credits such as reimbursed prepaid taxes. A payoff reduces the seller's cash, never the commission or transfer-tax base.",
+        "**Target net**: subtract the rate of any other price-based cost too (the NYS transfer tax is about 0.004). Adding the commission percentage on top of the costs falls short, because commission is charged on the higher price. It is only a pricing estimate; a **net listing** (the broker keeps whatever exceeds the seller's figure) is prohibited (19 NYCRR §175.19).",
+        "**Assumed mortgage**: the balance the buyer takes over is credited to the buyer, so the seller receives that much less cash.",
+        "**Seller concessions** are seller debits. A higher price offset by an equal concession nets the seller less, because commission applies to the higher price. Loan programs often cap concessions at a percentage of the price; costs above the cap stay with the buyer.",
+        "**Buyer's cash** also covers prepaids and prorations; the deposit is a credit, never paid twice. If the contract calls for 10% at signing, crediting an earlier $3,000 deposit, a $580,000 buyer adds $55,000.",
+        "**FIRPTA**: from a foreign seller, the buyer generally withholds **15% of the amount realized** (the price, not the gain), or 10% on a home the buyer will live in priced over $300,000 up to $1 million (none at $300,000 or less), cutting the seller's cash.",
+        "**NY rental move-in math**: security deposit at most one month's rent; background-check fee the lesser of actual cost or $20; late fee only after 5 days, capped at the lesser of $50 or 5% of the monthly rent. Under NYC's FARE Act (effective June 11, 2025), a broker working for the landlord, including one listing with the landlord's permission, can't charge the tenant; a broker the tenant hires can."
+      ],
+      "example": {
+        "title": "Worked example: pricing to a target net (outside NYC)",
+        "steps": [
+          "Facts: the seller wants to net $156,800 after a 5% commission, a $310,000 mortgage payoff, $6,200 of fixed costs and the NYS transfer tax (treat it as 0.4% of the price).",
+          "Step 1: Add everything that doesn't depend on price: $156,800 + $310,000 + $6,200 = $473,000.",
+          "Step 2: Price-based costs total 5% + 0.4% = 5.4%, so the seller keeps 94.6% of the price.",
+          "Step 3: Price = $473,000 ÷ 0.946 = $500,000.",
+          "Step 4: Check: $500,000 − $25,000 commission − $2,000 transfer tax (1,000 units × $2) − $310,000 − $6,200 = $156,800.",
+          "Trap: $473,000 ÷ 0.95 = $497,894.74 forgets the transfer tax, and $473,000 × 1.054 = $498,542 applies the percentages to the wrong base.",
+          "Answer: about $500,000, a pricing estimate, not a net listing."
+        ]
+      }
+    },
+    {
+      "heading": "Transfer taxes and the mortgage recording tax",
+      "intro": "New York stacks several transaction taxes. Each has its own base, rate, threshold and payer, and most errors come from mixing them up.",
+      "points": [
+        "**NYS transfer tax** (Tax Law §1402): round the $500 units **up**; $347,800 owes $1,392, not the 0.4% shortcut's $1,391.20. Working backward, $1,392 means 696 units, so the price was over $347,500 and no more than $348,000.",
+        "**Payer**: the seller (§1404), or the buyer if the seller is exempt (such as a county or the state). A mortgage **paid off** at closing doesn't reduce the consideration; only a lien that stays on the property can qualify for the continuing-lien deduction, under statutory conditions.",
+        "**Residential** for both the mansion tax (§1402-a) and the NYC RPTT means a 1–3 family house, condo unit or co-op apartment. Both are **cliffs**: $999,999 owes no mansion tax but $1,000,000 owes $10,000, and RPTT is 1.425% of the whole price once it exceeds $500,000. Other NYC property (commercial, 4 or more units, vacant land) pays RPTT of 1.425% and 2.625% at the same break.",
+        "**NYC extras**: an additional $1.25 per $500 state tax (0.65% with the basic tax), paid by the seller, on NYC residential sales of $3 million or more and other NYC sales of $2 million or more; and a supplemental buyer tax on NYC residential sales of $2 million or more that raises the combined mansion rate in steps from 1.25% to 3.9%.",
+        "**Mortgage recording tax** (Tax Law §253) is figured on the **loan** rounded to the nearest $100 (over $50 rounds up, $50 or less down: $412,351 → $412,400). State components: 0.5% basic, 0.25% special additional and 0.25% additional (0.30% in the MTA commuter district); NYC, Yonkers and some counties add local tax.",
+        "On a 1–2 family home the first $10,000 of the loan is excluded from the **additional** tax only, and on homes with 1 to 6 units the **lender** pays the 0.25% special additional tax.",
+        "**In NYC** the borrower pays **1.8%** of a loan under $500,000 and **1.925%** of a loan of $500,000 or more on a 1–3 family house or condo unit ($480,000 on a Queens three-family = $8,640). A **co-op** share loan isn't a recorded mortgage, so no MRT is due."
+      ],
+      "table": {
+        "head": ["Tax", "Base and rate", "Who pays", "Classic trap"],
+        "rows": [
+          ["NYS transfer tax", "$2 per $500 or fraction (about 0.4%)", "Seller (buyer if the seller is exempt)", "Rounding down; 0.4% on an odd price"],
+          ["Mansion tax", "1% of the whole price; residential, $1M or more", "Buyer", "Taxing only the excess; exempting exactly $1M"],
+          ["NYC RPTT, residential", "1% at $500,000 or less; 1.425% of the whole price above", "Seller", "Treating it as marginal; 1.425% at exactly $500,000"],
+          ["NYC RPTT, other property", "1.425% at $500,000 or less; 2.625% above", "Seller", "Residential rates on a 4+ unit building"],
+          ["Mortgage recording tax", "Loan (rounded to $100) × local rate; NYC residential borrower 1.8% or 1.925%", "Borrower (lender pays one component on 1–6 units)", "Using the price; charging a co-op loan"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: a Brooklyn two-family sale at $1,150,000",
+        "steps": [
+          "Step 1: NYS transfer tax = $1,150,000 ÷ $500 = 2,300 units × $2 = $4,600 (seller).",
+          "Step 2: NYC RPTT: residential and over $500,000, so 1.425% × $1,150,000 = $16,387.50 (seller).",
+          "Step 3: Mansion tax: residential and at least $1 million, so 1% × $1,150,000 = $11,500 (buyer). The price is under $2 million, so neither NYC extra applies.",
+          "Step 4: Seller's transfer taxes = $4,600 + $16,387.50 = $20,987.50.",
+          "Trap: 1.425% of only the $650,000 above $500,000 ($9,262.50), or 1% of only the $150,000 above $1 million ($1,500), treats cliff taxes as marginal.",
+          "Answer: seller $20,987.50; buyer $11,500 (plus mortgage recording tax on any loan)."
+        ]
+      }
+    },
+    {
+      "heading": "Loan math: LTV, points, interest and amortization",
+      "intro": "Loan problems move from price to loan to costs to payments. Once the loan amount is set, it is the base for everything that follows.",
+      "points": [
+        "**LTV** uses the **lower of price or appraisal**: a low appraisal shrinks the loan and the buyer covers the gap; a high one doesn't enlarge it. **Down payment** = price − loan; **combined LTV** = (first + second mortgage) ÷ value.",
+        "**Points charged** = point cost ÷ loan ($5,700 ÷ $380,000 = 1.5). **Discount points** are prepaid interest that buy a lower rate; an **origination fee** pays for making the loan. No fixed rule says how much rate a point buys.",
+        "**Interest** runs on the **current balance**, not the original loan; working backward, balance = monthly interest × 12 ÷ rate ($1,300 × 12 ÷ 0.065 = $240,000). It is paid in **arrears**, so the June 1 payment covers May's interest.",
+        "**Prepaid (per diem) interest** = loan × rate ÷ 365 (or 360) × days: $365,000 at 6% accrues $60 a day, so a June 22 closing collects June 22–30, 9 days counting the closing day = $540.",
+        "**Amortization**: the payment stays level while the interest share falls and the principal share grows. Escrow never reduces the balance, and **annual debt service** is P&I only: monthly P&I × 12.",
+        "**Interest-only**: payment = balance × rate ÷ 12 ($300,000 at 6% = $1,500), and the balance doesn't fall. A **loan constant** = annual P&I ÷ loan; from a payment factor, loan = P&I ÷ factor × 1,000.",
+        "**PMI** is usually required on a conventional loan above 80% of value. Under the federal Homeowners Protection Act, a borrower in good standing may ask to cancel at **80%** of original value (the lower of price or appraisal at origination); it ends automatically at **78%** on schedule: $320,000 and $312,000 on a $400,000 purchase appraised at $410,000."
+      ],
+      "example": {
+        "title": "Worked example: from price to the second payment",
+        "steps": [
+          "Facts: price $600,000; appraisal $590,000; the lender lends 80% of the lower value at 6.3% for 30 years (P&I $2,921.55) and charges 1.5 discount points.",
+          "Step 1: Loan = 80% × $590,000 = $472,000. Down payment = $600,000 − $472,000 = $128,000.",
+          "Step 2: Points = $472,000 × 1.5% = $7,080.",
+          "Step 3: Month 1 interest = $472,000 × 0.063 ÷ 12 = $2,478.00; principal = $2,921.55 − $2,478.00 = $443.55; new balance = $471,556.45.",
+          "Step 4: Month 2 interest = $471,556.45 × 0.063 ÷ 12 = $2,475.67; principal = $2,921.55 − $2,475.67 = $445.88; balance = $471,110.57.",
+          "Trap: points on the price ($9,000), a loan based on the $600,000 price, or subtracting the whole payment from the balance.",
+          "Answer: loan $472,000; down payment $128,000; points $7,080; balance $471,110.57."
+        ]
+      }
+    },
+    {
+      "heading": "Qualifying ratios",
+      "intro": "Lenders compare monthly obligations with gross monthly income. Ratios such as 28% and 36% are lender guidelines stated in the question, not New York law.",
+      "points": [
+        "**Gross monthly income** = annual gross income ÷ 12, combining co-borrowers. Ratios use gross (before-tax) income, not take-home pay.",
+        "**Housing expense** is **PITI** plus PMI and condo common charges or HOA dues when the lender counts them.",
+        "**Recurring debts** for the back-end ratio are obligations such as car loans, student loans and minimum card payments; groceries, utilities and phone bills don't count.",
+        "The **lower** payment limit controls because the borrower must pass both tests. **Minimum income** is the **higher** of housing ÷ front-end limit and (housing + debts) ÷ back-end limit: $2,240 of PITI and $700 of debts at 28/36 give $8,000 and $8,166.67, so $8,166.67 a month is needed.",
+        "**From payment to loan**: subtract monthly taxes, insurance and other escrows from the maximum PITI to get the P&I, then divide by the payment factor per $1,000.",
+        "Paying off a debt raises the maximum payment only when the back-end test is the one that binds."
+      ],
+      "example": {
+        "title": "Worked example: maximum payment and loan",
+        "steps": [
+          "Facts: co-borrowers earn $102,000 a year combined; other debts total $830 a month; limits are 28% and 36%; taxes and insurance will be $610 a month; the lender's factor is $6.32 per $1,000.",
+          "Step 1: Gross monthly income = $102,000 ÷ 12 = $8,500.",
+          "Step 2: Front-end cap = $8,500 × 28% = $2,380.",
+          "Step 3: Back-end cap = $8,500 × 36% = $3,060, minus $830 of debts = $2,230.",
+          "Step 4: The lower figure, $2,230, is the maximum PITI.",
+          "Step 5: P&I available = $2,230 − $610 = $1,620; loan = $1,620 ÷ 6.32 × $1,000 = $256,329 (rounded).",
+          "Answer: maximum PITI $2,230; maximum loan about $256,329."
+        ]
+      }
+    },
+    {
+      "heading": "Area, volume, acres and front feet",
+      "intro": "Sketch the lot, split odd shapes into rectangles and triangles, keep every dimension in feet, and convert to acres or yards last.",
+      "points": [
+        "**Triangle** height is measured at a right angle to the base, never along a slanted side. A **trapezoid** has two parallel sides: average them and multiply by the perpendicular distance between them.",
+        "**Irregular shapes**: split an L into two rectangles and add them, or take the outer rectangle and subtract the cutout. Multiplying an L's outside dimensions counts space that isn't there.",
+        "**Perimeter** (the sum of the sides) prices fencing, not area: a 120 × 80 ft lot has 400 ft, so fencing at $25 a foot costs $10,000.",
+        "**Acres**: a square one-acre lot is about 208.7 ft on a side (the square root of 43,560). **Lots from a tract** = (total area − road land) ÷ lot size: 10 acres less 25% for roads = 326,700 sq ft ÷ 21,780 = 15 half-acre lots.",
+        "**Volume** = length × width × height in feet (4 in = 1/3 ft). Concrete, fill and topsoil are priced per cubic yard; the cubic-foot cost method multiplies a building's volume by a cost per cubic foot. **Coverage** = cubic feet ÷ depth: 10 cu yd (270 cu ft) spread 6 in deep covers 540 sq ft.",
+        "**Front foot**: in a lot described as 90 × 140 ft, 90 is the street frontage, and depth doesn't enter a front-foot price. **Price per front foot** = price ÷ frontage; **depth** = area ÷ frontage (21,780 sq ft with 121 ft of frontage is 180 ft deep).",
+        "**Price per square foot** = price ÷ square feet and can rank lots differently from front-foot price. To value a house from comps, average their price per square foot and multiply by the subject's size, counting only the space the comps counted (such as above-grade living area)."
+      ],
+      "example": {
+        "title": "Worked example: a trapezoid lot priced two ways",
+        "steps": [
+          "Facts: the front and rear lot lines are parallel, 200 ft and 240 ft long, and 297 ft apart; the 200-ft line is the street frontage. Offers: $62,000 per acre or $450 per front foot.",
+          "Step 1: Area = (200 + 240) ÷ 2 × 297 = 220 × 297 = 65,340 sq ft.",
+          "Step 2: Acres = 65,340 ÷ 43,560 = 1.5 acres.",
+          "Step 3: Per-acre offer = 1.5 × $62,000 = $93,000.",
+          "Step 4: Per-front-foot offer = 200 × $450 = $90,000 (depth is ignored).",
+          "Trap: adding the parallel sides without halving gives 130,680 sq ft (3 acres).",
+          "Answer: 1.5 acres; the per-acre offer is $3,000 higher."
+        ]
+      }
+    },
+    {
+      "heading": "Property tax, mills and equalization",
+      "intro": "In New York, real property taxes are levied by counties, cities, towns, villages, school districts and special districts; the state itself levies none.",
+      "points": [
+        "**Taxable assessed value** = assessed value − partial exemptions (for example, veterans' and senior citizens' exemptions). Market value and sale price are not the base.",
+        "**Rate formats**: 28.4 mills = $28.40 per $1,000 = $2.84 per $100 = 0.0284.",
+        "**Levy** = budget − non-property-tax revenue. Wholly exempt property (houses of worship, government land) is left out of the taxable total, which raises everyone else's rate.",
+        "**Level of assessment**: New York assessors may assess at a uniform percentage of market value rather than 100% (RPTL §305), so assessed value = market value × that percentage. The state's **equalization rate** lets county and school taxes be shared fairly among towns that assess at different levels.",
+        "**Revaluation**: reassessing at full value raises assessments and lowers the rate; with the same levy, a bill changes only if the owner's share of total value changes, so compute both bills.",
+        "**Tax periods** for prorations: school taxes typically run July 1–June 30, town and county taxes usually the calendar year, and NYC's tax year July 1–June 30. Use the period the question gives."
+      ],
+      "example": {
+        "title": "Worked example: a village rate and one owner's bill",
+        "steps": [
+          "Facts: the village budget is $4,850,000 with $1,250,000 of other revenue; total taxable assessed value is $150,000,000. A home is assessed at $210,000 with a $15,000 exemption.",
+          "Step 1: Levy = $4,850,000 − $1,250,000 = $3,600,000.",
+          "Step 2: Rate = $3,600,000 ÷ $150,000,000 = 0.024 = 24 mills ($24 per $1,000, or $2.40 per $100).",
+          "Step 3: Taxable assessed value = $210,000 − $15,000 = $195,000; tax = $195,000 × 0.024 = $4,680.",
+          "Step 4: If the village's equalization rate is 60%, the home's full value = $210,000 ÷ 0.60 = $350,000.",
+          "Trap: taxing market value ($350,000 × 0.024 = $8,400) or skipping the exemption ($5,040).",
+          "Answer: 24 mills; annual tax $4,680."
+        ]
+      }
+    },
+    {
+      "heading": "Prorations",
+      "intro": "A proration divides a bill or income item between seller and buyer by days. Three facts decide most answers: the day-count method, who owns the closing day, and whether the item was paid in advance or is still owed.",
+      "points": [
+        "**Day counts**: ÷ 360 (twelve 30-day months) or ÷ 365 (actual days; 366 in a leap year if stated); monthly items use ÷ 30 or the month's actual days. Use only the method stated.",
+        "**Count days inclusively** and give the closing day to whoever owns it: a seller who owns an August 14 closing day has 7 × 30 + 14 = 224 days with 30-day months, or 226 actual days.",
+        "**Who owns the closing day?** The widely used bar-association residential contract in New York apportions items as of midnight of the day before closing, so the buyer owns closing day; some textbooks charge that day to the seller. Exam questions state the rule.",
+        "**Prorate over the bill's own period**: a July 1–June 30 school tax counts from July 1, not January 1, and a half-year installment is spread over that half-year's days.",
+        "**Rent**: prorate only rent actually collected; unpaid rent isn't apportioned unless the contract says so. **Security deposits** transfer to the buyer in full and aren't prorated (GOL §7-105). **Fuel oil** isn't prorated by days: gallons left × price, credited to the seller.",
+        "Every proration is a **double entry**: the same amount is a debit to one party and a credit to the other."
+      ],
+      "table": {
+        "head": ["Item", "Seller", "Buyer"],
+        "rows": [
+          ["Taxes the seller prepaid past the closing date", "Credit", "Debit"],
+          ["Taxes unpaid for the seller's days (buyer pays the bill later)", "Debit", "Credit"],
+          ["Rent the seller collected for the closing month", "Debit", "Credit"],
+          ["Accrued interest on a mortgage the buyer assumes", "Debit", "Credit"],
+          ["Fuel oil left in the tank", "Credit", "Debit"],
+          ["Tenants' security deposits", "Debit (full amount)", "Credit (full amount)"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: prepaid taxes under both day counts",
+        "steps": [
+          "Facts: closing is September 18 in a non-leap year; the seller prepaid the $8,760 calendar-year taxes; the buyer owns the closing day.",
+          "Step 1 (365-day method): daily rate = $8,760 ÷ 365 = $24.",
+          "Step 2: Buyer's days = Sept 18–30 (13) + Oct (31) + Nov (30) + Dec (31) = 105; the seller has the other 260.",
+          "Step 3: Buyer's share = 105 × $24 = $2,520: credit seller, debit buyer, because the seller paid the whole year.",
+          "Step 4 (360-day method): buyer's days = 13 + 90 = 103; 103 × $8,760 ÷ 360 = $2,506.33 (keep the $24.333… daily rate unrounded).",
+          "Trap: giving the seller the closing day leaves the buyer 104 days ($2,496), and debiting the seller reverses the direction.",
+          "Answer: credit seller and debit buyer $2,520 (actual days) or $2,506.33 (360-day year)."
+        ]
+      }
+    },
+    {
+      "heading": "Income property: NOI, cap rate and GRM",
+      "intro": "The income approach turns a year of net operating income into a value. Build NOI in order, then apply IRV.",
+      "points": [
+        "**Gross income** is income before expenses; **net income** is what remains after them. **PGI** = every unit at full rent for a year; **EGI** = PGI − vacancy and collection loss + other income (laundry, parking, storage); vacancy is a percentage of PGI unless stated otherwise.",
+        "**NOI** = EGI − operating expenses; the table below shows what counts. Value moves opposite the cap rate: $90,000 of NOI is worth $1,500,000 at 6% but $1,200,000 at 7.5%.",
+        "**After-tax cash flow**: loan principal isn't deductible, and depreciation is deductible even though it isn't a cash expense.",
+        "**Gross rent multiplier (GRM)**: a monthly GRM is 12 times the annual GRM for the same property, so the size of the multiplier tells you which rent to use. A **gross income multiplier (GIM)** uses total gross income, including other income; build the comparable's multiplier and apply it to the subject on the same basis."
+      ],
+      "table": {
+        "head": ["Item", "Operating expense?", "Why"],
+        "rows": [
+          ["Property taxes and insurance", "Yes", "Costs of operating the property"],
+          ["Utilities, repairs, management, reserves for replacement", "Yes", "Recurring operating costs"],
+          ["Mortgage principal and interest", "No", "Financing (debt service) comes after NOI"],
+          ["Depreciation and the owner's income tax", "No", "Tax items, not operating costs"],
+          ["Capital improvements", "No", "Capital spending, not an annual expense"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: a 10-unit building",
+        "steps": [
+          "Facts: 10 units at $2,100 a month; 5% vacancy and collection loss; $3,600 of laundry income; $85,500 of operating expenses; $108,000 of annual debt service; 7% cap rate; $550,000 of cash invested.",
+          "Step 1: PGI = 10 × $2,100 × 12 = $252,000.",
+          "Step 2: EGI = $252,000 − $12,600 vacancy + $3,600 = $243,000.",
+          "Step 3: NOI = $243,000 − $85,500 = $157,500.",
+          "Step 4: Value = $157,500 ÷ 0.07 = $2,250,000.",
+          "Step 5: Cash flow = $157,500 − $108,000 = $49,500; cash-on-cash = $49,500 ÷ $550,000 = 9%; DSCR = $157,500 ÷ $108,000 = 1.46.",
+          "Trap: capitalizing the cash flow after debt service ($49,500 ÷ 0.07 = $707,142.86) confuses cash flow with NOI.",
+          "Answer: indicated value $2,250,000."
+        ]
+      }
+    },
+    {
+      "heading": "Percentage leases",
+      "intro": "Retail tenants often pay a fixed base rent plus a percentage of gross sales above a breakpoint.",
+      "points": [
+        "The percentage applies to **gross sales** (receipts), not profit. The **natural breakpoint** is the sales level at which the percentage just equals the base rent; a lease may set a different, negotiated breakpoint, so use the one the question gives.",
+        "With a natural breakpoint, total rent equals the **larger** of the base rent or rate × total sales. Below the breakpoint the tenant pays base rent only; a shortfall doesn't reduce the base rent.",
+        "**Annualize first**: base rent is often quoted monthly, so multiply by 12 before dividing it by the rate or comparing it with annual sales.",
+        "**Working backward** to sales: sales above the breakpoint = (total rent − base rent) ÷ rate; total sales = breakpoint + that amount."
+      ],
+      "example": {
+        "title": "Worked example: rent with a natural breakpoint",
+        "steps": [
+          "Facts: base rent is $7,500 a month plus 6% of annual gross sales above the natural breakpoint; this year's sales are $1,820,000.",
+          "Step 1: Annual base rent = $7,500 × 12 = $90,000.",
+          "Step 2: Natural breakpoint = $90,000 ÷ 0.06 = $1,500,000.",
+          "Step 3: Percentage rent = ($1,820,000 − $1,500,000) × 6% = $19,200.",
+          "Step 4: Total rent = $90,000 + $19,200 = $109,200 (the same as 6% × $1,820,000).",
+          "Trap: a breakpoint built from the monthly base ($7,500 ÷ 0.06 = $125,000), or 6% of all sales added on top of the base ($199,200).",
+          "Answer: $109,200 for the year."
+        ]
+      }
+    },
+    {
+      "heading": "Loss factor, add-on factor and rentable area",
+      "intro": "Office rent is quoted per rentable square foot, but the tenant occupies usable square feet. The factor linking them can be stated two ways, with different denominators.",
+      "points": [
+        "**Usable area** is the space a tenant occupies exclusively; **rentable area** adds the tenant's share of common areas (lobbies, corridors, restrooms); **carpetable area** is the unobstructed floor inside the usable space. **Building efficiency** = usable ÷ rentable = 1 − loss factor.",
+        "**Which factor?** The standard definition, used in the NYREPL formula list and this app's questions, measures the loss factor against rentable area, so divide by (1 − loss factor). The NYREPL annual-rent formula, (usable × loss factor + usable) × rate, marks usable area up instead: that is the add-on method, giving less rentable area for the same percentage. 'Add-on' or 'add X% to usable area' means multiply; a loss factor measured on rentable area means divide.",
+        "**Annual rent** = rentable sq ft × annual rate per rentable sq ft; divide by 12 for monthly rent. Confirm whether the quoted rate is annual or monthly.",
+        "Compare spaces on **total rent** for the usable area you need, not on the quoted rate: a lower rate with a bigger loss factor can cost more."
+      ],
+      "table": {
+        "head": ["Measure", "Formula", "8,000 rentable / 6,400 usable"],
+        "rows": [
+          ["Loss factor", "(Rentable − usable) ÷ rentable", "20%"],
+          ["Add-on factor", "(Rentable − usable) ÷ usable", "25%"],
+          ["Building efficiency", "Usable ÷ rentable", "80%"],
+          ["Rentable from usable", "Usable ÷ (1 − loss factor) = usable × (1 + add-on)", "8,000 sq ft"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: rent for a usable-area requirement",
+        "steps": [
+          "Facts: a tenant needs 7,200 usable sq ft; the building quotes $52 per rentable sq ft per year and a 20% loss factor (common area as a share of rentable area).",
+          "Step 1: Rentable area = 7,200 ÷ (1 − 0.20) = 9,000 sq ft.",
+          "Step 2: Annual rent = 9,000 × $52 = $468,000; monthly rent = $39,000.",
+          "Step 3: Check: (9,000 − 7,200) ÷ 9,000 = 20%.",
+          "Step 4: For contrast, a 20% add-on factor would mean 7,200 × 1.20 = 8,640 rentable sq ft and $449,280 a year.",
+          "Trap: pricing only the usable area ($374,400), or using the add-on method when the question defines a loss factor.",
+          "Answer: $468,000 a year ($39,000 a month)."
+        ]
+      }
+    },
+    {
+      "heading": "Depreciation in appraisal and for taxes",
+      "intro": "Depreciation means two different things on the exam: lost value in the cost approach, and a tax deduction for investment property. Land is never depreciated in either.",
+      "points": [
+        "**Cost approach**: use the improvements' replacement (or reproduction) cost new, and add depreciated site improvements if they are listed separately.",
+        "**Age-life (straight-line) method**: the annual rate is 1 ÷ economic life (a 50-year life = 2% a year). **Effective age** reflects condition and renovation and can be lower or higher than actual age; use it when given.",
+        "**Three kinds of accrued depreciation**: physical deterioration (wear and tear), functional obsolescence (outdated design or layout) and external obsolescence (caused outside the property, such as a nearby nuisance). Subtract every one the question lists.",
+        "**Land value by extraction** = sale price − depreciated building value.",
+        "**Tax depreciation (cost recovery)** applies to rental and business property; a personal residence isn't depreciated. A $770,000 rental house with $220,000 of land: $550,000 ÷ 27.5 = $20,000 a year.",
+        "**Adjusted basis** keeps the land: a $1,000,000 office building with $220,000 of land, after 6 years at $20,000, has an adjusted basis of $880,000."
+      ],
+      "table": {
+        "head": ["Feature", "Appraisal (cost approach)", "Tax (cost recovery)"],
+        "rows": [
+          ["Purpose", "Estimate market value", "Annual income tax deduction"],
+          ["Period", "Economic life of the building", "27.5 years residential rental; 39 years nonresidential"],
+          ["Age used", "Effective age", "Years since placed in service"],
+          ["Land", "Not depreciated", "Not depreciated, but stays in the basis"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: cost approach with effective age",
+        "steps": [
+          "Facts: a 2,600 sq ft house costs $240 per sq ft to replace; actual age 22 years, effective age 15 years, economic life 60 years; the land is worth $185,000.",
+          "Step 1: Cost new = 2,600 × $240 = $624,000.",
+          "Step 2: Accrued depreciation = $624,000 × 15 ÷ 60 = $156,000 (25%).",
+          "Step 3: Depreciated improvements = $624,000 − $156,000 = $468,000.",
+          "Step 4: Value = $468,000 + $185,000 land = $653,000.",
+          "Trap: using actual age (22 ÷ 60 gives $228,800 of depreciation and a $580,200 value) or depreciating the land too.",
+          "Answer: $653,000."
+        ]
+      }
+    },
+    {
+      "heading": "Appreciation, profit and percent change",
+      "intro": "All of these are percent-change problems. The base is the starting value or the cost, not the ending value, unless the question names another base.",
+      "points": [
+        "**Simple annual rate** = total percent change ÷ number of years. **Compound growth**: future value = present value × (1 + rate)^years, so $400,000 growing 5% a year for 3 years is $463,050 compounded, versus $460,000 with simple growth.",
+        "**Successive changes multiply**: a 20% loss then a 20% gain leaves 0.80 × 1.20 = 96% of the start. Two sales at the same price, one at a 20% gain and one at a 20% loss on cost, produce a net loss because the loss is figured on the larger cost.",
+        "**Profit percentage** = profit ÷ total investment (price + capital improvements) unless another base is named; profit = net proceeds (price − commission − selling costs) − total investment.",
+        "**Percentage points vs. percent**: a rate rising from 4% to 5% is up 1 percentage point, which is a 25% increase in the rate.",
+        "**Home sale exclusion**: a seller who meets the ownership and use tests (2 of the last 5 years) may exclude up to $250,000 of gain, or $500,000 for most married couples filing jointly."
+      ],
+      "example": {
+        "title": "Worked example: an investor's profit percentage",
+        "steps": [
+          "Facts: bought for $300,000; spent $60,000 on improvements; sold for $420,000 with a 5% commission and $3,000 of other selling costs.",
+          "Step 1: Total investment = $300,000 + $60,000 = $360,000.",
+          "Step 2: Net proceeds = $420,000 − $21,000 commission − $3,000 = $396,000.",
+          "Step 3: Profit = $396,000 − $360,000 = $36,000.",
+          "Step 4: Profit percentage = $36,000 ÷ $360,000 = 10%.",
+          "Trap: ignoring the selling costs ($60,000 ÷ $360,000 = 16.67%) or dividing by the sale price ($36,000 ÷ $420,000 = 8.57%).",
+          "Answer: 10%."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS Salesperson Syllabus, Subject 10, plus Subjects 3, 5, 8, 14, 16 and 17 (prorations, finance, valuation, taxes, commercial, income tax)",
+    "NY Tax Law §§ 1402, 1402-a, 1402-b, 1404 (real estate transfer taxes)",
+    "NY Tax Law § 253 and NYS DTF mortgage recording tax rates (Form MT-15)",
+    "NYC Admin. Code § 11-2102 (Real Property Transfer Tax)",
+    "NY RPL §§ 442, 442-a; 19 NYCRR § 175.19 (fee sharing; salesperson paid through broker; net listings)",
+    "NY RPTL § 305 (uniform percentage assessment); NYS ORPTS equalization rates",
+    "NY GOL §§ 7-105, 7-108; NY RPL § 238-a (security deposits; application and late fees)",
+    "NYC Admin. Code § 20-699.21 (FARE Act)",
+    "Homeowners Protection Act, 12 U.S.C. §§ 4901–4902",
+    "IRC §§ 121, 168, 1016, 1445; IRS Publications 523 and 527",
+    "NYSBA / NYC Bar Residential Contract of Sale (apportionments clause)",
+    "NYS DOS licensing page (exam calculator rules)",
+    "NYREPL Math Guide; ny-real-estate-cram-sheet (verified Oct 7, 2026); ny-real-estate-study-guide, Chapter 10"
+  ]
+}

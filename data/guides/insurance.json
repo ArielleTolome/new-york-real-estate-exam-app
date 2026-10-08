@@ -1,0 +1,421 @@
+{
+  "topic": "insurance",
+  "title": "Property Insurance",
+  "overview": "Property insurance shifts the risk of physical loss and liability to an insurer. This 1-hour syllabus subject covers who sells insurance, policy types, the HO forms and Coverages A–F, perils, actual cash value versus replacement cost, coinsurance, deductibles, endorsements, flood insurance, hard-to-insure homes, cancellation and the licensee's role. Expect predictable questions: match the occupant to the HO form, pick the coverage letter, compute an ACV or coinsurance payout, and remember that standard policies exclude flood. New York adds rules on hurricane deductibles, cancellation, binders at closing and flood notices.",
+  "cram": {
+    "numbers": [
+      { "value": "80%", "label": "Coinsurance condition: insure at least 80% of replacement cost or partial losses are cut proportionally" },
+      { "value": "10% / 50% / 20%", "label": "DFS's typical HO-3 limits as a share of Coverage A: other structures, personal property, additional living expense (some forms 30%)" },
+      { "value": "$200 / $1,500", "label": "Typical special limits (DFS): money; theft of jewelry, watches and furs" },
+      { "value": "$250,000 / $100,000", "label": "NFIP maximums for a 1–4 family home: building / contents, bought separately" },
+      { "value": "30 days", "label": "NFIP waiting period; none for a loan closing, 1 day within 13 months after a map revision" },
+      { "value": "1% a year", "label": "Chance of a 100-year flood; about 26% over a 30-year mortgage" },
+      { "value": "45 days", "label": "Borrower's time to replace lapsed required flood coverage after the lender's notice; then the lender must force-place it" },
+      { "value": "60 days", "label": "First 60 days of a NY homeowners policy: a cancellation notice must state the specific reason; later, statutory grounds only" },
+      { "value": "45–60 days", "label": "NY notice of nonrenewal or conditional renewal, with reasons, before the policy period ends" },
+      { "value": "3 years", "label": "NY required policy period for homeowners policies; nonrenewal inside it needs a cancellation ground" },
+      { "value": "15 days", "label": "Paying within 15 days after a nonpayment cancellation notice is mailed is timely" },
+      { "value": "1%–5%", "label": "Typical NY windstorm or hurricane deductible, figured on the dwelling's value or insured amount" },
+      { "value": "12 hours", "label": "Hurricane deductible window: 12 hours before NY landfall to 12 hours after the last NY watch or warning is canceled" },
+      { "value": "7 years", "label": "Claims history on a CLUE report; the owner gets one free copy a year" },
+      { "value": "1 mile / 2,500 feet", "label": "C-MAP reach from shore: 1 mile (LI south shore and forks, Brooklyn, Queens, Staten Island) or 2,500 feet (LI north shore, Bronx, Westchester)" },
+      { "value": "60 consecutive days", "label": "Vacancy limit in the NY standard fire policy; homeowners forms drop vandalism coverage after 60 days vacant" }
+    ],
+    "mustKnow": [
+      "**Property insurance** pays for damage to your own property; **liability insurance** pays others your negligence injures. A **package policy** (homeowners, tenants) bundles property, liability, theft and medical payments; a **monoline policy** covers one line.",
+      "**HO-1 (basic)** and **HO-2 (broad)** are named-peril; HO-2 adds falling objects, weight of ice, snow or sleet, and accidental discharge of water from plumbing or heating.",
+      "**HO-3 (special)** is the most widely used form and the lenders' favorite: open-peril on the dwelling, named-peril on personal property. **HO-5 (comprehensive)** makes personal property open-peril too.",
+      "**HO-4** = tenants and, per the NY syllabus and DFS, **co-op owners**: contents, liability, loss of use, no building. **HO-6** = condo unit owners: interior improvements, contents, liability, **loss assessment**.",
+      "**HO-8 (market value)** = older home whose rebuilding cost exceeds market value; a modified HO-1 paying cash value or repair with common modern materials.",
+      "Coverage **A** dwelling and attached structures, **B** detached structures, **C** personal property, **D** loss of use, **E** personal liability, **F** medical payments to others.",
+      "**Named-peril**: covered only if a listed cause did it, and the insured must show that. **Open-peril**: covered unless excluded, and the insurer must prove the exclusion.",
+      "**ACV = replacement cost − depreciation**; **replacement cost** repairs or replaces with like kind and quality, no depreciation. Insure the **cost to rebuild the structure**, not land, price or market value.",
+      "**Coinsurance**: carry at least **80%** of replacement cost or a partial loss pays only (carried ÷ required) × loss, never more than the limit.",
+      "A **deductible** is the insured's share of each covered loss; raising it lowers the premium but adds no limits or perils.",
+      "NY **hurricane deductibles** (Insurance Law §3445, **Regulation 159**) are usually a percentage of Coverage A, must appear in dollars on the declarations page, and apply only to wind damage from a hurricane with **New York landfall**, within the 12-hour window.",
+      "**Endorsements (riders)** add to or change the policy: scheduled personal property, inflation guard, ordinance or law, water backup, loss assessment, increased liability limits, earthquake.",
+      "**Flood is excluded** from homeowners, renters and condo policies; buy it from the **NFIP** (FEMA; often sold by Write Your Own insurers) or a private insurer. It is **mandatory** for a federally backed or regulated loan on a building in a **Special Flood Hazard Area** (Zones A and V), for the life of the loan, in at least the **lesser of the loan balance or the NFIP maximum**.",
+      "**NYPIUA**, New York's FAIR plan, is the insurer of last resort: limited property coverage, generally ACV, higher premiums, **no liability, theft or flood**. **C-MAP**, run by NYPIUA, helps coastal owner-occupants after a cancellation or nonrenewal, often adding a voluntary **wraparound** policy.",
+      "A **CLUE** report shows up to 7 years of claims on the property and owner; the owner, not a buyer, can order it.",
+      "**E&O** covers a licensee's negligent professional mistakes, not fraud or bodily injury (an open-house fall is general liability). NY doesn't require licensees to carry it.",
+      "**Insurable interest** (Insurance Law §3401) must exist at the time of loss: a seller who keeps her policy after closing can't collect for a later fire.",
+      "Lenders require hazard insurance with a **mortgagee clause** (claim checks payable jointly). A NY lender closing a 1–4 family loan **must accept a binder** from a licensed insurer (Insurance Law §3404(h)).",
+      "**Escrow**: the lender collects 1/12 of the yearly premium and property taxes with each payment (**PITI**) and pays the bills.",
+      "**Cash sale**: no lender requires coverage, but under GOL §5-1311 the buyer bears the loss once title or possession passes, so the policy must start then.",
+      "Landlords use **dwelling (DP) forms**: building plus **fair rental value**, no liability unless added, nothing for tenants' belongings.",
+      "**Subrogation**: after paying a claim, the insurer can sue whoever caused the loss."
+    ],
+    "traps": [
+      { "trap": "Open-peril ('all risk') coverage has no exclusions.", "truth": "Flood, earth movement, sewer backup, wear and tear, neglect, war and intentional loss are still excluded." },
+      { "trap": "An HO-3 covers my belongings open-peril, so a paint spill that ruins the rug is covered.", "truth": "HO-3 contents are named-peril, and a spill isn't listed; an HO-5 or special personal property endorsement fixes that." },
+      { "trap": "Insuring to 80% of replacement cost means a total loss is paid in full.", "truth": "It only avoids the partial-loss penalty; payment stops at the limit, leaving a 20% gap on a total loss." },
+      { "trap": "Coinsurance means the insurer pays 80% of each loss, and the fraction divides by full replacement cost.", "truth": "Meeting the requirement pays partial losses in full (less the deductible); the denominator is the required amount, not full replacement cost." },
+      { "trap": "A 2% hurricane deductible is 2% of the damage.", "truth": "It is 2% of the Coverage A limit: $9,000 on a $450,000 limit, whatever the size of the claim." },
+      { "trap": "A home outside the 100-year floodplain is safe, and a 100-year flood comes once a century.", "truth": "It has a 1% chance every year (about 26% over 30 years). Outside a Special Flood Hazard Area flood insurance is optional but available, and the HO-3 still excludes flood." },
+      { "trap": "You can buy an NFIP policy when the storm shows up in the forecast.", "truth": "Coverage generally starts 30 days after purchase; the main exceptions are a loan closing (no wait) and a recent map revision (1 day)." },
+      { "trap": "Sewer or sump backup counts as accidental discharge from plumbing, or is covered by flood insurance.", "truth": "Sewer and drain backup is a separate exclusion fixed by a water backup endorsement; accidental discharge is water escaping from your own plumbing or heating." },
+      { "trap": "The condo master policy covers everything inside my unit.", "truth": "A bare-walls master policy stops at the structure; the HO-6 must cover cabinets, fixtures, flooring and improvements." },
+      { "trap": "A co-op shareholder needs an HO-6, just like a condo owner.", "truth": "The NY syllabus and DFS pair co-op owners with HO-4. Some insurers use a unit-owners form, but answer HO-4." },
+      { "trap": "An umbrella pays for flood damage to my house once my HO-3 limit runs out.", "truth": "An umbrella is excess liability only; it never pays the insured's own property loss." },
+      { "trap": "Medical payments (Coverage F) pays only if the owner was negligent.", "truth": "Med pay covers guests' reasonable medical bills regardless of fault, up to a small limit; Coverage E requires legal liability." },
+      { "trap": "If I buy the coverage my lender requires, I'm fully insured.", "truth": "The lender protects its loan; the owner needs enough to rebuild at today's costs, which can far exceed the loan balance." }
+    ],
+    "mnemonics": [
+      { "name": "Did over Should", "meaning": "Coinsurance pay = (insurance you DID carry ÷ insurance you SHOULD carry) × loss, minus the deductible; never more than the limit." },
+      { "name": "Title looks back, hazard looks forward", "meaning": "Title insurance covers defects existing on the policy date, for a one-time premium; hazard insurance covers later physical loss, with renewed premiums." },
+      { "name": "Section I is me, Section II is them", "meaning": "Coverages A–D pay for the insured's own property and living costs; E–F pay other people." },
+      { "name": "Name it to claim it", "meaning": "Under named-peril the loss must come from a listed cause; under open-peril it's covered unless the insurer points to an exclusion." }
+    ],
+    "formulas": [
+      { "name": "Actual cash value", "formula": "ACV = Replacement cost − Depreciation", "example": "$3,000 − $1,800 = $1,200; less a $500 deductible = $700" },
+      { "name": "Straight-line depreciation", "formula": "Depreciation = Replacement cost × (Age ÷ Useful life)", "example": "$24,000 × 15/20 = $18,000; ACV $6,000; less $1,000 deductible = $5,000" },
+      { "name": "Coinsurance requirement", "formula": "Required insurance = Replacement cost × Coinsurance %", "example": "$450,000 × 0.80 = $360,000" },
+      { "name": "Coinsurance recovery", "formula": "Payment = (Carried ÷ Required) × Loss − Deductible, capped at the limit", "example": "($300,000 ÷ $400,000) × $60,000 = $45,000" },
+      { "name": "Percentage deductible", "formula": "Deductible = % × Coverage A limit; Payment = Loss − Deductible", "example": "2% × $450,000 = $9,000; $28,000 − $9,000 = $19,000" },
+      { "name": "Replacement cost holdback", "formula": "Holdback = Replacement cost − ACV paid first", "example": "$12,000 − $8,000 = $4,000, released after the repair" },
+      { "name": "Mandatory flood coverage", "formula": "Required = lesser of loan balance or NFIP maximum (never above insurable value)", "example": "Loan $320,000 vs. NFIP max $250,000 → $250,000" },
+      { "name": "Umbrella payment", "formula": "Umbrella pays = Covered judgment − Underlying limit, up to the umbrella limit", "example": "$1,100,000 − $300,000 = $800,000" },
+      { "name": "Escrow deposit and cushion", "formula": "Monthly escrow = (Annual taxes + Annual premium) ÷ 12; RESPA cushion ≤ 1/6 of annual escrow", "example": "($9,600 + $2,400) ÷ 12 = $1,000; cushion ≤ $2,000" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Insurance basics and who sells it",
+      "intro": "Insurance is a contract: the insurer accepts a defined risk for a premium.",
+      "points": [
+        "**Property insurance** (hazard, fire or homeowners insurance) pays for direct physical loss to insured property plus some indirect loss, such as extra living costs. Homeowners policies have **Section I** (property) and **Section II** (liability).",
+        "**Indemnity** restores the pre-loss position without profit, so a claimant needs an **insurable interest**, a lawful and substantial economic interest in the property, at the time of loss (Insurance Law §3401). Owners, lenders and tenants (for their belongings) have one.",
+        "A **peril** causes loss (fire, wind, theft); a **hazard** makes loss likelier or worse: **physical** (frayed wiring), **moral** (dishonesty, such as arson for profit) or **morale** (carelessness because 'I'm insured').",
+        "The **declarations page** shows the named insured, policy period, address, mortgagee, limits, deductibles, endorsements and premium. An **endorsement** (rider) changes the policy; a **binder** is temporary written evidence of coverage until the policy issues.",
+        "A **package policy** combines lines such as property and liability and generally costs less than separate **monoline** policies.",
+        "NY fire policies must be at least as favorable to the insured as the **standard fire insurance policy of the state of New York** (Insurance Law §3404), under which concealment or fraud voids the policy and it can't be **assigned** to a buyer without the insurer's written consent.",
+        "The **Department of Financial Services (DFS)** regulates insurers, agents and brokers; the Department of State licenses real estate licensees, not insurance sellers."
+      ],
+      "table": {
+        "head": ["Seller", "Represents", "Exam angle"],
+        "rows": [
+          ["Independent agent", "One or more insurers that appoint the agent", "Compares several companies; can bind coverage for them"],
+          ["Captive (exclusive) agent", "One insurance company", "Sells only that company's policies"],
+          ["Direct writer", "The insurer itself (employees, phone, website)", "No outside agent"],
+          ["Insurance broker", "The property owner", "Shops the market; once an insurer accepts, premium paid to the broker counts as paid to the insurer"]
+        ]
+      }
+    },
+    {
+      "heading": "Perils: named-peril, open-peril and exclusions",
+      "intro": "Some forms list the covered perils; others cover everything not excluded.",
+      "points": [
+        "**Named-peril** coverage pays only if a listed peril caused the loss, and the insured must show it. **Open-peril** coverage (special form, once 'all risk') pays any direct physical loss unless excluded, and the insurer must prove the exclusion.",
+        "**Basic perils** (HO-1, per DFS): fire, lightning and smoke; windstorm and hail; explosion; riot and civil commotion; vehicles and aircraft; vandalism and malicious mischief; burglary and theft; glass breakage.",
+        "**Broad perils** (HO-2 adds): falling objects; weight of ice, snow or sleet; accidental discharge or overflow of water or steam from plumbing, heating, air-conditioning or sprinkler systems; sudden cracking of heating systems and water heaters; freezing of plumbing; electrical damage to appliances.",
+        "**Exclusions**, even open-peril: flood and surface water, earth movement, sewer or drain backup, wear and tear, mechanical breakdown, mold, vermin, neglect, off-premises power failure, war, nuclear hazard and intentional loss. Earthquake, water backup and power interruption can be **bought back** by endorsement; flood needs a flood policy.",
+        "Insurance covers **sudden and accidental** loss: a 30-year-old roof that finally leaks is excluded wear and tear even under an HO-3, and calling it windstorm damage fails when no storm occurred.",
+        "**Vacancy**: the NY standard fire policy suspends coverage after 60 consecutive days vacant or unoccupied unless the policy says otherwise, and homeowners forms exclude vandalism after 60 days vacant. Business use and claims history also affect coverage."
+      ],
+      "table": {
+        "head": ["Peril", "HO-1 basic", "HO-2 broad", "HO-3 dwelling"],
+        "rows": [
+          ["Fire, lightning, smoke, windstorm, hail", "Covered", "Covered", "Covered"],
+          ["Explosion, riot, vehicles, aircraft, vandalism, theft", "Covered", "Covered", "Covered"],
+          ["Falling objects; weight of ice, snow or sleet", "Not covered", "Covered", "Covered"],
+          ["Accidental discharge of water or steam; freezing of plumbing", "Not covered", "Covered", "Covered"],
+          ["Any other sudden, accidental loss that isn't excluded", "Not covered", "Not covered", "Covered (open-peril)"],
+          ["Flood, earthquake, sewer backup, wear and tear", "Excluded", "Excluded", "Excluded"]
+        ]
+      }
+    },
+    {
+      "heading": "Homeowners and dwelling policy forms (HO-1 to HO-8)",
+      "intro": "Match the occupant and property to the form. Insurers may use trade names, so read the description, not the label.",
+      "points": [
+        "**HO-3** is the default for an owner-occupied house and the form lenders want. DFS says homeowners forms fit people who own and live in a one- or two-family house, so an owner living in half of a two-family home qualifies.",
+        "**HO-8** solves the 'white elephant': an 1890s Victorian worth $350,000 that would cost $700,000 to reproduce. The syllabus calls it a modified HO-1 paying cash value instead of replacement cost; DFS adds that payment can't exceed repair with materials of like kind and quality, not exact originals. It doesn't simply pay the sale price.",
+        "**Dwelling policies** (DP-1 basic, DP-2 broad, DP-3 special) insure buildings the owner doesn't occupy, such as a rented house. DP-1 is named-peril and often ACV; DP-3 is open-peril on the building. They are property-only: liability needs an endorsement or a separate policy."
+      ],
+      "table": {
+        "head": ["Form", "Name", "Who it fits", "Building coverage", "Personal property"],
+        "rows": [
+          ["HO-1", "Basic", "Owner-occupant; few insurers sell it", "Basic named perils", "Basic named perils"],
+          ["HO-2", "Broad", "Owner-occupant", "Broad named perils", "Broad named perils"],
+          ["HO-3", "Special", "Owner-occupant; most common, lenders' choice", "Open-peril", "Broad named perils"],
+          ["HO-4", "Tenants and cooperative", "Renters and co-op owners", "None; the landlord or co-op insures it", "Broad named perils"],
+          ["HO-5", "Comprehensive", "Owner-occupant wanting the broadest coverage", "Open-peril", "Open-peril"],
+          ["HO-6", "Condominium unit owners", "Condo owners; the master policy covers the structure", "Unit interior: improvements, fixtures, alterations", "Broad named perils"],
+          ["HO-8", "Modified (market value)", "Older home costing more to rebuild than it's worth", "Basic named perils; cash value or repair with common materials", "Basic named perils"]
+        ]
+      }
+    },
+    {
+      "heading": "Coverages A through F",
+      "intro": "Section I (A–D) protects the insured's own property and living costs; Section II (E–F) protects other people.",
+      "points": [
+        "Coverage A includes **attached** structures; Coverage B covers **separated** ones. Each has its own limit, so a loss above the B limit isn't paid from room under A.",
+        "Coverage C **special limits** (DFS's typical figures): money $200; securities and deeds $1,500; theft of jewelry, watches and furs $1,500; theft of silverware or guns $2,500; business property $2,500 at home, $500 away. Raising Coverage A doesn't raise them.",
+        "Coverage D pays only the **increase** over normal costs: if groceries normally cost $800 a month and $1,400 while displaced, D pays $600 plus the hotel.",
+        "Liability **exclusions**: injury the insured expected or intended, business and professional activities, most motor vehicles, injury to the insured's household and damage to the insured's own property. NY bars refusing, canceling, surcharging or limiting homeowners coverage based solely on dog breed; insurers may act on a dog legally designated dangerous (Insurance Law §3421).",
+        "A NY homeowners policy with personal liability on an owner-occupied 1–4 family home must include **workers' compensation** for household employees working under 40 hours a week (DFS); full-time household workers need separate coverage."
+      ],
+      "table": {
+        "head": ["Coverage", "Pays for", "Typical limit", "Example"],
+        "rows": [
+          ["A: Dwelling", "House, attached structures, built-in fixtures", "Set by the owner; should match replacement cost", "Kitchen fire"],
+          ["B: Other structures", "Detached garage, shed, fence", "10% of A", "Wind topples the fence"],
+          ["C: Personal property", "Belongings at home or away, subject to special limits", "50% of A on an HO-3; the main limit on HO-4 and HO-6", "Burglar takes a laptop"],
+          ["D: Loss of use", "Extra living expense, or lost fair rental value, while the home is unlivable", "20% of A (DFS; some forms 30%)", "Six weeks in a hotel"],
+          ["E: Personal liability", "Others' injury or property damage from the insured's negligence, plus defense", "Per occurrence; textbooks cite $100,000 basic, $300,000–$500,000 advised", "Guest slips on icy steps and sues"],
+          ["F: Medical payments to others", "Guests' reasonable medical bills regardless of fault", "Small per-person limit (DFS: $500–$1,000)", "Child cuts a hand on a broken gate; $600 bill"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: hitting the Coverage B limit",
+        "steps": [
+          "Coverage A is $380,000, and Coverage B is 10% of A: 10% × $380,000 = $38,000.",
+          "A covered fire does $45,000 of damage to the detached garage, a separate structure, so only Coverage B applies.",
+          "Answer: $38,000 (ignoring the deductible); the owner absorbs the $7,000 shortfall. Taking 80% of the loss ($36,000) is a distractor."
+        ]
+      }
+    },
+    {
+      "heading": "Replacement cost vs. actual cash value",
+      "intro": "The valuation method decides what the owner collects; questions usually add a deductible.",
+      "points": [
+        "**Replacement cost (RC)** is today's cost to repair or replace with materials of like kind and quality, with no deduction for depreciation. **Actual cash value (ACV)** is RC minus depreciation; insurers' schedules vary, but exam questions use straight-line depreciation (age ÷ useful life).",
+        "Many RC policies pay ACV first and **hold back** the depreciation until the owner repairs or replaces, within a deadline the policy sets.",
+        "**Land is not insured.** Coverage A should match the cost to rebuild the structure, which may be above or below price or market value; revisit limits after renovations and keep a contents inventory.",
+        "The NY standard fire policy pays the lesser of ACV, the cost to repair or replace with like kind and quality, or the limit, never more than the insured's interest; homeowners forms may be more generous, not less."
+      ],
+      "table": {
+        "head": ["Feature", "Replacement cost", "Actual cash value"],
+        "rows": [
+          ["Typical use", "The structure on most homeowners forms when insured to at least 80%", "Contents (unless a replacement cost endorsement is added), HO-8 dwellings, DP-1 forms, NYPIUA policies"],
+          ["Premium", "Higher", "Lower"],
+          ["After a loss", "Owner rebuilds without paying for depreciation", "Owner pays the depreciation gap"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: ACV, deductibles and the holdback",
+        "steps": [
+          "Furniture: replacement cost $3,000, depreciation $1,800, deductible $500. ACV = $1,200; payment = $1,200 − $500 = $700.",
+          "Roof: 20-year useful life, 15 years old, $24,000 to replace. Depreciation = $24,000 × 15/20 = $18,000; ACV = $6,000; less a $1,000 deductible = $5,000.",
+          "Holdback: cabinets cost $12,000 to replace; depreciation is $4,000. The insurer pays ACV of $8,000, then the $4,000 holdback after replacement.",
+          "Wrong answers: the deductible off replacement cost ($2,500 or $23,000) or the depreciation less the deductible ($17,000)."
+        ]
+      }
+    },
+    {
+      "heading": "Coinsurance and the 80% rule",
+      "intro": "The coinsurance (replacement cost) condition penalizes underinsurance on partial losses.",
+      "points": [
+        "**Required insurance = replacement cost × coinsurance percentage.** 80% is standard for homes; 90% and 100% clauses appear mostly in commercial policies.",
+        "**Meet** the requirement and a partial loss is paid in full, less the deductible; **fall short** and payment = (carried ÷ required) × loss. Payment never exceeds the limit, so insuring to 100% of replacement cost is the safer advice.",
+        "Additions and construction inflation raise replacement cost, so a home that met 80% last year may fall short today; an **inflation guard** endorsement raises Coverage A automatically.",
+        "Real ISO forms (ISO drafts the standard forms most insurers use) are kinder: below 80%, the insurer pays the **greater** of ACV or the proportional amount. Exams use the proportional formula, and the NYREPL math guide subtracts any deductible from the result.",
+        "The 80% coinsurance rule has nothing to do with an 80% loan-to-value ratio or 20% equity."
+      ],
+      "example": {
+        "title": "Worked example: coinsurance in five situations",
+        "steps": [
+          "Underinsured: replacement cost $500,000, 80% clause, carried $300,000, loss $60,000. Required = $400,000; payment = ($300,000 ÷ $400,000) × $60,000 = $45,000 (dividing by $500,000 gives the wrong $36,000).",
+          "Requirement met: replacement cost $400,000, carried $320,000 = the requirement, so a $50,000 loss is paid in full (not $40,000).",
+          "Total loss: replacement cost $400,000, carried $240,000. ($240,000 ÷ $320,000) × $400,000 = $300,000, but payment stops at the $240,000 limit.",
+          "Keeping up: replacement cost rises from $350,000 to $425,000; carried $300,000. Required = 80% × $425,000 = $340,000, so $40,000 more is needed.",
+          "90% clause: replacement cost $400,000, carried $300,000, loss $36,000. Required = $360,000; payment = ($300,000 ÷ $360,000) × $36,000 = $30,000."
+        ]
+      }
+    },
+    {
+      "heading": "Deductibles and New York's hurricane rules",
+      "intro": "New York regulates how windstorm and hurricane deductibles are disclosed and triggered.",
+      "points": [
+        "DFS lists three types: a **standard (all-peril)** flat deductible, such as $500 or $1,000; an optional **windstorm** deductible; and a **hurricane** deductible, usually insurer-mandated near the coast. Windstorm and hurricane deductibles commonly run **1% to 5%** of the dwelling's value or Coverage A amount, so the dollar figure moves with the limit.",
+        "Many insurers require hurricane deductibles in the five NYC boroughs, Nassau, Suffolk and coastal Westchester. Under DFS **Regulation 159** (11 NYCRR Part 74) the insurer must show DFS enough hurricane exposure, and the deductible may vary by county or distance from the shore.",
+        "**Insurance Law §3445** and Regulation 159 require a plain-language notice of the deductible's amount and trigger with every new and renewal policy, and the declarations page must show a hurricane deductible as a percentage and in dollars.",
+        "For policies issued or renewed since Feb. 2, 2026, a hurricane deductible is triggered only when the National Weather Service finds the hurricane made **landfall in New York**, and it applies only to wind damage from **12 hours before landfall** to **12 hours after** the last NY hurricane watch or warning is canceled. The policy states which hurricane category triggers it.",
+        "All covered losses from the storm count toward one hurricane deductible; it can't apply to loss-of-use coverage; and when several deductibles could apply to a loss, only one does (the insurer may choose the higher).",
+        "Earthquake coverage, by endorsement or separate policy, usually has a large percentage deductible (DFS cites 10% to 25%)."
+      ],
+      "example": {
+        "title": "Worked example: percentage deductibles",
+        "steps": [
+          "A Long Island home has a $450,000 Coverage A limit and a 2% hurricane deductible; a qualifying hurricane causes $28,000 of covered wind damage.",
+          "Deductible = 2% × $450,000 = $9,000 (the limit, not the loss); payment = $28,000 − $9,000 = $19,000.",
+          "DFS's illustration: a home insured for $150,000 with a 5% hurricane deductible bears the first $7,500; on a $10,000 loss the insurer pays $2,500.",
+          "Trap: taking 2% of the $28,000 loss ($560) and paying $27,440."
+        ]
+      }
+    },
+    {
+      "heading": "Endorsements: adding to the basic policy",
+      "intro": "Endorsements (riders) change the policy for an added premium; the syllabus stresses increased liability limits and insuring more personal property and other structures.",
+      "points": [
+        "Raising Coverage A doesn't lift a Coverage C special limit: an $18,000 engagement ring needs a scheduled personal property endorsement or a personal articles floater.",
+        "DFS notes that neither a flood policy nor a homeowners policy alone is likely to cover a sump failure caused by a flood.",
+        "Endorsements can also narrow coverage, such as removing off-premises theft, for a lower premium (DFS)."
+      ],
+      "table": {
+        "head": ["Endorsement", "What it does", "Use it when"],
+        "rows": [
+          ["Increased limits of liability", "Raises Coverage E (often F)", "Assets to protect; pairs with an umbrella"],
+          ["Scheduled personal property / personal articles floater", "Insures listed valuables for an agreed amount, usually open-peril", "Valuables exceed special theft limits"],
+          ["Special personal property", "Makes HO-3 contents coverage open-peril", "HO-5-style protection"],
+          ["Replacement cost on contents", "Settles belongings without depreciation", "Policy would pay ACV on contents"],
+          ["Increased other structures", "Raises Coverage B above 10% of A", "Large detached garage or barn"],
+          ["Inflation guard", "Raises Coverage A by a set percentage", "Rising construction costs"],
+          ["Extended replacement cost", "Pays above the dwelling limit, up to a cap such as 125%", "Post-disaster cost spike"],
+          ["Ordinance or law", "Pays the added cost of meeting current codes", "Older home with outdated wiring or stairs"],
+          ["Water backup and sump overflow", "Covers backup through sewers or drains, or a failed sump pump", "Finished basement"],
+          ["Loss assessment (increased)", "Pays the owner's share of an association assessment from a covered loss", "Condo or HOA with a large master deductible"],
+          ["Earthquake", "Buys back the earth movement exclusion", "Owner accepts a large percentage deductible"],
+          ["Home business", "Adds business property and business liability", "Home office or paid day care"]
+        ]
+      }
+    },
+    {
+      "heading": "Flood insurance and the NFIP",
+      "intro": "Flood is excluded from homeowners, renters and condo policies; the National Flood Insurance Program (NFIP), created in 1968 and run by FEMA, fills the gap.",
+      "points": [
+        "NFIP coverage is sold only in **participating** communities that enforce floodplain management rules (most NY towns, villages and cities). **Write Your Own** insurers sell and service NFIP policies under their own names; the federal program sets rates and carries the risk.",
+        "**Limits**: $250,000 on a 1–4 family building and $100,000 on contents, bought separately with separate deductibles. Renters can buy **contents-only** coverage; a landlord's building policy doesn't cover tenants' belongings.",
+        "**Settlement**: contents at ACV; the building at replacement cost only for a single-family principal residence insured to at least 80% of replacement cost (or the maximum). Basement coverage is limited, and the NFIP pays no additional living expenses.",
+        "**Waiting period**: generally 30 days; none when the purchase is tied to making, increasing, extending or renewing a loan (coverage starts at closing); 1 day if bought within 13 months after a map revision puts the building in a high-risk zone.",
+        "**Mandatory purchase** (Flood Disaster Protection Act of 1973): a Special Flood Hazard Area building securing a loan made, insured or guaranteed by a federal agency (FHA, VA, USDA) or made by a federally regulated lender must stay insured for the life of the loan.",
+        "**Lapse**: if the borrower doesn't replace coverage within **45 days** of the lender's or servicer's notice, the lender must **force-place** it and may charge him. Regulated lenders generally must escrow flood premiums too.",
+        "**Private flood insurance** also exists: federally regulated lenders must accept qualifying private policies, which keep working if the NFIP lapses. Congress extends the NFIP in short reauthorizations (currently through Dec. 11, 2026); in a lapse FEMA can't sell or renew policies but still pays claims.",
+        "An NFIP building policy can be **assigned** in writing to a buyer. A seller whose property got federal flood disaster aid conditioned on keeping flood insurance must tell the buyer in writing of that duty.",
+        "**NY notices**: insurers must give homeowners and dwelling fire policyholders an annual notice that the policy excludes flood and mudslide and that NFIP coverage exists (Insurance Law §3444); residential leases must disclose FEMA floodplain status, known flood damage and the availability of NFIP renter coverage (RPL §231-b); the Property Condition Disclosure Statement asks about flood zones, flood insurance, flood claims and federal flood aid.",
+        "FEMA disaster aid is no substitute: it is limited, needs a federal disaster declaration and can require buying flood insurance."
+      ],
+      "table": {
+        "head": ["Flood zone", "Meaning", "Federal purchase requirement"],
+        "rows": [
+          ["Zone A (A, AE, AH, AO and other A zones)", "Special Flood Hazard Area: 1% annual chance (100-year) flood", "Required for federally backed or regulated loans"],
+          ["Zone V (V, VE)", "Coastal high-hazard SFHA: 1% chance plus wave (velocity) action", "Required for federally backed or regulated loans"],
+          ["Zone X shaded (older B)", "Moderate risk, between the 1% and 0.2% (500-year) floodplains", "Optional, but available and often wise"],
+          ["Zone X unshaded (older C)", "Minimal risk, outside the 500-year floodplain", "Optional; floods still happen"],
+          ["Zone D", "Possible but undetermined risk", "Not federally required; a lender may still ask"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: how much flood insurance must the lender require?",
+        "steps": [
+          "A buyer takes a $320,000 federally backed mortgage on a single-family home in Zone AE. Insurable value is $400,000; the NFIP building maximum is $250,000.",
+          "Required = the lesser of the loan balance ($320,000) or the NFIP maximum ($250,000), never above insurable value = $250,000.",
+          "Requiring $320,000 ignores the program cap; $256,000 (80% of the loan) is invented. Private excess flood coverage can insure the rest.",
+          "Risk check: 1 − 0.99^30 ≈ 0.26, about a 26% chance of at least one 100-year flood over the 30-year loan."
+        ]
+      }
+    },
+    {
+      "heading": "Condos, co-ops, renters and landlords",
+      "intro": "The building's owner insures the structure; each occupant insures what that policy leaves out.",
+      "points": [
+        "**Condo master policies** run from **bare walls** (structure only; the owner insures cabinets, fixtures, flooring and finishes) to **single entity** (original fixtures) to **all-in** (improvements too). Under RPL §339-bb the board insures the building when the declaration, bylaws or a majority of owners require it, gives owners written notice of the coverage and any change, and charges premiums as common expenses; owners may still insure their own units.",
+        "HO-6 **loss assessment** coverage pays the owner's share of an association assessment from a covered loss to common property, such as roof repairs above the master limit or a large master-policy deductible. Basic limits are low.",
+        "Injuries **inside a unit** fall on the owner's HO-6 (or HO-4) liability; the master policy's liability coverage targets common areas.",
+        "**Co-op**: the corporation insures the building; the shareholder insures her belongings, liability and her own improvements (a $60,000 kitchen renovation may not be covered by the building policy). Check the proprietary lease.",
+        "**Renters**: a tenant whose candle starts a fire relies on HO-4 **personal liability**, since the landlord's insurer can pay and then pursue her through subrogation; HO-4 loss of use pays the hotel if a neighbor's fire makes her unit unlivable.",
+        "**Landlords**: an investor renting out a house he doesn't occupy needs a dwelling (DP) policy, whose **fair rental value** coverage replaces lost rent during repairs. A DP-3 without a liability endorsement leaves him uninsured if a tenant's visitor falls on a broken step.",
+        "**Building staff**: NY employers, including co-op and condo boards or managing agents that employ supers and porters, must carry **workers' compensation**, which pays medical costs and lost wages regardless of fault and is generally the worker's exclusive remedy. A building permit requires proof of the contractor's workers' comp (WCL §57); owners should also get proof of the contractor's liability coverage."
+      ],
+      "table": {
+        "head": ["Occupant", "Building insured by", "Occupant's own policy covers", "Form"],
+        "rows": [
+          ["Condo unit owner", "Association's master policy (structure, common elements)", "Interior improvements (per master policy type), contents, liability inside the unit, loss of use, loss assessment", "HO-6"],
+          ["Co-op shareholder", "Cooperative corporation's policy", "Contents, liability, loss of use, improvements the proprietary lease makes hers", "HO-4 per the NY syllabus"],
+          ["Tenant", "Landlord's policy", "Contents, personal liability, additional living expense", "HO-4, plus NFIP contents-only for flood"],
+          ["Landlord of a 1–4 family rental", "Landlord's dwelling policy", "Building and fair rental value; liability only if added", "DP-1, DP-2 or DP-3"],
+          ["Owner of an apartment or commercial building", "Owner's commercial property policy", "Building, business income, general liability, workers' comp", "Commercial package or businessowners policy"]
+        ]
+      }
+    },
+    {
+      "heading": "Liability, umbrella, E&O and commercial policies",
+      "intro": "Liability insurance pays other people; the exam tests which policy answers which claim.",
+      "points": [
+        "An **umbrella** (personal excess) policy adds liability limits, typically $1 million or more, above homeowners, renters and auto policies, paying only after the underlying limit is exhausted. Insurers usually require minimum underlying limits; umbrellas often cover extra offenses such as libel, slander and false arrest, but never the insured's own property loss.",
+        "**E&O (errors and omissions)** is professional liability coverage for licensees and firms: it pays economic-harm claims from negligent mistakes, such as advertising 2,400 square feet for a 1,900-square-foot home, subject to limits and deductibles. It excludes intentional fraud, bodily injury and property damage; NY doesn't require licensees to carry it.",
+        "**Commercial general liability (CGL)** covers bodily injury and property damage claims against a business: a visitor who slips on spilled coffee at an open house is a CGL (or seller's homeowners liability) claim, not E&O.",
+        "A **businessowners policy (BOP)** packages commercial property, general liability and **business income** for small businesses, without automatic E&O. Commercial property can be written on a **specific** policy (one building or class) or a **blanket** policy (several under one limit).",
+        "If a brokerage's sales associates are deemed employees rather than independent contractors, the broker must provide workers' compensation, disability and unemployment insurance."
+      ],
+      "example": {
+        "title": "Worked example: umbrella over a homeowners policy",
+        "steps": [
+          "An owner has $300,000 of homeowners liability and a $1,000,000 umbrella; a guest wins a covered $1,100,000 judgment.",
+          "The homeowners insurer pays first, up to its $300,000 limit.",
+          "The umbrella pays the excess: $1,100,000 − $300,000 = $800,000, within its $1,000,000 limit.",
+          "Traps: assuming the umbrella pays its full $1,000,000, or computing $1,000,000 − $300,000 = $700,000."
+        ]
+      }
+    },
+    {
+      "heading": "Hard-to-insure homes: NYPIUA, C-MAP, excess lines and CLUE",
+      "intro": "The syllabus heading 'problems in obtaining insurance' covers NYPIUA, the NFIP and coastal residents assistance (DFS help, windstorm deductible disclosure and C-MAP). Agents should try the voluntary market first.",
+      "points": [
+        "**NYPIUA**, the New York Property Insurance Underwriting Association (Insurance Law Article 54), is an association of all insurers selling fire insurance in New York: the state's FAIR plan and **insurer of last resort**.",
+        "Its **Basic form** covers fire, extended coverage perils (wind including hurricane, hail, explosion, riot, aircraft, vehicles, smoke) and vandalism; the **Broad form** adds falling objects, weight of ice and snow, water discharge and more. Policies are generally **ACV**, cost more and include **no liability, theft or flood**; Broad form policies in the seven downstate coastal counties carry a 2% hurricane deductible.",
+        "**C-MAP** (Coastal Market Assistance Program), a voluntary network of insurers and producers run by NYPIUA, serves **owner-occupied** 1–4 family homes, apartments and condo units near the shore in the Bronx, Brooklyn, Queens, Staten Island, Nassau, Suffolk and Westchester. The owner must have received a cancellation, nonrenewal or conditional renewal for a reason other than nonpayment (a new buyer names the prior owner's insurer). A voluntary **wraparound** policy adds liability, contents and theft and can make replacement cost available.",
+        "Cancellation and nonrenewal notices on homes in a market-assistance area must explain possible C-MAP or NYPIUA eligibility and how to apply (Insurance Law §3425(e)).",
+        "**Excess line market**: after at least three licensed insurers decline, an owner may buy from an unlicensed insurer through a licensed excess line broker. These policies skip NY rate and form approval, and the Property/Casualty Insurance Security Fund won't protect the owner if the insurer fails.",
+        "A **CLUE report** (Comprehensive Loss Underwriting Exchange, run by LexisNexis) lists claims on the property and owner for up to seven years, including reported but unpaid losses; water claims can raise premiums or block coverage. As a Fair Credit Reporting Act consumer report, not a public record, the owner gets a free copy each year and can share it before listing; a buyer can't pull one on someone else's home."
+      ]
+    },
+    {
+      "heading": "Premiums, cancellation and nonrenewal in New York",
+      "intro": "Premiums vary by insurer, property and person, and New York limits when an insurer can drop a homeowners or tenants policy.",
+      "points": [
+        "**Cost factors**: location (rating territory and the community's public fire protection class, from 1, the best, to 10, unprotected), construction (brick resists fire better than frame), age and condition, coverage amounts, deductible, claims history and discounts.",
+        "**Discounts** (Insurance Law §2346): required for **hurricane or storm shutters** and **hurricane-resistant laminated glass** windows and doors; permitted for smoke detectors, sprinklers, fire extinguishers, deadbolts and an approved disaster-preparedness course (good for three years).",
+        "**First 60 days**: an insurer may cancel a new policy, but the notice must state the **specific reason** (Insurance Law §3425(b)).",
+        "**After 60 days** (or from the start of a renewal), cancellation is allowed only for nonpayment of premium; conviction of a crime arising from acts that increase the hazard insured against; fraud or material misrepresentation in obtaining the policy or presenting a claim; willful or reckless acts or omissions that increase the hazard; physical changes that make the property uninsurable; or a DFS determination that continuing the policy would violate the law.",
+        "**Nonpayment**: the notice must state the amount due, and paying within **15 days** after it is mailed is timely. If premiums come from a mortgage escrow account, the notice must go to both homeowner and lender or it has no effect.",
+        "**Nonrenewal**: homeowners policies have a **three-year required policy period**, and nonrenewal inside it needs a ground that would justify cancellation. Notice of nonrenewal or conditional renewal, with specific reasons, must be mailed **45 to 60 days** before the policy period ends; otherwise the insured may renew by paying the premium.",
+        "An insurer may not refuse to issue or renew solely because of the applicant's **advanced age** (§3425(i))."
+      ]
+    },
+    {
+      "heading": "The licensee's role: lenders, escrow, closing, and title vs. hazard",
+      "intro": "Licensees explain insurance's purpose and cost, the lender's interest, escrow and cash-sale timing, then refer; they don't sell or bind insurance unless separately licensed.",
+      "points": [
+        "**Purpose and cost**: insurance is an ongoing cost of ownership; urge coverage for the cost to **rebuild** and refer buyers to a licensed agent or broker. Selling or being paid for placing insurance requires a NY insurance license, and RESPA treats hazard and flood insurance as settlement services, so referral kickbacks are illegal.",
+        "**Lender's interest**: the house is collateral, so lenders require hazard insurance (and flood insurance in an SFHA) with a **mortgagee (standard mortgage) clause**: joint claim checks, a lender claim that can survive the owner's denial, and separate written notice to the lender before cancellation. If coverage lapses, the lender can **force-place** a pricier policy at the borrower's cost.",
+        "**Proof at closing**: a policy or an **insurance binder**. A NY lender making a 1–4 family loan can't refuse a licensed insurer's binder as evidence of hazard insurance, though it may also ask for a premium receipt (Insurance Law §3404(h)).",
+        "**Escrow**: lenders often collect 1/12 of the annual premium and property taxes with each monthly payment (PITI), commonly requiring escrow when the buyer puts down less than 20%. RESPA caps the cushion at one-sixth of the year's escrow payments. At closing the buyer usually prepays the first year's premium and funds the initial escrow deposit.",
+        "**Cash sale**: nobody forces the buyer to insure, but under NY's Uniform Vendor and Purchaser Risk Act (GOL §5-1311) the seller bears the risk of loss until legal title or possession passes, and then the buyer must pay even if the house burns. Start the buyer's policy at closing or move-in, whichever comes first.",
+        "**Seller's side**: the seller insures until closing, then cancels for a refund of unearned premium. After the deed passes she has no insurable interest, and her policy can't go to the buyer without the insurer's written consent.",
+        "**After a loss**: notify the insurer promptly (written notice to its licensed agent counts), make reasonable temporary repairs, keep damaged items for the adjuster and document everything. A sworn **proof of loss** is due within 60 days after the insurer's written request and blank forms (Insurance Law §3407); the standard fire policy allows 24 months to sue. Never promise a claim will be paid."
+      ],
+      "table": {
+        "head": ["Feature", "Title insurance", "Hazard (homeowners) insurance", "Mortgage insurance (PMI/MIP)"],
+        "rows": [
+          ["Protects against", "Title defects existing on the policy date (forgery, undisclosed liens, missing heirs); never fire or flood", "Future physical loss plus liability; never a forged deed", "Borrower default"],
+          ["Who is protected", "Owner's policy: buyer and heirs; lender's policy: the lender", "Owner, and lender through the mortgagee clause", "Only the lender"],
+          ["Premium", "One-time, paid at closing", "Annual and renewed, often escrowed", "Monthly and/or upfront, depending on the loan"],
+          ["How long it lasts", "While the insured or heirs hold title (lender's policy ends when the loan is paid)", "The policy term; must be renewed", "Until canceled or terminated under the loan's rules"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: building the monthly PITI payment",
+        "steps": [
+          "Annual homeowners premium $2,400 + annual property taxes $9,600 = $12,000 of escrow items.",
+          "Monthly escrow deposit = $12,000 ÷ 12 = $1,000 (insurance $200 + taxes $800).",
+          "Maximum cushion RESPA allows = $12,000 ÷ 6 = $2,000.",
+          "With principal and interest of $2,500 a month, PITI = $2,500 + $1,000 = $3,500, of which $200 is the insurance escrow."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS 77-hour Salesperson Syllabus, Subject 12: Property Insurance",
+    "NY Insurance Law §§2346, 3401, 3404 (standard fire policy; binders), 3407, 3421, 3425, 3444, 3445; Article 54 (NYPIUA); Article 64 (title insurance)",
+    "11 NYCRR Part 74 (DFS Insurance Regulation 159, third amendment signed July 22, 2025, effective Feb. 2, 2026)",
+    "NYS DFS consumer pages: Choosing a Policy; Basic Coverage and Adding Coverage; Problems Obtaining Insurance",
+    "NY Real Property Law §§231-b, 339-bb; General Obligations Law §5-1311; Workers' Compensation Law §§10, 11, 57",
+    "National Flood Insurance Act of 1968 and Flood Disaster Protection Act of 1973, 42 U.S.C. §§4012a, 4013; 44 CFR Part 61; 44 CFR §59.1",
+    "FEMA and NAR notices on NFIP reauthorization (authority extended to Dec. 11, 2026)",
+    "RESPA Regulation X, 12 CFR §1024.2 and §1024.17 (escrow cushion); Fair Credit Reporting Act, 15 U.S.C. §1681j",
+    "Spada, New York Real Estate for Salespersons, Ch. 14 (Property Insurance) and Ch. 20 (E&O and general liability)",
+    "NYREPL Study Guide, Level 16 (Property Insurance) and NYREPL Math Guide (loss recovery formula)",
+    "ny-real-estate-study-guide.txt, Ch. 12, and ny-real-estate-cram-sheet.txt (Insurance and safety)"
+  ]
+}

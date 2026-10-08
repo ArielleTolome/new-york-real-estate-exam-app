@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 npm run -s build
 ssh pigeonfi 'mkdir -p /data/nyrealestate/site'
-rsync -az --delete index.html app.css app.js sw.js manifest.json questions.json favicon.ico icons views styles pigeonfi:/data/nyrealestate/site/
+rsync -az --delete index.html app.css app.js sw.js manifest.json questions.json guides.json favicon.ico icons views styles pigeonfi:/data/nyrealestate/site/
 # --inplace keeps the inode so the single-file bind mount sees the new nginx.conf.
 rsync -az --inplace deploy/docker-compose.yml deploy/nginx.conf pigeonfi:/data/nyrealestate/
 rsync -az deploy/traefik-nyrealestate.yaml pigeonfi:/data/coolify/proxy/dynamic/nyrealestate.yaml

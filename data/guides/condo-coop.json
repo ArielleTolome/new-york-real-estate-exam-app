@@ -1,0 +1,377 @@
+{
+  "topic": "condo-coop",
+  "title": "Condos & Co-ops",
+  "overview": "Condos and co-ops look alike but are legal opposites: a condo is real property (a deeded unit plus a share of the common elements under the Condominium Act, Real Property Law (RPL) Article 9-B), while a co-op is personal property (shares in a corporation plus a proprietary lease). The Department of State (DOS) course gives the subject 4 of its 77 hours (course hours are not published exam weights), and its rules also surface in closing, finance, tax and fair housing questions. Expect questions on what the buyer owns, common-charge liens, board powers under Levandusky, the board package, share loans, and flip-tax, maintenance and §216 math, plus offering plans, CPS-1, conversions, condops, HOAs and insurance.",
+  "cram": {
+    "numbers": [
+      { "value": "6 years", "label": "Life of a filed condo common-charge lien: until paid or 6 years from filing, whichever is sooner (RPL §339-aa)" },
+      { "value": "90 days", "label": "Written notice a condo board must give the owner before starting a lien foreclosure (RPL §339-aa, effective Oct. 16, 2025)" },
+      { "value": "51%", "label": "NYC non-eviction conversion: units that must be bought by bona fide tenants in occupancy on the AG acceptance date (GBL §352-eeee)" },
+      { "value": "15%", "label": "Non-eviction threshold under GBL §352-eee (opt-in Nassau, Westchester and Rockland municipalities)" },
+      { "value": "51% + 35%", "label": "§352-eee eviction plan: 51% of tenants excluding eligible seniors and disabled AND 35% including them" },
+      { "value": "62", "label": "Age that qualifies a non-buying tenant as an eligible senior citizen, never evicted for not buying" },
+      { "value": "66⅔%", "label": "Minimum owner vote, by number and common interest, to amend condo bylaws (RPL §339-v; condos with only nonresidential units excepted)" },
+      { "value": "12 months", "label": "Term of a CPS-1 market-testing approval, extendable once an offering plan is submitted (Spada's 120 days is outdated)" },
+      { "value": "80% / 80% / 90%", "label": "IRC §216 tests (any one): income from tenant-stockholders / square footage for their use / spending for their benefit" },
+      { "value": "5 years or 50%", "label": "Non-eviction conversion: sponsor must give up board control by the earlier of 5 years after the first closing or unsold interests below 50% (2 years in an eviction plan; 13 NYCRR 18.3, 23.3)" },
+      { "value": "8%", "label": "Maximum co-op late fee on monthly maintenance if the proprietary lease allows (RPL §238-a; HDFC and Mitchell-Lama co-ops excepted)" },
+      { "value": "15 / 45 days", "label": "NYC co-ops with 10+ units: acknowledge a purchase application within 15 days and decide within 45 days after it is complete; no reasons required (Local Law 58 of 2026, applications from July 28, 2026)" },
+      { "value": "1% at $1M+", "label": "NYS mansion tax covers condo units and co-op apartments; buyer pays" },
+      { "value": "$2 per $500", "label": "NYS transfer tax on co-op share transfers and condo deeds alike; seller pays" }
+    ],
+    "mustKnow": [
+      "A **condo** owner holds real property: a unit plus an **undivided interest in the common elements**, which normally include the land.",
+      "A **co-op** buyer gets **shares** (personal property) in the corporation that owns the building plus a **proprietary lease**; no deed.",
+      "The recorded **declaration** creates the condo and fixes each unit's **common interest**; the **bylaws** govern elections, meetings and collections; house rules rank below both.",
+      "The **common interest** (set by fair value, floor area, equal shares or adjusted floor space) is permanent, changes only with consent of all affected owners, and can't be split from the unit.",
+      "Common elements can't be **partitioned**; a **limited common element** (private terrace) is owned by all, with use reserved to certain units.",
+      "Each condo unit is a **separate tax parcel**, so unpaid taxes lien only that unit; a co-op building gets one tax bill, passed through maintenance by shares.",
+      "The **common-charge lien** is junior only to tax liens, the **first mortgage of record** and certain agency mortgages; it lasts **6 years** from filing and is foreclosed like a mortgage, after **90 days'** written notice to the owner.",
+      "Without unanimous owner consent, no lien can attach to condo **common elements**; a contractor can lien only the unit of an owner who ordered or consented to the work.",
+      "A condo board's resale power is normally a **right of first refusal** (buy on the same terms or waive), not a co-op-style rejection.",
+      "**Levandusky** (1990) **business judgment rule**: courts defer to good-faith board decisions within the board's authority for legitimate purposes, but never to discrimination.",
+      "The **sponsor** appoints the first board and managing agent; AG rules limit its control (non-eviction conversions: the earlier of 5 years after the first closing or unsold interests below 50%; eviction conversions and new co-ops: 2 years).",
+      "Co-op **maintenance** = share of operating costs + building **real estate taxes** + **underlying mortgage**; the buyer's own share loan is separate.",
+      "A default on the **underlying mortgage** endangers every shareholder; also check **fee vs ground lease** ownership.",
+      "**Board package**: application, signed contract, verified financials, tax returns, employment letter, references, credit authorization, disclosures; managing agent screens, board decides.",
+      "**Share loan** collateral = stock certificate + stock power + assigned proprietary lease, perfected by **UCC-1**; default → **nonjudicial UCC sale**.",
+      "**Recognition agreement** (lender, co-op, shareholder): the co-op recognizes the lender's lien and gives it notice and a chance to cure defaults.",
+      "A **co-op lien search** (UCC filings, judgments, tax liens) replaces the condo's title search and title insurance.",
+      "**Flip tax** = private transfer fee paid to the co-op (gross %, profit %, per share or flat), usually by the seller.",
+      "Co-op sales pay **NYS transfer tax** (seller), NYC **RPTT** in the city and the **mansion tax** at $1M+ (buyer), but no **mortgage recording tax**.",
+      "**IRC §216**: deduct your share of the co-op's **real estate taxes and mortgage interest** if it meets one test (80% income, 80% square footage, 90% expenditures).",
+      "**RPL §226-b** sublet rights don't apply to **proprietary leases**; a subletting shareholder stays liable.",
+      "The sponsor and **holders of unsold shares** usually sell and sublet without board approval; resale investors aren't holders of unsold shares.",
+      "Offering plans go to the AG's **Real Estate Finance Bureau** (Martin Act); acceptance is disclosure review only, and owner resales need no plan.",
+      "**CPS-1**: 12 months (extendable) of AG-cleared ads and nonbinding interest only, with **no deposits and no reservations**, binding or nonbinding.",
+      "**Non-eviction plan**: non-buyers can't be evicted for not buying; NYC requires **51%** tenant purchases and bars new eviction plans; eligible seniors (62+) and disabled tenants are protected under any plan.",
+      "**Condop** = condo whose residential unit is owned by a co-op; **HOA** = fee-owned house and lot plus association-owned common areas under recorded **CC&Rs**.",
+      "The condo **master policy** is a common expense; the owner's **HO-6** covers interior improvements, contents, liability and **loss assessment**."
+    ],
+    "traps": [
+      { "trap": "A condo owner owns only air space, never land.", "truth": "Unless the declaration says otherwise, the land is a common element owned by all unit owners in undivided shares (RPL §339-e(3))." },
+      { "trap": "A co-op buyer gets a deed and a recorded mortgage, so mortgage recording tax applies.", "truth": "Shares are personal property financed by a share loan perfected by UCC filing; nothing is recorded and no mortgage recording tax is due. Transfer taxes and the mansion tax still apply." },
+      { "trap": "A flip tax is a city or state tax.", "truth": "It is a private fee the co-op charges under its proprietary lease or offering plan (BCL §501(c)); government transfer taxes are separate." },
+      { "trap": "During CPS-1, a fully refundable deposit or a nonbinding reservation is fine.", "truth": "CPS-1 bars all deposits and all reservations, binding or nonbinding, until the plan is accepted; only nonbinding indications of interest are allowed." },
+      { "trap": "A share-loan commitment obliges the co-op board to approve the buyer.", "truth": "The approvals are independent; the board can lawfully reject, and the board-consent contingency then lets either side cancel with the down payment returned." },
+      { "trap": "The business judgment rule lets a co-op board reject a buyer for any reason.", "truth": "Boards usually needn't give a reason, but rejecting on a protected basis (familial status, lawful source of income, military status and more) is illegal; business judgment never covers discrimination." },
+      { "trap": "A condo board can reject a buyer just like a co-op board.", "truth": "A condo board normally has only a right of first refusal: buy on the same terms or waive. If its deadline passes, the sale proceeds." },
+      { "trap": "An owner who never uses the gym, or who abandons the unit, can stop paying that share of common charges.", "truth": "Neither waiver of use nor abandonment ends liability (RPL §339-x); only conveying the unit to the board, if the bylaws allow, stops future charges." },
+      { "trap": "The common-charge lien ranks behind every mortgage recorded before it.", "truth": "It ranks behind only tax liens, the first mortgage of record and certain agency mortgages; a second mortgage or HELOC is behind it even if recorded first." },
+      { "trap": "The 80/20 rule was repealed, so a co-op's commercial income no longer matters.", "truth": "Since 2007 the 80% income test is one of three alternative §216 tests (with 80% square footage and 90% expenditures); the co-op must still pass one." },
+      { "trap": "NYC sponsors can still choose eviction plans, and outside buyers count toward the percentage.", "truth": "Since the 2019 HSTPA, new NYC plans must be non-eviction, with 51% of units bought by tenants in occupancy on the acceptance date; new eviction plans are possible only outside NYC (for example under §352-eee)." },
+      { "trap": "The $20 application-fee cap and $50/5% late-fee cap protect co-op buyers and shareholders.", "truth": "Those are rental rules. A co-op may charge purchase applicants managing-agent processing fees and actual-cost credit checks, and a late fee of up to 8% of monthly maintenance if the proprietary lease allows (RPL §238-a; HDFC and Mitchell-Lama co-ops face tighter limits)." },
+      { "trap": "CPS-1 market testing lasts 120 days, plus a 60-day extension.", "truth": "That is Spada's outdated rule. The current CPS-1 runs 12 months from the AG's acceptance and can be extended once the sponsor has submitted an offering plan." },
+      { "trap": "Under §216 a shareholder deducts the whole maintenance payment.", "truth": "Only the proportionate share of the co-op's real estate taxes and mortgage interest; operating costs and principal are not deductible." }
+    ],
+    "mnemonics": [
+      { "name": "Deed vs. stock + lease", "meaning": "Condo = deed to a unit (real property, mortgage, own tax bill, title insurance). Co-op = stock + proprietary lease (personal property, share loan, UCC filing, lien search, board approval)." },
+      { "name": "Red before black", "meaning": "Red herring (preliminary plan) → black book (accepted plan) → plan declared effective → closings." },
+      { "name": "80-80-90", "meaning": "IRC §216: 80% of income from tenant-stockholders, OR 80% of square footage for their use, OR 90% of spending for their benefit." }
+    ],
+    "formulas": [
+      { "name": "Common interest (floor-area method)", "formula": "Unit floor area ÷ total floor area of all units", "example": "1,400 ÷ 56,000 = 2.5%" },
+      { "name": "Monthly condo common charges", "formula": "Annual budget × common interest ÷ 12", "example": "$612,000 × 1.75% = $10,710 ÷ 12 = $892.50" },
+      { "name": "Special assessment share", "formula": "Total assessment × common interest", "example": "$1,250,000 × 0.8% = $10,000 (not ÷ 100 units)" },
+      { "name": "Monthly co-op maintenance", "formula": "(Annual budget ÷ total shares) × apartment's shares ÷ 12", "example": "$2,400,000 ÷ 50,000 = $48; × 625 = $30,000 ÷ 12 = $2,500" },
+      { "name": "IRC §216 deduction", "formula": "(Apartment's shares ÷ total shares) × (co-op's real estate taxes + mortgage interest)", "example": "1% × ($900,000 + $600,000) = $15,000" },
+      { "name": "Flip tax", "formula": "Gross: price × rate. Profit: (sale price − purchase price) × rate", "example": "$1,150,000 × 2% = $23,000; ($900,000 − $600,000) × 15% = $45,000" },
+      { "name": "NYS transfer tax (co-op or condo)", "formula": "Price ÷ $500, rounded up, × $2 (seller)", "example": "$850,000 ÷ $500 = 1,700 × $2 = $3,400" },
+      { "name": "Largest share loan", "formula": "Price × (1 − minimum down-payment %)", "example": "$750,000 × 75% = $562,500" },
+      { "name": "Post-closing liquidity", "formula": "(Monthly maintenance + monthly loan payment) × months required", "example": "($2,100 + $3,400) × 24 = $132,000" },
+      { "name": "NYC non-eviction threshold", "formula": "Dwelling units × 51%, rounded up", "example": "80 × 0.51 = 40.8 → 41" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What the buyer owns: condo, co-op and HOA compared",
+      "intro": "Identical-looking homes can be different legal interests, and building style never decides the form. Ask what is conveyed, by what document, and who owns the land.",
+      "points": [
+        "**Condominium**: the owner holds a unit, usually in fee simple, plus an appurtenant (attached and inseparable) **undivided interest in the common elements** (structure, lobby, roof and normally the land). Each unit with its common interest is real property, deeded, mortgaged and taxed on its own (RPL §§339-g, 339-y). Units can be residential or commercial.",
+        "**Cooperative**: a corporation owns the building in fee or under a ground lease. The buyer purchases the **shares** allocated to an apartment and receives a **proprietary lease**, making the corporation the landlord. Shares are **personal property**: no deed and no recorded mortgage.",
+        "**HOA community**: each owner holds **fee title to a house and lot**; the association owns the common areas and charges assessments. Test: a deed to a lot with the association owning the green is an HOA; a unit plus a percentage of all the land, green included, is a condo."
+      ],
+      "table": {
+        "head": ["Feature", "Condo", "Co-op", "HOA"],
+        "rows": [
+          ["Interest owned", "Unit + undivided % of common elements", "Shares + proprietary lease", "House and lot; association owns common areas"],
+          ["Property type", "Real property", "Personal property", "Real property"],
+          ["Transfer", "Recorded deed", "Assignment of stock and lease", "Recorded deed"],
+          ["Financing", "Mortgage (recording tax)", "Share loan, UCC filing (no recording tax)", "Mortgage (recording tax)"],
+          ["Real estate taxes", "Own bill per unit", "One building bill, paid through maintenance", "Own bill per lot"],
+          ["Monthly charge", "Common charges", "Maintenance (includes building taxes and mortgage)", "Assessments"],
+          ["Governing body", "Board of managers", "Board of directors", "HOA board"],
+          ["Say over buyers", "Usually a right of first refusal only", "Board approval, usually with interview", "Usually none; covenants bind owners"],
+          ["Unpaid charges", "Statutory lien, foreclosure", "Lien on shares; landlord-tenant case", "Lien rights under the declaration"]
+        ]
+      }
+    },
+    {
+      "heading": "Condominium Act essentials (RPL Article 9-B)",
+      "intro": "A property becomes a condominium when its owner records a declaration submitting it to the Condominium Act.",
+      "points": [
+        "The **declaration** describes the land and building, each unit's designation, the common elements, each unit's **common interest** and permitted uses, and how it may be amended (§339-n); floor plans are filed with it. It outranks the bylaws, which outrank board-adopted house rules, so a rule that conflicts with the declaration fails.",
+        "The **bylaws**, annexed to the declaration, cover electing the **board of managers** (at least one-third of the seats expire each year), meetings and collecting **common charges**, and may regulate sales and leasing, subject to fair housing law (§§339-u, 339-v). Amending them takes at least **66⅔%** of owners by number and common interest (unless every unit is nonresidential), recorded as an amendment to the declaration.",
+        "**Common elements**, unless the declaration says otherwise, include the land, foundations, main walls, roof, halls, lobbies, stairs, elevators, basements, yards, parking and central systems (§339-e(3)); the space inside a unit's boundaries is the unit itself. A **limited common element**, such as a terrace reachable from one unit, is still owned by all; the declaration reserves its use.",
+        "The **common interest** is fixed by approximate fair value, floor area, equal percentages, or floor space adjusted for location and similar factors (§339-i(1)). It is permanent, changes only by amended declaration with consent of all affected owners, and can never be separated from the unit (§339-i(2)).",
+        "Common elements can't be **partitioned**, but a unit may be owned by the entirety, jointly or in common (§339-i(3)). The board has an irrevocable **right of access** to units for operations and emergency repairs (§339-i(5)).",
+        "Adding a material structure, excavating a new basement or cellar, or work that threatens soundness or safety, lowers the property's value or impairs an easement needs consent of **all affected unit owners**; a building permit is no substitute (§339-k).",
+        "A **unit deed** states the declaration's recording data, the unit designation, its use and its common interest (§339-o). Owners may inspect the books (§339-w), and rule-breakers can be sued for damages or an injunction (§339-j)."
+      ]
+    },
+    {
+      "heading": "Common charges, assessments and the condo lien",
+      "intro": "Condo expenses are shared by common interest, not by head count or amenity use.",
+      "points": [
+        "**Common charges** and special assessments are allocated by common interest (§339-m). The declaration and bylaws may authorize **special allocation** based on exclusive use (for example, roof-deck upkeep billed only to the penthouses that reach it) or to nonresidential units.",
+        "Waiving use of common elements or **abandoning** the unit never ends liability; subject to the bylaws, conveying the unit to the board stops charges accruing afterward (§339-x).",
+        "The board's **lien** for unpaid charges plus interest outranks every lien except real estate **tax liens**, the unpaid **first mortgage of record**, and certain government housing-agency mortgages; a second mortgage or home equity line (HELOC) is junior even if recorded first (§339-z).",
+        "The lien takes effect when a **notice of lien** is filed and lasts until paid or **6 years** from filing, whichever is sooner. The board may **foreclose** it like a mortgage or sue for a money judgment (§339-aa). Since Oct. 16, 2025 it must first give the owner at least **90 days' written notice**, in 14-point type, sent to the unit and any other address of record and stating the amount due.",
+        "A seller or buyer who obtains the board's **statement of unpaid common charges** isn't liable, and the unit isn't liened, for pre-sale charges above the stated amount (§339-z).",
+        "**Mechanic's liens** can't attach to common elements once the declaration is recorded. Unit work supports a lien only on the unit of an owner who ordered or consented to it (emergency repairs excepted); for board-ordered work, common charges are **trust funds** to pay the contractor (§339-l).",
+        "At each unit's first sale the sponsor's **blanket mortgage** must be satisfied or the unit released by recorded partial release (§339-r)."
+      ],
+      "example": {
+        "title": "Worked example: common interest, common charges and an assessment",
+        "steps": [
+          "Floor-area common interest: 1,400 ÷ 56,000 sq ft = **2.5%**.",
+          "Monthly charges: $612,000 budget × 1.75% = $10,710 a year ÷ 12 = **$892.50**.",
+          "Special assessment: $1,250,000 × 0.8% = **$10,000**.",
+          "Trap check: $1,250,000 ÷ 100 units = $12,500 ignores the percentages; $10,710 is annual, not monthly."
+        ]
+      }
+    },
+    {
+      "heading": "Boards, sponsors and the business judgment rule",
+      "intro": "A condo has a board of managers and a co-op a board of directors; both usually hire a managing agent.",
+      "points": [
+        "The **sponsor** (developer or converting owner) appoints the first board and **managing agent**; owners later elect the board under the bylaws. The managing agent collects charges, pays bills, supervises staff and keeps records for the board.",
+        "Attorney General (AG) regulations limit sponsor control. In a **non-eviction conversion**, the sponsor and other holders of unsold interests must give up voting control of the board by the earlier of **5 years** after the first closing or when unsold interests fall **below 50%**; in an eviction plan the limit is **2 years** (13 NYCRR 18.3, 23.3). New co-op plans also cap control at 2 years or 50% of units closed, and a new-construction condo plan must flag control past 2 years or the 50% mark as a special risk (13 NYCRR 21.3, 20.3).",
+        "**House rules** govern daily life (pets, noise, moves); an **alteration agreement** sets renovation conditions (approved plans, insured contractors, deposits). Board consent never replaces a building permit.",
+        "**Levandusky v. One Fifth Avenue Apartment Corp.** (1990): upholding a co-op's stop-work order over a moved steam riser, the Court of Appeals adopted the **business judgment rule**: courts defer to board decisions made in good faith, within the board's authority, for legitimate building purposes. It applies to condo boards and HOAs too.",
+        "Courts won't substitute their own choice (no lowest-bid rule). Review opens only if the owner shows the board exceeded its authority, lacked a legitimate purpose, or acted in bad faith (self-dealing, favoritism, discrimination).",
+        "Co-op boards may reject a purchaser, generally without stating a reason, but never on a **protected basis**: the federal classes plus NY additions such as age, marital status, military status, sexual orientation, gender identity and **lawful source of income**. A uniform financial standard is lawful. Some counties outside NYC (for example Westchester and Suffolk) add decision deadlines and written reasons. In NYC, Local Law 58 of 2026 (applications made from July 28, 2026, in co-ops of 10 or more units; HDFCs excluded) requires a written acknowledgment within **15 days** saying whether the package is complete and a decision within **45 days** after it is complete, but still no reasons.",
+        "A condo board usually has only a **right of first refusal** on resales: buy on the contract's terms or waive, usually in writing before closing. If the bylaws' deadline passes, the right lapses for that sale; the board can't reject the buyer or add conditions the governing documents don't authorize."
+      ]
+    },
+    {
+      "heading": "Co-op ownership, maintenance and due diligence",
+      "intro": "In a co-op the corporation owns the property and is the landlord; each shareholder is a tenant-owner.",
+      "points": [
+        "The corporation owns in **fee** or holds a **ground lease**. In a leasehold co-op, check the remaining term, rent resets and end-of-term rights: the corporation's rights end with the lease, and a reset can sharply raise maintenance.",
+        "The **stock certificate** shows the apartment's shares; the **proprietary lease** grants occupancy and governs maintenance, alterations, subletting, assignment and default.",
+        "**Maintenance** is the apartment's share (by shares) of operating costs, reserves, the building's **real estate taxes** and the **underlying mortgage**, which is why it usually exceeds condo common charges on a similar unit. Shares also allocate assessments and §216 deductions; the buyer's own share loan is paid separately.",
+        "The **underlying mortgage** is a lien on the whole building, so a corporate default (for example, after a big sponsor stops paying maintenance) endangers even shareholders who paid on time, though they aren't personally liable for it.",
+        "Due diligence: **financial statements** (reserves, surplus or deficit, arrears, commercial income), **board minutes** (assessment history, planned work, litigation), the underlying mortgage's rate and maturity, and sponsor holdings.",
+        "Unpaid maintenance: the co-op, as landlord, can bring a **summary nonpayment proceeding** (RPAPL Article 7) or terminate the lease, and holds a **lien on the shares**. If the proprietary lease allows, the late fee may reach **8%** of monthly maintenance (RPL §238-a; HDFC and Mitchell-Lama co-ops excepted)."
+      ],
+      "example": {
+        "title": "Worked example: maintenance and the tax portion",
+        "steps": [
+          "Per share: $2,400,000 budget ÷ 50,000 shares = $48 a year.",
+          "625 shares × $48 = $30,000 a year ÷ 12 = **$2,500 a month**.",
+          "Tax portion: $1,200,000 taxes ÷ 60,000 shares = $20; × 750 shares = $15,000 a year ÷ 12 = **$1,250 a month**.",
+          "Trap check: $30,000 and $15,000 are annual figures."
+        ]
+      }
+    },
+    {
+      "heading": "Buying a co-op: board package, interview and approval",
+      "intro": "A co-op resale needs two independent approvals: the lender's and the board's.",
+      "points": [
+        "Sequence: accepted offer; contract signed, with the down payment held in escrow by the seller's attorney; loan application; **board package** to the managing agent; completeness check; board review; **interview**; decision; closing, where stock and lease are transferred.",
+        "Board package: purchase application, **fully executed contract of sale**, financial statement with verification of assets, tax returns (3 years recommended), employment verification letter, personal and business references, signed credit-check authorization, and required disclosures such as lead paint. No title policy.",
+        "Boards test **debt-to-income** against building policy, the minimum **down payment** (often stricter than the lender's) and post-closing **liquidity**. Income may include wages, bonuses, commissions, business, rental and investment income, trusts, alimony and Social Security; liquid assets count most. Rejecting a buyer because lawful income comes from Social Security or a subsidy violates NY law.",
+        "Many boards meet monthly, so submit a complete package early and time the interview against contract dates and the **rate lock**. Prepare the buyer to know the package and disclose fully; never coach concealment.",
+        "A loan commitment doesn't bind the board. Standard NY co-op contracts are contingent on **board consent**; after a rejection either party may cancel and the down payment is returned. There is no appeal to the AG.",
+        "A co-op may charge purchase applicants managing-agent processing fees and actual-cost credit checks (the $20 cap is a rental rule; HDFC and Mitchell-Lama co-ops face tighter limits). Agency disclosure (RPL §443) and federal lead-paint disclosure (pre-1978) apply to co-op and condo sales; the Property Condition Disclosure Statement (PCDS) does not."
+      ],
+      "example": {
+        "title": "Worked example: board financing tests",
+        "steps": [
+          "Price $750,000 with 25% down required: down payment $187,500, so the largest loan = **$562,500** (a 75% loan-to-value cap).",
+          "Liquidity of 24 months of maintenance plus loan: ($2,100 + $3,400) × 24 = **$132,000**.",
+          "Trap check: $187,500 is the down payment; 12 months gives $66,000; the loan payment alone gives $81,600."
+        ]
+      }
+    },
+    {
+      "heading": "Share loans, recognition agreements and lien searches",
+      "intro": "Co-op shares are personal property, so financing follows Uniform Commercial Code (UCC) Article 9, not mortgage law.",
+      "points": [
+        "A **share loan** is secured by the shares and proprietary lease: the lender holds the **stock certificate**, a signed **stock power** and an **assignment of the proprietary lease**, and files a **UCC-1** financing statement. Nothing is recorded against the apartment.",
+        "The **recognition agreement** (lender, co-op and shareholder) acknowledges the lender's security interest and obliges the co-op to notify the lender of defaults and allow a cure before cancelling the lease; the co-op keeps its own lien for unpaid maintenance.",
+        "A **co-op lien search** checks UCC filings, judgments and tax liens against the seller and the shares, replacing the condo's title search and title insurance.",
+        "On default the lender holds a **nonjudicial UCC sale** of the shares and lease after notice (UCC §9-610), not a judicial foreclosure.",
+        "Share-loan interest counts as home mortgage interest for federal income tax, within the usual limits."
+      ],
+      "table": {
+        "head": ["Item", "Condo purchase", "Co-op purchase"],
+        "rows": [
+          ["Collateral", "Recorded mortgage", "Shares, stock power, assigned lease"],
+          ["Perfection", "County recording", "UCC-1 filing"],
+          ["Mortgage recording tax", "Yes", "No"],
+          ["Pre-closing search", "Title search and insurance", "Co-op lien search"],
+          ["Extra agreement", "None", "Recognition agreement"],
+          ["Default remedy", "Judicial foreclosure", "Nonjudicial UCC sale"]
+        ]
+      }
+    },
+    {
+      "heading": "Flip taxes, transfer taxes and closing costs",
+      "intro": "Keep private building charges separate from government taxes, and know who pays each.",
+      "points": [
+        "A **flip tax** is a transfer fee paid to the co-op on a sale, usually by the seller and often credited to reserves. Business Corporation Law §501(c) validates fees provided for in the proprietary lease, occupancy agreement or offering plan. It may be a percentage of price, a percentage of profit, an amount per share or a flat fee.",
+        "**NYS transfer tax** ($2 per $500 or fraction, seller) applies to co-op shares and condo deeds alike. In NYC the city's **Real Property Transfer Tax (RPTT)**, customarily seller-paid, also applies: 1% at or below $500,000 and 1.425% of the full price above $500,000.",
+        "The 1% **mansion tax** at $1,000,000 or more expressly covers condo units and co-op apartments; the buyer pays.",
+        "Condo buyers pay title insurance, **mortgage recording tax** and recording fees; co-op buyers pay the **lien search**, recognition agreement, UCC and managing-agent fees, but no mortgage recording tax. Co-op sellers typically add the **flip tax** and transfer fees to the usual commission, legal fees and transfer taxes.",
+        "Sponsor contracts often shift costs to buyers (the sponsor's transfer taxes and attorney fees, a working-capital contribution); read the plan's closing-cost section.",
+        "Condo title checklist: recorded declaration, release from any blanket mortgage, **statement of unpaid common charges** and the board's **right-of-first-refusal waiver**."
+      ],
+      "example": {
+        "title": "Worked example: flip taxes and the NYS transfer tax",
+        "steps": [
+          "Gross-price flip tax: $1,150,000 × 2% = **$23,000**.",
+          "Profit-based flip tax: ($900,000 − $600,000) × 15% = **$45,000**; 15% of the price ($135,000) is the trap.",
+          "NYS transfer tax on an $850,000 co-op sale: 1,700 × $2 = **$3,400**, paid by the seller.",
+          "No mansion tax at $850,000; at exactly $1,000,000 the buyer owes $10,000."
+        ]
+      }
+    },
+    {
+      "heading": "Income taxes: IRC §216 and condo owners",
+      "intro": "Federal law treats a co-op shareholder like a homeowner, but only for the tax and interest pieces of maintenance.",
+      "points": [
+        "Under **IRC §216**, a **tenant-stockholder** deducts a proportionate share (by shares) of the co-op's **real estate taxes** and **mortgage interest**. Operating costs, reserves and mortgage **principal** aren't deductible.",
+        "The co-op must meet one test each year (§216(b)(1)(D), as amended in 2007): **80%+ of gross income** from tenant-stockholders, **80%+ of square footage** for their residential use, or **90%+ of expenditures** for their benefit.",
+        "Before 2007 only the income test existed (the **80/20 rule**), so store rents could disqualify a building, which drove many condops. The income test wasn't repealed; alternatives were added.",
+        "Shareholders also deduct their own **share-loan interest**. **Condo owners** deduct their own unit's taxes and mortgage interest; common charges on a home aren't deductible. Normal itemizing limits apply, including the state-and-local-tax cap.",
+        "§216 is a federal test: an AG-accepted plan doesn't make a co-op qualify."
+      ],
+      "example": {
+        "title": "Worked example: §216 deduction",
+        "steps": [
+          "400 of 40,000 shares = 1%.",
+          "The co-op paid $900,000 taxes, $600,000 interest, $500,000 principal and $1,000,000 operating costs.",
+          "Deductible: 1% × ($900,000 + $600,000) = **$15,000**.",
+          "Trap check: adding principal gives $20,000; taxes alone give $9,000."
+        ]
+      }
+    },
+    {
+      "heading": "Subletting, primary residence and unsold shares",
+      "intro": "Check sublet rules and the seller's share status before marketing a co-op as a rental investment.",
+      "points": [
+        "**RPL §226-b**, which lets tenants in buildings of 4 or more units request a sublet, expressly excludes **proprietary leases**. Co-op sublet rights come only from the lease, bylaws and house rules; many co-ops require primary residence and limit sublets.",
+        "An approved sublet may carry time limits and fees, and the shareholder stays liable for maintenance and the subtenant's conduct.",
+        "**Unsold shares** are those not bought by tenants or outsiders when the co-op is formed, held by the sponsor or a **holder of unsold shares** (HUS) it designates. Plans typically let them sell and sublet without board approval, and the sponsor guarantees their maintenance.",
+        "Shares stop being unsold once sold to a buyer for occupancy (or once the holder or a relative moves in). A resale investor is not a holder of unsold shares.",
+        "Offering plans warn that lenders may refuse financing where the sponsor or HUS keep more than 49% of units, and a sponsor that stops paying maintenance strains the budget.",
+        "Condo owners can usually lease subject to the bylaws (notice, minimum terms, sometimes a board right of first refusal)."
+      ],
+      "table": {
+        "head": ["Share status", "Held by", "Board approval to sell or sublet?"],
+        "rows": [
+          ["Sponsor shares", "Sponsor", "Usually not required (offering plan)"],
+          ["Unsold shares held by a HUS", "Sponsor's designee", "Usually not required (offering plan)"],
+          ["Sold shares", "Ordinary shareholders", "Required (lease and bylaws)"]
+        ]
+      }
+    },
+    {
+      "heading": "Offering plans, the Martin Act and CPS-1",
+      "intro": "Unless the AG grants an exemption, sponsors may sell condo, co-op, HOA and timeshare interests to the public only through an offering plan filed with the Attorney General.",
+      "points": [
+        "Under the **Martin Act** (General Business Law (GBL) Article 23-A, §352-e), no public offering may be made until the **offering plan** is **accepted for filing** by the AG's **Real Estate Finance Bureau**; DOS doesn't review plans. An owner's resale needs no plan.",
+        "Acceptance is a disclosure review, not an endorsement of price, value or quality; claiming otherwise is a misrepresentation.",
+        "Read the **special risks**, the description of property (the sponsor owes what the plan describes; an amenity shown only in a brochure or rendering isn't a plan obligation), **floor plans** and square footage, the budget, real estate tax projections and abatement phase-outs (**tax validation**), fees shifted to buyers, and the estimated **closing date** with rights if it slips.",
+        "**Price increases** and other changes require filed **amendments**; new prices bind only new contracts, and a material adverse change can give purchasers a right to rescind. Deposits are trust funds held in escrow (GBL §352-h).",
+        "**Red herring** = preliminary plan under AG review, named for its red legend (in a conversion, tenants get a copy). **Black book** = accepted plan. The sponsor then declares the plan **effective** by amendment, and closings follow.",
+        "**CPS-1**: for new, vacant or nonresidential projects, once the AG accepts the application the sponsor may run AG-cleared ads with a required legend and collect **nonbinding indications of interest** for **12 months**, extendable once an offering plan has been submitted (Spada's 120 days plus 60 is outdated). Occupied rentals use **CPS-11**.",
+        "CPS-1 allows **no deposits** and **no reservations, binding or nonbinding**; refundability or escrow doesn't cure it. The syllabus and Spada define a **letter of intent** as a written offer to reserve a specific unit, nonbinding as to purchaser or price; before plan acceptance such a letter can only record nonbinding interest, never reserve a unit or carry a deposit.",
+        "New construction: the sponsor must have a temporary or permanent **certificate of occupancy** before closing a unit, and lenders require one too. Sponsors may restrict **flipping** (resale or rental limits, buyback rights, extra closing costs); a **simultaneous closing** isn't fraud in itself, but hiding it from a lender or inflating the price can be. Units in buildings of 5 stories or less carry the **housing merchant implied warranty** (GBL §777-a: 1 year workmanship, 2 years plumbing, electrical, heating, cooling and ventilation, 6 years material structural defects) unless a compliant limited warranty is substituted."
+      ],
+      "table": {
+        "head": ["Stage", "What the sponsor may do"],
+        "rows": [
+          ["CPS-1 application accepted", "AG-cleared ads; nonbinding interest only"],
+          ["Red herring submitted", "Circulate the preliminary plan; no sales or deposits"],
+          ["Plan accepted (black book)", "Sign purchase agreements; deposits held in trust"],
+          ["Plan declared effective", "Proceed to closings"]
+        ]
+      }
+    },
+    {
+      "heading": "Conversions: eviction vs non-eviction plans",
+      "intro": "Converting an occupied rental building adds tenant protections: GBL §352-eeee in New York City, GBL §352-eee in Nassau, Westchester and Rockland municipalities that opt in, and elsewhere GBL §352-e(2-a), which protects eligible senior and disabled tenants.",
+      "points": [
+        "**Non-eviction plan**: non-buyers can't be evicted for not buying or because their lease ends, only for ordinary cause such as nonpayment. A new owner can't evict them to move in; rent-regulated tenants keep regulation and renewals; others are protected from unconscionable increases.",
+        "**Eviction plan**: other non-buyers can eventually be removed; under §352-eee, not before the later of lease expiration or **3 years** after the plan is declared effective.",
+        "**NYC since the 2019 Housing Stability and Tenant Protection Act (HSTPA)**: no eviction plans for new submissions, and non-eviction plans need purchase agreements for **51%** of units from **bona fide tenants in occupancy** on the AG acceptance date. Outside buyers and investors don't count. (In a building of 5 or fewer units, 15% suffices, counting outside buyers who will occupy, if the sponsor offers the unit it or an immediate family member has occupied for at least 2 years.)",
+        "**§352-eee suburbs**: non-eviction plans need only **15%** of bona fide tenants in occupancy, and eviction plans remain available with the double threshold shown in the table.",
+        "**Eligible senior citizens** (62+, plus spouses) and **eligible disabled persons** can never be evicted for not buying, even under an eviction plan, and are shielded from unconscionable rent increases. NYC requires a written election of that status within 60 days.",
+        "In NYC plans and §352-eee eviction plans, tenants in occupancy get a **90-day exclusive right** to buy after acceptance, then 6 months to match any outside contract within 15 days of notice. Sponsors usually offer an **insider price** below the outsider price.",
+        "A plan is void if not effective within **15 months** of acceptance (NYC) or **12 months** (§352-eee). Lease waivers of these rights are void, and harassment such as cutting services is unlawful."
+      ],
+      "table": {
+        "head": ["Rule", "NYC (§352-eeee)", "Opt-in suburbs (§352-eee)"],
+        "rows": [
+          ["Eviction plans", "Not for plans submitted since 2019", "Allowed: 51% excluding + 35% including seniors and disabled"],
+          ["Non-eviction threshold", "51% of units, bought by tenants in occupancy", "15% of bona fide tenants"],
+          ["Plan lapses after", "15 months", "12 months"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: the NYC 51% count",
+        "steps": [
+          "80 apartments, all occupied by bona fide tenants when the AG accepts the plan.",
+          "80 × 0.51 = 40.8 → **41** purchase agreements (40 is only 50%).",
+          "Sales of vacant units to outsiders add nothing.",
+          "Trap check: 12 (80 × 15%) is the old NYC rule, still the §352-eee non-eviction figure."
+        ]
+      }
+    },
+    {
+      "heading": "Condops and homeowners' associations",
+      "points": [
+        "A **condop** is a building submitted to the Condominium Act and split into at least two units: typically a residential unit owned by a co-op corporation and commercial units owned by others, often the sponsor.",
+        "Condop residential buyers get **shares and a proprietary lease**, usually with board approval, and use share loans (no mortgage recording tax) while still paying transfer taxes and any mansion tax. The commercial unit is condo real property sold or mortgaged separately.",
+        "Why condops exist: walling off store income protected the co-op's §216 **80/20** income test, and the sponsor can keep or sell the commercial space. A co-op with relaxed sublet rules is not a condop.",
+        "**HOA**: owners hold fee title to homes and lots; the association owns the common areas and enforces the recorded **covenants, conditions and restrictions (CC&Rs)**, which run with the land (for example, a fence ban). Private covenants are separate from zoning.",
+        "HOA assessment and lien rights come from the recorded declaration and bylaws, not the Condominium Act lien; since Oct. 16, 2025 an incorporated HOA must also give **90 days' notice** before foreclosing its lien (RPAPL §2010). HOA offerings to the public are also filed with the AG."
+      ]
+    },
+    {
+      "heading": "Insurance for condos and co-ops",
+      "intro": "Two layers of coverage: the building's master policy and each owner's own policy.",
+      "points": [
+        "The **condo board** insures the building when the declaration, bylaws or a majority of owners require it, notifies owners, and pays premiums as a **common expense** (§339-bb). A **co-op corporation** insures its whole building through maintenance.",
+        "A **bare walls** master policy skips unit interiors, so the owner insures cabinets, fixtures and finishes; broader policies may cover original fixtures but rarely upgrades.",
+        "**HO-6** (unit-owners form) is the condo owner's policy: improvements, personal property, loss of use, liability and **loss assessment** coverage, which pays the owner's share of an assessment from a covered loss, such as a master-policy deductible, up to an often-low limit.",
+        "The DOS syllabus and DFS list **HO-4** as the tenants or cooperative owners form; many insurers write co-op shareholders on HO-6. Exam default: renter or co-op owner = HO-4, condo owner = HO-6.",
+        "Injuries inside a unit fall mainly on the owner's liability coverage; the master policy targets common areas. Standard forms exclude flood."
+      ],
+      "table": {
+        "head": ["Policy", "Bought by", "Covers"],
+        "rows": [
+          ["Condo master policy", "Board, as a common expense", "Structure and common elements"],
+          ["Co-op building policy", "Co-op corporation", "Entire building"],
+          ["HO-6", "Condo owner (some insurers also use it for co-op shareholders)", "Improvements, contents, liability, loss assessment"],
+          ["HO-4", "Renter (DOS also lists co-op owners)", "Contents, loss of use, liability; no building"]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NY Real Property Law Article 9-B (Condominium Act), §§339-e to 339-bb (§339-aa as amended by L.2025, ch. 433, eff. Oct. 16, 2025); RPAPL §2010",
+    "NY General Business Law Article 23-A (Martin Act), §§352-e (incl. subd. 2-a), 352-h, 352-eee, 352-eeee",
+    "NY Attorney General Cooperative Policy Statement #1 (eff. Nov. 5, 2025, a filing-fee update; rules otherwise unchanged since 2018) and CPS-11; 13 NYCRR Parts 18, 20, 21 and 23",
+    "26 U.S.C. §216, as amended in 2007",
+    "NY Business Corporation Law §501(c)",
+    "NY Real Property Law §§226-b, 238-a, 443 and Article 14 (PCDS)",
+    "Levandusky v. One Fifth Ave. Apt. Corp., 75 N.Y.2d 530 (1990)",
+    "NY Tax Law §§1402, 1402-a; NY UCC §9-610; NY Executive Law §296; GBL §777-a",
+    "NYC Local Law 58 of 2026 (Admin. Code ch. 26-37); Westchester County Fair Housing Law co-op disclosure rules",
+    "NYS DOS 77-hour salesperson syllabus, Subject 15 (Condominiums and Cooperatives) and the insurance unit (HO-4/HO-6)"
+  ]
+}

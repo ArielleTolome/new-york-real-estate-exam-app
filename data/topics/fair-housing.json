@@ -1052,15 +1052,15 @@
   {
     "id": "fair-housing-b005",
     "topic": "fair-housing",
-    "q": "A Bronx apartment rents for $2,400 a month. The applicant's CityFHEPS voucher pays $1,800, and she pays the remaining $600. The landlord requires annual income of 40 times the monthly rent. Under NYC Commission on Human Rights guidance, what is the most annual income the landlord may require?",
+    "q": "A Bronx apartment rents for $2,400 a month. The applicant's CityFHEPS voucher pays $1,800 and she pays the remaining $600; the program calculates her share from her income. The landlord normally requires annual income of 40 times the monthly rent. Under NYC Commission on Human Rights guidance, what income requirement may the landlord impose on her?",
     "options": [
-      "$96,000",
-      "$24,000",
-      "$72,000",
-      "$7,200"
+      "$96,000, which is 40 times the full rent",
+      "$24,000, which is 40 times her $600 share",
+      "$72,000, which is 40 times the voucher's share",
+      "None, because the voucher sets her share based on her income"
     ],
-    "answer": 1,
-    "explanation": "An income test may be applied only to the tenant's share: $600 × 40 = $24,000. $96,000 wrongly uses the full rent ($2,400 × 40), $72,000 uses the voucher's share ($1,800 × 40), and $7,200 is just a year of her share ($600 × 12).",
+    "answer": 3,
+    "explanation": "When a voucher such as CityFHEPS or Section 8 calculates the tenant's portion from her income, the Commission treats any additional income requirement as source-of-income discrimination. Applying a 40x test to the full rent ($96,000), to her share ($24,000), or to the voucher's share ($72,000) is unlawful screening.",
     "citation": "NYC Human Rights Law (lawful source of income); NYC Commission on Human Rights source-of-income guidance"
   },
   {

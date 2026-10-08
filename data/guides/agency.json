@@ -1,0 +1,746 @@
+{
+  "topic": "agency",
+  "title": "Law of Agency",
+  "overview": "This chapter answers the question behind every agency problem: whose interests must this licensee protect? It covers how agency is created and ended, the six fiduciary duties (OLD CAR), duties to customers, and every New York role, from seller's and buyer's agents to subagents, broker's agents, dual agents and designated sales agents. It also covers RPL §443 disclosure forms and timing, §443-a stigma, misrepresentation, vicarious liability, compensation, antitrust and independent-contractor status. Law of Agency is the largest subject in the 77-hour course (11 hours), so expect many scenario questions; course hours are not official exam weights.",
+  "cram": {
+    "numbers": [
+      {
+        "value": "6",
+        "label": "Fiduciary duties owed to a client (OLD CAR)"
+      },
+      {
+        "value": "3 years",
+        "label": "Keep copies of signed §443 acknowledgments and sworn or affirmed refusal declarations"
+      },
+      {
+        "value": "1–4 family",
+        "label": "§443 scope, plus condo and co-op units in a building of any size; not vacant land"
+      },
+      {
+        "value": "2 forms",
+        "label": "DOS-1736 (buyer and seller) and DOS-1735 (landlord and tenant)"
+      },
+      {
+        "value": "Jan 1, 2011",
+        "label": "§443 amendments: advance informed consent; condo/co-op units in any size building covered"
+      },
+      {
+        "value": "3 types",
+        "label": "Agency by authority, most to least: universal, general, special"
+      },
+      {
+        "value": "$2,000",
+        "label": "Maximum DOS fine, in lieu of suspension or revocation (RPL §441-c)"
+      },
+      {
+        "value": "4",
+        "label": "Antitrust violations: price fixing, group boycott, market allocation, tie-in"
+      },
+      {
+        "value": "10 yrs / $1M / $100M",
+        "label": "Sherman Act maximums: prison and fine for individuals; fine for corporations"
+      },
+      {
+        "value": "12–15 months",
+        "label": "NY independent-contractor contract must have been signed within this window"
+      },
+      {
+        "value": "1 hour (2 first term)",
+        "label": "Agency CE per renewal, inside the 22.5-hour total"
+      },
+      {
+        "value": "11 hours",
+        "label": "Law of Agency share of the 77-hour salesperson course"
+      },
+      {
+        "value": "June 11, 2025",
+        "label": "NYC FARE Act effective: a landlord's broker fee can't be passed to the tenant"
+      }
+    ],
+    "mustKnow": [
+      "**Client** = the represented principal, owed fiduciary duties; **customer** = a party served but not represented.",
+      "Agency sits at the **broker (firm) level**: salespersons act for the broker, and listings belong to the broker.",
+      "**Who pays does not decide who is represented**; the agency agreement and disclosed role do.",
+      "**OLD CAR** duties (obedience, loyalty, disclosure, confidentiality, accounting, reasonable care) are owed to the client only.",
+      "**Obedience** covers lawful instructions only: refuse to discriminate, lie or hide defects.",
+      "**Confidentiality** covers the client's private information (price limits, motivation, finances) and **survives termination**, but never covers a known defect.",
+      "Customers get **honesty, fair dealing, reasonable care** and disclosure of known material facts; 'not my client' never excuses a lie.",
+      "Seller's agent to buyer: known facts affecting **value or desirability**. Buyer's agent to seller: known facts affecting the buyer's **ability or willingness to perform**.",
+      "**Universal > general > special**: a listing broker is a **special agent** who cannot sign the sale contract without separate authority; a property manager is a **general agent**.",
+      "Agency arises by **express** agreement, **implied** conduct, **ratification** (later approval) or **estoppel** (reliance on apparent authority).",
+      "**Gratuitous agency** (no fee) carries full fiduciary duties.",
+      "**Puffing** is opinion; a false verifiable statement is **misrepresentation**; knowing falsity or **active concealment** plus reliance and damage is **fraud**.",
+      "Principals can be **vicariously liable** for agents and **subagents** acting within the agency; brokers can be civilly liable for their salespersons.",
+      "No **vicarious liability for a broker's agent**: the client can't direct it; the engaging agent does and is liable.",
+      "A **broker's agent** always works for a **different firm** from the agent who engaged it.",
+      "A **subagent** owes the seller full duties; a buyer working only with one is an **unrepresented customer**.",
+      "There is no **blanket unilateral offer of subagency** anymore; sellers may reject subagency to limit liability.",
+      "**Dual agency** needs **informed written consent of both** parties; both lose **undivided loyalty**, not confidentiality.",
+      "**Advance informed consent** to dual agency (with or without designated sales agents) is an optional box on the form.",
+      "**Designated sales agents** (salespersons or associate brokers, never the supervising broker) advocate, but the **broker stays a dual agent**.",
+      "**Undisclosed dual agency** means DOS discipline, possible loss of commission and damages; a smooth closing doesn't cure it.",
+      "**§175.7**: make your role clear; pay from more than one party needs the **broker's client's** full knowledge and consent.",
+      "**§443** covers **1–4 family** homes and **condo/co-op units** (any building size), sales and rentals; not vacant land or commercial property.",
+      "Give the form **before the listing agreement**, **before the buyer or tenant agency agreement**, and to the other side at **first substantive contact**.",
+      "**First substantive contact** starts when talk moves past basic listing facts to the consumer's needs, finances or motivation, or to seeing or offering on a specific property; greetings, a register signature, or an availability-and-asking-price question don't count.",
+      "The form says **'THIS IS NOT A CONTRACT'**: signing acknowledges receipt only.",
+      "Give a **copy** and keep one **3 years**; a refusal gets a **written declaration under oath or affirmation**, also kept 3 years.",
+      "**§443-a**: HIV/AIDS, a death, or a felony at the property is **not a material fact**; silence brings no lawsuit and no discipline.",
+      "§443-a **written inquiry** goes through the seller's agent; the **seller decides** whether to answer; nobody may lie.",
+      "§443-a covers **sales and leases** regardless of units and **preempts** local law; physical damage from a crime is not stigma.",
+      "Termination: performance, expiration, mutual agreement, **revocation**, **renunciation**, or **operation of law** (death, incapacity, bankruptcy, destruction, license loss).",
+      "Fees are **always negotiable**; no price fixing, boycotts, market allocation or tie-ins; **net listings** and **automatic extensions** of exclusive listings are banned."
+    ],
+    "traps": [
+      {
+        "trap": "Whoever pays the commission is the client.",
+        "truth": "Representation comes from the agreement and disclosed role; a buyer's agent paid from the seller's proceeds still represents only the buyer."
+      },
+      {
+        "trap": "Signing the disclosure form hires the broker.",
+        "truth": "The form says 'THIS IS NOT A CONTRACT'; the signature only acknowledges receipt."
+      },
+      {
+        "trap": "Designated sales agents end the dual agency.",
+        "truth": "In New York the broker stays a dual agent and designees cannot give undivided loyalty, whatever other states do."
+      },
+      {
+        "trap": "Consenting to dual agency waives confidentiality.",
+        "truth": "Only undivided loyalty is given up; a dual agent never reveals either side's price or other confidences."
+      },
+      {
+        "trap": "Confidentiality lets the agent hide a leak the seller wants kept quiet.",
+        "truth": "Confidentiality covers bargaining information, not defects; an instruction to conceal is unlawful."
+      },
+      {
+        "trap": "Any licensee helping the listing agent is a broker's agent.",
+        "truth": "A broker's agent works for a different firm; an in-house salesperson acts within the seller's agency."
+      },
+      {
+        "trap": "The seller is liable for a broker's agent just as for a subagent.",
+        "truth": "Under §443 the engaging agent, not the seller, is liable for a broker's agent; the seller can be liable for a subagent."
+      },
+      {
+        "trap": "If a buyer won't sign the acknowledgment, the agent must stop working with her.",
+        "truth": "Make a written declaration of the refusal under oath or affirmation, keep it 3 years, and continue."
+      },
+      {
+        "trap": "§443 covers all residential property.",
+        "truth": "Only 1–4 family homes and condo/co-op units; an 8-unit rental building and vacant land are out, though the fair housing notice still applies."
+      },
+      {
+        "trap": "A death isn't material, so the agent may say no one died there.",
+        "truth": "§443-a removes the duty to volunteer, not the duty of honesty; point the buyer to the written inquiry."
+      },
+      {
+        "trap": "§443-a, like §443, covers only 1–4 family sales.",
+        "truth": "§443-a covers property offered for sale or lease, regardless of the number of units."
+      },
+      {
+        "trap": "§175.7 requires every party's consent before a broker is paid by both sides.",
+        "truth": "The current rule requires the broker's client's full knowledge and consent; 'all parties' is old textbook wording."
+      },
+      {
+        "trap": "The listing moves with the salesperson who took it.",
+        "truth": "It is the broker's contract and stays with the broker."
+      },
+      {
+        "trap": "A listing broker can sign the sale contract for the seller.",
+        "truth": "A special agent cannot bind the seller without separate authority."
+      },
+      {
+        "trap": "A no-fee favor creates no fiduciary duty.",
+        "truth": "Gratuitous agency is still agency; consent, not payment, creates the duties."
+      }
+    ],
+    "mnemonics": [
+      {
+        "name": "OLD CAR",
+        "meaning": "Obedience, Loyalty, Disclosure, Confidentiality, Accounting, Reasonable care"
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Salesperson's share of a commission",
+        "formula": "Sale price × commission rate × firm's side share × salesperson's split",
+        "example": "$500,000 × 5% × 50% × 60% = $7,500"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Agency basics: parties, the firm, and authority",
+      "intro": "Start every agency question by naming the client, then ask what the licensee owes everyone else.",
+      "points": [
+        "**Agency** is a relationship in which a **principal** authorizes an **agent** to act on its behalf and the agent accepts. It is **fiduciary**: the client's interests come before everyone else's, including the agent's own.",
+        "A **client** is the represented principal and is owed fiduciary duties. A **customer** is a party the agent works with but does not represent, such as an unrepresented buyer viewing a listing. A **third party** is anyone outside the relationship.",
+        "Under RPL §443 an **agent** is a licensed broker, associate broker or salesperson acting in a fiduciary capacity. Agency is created at the **firm level**: listings and buyer agreements are the broker's contracts, and salespersons act for the broker as subagents of its clients.",
+        "**Brokerage is not the same as agency.** Brokerage is the licensed business; agency is representation. MLS membership, cooperating on a deal, helping a customer or paying the fee does not decide whom an agent represents.",
+        "A salesperson may be paid for licensed work **only by her sponsoring broker** (RPL §442-a), never directly by a buyer, seller or customer.",
+        "A **power of attorney** is only as broad as its terms: one limited to selling one condo creates special agency, not universal agency.",
+        "The principal owes the agent **cooperation**, agreed **compensation**, and **indemnification** if the agent is held liable because the principal hid facts or lied."
+      ],
+      "table": {
+        "head": [
+          "Type",
+          "Authority",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Universal",
+            "Anything the principal could lawfully delegate",
+            "All-purpose power of attorney (rare in brokerage)"
+          ],
+          [
+            "General",
+            "Ongoing authority over a range of matters; may bind the principal in that area",
+            "Property manager; salesperson working for the broker"
+          ],
+          [
+            "Special",
+            "One task or transaction; binds the principal only as specifically authorized",
+            "Listing broker hired to find a ready, willing and able buyer; one-sale power of attorney"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How agency is created",
+      "intro": "Agency rests on consent, which can be stated, inferred from conduct, given after the fact, or imposed by law to protect someone who relied on it.",
+      "points": [
+        "**Express agency**: created by words, written or oral, such as a signed listing or buyer agency agreement. Writing is strongly preferred because it proves duties, term and fee.",
+        "**Implied agency**: inferred from conduct. A seller's agent who coaches an open-house visitor on bidding and inspection leverage can create an implied buyer agency, which on top of the listing is **undisclosed dual agency**.",
+        "**Ratification**: the principal approves an unauthorized act after the fact, as when the seller signs a contract including the dining set the agent promised without authority.",
+        "**Estoppel** (ostensible or apparent authority): the principal's conduct or silence leads a third party to reasonably believe an agency exists, so the principal cannot deny it. Ratification turns on later approval and estoppel on reliance; neither needs a signed writing.",
+        "**Gratuitous agency**: acting without a fee still creates full fiduciary duties.",
+        "Factual help to a customer, such as filling in an offer form or describing the home, does not create buyer agency; advocacy and negotiating advice can. Explain your role early."
+      ],
+      "table": {
+        "head": [
+          "Method",
+          "How it arises",
+          "Exam clue"
+        ],
+        "rows": [
+          [
+            "Express",
+            "Stated agreement, written or oral",
+            "Signed listing agreement"
+          ],
+          [
+            "Implied",
+            "Conduct",
+            "Agent acts as the consumer's advocate"
+          ],
+          [
+            "Ratification",
+            "Later approval of an unauthorized act",
+            "'After the fact'"
+          ],
+          [
+            "Estoppel",
+            "Third party relies on the principal's conduct or silence",
+            "Owner never corrects a false claim of agency"
+          ],
+          [
+            "Gratuitous",
+            "Consent without pay",
+            "'As a favor, no fee'"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Fiduciary duties: OLD CAR",
+      "intro": "The DOS forms list a client's six duties as reasonable care, undivided loyalty, confidentiality, full disclosure, obedience and duty to account. OLD CAR puts them in memorable order.",
+      "points": [
+        "**Obedience**: follow lawful instructions (showing hours, notice before showings, no lawn sign). It never covers unlawful acts: refusing families with children is familial-status discrimination, and calling a 25-year-old roof new is misrepresentation. Refuse, and withdraw if the client insists.",
+        "**Loyalty**: the client's interests come before the agent's commission. Breaches include undisclosed **self-dealing** (buying the listing through a spouse or LLC) and steering a buyer toward homes paying a higher fee.",
+        "**Disclosure**: tell the client every material fact, including every offer (the client decides whether to reject it) and the agent's conflicts. A buyer's agent shares facts that help the buyer, such as public records showing the seller is in foreclosure.",
+        "**Confidentiality**: protect the client's price limits, motivation, deadlines and finances, even after the agency ends. It never covers hiding a material defect.",
+        "**Accounting** (accountability): safeguard and account for money, keys and documents; deposit escrow promptly and never **commingle** it with business funds. It also survives termination.",
+        "**Reasonable care**: act competently, verify what you say, and refer legal, tax and engineering questions (such as an easement's effect) to professionals.",
+        "Spot the duty from the facts: no instruction means it isn't obedience; a withheld offer is disclosure; leaked information is confidentiality; money or keys is accounting."
+      ],
+      "table": {
+        "head": [
+          "Duty",
+          "Classic breach"
+        ],
+        "rows": [
+          [
+            "Obedience",
+            "Showing on 1 hour's notice when the seller required 24"
+          ],
+          [
+            "Loyalty",
+            "Secretly buying the listing through a spouse's LLC"
+          ],
+          [
+            "Disclosure",
+            "Not presenting a lowball offer"
+          ],
+          [
+            "Confidentiality",
+            "Telling the listing agent the buyer is preapproved for more"
+          ],
+          [
+            "Accounting",
+            "Deposit left in a drawer, then put in the operating account"
+          ],
+          [
+            "Reasonable care",
+            "Assuring a buyer an easement won't block a garage"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Duties to customers: honesty without advocacy",
+      "intro": "Everyone in the transaction is owed honesty. The DOS forms spell out what each agent owes the party it does not represent.",
+      "points": [
+        "A **seller's or landlord's agent** dealing with the other side must use reasonable skill and care, deal honestly, fairly and in good faith, and disclose known facts **materially affecting value or desirability**, except as law provides.",
+        "A **buyer's or tenant's agent** owes the seller the same care and honesty and discloses known facts materially affecting the **buyer's ability and/or willingness to perform**, consistent with its duties to the buyer.",
+        "A **material fact** would likely change a reasonable party's decision: a leaking basement, failed septic, flood history. A known defect must be disclosed however the agent learned of it, even from an earlier buyer's inspection.",
+        "Bargaining information is not a property fact owed to the other side. The seller's price floor, reason for moving and deadline, the landlord's minimum rent, and the buyer's top price all stay confidential.",
+        "Decline; never lie. If you don't know (has the septic ever failed?), say so and find out. A client's instruction to lie is no defense, and 'she's only a customer' never excuses a false flood-zone answer."
+      ],
+      "example": {
+        "title": "Worked example: protecting the price without lying",
+        "steps": [
+          "Facts: A buyer customer asks the listing agent, 'Will the seller take $20,000 less?' The seller has privately said yes.",
+          "Step 1: The seller is the client; the buyer is owed honesty, not confidentiality.",
+          "Step 2: The price floor is confidential bargaining information, not a property fact.",
+          "Step 3: 'Yes' breaches confidentiality; 'Not a penny less' is a misrepresentation.",
+          "Answer: 'I can't share the seller's position; submit your best offer and I'll present it.'"
+        ]
+      }
+    },
+    {
+      "heading": "Misrepresentation, puffing, and fraud",
+      "intro": "**Misrepresentation** is a false statement or concealment of a material fact that someone relies on. The agent's state of mind decides how serious it is.",
+      "points": [
+        "**Puffing** is exaggerated opinion a reasonable buyer wouldn't treat as fact ('best light on the block'). Anything verifiable (taxes, zoning, roof age, square footage, sewer, flood zone, other offers) is a statement of fact.",
+        "**Negligent misrepresentation**: the agent should have known, such as posting the seller's 2,400 square foot guess when records show 1,850. Repeating the seller's figure is no defense when the agent had reason to check.",
+        "**Fraud** needs a knowingly false statement or concealment of a material fact, made to induce reliance, justifiable reliance, and damage. **Active concealment**, like painting over a leak stain, is fraud without words. Staging may not hide a known defect.",
+        "**Self-dealing** requires disclosure first: a broker may not buy a listed property, directly or indirectly, without making his position clear to the owner (19 NYCRR §175.4), and must disclose his interest when buying for a client or selling his own property (§§175.5–175.6).",
+        "Consequences: damages, **rescission**, lost commission, and DOS discipline under RPL §441-c (reprimand, fine up to **$2,000**, suspension or revocation)."
+      ],
+      "table": {
+        "head": [
+          "Type",
+          "State of mind",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Puffing",
+            "Opinion",
+            "'Stunning views'"
+          ],
+          [
+            "Innocent",
+            "Reasonably believed true",
+            "Repeating a survey that proves wrong"
+          ],
+          [
+            "Negligent",
+            "Should have known",
+            "Unchecked square footage"
+          ],
+          [
+            "Fraud",
+            "Knew it was false",
+            "'We have three other offers'"
+          ],
+          [
+            "Concealment",
+            "Knowingly hides a defect",
+            "Painting over a leak stain"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Vicarious liability",
+      "intro": "**Vicarious liability** makes a person answer for wrongs committed by those acting with authority on that person's behalf.",
+      "points": [
+        "A **principal is vicariously liable** for its agents and **subagents** acting within the agency: a seller can be sued over a cooperating subagent's false school-district claim.",
+        "A sponsoring **broker** can be civilly liable for a salesperson's acts on firm business, in addition to the salesperson's own liability.",
+        "License discipline is narrower: under RPL §442-c, a salesperson's violation can cost the **broker's license** only if the broker had **actual knowledge** or **kept the benefits** after notice of the misconduct. The broker's own failure to supervise (§175.21) is a separate violation.",
+        "**Broker's agent rule (§443)**: the seller or buyer has no direct relationship with a broker's agent and cannot instruct it, so neither has **vicarious liability** for its acts; the listing or buyer's agent that engaged and directs it is liable. A seller passes instructions through the listing agent.",
+        "To widen cooperation while limiting exposure, a seller authorizes **buyer's agents and broker's agents** and **rejects subagency**."
+      ],
+      "table": {
+        "head": [
+          "Who misstated",
+          "Who else may be liable"
+        ],
+        "rows": [
+          [
+            "Listing-firm salesperson",
+            "Broker (civilly) and the seller"
+          ],
+          [
+            "Subagent at another firm",
+            "Seller and listing broker"
+          ],
+          [
+            "Broker's agent",
+            "The engaging agent, not the seller"
+          ],
+          [
+            "Buyer's agent",
+            "Its own broker and possibly the buyer; not the seller"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Agent roles, subagency, and buyer agency",
+      "intro": "New York's forms name the roles a licensee can play. Know whom each represents and how cooperating agents fit in.",
+      "points": [
+        "**Seller's agent**: engaged by the seller to find a buyer on the seller's terms. Under §443 the term includes the listing agent, an agent cooperating with it, a seller's subagent, and a broker's agent finding a buyer. **Landlord's agent** and **tenant's agent** are the rental versions and appear only on DOS-1735.",
+        "**Buyer's agent**: engaged by the buyer to locate property and negotiate for the buyer, giving the buyer loyalty, confidentiality and advice on price and terms. The buyer, the seller or the listing broker's split may pay it; it represents only the buyer. Not everyone needs an agent: a buyer may proceed as a customer, often with an attorney.",
+        "**Subagent**: an agent of the agent, owing the seller full fiduciary duties. In-house salespersons are subagents of the firm's clients; another firm becomes one only by accepting an offer of subagency that the seller and listing broker authorized. A buyer working only with a subagent is an **unrepresented customer**.",
+        "The old **blanket unilateral offer of subagency** (every MLS member automatically the seller's subagent) no longer exists. The seller decides in the listing agreement whether to allow subagents, buyer's agents and broker's agents, and brokerage works fine without subagency.",
+        "**Broker's agent**: engaged by or cooperating with a listing, buyer's or tenant's agent but working for a **different firm**. A Rochester licensee engaged by a Buffalo buyer's agent to find homes for that buyer is a broker's agent for the buyer; a salesperson in the listing firm never is.",
+        "**Single agency**: the firm represents one party in a transaction, never both. Some firms practice it exclusively (seller-only or buyer-only), so they never act as dual agents.",
+        "A **cooperating agent** from another firm must disclose whether it is a subagent, buyer's agent or broker's agent; its actual agreement decides, not who called first. A listing-firm salesperson showing to unrepresented buyers represents the seller; New York forms have no 'facilitator' role.",
+        "**NYC rentals**: under the **FARE Act** (effective **June 11, 2025**; upheld by the Second Circuit on July 13, 2026), the fee of a broker representing the landlord, such as the listing agent, cannot be passed to the tenant, even by lease clause."
+      ],
+      "table": {
+        "head": [
+          "Role",
+          "Represents",
+          "Key rule"
+        ],
+        "rows": [
+          [
+            "Seller's (listing) agent",
+            "Seller",
+            "Buyer is a customer"
+          ],
+          [
+            "Buyer's agent",
+            "Buyer",
+            "Fee source doesn't change loyalty"
+          ],
+          [
+            "Subagent",
+            "Seller, through the listing broker",
+            "Seller can be vicariously liable"
+          ],
+          [
+            "Broker's agent",
+            "The engaging agent's client",
+            "Different firm; client can't direct it"
+          ],
+          [
+            "Dual agent",
+            "Both parties",
+            "Informed written consent of both"
+          ],
+          [
+            "Designated sales agent",
+            "One party in a dual-agency firm",
+            "Advocates; no undivided loyalty"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Dual agency and designated sales agents",
+      "intro": "A **dual agent** represents both buyer and seller (or tenant and landlord) in one transaction. New York allows it only with informed written consent, and it always costs undivided loyalty.",
+      "points": [
+        "Most dual agency arises from **in-house sales**: a firm's buyer client wants the firm's own listing. Because agency sits at the firm level, the firm is a dual agent even if different salespersons handle each side (**broker dual agency**). One salesperson representing both sides (**single-licensee dual agency**) is also allowed with consent.",
+        "**Informed consent**: each party understands the agent also acts for the other side, and what that costs, then agrees **in writing**; oral, one-sided, or payer-only consent fails. The risk is built in: the seller wants the highest price and the buyer the lowest. Both parties **give up undivided loyalty** but keep honesty, reasonable care, accounting and confidentiality, so neither side's price goes to the other.",
+        "**Advance informed consent** (since Jan 1, 2011) is an optional box on the form. If it's left blank, dual agency needs later written consent, and the listing stays valid. Even with advance consent, DOS guidance says the showing licensee must notify the seller (or the seller's designated agent) once an in-house showing produces real interest.",
+        "**Designated sales agents**: with both parties' informed written consent, the broker assigns one salesperson or associate broker to each side. Each advocates for its own party and keeps that party's confidences, but the **broker remains a dual agent** and no designee gives undivided loyalty.",
+        "The supervising broker cannot be a designee, and one person cannot be the designee for both sides. Advance consent with designated agents names the consenting party's own designee; the other side's need not be known yet.",
+        "If either party refuses consent, the firm cannot represent both; it may keep one client while the other seeks separate representation.",
+        "**Undisclosed dual agency**, including an implied agency from coaching a customer, brings DOS discipline, possible loss of commission, damages and rescission. A good price or smooth closing doesn't cure it.",
+        "Firm policy sets the options: seller agency only, buyer agency only, consensual dual agency for in-house sales, or designated agents."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Dual agency",
+          "With designated sales agents"
+        ],
+        "rows": [
+          [
+            "Consent",
+            "Informed written consent of both",
+            "Same, plus named designees"
+          ],
+          [
+            "Undivided loyalty",
+            "No",
+            "No"
+          ],
+          [
+            "Advocacy",
+            "Can't favor either side",
+            "Each designee advocates for its party"
+          ],
+          [
+            "Who is the dual agent",
+            "The broker (firm)",
+            "Still the broker"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: an in-house sale",
+        "steps": [
+          "Facts: Kim of ABC Realty represents buyer Lee, who wants a house listed by ABC salesperson Ortiz. The seller gave advance consent to dual agency with designated sales agents, naming Ortiz.",
+          "Step 1: ABC represents both sides, so ABC is a dual agent.",
+          "Step 2: The seller's written consent is on file; Lee must also consent in writing, after Kim explains that neither side gets undivided loyalty.",
+          "Step 3: With both consents, Kim is designated for Lee and Ortiz for the seller; ABC's broker supervises.",
+          "Answer: Lawful once Lee consents. Kim may negotiate hard for Lee, neither designee shares confidences, and ABC remains the dual agent."
+        ]
+      }
+    },
+    {
+      "heading": "RPL §443 agency disclosure: scope, timing, and paperwork",
+      "intro": "Section 443 requires a state-written disclosure in residential transactions so consumers know whom each licensee represents before they share confidences. It adds a form to the general rule of **19 NYCRR §175.7**, which applies to every transaction, commercial and vacant land included: always make clear which party you represent.",
+      "points": [
+        "**Scope**: property improved by a **1–4 family dwelling** or by **condo or co-op apartments** in a building of any size, for sales and rentals. Excluded: **unimproved land** (even if a home will be built), 5+ unit rental buildings that aren't condos or co-ops, and commercial property such as a retail lease.",
+        "**DOS-1736** covers buyers and sellers (including co-op share sales); **DOS-1735** covers landlords and tenants (including renting a co-op unit).",
+        "**Timing**: the listing agent gives it to the seller or landlord **before the listing agreement**; a buyer's or tenant's agent gives it to its client **before the agency agreement**; each agent gives it to the **other side at first substantive contact**, including a for-sale-by-owner seller.",
+        "**First substantive contact** is when talk moves past a greeting or basic listing facts into the consumer's needs, finances or motivation, or into seeing or offering on a specific property: a walk-in asking to see three listings, a visitor discussing her budget. A guest-register signature, a single fact question (year built), or an availability-and-asking-price call is not. A phone or email exchange can become substantive; the form can then be emailed or faxed.",
+        "Make your role clear first and explain the form; don't just collect a signature. A seller's agent who claims to be 'neutral' misrepresents her role, and what the buyer reveals belongs to her seller.",
+        "**Acknowledgment**: the consumer signs for receipt; the licensee prints name and firm and checks the role box, with no notary. A buyer's agent may get the seller-side signature from the seller or the **listing agent**. Give a **copy** and keep one **3 years**; nothing is filed with DOS.",
+        "**Refusal**: the agent signs a **written declaration of the facts under oath or affirmation** (an initialed note won't do), keeps it 3 years, and may keep working with the person.",
+        "**'THIS IS NOT A CONTRACT'**: the form sets no fee or term and gives no dual-agency consent unless an advance box is checked. It warns that each assisting agent may give its own form, refers legal and tax questions to professionals, and has no facilitator box.",
+        "Only licensees acting as agents give it; an owner renting directly gives none. Licensees working by agreement in a non-agent capacity are exempt (§443(5)), and the common law of agency still applies (§443(6)).",
+        "A role change (such as buyer's agent to dual agent) requires a new explanation, disclosure and consent.",
+        "**Pre-2011 vs. now**: condo/co-op units in buildings over four units were excluded, and dual-agency consent was allowed only once a specific deal existed. Since Jan 1, 2011, all condo/co-op units are covered and advance consent is available.",
+        "Separate documents: the fair housing notice (**DOS-2156**, §175.28) applies to all real property, including commercial and vacant land, and the Property Condition Disclosure Statement (no $500 opt-out since 2024) covers most 1–4 family home sales. Neither replaces the agency form."
+      ],
+      "table": {
+        "head": [
+          "Who gives it",
+          "To whom",
+          "When"
+        ],
+        "rows": [
+          [
+            "Listing agent",
+            "Seller or landlord",
+            "Before the listing agreement"
+          ],
+          [
+            "Seller's or landlord's agent",
+            "Buyer, tenant, or their agent",
+            "First substantive contact"
+          ],
+          [
+            "Buyer's or tenant's agent",
+            "Own buyer or tenant",
+            "Before the agency agreement"
+          ],
+          [
+            "Buyer's or tenant's agent",
+            "Seller, landlord, or their agent",
+            "First substantive contact"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: disclosure moments on one listing",
+        "steps": [
+          "Step 1: Ana explains DOS-1736 to the sellers and gets their acknowledgment before they sign the listing agreement.",
+          "Step 2: An open-house visitor signs in, asks the year built and leaves: no form yet.",
+          "Step 3: Another visitor starts discussing her budget and moving deadline: Ana says she represents the sellers and gives the form.",
+          "Step 4: That visitor refuses to sign: Ana prepares a sworn or affirmed declaration and keeps it 3 years.",
+          "Answer: Before the listing, then at each first substantive contact; copies to signers, 3-year retention."
+        ]
+      }
+    },
+    {
+      "heading": "RPL §443-a: stigmatized property",
+      "intro": "A **stigmatized property** carries a psychological taint rather than a physical defect. Section 443-a says which stigmas are not material facts.",
+      "points": [
+        "**Not a material fact**: that an owner or occupant has or had (or was suspected of) **HIV/AIDS** or another disease highly unlikely to spread through occupancy, or that the property was the site of a **homicide, suicide or other death** (accidental or natural) or **any felony**.",
+        "Nondisclosure creates **no cause of action** against owners or agents and is **not grounds for DOS discipline**.",
+        "**Written inquiry**: a buyer who cares may, when negotiating or making a bona fide offer, submit a **written** question through the seller's agent (or to the seller if none). The **seller decides whether to answer**, and the agent relays any answer only with the seller's consent and subject to privacy laws.",
+        "No duty to volunteer is not permission to lie: asked casually whether anyone died there, the agent must not answer falsely and should explain the written-inquiry route.",
+        "§443-a covers property offered for **sale or lease**, including residential property **regardless of the number of units**, and **preempts** inconsistent local laws.",
+        "Only the event is stigma. Known physical conditions it left, such as drug-lab chemical residue, must be disclosed.",
+        "**Stambovsky v. Ackley** (1991): a seller who had publicized her house as haunted, then stayed silent with an out-of-town buyer, could not rely on buyer-beware; the court let the buyer seek rescission of the contract. **Glazer v. LoPreste** (2000): sellers and brokers had no duty to volunteer that a convicted sex offender lived nearby, since the information was publicly available; buyers can check the registry themselves."
+      ],
+      "table": {
+        "head": [
+          "Fact",
+          "Treatment"
+        ],
+        "rows": [
+          [
+            "HIV/AIDS of an owner or occupant",
+            "Not material; privacy limits any answer"
+          ],
+          [
+            "Death or felony on site",
+            "Not material; written inquiry; never lie"
+          ],
+          [
+            "Physical harm left by a crime",
+            "Material condition; disclose"
+          ],
+          [
+            "Seller-created haunted reputation",
+            "Buyer may seek rescission (Stambovsky)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compensation, listing agreements, and antitrust",
+      "intro": "The listing or buyer agreement, not the disclosure form, sets the fee, the term and when the fee is earned. Every fee is negotiable.",
+      "points": [
+        "There is **no standard or legal commission rate**. A fee is typically earned when the broker produces a **ready, willing and able** buyer on the client's terms, or as the agreement says.",
+        "**§175.7**: a broker must make clear which party it acts for and may be paid by **more than one party** only with the **full knowledge and consent of the broker's client** (older books say 'all parties').",
+        "Separately, federal **RESPA §8** bars kickbacks for referring buyers to lenders or mortgage brokers on federally related loans; consent doesn't cure them. A seller's broker who also acts as the buyer's mortgage broker must give the separate DFS dual agency disclosure (3 NYCRR §38.12).",
+        "**Net listings** are prohibited (§175.19), and exclusive listings may not **automatically continue** past their end date (§175.15). Exclusive residential listings must include the DOS explanation of exclusive right to sell versus exclusive agency, signed or initialed by the owner (§175.24), and signers get copies immediately (§175.12).",
+        "**Antitrust** (Sherman Act; New York's Donnelly Act): competing firms may not agree on **price fixing**, **group boycotts** (shunning a discount firm) or **market allocation** (dividing territories), and no firm may impose **tie-ins** (requiring a certain lender as a condition of service). Sherman Act violations are felonies: up to **10 years** and **$1 million** for individuals, **$100 million** for corporations."
+      ],
+      "table": {
+        "head": [
+          "Agreement",
+          "Owner or client finds the deal",
+          "Another broker finds it"
+        ],
+        "rows": [
+          [
+            "Exclusive right to sell",
+            "Listing broker still paid",
+            "Listing broker paid"
+          ],
+          [
+            "Exclusive agency",
+            "No fee",
+            "Listing broker paid; the required §175.24 notice says the owner will owe both brokers"
+          ],
+          [
+            "Open listing",
+            "No fee",
+            "Only the procuring-cause broker is paid"
+          ],
+          [
+            "Exclusive right to rent",
+            "Leasing broker still paid",
+            "Leasing broker paid"
+          ],
+          [
+            "Exclusive right to represent (buyer)",
+            "Buyer's broker usually still paid, per its terms",
+            "Buyer's broker paid, per its terms"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: following the money",
+        "steps": [
+          "Facts: $500,000 sale, negotiated 5% commission split 50/50 between firms; the buyer's salesperson gets 60% of her firm's side.",
+          "Step 1: $500,000 × 0.05 = $25,000 total.",
+          "Step 2: $25,000 × 0.50 = $12,500 to the buyer's firm.",
+          "Step 3: $12,500 × 0.60 = $7,500, paid by her own broker.",
+          "Answer: $7,500. Seller-funded, yet the buyer's agent still represents only the buyer."
+        ]
+      }
+    },
+    {
+      "heading": "Terminating agency",
+      "intro": "Agency ends by the parties' acts or automatically by operation of law. Some duties outlive it.",
+      "points": [
+        "By the parties: **performance** (the sale closes), **expiration** of the term, **mutual agreement**, **revocation** by the principal, or **renunciation** by the agent (such as withdrawing because the seller insists on hiding a defect).",
+        "A principal has the **power** to revoke at any time (unless the agency is coupled with an interest) but not always the **right**: revoking an exclusive listing early without cause ends the agency, but the seller may owe damages. The broker then stops marketing (MLS, signs, lockbox).",
+        "**Operation of law** needs no notice: death or incapacity of the principal or of an individual agent (such as a sole-proprietor broker), bankruptcy, **destruction** or condemnation of the property, or loss of the broker's license. If the house burns, the listing ends; selling the land needs a new agreement.",
+        "A salesperson's death or departure does not end a listing; it stays with the broker, and the departing salesperson must turn over all listing information (§175.14).",
+        "**Agency coupled with an interest** (the agent has its own stake in the property) cannot be revoked by the principal and survives the principal's death.",
+        "**Confidentiality** and **accounting** survive: never reveal a former client's bottom line, and return all keys and funds."
+      ],
+      "table": {
+        "head": [
+          "Way it ends",
+          "Note"
+        ],
+        "rows": [
+          [
+            "Performance or expiration",
+            "No automatic renewal of exclusive listings"
+          ],
+          [
+            "Mutual agreement",
+            "Cleanest early exit"
+          ],
+          [
+            "Revocation (principal)",
+            "Power yes (not if coupled with an interest); right not always"
+          ],
+          [
+            "Renunciation (agent)",
+            "Liability possible unless justified"
+          ],
+          [
+            "Operation of law",
+            "Death, incapacity, bankruptcy, destruction, license loss"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Independent contractor or employee",
+      "intro": "Most salespersons are independent contractors for tax purposes, but only if federal and state tests are met. Classification never ends the agency relationship or the broker's duty to supervise.",
+      "points": [
+        "**Federal (IRC §3508)**: a licensed agent is a **statutory nonemployee** if substantially all pay is tied to sales or output, not hours, and a **written contract** says the agent won't be treated as an employee for tax purposes.",
+        "**New York** (Labor Law and Workers' Compensation Law rules dating to 1986): pay must be output-based, and the **written contract** must have been signed **within the past 12 to 15 months**, **not under duress**. It must state that the salesperson is an independent contractor; is paid commissions without tax deductions and nothing for hours; may work any hours, from home or the office, and take outside work; pays her own expenses (the broker may supply office space); that both will follow the license law (RPL Article 12-A); and that either party may end the arrangement at any time on notice.",
+        "**Substance over form**: if the broker pays hourly or sets mandatory hours, the contract won't save the classification. The broker **supervises** but does not direct and control the details.",
+        "If the test fails, salespersons are **employees**: the broker owes unemployment insurance, workers' compensation and disability coverage and must withhold income and Social Security taxes; the salesperson loses Schedule C expense deductions.",
+        "Either way, brokers must give **regular, frequent and consistent** supervision (§175.21) and keep transaction records **3 years** (§175.23)."
+      ],
+      "table": {
+        "head": [
+          "Factor",
+          "Independent contractor",
+          "Employee"
+        ],
+        "rows": [
+          [
+            "Pay",
+            "Commissions, no withholding",
+            "Wages or hourly pay, withheld"
+          ],
+          [
+            "Hours and place",
+            "Own choice; home or office",
+            "Set by employer"
+          ],
+          [
+            "Expenses",
+            "Pays own",
+            "Often reimbursed"
+          ],
+          [
+            "Broker supervision",
+            "Required",
+            "Required"
+          ]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NY RPL §§443, 443-a, 441-c, 442-a, 442-c",
+    "19 NYCRR Part 175 (§§175.4–175.7, 175.12, 175.14, 175.15, 175.19, 175.21, 175.23, 175.24, 175.28)",
+    "NYS DOS forms DOS-1736 (rev. 09/21) and DOS-1735; DOS Real Estate License Law (March 2026)",
+    "NYS DOS 77-hour salesperson syllabus, Subject 2 (Law of Agency)",
+    "NY Labor Law §511(19); 26 U.S.C. §3508; Sherman Act, 15 U.S.C. §1; RESPA §8, 12 U.S.C. §2607; 3 NYCRR §38.12",
+    "Stambovsky v. Ackley, 169 A.D.2d 254 (1st Dep't 1991); Glazer v. LoPreste, 278 A.D.2d 198 (2d Dep't 2000)",
+    "NYC FARE Act (effective June 11, 2025); ny-real-estate-cram-sheet (Oct 7, 2026)",
+    "NYSAR Guide to Agency Disclosure (Mar/Apr 2011): pre-2011 scope and DOS advance-consent notice guidance"
+  ]
+}

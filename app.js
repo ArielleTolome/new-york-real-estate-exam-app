@@ -236,10 +236,24 @@ const icon = {
 const svg = (name, extra = '') => `<svg class="ic ${extra}" viewBox="0 0 24 24" aria-hidden="true">${icon[name]}</svg>`;
 
 function tabs(active) {
-  const t = [['home', 'Home', 'home'], ['build', 'Build', 'build'], ['history', 'Stats', 'chart'], ['mistakes', 'Mistakes', 'bank'], ['more', 'More', 'more']];
+  const t = [['home', 'Home', 'home'], ['study', 'Study', 'book'], ['build', 'Build', 'build'], ['history', 'Stats', 'chart'], ['mistakes', 'Mistakes', 'bank'], ['more', 'More', 'more']];
   return `<nav class="tabs" aria-label="Main">${t.map(([r, label, ic]) =>
     `<a href="#/${r}" class="tab${active === r ? ' on' : ''}"${active === r ? ' aria-current="page"' : ''}>${svg(ic)}<span>${label}</span></a>`).join('')}</nav>`;
 }
+
+// Chapter study guides (cram sheet + full notes) are ~0.5 MB, so they load on the first visit to Study.
+let GUIDES = null;
+let guidesLoading = null;
+function guides() {
+  if (GUIDES) return GUIDES;
+  guidesLoading ||= fetch('guides.json')
+    .then((r) => r.json())
+    .then((d) => { GUIDES = Object.fromEntries(d.guides.map((g) => [g.topic, g])); render(); })
+    .catch(() => { guidesLoading = null; toast('Study guides need one online visit before they work offline.'); });
+  return null;
+}
+// Guide text is plain text with **bold** as the only markup.
+const rich = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 
 // Large-title header. opts: { sub: plain-text subtitle, right: trusted HTML (e.g. a button), logo: bool }
 function header(title, { sub = '', right = '', logo = false } = {}) {
@@ -302,7 +316,7 @@ const bar = (v, n) => `<div class="bar" role="img" aria-label="${n ? pct(v) + ' 
 
 /* ---------- router ---------- */
 
-const ROUTES = { home: vHome, build: vBuild, quiz: vQuiz, results: vResults, history: vHistory, mistakes: vMistakes, more: vMore };
+const ROUTES = { home: vHome, study: vStudy, build: vBuild, quiz: vQuiz, results: vResults, history: vHistory, mistakes: vMistakes, more: vMore };
 
 function go(route) {
   if (location.hash === '#/' + route) render();
@@ -311,8 +325,8 @@ function go(route) {
 
 let lastRoute = '';
 function render() {
-  const [name, arg] = location.hash.replace(/^#\/?/, '').split('/');
-  const v = (ROUTES[name] || vHome)(arg);
+  const [name, arg, sub] = location.hash.replace(/^#\/?/, '').split('/');
+  const v = (ROUTES[name] || vHome)(arg, sub);
   if (!v) return;
   $('#top').innerHTML = v.top;
   $('#view').innerHTML = v.main;
@@ -389,6 +403,8 @@ const ACTIONS = {
   },
   'review-mistakes': () => startQuiz({ title: 'Mistake Bank Review', mode: 'study', topics: BANK.topics.map((t) => t.id), filter: 'mistakes' }),
   'clear-mistake': (el) => { delete S.mistakes[el.dataset.id]; },
+  'practice-topic': (el) => startQuiz({ title: `${topicName[el.dataset.id] || 'Chapter'} practice`, mode: 'study', count: 25, topics: [el.dataset.id] }),
+  toc: (el) => document.getElementById(el.dataset.target)?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
   export: () => download(`ny-re-exam-progress-${today()}.json`, S),
   reset: () => {
     if (!confirm('Erase all progress, history, bookmarks and mistakes?')) return;
@@ -397,7 +413,7 @@ const ACTIONS = {
   },
 };
 
-const ASYNC_SKIP = new Set(['answer', 'end', 'drill', 'mock', 'weak', 'start', 'retest', 'review-mistakes', 'resume', 'export']);
+const ASYNC_SKIP = new Set(['answer', 'end', 'drill', 'mock', 'weak', 'start', 'retest', 'review-mistakes', 'resume', 'export', 'practice-topic', 'toc']);
 
 document.addEventListener('click', (e) => {
   const el = e.target.closest('[data-action]');
@@ -480,7 +496,7 @@ window.addEventListener('hashchange', render);
     $('#view').innerHTML = '<p class="card">Could not load the question bank. Connect once to cache it for offline use.</p>';
     return;
   }
-  window.__app = { get state() { return S; }, get bank() { return BANK; } };
+  window.__app = { get state() { return S; }, get bank() { return BANK; }, get guides() { return GUIDES; } };
   render();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();

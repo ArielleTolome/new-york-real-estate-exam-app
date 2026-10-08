@@ -1,0 +1,487 @@
+{
+  "topic": "commercial",
+  "title": "Commercial Real Estate",
+  "overview": "Commercial and investment property is one of the biggest subjects in the 77-hour course (10 hours, about 13% of class time) and a steady source of exam math: cap rates, cash-on-cash return, percentage rent, loss factors and escalations. It covers why investors buy (risk, liquidity, leverage), property types and office classes, how commercial space is measured and leased (gross, net, percentage, index and ground leases, CAM, expense stops, escalations), the documents lenders and buyers rely on (SNDAs, estoppels, guaranties), income analysis from NOI to after-tax cash flow, depreciation and 1031 exchanges, due diligence, and brokerage rules. The recurring themes: the lease clause beats the label, every ratio has its own denominator, debt service and depreciation never come out of NOI, and New York's residential-only rules (the §443 agency form, deposit caps) don't carry over to commercial deals while license law, the fair housing notice and fiduciary duties do.",
+  "cram": {
+    "numbers": [
+      { "value": "45 days", "label": "1031: identify replacement property in writing after the old property transfers" },
+      { "value": "180 days", "label": "1031: receive the replacement property within 180 days, or by the tax-return due date (with extensions) if earlier; runs alongside the 45 days" },
+      { "value": "3 properties", "label": "1031 three-property rule: identify up to three of any value" },
+      { "value": "200%", "label": "1031: more than three may be identified if their total value is no more than twice the old property's" },
+      { "value": "30 years", "label": "A leasehold with 30+ years to run is like-kind to owned real estate under §1031" },
+      { "value": "27.5 years", "label": "Depreciation for residential rental buildings of any size" },
+      { "value": "39 years", "label": "Depreciation for nonresidential buildings (office, retail, warehouse)" },
+      { "value": "80%", "label": "Mixed-use building is residential rental only if 80%+ of gross rents come from dwelling units" },
+      { "value": "25%", "label": "Top federal rate on depreciation-related gain on real property (unrecaptured §1250 gain)" },
+      { "value": "1.0", "label": "DSCR break-even: below 1.0, NOI doesn't cover the mortgage payments" },
+      { "value": "5+ units", "label": "Apartment buildings financed as commercial multifamily (income) property" },
+      { "value": "1 year", "label": "Leases longer than one year must be in writing" },
+      { "value": "49 or 99 years", "label": "Typical ground-lease terms" },
+      { "value": "1–3 stories", "label": "Low-rise office building (texts disagree on mid- and high-rise cutoffs)" },
+      { "value": "10 days", "label": "NY bulk-sale notice (Form AU-196.10) before paying for or taking possession of business assets" },
+      { "value": "$2 per $500", "label": "NYS transfer tax, on the real-property share of the price only" },
+      { "value": "2.625%", "label": "NYC transfer tax on commercial property over $500,000 (1.425% at $500,000 or less)" },
+      { "value": "1 month", "label": "Residential deposit cap; doesn't apply to commercial leases" }
+    ],
+    "mustKnow": [
+      "**Gross lease**: landlord pays taxes, insurance and maintenance from a fixed rent. **Net lease**: tenant pays some or all of them on top of base rent.",
+      "**Single net** = taxes; **double net** = + insurance; **triple net** = + maintenance. The clauses, not the label, decide capital items like a roof.",
+      "**Modified gross**: landlord carries major costs; tenant pays listed items such as its own electric or janitorial.",
+      "**Percentage rent** is figured on **gross sales**, not profit, and is used mainly for retail.",
+      "**Natural breakpoint** = annual base rent ÷ percentage rate; a **negotiated (artificial) breakpoint** in the lease overrides it.",
+      "Commercial rent is usually quoted **per rentable square foot per year**; divide by 12 for monthly.",
+      "**Rentable** = usable + share of common areas, so rentable is normally larger than **usable**.",
+      "**Loss factor** = (rentable − usable) ÷ rentable; **add-on factor** = (rentable − usable) ÷ usable.",
+      "Usable to rentable: **divide by (1 − loss factor)** or **multiply by the load factor**.",
+      "**CAM** is a cost-sharing charge split by **pro-rata share** = tenant's sq ft ÷ total leasable sq ft; estimates are **reconciled** at year-end.",
+      "**Expense stop**: landlord pays up to the stop, tenant pays the excess; a **base year** uses one year's actual costs as the stop.",
+      "**Porter's wage formula** (NYC office leases): rent per sq ft rises with the porters' hourly wage × a multiplier; no audit of the books.",
+      "**CPI escalation** uses the % change, (new − old) ÷ old, then any cap; a **graduated lease** fixes increases in advance.",
+      "**Subordination**: lease ranks below the mortgage. **Nondisturbance**: lender won't evict a tenant that isn't in default. **Attornment**: tenant accepts the new owner as landlord.",
+      "An **estoppel certificate** is the tenant's signed statement of lease facts; buyers and lenders rely on it, and the tenant can't later contradict it.",
+      "**Assignment** transfers the whole remaining lease; a **sublease** transfers less. The original tenant stays liable unless **released**.",
+      "A **personal guaranty** must be in writing; a **good guy guaranty** ends when the tenant gives notice, pays through surrender and leaves.",
+      "**Holdover** + landlord accepts rent = **month-to-month** (RPL §232-c). Premiums like 150% come from the lease; by statute, a tenant that gave notice it would leave and stays owes **double rent** (RPL §229).",
+      "Commercial tenants get **no statutory renewal right**, deposit cap or warranty of habitability; deposits are still held in trust (GOL §7-103).",
+      "**Trade fixtures** remain the tenant's property and may be removed by lease end, with damage repaired.",
+      "**Ground lease**: land only, long term; the tenant builds, and the building usually reverts to the landowner.",
+      "**Class A** = newest, best located, top rents; **Class B** = older, well kept; **Class C** = dated, lowest rents.",
+      "An **anchor tenant** draws traffic for the smaller stores; it doesn't guarantee their rent.",
+      "**NOI** = EGI − operating expenses; debt service, depreciation, income tax and capital improvements are **not** operating expenses.",
+      "**Value = NOI ÷ cap rate** (IRV); higher cap rate = more risk = lower value.",
+      "**Cash-on-cash** = (NOI − debt service) ÷ total cash invested; **DSCR** = NOI ÷ debt service.",
+      "**Positive leverage**: the property earns more than the debt costs; leverage magnifies losses too.",
+      "**Taxable income** = NOI − interest − depreciation; principal isn't deductible.",
+      "**1031**: business or investment real property only; **45 days** to identify, **180 days** to close, a **qualified intermediary** holds the cash; **boot** is taxable.",
+      "**Phase I** = records, site visit, interviews, no sampling; **Phase II** tests; III remediates; IV manages.",
+      "**ADA Title III**: landlord and tenant of a public accommodation must both remove barriers where **readily achievable**.",
+      "The **§443 agency form** doesn't apply to commercial deals; the **fair housing notice (19 NYCRR §175.28)** applies to all real property.",
+      "**Net listings** are illegal for commercial too; salespeople are paid only by their **sponsoring broker**; no fee-sharing with **unlicensed** people.",
+      "Buyers of business assets file the **bulk-sale notice** at least **10 days** before paying or taking possession."
+    ],
+    "traps": [
+      { "trap": "Triple net means the tenant pays everything, including a new roof.", "truth": "NNN conventionally means taxes, insurance and maintenance; capital items depend on the lease's repair clauses." },
+      { "trap": "No profit, no percentage rent.", "truth": "Percentage rent is based on gross sales above the breakpoint, not profit." },
+      { "trap": "Total rent = base rent + rate × all sales.", "truth": "Apply the rate only above the breakpoint. Past the natural breakpoint, total rent equals rate × all sales, so adding base rent double-counts." },
+      { "trap": "Use base rent ÷ rate even when the lease names a breakpoint.", "truth": "A negotiated breakpoint in the lease controls." },
+      { "trap": "A 20% loss factor means rentable = usable × 1.20.", "truth": "Rentable = usable ÷ 0.80. Multiplying by 1.20 is the add-on method (7,200 vs. 7,500 sq ft on 6,000 usable)." },
+      { "trap": "The lower quoted rent is the cheaper space.", "truth": "Compare cost per usable sq ft (rate × load factor) plus net charges." },
+      { "trap": "A CPI move from 250 to 260 is a 10% raise.", "truth": "10 ÷ 250 = 4%, then apply any cap." },
+      { "trap": "Subtract mortgage payments and depreciation to get NOI.", "truth": "NOI comes before debt service, depreciation and income tax." },
+      { "trap": "Cash-on-cash = NOI ÷ price.", "truth": "That's the cap rate. Cash-on-cash = (NOI − debt service) ÷ cash invested, including closing costs." },
+      { "trap": "A higher cap rate means a more valuable property.", "truth": "Same NOI ÷ higher rate = lower value; it signals more risk." },
+      { "trap": "Landlord consent to an assignment releases the original tenant.", "truth": "Only an express release or novation does." },
+      { "trap": "A holdover who pays rent gets a new full term.", "truth": "In New York, RPL §232-c makes it month-to-month unless agreed otherwise." },
+      { "trap": "Large apartment buildings depreciate over 39 years.", "truth": "Residential rental is 27.5 years at any size; 39 is for nonresidential." },
+      { "trap": "Equipment, a personal home or flip houses can go into a 1031.", "truth": "Only real property held for business or investment qualifies; the 2017 Tax Cuts and Jobs Act dropped equipment and other personal property for exchanges after 2017." },
+      { "trap": "No §443 form means no agency rules in commercial deals.", "truth": "Fiduciary duties, dual-agency consent, the net-listing ban, fee rules and the fair housing notice all still apply." }
+    ],
+    "mnemonics": [
+      { "name": "IRV", "meaning": "Income = Rate × Value. Cover the unknown: Value = Income ÷ Rate; Rate = Income ÷ Value. Income means NOI." },
+      { "name": "T-I-M (net leases)", "meaning": "Each 'net' adds one cost: single = Taxes; double = Taxes + Insurance; triple = Taxes + Insurance + Maintenance." },
+      { "name": "SNDA", "meaning": "Subordination, Non-Disturbance, Attornment: lease below mortgage; lender won't evict a tenant in good standing; tenant accepts the new owner." }
+    ],
+    "formulas": [
+      { "name": "Natural breakpoint", "formula": "Annual base rent ÷ percentage rate", "example": "$72,000 ÷ 0.06 = $1,200,000" },
+      { "name": "Percentage rent", "formula": "(Gross sales − breakpoint) × rate", "example": "($1,500,000 − $1,200,000) × 0.06 = $18,000" },
+      { "name": "Loss factor", "formula": "(Rentable − usable) ÷ rentable", "example": "(10,000 − 8,500) ÷ 10,000 = 15%" },
+      { "name": "Add-on and load factor", "formula": "Add-on = (rentable − usable) ÷ usable; load = rentable ÷ usable", "example": "1,500 ÷ 8,500 ≈ 17.6%; load ≈ 1.176" },
+      { "name": "Rentable from usable", "formula": "Usable ÷ (1 − loss factor), or usable × load factor", "example": "6,000 ÷ 0.80 = 7,500; 4,000 × 1.20 = 4,800" },
+      { "name": "Efficiency", "formula": "Usable ÷ rentable = 1 − loss factor", "example": "8,500 ÷ 10,000 = 85%" },
+      { "name": "CAM share", "formula": "Tenant sq ft ÷ total leasable sq ft × CAM", "example": "3,000 ÷ 60,000 × $240,000 = $12,000" },
+      { "name": "Expense stop", "formula": "(Actual $/sq ft − stop) × tenant sq ft", "example": "($9.50 − $8.00) × 5,000 = $7,500" },
+      { "name": "CPI rent", "formula": "Rent × (1 + (new − old) ÷ old), subject to any cap", "example": "$80,000 × 1.04 = $83,200 (CPI 250 to 260)" },
+      { "name": "Effective rent", "formula": "Rent actually paid ÷ months in term", "example": "54 × $6,000 ÷ 60 = $5,400" },
+      { "name": "NOI", "formula": "PGI − vacancy and collection loss + other income − operating expenses", "example": "$180,000 − $18,000 + $3,000 − $65,000 = $100,000" },
+      { "name": "Value (income approach)", "formula": "NOI ÷ cap rate", "example": "$126,000 ÷ 0.07 = $1,800,000" },
+      { "name": "Cash-on-cash", "formula": "(NOI − debt service) ÷ total cash invested", "example": "($120,000 − $85,000) ÷ $350,000 = 10%" },
+      { "name": "DSCR", "formula": "NOI ÷ debt service; max debt service = NOI ÷ required DSCR", "example": "$210,000 ÷ 1.25 = $168,000" },
+      { "name": "Taxable income; ATCF", "formula": "NOI − interest − depreciation; ATCF = BTCF − tax", "example": "$140,000 − $70,000 − $40,000 = $30,000" },
+      { "name": "Depreciation", "formula": "(Cost − land) ÷ 27.5 or 39", "example": "$1,560,000 ÷ 39 = $40,000" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Investment basics: risk, liquidity and leverage",
+      "intro": "Every later formula measures one of these trade-offs.",
+      "points": [
+        "An **owner-user** (the course's 'amenity purchaser') wants space for its own business; an **investor** wants income and appreciation from other people's use of the property. Leasing keeps a business's cash and flexibility but builds no equity.",
+        "**Risk** is uncertainty about returns. The three main types are **space-market risk** (supply and demand for space move rents and vacancy), **capital-market risk** (loans get harder or costlier, hurting resale prices) and **default risk** (debt must be paid even when income drops). Higher risk demands a higher return, so riskier buildings sell at higher cap rates.",
+        "Vacant land is the most speculative (no income, uncertain approvals); office, retail and industrial income swings with the economy; apartments are usually steadier because people always need housing.",
+        "**Liquidity** is how fast an asset becomes cash without a price cut. Real estate is **illiquid**, so investors need cash reserves.",
+        "**Leverage** is using borrowed money to buy more property with less cash. It is **positive** when the property earns more than the debt costs and **negative** when the debt costs more; either way it magnifies results. Quick test: a **loan constant** (annual debt service ÷ loan) above the cap rate means negative leverage. A $750,000 loan on a $1,000,000 property is 75% loan-to-value but 3:1 debt-to-equity.",
+        "**Time value of money**: at 10%, $1,000 due in a year is worth about $909 today. **IRR** is the discount rate at which the present value of all cash flows, including the purchase price, nets to zero. A **pro forma** projects income and expenses; **actuals** report past results. **Contract rent** comes from signed leases, **market rent** is today's going rate, and a **rent roll** lists tenants, rents and lease dates."
+      ],
+      "example": {
+        "title": "Worked example: positive vs. negative leverage",
+        "steps": [
+          "A $1,000,000 building earns $70,000 of NOI: a 7% all-cash return.",
+          "Borrow $750,000 interest-only at 5%: ($70,000 − $37,500) ÷ $250,000 cash = 13%. Positive leverage.",
+          "Same loan at 8.5%: ($70,000 − $63,750) ÷ $250,000 = 2.5%. Negative leverage.",
+          "If NOI falls 20% to $56,000, the 5% loan still returns 7.4%, but the 8.5% loan runs $7,750 short every year.",
+          "Answer: debt helps only when the property out-earns its cost, and it magnifies losses."
+        ]
+      }
+    },
+    {
+      "heading": "Property types, office classes and ownership",
+      "intro": "The syllabus lists the property types an investor can buy and the difference between owning land and leasing it.",
+      "points": [
+        "**Office classes** are relative to the local market, not set by law: **Class A** is newest or best renovated, best located, with top rents; **Class B** is older but well maintained, with lower rents; **Class C** is older, needs upgrades and rents lowest, making it a value-add target. Low-rise usually means 1–3 stories; texts disagree on the higher cutoffs (high-rise at 11+ vs. 20+ stories).",
+        "Retail, small to large: a **strip center** (row of convenience stores serving the immediate area), **neighborhood center** (supermarket or drugstore anchor), **regional mall** (department-store anchors, wide trade area) and **mega mall**; an **outlet center** (manufacturers' discount stores) draws shoppers from far away. An **anchor tenant** draws the traffic that supports smaller satellite stores but doesn't guarantee their rent.",
+        "**Industrial** users (manufacturing, warehouse and distribution, loft buildings) check clear height, floor load, loading docks, truck access and power, not foot traffic or lobby finishes.",
+        "Apartment buildings with **5 or more units** are underwritten as commercial multifamily, mainly on NOI and debt coverage rather than the buyer's salary; a single-family rental's vacancy is all-or-nothing. **Mixed-use** buildings diversify income but complicate management and financing.",
+        "**Fee simple** means owning land and building. In a **ground lease** the tenant rents only land, often for 49 or 99 years, builds and pays the costs; the building usually goes to the landowner at the end. No statute sets a minimum term; the long term lets the tenant finance and recover its building. In a **sale-leaseback**, an owner-user sells to an investor and leases the building back, freeing its equity."
+      ],
+      "table": {
+        "head": ["Type", "Value drivers", "Risks and exam angles"],
+        "rows": [
+          ["Unimproved land", "Highest and best use, zoning, access, utilities", "No income or depreciation; dealer-held lots aren't 1031 property"],
+          ["Office", "Location, class, tenant credit", "Recession vacancy; leasing and build-out costs"],
+          ["Residential", "Rents, occupancy, rent rules", "5+ units underwritten on NOI and DSCR"],
+          ["Mixed-use", "Combined income streams", "Complex; 80% test for 27.5-year depreciation"],
+          ["Retail", "Trade area, traffic, anchors, sales", "Percentage rent, CAM; losing the anchor hurts all"],
+          ["Industrial", "Clear height, floor load, docks, trucks", "Contamination; hard to re-lease specialized space"]
+        ]
+      }
+    },
+    {
+      "heading": "Measuring space: rentable, usable, loss and add-on factors",
+      "intro": "Rent is charged on rentable area, but the tenant uses only the usable area. The gap is common area, and the exam tests both ways of expressing it.",
+      "points": [
+        "**Usable area** is the space the tenant alone occupies; **rentable area** adds its pro-rata share of common areas (lobby, corridors, restrooms); **carpetable area**, the unobstructed floor inside the walls, is usually smallest. Rent is normally quoted per rentable square foot per year, and tenant improvement (TI) allowances per rentable square foot.",
+        "**Loss factor** (the owner's view) = (rentable − usable) ÷ rentable. **Add-on factor** (the tenant's view) = the same gap ÷ usable, and **load factor** = rentable ÷ usable. So 10,000 usable billed as 11,500 rentable is a 15% add-on but only a 13% loss factor.",
+        "To convert usable to rentable, divide by (1 − loss factor) or multiply by the load factor.",
+        "This app's questions use the rentable-based loss factor (divide) and apply add-on or load factors to usable area (multiply). One course math sheet figures 'rent using loss factor' as usable × (1 + loss factor), which is really the add-on method. Follow the question's wording; if it just says loss factor, divide.",
+        "Compare spaces by **cost per usable square foot** = quoted rate × load factor: $50 × 1.15 = $57.50 beats $47 × 1.25 = $58.75."
+      ],
+      "table": {
+        "head": ["Term", "Formula (R = rentable, U = usable)", "Use"],
+        "rows": [
+          ["Loss factor", "(R − U) ÷ R", "R = U ÷ (1 − loss)"],
+          ["Add-on %", "(R − U) ÷ U", "R = U × (1 + add-on)"],
+          ["Load factor", "R ÷ U", "Cost per usable sq ft = rate × load"],
+          ["Efficiency", "U ÷ R", "Equals 1 − loss factor"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: loss factor vs. add-on factor",
+        "steps": [
+          "A tenant needs 6,000 usable sq ft; the loss factor is 20%; rent is $48 per rentable sq ft per year.",
+          "Rentable = 6,000 ÷ 0.80 = 7,500 sq ft. Check: 1,500 ÷ 7,500 = 20%.",
+          "Annual rent = 7,500 × $48 = $360,000; monthly = $30,000.",
+          "As an add-on, the same gap is 1,500 ÷ 6,000 = 25% (load 1.25); efficiency is 80%; cost per usable sq ft is $48 × 1.25 = $60.",
+          "Trap: 6,000 × 1.20 = 7,200 sq ft ($345,600) treats the loss factor as an add-on.",
+          "Answer: 7,500 rentable sq ft; $360,000 a year."
+        ]
+      }
+    },
+    {
+      "heading": "Commercial lease types",
+      "intro": "Lease names describe who pays operating costs and how rent changes, but the clauses always control.",
+      "points": [
+        "Labels are shorthand. **Triple net** doesn't settle who replaces a roof or structure; read the repair and capital-cost clauses.",
+        "To compare quotes, add the net charges: $40 gross vs. $28 NNN + $10 of charges = $38, so on 3,000 sq ft the NNN space saves $6,000 a year, not $36,000.",
+        "A **loft lease** covers open, undivided floor space and usually allows only nonstructural changes approved in writing; it isn't permission to live there.",
+        "Commercial rent is usually stated annually, a lease over one year must be in writing, and New York gives commercial tenants **no statutory renewal right**; renewal comes only from a lease option exercised on time."
+      ],
+      "table": {
+        "head": ["Lease", "How it works", "Typical use"],
+        "rows": [
+          ["Gross", "Fixed rent; landlord pays taxes, insurance, maintenance", "Residential, many offices"],
+          ["Modified gross", "Landlord pays major costs; tenant pays listed items", "Multi-tenant office"],
+          ["Single net", "Base rent + taxes", "Taxes shift first"],
+          ["Double net", "Base rent + taxes + insurance", "Maintenance stays with landlord"],
+          ["Triple net", "Base rent + taxes + insurance + maintenance", "Single-tenant retail, industrial"],
+          ["Expense stop", "Landlord pays up to a stop; tenant pays excess", "Office"],
+          ["Percentage", "Base rent + % of gross sales over a breakpoint", "Retail"],
+          ["Graduated", "Fixed increases set at signing", "Growing businesses"],
+          ["Index", "Rent tracks an index such as the CPI", "Long terms; may be capped"],
+          ["Ground", "Land only; tenant builds; long term", "Development sites"],
+          ["Loft", "Open, undivided floor space", "Older industrial buildings"]
+        ]
+      }
+    },
+    {
+      "heading": "Percentage leases and breakpoints",
+      "intro": "Percentage rent lets a retail landlord share in a strong store's sales. Find the breakpoint, then apply the rate only above it.",
+      "points": [
+        "A **percentage lease** charges **base rent** plus a percent of **gross sales** above a **breakpoint**. It's based on sales, not profit, and is used mostly in shopping centers.",
+        "**Natural breakpoint** = annual base rent ÷ rate: the sales level where the percentage equals base rent. Above it, total rent = rate × total sales.",
+        "An **artificial (negotiated) breakpoint** is any other threshold the lease sets; when the lease names one, use it.",
+        "The syllabus calls it the 'natural break-even.' One New York textbook loosely describes the natural break-even point as when an investment starts producing a positive return. For calculations, use base rent ÷ rate; it isn't the tenant's profit break-even.",
+        "Annualize monthly base rent first. Working backward: (total rent − base rent) ÷ rate = sales above the breakpoint."
+      ],
+      "example": {
+        "title": "Worked example: natural and negotiated breakpoints",
+        "steps": [
+          "Base rent is $6,000 a month plus 5% of gross sales over the natural breakpoint; sales were $1,800,000.",
+          "Annual base = $72,000; natural breakpoint = $72,000 ÷ 0.05 = $1,440,000.",
+          "Percentage rent = ($1,800,000 − $1,440,000) × 0.05 = $18,000; total = $90,000, which is 5% of all sales.",
+          "With a negotiated $1,200,000 breakpoint: $600,000 × 0.05 = $30,000; total = $102,000.",
+          "Backward (natural breakpoint): total rent of $80,000 means $8,000 ÷ 0.05 = $160,000 above $1,440,000, so sales were $1,600,000.",
+          "Trap: $72,000 + 5% of all sales ($90,000) = $162,000 double-counts.",
+          "Answer: $90,000 total (natural); $102,000 (negotiated)."
+        ]
+      }
+    },
+    {
+      "heading": "CAM charges and expense pass-throughs",
+      "intro": "Multi-tenant leases pass operating costs to tenants by pro-rata share.",
+      "points": [
+        "**Common area maintenance (CAM)** charges share the cost of parking lots, landscaping, snow removal, lighting and hallways. CAM is a charge, not a measurement, and is **additional rent**.",
+        "**Pro-rata share** = tenant's square feet ÷ total leasable square feet as the lease defines them. Dividing by occupied space instead shifts vacant-space costs to tenants.",
+        "Apply any **administrative fee** (for example 10% or 15%) to the whole CAM pool first, then take the tenant's share.",
+        "Monthly estimates are **reconciled** at year-end: the tenant pays any shortfall or gets a credit. Leases often exclude capital costs and give audit rights.",
+        "An **expense stop** has the landlord pay up to the stop and the tenant pay the excess; a **base year** uses a chosen year's actual costs as the stop. Free base rent doesn't free CAM or taxes unless the lease says so."
+      ],
+      "example": {
+        "title": "Worked example: CAM share, fee and reconciliation",
+        "steps": [
+          "Tenant: 4,000 sq ft in an 80,000-sq-ft center; CAM is $320,000 plus a 10% fee; estimates paid were $1,400 a month.",
+          "Share = 4,000 ÷ 80,000 = 5%.",
+          "Pool = $320,000 × 1.10 = $352,000; tenant's CAM = $352,000 × 5% = $17,600.",
+          "Paid $1,400 × 12 = $16,800, so the tenant owes $800 at reconciliation.",
+          "Expense stop: actual $9.50 vs. an $8.00 stop on 5,000 sq ft = $7,500 owed.",
+          "Answer: $17,600 a year; $800 due."
+        ]
+      }
+    },
+    {
+      "heading": "Escalation clauses",
+      "intro": "Escalation clauses protect the landlord from rising costs and inflation over a long lease.",
+      "points": [
+        "Tax and operating-cost escalation clauses name a **base year**: the tenant pays its **proportionate share** (its percentage of the building) of increases above the base, and nothing for the base year itself.",
+        "The **porter's wage formula**, common in NYC office leases, raises rent per square foot as the hourly union wage of the building's porters (cleaning staff) rises, times a multiplier such as 'penny for penny.' It's simple and needs no audit of the owner's books, but tracks a wage, not actual costs.",
+        "**CPI escalations** use the percentage change, (new − old) ÷ old, then any cap or partial pass-through. Fixed percentage increases compound: 3% a year on $25 gives $26.52 in year 3.",
+        "For dollar step-ups, add each year's rent: $5,000 a month rising $250 a year for four years = ($5,000 + $5,250 + $5,500 + $5,750) × 12 = $258,000."
+      ],
+      "table": {
+        "head": ["Clause", "How it works", "Watch for"],
+        "rows": [
+          ["Fixed % / step-up", "Set raise each year", "Compound: year 3 has two raises"],
+          ["CPI (index)", "Rent × % change in CPI", "Divide by the starting index; caps"],
+          ["Operating / tax stop", "Tenant pays costs above a dollar stop", "Also called expense stop"],
+          ["Real property tax clause", "Share of tax increases over base", "Share × (now − base)"],
+          ["Direct operating costs", "Share of operating-cost increases", "Exclude capital items"],
+          ["Porter's wage", "Rent rises with porters' wage × multiplier", "NYC office; no audit"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: three escalations",
+        "steps": [
+          "Tenant leases 5,000 sq ft (5% of the building) at $200,000 a year.",
+          "CPI with a 3% cap: 250 to 260 = 4%, capped at 3%: $206,000. (A 50% pass-through would be 2%: $204,000.)",
+          "Taxes rise from a $400,000 base to $460,000: $60,000 × 5% = $3,000.",
+          "Porter's wage, penny for penny: wage rises $0.90 an hour, so rent rises $0.90 × 5,000 = $4,500.",
+          "Answer: rent $206,000, plus $3,000 and $4,500 of escalations."
+        ]
+      }
+    },
+    {
+      "heading": "Key lease clauses, concessions and fixtures",
+      "intro": "These clauses decide what the tenant may do, who pays for power and build-out, and what the tenant may take when it leaves.",
+      "points": [
+        "The **use clause**: landlords want narrow wording ('for no other purpose'), tenants broad ('any lawful purpose'). Landlord consent can't authorize a use zoning forbids.",
+        "An **assignment** transfers the whole remaining lease; a **sublease** transfers less, so the tenant keeps a reversion. Most commercial leases require landlord consent; the residential sublet right (RPL §226-b) doesn't apply.",
+        "After an assignment the original tenant **stays liable** unless released or replaced by **novation**; consent isn't a release. In a sublease the tenant stays fully liable to the landlord and collects from the subtenant, whose rent obligation runs to the tenant, not the landlord.",
+        "A **TI allowance** is the landlord's build-out contribution, usually per rentable square foot; the tenant pays any excess.",
+        "**Free rent** lowers the **effective rent** (rent actually paid ÷ months in the term); additional rent stays due unless also abated.",
+        "**Trade fixtures** a tenant installs for its business stay its personal property and may be removed by lease end, with damage repaired."
+      ],
+      "table": {
+        "head": ["Electric", "How it works", "Note"],
+        "rows": [
+          ["Direct meter", "Utility bills the tenant directly", "Landlord not involved"],
+          ["Submeter", "Landlord buys through a master meter and bills measured use", "May resell at the lease rate"],
+          ["Rent inclusion", "Electricity built into the rent", "No separate bill"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: TI allowance and effective rent",
+        "steps": [
+          "Five-year lease: 6,000 rentable sq ft at $42; TI allowance $50 per sq ft; build-out $360,000; 4 months free.",
+          "Monthly rent = 6,000 × $42 ÷ 12 = $21,000.",
+          "Allowance = $300,000, so the tenant pays $60,000.",
+          "Rent paid = 56 × $21,000 = $1,176,000; effective rent = $1,176,000 ÷ 60 = $19,600 a month.",
+          "Answer: $60,000 out of pocket; $19,600 effective monthly rent."
+        ]
+      }
+    },
+    {
+      "heading": "SNDA, estoppel certificates and attornment",
+      "intro": "Lenders and buyers need to know whether the mortgage or the lease comes first and exactly what each lease says.",
+      "points": [
+        "**Subordination** puts the lease behind the mortgage, so a foreclosure could end it. It doesn't make the tenant pay the debt or the lender the landlord.",
+        "**Nondisturbance** is the lender's promise, binding on a foreclosure buyer, to leave a tenant in place while it isn't in default; tenants trade subordination for it.",
+        "**Attornment** is the tenant's promise to accept a successor owner as landlord. All three usually sit in one **SNDA** signed by lender, landlord and tenant, and protection is only what it says.",
+        "An **estoppel certificate** is the tenant's signed statement of lease facts (term, rent, deposit, prepaid rent, options, defaults) for a buyer or lender. The tenant is **estopped** from later asserting contrary facts, such as an undisclosed rent prepayment.",
+        "A sale doesn't let the tenant void its lease. A **rent roll** is only the landlord's summary, so verify it against the leases and estoppels."
+      ],
+      "table": {
+        "head": ["Document", "Who promises", "Effect"],
+        "rows": [
+          ["Subordination", "Tenant", "Lease ranks below mortgage"],
+          ["Nondisturbance", "Lender", "Tenant in good standing stays after foreclosure"],
+          ["Attornment", "Tenant", "Pays rent to the new owner"],
+          ["Estoppel certificate", "Tenant", "Bound by the facts it certified"]
+        ]
+      }
+    },
+    {
+      "heading": "Guaranties, holdovers and residential-only rules",
+      "intro": "Commercial landlords rely on guaranties and holdover clauses, and many New York tenant protections are residential only.",
+      "points": [
+        "A **personal guaranty** makes an owner personally liable if its entity tenant defaults. The entity still signs as tenant; the guaranty changes neither the lease type nor ownership. It must be in writing (GOL §5-701).",
+        "A NYC **good guy guaranty** releases the guarantor from future rent once the tenant gives the required notice, pays through surrender and leaves the space vacant; a default first keeps it liable. Alternatives include a larger deposit or a **letter of credit**.",
+        "A tenant who stays after expiration without consent is a **holdover** (tenant at sufferance) and can be removed in a holdover proceeding. Under **RPL §232-c**, if the landlord accepts rent for a later period, the tenancy becomes **month-to-month** unless otherwise agreed, not a new full term.",
+        "**Holdover rent** premiums (such as 150% or 200%) come from the lease. One statute adds a penalty: a tenant that gives notice it will leave on a set date and then stays owes **double rent** while it remains (RPL §229).",
+        "Commercial deposits have no statutory cap or 14-day deadline but must be held in trust without commingling (GOL §7-103)."
+      ],
+      "table": {
+        "head": ["Rule", "Residential (NY)", "Commercial"],
+        "rows": [
+          ["Security deposit", "1 month max; returned within 14 days, itemized", "Lease decides; held in trust"],
+          ["Late fee", "After 5 days; lesser of $50 or 5%", "Lease decides"],
+          ["Habitability", "Warranty (RPL §235-b)", "Repair clauses control"],
+          ["Renewal and increases", "Rent stabilization or Good Cause may apply", "Lease options only"],
+          ["Holdover, rent accepted", "Month-to-month", "Month-to-month"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: holdover rent",
+        "steps": [
+          "Rent is $12,000 a month; the lease sets holdover rent at 150%; the tenant stays 3 extra months.",
+          "Holdover rent = $12,000 × 1.5 = $18,000 a month.",
+          "Answer: $54,000 for the three months."
+        ]
+      }
+    },
+    {
+      "heading": "Investment analysis: from gross income to after-tax cash flow",
+      "intro": "The syllabus calls this the reconstructed income and expense statement: the 'cash world' top to bottom, then the 'tax world.'",
+      "points": [
+        "A **reconstructed operating statement** strips out non-operating items (mortgage payments, depreciation, the owner's taxes and personal costs, capital improvements) and adds realistic vacancy, management and reserves.",
+        "**Potential gross income (PGI)** − vacancy and collection loss + other income (laundry, parking) = **effective gross income (EGI)**; EGI − operating expenses (taxes, insurance, utilities, repairs, management) = **net operating income (NOI)**. Property taxes and insurance always come out; debt service, depreciation and income tax never do.",
+        "**IRV**: Value = NOI ÷ cap rate. Higher cap rate = more risk = lower value: $100,000 ÷ 6% = $1,666,667 but ÷ 9% = $1,111,111. Half a point matters: $150,000 at 7.5% = $2,000,000; at 8% = $1,875,000.",
+        "**Before-tax cash flow (BTCF)** = NOI − debt service. **Cash-on-cash** (equity dividend rate) = BTCF ÷ cash invested (down payment + closing costs); it ignores appreciation, principal paydown and taxes. NOI ÷ price is the cap rate.",
+        "**DSCR** = NOI ÷ debt service; a lender requiring 1.25 allows at most NOI ÷ 1.25 in annual payments.",
+        "**Tax world**: taxable income = NOI − interest − depreciation; **after-tax cash flow (ATCF)** = BTCF − tax. The **gross rent multiplier** (price ÷ gross rent) ignores expenses."
+      ],
+      "example": {
+        "title": "Worked example: NOI to after-tax cash flow",
+        "steps": [
+          "Office building: price $2,000,000 (land $440,000); PGI $250,000; vacancy 8%; parking $6,000; expenses $86,000; cash invested $625,000 (down payment plus closing costs); debt service $90,000 ($80,000 interest).",
+          "EGI = $250,000 − $20,000 + $6,000 = $236,000; NOI = $236,000 − $86,000 = $150,000.",
+          "Cap rate = $150,000 ÷ $2,000,000 = 7.5%.",
+          "BTCF = $60,000; cash-on-cash = $60,000 ÷ $625,000 = 9.6% (above 7.5%, so positive leverage); DSCR ≈ 1.67.",
+          "Depreciation = $1,560,000 ÷ 39 = $40,000; taxable income = $150,000 − $80,000 − $40,000 = $30,000.",
+          "At an assumed 30% rate, tax = $9,000; ATCF = $51,000.",
+          "Answer: NOI $150,000; 7.5% cap; 9.6% cash-on-cash; ATCF $51,000."
+        ]
+      }
+    },
+    {
+      "heading": "Tax angles: depreciation, recapture and 1031 exchanges",
+      "intro": "Investment questions lean on four tax ideas: depreciation, passive losses, recapture and the like-kind exchange.",
+      "points": [
+        "**Depreciation** is a non-cash deduction for buildings, never land: **27.5 years** for residential rental of any size, **39 years** for nonresidential. A mixed-use building is residential only if 80%+ of gross rents come from dwelling units. Depreciable basis = cost − land + capital improvements.",
+        "**Tax shelter**: depreciation can show a taxable loss while cash flow is positive. Rental income is usually **passive** (the other classes are active and portfolio); passive losses offset passive income, except up to $25,000 for active participants, phased out between $100,000 and $150,000 of modified AGI.",
+        "**Adjusted basis** = basis + improvements − depreciation; **gain** = (price − selling costs) − adjusted basis. Depreciation-related gain on real property is taxed at up to 25%; gain on property held over a year is long-term.",
+        "A **§1031 exchange** defers gain when business or investment real property is swapped for like-kind real property. The **2017 Tax Cuts and Jobs Act** limited §1031 to real property, so for exchanges after 2017 equipment and other personal property don't qualify; neither does a personal residence (it has the $250,000/$500,000 exclusion) or dealer inventory such as flips. Like-kind is broad: investment land for a building, an apartment house or hotel for a warehouse, a fee for a leasehold with 30+ years to run.",
+        "A **qualified intermediary** holds the cash; **boot** (cash, other non-like-kind property, net debt relief) is taxable up to the gain. In a **reverse exchange** the replacement is bought first and parked with an accommodation titleholder."
+      ],
+      "table": {
+        "head": ["1031 rule", "Requirement", "Note"],
+        "rows": [
+          ["Property", "Business or investment real property", "No home, inventory or equipment"],
+          ["Identify", "In writing within 45 days", "Calendar days"],
+          ["Close", "Within 180 days or by the tax-return due date (with extensions), if earlier", "Runs alongside the 45"],
+          ["How many", "3 of any value, or more within 200%", "Three-property vs. 200% rule"],
+          ["Boot", "Cash or debt relief received", "Taxable up to the gain"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: depreciation and gain on sale",
+        "steps": [
+          "Apartment building bought for $1,400,000 (land $300,000), held 8 years, sold for $1,900,000 with $100,000 of selling costs.",
+          "Depreciation = $1,100,000 ÷ 27.5 = $40,000 a year; × 8 = $320,000.",
+          "Adjusted basis = $1,400,000 − $320,000 = $1,080,000.",
+          "Amount realized = $1,900,000 − $100,000 = $1,800,000; gain = $1,800,000 − $1,080,000 = $720,000: $320,000 depreciation-related (up to 25%) and $400,000 long-term capital gain.",
+          "Answer: $720,000 gain, all deferrable in a proper 1031 with no boot."
+        ]
+      }
+    },
+    {
+      "heading": "Due diligence and selling a business with its building",
+      "intro": "Commercial buyers verify income, condition, zoning and environmental status, and business sales add personal-property and sales-tax rules.",
+      "points": [
+        "**Verify income and property**: rent roll vs. leases and **estoppels**, deposits, arrears, CAM reconciliations, actual statements vs. the pro forma, title and survey, condition, code violations, the certificate of occupancy, taxes and any pending tax certiorari (court challenge to an assessment).",
+        "**Zoning**: a **special use permit** allows a use the ordinance permits once listed conditions (parking, hours, traffic) are met (Town Law §274-b, Village Law §7-725-b); a **use variance** covers a prohibited use and requires unnecessary hardship. A **legal nonconforming use** may continue and pass to a buyer but usually can't expand without relief.",
+        "**Environmental**: a Phase I done to ASTM E1527-21 meets EPA's all-appropriate-inquiries rule, which buyers need for federal (CERCLA) landowner defenses. Gas stations, dry cleaners and underground storage tanks are red flags.",
+        "**ADA Title III**: public accommodations (stores, restaurants, a leasing office) must remove barriers where **readily achievable**, such as adding a ramp; older buildings aren't exempt, and full ADA standards apply to new construction and alterations. Landlord and tenant are both liable, and the lease only splits the cost. Private apartments fall under the Fair Housing Act.",
+        "**Business sales**: a deed conveys the land and building; a **bill of sale** transfers equipment, inventory and goodwill. The buyer must file the **bulk-sale notice** (Form AU-196.10) at least 10 days before paying or taking possession (Tax Law §1141(c)), or it may owe the seller's sales tax; the seller's assurances don't protect it.",
+        "**Transfer taxes**: the NYS $2 per $500 applies only to the real-property consideration. The 1% mansion tax covers only 1–3 family homes and condo or co-op units, not commercial sales. NYC's commercial RPTT is 1.425% at $500,000 or less and 2.625% above, and in NYC only, the state rate rises to 0.65% ($3.25 per $500) on commercial sales of $2 million or more; elsewhere it stays $2 per $500."
+      ],
+      "table": {
+        "head": ["Phase", "Work", "Note"],
+        "rows": [
+          ["I", "Records, site visit, interviews", "Investigative; no sampling"],
+          ["II", "Soil, water, vapor sampling", "Testing"],
+          ["III", "Cleanup", "Remediation"],
+          ["IV", "Ongoing monitoring", "Management"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: transfer tax on a building-plus-business sale",
+        "steps": [
+          "Building and restaurant sell for $2,000,000 outside NYC; $250,000 is allocated to equipment and goodwill.",
+          "Real property consideration = $1,750,000 ÷ $500 = 3,500 units.",
+          "Tax = 3,500 × $2 = $7,000, paid by the seller.",
+          "Answer: $7,000 (taxing the full $2,000,000 would wrongly give $8,000)."
+        ]
+      }
+    },
+    {
+      "heading": "Commercial brokerage rules in New York",
+      "intro": "A New York license covers commercial work, and nearly every license-law rule applies; mainly the paperwork differs.",
+      "points": [
+        "A New York real estate license covers commercial sales and leasing; there's no separate commercial license.",
+        "The **§443 agency form** covers only 1–4 family homes and condo or co-op units, so it isn't required for commercial space, vacant land or a 12-unit building sale. The **fair housing notice** (19 NYCRR §175.28) covers all real property and must be given in writing or electronically at first substantive contact. Human Rights Law §296(5) also bars discrimination in land and commercial space.",
+        "Common-law duties still apply: **dual agency** needs both principals' informed consent (no DOS approval), and pay from more than one party needs the client's knowledge and consent (19 NYCRR §175.7).",
+        "**Net listings** are banned for commercial property too, even in writing or with a fee cap (19 NYCRR §175.19). Salespeople are paid only by the **sponsoring broker** (RPL §442-a), even if the tenant consents, and brokers can't share fees with **unlicensed** people such as a tipster super; there's no small-referral exception (RPL §442).",
+        "Commissions are negotiable; competitors agreeing on rates or floors is **price fixing** (Sherman Act, Donnelly Act). Lease commissions are often a percentage of **aggregate rent** for the term."
+      ],
+      "table": {
+        "head": ["Rule", "Commercial?", "Source"],
+        "rows": [
+          ["Agency disclosure form", "No", "RPL §443"],
+          ["Fair housing notice", "Yes", "19 NYCRR §175.28"],
+          ["Net listing ban", "Yes", "19 NYCRR §175.19"],
+          ["Paid only via sponsoring broker", "Yes", "RPL §442-a"],
+          ["No fee-sharing with unlicensed", "Yes", "RPL §442"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: commission on aggregate rent",
+        "steps": [
+          "4% of aggregate rent; 5-year lease of 3,000 sq ft at $40, rising $1 a year.",
+          "($40 + $41 + $42 + $43 + $44) × 3,000 = $630,000.",
+          "Answer: $630,000 × 4% = $25,200."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS 77-hour Salesperson Syllabus, Subjects 16 (Commercial and Investment Properties), 17 (Income Tax) and 4 (Leases)",
+    "NY Real Property Law §§226-b, 229, 232-c, 235-b, 238-a, 442, 442-a, 443",
+    "19 NYCRR §§175.7, 175.19, 175.28",
+    "NY General Obligations Law §§5-701, 5-703, 7-103, 7-108",
+    "NY Tax Law §1141(c) and Article 31; NYC Department of Finance RPTT (nyc.gov)",
+    "NY Executive Law §296(5); Town Law §274-b; Village Law §7-725-b",
+    "26 U.S.C. §§1(h), 168, 469, 1031 (as amended by the Tax Cuts and Jobs Act of 2017, Pub. L. 115-97, §13303); Treas. Reg. §§1.1031(a)-1, 1.1031(k)-1",
+    "ADA Title III, 42 U.S.C. §12182; 28 CFR §36.201(b); ASTM E1527-21; 40 CFR Part 312",
+    "Sherman Act, 15 U.S.C. §1; NY GBL §340",
+    "ny-real-estate-cram-sheet.txt (checked Oct 7, 2026); ny-real-estate-study-guide.txt ch. 16; NYREPL study and math guides"
+  ]
+}

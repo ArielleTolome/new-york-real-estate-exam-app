@@ -1,0 +1,873 @@
+{
+  "topic": "land-use",
+  "title": "Land Use Regulations",
+  "overview": "This chapter covers how government and private parties limit land use: the four government powers (PETE), New York planning and zoning, variances and special permits, nonconforming uses, subdivision and building approvals, SEQR environmental review, wetlands and other state controls, eminent domain and deed restrictions. It is 3 of the 77 syllabus hours, and its vocabulary also feeds the municipal, environmental and title chapters. Expect classification questions (police power or eminent domain? use or area variance? special permit or variance?), New York procedure (who decides, which deadline, how many votes) and short calculations.",
+  "cram": {
+    "numbers": [
+      {
+        "value": "60 days",
+        "label": "Appeal a zoning officer's ruling to the ZBA, counted from its filing"
+      },
+      {
+        "value": "62 days",
+        "label": "ZBA must decide within 62 days after the hearing"
+      },
+      {
+        "value": "30 days",
+        "label": "Article 78 against a ZBA decision, counted from filing with the town clerk"
+      },
+      {
+        "value": "Majority of full board",
+        "label": "ZBA votes needed: 2 of 3, 3 of 5 or 4 of 7, however many attend"
+      },
+      {
+        "value": "Majority plus one",
+        "label": "Votes of all members needed to act against a county disapproval or modification"
+      },
+      {
+        "value": "20% and 100 feet",
+        "label": "Protest petition: owners of 20% of the rezoned land or of land within 100 feet"
+      },
+      {
+        "value": "Three-fourths",
+        "label": "Town board vote needed to rezone after a valid protest"
+      },
+      {
+        "value": "62 days",
+        "label": "File the signed final plat with the county clerk or the approval expires"
+      },
+      {
+        "value": "5+ lots of 5 acres or less",
+        "label": "Realty subdivision (5th lot sold or offered within 3 years): health department must approve water and sewage plans before sale"
+      },
+      {
+        "value": "7 days",
+        "label": "Buyer's cancellation right under ILSFDA and NY RPL Article 9-A"
+      },
+      {
+        "value": "2 years",
+        "label": "ILSFDA revocation right if no property report was given"
+      },
+      {
+        "value": "1938",
+        "label": "NYC began requiring certificates of occupancy"
+      },
+      {
+        "value": "1% a year",
+        "label": "Flood chance in a Special Flood Hazard Area (100-year floodplain)"
+      },
+      {
+        "value": "100 feet",
+        "label": "Regulated adjacent area around a DEC freshwater wetland"
+      },
+      {
+        "value": "300 feet (150 in NYC)",
+        "label": "Maximum regulated adjacent area beside a tidal wetland"
+      },
+      {
+        "value": "30 days",
+        "label": "Challenge a condemnor's public-use findings in the Appellate Division"
+      },
+      {
+        "value": "1926",
+        "label": "Euclid v. Ambler Realty upheld use-district zoning"
+      }
+    ],
+    "mustKnow": [
+      "**PETE**: police power, eminent domain, taxation, escheat. Only **eminent domain** pays the owner.",
+      "**Police power** (health, safety, morals, welfare) supports zoning, codes, subdivision rules and rent regulation; a valid rule owes **no compensation** even if value drops.",
+      "**Eminent domain** = **public use** + **just compensation** (fair market value at highest and best use); **condemnation** is the process; no owner consent needed.",
+      "**Escheat**: the State takes property of an owner who dies with no will and no heirs. **Tax foreclosure** is taxation, not eminent domain.",
+      "Only the elected **legislative body** adopts or amends zoning; the **ZBA cannot rezone**.",
+      "Zoning must follow the **comprehensive plan**, which the legislative body **adopts**; until a rezoning, the **current zoning controls**.",
+      "**Planning board** (appointed): plats, site plans, cluster plans, often special permits. **ZBA** (quasi-judicial): appeals, interpretations, variances.",
+      "**Use variance** needs **unnecessary hardship**: no **reasonable return** from **every** permitted use (competent financial evidence), a **unique** hardship, no change to **neighborhood character**, and **not self-created**.",
+      "**Area variance** uses a **balancing test** (benefit vs detriment, five factors); **self-created** difficulty is relevant but **not fatal**.",
+      "Variances: the ZBA grants the **minimum** relief, may add land-related **conditions**, and the variance **runs with the land**.",
+      "**Special use permit**: a use the ordinance already allows once **standards** are met; **no hardship** showing; issued by the board the legislative body designates.",
+      "A **lawful nonconforming use** survives a **sale** but generally cannot **expand**, switch to another nonconforming use, or resume after the **discontinuance period** (intent irrelevant); **amortization** can end it.",
+      "**Spot zoning** (small parcel, owner's benefit, against the plan) is invalid; a small rezoning that **follows the plan** is valid.",
+      "A **protest** by owners of **20%** of the land (or of land within **100 feet**) means a rezoning needs **three-fourths** of the town board.",
+      "ZBA timeline: appeal within **60 days**; decision within **62 days** after the hearing; any action needs a **majority of the full board**.",
+      "Challenge a ZBA decision by an **Article 78** proceeding in **Supreme Court** within **30 days** of its filing with the town clerk; a **rational** decision stands.",
+      "**Subdivision**: the planning board approves the **plat**; file the signed plat with the **county clerk within 62 days**; a **performance bond** can secure unbuilt improvements.",
+      "**Cluster** = same density on smaller lots; **PUD** = mixed uses under one plan; **incentive zoning** = bonus for amenities; **TDR** = development rights moved to a receiving area.",
+      "A **building permit** authorizes construction; a **certificate of occupancy** authorizes occupancy for the stated use; a use change needs an **amended CO**.",
+      "Outside NYC the **Uniform Code** sets minimums; stricter local rules need **Code Council** approval; code variances go to **DOS regional boards of review**. NYC has its own codes and **DOB**.",
+      "**SEQR** covers **discretionary** agency actions: **Type I** (Full EAF, EIS likelier), **Type II** (no review), **Unlisted** (everything else); **ministerial** acts are excluded.",
+      "SEQR order: **EAF** → **negative** or **positive declaration** → **draft EIS** and comment → **final EIS** → **findings**.",
+      "Wetlands: DEC (freshwater and tidal), the **Army Corps** (§404) and localities may all apply, including **adjacent areas**; get a current **jurisdictional determination**.",
+      "The **APA** controls private land in the Adirondack Park (**Hamlet** densest, **Resource Management** strictest); Forest Preserve land is **forever wild**.",
+      "**Inverse condemnation** = owner sues over a de facto taking; a **partial taking** adds **severance damages**.",
+      "**Covenants** bind later owners through recording; the **stricter** of zoning or covenant controls, and a variance **doesn't release** a covenant.",
+      "A deed **condition** with a **right of re-entry** can forfeit title; covenant breach brings an **injunction or damages**; **laches** can bar slow enforcers; **discriminatory covenants** are unenforceable (**Shelley v. Kraemer**).",
+      "**ILSFDA**: **property report** before signing, 7-day revocation (2 years if no report). **RPL Article 9-A**: installment sales of vacant subdivided land to NY residents, DOS filing, 7-day cancellation."
+    ],
+    "traps": [
+      {
+        "trap": "A zoning change that lowers my land's value entitles me to compensation.",
+        "truth": "Zoning is police power. Compensation is owed only for eminent domain or a regulation so severe it becomes a taking."
+      },
+      {
+        "trap": "The ZBA can rezone a street to match the comprehensive plan.",
+        "truth": "Rezoning is legislative (town board, village board, city council). The plan guides; the current zoning controls until amended."
+      },
+      {
+        "trap": "A self-created problem kills any variance.",
+        "truth": "It bars a use variance, but for an area variance it is only one factor in the balancing test."
+      },
+      {
+        "trap": "Showing a store would earn more, or that the current use loses money, proves hardship.",
+        "truth": "The owner must show, with competent financial evidence, no reasonable return from every permitted use."
+      },
+      {
+        "trap": "A special use permit is a variance granted by the ZBA after proof of hardship.",
+        "truth": "It approves a use the ordinance already allows if standards are met. No hardship; the issuing board is often the planning board."
+      },
+      {
+        "trap": "A nonconforming use ends when the property is sold (the Spada textbook says this).",
+        "truth": "It runs with the land. It ends through discontinuance, amortization or destruction rules, and it generally cannot expand or switch to another nonconforming use."
+      },
+      {
+        "trap": "The owner always meant to reopen, so the discontinued nonconforming use survives.",
+        "truth": "Once the ordinance's discontinuance period runs, the right is lost regardless of intent (Toys \"R\" Us v. Silva)."
+      },
+      {
+        "trap": "You have 4 months to sue over a ZBA decision.",
+        "truth": "30 days from filing with the town clerk. Four months is the general Article 78 limit; 60 days is the appeal to the ZBA."
+      },
+      {
+        "trap": "A 3–2 vote of the five members present passes on a seven-member ZBA.",
+        "truth": "A majority of the full board is required: 4 of 7."
+      },
+      {
+        "trap": "A building permit lets the buyer move in once the house is framed.",
+        "truth": "Occupancy requires a certificate of occupancy (or temporary CO) after inspection."
+      },
+      {
+        "trap": "Every project needs an EIS, and Type I means an automatic EIS.",
+        "truth": "Only a positive declaration requires an EIS; Type II needs no review and ministerial permits are outside SEQR."
+      },
+      {
+        "trap": "Building on dry ground near a marsh avoids any wetland permit.",
+        "truth": "Adjacent areas are regulated: 100 feet for freshwater, up to 300 feet (150 in NYC) for tidal wetlands."
+      },
+      {
+        "trap": "A 100-year floodplain floods once a century.",
+        "truth": "It has a 1% chance every year, about 26% over a 30-year mortgage."
+      },
+      {
+        "trap": "A ZBA variance overrides a stricter recorded covenant.",
+        "truth": "Both apply and the stricter controls; covenant holders can still sue."
+      }
+    ],
+    "mnemonics": [
+      {
+        "name": "PETE",
+        "meaning": "Police power, Eminent domain, Taxation, Escheat: the four government powers over private land. Only eminent domain pays the owner."
+      },
+      {
+        "name": "U goes with U",
+        "meaning": "Use variance needs Unnecessary hardship; the area variance gets the balancing test."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Density with a bonus",
+        "formula": "Units = acres × units per acre × (1 + bonus %)",
+        "example": "30 × 2 = 60; 60 × 1.20 = 72 units"
+      },
+      {
+        "name": "Inclusionary split",
+        "formula": "Market-rate units = total − (total × affordable %)",
+        "example": "120 − 30 = 90 market-rate units"
+      },
+      {
+        "name": "Variance substantiality",
+        "formula": "Relief % = (required − proposed) ÷ required",
+        "example": "(20 − 15) ÷ 20 = 25%"
+      },
+      {
+        "name": "Subdivision lot yield",
+        "formula": "Lots = acres × (1 − improvement share) ÷ minimum lot size, rounded down",
+        "example": "30 × 0.75 ÷ 2 = 11.25, so 11 lots"
+      },
+      {
+        "name": "Floor area ratio",
+        "formula": "Maximum floor area = lot area × FAR",
+        "example": "10,000 sq ft × 2.0 = 20,000 sq ft"
+      },
+      {
+        "name": "Protest supermajority",
+        "formula": "Votes = members × 3/4, rounded up",
+        "example": "7 × 0.75 = 5.25, so 6"
+      },
+      {
+        "name": "ZBA majority",
+        "formula": "Votes = half of full membership, rounded down, + 1 (one more to override a county disapproval or modification)",
+        "example": "5 members: 3 (4 to override); 7 members: 4 (5 to override)"
+      },
+      {
+        "name": "Partial-taking compensation",
+        "formula": "Value before − value after",
+        "example": "$500,000 − $380,000 = $120,000"
+      },
+      {
+        "name": "Flood chance over a loan",
+        "formula": "1 − (1 − annual chance)^years",
+        "example": "1 − 0.99^30 ≈ 26%"
+      },
+      {
+        "name": "Adirondack density",
+        "formula": "Acres per building = 640 ÷ buildings per square mile",
+        "example": "640 ÷ 15 ≈ 42.7 acres"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Land-use basics and the four government powers",
+      "intro": "Ownership gives the bundle of rights (possess, use, exclude, transfer), but every right yields to public regulation and valid private restrictions. For any project ask: does zoning allow it, do other government approvals allow it, and do private restrictions allow it?",
+      "points": [
+        "**Police power** lets government regulate property to protect public health, safety, morals and general welfare. New York delegates it to cities, towns and villages (zoning, building codes, subdivision rules), and the State uses it for rules such as rent regulation. A valid regulation owes **no compensation**, even if value drops.",
+        "**Eminent domain** takes property for **public use** with **just compensation** through **condemnation**. **Taxation** includes property taxes and **special assessments** on land benefited by a local improvement such as a sewer; unpaid taxes end in **tax foreclosure**. **Escheat** passes property to the State when an owner dies with no will and no heirs; any qualifying relative, even a first cousin, prevents it.",
+        "An **as-of-right** use meets the zoning without a variance or special permit, though a building permit is still needed. New York requires zoning rules to be **uniform** for each kind of building within a district (Town Law §262)."
+      ],
+      "table": {
+        "head": [
+          "Power",
+          "What it does",
+          "Owner paid?",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Police power",
+            "Regulates use for health, safety and welfare",
+            "No, unless it becomes a taking",
+            "Zoning, codes, rent regulation"
+          ],
+          [
+            "Eminent domain",
+            "Takes property for public use",
+            "Yes, fair market value",
+            "Highway widening"
+          ],
+          [
+            "Taxation",
+            "Raises revenue; liens and tax foreclosure",
+            "No",
+            "Property tax, special assessment"
+          ],
+          [
+            "Escheat",
+            "Takes property with no owner or heir",
+            "No",
+            "Owner dies intestate without heirs"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Planning and the bodies that regulate land use",
+      "intro": "In New York, land use is mostly local: the elected legislative body makes the rules, appointed boards (the planning board and the zoning board of appeals, or ZBA) apply them, and county and state agencies add layers.",
+      "points": [
+        "The **comprehensive plan** (master plan) sets long-range goals for land use, housing, transportation, utilities and open space, drawing on **demography** (population statistics), **census tracts** (small Census Bureau statistical areas), **topography** (land contours) and **infrastructure** (roads, water, sewer, schools). The planning board may draft it, but the **legislative body adopts it** (Town Law §272-a).",
+        "Zoning must be **in accordance with a comprehensive plan** (Town Law §263), but the plan is a guide: if it calls for shops while the map still says single-family, the **current zoning controls** until the legislative body rezones.",
+        "The **official map** shows existing and proposed streets, parks and drainage; in towns a building permit generally requires access from a street on the official map, an existing public highway or an approved plat (Town Law §280-a). **Capital budgeting** schedules and funds public improvements.",
+        "The **Open Meetings Law** (Sunshine Law) opens planning board, ZBA and legislative meetings to the public, including ZBA deliberations; the **Freedom of Information Law (FOIL)** covers records. Both are New York State laws.",
+        "Enforcement runs through the building department or code enforcement officer, the board of health, professional consultants (engineers, surveyors, planners) and the courts. **FHA approval** of homes for FHA-insured loans is a separate federal track."
+      ],
+      "table": {
+        "head": [
+          "Body",
+          "Land-use job",
+          "Exam angle"
+        ],
+        "rows": [
+          [
+            "Town board, village board of trustees or city council (elected)",
+            "Adopts and amends zoning and the comprehensive plan; imposes moratoriums",
+            "Only it can rezone"
+          ],
+          [
+            "Planning board (appointed)",
+            "Subdivision plats, site plans, cluster plans, often special permits; advises on the plan",
+            "No variances, no rezoning"
+          ],
+          [
+            "Zoning board of appeals (appointed; usually 3 or 5 members)",
+            "Appeals from the zoning officer, interpretations, use and area variances",
+            "Quasi-judicial"
+          ],
+          [
+            "Building department or code enforcement officer",
+            "Building permits, inspections, certificates of occupancy (COs), violations",
+            "Ministerial"
+          ],
+          [
+            "County planning agency",
+            "Reviews zoning actions within 500 feet of municipal lines, state or county roads and parks",
+            "Acting against its disapproval or modification takes a majority plus one"
+          ],
+          [
+            "NYC: City Council, City Planning Commission, Board of Standards and Appeals (BSA), Department of Buildings (DOB)",
+            "Zoning map changes go through the Uniform Land Use Review Procedure (ULURP), or the faster ELURP that the 2025 Charter amendments created for modest housing rezonings; BSA grants variances; DOB issues permits and COs",
+            "BSA is NYC's ZBA"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Zoning districts, bulk rules and key terms",
+      "intro": "**Zoning** divides a municipality into districts, each with permitted uses and dimensional rules. Towns zone under the Town Law, villages under the Village Law and cities under the General City Law; New York City's 1916 resolution was the nation's first comprehensive zoning code.",
+      "points": [
+        "A zoning law has a **map** (district lines) and **text** (permitted, specially permitted and prohibited uses, plus dimensional rules). **Village of Euclid v. Ambler Realty** (1926) upheld use-district zoning as police power, hence the name **Euclidean zoning**.",
+        "Classifications include residential, commercial, industrial, agricultural, institutional (schools, hospitals), open space, parks and recreation, vacant land and conservation land.",
+        "**Bulk rules** set lot area, frontage, **setbacks** (minimum distances from lot lines), height, lot coverage, density (units per acre) and parking. **Floor area ratio (FAR)** = gross floor area ÷ lot area.",
+        "**Family** is defined locally, but New York's highest court struck a definition that excluded households functioning as a family (McMinn v. Town of Oyster Bay, 1985). Under the Padavan Law (Mental Hygiene Law §41.34), a licensed community residence for up to 14 people with mental disabilities counts as a **family unit**; the municipality has 40 days to approve the site, suggest another or object to over-concentration.",
+        "Listing on the State or National Register (handled in New York by the **Office of Parks, Recreation and Historic Preservation (OPRHP)**) does not by itself restrict a private owner using private funds; a local landmarks law can."
+      ],
+      "table": {
+        "head": [
+          "Term",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "Accessory use",
+            "Incidental to the main use on the lot, such as a garage or shed"
+          ],
+          [
+            "Accessory apartment",
+            "Second, smaller unit with a single-family home, where the ordinance allows"
+          ],
+          [
+            "Home occupation",
+            "A resident's business inside the dwelling with little outward sign"
+          ],
+          [
+            "Group home",
+            "Residence for unrelated people who need support; often treated as a family"
+          ],
+          [
+            "Abutting",
+            "Sharing a boundary"
+          ],
+          [
+            "Easement",
+            "Right to use another's land for a limited purpose"
+          ],
+          [
+            "Right-of-way",
+            "Easement or strip of land for passage"
+          ],
+          [
+            "Cul-de-sac",
+            "Dead-end street ending in a turnaround"
+          ],
+          [
+            "Air rights",
+            "Right to use the space above land; can be sold separately"
+          ],
+          [
+            "Survey",
+            "Measures boundaries and locates improvements and encroachments"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: floor area ratio",
+        "steps": [
+          "A 10,000 sq ft lot allows a maximum FAR of 2.0.",
+          "Maximum floor area = 10,000 × 2.0 = 20,000 sq ft, such as 4 stories of 5,000 sq ft if height rules allow.",
+          "Answer: 20,000 sq ft of floor area."
+        ]
+      }
+    },
+    {
+      "heading": "Zoning techniques",
+      "intro": "Exam questions describe a flexible zoning tool and ask for its name.",
+      "points": [
+        "**Cluster development** (Town Law §278): if the town board authorizes it, the planning board may shrink lots to preserve open space, but total units may **not exceed** a conventional layout. A **planned unit development (PUD)** goes further, mixing housing types and commercial uses under one master plan.",
+        "**Incentive zoning** (Town Law §261-b) trades bonus density or floor area for amenities. **Transfer of development rights** (TDR, Town Law §261-a) lets owners of preserved land, such as farms or landmarks, sell unused rights for use in a receiving area.",
+        "**Inclusionary zoning** requires or rewards affordable units. **Exclusionary zoning**, such as huge minimum lots, keeps lower-income households out, and New York requires zoning to weigh regional housing needs (Berenson v. Town of New Castle, 1975). **Downzoning** (lowering allowed density) is valid without compensation unless it becomes a taking."
+      ],
+      "table": {
+        "head": [
+          "Technique",
+          "Key idea"
+        ],
+        "rows": [
+          [
+            "Cumulative (pyramid)",
+            "Higher uses allowed in lower districts, so a house in a light-industrial zone is fine"
+          ],
+          [
+            "Exclusive",
+            "Only listed uses, so homes can be barred from industrial zones"
+          ],
+          [
+            "Overlay",
+            "Extra rules (historic, flood) laid over base districts; base uses unchanged"
+          ],
+          [
+            "Floating",
+            "In the text but unmapped until applied to a qualifying parcel (Rodgers v. Village of Tarrytown, 1951)"
+          ],
+          [
+            "Buffer",
+            "Transitional district between incompatible uses"
+          ],
+          [
+            "Incentive",
+            "Bonus for amenities"
+          ],
+          [
+            "Inclusionary",
+            "Affordable units (NYC Mandatory Inclusionary Housing)"
+          ],
+          [
+            "Cluster",
+            "Same density, smaller lots, open space"
+          ],
+          [
+            "PUD",
+            "Mixed uses under one master plan"
+          ],
+          [
+            "TDR",
+            "Development rights moved from a sending to a receiving area"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: density bonus and affordable split",
+        "steps": [
+          "Base density: 30 acres × 2 units per acre = 60 units.",
+          "20% incentive bonus for a park: 60 × 0.20 = 12, so 72 units (not 60 + 20 = 80).",
+          "Inclusionary rule: 25% of a 120-unit building = 30 affordable units, leaving 120 − 30 = 90 market-rate.",
+          "Answer: 72 units; 90 market-rate units."
+        ]
+      }
+    },
+    {
+      "heading": "Rezoning, spot zoning and moratoriums",
+      "intro": "Changing the zoning map or text is a **legislative** act of the elected board, taken after a public hearing with at least 10 days' published notice.",
+      "points": [
+        "A rezoning passes by simple majority unless owners of **20%** of the land being changed, or of land within **100 feet** of it (adjacent or directly opposite), file a written **protest**; then it needs **three-fourths** of the whole town board (Town Law §265).",
+        "Zoning actions within **500 feet** of a municipal boundary or a state or county road or park go to the county planning agency (General Municipal Law §239-m); if it recommends disapproval or modification, acting against it takes a **majority plus one** of all members.",
+        "**Spot zoning** singles out a small parcel for a different use, mainly for its owner and against the comprehensive plan, and is invalid. A small rezoning that **implements the plan** is valid.",
+        "A hardship shared by a whole area, such as highway noise on every lot, calls for **rezoning**, not individual use variances.",
+        "A **moratorium** temporarily halts specified development while the town plans or adds capacity; a reasonable one is valid police power and not automatically a taking."
+      ],
+      "example": {
+        "title": "Worked example: protest-petition vote",
+        "steps": [
+          "A seven-member town board receives a valid protest.",
+          "7 × 3/4 = 5.25, rounded up to 6.",
+          "Answer: 6 yes votes (a simple majority would be 4)."
+        ]
+      }
+    },
+    {
+      "heading": "Variances and special use permits",
+      "intro": "A **variance** lets one parcel depart from the zoning rules. The ZBA grants two kinds with different tests (Town Law §267-b; villages and cities use the same tests). A **special use permit** is not a variance.",
+      "points": [
+        "Classify first. A **use variance** allows a prohibited use, such as a store in a residential zone or a two-family house in a one-family district. An **area variance** relaxes a dimensional rule for a permitted use (setback, height, lot size, frontage, coverage, parking), such as a deck 6 feet into a rear yard or a house on a 9,000 sq ft lot where 10,000 is required.",
+        "**Use variance**: the applicant must prove **unnecessary hardship**: (1) no **reasonable return** from **each and every** permitted use, shown by **competent financial evidence**; (2) a **unique** hardship, not shared by much of the district; (3) no change to the neighborhood's **essential character**; (4) **not self-created**, and buying with knowledge of the zoning is self-created. The syllabus phrases element 1 as being deprived of all economic use. Proof that another use would earn more is not enough.",
+        "**Area variance**: the ZBA balances benefit to the applicant against detriment to the community, weighing (1) undesirable change or harm to neighbors, (2) a feasible alternative, (3) **substantiality**, (4) physical or environmental effects and (5) **self-created** difficulty, which counts but is **not fatal**. The syllabus's older label is practical difficulty.",
+        "The ZBA grants the **minimum variance** necessary and may impose reasonable, land-related conditions. A variance **runs with the land**, so a condition ending it on sale is invalid (St. Onge v. Donovan, 1988).",
+        "A **special use permit** (special exception, conditional use) approves a use the ordinance already lists for the district once stated **standards** are met, with **no hardship** showing. The legislative body chooses the issuing board (often the planning board), which holds a public hearing within 62 days and may add reasonable conditions (Town Law §274-b)."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Use variance",
+          "Area variance",
+          "Special use permit"
+        ],
+        "rows": [
+          [
+            "Allows",
+            "A prohibited use",
+            "Relief from a dimensional rule",
+            "A listed use, with conditions"
+          ],
+          [
+            "Decided by",
+            "ZBA",
+            "ZBA",
+            "Designated board"
+          ],
+          [
+            "Test",
+            "Unnecessary hardship (4 elements)",
+            "Benefit vs detriment (5 factors)",
+            "Meets the standards"
+          ],
+          [
+            "Financial proof",
+            "Required for every permitted use",
+            "No",
+            "No"
+          ],
+          [
+            "Self-created",
+            "Fatal",
+            "One factor",
+            "Irrelevant"
+          ],
+          [
+            "Syllabus label",
+            "Unnecessary hardship",
+            "Practical difficulty",
+            "Special exception"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: how substantial is an area variance?",
+        "steps": [
+          "A 20-foot side yard is required; the addition would leave 15 feet. That is a dimensional rule, so an area variance.",
+          "Relief = 20 − 15 = 5 feet; 5 ÷ 20 = 25% (5 ÷ 15 = 33% uses the wrong base).",
+          "Answer: a 25% area variance, weighed with the other factors."
+        ]
+      }
+    },
+    {
+      "heading": "Nonconforming uses",
+      "intro": "A **lawful nonconforming use** (grandfathered) was legal before the zoning changed. An **illegal use** was never lawful and gains no protection with age.",
+      "points": [
+        "Nonconforming uses may **continue but not grow**; the goal is to phase them out over time.",
+        "Where an ordinance sets a discontinuance period (in NYC, **2 continuous years** under Zoning Resolution §52-61), the right ends when the period runs, **regardless of intent** to reopen (Toys \"R\" Us v. Silva, 1996).",
+        "**Amortization** ends a use after a reasonable period to recover the investment (Harbison v. City of Buffalo, 1958); billboards are typical targets."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "General rule"
+        ],
+        "rows": [
+          [
+            "Property is sold",
+            "Use continues; it runs with the land"
+          ],
+          [
+            "Owner wants to enlarge",
+            "Not allowed on nonconforming status alone"
+          ],
+          [
+            "Switch to another nonconforming use",
+            "Not allowed as of right"
+          ],
+          [
+            "Switch to a conforming use",
+            "Allowed; reverting is generally barred"
+          ],
+          [
+            "Discontinued for the ordinance's period",
+            "Right lost, whatever the intent"
+          ],
+          [
+            "Destroyed by fire",
+            "Rebuilding limited by the local ordinance"
+          ],
+          [
+            "Amortization period ends",
+            "Use must stop"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "ZBA procedure and Article 78 review",
+      "intro": "The ZBA is **administrative and quasi-judicial**: it applies legal standards to individual cases and makes no policy. Its power is mainly **appellate**, so an applicant usually needs a ruling from the zoning officer first.",
+      "points": [
+        "Town and village ZBAs have **3 or 5 members**; a town ZBA that already had 7 when the current law took effect may keep them until the town board reduces it. Legislative board members cannot serve, and members need **4 hours of training** a year unless the town board waives it.",
+        "Any **aggrieved** person may appeal the zoning officer's order or interpretation; the ZBA acts as the ordinance's **interpreter**, for example deciding whether a garage apartment is a prohibited second dwelling.",
+        "Every ZBA action needs a **majority of all members**, with absences and vacancies counting against it (a rehearing instead needs a unanimous vote of the members present); on an appeal, missing that majority within 62 days is a **default denial**.",
+        "**Article 78** of the Civil Practice Law and Rules is the court challenge, brought in **State Supreme Court** within **30 days** after the ZBA decision is filed with the town clerk; the general 4-month Article 78 limit does not apply. The court upholds a decision with a **rational basis** and overturns only illegal or **arbitrary and capricious** action.",
+        "In NYC the **Board of Standards and Appeals (BSA)** grants variances and hears appeals from DOB zoning rulings."
+      ],
+      "table": {
+        "head": [
+          "Step",
+          "Deadline or rule"
+        ],
+        "rows": [
+          [
+            "Appeal to the ZBA",
+            "60 days after the zoning officer's determination is filed"
+          ],
+          [
+            "Hearing notice",
+            "Published at least 5 days before"
+          ],
+          [
+            "ZBA decision",
+            "Within 62 days after the hearing"
+          ],
+          [
+            "Decision filed with the town clerk",
+            "Within 5 business days"
+          ],
+          [
+            "Article 78",
+            "Within 30 days of that filing"
+          ],
+          [
+            "Votes to act",
+            "Majority of the full board"
+          ],
+          [
+            "Against a county disapproval or modification",
+            "Majority plus one"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: counting ZBA votes",
+        "steps": [
+          "A seven-member ZBA; five attend and vote 3–2 to grant.",
+          "Needed: a majority of 7 = 4 (5 if the county recommended disapproval or modification).",
+          "Answer: not granted, because 3 is a majority of those present, not of the board."
+        ]
+      }
+    },
+    {
+      "heading": "Subdivisions, site plans and land-sale disclosure laws",
+      "intro": "A **subdivision** divides land into lots for sale or development. When the town board authorizes it, the **planning board** reviews subdivisions under Town Law §§276–278.",
+      "points": [
+        "The developer submits a **plat**, a map of lots, streets, easements, utilities and drainage, usually preliminary then final, with public hearings coordinated with SEQR environmental review.",
+        "Final approval is the authorized officer's **signature**; the owner must **file the plat with the county clerk within 62 days** or the approval expires.",
+        "Streets, drains and water lines must be built or guaranteed by a **performance bond** (term up to 3 years unless the board extends it). If the plat needs recreation land but has no suitable site, the board may require a **fee in lieu of parkland**, held for recreation.",
+        "**Site plan review** (Town Law §274-a) covers the layout of a permitted use on a site: parking, access, lighting, landscaping and drainage. **Development costs** (roads, utilities, fees) usually fall on the developer.",
+        "Consumer laws apply on top of plat approval: the federal **Interstate Land Sales Full Disclosure Act (ILSFDA)** and New York's **Real Property Law Article 9-A**, administered by the Department of State (DOS). Since 1997, Article 9-A ads need not be filed with DOS, but they must state that the filing is not DOS approval."
+      ],
+      "table": {
+        "head": [
+          "Law",
+          "Covers",
+          "Requirement",
+          "Buyer's right"
+        ],
+        "rows": [
+          [
+            "Public Health Law §§1115–1116 (water); ECL Art. 17, Title 15 (sewage)",
+            "5 or more residential lots of 5 acres or less within 3 years",
+            "Health department approves water and sewage plans before sale",
+            "No cooling-off period; lots can't be sold until approved"
+          ],
+          [
+            "RPL Article 9-A (DOS)",
+            "Vacant subdivided land, wherever located, sold or leased to NY residents on installment plans",
+            "Filing and offering statements with DOS",
+            "Cancel within 7 days; refund within 10"
+          ],
+          [
+            "ILSFDA (federal; Consumer Financial Protection Bureau)",
+            "Unimproved lots sold across state lines; under 25 lots exempt",
+            "Registration and property report for 100+ lots",
+            "Revoke within 7 days; 2 years if no report"
+          ],
+          [
+            "Martin Act (NY Attorney General)",
+            "Condo, co-op and homeowners-association offerings",
+            "Offering plan accepted for filing",
+            "Disclosure before purchase"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: maximum lot yield",
+        "steps": [
+          "30 acres; 25% goes to improvements; 2-acre minimum lots.",
+          "Usable land = 30 × 0.75 = 22.5 acres; 22.5 ÷ 2 = 11.25.",
+          "Answer: 11 lots (round down; 30 ÷ 2 = 15 ignores the improvements)."
+        ]
+      }
+    },
+    {
+      "heading": "Building codes, permits and certificates of occupancy",
+      "intro": "Zoning decides what may be built where; **building codes** decide how it must be built. Zoning relief never waives code rules.",
+      "points": [
+        "Outside NYC, the **Uniform Fire Prevention and Building Code** (Executive Law Article 18) and the Energy Code set statewide **minimums**, enforced locally, or by the county or DOS if a locality opts out.",
+        "Stricter local construction standards need **State Code Council** approval (Executive Law §379), and a **code variance** comes from a DOS **regional board of review**, not the ZBA. **NYC** has its own Construction Codes, enforced by the **Department of Buildings (DOB)**.",
+        "A **building permit** authorizes construction before work starts. A **certificate of occupancy (CO)** follows final inspection and permits **occupancy for the stated use**; it is not a title guarantee or a no-defect warranty.",
+        "A CO fixes the legal use and unit count, so converting a two-family to a three-family needs a **new or amended CO**; an extra unit is illegal even if long rented. NYC began requiring COs in **1938**; older unchanged buildings may have none, and DOB can issue a **Letter of No Objection**."
+      ],
+      "table": {
+        "head": [
+          "Document",
+          "When",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "Building permit",
+            "Before work",
+            "Authority to build"
+          ],
+          [
+            "Certificate of occupancy",
+            "After final inspection",
+            "Legal occupancy for the stated use"
+          ],
+          [
+            "Temporary CO",
+            "Safe parts finished, work remaining",
+            "Time-limited occupancy"
+          ],
+          [
+            "Amended CO",
+            "Change in use, units or egress",
+            "Updates the legal use"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "SEQR environmental review",
+      "intro": "The **State Environmental Quality Review Act (SEQR)** (ECL Article 8; 6 NYCRR Part 617) makes state and local agencies weigh environmental impacts, sometimes through an **environmental impact statement (EIS)**, before approving, funding or undertaking a **discretionary** action such as a rezoning, subdivision or variance. The Department of Environmental Conservation (DEC) writes the rules; NYC's version is City Environmental Quality Review (CEQR).",
+      "points": [
+        "**Ministerial** acts, such as a routine building permit issued once fixed standards are met, are outside SEQR (the rules also list them as Type II).",
+        "**Type I** actions (adopting a comprehensive plan or a first comprehensive zoning law, use changes affecting 25+ acres, a nonresidential project physically altering 10+ acres) require the **Full EAF** (environmental assessment form) and are likelier to need an EIS. **Type II** actions need no review. All others are **Unlisted**.",
+        "A **lead agency** coordinates review (the DEC Commissioner picks one if agencies cannot agree within 30 days) and issues a **negative declaration** (no EIS), a **conditioned negative declaration** (Unlisted actions only) or a **positive declaration** (EIS required).",
+        "Amendments effective **June 12, 2026** added environmental-justice review and made certain multifamily buildings of up to 10,000 sq ft Type II; the May 2026 state budget also exempts many housing projects on previously disturbed sites with public water and sewer. Check current rules for a live project."
+      ],
+      "table": {
+        "head": [
+          "Category",
+          "Examples",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Type I",
+            "Comprehensive plan adoption; use changes affecting 25+ acres",
+            "Full EAF; EIS likelier"
+          ],
+          [
+            "Unlisted",
+            "Anything not Type I or II",
+            "EAF and significance determination"
+          ],
+          [
+            "Type II",
+            "1–3 family home on an approved lot; deck or garage; setback variance; multifamily up to 10,000 sq ft (2026)",
+            "No further review"
+          ],
+          [
+            "Ministerial",
+            "Routine building permit",
+            "Not subject to SEQR"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: SEQR steps in order",
+        "steps": [
+          "The lead agency reviews the EAF.",
+          "It issues a positive declaration, and scoping sets the issues the EIS must cover.",
+          "A draft EIS gets at least 30 days of public comment.",
+          "A final EIS answers the comments; at least 10 days later each agency adopts a findings statement and decides.",
+          "Answer: EAF, draft EIS, final EIS, findings."
+        ]
+      }
+    },
+    {
+      "heading": "Wetlands, flood zones, coasts and the Adirondacks",
+      "intro": "State and federal programs regulate land regardless of local zoning, and they often overlap. Get a **current jurisdictional determination** instead of assuming.",
+      "points": [
+        "**Freshwater wetlands** (ECL Article 24): DEC regulates the wetland plus a **100-foot adjacent area**. An April 8, 2026 court decision annulled DEC's 2025 wetland rules, so DEC now requires permits for wetlands of **12.4 acres** or more (7.4 acres from 2028) and wetlands it mapped before 2025. Inside the Adirondack Park, the **Adirondack Park Agency (APA)** regulates wetlands instead.",
+        "**Tidal wetlands** (ECL Article 25), such as Long Island salt marshes: DEC permits cover an **adjacent area** up to **300 feet** landward (**150 feet in NYC**) unless a 10-foot contour or a road ends it sooner.",
+        "The **U.S. Army Corps of Engineers** issues Clean Water Act **§404** permits to fill federally regulated wetlands. **Coastal Erosion Hazard Areas** (ECL Article 34) need a DEC or approved local permit.",
+        "A FEMA **Special Flood Hazard Area** (100-year floodplain) has a **1% flood chance every year**. A mortgage there from a federally regulated lender, or a federally backed loan, requires **flood insurance** for the life of the loan; homeowners policies exclude flood.",
+        "The **Adirondack Park Agency** (Executive Law Article 27) classifies private land in the Park: **Hamlet** (no density limit), Moderate Intensity (about 1.3 acres per principal building), Low Intensity (3.2), Rural Use (8.5), **Resource Management** (15 buildings per square mile: 640 ÷ 15 ≈ 42.7 acres each) and Industrial Use.",
+        "**Forest Preserve** land in the Adirondacks and Catskills is **forever wild** and cannot be sold, leased or exchanged (NY Constitution Article XIV). The Catskills have no APA; local zoning, DEC and NYC watershed rules apply."
+      ],
+      "example": {
+        "title": "Worked example: flood risk over a mortgage",
+        "steps": [
+          "Annual flood chance 1%; 30-year mortgage.",
+          "No flood in 30 years = 0.99^30 ≈ 0.74.",
+          "At least one flood = 1 − 0.74 = 0.26.",
+          "Answer: about 26% (not 30%)."
+        ]
+      }
+    },
+    {
+      "heading": "Eminent domain, condemnation and takings",
+      "intro": "The Fifth Amendment and New York Constitution Article I, §7 allow takings only for **public use** with **just compensation**, following New York's **Eminent Domain Procedure Law (EDPL)**.",
+      "points": [
+        "Condemnors include the State, municipalities, school districts, public authorities and some utilities. No owner consent is needed; refusing an offer affects only the payment.",
+        "An owner who challenges the condemnor's published public-use **determination and findings** must petition the **Appellate Division within 30 days** (EDPL §207).",
+        "The condemnor's written offer must be at least its highest approved appraisal (EDPL §303); the owner may take it as an **advance payment** and still claim more (§304). A claim against the State goes to the Court of Claims within **3 years** of vesting or the notice of acquisition, whichever is later (§503); other condemnors are generally sued in Supreme Court.",
+        "**Just compensation** is **fair market value** at **highest and best use**, not purchase price or assessed value. A **partial taking** adds **severance damages** for the remainder's lost value.",
+        "**Inverse condemnation** is the owner's suit when government effectively takes property without condemning it, such as permanent flooding or constant low flights.",
+        "A rule that destroys **all** economic use is generally a taking (Lucas, 1992); otherwise courts balance impact and expectations, as when NYC's landmarks law was upheld for Grand Central (Penn Central, 1978). Kelo v. City of New London (2005) accepted economic development as a public use."
+      ],
+      "example": {
+        "title": "Worked example: partial taking",
+        "steps": [
+          "Value before $500,000; after $380,000; the strip alone is worth $90,000.",
+          "Compensation = $500,000 − $380,000 = $120,000.",
+          "Severance damages = $120,000 − $90,000 = $30,000.",
+          "Answer: $120,000; paying only $90,000 ignores the remainder's loss."
+        ]
+      }
+    },
+    {
+      "heading": "Private land-use controls",
+      "intro": "Private restrictions apply alongside zoning. The owner must satisfy both, so the **stricter** rule controls.",
+      "points": [
+        "A **deed restriction** or **restrictive covenant** is a recorded limit on use (single-family only, setbacks, design approval); subdivisions often record **covenants, conditions and restrictions (CC&Rs)** enforced by a homeowners association (HOA). Recording gives **constructive notice**, so later owners are bound even if they never read them.",
+        "Covenant breach brings an **injunction or damages** from benefited owners. A deed **condition** with a **right of re-entry** (fee simple subject to a condition subsequent) can cost the owner **title**.",
+        "A ZBA variance or building permit **does not release** a covenant: the municipality enforces zoning, while private parties enforce covenants.",
+        "Covenants end by expiration, release, merger, or a court finding they give no real benefit because of **changed conditions** (RPAPL §1951). Under the **doctrine of laches**, owners who unreasonably delay enforcement may lose the right.",
+        "**Discriminatory covenants** are unenforceable (**Shelley v. Kraemer**, 1948) and banned by fair housing laws, however old the deed."
+      ],
+      "table": {
+        "head": [
+          "Control",
+          "Enforced by",
+          "Remedy"
+        ],
+        "rows": [
+          [
+            "Covenant or deed restriction",
+            "Benefited owners or HOA",
+            "Injunction or damages"
+          ],
+          [
+            "Condition with right of re-entry",
+            "Grantor or heirs",
+            "Loss of title"
+          ],
+          [
+            "Zoning",
+            "Municipality",
+            "Fines, violation and stop-work orders"
+          ],
+          [
+            "Easement or right-of-way",
+            "Easement holder",
+            "Injunction or damages"
+          ]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS 77-hour salesperson syllabus, Subject 6: Land Use Regulations",
+    "NY Town Law §§261-a, 261-b, 262, 263, 264, 265, 267–267-c, 272-a, 274-a, 274-b, 276–278, 280-a; Village Law Art. 7",
+    "NY General Municipal Law §239-m; Public Officers Law Arts. 6–7",
+    "NY Executive Law Arts. 18 and 27; 19 NYCRR Part 1205; NYC Admin. Code Title 28",
+    "NY ECL Arts. 8, 24, 25, 34; 6 NYCRR Part 617 (amended June 12, 2026); DEC Freshwater Wetlands Program (2026); Sup. Ct. Albany Co. (Platkin, J.) decision of Apr. 8, 2026 annulling 6 NYCRR Part 664",
+    "NY Eminent Domain Procedure Law §§207, 303, 304, 501, 503; NY Const. Art. I §7 and Art. XIV",
+    "NY RPL Art. 9-A and DOS memorandum on subdivided lands; Public Health Law §§1115–1116; ECL Art. 17, Title 15; 15 U.S.C. §§1702–1703",
+    "NY Mental Hygiene Law §41.34; RPAPL §1951; RPL §291; 42 U.S.C. §4012a; Clean Water Act §404; NYC Zoning Resolution §52-61; NYC Charter §§197-c, 197-e",
+    "Euclid v. Ambler (1926); Penn Central (1978); Lucas (1992); Kelo (2005); Shelley v. Kraemer (1948); Rodgers v. Tarrytown (1951); Harbison v. Buffalo (1958); Berenson v. New Castle (1975); McMinn v. Oyster Bay (1985); St. Onge v. Donovan (1988); Toys \"R\" Us v. Silva (1996)"
+  ]
+}

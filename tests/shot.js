@@ -1,5 +1,5 @@
 // Screenshot one screen with realistic seeded progress.
-// Usage: node tests/shot.js <home|build|quiz-study|quiz-study-answered|quiz-exam|results|history|mistakes|more> <out.png> [--full] [--device=phone|ipad-mini|ipad-portrait|ipad-landscape|ipad-pro-landscape]
+// Usage: node tests/shot.js <home|study|study-cram|study-notes|build|quiz-study|quiz-study-answered|quiz-exam|results|history|mistakes|more> <out.png> [--full] [--topic=agency] [--device=phone|ipad-mini|ipad-portrait|ipad-landscape|ipad-pro-landscape]
 const { chromium, devices } = require('playwright');
 const serve = require('./serve');
 const bank = require('../questions.json');
@@ -79,6 +79,9 @@ state.history = [mk('Mock NYS State Exam', 'exam', 75, .74, 0), mk('Quick 10-Que
     }
   } else if (shot === 'results') {
     await go(`results/${state.history[0].id}`);
+  } else if (shot === 'study-cram' || shot === 'study-notes') {
+    const topic = (flags.find((f) => f.startsWith('--topic=')) || '--topic=agency').slice(8);
+    await go(`study/${topic}${shot === 'study-notes' ? '/notes' : ''}`);
   } else {
     await go(shot);
   }

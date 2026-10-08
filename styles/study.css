@@ -1,0 +1,94 @@
+/* study screen styles: chapter list, cram sheet, full notes (scoped with st- prefixes). */
+
+/* Chapter list */
+.st-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.st-row {
+  display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 12px 14px; border-radius: var(--r-card);
+  background: var(--surface); text-decoration: none; color: var(--ink);
+}
+.st-row:active { background: var(--raised); }
+.st-row-t { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.st-row-t strong { font-size: 17px; font-weight: 650; }
+.st-row .ic { color: var(--ink-2); width: 18px; height: 18px; }
+
+/* Chapter header bits */
+.st-intro { display: flex; gap: 12px; align-items: flex-start; }
+.st-intro .bullet { margin-top: 2px; }
+.st-intro p { margin: 0; color: var(--ink-2); font-size: 16px; line-height: 1.55; }
+.st-seg a {
+  min-height: 44px; display: grid; place-items: center; border-radius: 10px; color: var(--ink-2);
+  font-size: 15px; font-weight: 650; text-decoration: none;
+}
+.st-seg a[aria-current="page"] { background: var(--raised-2); color: var(--ink); }
+
+/* Cram sheet */
+.st-cram, .st-notes { display: flex; flex-direction: column; gap: var(--section); }
+.st-cram h2, .st-notes h2 { margin-bottom: 10px; }
+.st-nums { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.st-nums div { background: var(--surface); border-radius: var(--r-ctl); padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
+.st-nums dt { font-size: 22px; color: var(--go); line-height: 1.15; }
+.st-nums dd { margin: 0; font-size: 14px; line-height: 1.4; color: var(--ink-2); }
+.st-must { margin: 0; padding: 16px 16px 16px 40px; display: flex; flex-direction: column; gap: 10px; }
+.st-must li { font-size: 16px; line-height: 1.5; padding-left: 4px; }
+.st-must li::marker { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.st-traps, .st-formulas, .st-mnem { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.st-traps .card { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+.st-trap, .st-truth { margin: 0; display: flex; gap: 10px; align-items: flex-start; font-size: 15px; line-height: 1.5; }
+.st-trap { color: #fca5a5; }
+.st-truth { color: var(--ink); }
+.st-trap .ic { color: var(--stop); width: 18px; height: 18px; margin-top: 2px; }
+.st-truth .ic { color: var(--go); width: 18px; height: 18px; margin-top: 2px; }
+.st-formulas .card, .st-mnem .card { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+.st-formulas code { font: 600 16px/1.4 var(--font-display); color: #c7d2fe; white-space: normal; }
+.st-mnem span { color: var(--ink-2); font-size: 15px; line-height: 1.5; }
+
+/* Full notes */
+.st-toc ol { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; }
+.st-toc .link { text-align: left; color: var(--ink); font-weight: 500; font-size: 15px; padding: 10px 0; min-height: 44px; width: 100%; }
+.st-body { display: flex; flex-direction: column; gap: 12px; }
+.st-sec { scroll-margin-top: calc(var(--st) + 96px); }
+.st-sec h2 { font-size: 19px; }
+.st-lead { color: var(--ink-2); font-size: 16px; line-height: 1.55; }
+.st-points { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.st-points li { font-size: 16px; line-height: 1.55; }
+.st-points li::marker { color: var(--go); }
+.st-table { margin-top: 14px; overflow-x: auto; border-radius: var(--r-ctl); background: var(--canvas); -webkit-overflow-scrolling: touch; }
+.st-table table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; line-height: 1.45; }
+.st-table th, .st-table td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line-2); }
+.st-table th { color: var(--ink-2); font-weight: 650; font-size: 13px; background: var(--raised); position: sticky; top: 0; }
+.st-table td:first-child { color: var(--ink); font-weight: 600; }
+.st-table tr:last-child td { border-bottom: 0; }
+.st-example { margin-top: 14px; padding: 14px 16px; border-radius: var(--r-ctl); background: var(--canvas); border-left: 3px solid var(--go); }
+.st-example h3 { font-size: 16px; margin: 0 0 8px; }
+.st-example ol { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.st-sources ul { margin: 0; padding-left: 20px; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+.st-pager { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.st-nav { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-radius: var(--r-card); background: var(--surface); text-decoration: none; color: var(--ink); min-height: 64px; min-width: 0; font-size: 14px; }
+.st-nav * { white-space: normal; }
+.st-pager .st-nav:last-child { text-align: right; align-items: flex-end; }
+
+@media (hover: hover) and (pointer: fine) {
+  .st-row:hover, .st-nav:hover { background: var(--raised); }
+  .st-toc .link:hover { color: var(--go); }
+}
+
+/* Tablet: two-column chapter list, 3–4 number tiles, readable 70ch notes column. */
+@media (min-width: 700px) {
+  .st-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .st-nums { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .st-traps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .st-formulas, .st-mnem { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .st-intro p, .st-points li, .st-lead { font-size: 17px; }
+  .st-points, .st-lead, .st-example ol { max-width: 70ch; }
+  .st-must { columns: 2; column-gap: 36px; display: block; }
+  .st-must li { break-inside: avoid; margin-bottom: 10px; }
+  body[data-route="study"] .st-seg { max-width: 420px; }
+}
+/* Wide (iPad landscape): sticky table of contents beside the notes. */
+@media (min-width: 1100px) {
+  .st-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .st-nums { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .st-notes { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; align-items: start; }
+  .st-toc { position: sticky; top: calc(var(--st) + 100px); max-height: calc(100dvh - var(--st) - 220px); overflow-y: auto; }
+  .st-toc .link { font-size: 14px; padding: 8px 0; }
+}

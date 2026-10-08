@@ -1038,15 +1038,15 @@
   {
     "id": "rentals-dealsheet-b014",
     "topic": "rentals-dealsheet",
-    "q": "An NYC apartment rents for $2,800 a month. An applicant's housing voucher pays $2,100 of it, and she pays the rest. The landlord uses a 40-times-the-rent income test. What is the most income the landlord may lawfully require of her?",
+    "q": "An NYC apartment rents for $2,800 a month. An applicant's Section 8 voucher pays $2,100, and she pays the $700 share that the program calculated from her income. The landlord uses a 40-times-the-rent income test. Under NYC Commission on Human Rights guidance, what is the most income the landlord may lawfully require of her?",
     "options": [
       "$112,000",
       "$84,000",
       "$28,000",
-      "$0, because no income test is allowed"
+      "$0, because her share was set from her income"
     ],
-    "answer": 2,
-    "explanation": "Under source-of-income guidance, an income test may apply only to the tenant's own share of the rent: $2,800 − $2,100 = $700, and $700 × 40 = $28,000. Applying 40× to the full rent ($112,000) discriminates against voucher holders. A ban on any income test applies only when the voucher covers 100% of the rent.",
+    "answer": 3,
+    "explanation": "When a voucher program calculates the tenant's share from her income, as Section 8 and CityFHEPS do, the NYC Commission treats any additional income requirement as source-of-income discrimination. So the landlord may require no minimum income. $112,000 applies 40× to the full rent, $84,000 to the voucher's share, and $28,000 to her $700 share; all three are unlawful screening.",
     "citation": "NYC Admin. Code § 8-107(5); NYC Commission on Human Rights source-of-income guidance; Executive Law § 296(5)"
   },
   {

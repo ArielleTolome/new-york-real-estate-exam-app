@@ -1,0 +1,995 @@
+{
+  "topic": "fair-housing",
+  "title": "Human Rights & Fair Housing",
+  "overview": "Subject 9 of the 77-hour course (6 hours): federal, New York State, and New York City anti-discrimination law, plus New York's licensee duties (the DOS-2156 disclosure, the posted notice, the disability-rights notice, and the broker's standardized operating procedures). Expect to name the violation, match a protected class to the right law, test whether an exemption applies, and recall New York deadlines. Themes: New York protects far more people than federal law; exemptions are narrow and, apart from senior housing, never extend to a licensee; a client's instruction is never a defense; and disability questions turn on whether a policy or the property must change.",
+  "cram": {
+    "numbers": [
+      {
+        "value": "1866",
+        "label": "Civil Rights Act: race only, no exemptions, enforced by private lawsuit"
+      },
+      {
+        "value": "7",
+        "label": "FHA classes: race, color, religion, national origin (1968); sex (1974); disability and familial status (1988)"
+      },
+      {
+        "value": "3 houses / 1 sale per 24 months",
+        "label": "Federal single-family exemption: homes the owner may own; one sale per 24 months if the owner wasn't living there or the last occupant"
+      },
+      {
+        "value": "4 units / 2 families",
+        "label": "Owner-occupied rental exemption: federal 'Mrs. Murphy' limit / New York limit (owner lives in one unit)"
+      },
+      {
+        "value": "80% / 62+",
+        "label": "55+ housing: 80% of occupied units have a resident 55+, plus policies and age verification / 62+ housing: every occupant 62+"
+      },
+      {
+        "value": "18 / 65",
+        "label": "NY age protection in housing starts at 18; NY expressly allows housing discounts for people 65+"
+      },
+      {
+        "value": "March 13, 1991",
+        "label": "Accessible-design rules cover buildings of 4+ units first occupied after this date"
+      },
+      {
+        "value": "1 / 2 / 3 years",
+        "label": "HUD complaint / private FHA lawsuit / NYS Division of Human Rights complaint"
+      },
+      {
+        "value": "1 year",
+        "label": "NYC Commission on Human Rights complaint (3 years for gender-based harassment)"
+      },
+      {
+        "value": "3 years",
+        "label": "Keep the DOS-2156 acknowledgment, electronic copy, or sworn refusal declaration"
+      },
+      {
+        "value": "30 days",
+        "label": "Re-post changed SOPs; landlord gives new tenants the disability-rights notice; ECOA credit decision"
+      },
+      {
+        "value": "5 years",
+        "label": "Longest a nonsolicitation order or cease-and-desist zone rule runs before re-adoption"
+      },
+      {
+        "value": "$2,000",
+        "label": "Maximum DOS fine (RPL §441-c); half goes to the anti-discrimination in housing fund"
+      },
+      {
+        "value": "$50,000 / $100,000",
+        "label": "DHR civil fines: ordinary / willful, wanton, or malicious; DHR housing punitive damages capped at $10,000"
+      },
+      {
+        "value": "3 + 2 + 2 hours",
+        "label": "CE each 2-year term: fair housing 3, implicit bias 2, cultural competency 2 (inside the 22.5)"
+      },
+      {
+        "value": "3 / 5 years",
+        "label": "NYC Fair Chance Housing look-back: misdemeanors 3, felonies 5 (from release or sentencing)"
+      }
+    ],
+    "mustKnow": [
+      "The **Civil Rights Act of 1866** covers **race only**, has **no exemptions**, and is enforced by private lawsuit; **Jones v. Alfred H. Mayer Co. (1968)** applied it to private sellers under the **Thirteenth Amendment**.",
+      "The **Fair Housing Act** (1968) protects **seven classes**: race, color, religion, national origin, sex (1974), disability and familial status (1988).",
+      "**Familial status** = a child under 18 with a parent, custodian, or designee, plus anyone **pregnant** or securing custody. **Disability** includes being **regarded as** impaired; **current illegal drug use** is excluded.",
+      "**NY Executive Law §296** adds **creed, age (18+), marital status, sexual orientation, gender identity or expression, military status, lawful source of income (statewide), citizenship or immigration status, and domestic-violence-victim status**.",
+      "**Marital status** is the person's own status; a married-couples-only rule for partners isn't marital-status discrimination (**Levin v. Yeshiva**).",
+      "**NYC** adds **lawful occupation, partnership status, height and weight**, and **criminal record** (Fair Chance Housing Law, 2025). A federal exemption is no defense to a state or city violation.",
+      "**Steering** channels home seekers by area, building, or floor; **blockbusting** induces owners to sell by predicting a protected group's arrival (the **attempt alone** violates); **redlining** denies or worsens loans or insurance by area.",
+      "A **client's instruction** never authorizes discrimination; the licensee who follows it is liable too (§296(5)(c)), and aiding or abetting is itself a violation (§296(6)).",
+      "**Federal exemptions**: an owner's single-family home (no broker), owner-occupied buildings of **4 units or fewer**, religious organizations, private clubs, and senior housing. None covers **race** or permits a discriminatory ad.",
+      "New York's owner-occupied exemption stops at **two families**, covers refusals and terms only, and is **lost** by a discriminatory ad. A NY **broker** shares only the senior-housing exemption.",
+      "**Accommodation** = change to a rule, policy, or service (provider pays unless undue burden); **modification** = physical change (tenant pays in private housing; interior restoration may be required).",
+      "Disability requests may be **oral**; if the need isn't obvious, the provider may ask for reliable proof of the disability-related need but **not the diagnosis or medical records**.",
+      "**Assistance animals are not pets**: NY §296(18)(2) covers 'the use of an animal' for a disability, and NY housing guidance bars pet fees or deposits for one. HUD's withdrawal of **FHEO-2020-01** (effective Sept. 17, 2025) and its May 2026 trained-animals-only charging policy don't change that.",
+      "**ADA Title III** covers a **brokerage or leasing office**; the apartments themselves fall under the **FHA**.",
+      "**DOS-2156** (19 NYCRR §175.28) goes to every prospective buyer, seller, tenant, and landlord at **first substantive contact**, for **all property types**, in writing (**oral never counts**); keep proof **3 years**. The §175.29 posting doesn't replace it.",
+      "The **disability-rights notice** (Exec. Law §170-d) goes to prospective tenants at **first substantive contact**; landlords give it to new tenants within **30 days**.",
+      "**RPL §442-h(4)** SOPs say whether buyers need **ID**, an **exclusive buyer agreement**, or **mortgage pre-approval**; they're date-stamped, notarized, posted, and applied to every buyer alike.",
+      "**Nonsolicitation orders** cover a whole area; **cease-and-desist lists** cover owners who opt out. Never solicit an owner on a current list.",
+      "**ECOA** bars credit discrimination for race, color, religion, national origin, sex, **marital status, age**, **public assistance** income, or good-faith use of credit rights."
+    ],
+    "traps": [
+      {
+        "trap": "Marital status is protected by the federal Fair Housing Act.",
+        "truth": "It isn't; NY Executive Law §296 protects it (and ECOA, for credit). FHA familial status means children under 18 and pregnancy."
+      },
+      {
+        "trap": "An owner who lives in a three- or four-family house is exempt in New York.",
+        "truth": "New York's exemption stops at two families; the four-unit 'Mrs. Murphy' limit is federal and doesn't remove state liability."
+      },
+      {
+        "trap": "An FHA exemption lets a private owner turn down a buyer because of race.",
+        "truth": "The 1866 Civil Rights Act has no exemptions, so race discrimination is illegal in every transaction."
+      },
+      {
+        "trap": "If the owner is exempt, the listing agent may follow an 'adults only' or 'no vouchers' instruction.",
+        "truth": "Exemptions belong to owners: NY §296(5)(c) gives brokers no two-family or room-rental exemption, and the ad is illegal on its own."
+      },
+      {
+        "trap": "Adding the Equal Housing Opportunity logo makes a 'no kids' or 'no Section 8' ad acceptable.",
+        "truth": "A logo never cures discriminatory words or images; describe the property, not the occupant."
+      },
+      {
+        "trap": "Source-of-income protection applies only in New York City.",
+        "truth": "It is statewide under Executive Law §296; NYC protects it too."
+      },
+      {
+        "trap": "A NYC landlord may apply its usual 40× income test to a voucher holder.",
+        "truth": "Never against the full rent. NYC Commission guidance bars any added income minimum or guarantor when the voucher sets the tenant's share from income (Section 8, CityFHEPS) or pays 100%."
+      },
+      {
+        "trap": "A reasonable accommodation is paid by the tenant, just like a modification.",
+        "truth": "The provider pays for an accommodation unless it's an undue burden; the tenant generally pays for a physical modification in private housing."
+      },
+      {
+        "trap": "Since HUD withdrew its animal guidance, a New York landlord may refuse an emotional support animal or charge a pet deposit.",
+        "truth": "HUD's change affects only its own enforcement; NY §296(18)(2) still covers such animals, NY guidance still bars pet fees and deposits, and private FHA suits remain."
+      },
+      {
+        "trap": "A 55-and-older community must make sure every resident is at least 55.",
+        "truth": "55+ housing needs 80% of occupied units with a resident 55+, plus policies and age verification; 'everyone' is the 62+ test."
+      },
+      {
+        "trap": "Posting the fair housing notice in the office window satisfies the DOS-2156 rule.",
+        "truth": "§175.29 posting and §175.28 individual delivery are separate duties; neither substitutes for the other."
+      },
+      {
+        "trap": "The DOS-2156 is only for 1–4 family residential deals, like the agency disclosure.",
+        "truth": "§175.28 covers all real property, including condos, co-ops, vacant land, and commercial space; the 1–4 family limit belongs to the RPL §443 agency form."
+      },
+      {
+        "trap": "A victim must file with HUD before suing under the Fair Housing Act.",
+        "truth": "A private FHA suit may be filed directly within 2 years; HUD's deadline is 1 year, DHR's 3."
+      }
+    ],
+    "mnemonics": [
+      {
+        "name": "1-2-3 filing clock",
+        "meaning": "HUD complaint within 1 year, private FHA lawsuit within 2 years, NYS Division of Human Rights complaint within 3 years."
+      },
+      {
+        "name": "Federal 4, New York 2",
+        "meaning": "Owner-occupied exemption: up to 4 units under the FHA ('Mrs. Murphy'), only 2 families under NY Executive Law §296."
+      },
+      {
+        "name": "Policy vs. property",
+        "meaning": "Accommodation changes a policy (the provider pays); modification changes the property (the tenant pays in private housing)."
+      },
+      {
+        "name": "Who's targeted",
+        "meaning": "Steering targets buyers and renters; blockbusting targets owners; redlining targets neighborhoods through lenders and insurers."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "CE hours left for electives",
+        "formula": "Electives = 22.5 − required hours (fair housing 3 + agency 1, or 2 in the first term, + ethics 2.5 + legal matters 1 + cultural competency 2 + implicit bias 2)",
+        "example": "Later terms: 22.5 − 11.5 = 11 hours; first term: 22.5 − 12.5 = 10 hours"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "How fair housing law developed",
+      "intro": "Exam questions often name a law, case, or year and ask what it did. Segregation was built by law and practice (racial zoning, restrictive covenants, redlined lending maps); courts and Congress first allowed it, then took it apart.",
+      "points": [
+        "The **Civil Rights Act of 1866** (42 U.S.C. §1982) gives every citizen the same property rights as white citizens: **race only**, **no exemptions**, and no agency (the victim sues for uncapped damages and an injunction).",
+        "**Jones v. Alfred H. Mayer Co. (1968)** applied the 1866 Act to **private** sellers under Congress's **Thirteenth Amendment** power to erase the 'badges and incidents of slavery.' The Fourteenth Amendment is the trap; it mainly limits government.",
+        "Before 1968, federal rules (**Executive Order 11063**; **Title VI of the 1964 Civil Rights Act**) reached only government-linked housing, not private sales.",
+        "The **Fair Housing Act** (Title VIII, 1968) covered race, color, religion, and national origin; the **Housing and Community Development Act of 1974** added sex; the **Fair Housing Amendments Act of 1988** added disability ('handicap') and familial status, design rules, and stronger enforcement. **HUD** enforces it and funds private testing groups.",
+        "New York's **Human Rights Law** (Executive Law Article 15, mainly §296), enforced by the **Division of Human Rights (DHR)**, goes further; the **NYC Human Rights Law** (Admin. Code Title 8), enforced by the **NYC Commission on Human Rights**, goes further still."
+      ],
+      "table": {
+        "head": [
+          "Year",
+          "Law or case",
+          "What it did"
+        ],
+        "rows": [
+          [
+            "1866",
+            "Civil Rights Act (42 U.S.C. §1982)",
+            "Equal property rights regardless of race; no exemptions"
+          ],
+          [
+            "1896",
+            "Plessy v. Ferguson",
+            "Upheld 'separate but equal' (later rejected)"
+          ],
+          [
+            "1917",
+            "Buchanan v. Warley",
+            "Struck down racial zoning ordinances"
+          ],
+          [
+            "1948",
+            "Shelley v. Kraemer",
+            "Courts may not enforce racially restrictive covenants"
+          ],
+          [
+            "1954",
+            "Brown v. Board of Education",
+            "Ended 'separate but equal' in public schools"
+          ],
+          [
+            "1962",
+            "Executive Order 11063",
+            "No discrimination in federally owned or financed housing"
+          ],
+          [
+            "1964",
+            "Civil Rights Act, Title VI",
+            "No discrimination in federally assisted programs"
+          ],
+          [
+            "1968",
+            "Fair Housing Act; Jones v. Mayer",
+            "FHA covers race, color, religion, national origin; 1866 Act reaches private sellers"
+          ],
+          [
+            "1974",
+            "Housing and Community Development Act",
+            "Added sex to the FHA"
+          ],
+          [
+            "1982",
+            "Havens Realty Corp. v. Coleman",
+            "Fair housing testers may sue"
+          ],
+          [
+            "1988",
+            "Fair Housing Amendments Act",
+            "Added disability and familial status; design rules; stronger enforcement"
+          ],
+          [
+            "1990",
+            "Americans with Disabilities Act",
+            "Disability access in public accommodations, employment, and government services"
+          ],
+          [
+            "1995",
+            "Housing for Older Persons Act",
+            "Simplified the 55+ exemption (80% test, policies, age verification)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protected classes: federal, New York State, and New York City",
+      "intro": "Always ask which laws apply: federal law is the floor, New York State adds many classes, and New York City adds more. A deal in the five boroughs is covered by all three.",
+      "points": [
+        "**Familial status** (federal and NY): a child under 18 living with a parent, legal custodian, or the parent's designee, plus anyone **pregnant** or securing custody. Childless couples, adult children, and roommates don't qualify.",
+        "**Disability** (FHA): a substantially limiting impairment, a **record** of one, or being **regarded as** having one; current illegal drug use is excluded, while recovery, alcoholism, and HIV are covered. New York's definition is broader (no 'substantially limits' test).",
+        "**Age** (NY) doesn't apply under 18 (minors are covered by familial status), and NY expressly allows a housing **discount for people 65 and older** (§296(17)).",
+        "**Marital status** is the person's own status (single, married, separated, divorced, widowed), so refusing a divorced applicant is illegal in New York; NYC adds **partnership status**.",
+        "**Lawful source of income** (§292(36)): Section 8 and any other housing assistance (paid to the landlord or not), Social Security, child support, alimony, foster-care subsidies, public assistance, and other lawful income. Neutral criteria for all are fine; rejecting or burdening an applicant because assistance pays rent is not.",
+        "**Military status** covers U.S. and New York service; NY also bars asking about state organized militia (National Guard) membership, though a member may volunteer it (§296(5)(g)).",
+        "HUD's 2021 memos reading 'sex' to include sexual orientation and gender identity were withdrawn in September 2025; New York State and City law still protect both.",
+        "**Arrest records** (§296(16)): no housing inquiry or action based on an arrest that ended in the person's favor, an ACD (adjournment in contemplation of dismissal), a youthful-offender adjudication, or a sealed conviction (including Clean Slate); the applicant may answer as if it never happened. Unsealed convictions fall outside §296(16).",
+        "**NYC Fair Chance Housing Law**: a provider that checks criminal history must first finish other screening and make a **conditional offer**; it may then review only current sex-offense registration, felonies within **5 years**, and misdemeanors within **3 years** of release or sentencing, and must share the records, allow **5 business days** to respond, and assess individually."
+      ],
+      "table": {
+        "head": [
+          "Protected class",
+          "1866 Act",
+          "Federal FHA",
+          "NY Exec. Law §296",
+          "NYC Human Rights Law"
+        ],
+        "rows": [
+          [
+            "Race",
+            "Yes (its only class)",
+            "Yes",
+            "Yes (includes hair texture and protective hairstyles)",
+            "Yes"
+          ],
+          [
+            "Color",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Religion",
+            "No",
+            "Yes",
+            "Yes ('creed')",
+            "Yes (religion/creed)"
+          ],
+          [
+            "National origin",
+            "No",
+            "Yes",
+            "Yes (includes ancestry)",
+            "Yes"
+          ],
+          [
+            "Sex",
+            "No",
+            "Yes (added 1974)",
+            "Yes",
+            "Yes (gender, including sexual harassment)"
+          ],
+          [
+            "Disability",
+            "No",
+            "Yes (added 1988)",
+            "Yes (broader definition)",
+            "Yes"
+          ],
+          [
+            "Familial status (children under 18, pregnancy)",
+            "No",
+            "Yes (added 1988)",
+            "Yes",
+            "Yes ('presence of children'; pregnancy)"
+          ],
+          [
+            "Age",
+            "No",
+            "No",
+            "Yes (18 and older)",
+            "Yes"
+          ],
+          [
+            "Marital status",
+            "No",
+            "No",
+            "Yes",
+            "Yes, plus partnership status"
+          ],
+          [
+            "Sexual orientation",
+            "No",
+            "Not in the statute",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Gender identity or expression",
+            "No",
+            "Not in the statute",
+            "Yes (since 2019)",
+            "Yes"
+          ],
+          [
+            "Military status",
+            "No",
+            "No",
+            "Yes",
+            "Yes (military service)"
+          ],
+          [
+            "Lawful source of income",
+            "No",
+            "No",
+            "Yes (statewide)",
+            "Yes"
+          ],
+          [
+            "Citizenship or immigration status",
+            "No",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Victim of domestic violence",
+            "No",
+            "No",
+            "Yes",
+            "Yes (also stalking and sex offenses)"
+          ],
+          [
+            "Lawful occupation",
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          [
+            "Height and weight",
+            "No",
+            "No",
+            "No",
+            "Yes (since 2023)"
+          ],
+          [
+            "Arrest or conviction record",
+            "No",
+            "No",
+            "Limited: favorable outcomes, ACDs, youthful-offender findings, and sealed records are off-limits (§296(16))",
+            "Yes: Fair Chance Housing Law (since Jan. 1, 2025)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Prohibited practices",
+      "intro": "Federal law (42 U.S.C. §§3604–3606, 3617) and New York law (Exec. Law §296(3-b), (5), (6), (7)) ban the same core conduct; New York's broker rules also reach land and commercial space.",
+      "points": [
+        "A licensee who carries out a client's discriminatory instruction is liable with the client, and New York separately bans **aiding, abetting, inciting, compelling, or coercing** discrimination (§296(6)).",
+        "**Steering** includes discouraging comments, exaggerated drawbacks, praising schools to some buyers only, withholding listings in the buyer's price range, and assigning people to sections or floors (families with children to the first floor 'for safety'), even within one building.",
+        "NY's blockbusting rule (§296(3-b)) bars representing, to profit from a deal, that a neighborhood's protected makeup has changed or will change and that values, crime, or schools will suffer.",
+        "Firing an agent for refusing to discriminate is itself a violation (24 C.F.R. §100.70(d)); the DOS-2156 also lists pressuring a client or employee to break the law.",
+        "**Testers** pose as home seekers, often in matched pairs. Testing is lawful, its evidence is admissible, and a tester falsely told a unit was unavailable can sue (**Havens Realty Corp. v. Coleman, 1982**).",
+        "**Disparate impact**: the Supreme Court recognized FHA effect-based claims in 2015 (Inclusive Communities Project), and New York codified the test (§296(5-a)): a practice with a discriminatory effect, such as screening that shuts out most voucher holders, is unlawful unless necessary to a substantial, legitimate, nondiscriminatory interest that a less discriminatory practice couldn't serve. HUD's 2026 proposals to drop its own effects rule change neither.",
+        "NY's broker provision (§296(5)(c)) covers **housing, land, and commercial space**, so refusing to show a storefront because of national origin is illegal in New York. Threats, intimidation, and sexual harassment tied to housing count even without a refusal."
+      ],
+      "table": {
+        "head": [
+          "Practice",
+          "What it is",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Refusing to sell, rent, or negotiate",
+            "Denying, withholding, or refusing to deal because of a protected class",
+            "An agent stops returning calls from voucher holders"
+          ],
+          [
+            "False unavailability",
+            "Saying an available home is sold, rented, or off the market",
+            "Telling a Black couple a house is under contract, then showing it to white buyers"
+          ],
+          [
+            "Discriminatory terms",
+            "Different price, deposit, fees, lease terms, services, amenities, or screening steps",
+            "A bigger security deposit for applicants born abroad"
+          ],
+          [
+            "Steering",
+            "Guiding home seekers toward or away from areas, buildings, or floors by protected class",
+            "'You'd feel more comfortable in a neighborhood with people like you'"
+          ],
+          [
+            "Blockbusting",
+            "For profit, inducing owners to sell or rent by predicting the entry of a protected group and harm to values, safety, or schools",
+            "Flyers urging owners to 'sell before they move in'"
+          ],
+          [
+            "Redlining",
+            "Refusing or worsening loans or insurance because of an area's makeup",
+            "Larger down payments required only in a minority neighborhood"
+          ],
+          [
+            "Discriminatory ads, statements, forms",
+            "Any ad, statement, application, inquiry, or record showing a preference or limitation",
+            "'Adults only', 'no Section 8', 'Christian home'"
+          ],
+          [
+            "Denying MLS or board access",
+            "Excluding someone from an MLS, real estate board, or brokers' group by protected class",
+            "An MLS rejects a broker because of religion"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Exemptions and exceptions",
+      "intro": "Exemptions are narrow, mostly belong to owners rather than licensees, and never cover race. Check which law applies, which class is involved, and whether a broker or an ad is part of the deal.",
+      "points": [
+        "No exemption permits **race** discrimination (the 1866 Act has none): an owner in a three-family house may be federally exempt for a religion-based refusal but not a race-based one, and New York law reaches both.",
+        "Even an exempt owner may not publish a **discriminatory ad** (FHA exemptions leave §3604(c) in force). A New York two-family owner who advertises a preference **loses** the exemption; a resident owner renting a room may advertise 'female renters only.'",
+        "Using a broker or salesperson ends the single-family exemption; hiring an attorney, escrow agent, or title company doesn't.",
+        "**Housing for older persons** (HOPA) excuses only **familial status** (and age, in New York), never race or disability. The 55+ route needs **all three**: 80% occupancy, published policies, and reliable age verification.",
+        "**Occupancy limits**: reasonable limits are allowed (HUD's long-standing benchmark is **two persons per bedroom**), but a limit enforced only against families (three adults accepted, a couple with a child refused) is a pretext for familial-status discrimination.",
+        "**Drug users and alcohol abusers** (syllabus): a provider may refuse someone **currently using illegal drugs** or convicted of **illegally manufacturing or distributing** a controlled substance. Alcoholism and recovery are protected disabilities, though conduct still matters.",
+        "**Direct threat**: no one must rent to a person whose tenancy would directly threaten others' safety or cause substantial physical damage, judged on individual conduct, never on stereotypes.",
+        "NYC: the city's owner-occupied two-family exemption applies only if the unit isn't publicly advertised or listed, so a broker's listing ends it."
+      ],
+      "table": {
+        "head": [
+          "Exemption",
+          "Federal FHA",
+          "New York Exec. Law §296",
+          "Can a licensee use it?"
+        ],
+        "rows": [
+          [
+            "Single-family home sold or rented by a private owner",
+            "Yes, if the owner has no more than 3 such homes, uses no broker or salesperson, and runs no discriminatory ad; 1 sale per 24 months if the owner isn't living there or wasn't the last occupant",
+            "No such exemption",
+            "No"
+          ],
+          [
+            "Owner-occupied small building (rentals)",
+            "Up to 4 units ('Mrs. Murphy'), owner lives in one",
+            "Up to 2 families, owner lives in one; refusals and terms only; lost if the owner runs a discriminatory ad",
+            "No"
+          ],
+          [
+            "Room in an owner- or occupant-occupied home",
+            "Covered by the owner-occupied exemption when the owner lives there; the ad ban still applies",
+            "Exempt from refusal, terms, and advertising rules",
+            "No"
+          ],
+          [
+            "All rooms limited to one sex",
+            "No separate exemption",
+            "Allowed, including in ads",
+            "No"
+          ],
+          [
+            "Housing for older persons",
+            "62+ (every occupant), 55+ (80% test, policies, verification), or a government elderly program; excuses familial status only",
+            "62+ (with spouses) or 55+ meeting the federal test; excuses age and familial status only",
+            "Yes, the only exemption brokers share in NY"
+          ],
+          [
+            "Religious organizations; private clubs",
+            "Religious groups may prefer members for noncommercial housing unless membership is restricted by race, color, or national origin; private clubs may limit noncommercial lodging to members",
+            "A religious organization may limit or prefer members of its religion (§296(11))",
+            "No, the organization's right only"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: does the community qualify as 55+ housing?",
+        "steps": [
+          "Facts: 150 occupied units; 117 have at least one resident aged 55 or older. The community wants to turn away families with children.",
+          "Step 1: Qualifying share = 117 ÷ 150 = 0.78 = 78%.",
+          "Step 2: 80% requires 150 × 0.80 = 120 qualifying units, so it is 3 short; it would also need published 55+ policies and reliable age verification.",
+          "Answer: it doesn't qualify, so refusing families with children would be familial-status discrimination under federal and NY law."
+        ]
+      }
+    },
+    {
+      "heading": "Disability: accommodations, modifications, and accessibility",
+      "intro": "Disability law gives two different tools. First ask whether the person wants a rule changed or the building changed.",
+      "points": [
+        "Requests may be **oral** and in plain words, with no form or 'magic words.' If the disability and need are obvious (a blind tenant's guide dog), no documentation may be demanded; otherwise the provider may ask for reliable information showing both, but **not** the diagnosis, medical records, or severity.",
+        "Cost rules vary: federally assisted housing (Section 504) and New York's common-area rule shift costs to the provider, and the NYC Commission says city providers must provide **and pay for** reasonable accommodations unless that's an undue hardship.",
+        "**Accessible design** (FHA; NY §296(18)(3)) covers buildings of **4 or more units** first occupied after **March 13, 1991**: every unit with an elevator, ground-floor units without one. Required: accessible entrance, route, and common areas; wheelchair-width doors; reachable switches and thermostats; **reinforced bathroom walls** for grab bars; usable kitchens and baths.",
+        "**ADA Title III** covers public accommodations such as a brokerage or leasing office: existing facilities remove barriers when **readily achievable** (easily, without much difficulty or expense), and facilities first occupied after Jan. 26, 1993 must be built accessible. Dwelling units are FHA territory.",
+        "New York's **disability-rights notice** (Exec. Law §170-d; 9 NYCRR §466.15): licensees give it to prospective tenants at **first substantive contact**; landlords give it to new tenants within **30 days** and link it on their homepages. It must be written (12-point or larger) and name a contact; oral notice or posting alone doesn't count.",
+        "Retaliating against someone for **requesting** an accommodation is unlawful in New York (§296(7))."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Reasonable accommodation",
+          "Reasonable modification"
+        ],
+        "rows": [
+          [
+            "What changes",
+            "A rule, policy, practice, or service",
+            "The physical premises"
+          ],
+          [
+            "Examples",
+            "Reserved parking near the unit; an assistance animal despite a no-pets rule; reading notices aloud to a blind tenant",
+            "Grab bars, a ramp, a widened doorway, lowered counters"
+          ],
+          [
+            "Who pays (private housing)",
+            "The housing provider, unless it's an undue financial and administrative burden",
+            "The tenant (FHA and NY §296(18)(1))"
+          ],
+          [
+            "Grounds to refuse",
+            "Undue burden, or a fundamental change in the provider's operations",
+            "Not reasonable, or not code-compliant"
+          ],
+          [
+            "Conditions allowed",
+            "No extra fee or deposit for it",
+            "Reasonable interior restoration at move-out (wear and tear excepted); no higher security deposit, though a restoration escrow may be negotiated; no restoring common areas"
+          ],
+          [
+            "New York twist",
+            "Includes reasonable changes to **common-use areas** (§296(18)(2)), so the provider generally bears that cost",
+            "Interior work in a rental stays at the tenant's expense"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assistance animals: where the law stands in 2026",
+      "intro": "Animal requests are the most common disability accommodation, and the federal picture changed in 2025–26. For a New York exam, start with New York law.",
+      "points": [
+        "Since 2020, NY Exec. Law §296(18)(2) says refusing a reasonable accommodation includes refusing **'the use of an animal'** to alleviate a disability's symptoms or effects, with no training requirement or species limit.",
+        "No-pets, weight, and breed limits are waived for an approved assistance animal; NYS Homes and Community Renewal guidance bars pet deposits, fees, and insurance for it, though the tenant pays for actual damage.",
+        "When the need isn't obvious, the provider may ask for reliable documentation tying the animal to the disability, but not a diagnosis, medical records, an online 'ESA certificate,' or proof that a support animal is trained.",
+        "Lawful denials are individual: **this animal's** own conduct shows a direct threat or substantial damage that no other accommodation can reduce. Breed stereotypes, neighbors' dislike, and an invisible disability are not reasons.",
+        "Federal status: HUD withdrew **FHEO-2020-01** and its 2013 animal notice effective **Sept. 17, 2025** (notice published April 6, 2026). A **May 22, 2026** HUD memo says it will bring FHA charges only for animals **trained** to provide disability-related assistance and no longer expects providers to accommodate untrained support animals.",
+        "Unchanged: the FHA's statutory accommodation duty, private FHA lawsuits, and state and city law. Cite 42 U.S.C. §3604(f)(3)(B), 24 C.F.R. §100.204 (a blind tenant's guide dog under a no-pets rule), and NY §296(18), not the withdrawn notices."
+      ],
+      "table": {
+        "head": [
+          "Term",
+          "Meaning",
+          "Housing rule in New York"
+        ],
+        "rows": [
+          [
+            "Service animal (ADA)",
+            "A dog individually trained to do work or tasks for a person with a disability, such as guiding, seizure alerts, or interrupting panic attacks; emotional support alone doesn't qualify",
+            "Must be allowed; no extra charge for guide, hearing, or service dogs (Civil Rights Law §47-b)"
+          ],
+          [
+            "Emotional support animal",
+            "An animal (not limited to dogs) that eases the symptoms or effects of a disability without task training",
+            "A reasonable accommodation under Exec. Law §296(18)(2) when the disability-related need is supported"
+          ],
+          [
+            "Assistance animal",
+            "Umbrella term covering both",
+            "Not a pet: no-pets, weight, and breed rules are waived; no pet fee, pet rent, or pet deposit"
+          ],
+          [
+            "Pet",
+            "An animal kept for companionship with no disability-related role",
+            "Ordinary pet rules and fees apply"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: an emotional support animal request in Albany",
+        "steps": [
+          "Facts: a no-pets building; a tenant whose anxiety disorder isn't obvious asks to keep a cat; the landlord's pet-friendly buildings charge a $300 pet deposit.",
+          "Step 1: This is an accommodation request; the landlord may ask for reliable documentation of the disability-related need, not the diagnosis.",
+          "Step 2: An assistance animal isn't a pet in New York, so no $300 pet deposit; the tenant pays only for actual damage.",
+          "Answer: grant it unless this cat poses a direct threat or would cause substantial damage; HUD's untrained-animal policy doesn't stop DHR or an FHA lawsuit."
+        ]
+      }
+    },
+    {
+      "heading": "Advertising, marketing, and screening language",
+      "intro": "The ad itself can be the violation, before anyone is turned away. The test is what an ordinary reader takes from the words, the pictures, and where the ad runs.",
+      "points": [
+        "Coverage: ads in any medium, signs, MLS remarks, emails, scripts, **application forms**, and any **record or inquiry** (FHA §3604(c); NY §296(5)(a)(3), (c)(2)); asking about religion, birthplace, or plans for children is a violation by itself.",
+        "Describe the **property** (rooms, features, location, rent, lawful rules such as no pets), never the preferred occupant: 'fourth-floor walk-up' is a fact; 'ideal for empty nesters, no children' is a preference.",
+        "Placement matters: media or online audience filters that keep a protected group from learning about housing are discriminatory (24 C.F.R. §100.75); HUD's 2024 digital-advertising guidance was withdrawn effective Sept. 17, 2025, but the statutory ban stands.",
+        "The **Equal Housing Opportunity** logo never cures discriminatory content; senior housing may advertise '55 and older' or '62 and older' only if it qualifies.",
+        "**Voucher income tests**: NY DHR guidance calls a rent-based income formula unreasonable when a voucher pays 70% to 100% of the rent, bars accepting only wage ('attachable') income, and calls negative credit an unreasonable basis when the voucher pays all the rent. NYC Commission guidance goes further: when a voucher sets the tenant's share from income (Section 8, CityFHEPS) or pays 100%, no added minimum income or guarantor may be required.",
+        "Extra hurdles only for voucher holders (a guarantor, a bigger deposit, a full-rent income test) are discriminatory terms (§296(5)(a)(2)); checking prior-landlord references for every applicant is fine."
+      ],
+      "table": {
+        "head": [
+          "Problem wording",
+          "Why it's illegal",
+          "Compliant alternative"
+        ],
+        "rows": [
+          [
+            "'Adults only', 'no kids', 'perfect for a single professional'",
+            "Familial status (and, in NY, marital status)",
+            "'1-bedroom in a quiet building near the train'"
+          ],
+          [
+            "'No Section 8', 'no programs', 'employment income only'",
+            "NY lawful source of income",
+            "'Income and references verified for all applicants'"
+          ],
+          [
+            "'Christian home', 'English speakers only'",
+            "Religion; national origin",
+            "Describe the unit, not the people"
+          ],
+          [
+            "'No wheelchairs', 'must be able-bodied'",
+            "Disability",
+            "'Fourth-floor walk-up, no elevator'"
+          ],
+          [
+            "'U.S. citizens only'",
+            "NY citizenship or immigration status",
+            "Leave it out; verify status only where a law requires it"
+          ],
+          [
+            "NYC: 'criminal background check required', 'no felons'",
+            "NYC Fair Chance Housing Law",
+            "Leave it out unless a law requires the check, and cite that law"
+          ],
+          [
+            "Photos showing models of only one race",
+            "Images can signal a racial preference (Ragin v. New York Times, 2d Cir. 1991)",
+            "Use diverse models or photos without people"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: a voucher holder's income test in the Bronx",
+        "steps": [
+          "Facts: rent is $2,400 a month; a CityFHEPS voucher pays $1,800 and the tenant pays $600. The landlord requires annual income of 40 times the monthly rent.",
+          "Step 1: The voucher pays $1,800 ÷ $2,400 = 75%, inside DHR's 70%–100% range, so a full-rent test ($2,400 × 40 = $96,000) is unreasonable.",
+          "Step 2: Applying the multiplier to her share alone gives $600 × 40 = $24,000; using the voucher's share ($1,800 × 40 = $72,000) is just as wrong.",
+          "Step 3: CityFHEPS sets her share from her income, so NYC Commission guidance bars any added income minimum or guarantor.",
+          "Answer: in NYC no income minimum may be imposed on her; anywhere in New York, never test a voucher holder against the full rent."
+        ]
+      }
+    },
+    {
+      "heading": "New York disclosure and posting duties: DOS-2156, §175.28 and §175.29",
+      "intro": "After a 2019 Newsday investigation found widespread steering on Long Island, DOS adopted §175.28 (disclosure), §175.29 (posting), and §177.9 (recorded fair housing courses), effective June 20, 2020.",
+      "points": [
+        "**First substantive contact** is when a conversation moves past casual questions into a specific property or the person's needs, finances, or motivation; the broker must ensure every associated licensee delivers the DOS-2156 then.",
+        "Delivery: email, text, electronic messaging, fax, or hard copy; a link counts only if the message says it leads to New York State Human Rights Law information. **Oral disclosure never satisfies** §175.28.",
+        "Records: a signed acknowledgment (hard copy), a duplicate (electronic), or, if the consumer won't sign, a **declaration under oath or affirmation** of when it was given, kept at least **3 years**. Refusing to sign doesn't end the relationship, and signing only acknowledges **receipt**: no agency, no waiver.",
+        "The DOS-2156 (11-25) lists protected classes and violations (discriminatory negotiating or terms, following a client's preference, steering, blockbusting, pressuring a client or employee, discriminatory ads or inquiries); complaints go to **DHR** or **DOS, Division of Licensing Services**, at **no fee**, and retaliation is unlawful.",
+        "§175.29 also requires the DOS-2156 to be **available** at every open house and showing. Neither duty replaces the other, or the RPL §443 agency disclosure (narrower 1–4 family, condo, and co-op scope).",
+        "CE: of the 22.5 hours each 2-year term, **3** cover fair housing and/or discrimination, plus **2 implicit bias** and **2 cultural competency**. Implicit bias = attitudes or stereotypes that shape understanding, actions, and decisions **without conscious awareness**."
+      ],
+      "table": {
+        "head": [
+          "Rule",
+          "What it requires",
+          "When and where",
+          "Records"
+        ],
+        "rows": [
+          [
+            "19 NYCRR §175.28",
+            "Give the DOS-2156 Housing and Anti-Discrimination Disclosure to each prospective buyer, seller, tenant, and landlord",
+            "First substantive contact; every property type (houses, condos, co-ops, vacant land, commercial)",
+            "Signed acknowledgment, electronic duplicate, or sworn refusal declaration, kept at least 3 years"
+          ],
+          [
+            "19 NYCRR §175.29",
+            "Display the DOS Fair Housing and Anti-Discrimination Notice",
+            "Office and branch windows (visible from the sidewalk) where listings are posted, or where the business license hangs if there's no sidewalk access; a homepage link on every broker, salesperson, and team website; every open house",
+            "None set"
+          ],
+          [
+            "Exec. Law §170-d; 9 NYCRR §466.15",
+            "Disability-rights notice (reasonable accommodations and modifications)",
+            "Licensees: prospective tenants at first substantive contact; landlords: new tenants within 30 days",
+            "Written, 12-point or larger; oral notice or posting alone doesn't count"
+          ],
+          [
+            "19 NYCRR §177.9",
+            "Record every approved fair housing course (video and audio)",
+            "Each fair housing course given by an approved CE provider",
+            "Provider keeps the recording 1 year"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Standardized operating procedures for homebuyers (RPL §442-h(4))",
+      "intro": "Some buyers were asked for pre-approval or ID before seeing homes while others were not. Now the broker decides the prerequisites in advance, and every buyer gets the same treatment.",
+      "points": [
+        "Every broker adopts **standardized operating procedures (SOPs)** stating at least whether prospective homebuyers must show **identification**, sign an **exclusive buyer-broker agreement**, or get **mortgage pre-approval** before receiving services (DOS may add items). The law requires none of these, only deciding and applying the answer **uniformly**.",
+        "SOPs are **date-stamped, notarized, and posted** on every public website and mobile app the broker maintains, given on request at each office, and kept on file while the license is active. Nothing is filed with DHR, and buyers don't sign them. Team and salesperson sites post the broker's SOPs or **link directly** to them.",
+        "Changes are date-stamped, notarized, and posted within **30 days**, with earlier versions archived; at each renewal the broker affirms compliance to DOS.",
+        "A broker or salesperson who doesn't follow the SOPs faces **RPL §441-c** discipline. Demanding pre-approval only from some buyers is exactly what testers look for: give a suspected tester the same information, follow-up, and SOP requirements as anyone, and never ask whether a caller is a tester."
+      ]
+    },
+    {
+      "heading": "Solicitation controls: nonsolicitation orders and cease-and-desist zones",
+      "intro": "New York fights blockbusting and aggressive listing solicitation with two Secretary of State tools under RPL §442-h.",
+      "points": [
+        "A **nonsolicitation order** protects everyone in an area and rests on blockbusting-type fears; a **cease-and-desist list** protects only owners who sign up.",
+        "Soliciting a listed owner, even with a postcard carrying a fair housing statement, is a violation DOS can punish under RPL §441-c. Check the current list before any mail or calling campaign in a zone.",
+        "Blockbusting is also an unlawful discriminatory practice under Exec. Law §296(3-b), and DHR may order the violator to pay the state any profits from it."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Nonsolicitation order",
+          "Cease-and-desist zone"
+        ],
+        "rows": [
+          [
+            "Trigger",
+            "Intense, repeated solicitation that makes owners reasonably fear values will drop because people of a different race, ethnic, social, or religious background are moving in",
+            "Intense, repeated solicitation of owners in a defined area (no discrimination finding needed)"
+          ],
+          [
+            "How it's created",
+            "Public hearing and investigation, then a Secretary of State rule",
+            "Secretary of State rule; owners who want no contact file an owner's statement"
+          ],
+          [
+            "Who is protected",
+            "Every owner in the area",
+            "Only owners on the current cease-and-desist list"
+          ],
+          [
+            "What's banned",
+            "Soliciting residential listings or sales in the area (letters, postcards, calls, door-knocking, handbills)",
+            "Soliciting a listing from a listed owner by direct means (phone, mail, personal contact)"
+          ],
+          [
+            "Maximum length",
+            "5 years; may be re-adopted or amended",
+            "5 years per rule; may be re-adopted for more 5-year periods"
+          ],
+          [
+            "Extra rules",
+            "No new principal or branch office in the area without Secretary of State approval",
+            "List reprinted at least yearly by Dec. 31; an owner has 90 days to perfect a complaint"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Responsibilities of brokers and salespersons",
+      "intro": "The syllabus treats fair housing as a working system inside the office, not just rules to memorize.",
+      "points": [
+        "**Broker**: adopt a written fair housing policy; display the DOS notice (§175.29) and HUD's **Equal Housing Opportunity poster** (not displaying it is prima facie evidence of discrimination in a HUD complaint, 24 C.F.R. §110.30); review ads; post SOPs; train and supervise; keep DOS-2156 records; report and fix violations.",
+        "**Salesperson**: know federal, state, and local law; deliver the DOS-2156 (and, for rentals, the disability-rights notice) at first substantive contact; refuse unlawful instructions; keep ads compliant; document interactions; complete fair housing, implicit bias, and cultural competency training.",
+        "**Pressure from society**: sellers and landlords ask for 'the right kind of buyer,' neighbors ask who is moving in, and buyers ask what kind of people live in an area or refuse homes near certain groups. Answer with property facts and objective public sources, never descriptions of the residents.",
+        "Role-play scripts: 'I show every property that meets your criteria'; 'I can't describe who lives there, but the school district and police department publish data'; 'I can't follow that instruction, and I must tell my broker.' If a seller asks a buyer's race or religion, don't answer; present every offer on its terms.",
+        "**Implicit bias** shows up as more listings, faster replies, or warmer follow-up for some clients; written, uniform procedures and good records are the safeguard.",
+        "Harm goes beyond fines: victims suffer humiliation and emotional distress and lose housing choice, school access, and home equity; segregation persists for generations; firms face injunctions and lost business that errors-and-omissions insurance may not cover."
+      ]
+    },
+    {
+      "heading": "Enforcement, deadlines, and penalties",
+      "intro": "Several forums can run at once. The 1-2-3 rule covers the main deadlines; the table fills in the rest.",
+      "points": [
+        "**Election of remedies** (§297(9)): filing with DHR or a local commission generally bars a court suit on the same claim, unless DHR dismisses for administrative convenience or untimeliness or annuls the election. In housing cases, a complaint dismissed for no jurisdiction or probable cause may still go to court, and either side may elect within **20 days** after a probable-cause finding to move to court.",
+        "DHR orders against a licensee go to the **Secretary of State**, and DOS separately disciplines licensees for Human Rights Law violations on the job (RPL §441-c): DHR decides the claim, DOS the license. Half of DOS fines go to the **anti-discrimination in housing fund**, which pays for fair housing testing.",
+        "Federal civil penalties are inflation-adjusted yearly, so don't memorize old printed figures; know who imposes them (an administrative law judge in HUD cases, a court in DOJ cases).",
+        "**Retaliation** for filing, testifying, or helping someone else is a separate violation (FHA §3617; NY §296(7)), and the victim need not belong to a protected class."
+      ],
+      "table": {
+        "head": [
+          "Forum",
+          "Deadline",
+          "How it works",
+          "Possible results"
+        ],
+        "rows": [
+          [
+            "HUD complaint (FHA)",
+            "1 year after the act occurred or ended",
+            "Free; investigation and conciliation (may be referred to DHR); if charged, an administrative hearing or, if either side elects, federal court",
+            "Damages, injunction, civil penalties (inflation-adjusted every year)"
+          ],
+          [
+            "Private FHA lawsuit",
+            "2 years (time a HUD case is pending doesn't count)",
+            "Federal or state court; no HUD filing needed first",
+            "Actual and punitive damages, injunction, attorney's fees"
+          ],
+          [
+            "U.S. Attorney General (DOJ)",
+            "No individual filing",
+            "Sues over a pattern or practice of discrimination or an issue of general public importance",
+            "Injunctions, damages, civil penalties"
+          ],
+          [
+            "Civil Rights Act of 1866",
+            "None in the Act itself (courts borrow a state limit)",
+            "Private lawsuit only; no agency",
+            "Damages with no cap; injunction"
+          ],
+          [
+            "NYS Division of Human Rights",
+            "3 years (for acts on or after Feb. 15, 2024)",
+            "Free; in housing cases, a probable-cause decision within 100 days, then a public hearing",
+            "Compensatory damages, punitive damages up to $10,000 in housing cases, civil fines up to $50,000 ($100,000 if willful, wanton, or malicious)"
+          ],
+          [
+            "NY Human Rights Law lawsuit",
+            "3 years",
+            "Court instead of DHR; filing with DHR or a local commission generally bars it",
+            "Damages, including punitive damages in housing cases"
+          ],
+          [
+            "NYC Commission on Human Rights",
+            "1 year (3 years for gender-based harassment)",
+            "For acts in, or closely tied to, New York City; or sue in court under the city law within 3 years (not both)",
+            "Damages, civil penalties, orders to change practices"
+          ],
+          [
+            "NY Department of State",
+            "None stated",
+            "Free complaint to the Division of Licensing Services",
+            "Revocation, suspension, fine up to $2,000, or reprimand"
+          ],
+          [
+            "ECOA lawsuit (credit)",
+            "5 years",
+            "Against a creditor, in federal or state court",
+            "Actual damages, punitive damages up to $10,000 (individual), attorney's fees"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: which deadlines are still open?",
+        "steps": [
+          "Facts: on May 1, 2026, a Yonkers landlord refused to rent to an applicant because of her religion; it is now January 2028 (20 months later).",
+          "Step 1: HUD's 1-year window closed May 1, 2027; an FHA lawsuit (2 years, by May 1, 2028) and a DHR complaint (3 years, by May 1, 2029) remain open.",
+          "Answer: she can still sue under the FHA or file with DHR, but filing with DHR generally gives up a later Human Rights Law court suit on the same claim."
+        ]
+      }
+    },
+    {
+      "heading": "Fair lending: the Equal Credit Opportunity Act and related laws",
+      "intro": "Mortgage lenders answer to the FHA (§3605 covers lending and appraisals), the Equal Credit Opportunity Act (ECOA), and New York's credit law, and the three protected lists differ.",
+      "points": [
+        "**ECOA** (1974; **Regulation B**, issued by the CFPB) bars credit discrimination because of race, color, religion, national origin, sex, marital status, age (if able to contract), **public assistance** income, or good-faith exercise of consumer-credit rights.",
+        "A lender may judge whether income is reliable and likely to continue, but may not discount public assistance income or ignore reliable part-time, pension, alimony, or child support income.",
+        "Marital questions: for individual unsecured credit a lender generally may not ask; for a mortgage it may ask, using only **married, unmarried, or separated**, and may not require a spouse's signature if the applicant qualifies alone (beyond what a valid lien needs).",
+        "Decisions are due within **30 days** of a completed application, with specific reasons for a denial (or how to get them); for a first-lien dwelling loan, the applicant gets every appraisal and valuation promptly, no later than 3 business days before closing.",
+        "2026 change: a CFPB rule effective **July 21, 2026** states that ECOA doesn't authorize disparate-impact ('effects test') liability, narrows the discouragement rule, and limits special purpose credit programs. ECOA's protected list didn't change, and mortgage lenders still answer to the FHA and New York law.",
+        "**Redlining** is fought by the FHA (§3605), ECOA, NY §296-a, the **Home Mortgage Disclosure Act** (1975; lenders report where they lend and deny) and the **Community Reinvestment Act** (1977; banks must serve their whole community, including low- and moderate-income neighborhoods).",
+        "**Filtering down**: older homes lose value and pass to lower-income households; when lenders and insurers then pull out, decline speeds up, the cycle redlining laws aim to break.",
+        "**Appraisers**: the FHA (§3605) and NY §296(5)(h) bar basing a value on the protected traits of owners, occupants, or neighbors, though every legitimate factor may be weighed."
+      ],
+      "table": {
+        "head": [
+          "Basis",
+          "FHA (housing and mortgage lending)",
+          "ECOA (all credit)",
+          "NY Exec. Law §296-a (credit)"
+        ],
+        "rows": [
+          [
+            "Race, color, religion or creed, national origin, sex",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Familial status",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          [
+            "Disability",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          [
+            "Marital status",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Age",
+            "No",
+            "Yes (if old enough to contract)",
+            "Yes"
+          ],
+          [
+            "Income from public assistance",
+            "No",
+            "Yes",
+            "Not listed in §296-a"
+          ],
+          [
+            "Good-faith use of consumer credit rights",
+            "No",
+            "Yes",
+            "No"
+          ],
+          [
+            "Sexual orientation, gender identity, military status, citizenship or immigration status, domestic-violence-victim status",
+            "Not in the statute",
+            "Not in the statute",
+            "Yes"
+          ]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS 77-hour salesperson qualifying course syllabus, Subject 9 (Human Rights and Fair Housing)",
+    "Civil Rights Act of 1866, 42 U.S.C. §1982; Fair Housing Act, 42 U.S.C. §§3602–3617; 24 C.F.R. Parts 100 and 110",
+    "Housing for Older Persons Act of 1995 (42 U.S.C. §3607(b)); ADA Title III, 42 U.S.C. §12181 et seq. and 28 C.F.R. §36.104",
+    "HUD notices withdrawing FHEO guidance, 91 Fed. Reg. 17291 (Apr. 6, 2026; effective Sept. 17, 2025), and OGC guidance, 91 Fed. Reg. 44867 (July 17, 2026; effective Sept. 25, 2025); HUD FHEO animal-accommodation enforcement memo (May 22, 2026)",
+    "Equal Credit Opportunity Act, 15 U.S.C. §§1691, 1691e; Regulation B, 12 C.F.R. Part 1002, as amended by 91 Fed. Reg. 21620 (effective July 21, 2026)",
+    "NY Executive Law §§170-d, 292, 296, 296-a, 297; NY Civil Rights Law §47-b",
+    "NY Real Property Law §§441-c, 442-h; NY State Finance Law §80-a",
+    "19 NYCRR §§175.28, 175.29, 177.9; 9 NYCRR §466.15",
+    "DOS-2156 (11-25) Housing and Anti-Discrimination Disclosure Form; NYS DOS guidance on the 2020 fair housing regulations",
+    "NYC Admin. Code Title 8 (§§8-107, 8-109; Fair Chance Housing Law, Local Law 24 of 2024); NYC Commission on Human Rights guidance and source-of-income FAQs",
+    "NYS DHR guidance on source-of-income discrimination; NYS HCR assistance-animal FAQ",
+    "Jones v. Alfred H. Mayer Co. (1968); Havens Realty Corp. v. Coleman (1982); Ragin v. New York Times Co. (2d Cir. 1991); Levin v. Yeshiva Univ. (N.Y. 2001); Texas Dept. of Housing v. Inclusive Communities Project (2015)",
+    "ny-real-estate-cram-sheet (verified Oct. 7, 2026); ny-real-estate-study-guide, Chapter 09"
+  ]
+}

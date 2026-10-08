@@ -1,0 +1,493 @@
+{
+  "topic": "construction-env",
+  "title": "Construction & Environment",
+  "overview": "Subject 7 of the NYS DOS syllabus (5 of the 77 course hours: 2 construction, 3 environmental). It covers how a house is built and how its systems work, then the hazards and disclosure laws that affect a sale: lead, asbestos, radon, mold, UFFI, PCBs, oil tanks, wells and septic, wetlands, Superfund liability and New York's Property Condition Disclosure Statement. Expect vocabulary matching (which member, roof or style), quick math (roof pitch, R-values, BTUs and tons, amps) and rule questions on lead, radon, CERCLA and the PCDS. The theme: recognize warning signs, disclose what you know and refer testing to qualified professionals instead of diagnosing anything yourself.",
+  "cram": {
+    "numbers": [
+      { "value": "Pre-1978", "label": "Housing covered by the federal lead disclosure rule" },
+      { "value": "10 days", "label": "Buyer's lead inspection opportunity (not tenants); can be changed or waived in writing" },
+      { "value": "3 years", "label": "Keep signed lead disclosure forms" },
+      { "value": "4 pCi/L", "label": "EPA radon action level (consider fixing at 2–4)" },
+      { "value": "6 / 20 sq ft", "label": "RRP minor repair: interior per room / exterior" },
+      { "value": "12,000 BTU/hr", "label": "One ton of cooling" },
+      { "value": "100–200 amps", "label": "Typical 120/240-volt service; 60 amps is usually inadequate" },
+      { "value": "5 business days", "label": "NY home inspector's written report deadline" },
+      { "value": "1 / 2 / 6 years", "label": "New-home warranty: workmanship / systems / material defects" },
+      { "value": "3 business days", "label": "Owner can cancel a home improvement contract" },
+      { "value": "2 hours", "label": "Report a petroleum spill to the DEC Spill Hotline" },
+      { "value": "1,100 gallons", "label": "DEC tank registration threshold; most home oil tanks fall below it" },
+      { "value": "12.4 acres", "label": "NY freshwater wetland threshold (7.4 acres from 2028) plus a 100-foot adjacent area" },
+      { "value": "1%", "label": "Annual flood chance in the 100-year floodplain" },
+      { "value": "1 year / 180 days", "label": "All appropriate inquiries timing before purchase" },
+      { "value": "10 sq ft", "label": "NY mold jobs above this need DOL-licensed pros (owners working on their own home are exempt)" },
+      { "value": "50 / 100 ft", "label": "Well to septic tank / to absorption field" },
+      { "value": "March 20, 2024", "label": "PCDS $500 credit eliminated" }
+    ],
+    "mustKnow": [
+      "**Footing** = wide concrete base below the frost line that spreads the load; **sill plate** = first wood member, bolted to the foundation.",
+      "**Platform framing** builds one story at a time (today's standard); **balloon** studs run sill to roof and need firestops; **post-and-beam** uses heavy, widely spaced timbers.",
+      "**Joists** are horizontal, **studs** vertical, **rafters** sloped; **girders** carry joists, often on **lally columns**; **headers** (masonry: **lintels**) span openings.",
+      "Interior walls can be **bearing walls**, and **truss** members must not be cut without an engineer's design; structural changes need an engineer or architect.",
+      "A 2×4 is a **nominal** size; it actually measures about 1½ × 3½ inches.",
+      "**Gable** = 2 slopes; **hip** = 4; **gambrel** = 2 pitches on 2 sides (Dutch Colonial); **mansard** = 2 pitches on 4 sides (Second Empire).",
+      "**Roof pitch** = inches of rise per 12 inches of run; on a symmetrical gable or hip roof the run is half the span.",
+      "**Cape Cod** = 1½ stories with dormers; **Colonial** = 2 symmetrical stories; **raised ranch** = entry between levels; **split-level** = 3+ staggered levels.",
+      "**R-value**: higher is better and layers add; compressed batts lose R. **U-factor**: lower is better (U = 1 ÷ R).",
+      "A **BTU** heats 1 pound of water 1°F; **1 ton** = 12,000 BTU/hr; for **AFUE** and **SEER**, higher is better.",
+      "**Forced air** = furnace, blower, ducts; **hydronic** = boiler, circulator, baseboards; **steam** needs no circulator pump; a **heat pump** moves heat and reverses to cool.",
+      "**Supply** lines are pressurized; **drain-waste-vent** lines use gravity. The **trap** seals out sewer gas; the **vent** keeps traps from siphoning. The **T&P valve** keeps a water heater from bursting.",
+      "**Amps = watts ÷ volts.** Breakers trip on overload; service amps are capacity, while usage is billed in kWh.",
+      "**GFCI** = shock protection near water; **AFCI** = arc (fire) protection in bedrooms and most other living areas.",
+      "NY **home inspectors** are licensed: report within **5 business days**, confidential to the client, no referral fees to agents, no engineering.",
+      "**New-home warranty** (GBL §777-a): 1 year workmanship, 2 years systems, 6 years material defects.",
+      "**Amanda's Law**: CO alarms where there's a fuel-burning appliance or attached garage. Separately, the seller of a 1–2 family home, condo or co-op gives a **smoke alarm affidavit** at closing; the buyer has 10 days to report dead alarms and the seller pays to fix them.",
+      "**Lead disclosure** (pre-1978): pamphlet, known lead and reports, warning statement; buyers get **10 days**; no testing or removal required.",
+      "**RRP** is separate: certified contractors, lead-safe work and the Renovate Right pamphlet; window replacement is never minor repair.",
+      "**Radon**: test the lowest lived-in level; fix at **4 pCi/L** or more (sub-slab depressurization); NY requires no test or mitigation at sale, but the PCDS asks.",
+      "**Friable** asbestos crumbles to powder under hand pressure and releases fibers; leave intact material alone and never sample it yourself.",
+      "**Mold**: fix the moisture first; there are no federal limits. For jobs over 10 sq ft NY requires a DOL-licensed assessor and a different licensed remediator (owners working on their own home are exempt).",
+      "**UFFI** emits formaldehyde that declines with age; **PCBs** are in old transformers, capacitors and fluorescent ballasts.",
+      "**Oil spills**: strict liability under NY's Navigation Law and a **2-hour** report to DEC, registered tank or not.",
+      "The **Safe Drinking Water Act** covers public systems only, so well owners test their own water; a **perc test** measures how fast soil absorbs water.",
+      "Filling a wetland can require both a **Clean Water Act §404** permit (Army Corps) and a NYS DEC permit.",
+      "**CERCLA** liability is strict, joint and several, and retroactive; defenses require **all appropriate inquiries**; lenders that don't manage the site are exempt.",
+      "**Phase I** = records, site visit, interviews (no sampling); **Phase II** = sampling; Phase III = cleanup; Phase IV = monitoring.",
+      "**PCDS**: 1–4 family homes (not condos or co-ops), delivered before a binding contract, actual knowledge, not a warranty; the $500 credit is gone.",
+      "Licensees **disclose known material defects** and refer testing; concealing a defect on the seller's instruction is misrepresentation."
+    ],
+    "traps": [
+      { "trap": "Joists are the sloped roof members.", "truth": "Rafters slope from ridge to eaves; joists are horizontal floor and ceiling members." },
+      { "trap": "Any interior wall can come out.", "truth": "A wall where joists end or overlap is probably load-bearing and needs an engineered beam and usually a permit." },
+      { "trap": "Pitch = rise ÷ full span × 12.", "truth": "Use the run (half the span): 8 ÷ 16 × 12 = 6 in 12, not 3 in 12." },
+      { "trap": "A bigger rating number is always better.", "truth": "True for R-value, AFUE and SEER, but a lower U-factor is better." },
+      { "trap": "The lead rule makes sellers test or remove lead.", "truth": "It requires disclosure of known lead and reports, the pamphlet, the warning statement and the buyer's 10 days. No testing or abatement." },
+      { "trap": "Tenants get the 10-day lead inspection too.", "truth": "Only buyers do; landlords still give the pamphlet, disclosures and warning statement." },
+      { "trap": "Sellers hand buyers the Renovate Right pamphlet.", "truth": "Sellers and landlords give Protect Your Family From Lead in Your Home; Renovate Right is the contractor's RRP pamphlet." },
+      { "trap": "Radon under 4 pCi/L means no radon risk.", "truth": "No level is known to be safe; EPA suggests considering mitigation between 2 and 4." },
+      { "trap": "Asbestos was banned long ago, so old material is harmless, yet it must be removed before a sale.", "truth": "No ban date clears a house and no rule requires removal before a sale; intact material is often best left alone." },
+      { "trap": "An unregistered home oil tank creates no cleanup liability.", "truth": "Registration and liability are separate: spills must be reported within 2 hours and cleaned up, and liability is strict." },
+      { "trap": "A buyer who didn't pollute is automatically safe under CERCLA.", "truth": "Liability is strict. Defenses require all appropriate inquiries; a buyer who knew may still be a bona fide prospective purchaser." },
+      { "trap": "A Phase I includes sampling and lasts five years.", "truth": "No sampling (that's Phase II). For AAI it must be within 1 year of purchase, with key parts within 180 days." },
+      { "trap": "A 100-year floodplain floods once a century.", "truth": "It has a 1% chance of flooding every year." },
+      { "trap": "A seller can still give a $500 credit instead of the PCDS.", "truth": "The credit ended March 20, 2024; covered sellers must deliver the PCDS before the buyer signs." }
+    ],
+    "mnemonics": [
+      { "name": "1-2-6", "meaning": "New-home warranty: 1 year workmanship, 2 years systems, 6 years material defects" },
+      { "name": "78-10-3", "meaning": "Lead: built before 1978, 10-day buyer inspection, records kept 3 years" },
+      { "name": "R up, U down", "meaning": "Want a high R-value and a low U-factor" },
+      { "name": "G for ground, A for arc", "meaning": "GFCI = shock near water; AFCI = fire from arcing" },
+      { "name": "Look, test, clean, manage", "meaning": "Site assessment Phases I to IV" }
+    ],
+    "formulas": [
+      { "name": "Roof pitch", "formula": "Pitch = rise ÷ run × 12 (run = half the span of a symmetrical gable)", "example": "8 ft rise, 32 ft span: 8 ÷ 16 × 12 = 6 in 12" },
+      { "name": "Combined R-value", "formula": "Total R = sum of layers; layer R = R per inch × inches", "example": "R-11 + (8 × 3.5) = R-39" },
+      { "name": "U-factor", "formula": "U = 1 ÷ total R", "example": "R-20: 1 ÷ 20 = U-0.05" },
+      { "name": "Cooling tons", "formula": "Tons = BTU/hr ÷ 12,000", "example": "42,000 ÷ 12,000 = 3.5 tons" },
+      { "name": "Furnace output", "formula": "Heat delivered = input × AFUE", "example": "90,000 × 0.80 = 72,000 BTU/hr" },
+      { "name": "Amps", "formula": "Amps = watts ÷ volts", "example": "2,700 W ÷ 120 V = 22.5 A" },
+      { "name": "Energy used", "formula": "kWh = watts × hours ÷ 1,000", "example": "1,500 W × 6 h ÷ 1,000 = 9 kWh" },
+      { "name": "NY septic tank", "formula": "1–3 bedrooms = 1,000 gal; +250 gal per added bedroom", "example": "5 bedrooms: 1,000 + 2 × 250 = 1,500 gal" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Codes, permits, inspections and warranties",
+      "intro": "Plans lead to a permit, code inspections and a certificate of occupancy; buyers add their own inspections.",
+      "points": [
+        "**Plans** (blueprints) show the design; **specifications** spell out materials and workmanship. The **Uniform Fire Prevention and Building Code** applies statewide except New York City, which has its own codes, and the **Energy Code** sets insulation and window minimums.",
+        "Inspectors check footings, framing and rough-in plumbing, electrical and HVAC before walls close, then the final work; electrical work is checked against the **National Electrical Code**. A **certificate of occupancy** follows a passed final inspection (a change of use needs a new one), and neither it nor a permit guarantees the absence of defects or private restrictions.",
+        "Site review covers NYS DOH well and septic rules, drainage and grading, landscaping, shading, walks, appurtenances (rights such as easements) and zoning.",
+        "**Home inspectors** are licensed by NYS DOS (140 hours of training including 40 supervised field hours, plus an exam). The duty runs to the client, the license number goes on every report and ad, and the report must list the systems observed.",
+        "An inspector may not pay referral fees or kickbacks to the seller or either agent, inspect a property in which he or a relative has an interest, charge to repair what he inspected before closing, or take a fee contingent on findings or a closing. Inspectors can't practice engineering, so structural concerns go to an engineer.",
+        "The new-home warranty covers single-family homes and condo or co-op units in buildings of five stories or less, starting at first title transfer or occupancy; a builder can exclude it only by offering a qualifying written limited warranty (GBL §777-b). Home improvement contracts over $500 must be written, include a mechanic's lien notice and escrow advance payments unless the contractor posts a bond or letter of credit.",
+        "Every 1–2 family home and condo or co-op unit needs a working smoke alarm; battery-only alarms sold since April 1, 2019 must have sealed 10-year batteries. **Amanda's Law** adds CO alarms wherever there is a fuel-burning appliance or an attached garage."
+      ],
+      "table": {
+        "head": ["Item", "What it is", "Key rule"],
+        "rows": [
+          ["Building permit", "Approval before construction or alteration", "Plans and specs reviewed first"],
+          ["Code inspections", "Footing, framing, rough-ins, insulation, final", "Rough-ins checked before drywall"],
+          ["Certificate of occupancy", "Confirms finished work meets code for its use", "Not a warranty against defects"],
+          ["Home inspection", "Buyer's visual check by a licensed inspector", "Report in 5 business days; shared only with the client's consent"],
+          ["Termite (WDI) inspection", "Pest professional looks for wood-destroying insects", "Pesticide treatment needs DEC certification"],
+          ["New-home warranty", "GBL §777-a; survives closing", "1 yr workmanship, 2 yrs systems, 6 yrs material defects"],
+          ["Home improvement contract", "Written contract over $500", "Cancel by midnight of the 3rd business day"],
+          ["Smoke alarm affidavit", "Seller's affidavit at closing for a 1–2 family home, condo or co-op (Exec. Law §378(5-b))", "Buyer has 10 days to report dead alarms; seller pays"]
+        ]
+      }
+    },
+    {
+      "heading": "Foundations, drainage and moisture",
+      "intro": "The foundation carries the load to the soil, and most foundation problems start with water.",
+      "points": [
+        "The **footing** is the wide concrete base under walls and columns. It spreads the load over more soil and sits below the frost line so frost can't heave it.",
+        "**Foundation walls** (poured concrete, block, or older stone or brick) rest on the footings; their height decides basement versus crawl space. Full basements are the most common foundation in New York.",
+        "A **monolithic** slab is poured together with its footing; a **floating** slab is poured separately.",
+        "Keep water out: ground sloping away (about 6 inches of drop in the first 10 feet), working gutters, footing drains, a sump pump, dampproofed walls and vapor barriers under slabs and over crawl-space soil.",
+        "Red flags: **efflorescence** (a white mineral crust left by water moving through masonry), musty basements, and horizontal cracks or bowing in block walls."
+      ],
+      "table": {
+        "head": ["Foundation", "Description", "Exam clue"],
+        "rows": [
+          ["Full basement", "Walls enclose a full below-grade story", "Most common in NY"],
+          ["Crawl space", "Shallow open area under the first floor", "Needs a vapor barrier and ventilation"],
+          ["Slab-on-grade", "Concrete poured directly on the ground", "No basement or crawl space; pipes may run in the slab"],
+          ["Pier and beam", "Isolated piers on footings, beams spanning between them", "Cottages, porches, additions"]
+        ]
+      }
+    },
+    {
+      "heading": "Framing methods and structural members",
+      "intro": "Loads flow from rafters or trusses through joists, studs, bearing walls, girders and columns down to the footings.",
+      "points": [
+        "**Platform framing** builds each story on its own deck, which acts as a firestop; it is the standard method. **Balloon framing** runs studs from sill to rafters, so the open cavities spread fire unless **firestops** are added. **Post-and-beam** uses heavy, widely spaced timbers, allowing open rooms and exposed beams.",
+        "Studs sit 16 or 24 inches **on center**. Lumber goes by nominal size: a 2×4 is about 1½ × 3½ inches, a 2×6 about 1½ × 5½.",
+        "Cutting a bearing wall, girder or truss needs an engineer- or architect-designed fix and usually a permit. Some texts call the double top plate a flitch beam; a true **flitch beam** is a steel plate bolted between wood members."
+      ],
+      "table": {
+        "head": ["Member", "What it does", "Exam angle"],
+        "rows": [
+          ["Sill plate", "First wood member, anchor-bolted to the foundation; joists rest on it", "Rot here is serious"],
+          ["Joists", "Horizontal members carrying floors and ceilings", "Flat, not sloped"],
+          ["Girder", "Main beam supporting the joists", "Often rests on lally columns"],
+          ["Lally column", "Concrete-filled steel post under a girder", "Sits on its own footing"],
+          ["Studs", "Vertical wall members between sole and top plates", "16 or 24 inches on center"],
+          ["Header / lintel", "Spans a door or window opening", "Lintel = masonry version"],
+          ["Bearing wall", "Supports loads from above", "Can be an interior wall"],
+          ["Rafters", "Sloped members from ridge to eaves", "Support the roof sheathing"],
+          ["Truss", "Factory-engineered triangular unit", "Never cut a member without an engineer's design"],
+          ["Sheathing", "Plywood or OSB over studs and rafters", "Rigidity and a nailing base"]
+        ]
+      }
+    },
+    {
+      "heading": "Roofs, exterior and interior finish",
+      "intro": "Roof questions come down to counting slopes and sides.",
+      "points": [
+        "**Ridge** = peak; **eaves** = lower edges overhanging the walls; **soffit** = underside of the overhang; **fascia** = trim board on the roof edge; **flashing** = metal or membrane sealing joints at chimneys, valleys and walls.",
+        "Asphalt shingles are most common and slate lasts longest; flat roofs use membrane or built-up roofing. Attic ventilation (soffit and ridge vents), with insulation and air sealing, helps prevent ice dams. The PCDS asks roof type, age and any transferable warranty.",
+        "Outside: sheathing, house wrap, then **siding** and roofing. Inside: after rough-ins pass inspection come insulation and **drywall** (gypsum wallboard or plasterboard); older homes have plaster on lath.",
+        "Older texts may state pitch as rise ÷ span (8 ÷ 32 = ¼ pitch), the same roof as 6 in 12; this app uses rise per 12 inches of run."
+      ],
+      "table": {
+        "head": ["Roof", "Shape", "Clue"],
+        "rows": [
+          ["Gable", "Two slopes with triangular end walls", "Most common"],
+          ["Hip", "Slopes on all four sides; no gable walls", "Eaves run all around"],
+          ["Gambrel", "Two pitches on each of two sides", "Barn; Dutch Colonial"],
+          ["Mansard", "Two pitches on all four sides", "Second Empire; full top story"],
+          ["Shed", "One slope", "Additions, contemporary"],
+          ["Flat", "Nearly level, membrane roofing", "Row houses, brownstones"],
+          ["Saltbox", "Gable with a long rear slope", "Two stories front, one back"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: roof pitch",
+        "steps": [
+          "A gable roof spans 32 feet and the ridge rises 8 feet above the walls.",
+          "Step 1: Run = 32 ÷ 2 = 16 feet.",
+          "Step 2: 8 ÷ 16 = 0.5, and 0.5 × 12 = 6.",
+          "Answer: 6 in 12. Using the full span gives the wrong 3 in 12."
+        ]
+      }
+    },
+    {
+      "heading": "Architectural styles",
+      "intro": "Questions describe a house and ask for its style.",
+      "points": [
+        "Symmetry signals Colonial, Federal or Greek Revival; asymmetry, towers and ornate trim signal Victorian.",
+        "Count stories: ranch 1, Cape Cod 1½, Colonial 2, split-level 3 or more staggered levels.",
+        "The roof can name the style: gambrel = Dutch Colonial, mansard = Second Empire, long rear slope = saltbox."
+      ],
+      "table": {
+        "head": ["Style", "Signature features"],
+        "rows": [
+          ["Cape Cod", "1½ stories, steep gable roof, dormers, symmetrical with a center door"],
+          ["Colonial", "Two full stories, symmetrical facade, center entry"],
+          ["Dutch Colonial", "Gambrel roof"],
+          ["Saltbox", "Long rear roof slope over a one-story back"],
+          ["Federal / Greek Revival", "Symmetry and classical trim; Greek Revival adds columns and a front pediment"],
+          ["Victorian (Queen Anne)", "Asymmetrical, towers or turrets, wraparound porch, ornate trim"],
+          ["Second Empire", "Mansard roof with dormers"],
+          ["Tudor", "Steep cross gables and decorative half-timbering"],
+          ["Craftsman bungalow", "Low roof, wide eaves, exposed rafters, deep porch"],
+          ["Ranch", "One story, long and low"],
+          ["Raised ranch (split entry)", "Door on a landing between two levels; lower level partly below grade"],
+          ["Split-level", "Three or more levels offset by half-flights"],
+          ["Brownstone", "Attached city row house, brown sandstone front, high stoop, flat roof"]
+        ]
+      }
+    },
+    {
+      "heading": "Insulation, windows and ventilation",
+      "intro": "The building envelope separates conditioned space from the outdoors.",
+      "points": [
+        "**R-value** (R-factor) is resistance to heat flow: higher is better and layers add. Typical: R-13 to R-15 in 2×4 walls, R-19 to R-21 in 2×6 walls, about R-38 to R-60 in attics.",
+        "Insulate wherever heated space meets unheated space: attics, exterior walls, floors over crawl spaces or garages, foundation walls and slab edges. **Compressed**, gapped or wet insulation underperforms, and air sealing is a separate job.",
+        "In New York's cold climate a **vapor retarder**, where used, goes on the warm (interior) side.",
+        "Windows: **U-factor** rates heat flow (lower is better), and fog between panes means the seal failed. **Double-hung** sashes slide vertically, **casements** are side-hinged and crank out, **awnings** are top-hinged and swing out at the bottom, **hoppers** tilt in.",
+        "Ventilation (kitchen and bath exhaust, HRVs or ERVs in tight homes, attic and crawl-space vents) controls moisture; fuel-burning equipment also needs combustion air and a flue."
+      ],
+      "table": {
+        "head": ["Insulation", "Typical use", "About R per inch"],
+        "rows": [
+          ["Batts (fiberglass, mineral wool)", "Between studs and joists", "R-3 to R-4"],
+          ["Blown-in (cellulose, fiberglass)", "Attic floors, closed walls", "R-2.2 to R-3.8"],
+          ["Spray foam", "Walls, rim joists, roof lines; seals air", "R-3.5 to R-6.5"],
+          ["Rigid foam board", "Foundation walls, slab edges, sheathing", "R-4 to R-6.5"],
+          ["Radiant barrier", "Attics; reflects heat across an air gap", "Little R alone"],
+          ["UFFI", "Pumped into existing walls in the 1970s", "Not used today"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: adding attic insulation",
+        "steps": [
+          "An R-11 attic gets 8 inches of cellulose rated R-3.5 per inch.",
+          "Step 1: New layer = 8 × 3.5 = R-28; total = 11 + 28 = R-39.",
+          "Step 2: U = 1 ÷ R: before 1 ÷ 11 ≈ 0.091; after 1 ÷ 39 ≈ 0.026.",
+          "Step 3: Heat loss = U × area × temperature difference. For 1,000 sq ft and 40°F: about 3,640 BTU/hr before, 1,030 after.",
+          "Answer: R-39, cutting ceiling heat loss about 72%. Traps: R-28, R-14.5, R-88."
+        ]
+      }
+    },
+    {
+      "heading": "Heating, cooling and heat pumps",
+      "intro": "Separate the distribution system (air, water, steam) from the fuel (oil, gas, electricity).",
+      "points": [
+        "One **BTU** raises 1 pound of water 1°F. Capacity is rated in **BTU per hour**, and air conditioners in **tons** (12,000 BTU/hr each). Size from a load calculation (area, insulation, windows, foundation, ventilation), not room count.",
+        "**AFUE** is the share of fuel delivered as heat; **SEER** (now SEER2) rates cooling and **HSPF** heat-pump heating. Higher is better. Condensing furnaces (90%+) vent through PVC pipe.",
+        "Fuels are gas or propane, oil (in an aboveground or underground tank) and electricity; electric resistance heat needs no flue but is costly to run in New York.",
+        "Central AC has an outdoor **compressor** and **condenser** and an indoor **evaporator coil**; integral systems share the furnace's ducts. Homes use air-cooled condensers; big buildings may use water-cooled ones.",
+        "**Heat pumps** (air-to-air is most common; also water-source and geothermal) move heat with refrigerant and reverse to cool. Modern cold-climate units heat well below 32°F; older ones relied on backup heat.",
+        "**Freon (R-22)** is no longer made, and refrigerant must be recovered, not vented (Clean Air Act). Rough lives: furnace 15–20 years, boiler 15–30+, AC or heat pump 10–15, tank water heater 10–15."
+      ],
+      "table": {
+        "head": ["System", "Key parts", "Clue"],
+        "rows": [
+          ["Forced warm air", "Furnace, blower, supply ducts, return registers, filter", "Shares ducts with central AC"],
+          ["Hot water (hydronic)", "Boiler, circulator pump, baseboards or radiators, expansion tank", "Even heat; separate AC"],
+          ["Steam", "Boiler, pipes, radiators; no circulator pump", "Older homes"],
+          ["Radiant", "Tubing or cables in floors or ceilings", "Warms objects, not air"],
+          ["Electric baseboard", "Resistance heaters in each room", "No flue; costly to run"],
+          ["Heat pump", "Refrigerant cycle moves heat", "Heats and cools"],
+          ["Central AC", "Compressor, condenser, evaporator coil", "Sized in tons"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: tons and AFUE",
+        "steps": [
+          "Cooling load of 42,000 BTU/hr: 42,000 ÷ 12,000 = 3.5 tons (dividing by 10,000 gives the wrong 4.2).",
+          "Furnace input 90,000 BTU/hr at 80% AFUE: 90,000 × 0.80 = 72,000 BTU/hr delivered; 18,000 is lost.",
+          "Electric heat: 1 watt = 3.412 BTU/hr, so a 1,500-watt heater gives about 5,100 BTU/hr.",
+          "Answer: 3.5 tons and 72,000 BTU/hr (112,500 wrongly divides by 0.80)."
+        ]
+      }
+    },
+    {
+      "heading": "Plumbing, wells and septic systems",
+      "intro": "Two separate systems: pressurized supply in, gravity drainage out.",
+      "points": [
+        "**Supply** lines run under pressure (about 40–80 psi, with a pressure-reducing valve above 80); undersized or clogged pipes cut the flow. **Drain-waste-vent** lines slope (typically ¼ inch per foot) so waste drains by gravity to the soil stack and the sewer or septic system.",
+        "Each fixture has a **trap** holding a water seal against sewer gas; **vents** through the roof admit air so traps aren't siphoned. A blocked vent causes gurgling and sewer odor.",
+        "Water heaters: gas, electric or oil tanks (often 40–60 gallons), tankless units, or indirect tanks and tankless coils run off the boiler. The **T&P relief valve** releases water if temperature or pressure gets too high; the thermocouple shuts off gas when the pilot goes out.",
+        "Bacteria are the top drinking-water threat; hardness causes scale, not illness; acidic (low-pH) water corrodes pipes and can leach lead.",
+        "Private **wells** are the owner's job (the SDWA covers public systems only). EPA suggests yearly tests for coliform bacteria, nitrates, dissolved solids and pH at a NYS DOH-certified lab. NY has no statewide test-at-sale rule, though some counties (Westchester, for one) require one.",
+        "**Septic**: house sewer, then **septic tank** (solids settle), **distribution box** and **absorption field** or seepage pit. Under 10 NYCRR Appendix 75-A the tank is sized by bedrooms and the field by the **perc test** (conventional fields need 1–60 minutes per inch). A NY-licensed engineer or architect designs it, the health department approves it and keeps the as-built drawings, and the tank needs periodic pumping."
+      ],
+      "table": {
+        "head": ["Pipe", "Use", "Notes"],
+        "rows": [
+          ["Cast iron", "Drain and vent stacks", "Durable; rusts inside over time"],
+          ["Galvanized steel", "Old supply lines", "Corrodes inside; low pressure, rusty water"],
+          ["Brass", "Older supply piping", "Durable but costly; mostly replaced"],
+          ["Copper", "Supply lines", "Long-lasting; old joints may have lead solder"],
+          ["PVC / ABS", "Drain, waste, vent", "Cheap, light; not for hot water"],
+          ["PEX / CPVC", "Supply lines", "PEX is flexible, needs few fittings"],
+          ["Lead", "Very old service lines", "Health hazard; PCDS asks about it"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: NY septic sizing",
+        "steps": [
+          "Rule: 1–3 bedrooms need a 1,000-gallon tank; add 250 gallons per bedroom. A garbage grinder counts as one more bedroom.",
+          "A 4-bedroom house with a disposal is sized as 5: 1,000 + (2 × 250) = 1,500 gallons.",
+          "Place the tank at least 50 feet and the absorption field at least 100 feet from the well.",
+          "Answer: 1,500 gallons."
+        ]
+      }
+    },
+    {
+      "heading": "Electrical systems",
+      "intro": "Voltage pushes, amperage flows and watts measure power.",
+      "points": [
+        "Power comes overhead (**service drop**) or underground (**service lateral**); the owner is generally responsible for the service equipment and all wiring inside.",
+        "Homes get **120/240 volts** (older texts say 110/220): 120 for lights and outlets, 240 for ranges, dryers and central AC.",
+        "Service size (100–200 amps today; 60 is usually inadequate) is capacity, while usage is billed in kWh. The service-entrance cables, not the number of fuses or breakers, are the sure sign of service size, and the PCDS asks the amperage and breakers versus fuses.",
+        "**Fuses** melt and must be replaced; **breakers** trip and reset. Branch circuits are usually 15 or 20 amps.",
+        "Copper is the standard conductor. Aluminum branch wiring (about 1965–1973) can overheat at connections, and knob-and-tube (pre-1940s) is ungrounded. Refer concerns to a licensed electrician; never open a panel."
+      ],
+      "table": {
+        "head": ["Term", "Meaning", "Exam angle"],
+        "rows": [
+          ["Watts / kWh", "Power (volts × amps) / energy over time", "Bills are in kWh"],
+          ["Breaker / fuse", "Trips / melts on overcurrent", "Tripping is normal on overload"],
+          ["GFCI", "Cuts power on a ground fault", "Shock protection: kitchens, baths, outdoors"],
+          ["AFCI", "Detects arcing in damaged wiring", "Fire protection: bedrooms and most living areas"],
+          ["BX", "Armored (metal-sheathed) cable", "Named for the Bronx"],
+          ["Romex", "Plastic-sheathed cable", "Most common in houses"],
+          ["Conduit / Greenfield", "Rigid tube / flexible metal conduit", "Wires pulled through"],
+          ["National Electrical Code", "National wiring standard", "Adopted through the NY Uniform Code"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: amps and service capacity",
+        "steps": [
+          "A 1,500 W heater and a 1,200 W microwave share a 120-volt, 20-amp circuit.",
+          "Step 1: 1,500 + 1,200 = 2,700 W; 2,700 ÷ 120 = 22.5 amps, over 20, so the breaker trips.",
+          "Step 2: Continuous loads should stay at or under 80% of the rating (16 amps on 20).",
+          "Step 3: Service capacity = volts × amps: 200 × 240 = 48,000 W; a 60-amp service gives 14,400 W.",
+          "Answer: 22.5 amps. Dividing by 240 (11.25) or 100 (27) are the traps."
+        ]
+      }
+    },
+    {
+      "heading": "Environmental hazards at a glance",
+      "intro": "Know each hazard's source, risk and response, then refer to qualified testers.",
+      "points": [
+        "**Asbestos** can't be identified by sight; it causes **asbestosis**, **lung cancer** and **mesothelioma** decades after exposure. Testing uses bulk, air and wipe sampling; fixes are **encapsulation** (sealing), **enclosure** (covering) or removal. NY's Department of Labor licenses asbestos contractors and generally requires a survey before demolition or renovation permits.",
+        "**Radon**, an odorless, invisible radioactive gas, enters through cracks, sumps, drains and well water, and tight new homes can trap it. It is the leading cause of lung cancer in nonsmokers; EPA estimates 1 in 15 homes run high. Short-term tests take 2–90 days with the house closed; radon-resistant construction uses gravel, plastic sheeting, sealing and a vent pipe.",
+        "**Lead** comes from pre-1978 paint and dust, soil, lead service lines and lead solder (banned in 1986). Children under 6 suffer lasting brain and nerve damage; adults risk high blood pressure and kidney damage.",
+        "**Sick building syndrome** means symptoms tied to time in a building with no identifiable cause; a building-related illness has one.",
+        "**Wood-destroying insects**: termites build mud tubes and eat wood; carpenter ants nest in wood and leave coarse frass but don't eat it; powderpost beetles leave tiny holes and fine powder; carpenter bees bore ½-inch holes.",
+        "**EMFs** have no federal standard and no proven harm; NY's Public Service Commission caps new transmission lines at 200 milligauss at the edge of the right-of-way."
+      ],
+      "table": {
+        "head": ["Hazard", "Source", "Risk", "Response"],
+        "rows": [
+          ["Lead paint", "Pre-1978 paint, dust, soil", "Child brain damage", "Disclosure rule; RRP for renovations"],
+          ["Asbestos", "Pipe wrap, tiles, siding, roofing", "Lung disease", "Don't disturb; certified testing"],
+          ["Radon", "Uranium decay in soil", "Lung cancer", "Test; fix at 4 pCi/L"],
+          ["Mold", "Leaks, humidity, flooding", "Allergies, asthma", "Fix moisture; no federal limits"],
+          ["UFFI", "Wall foam, 1970s", "Formaldehyde (declines)", "Air test; 1982 ban overturned 1983"],
+          ["PCBs", "Pre-1979 transformers, ballasts", "Persistent carcinogen", "TSCA ban 1979; pro removal"],
+          ["Carbon monoxide", "Fuel-burning appliances, garages", "Odorless, deadly", "Alarms; get out, call 911"],
+          ["Oil tanks", "Buried or basement tanks", "Soil, groundwater", "Test, remove; report spills in 2 hrs"],
+          ["Private well", "Groundwater", "Bacteria, nitrates", "Owner tests"],
+          ["Septic", "On-site wastewater", "Fouls wells", "Perc test; pump periodically"],
+          ["Termites, ants, beetles", "Soil, damp wood", "Structural damage", "WDI inspection; DEC-certified treatment"],
+          ["Chlordane", "Old termiticide, banned 1988", "Lingers in soil", "Professional testing"],
+          ["CFCs / Freon", "Old AC units, aerosols", "Ozone depletion", "Refrigerant recovery"],
+          ["EMFs", "Power lines, appliances", "Unproven", "Distance"]
+        ]
+      }
+    },
+    {
+      "heading": "Lead-based paint: disclosure vs. RRP",
+      "intro": "The disclosure rule (Title X §1018, EPA and HUD, 1996) governs information in sales and leases; the RRP rule governs paid work that disturbs paint.",
+      "points": [
+        "**Target housing** = built before 1978, except elderly or disabled housing and zero-bedroom units unless a child under 6 lives or is expected to live there. Co-op sales and sales to investors are covered.",
+        "Before the buyer or tenant is bound: the pamphlet, known lead and reports, the **Lead Warning Statement** and signed acknowledgments. Only buyers get **10 days** to inspect, which can be changed or waived in writing. Keep records **3 years**.",
+        "Agents must inform the seller and ensure compliance, and must refuse to hide a known lead report; an agent who did so isn't liable for facts the seller hid. A buyer's agent paid only by the buyer isn't covered.",
+        "Exempt: foreclosure sales, leases of 100 days or less with no renewal, leases of certified lead-free units, and renewals after full disclosure. Knowing violators face penalties and triple damages."
+      ],
+      "table": {
+        "head": ["Feature", "Disclosure rule", "RRP rule"],
+        "rows": [
+          ["Covers", "Sale or lease of pre-1978 housing", "Paid work disturbing paint in pre-1978 homes, children or not"],
+          ["Who complies", "Sellers, landlords, agents", "EPA-certified contractors"],
+          ["Pamphlet", "Protect Your Family From Lead in Your Home", "Renovate Right"],
+          ["Core duty", "Disclose known lead and reports", "Lead-safe work practices"],
+          ["Small jobs", "No exception", "6 sq ft per room inside, 20 outside; never windows"],
+          ["Testing required?", "No", "No"],
+          ["Records", "3 years", "3 years"]
+        ]
+      }
+    },
+    {
+      "heading": "Environmental laws, tanks, wetlands and flood zones",
+      "intro": "Match each law to its job, then learn New York's tank and wetland rules.",
+      "points": [
+        "**Tanks**: a fill or vent pipe, or oil lines through a wall, signals a tank even in a gas-heated house. Get closure records and a professional evaluation (tank sweep, tightness test, soil test); pulling the pipes to dodge questions is concealment. DEC says a buried tank 10–15 years old probably isn't leaking, but the risk rises with age.",
+        "Most home oil tanks (under 1,100 gallons) aren't registered with DEC, though Nassau, Suffolk and Westchester have their own rules. **Navigation Law** liability is still strict, and spills go to DEC within **2 hours**; the only exception is a known spill under 5 gallons that is contained, stays off land and water and is cleaned up within 2 hours.",
+        "Retired tanks must be emptied, cleaned and purged; DEC prefers removal, and closing in place means filling with sand or similar. Homeowners policies often exclude pollution cleanup.",
+        "**Wetlands**: filling federal waters needs a **CWA §404** permit from the Army Corps (EPA oversees). New York regulates tidal (ECL Art. 25) and freshwater (ECL Art. 24) wetlands, and towns may add rules.",
+        "NY freshwater wetlands of **12.4 acres** or more (7.4 acres from Jan 1, 2028) are regulated whether mapped or not, as are those DEC mapped before Jan 1, 2025, plus a **100-foot adjacent area**. On April 8, 2026 the Albany County Supreme Court annulled DEC's 2025 wetland regulations (6 NYCRR Part 664) but upheld the 2022 law; DEC now requires permits only for previously mapped wetlands and those of 12.4 acres or more. Get a current jurisdictional determination (the Adirondack Park Agency handles the park).",
+        "**Flood**: the Special Flood Hazard Area (100-year floodplain) has a 1% annual chance; the 500-year zone 0.2%. Federally backed lenders require flood insurance there, and homeowners policies exclude flood."
+      ],
+      "table": {
+        "head": ["Law", "Year", "Job"],
+        "rows": [
+          ["NEPA", "1970", "Federal environmental impact statements"],
+          ["Clean Air Act", "1970", "Air pollution, asbestos work rules, CFC phase-out"],
+          ["Clean Water Act", "1972", "Discharges; §404 wetland fill permits"],
+          ["Safe Drinking Water Act", "1974", "Public water standards; 1986 lead solder ban"],
+          ["TSCA", "1976", "Chemicals; PCB ban; RRP rule"],
+          ["RCRA", "1976", "Active hazardous waste; UST program"],
+          ["CERCLA", "1980", "Superfund cleanups; PRP liability"],
+          ["SARA", "1986", "Amended CERCLA; innocent landowner defense"],
+          ["Title X (lead)", "1992", "Lead disclosure in sales and leases"],
+          ["NY SEQRA", "1975", "State and local environmental review; EIS"],
+          ["NY Navigation Law, Art. 12", "1977", "Strict liability for oil spills"],
+          ["NY Labor Law, Art. 32", "2016 (eff.)", "Mold assessor and remediator licensing"]
+        ]
+      }
+    },
+    {
+      "heading": "CERCLA (Superfund) and site assessments",
+      "intro": "CERCLA can make an owner pay for pollution it never caused, so commercial buyers and lenders do due diligence first.",
+      "points": [
+        "CERCLA (1980) created the **Superfund** and makes **potentially responsible parties** pay: current owners and operators, owners at the time of disposal, arrangers and transporters who chose the site. NY's Love Canal disaster helped prompt it.",
+        "Liability is **strict** (no fault needed), **joint and several** (one party can owe the whole bill) and **retroactive**.",
+        "**Innocent landowner defense** (SARA, 1986): **all appropriate inquiries (AAI)** before purchase and no knowledge or reason to know. Title insurance, as-is clauses and seller indemnities don't create it.",
+        "**Bona fide prospective purchaser** (2002): a buyer who knows of contamination is protected if it did AAI, isn't affiliated with a liable party, doesn't worsen it and meets continuing obligations. **Secured creditors** that don't manage the site are exempt.",
+        "AAI is usually a **Phase I** (ASTM E1527-21) done within **1 year** before purchase, with interviews, lien search, records review and site visit within **180 days**.",
+        "A **brownfield** is property whose reuse is complicated by possible contamination (an old dry cleaner or gas station); NY's Brownfield Cleanup Program offers tax credits."
+      ],
+      "table": {
+        "head": ["Phase", "What happens", "Exam angle"],
+        "rows": [
+          ["I", "Records, site walk, interviews; no sampling", "Asbestos, lead, radon and mold are add-ons"],
+          ["II", "Soil, water or material sampling", "Confirms Phase I concerns"],
+          ["III", "Remediation", "Cleanup"],
+          ["IV", "Management", "Ongoing monitoring"]
+        ]
+      }
+    },
+    {
+      "heading": "Property condition disclosure and the licensee's role",
+      "intro": "The PCDS (RPL Article 14) is the seller's disclosure for houses.",
+      "points": [
+        "The 56-question form covers general, environmental (flood zones, flood insurance and claims, wetlands, landfill, fuel tanks, asbestos, lead plumbing, radon test, spills, mold test), structural (rot, pests, roof) and mechanical items (water, sewage, electric).",
+        "The seller answers from actual knowledge, may check unknown, fills it out personally and need not investigate; an as-is sale is still allowed.",
+        "A seller's agent must disclose known facts that materially affect value or desirability. Hiding a defect on the seller's instruction is misrepresentation (RPL §441-c fines up to $2,000); if the seller insists, withdraw.",
+        "Stigma facts under RPL §443-a, such as a death on the premises, aren't physical defects and needn't be volunteered.",
+        "Spot red flags, state only what you know, recommend inspectors and testers, and never sample, diagnose or promise safety."
+      ],
+      "table": {
+        "head": ["Topic", "Rule"],
+        "rows": [
+          ["Covered", "Improved 1–4 family homes; not condos, co-ops, vacant land or HOA property not owned in fee"],
+          ["Timing", "Before the buyer signs a binding contract; signed copy attached"],
+          ["Standard", "Actual knowledge; not a warranty or a substitute for inspection"],
+          ["2024 change", "$500 credit ended March 20, 2024"],
+          ["Revisions", "Revised statement as soon as practicable, until title transfer or occupancy"],
+          ["Liability", "Willful failure: buyer's actual damages plus other remedies"],
+          ["Agent duty", "Inform the seller of duties and the buyer of rights; then no further liability"],
+          ["Exempt", "14 transfers (§463): court order, deed in lieu, deed of trust, foreclosure, power of sale, lender resale after foreclosure, fiduciary, co-owner to co-owner, spouse or lineal relative, divorce, government, never-inhabited new construction, sheriff, partition"]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS 77-hour Salesperson Syllabus, Subject 7",
+    "NY RPL §§441-c, 443, 443-a; RPL Article 12-B (§§444-e, 444-g); RPL Article 14 (§§461–466)",
+    "NY GBL Articles 36-A (§§770–771) and 36-B (§§777, 777-a, 777-b); GBL §399-ccc",
+    "NY Executive Law §378(5-a), (5-b); Labor Law Article 32 (§§930, 933, 936); 12 NYCRR Part 56",
+    "10 NYCRR Appendix 75-A; NY ECL Article 24; NYS DEC Freshwater Wetlands Program (April 8, 2026 decision)",
+    "NY Navigation Law Article 12; 6 NYCRR Part 613; NYS DEC heating-oil tank guidance",
+    "40 CFR Part 745 (lead disclosure, RRP); 40 CFR Part 312 (AAI); CERCLA, 42 U.S.C. §§9601, 9607",
+    "Clean Water Act §404 (33 U.S.C. §1344); Safe Drinking Water Act",
+    "EPA radon, mold and private-well guidance; NYS PSC 1990 magnetic field policy",
+    "ny-real-estate-cram-sheet.txt; ny-real-estate-study-guide.txt (Chapter 07)"
+  ]
+}

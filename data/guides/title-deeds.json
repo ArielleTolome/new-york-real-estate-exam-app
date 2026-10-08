@@ -1,0 +1,425 @@
+{
+  "topic": "title-deeds",
+  "title": "Legal Issues & Land Title",
+  "overview": "This chapter covers how ownership moves from one owner to the next in New York: what makes a deed valid, what each deed form promises, when title passes, and how acknowledgment and recording protect buyers under New York's race-notice statute. It also covers title searches, title insurance, legal descriptions and acreage math, and transfers that happen without a sale: adverse possession, wills and intestacy, escheat, and eminent domain. The 77-hour syllabus gives deeds 2½ hours and title closing 2 hours of the 10-hour legal-issues unit; the Department of State (DOS) publishes no exam weights, but this app has 110 questions on the topic. The core themes: title passes on delivery, not recording; a later buyer beats an earlier unrecorded deed only as a good-faith purchaser for value who records first; and deed forms differ in what they promise.",
+  "cram": {
+    "numbers": [
+      { "value": "10 years", "label": "Adverse possession period (also the prescriptive easement period)" },
+      { "value": "July 7, 2008", "label": "NY's adverse possession amendments took effect" },
+      { "value": "18", "label": "Age of majority: a younger grantor's deed is voidable; also the minimum age to make a will" },
+      { "value": "5", "label": "Covenants in a full covenant and warranty deed (books that list right to convey separately count 6)" },
+      { "value": "2 witnesses", "label": "Required for a NY will (no notary needed)" },
+      { "value": "30 days", "label": "Window for both will witnesses to sign" },
+      { "value": "$50,000 + ½", "label": "Intestate spouse's share when issue (descendants) also survive" },
+      { "value": "$50,000 or ⅓", "label": "Elective share: whichever is greater" },
+      { "value": "$2 per $500", "label": "NYS transfer tax per $500 or fraction; seller pays" },
+      { "value": "1% at $1M+", "label": "Mansion tax on residential sales; buyer pays" },
+      { "value": "43,560 sq ft", "label": "One acre (4,840 square yards)" },
+      { "value": "640 acres", "label": "One square mile (one section)" },
+      { "value": "36 sections", "label": "One township in the rectangular survey, which NY doesn't use" },
+      { "value": "5,280 ft", "label": "One mile" },
+      { "value": "2.471 acres", "label": "About one hectare" },
+      { "value": "0° to 90°", "label": "Range of a bearing, measured from north or south" }
+    ],
+    "mustKnow": [
+      "**Title** is ownership; a **deed** is the writing that transfers it. The **grantor** conveys and the **grantee** receives.",
+      "A valid deed needs a **writing**, a **competent grantor**, a living, identifiable **grantee**, **words of conveyance**, a **consideration** recital, a **legal description**, the **grantor's signature**, and **delivery and acceptance**.",
+      "Only the **grantor** must sign. Grantees need no capacity, but a deed to a grantee who **died before delivery** is void.",
+      "A **minor's** deed (under 18) is **voidable**, not void, and recording doesn't cure it.",
+      "Deeds need **no witnesses**; **acknowledgment** is needed only to **record**, not for validity.",
+      "**Title passes on delivery and acceptance**, not at signing and not at recording.",
+      "**Delivery** means giving up control with **present intent**. A deed kept in the grantor's safe, or held by her own attorney until she decides, isn't delivered.",
+      "Acceptance is presumed for a beneficial deed, but an **express refusal** defeats it. Destroying or returning a delivered deed **doesn't reconvey** the land.",
+      "**Recording** gives **constructive notice** and priority. It can't pass title, cure non-delivery, or validate a **forged deed**.",
+      "New York is a **race-notice** state (RPL §291): a later buyer wins only as a **good-faith purchaser for value** who **records first**.",
+      "**Donees** and heirs can't use the recording act to defeat an earlier unrecorded deed; **mortgagees for value** can. Someone other than the seller **in possession** gives **inquiry notice**.",
+      "Record with the **county clerk** where the land lies; most of NYC records with the **City Register** through **ACRIS**.",
+      "Deed strength: **full covenant and warranty > bargain and sale with covenant > bargain and sale without covenants > quitclaim**.",
+      "The five covenants: **seisin, quiet enjoyment, against encumbrances, further assurances, warranty**. Seisin and against encumbrances are **present** covenants.",
+      "The **bargain and sale deed with covenant against grantor's acts** is the usual NY residential deed; it covers only the **seller's own** acts.",
+      "A **quitclaim** passes whatever interest the grantor has, with **no warranties**; it's the standard way to clear a **cloud on title**.",
+      "**Referee's deed** = foreclosure or partition sale; **executor's deed** = estate with a will; **administrator's deed** = estate without one.",
+      "**Granting clause** = words of conveyance; **habendum** ('to have and to hold') = the estate granted.",
+      "An **exception** keeps land out of the deed; a **reservation** keeps a new right such as an easement; **subject to** lists encumbrances the buyer accepts.",
+      "NY deeds usually recite **nominal consideration**. The real price goes on the **TP-584** (both parties sign) and the **RP-5217** (sale data for **assessors and ORPTS**, the state Office of Real Property Tax Services).",
+      "NYS transfer tax: **$2 per $500 or fraction**, units rounded **up**, paid by the **seller**.",
+      "**Chain of title** = owner-to-owner links; **abstract** = summary of every recorded document; **marketable title** = free of reasonable doubt.",
+      "An **owner's policy** covers the buyer and heirs while they own; a **lender's policy** covers only the lender, up to the loan balance. NY buyers customarily pay for both, **once**, at closing.",
+      "Title insurance covers **hidden defects existing on the policy date**; **survey matters** and **parties in possession** are standard exceptions.",
+      "**Metes and bounds** starts and ends at the **point of beginning**, and **monuments beat distances**.",
+      "Bearings run from **N or S** toward **E or W**; reversing a line **flips both letters** (N 60° E becomes S 60° W).",
+      "NY uses metes and bounds, **filed maps**, and **tax maps**, not the **rectangular survey**. **1 acre = 43,560 sq ft**.",
+      "**Adverse possession** takes **10 years** of hostile, actual, open and notorious, exclusive, continuous possession under **claim of right**. Paying taxes isn't required, and **tacking** is allowed.",
+      "Since 2008, **claim of right** means a **reasonable basis to believe** you own the land, and **de minimis** fences, hedges, and sheds, plus **mowing**, are **permissive**. A **quiet title** judgment makes the title marketable.",
+      "Intestate: spouse plus issue → spouse gets **$50,000 + half the rest**; spouse with no issue → spouse takes **everything**. The **elective share** is the greater of **$50,000 or ⅓**.",
+      "A will needs a testator **18+**, a signature **at the end**, and **two witnesses** signing within 30 days. Holographic wills count only for **wartime military and mariners at sea**.",
+      "**Devise** = real property by will; **bequest** = personal property; **probate** = the Surrogate's Court proving the will.",
+      "**Escheat** happens only if **no distributee** survives. **Eminent domain** requires **just compensation**, plus **severance damages** after a partial taking."
+    ],
+    "traps": [
+      { "trap": "Title passes when the deed is recorded.", "truth": "Title passes on delivery and acceptance; recording only gives notice and priority." },
+      { "trap": "A deed that isn't notarized or witnessed is invalid.", "truth": "It's valid between the parties. Without an acknowledgment (or proof by a subscribing witness) it can't be recorded, and NY requires no witnesses for validity." },
+      { "trap": "Whoever records first always wins.", "truth": "Only a good-faith purchaser for value who records first wins. A donee, or a buyer with notice, loses even after recording first." },
+      { "trap": "Recording a forged deed protects the innocent buyer who records.", "truth": "A forged deed is void, and recording can't fix that. Title insurance is the protection." },
+      { "trap": "A quitclaim conveys nothing, or only a defective title.", "truth": "It conveys whatever the grantor owns, possibly full title. It just carries no warranties." },
+      { "trap": "A bargain and sale deed without covenants is the same as a quitclaim.", "truth": "Its granting words imply the grantor has title. A quitclaim implies nothing, so the quitclaim is weaker." },
+      { "trap": "A bargain and sale deed with covenant protects against an earlier owner's liens.", "truth": "Its covenant covers only what the grantor did or allowed. Only the full covenant deed reaches older defects." },
+      { "trap": "The lender's title policy protects the buyer too.", "truth": "It protects only the lender. The buyer needs an owner's policy, and the seller's old policy doesn't pass to the buyer." },
+      { "trap": "Title insurance covers title problems that arise after closing.", "truth": "A standard policy covers only defects that existed on the policy date, subject to its exceptions. Only enhanced homeowner's policies add a few later risks, such as post-closing forgery." },
+      { "trap": "Ten years of using a neighbor's strip automatically gives title.", "truth": "Every element must be proven, including claim of right. Mowing and de minimis fences, hedges, and sheds are permissive, and paying the taxes is neither required nor enough." },
+      { "trap": "Dying without a will sends property to the state.", "truth": "Escheat happens only if no distributee survives; even a first cousin inherits ahead of the state." },
+      { "trap": "A spouse with no children shares the estate with the decedent's parents.", "truth": "With no issue, the spouse takes everything; parents inherit only if there's no spouse and no issue." },
+      { "trap": "A signed, handwritten will is valid, especially if notarized.", "truth": "Unwitnessed handwritten wills work only for wartime military and mariners at sea. Everyone else needs two witnesses, and notarizing can't replace them." },
+      { "trap": "The court appoints an executor when there's no will.", "truth": "The will names the executor. With no will, the court appoints an administrator." },
+      { "trap": "One acre is 48,400 square feet.", "truth": "One acre is 43,560 sq ft (4,840 sq yd)." }
+    ],
+    "mnemonics": [
+      { "name": "CHANCE", "meaning": "Adverse possession elements: Claim of right, Hostile, Actual, Notorious (and open), Continuous, Exclusive, for 10 years" },
+      { "name": "PETE", "meaning": "Government powers over land: Police power, Eminent domain, Taxation, Escheat" },
+      { "name": "Devise = Dirt, Bequest = Belongings", "meaning": "A devise gives real property (dirt) by will; a bequest gives personal property (belongings)" }
+    ],
+    "formulas": [
+      { "name": "Acreage", "formula": "Acres = square feet ÷ 43,560", "example": "660 × 330 = 217,800 sq ft ÷ 43,560 = 5 acres" },
+      { "name": "Triangle area", "formula": "Area = ½ × base × height", "example": "½ × 400 × 217.8 = 43,560 sq ft = 1 acre (without the ½: 2 acres)" },
+      { "name": "NYS transfer tax", "formula": "Tax = (price ÷ $500, rounded up) × $2", "example": "$437,250 ÷ 500 = 874.5 → 875 × $2 = $1,750, paid by the seller" },
+      { "name": "Intestate spouse share (with issue)", "formula": "$50,000 + ½ × (net estate − $50,000)", "example": "$450,000 estate: $50,000 + $200,000 = $250,000 to the spouse; $200,000 to the children" },
+      { "name": "Elective share", "formula": "Greater of $50,000 or net estate ÷ 3", "example": "$600,000 net estate: ⅓ = $200,000" },
+      { "name": "Reverse bearing", "formula": "Flip both letters; keep the angle", "example": "N 60° E from A to B = S 60° W from B to A" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What makes a deed valid",
+      "intro": "A **deed** is the written instrument that transfers **title** (ownership) of real property. The sale contract promises a conveyance; the deed delivered at closing makes it.",
+      "points": [
+        "The **grantor** ('party of the first part' on NY forms) conveys; the **grantee** ('party of the second part') receives. A **conveyance** is the transfer or the document that makes it, and **alienation** is any transfer of ownership.",
+        "A conveyance must be **in writing and subscribed by the grantor**, or by an agent authorized in writing such as an attorney-in-fact (General Obligations Law §5-703).",
+        "A **minor's** deed is **voidable**: it stands unless the minor disaffirms it. A grantor who lacked mental capacity can have the deed set aside. Recording cures neither.",
+        "The **grantee** must be identifiable and **alive (or an existing entity) at delivery**; a deed to someone already dead is void. Minors can be grantees. Unstated shares are presumed **equal**. Co-grantees take as **tenants in common** unless the deed expressly creates a joint tenancy, and spouses take as **tenants by the entirety** unless the deed says otherwise (EPTL §6-2.2).",
+        "A grantor conveys only what she owns: if one of two tenants in common signs a deed for 'the property,' the buyer gets only her undivided share.",
+        "Neither **witnesses** nor the **grantee's signature** is needed for validity; a grantee signs only to take on a duty, such as assuming the seller's mortgage (GOL §5-705). **Acknowledgment** matters only for recording."
+      ],
+      "table": {
+        "head": ["Element", "Requirement", "Exam angle"],
+        "rows": [
+          ["Writing", "Written deed subscribed by the grantor", "No oral conveyances of land"],
+          ["Competent grantor", "18 or older and of sound mind", "A minor's deed is voidable"],
+          ["Identifiable grantee", "Living person or existing entity at delivery", "Dead grantee = void deed"],
+          ["Words of conveyance", "Granting clause showing present intent", "Wording signals the deed type"],
+          ["Consideration", "Recital of value; nominal is fine", "Gift deeds are valid"],
+          ["Legal description", "Pinpoints the parcel", "A street address alone isn't enough"],
+          ["Habendum", "'To have and to hold' clause", "Defines the estate granted"],
+          ["Subject-to clause", "Encumbrances the grantee accepts", "Shields the grantor from covenant claims"],
+          ["Grantor's signature", "Grantor or agent with written authority", "Grantee needn't sign"],
+          ["Delivery and acceptance", "Control surrendered with present intent; grantee accepts", "Title passes here"],
+          ["Acknowledgment", "Before a notary or other authorized officer", "Needed to record, not for validity"],
+          ["Recording", "County clerk (City Register in most of NYC)", "Protects against later buyers"]
+        ]
+      }
+    },
+    {
+      "heading": "Deed clauses and their wording",
+      "intro": "Questions often quote deed language and ask which clause it is.",
+      "points": [
+        "NY deeds usually recite **nominal consideration**; the real price is reported on the **TP-584** and **RP-5217**. A **gift deed** is valid, but a donee isn't a purchaser for value, so the recording act protects a donee less.",
+        "**Exception:** that piece never passes, and the grantor keeps owning it. **Reservation:** the land passes, but the grantor keeps a new right in it, usually an easement.",
+        "'**Subject to**' language lets the buyer take title burdened by the listed encumbrances without a covenant claim against the grantor; it neither creates nor ends them. Discriminatory restrictions in old deeds are unenforceable.",
+        "A **correction deed** from the same grantor to the same grantee fixes clerical errors (a misspelled name, a transposed lot number) without a new sale."
+      ],
+      "table": {
+        "head": ["Clause", "Typical wording", "Effect"],
+        "rows": [
+          ["Granting clause", "'does hereby grant and release unto the party of the second part'", "Shows present intent to convey"],
+          ["Consideration", "'ten dollars and other good and valuable consideration'", "Recites that value was given"],
+          ["Habendum", "'to have and to hold ... forever' or 'for and during her natural life'", "Fee simple, or a life estate"],
+          ["Subject to", "'subject to a utility easement of record'", "Buyer accepts the listed encumbrances"],
+          ["Exception", "'except the two-acre homesite in the northeast corner'", "Keeps that land out of the deed"],
+          ["Reservation", "'reserving to the grantor a right of way'", "Grantor keeps an easement"],
+          ["Lien Law covenant", "Seller holds the proceeds as a trust fund to pay first for improvements", "Comes from Lien Law §13(5); protects the title against mechanic's liens for recent work"]
+        ]
+      }
+    },
+    {
+      "heading": "Covenants in a full covenant and warranty deed",
+      "intro": "A **covenant** is a promise in the deed. New York's statutory full covenant and warranty deed (RPL §§253, 258) has five; books that count six split 'right to convey' out of seisin.",
+      "points": [
+        "**Present** covenants (seisin, against encumbrances) are breached at delivery or never. **Future** covenants (quiet enjoyment, further assurances, warranty) are breached later, when a superior claim surfaces.",
+        "Only this deed warrants against defects from **any period**, including those created before the grantor owned the land.",
+        "The **covenant against grantor's acts** (the grantor 'has not done or suffered anything' to encumber the land) isn't one of the five; it's the only title covenant in the bargain and sale deed with covenant and in the statutory executor's deed."
+      ],
+      "table": {
+        "head": ["Covenant", "The grantor promises", "Type"],
+        "rows": [
+          ["Seisin (includes right to convey)", "I own this estate and may convey it", "Present"],
+          ["Against encumbrances", "No liens or encumbrances except those listed", "Present"],
+          ["Quiet enjoyment", "No one with better title will disturb you", "Future"],
+          ["Further assurances", "I'll sign anything else needed to perfect your title", "Future"],
+          ["Warranty of title", "I'll forever defend your title against all lawful claims", "Future; the broadest"]
+        ]
+      }
+    },
+    {
+      "heading": "Forms of deeds, ranked by protection",
+      "intro": "RPL §258 provides optional statutory forms, and the sale contract decides which one the seller must deliver.",
+      "points": [
+        "The **bargain and sale deed with covenant** is the usual New York residential deed. A judgment lien against an earlier owner falls outside its covenant; title insurance handles that. Other states call the closest equivalent a special warranty deed.",
+        "A **bargain and sale deed without covenants** says 'grant and release,' which implies the grantor has title. A **quitclaim** ('remise, release and quitclaim') implies nothing, so it's the weakest deed.",
+        "A quitclaim still passes full title if the grantor has it. It's the standard cure for a **cloud on title**, such as a possible claim by an heir or ex-spouse.",
+        "**Court and fiduciary deeds** carry no full warranties. NY residential foreclosures are court cases, so the winning bidder gets a **referee's deed**; a court-ordered **partition** sale between co-owners ends the same way."
+      ],
+      "table": {
+        "head": ["Deed", "What the grantor promises", "Typical use"],
+        "rows": [
+          ["Full covenant and warranty", "All five covenants, against claims from any era", "Maximum protection"],
+          ["Bargain and sale with covenant", "Implied title; grantor did nothing to encumber it", "Usual NY residential sale"],
+          ["Bargain and sale without covenants", "Implied title; no promises", "Seller won't give any covenant"],
+          ["Quitclaim", "Whatever interest the grantor has, if any", "Clearing clouds; family and divorce transfers"],
+          ["Executor's deed", "Customarily the covenant against grantor's acts only", "Executor sells under a will"],
+          ["Administrator's deed", "Customarily the covenant against grantor's acts only", "Administrator sells for an intestate estate"],
+          ["Referee's deed", "No personal warranty", "Foreclosure and partition sales"],
+          ["Other officer deeds", "Limited to the officer's authority", "Guardian's, sheriff's, and tax deeds"]
+        ]
+      }
+    },
+    {
+      "heading": "Delivery and acceptance",
+      "intro": "Title passes at delivery and acceptance, so these questions turn on whether the grantor truly let go.",
+      "points": [
+        "**Delivery** means the grantor gives up control with the **intent that title pass now**, to the grantee or the grantee's agent (attorney, title company).",
+        "**Not delivered:** a deed kept in the grantor's own safe-deposit box, held by the grantor's own attorney until she decides, or found after death. Delivery must happen **during the grantor's life**.",
+        "An **escrow** agent holding the deed under **irrevocable instructions** is different: the grantor can't recall it, so delivery can be valid.",
+        "**Acceptance** is presumed when the deed benefits the grantee, but an **express refusal** (mailing back a deed to a contaminated lot) means title never passed.",
+        "After delivery, returning or tearing up the deed **doesn't reconvey** the land. Recording raises a presumption of delivery but **can't cure non-delivery**.",
+        "Sequence: grantor signs → acknowledges → delivers, grantee accepts (title passes) → grantee records."
+      ]
+    },
+    {
+      "heading": "Acknowledgment and recording (race-notice)",
+      "intro": "Acknowledgment makes a deed recordable; recording gives the world notice and gives the grantee priority.",
+      "points": [
+        "**Acknowledgment:** the grantor declares before a notary or other officer authorized by RPL §298 that the signature is genuine and voluntary. It makes the deed **recordable**; it doesn't pass title or give notice.",
+        "An unacknowledged deed is **valid between the parties** but **can't be recorded** (unless proved by a subscribing witness), so it gives no constructive notice.",
+        "Record with the **county clerk** where the land lies (an Albany house goes to the Albany County Clerk, not the assessor). NYC: the **City Register** for Manhattan, the Bronx, Brooklyn, and Queens, through **ACRIS** (the Automated City Register Information System); the **Richmond County Clerk** for Staten Island.",
+        "**Race-notice (RPL §291):** an unrecorded deed is void against a later buyer who takes **in good faith** (no notice), **for value**, and **records first**. A pure race statute would ignore notice; a pure notice statute would ignore who records first.",
+        "Protected: buyers and **mortgagees** who give value (a mortgage is a conveyance under RPL §290). Not protected: **donees**, heirs, and anyone with notice.",
+        "Recording can't validate a **forged** or void deed, cure non-delivery or incapacity, or guarantee title.",
+        "A recorded **notice of pendency (lis pendens)** warns of a lawsuit affecting title but decides nothing. 'First recorded wins' isn't absolute: real estate tax liens take priority anyway."
+      ],
+      "table": {
+        "head": ["Notice", "Meaning", "Example"],
+        "rows": [
+          ["Actual", "The buyer really knows", "Seller mentions the earlier unrecorded deed"],
+          ["Constructive", "The law presumes knowledge of the record", "A properly recorded deed or mortgage"],
+          ["Inquiry", "Facts a prudent buyer would investigate", "Someone other than the seller lives there"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: who wins under race-notice?",
+        "steps": [
+          "Owner sells a lot to Ana, who doesn't record, then sells the same lot to Ben.",
+          "Step 1, good faith: if Ben knew of Ana's deed, or Ana was visibly living there, Ben loses regardless of recording.",
+          "Step 2, value: if Ben received the lot as a gift, he can't defeat Ana.",
+          "Step 3, the race: Ben paid value without notice. If he records before Ana, he wins and Ana sues Owner; if Ana records first, Ana wins.",
+          "Answer: the later buyer wins only with all three: good faith, value, and recording first."
+        ]
+      }
+    },
+    {
+      "heading": "Transfer forms and the transfer tax",
+      "intro": "Tax and reporting forms are filed along with the deed.",
+      "points": [
+        "**NYS transfer tax:** $2 per $500 of consideration **or fraction thereof**, paid by the **seller**; the buyer is liable if the seller doesn't pay or is exempt (Tax Law §§1402, 1404).",
+        "The TP-584 also reports the **1% mansion tax**, paid by the **buyer** on residential sales of **$1 million or more**, on the full price. In NYC, the seller also pays the city transfer tax (residential: 1% at $500,000 or less; 1.425% of the full price above that), and big sales owe extra state tax: the base rate rises to $3.25 per $500 at residential $3 million+ (other property $2 million+), and the buyer's mansion tax climbs in steps from 1.25% at residential $2 million+ to 3.9% at $25 million+.",
+        "The **RP-5217** is required to record a deed (RPL §333(1-e)). **ACRIS** is NYC's land-records system; **eAccessNY** is the DOS licensing portal, unrelated to deeds. Mortgage recording tax is a separate tax on the loan."
+      ],
+      "table": {
+        "head": ["Form", "What it is", "Who signs or uses it"],
+        "rows": [
+          ["TP-584", "Combined NYS transfer tax return (with the seller's income tax exemption certification)", "Grantor and grantee both sign; the seller alone signs the income tax certification"],
+          ["RP-5217 (RP-5217NYC)", "Real Property Transfer Report of price and sale conditions", "Assessors and the State Office of Real Property Tax Services (ORPTS)"],
+          ["IT-2663", "Estimated income tax payment by a nonresident seller", "Nonresident sellers without an exemption"],
+          ["ACRIS filings", "NYC's online deed, transfer tax, and RP-5217NYC preparation", "NYC parties and their attorneys"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: NYS transfer tax",
+        "steps": [
+          "A house outside NYC sells for $512,300.",
+          "Step 1: $512,300 ÷ $500 = 1,024.6 units.",
+          "Step 2: Any fraction counts as a full unit: 1,025 units.",
+          "Step 3: 1,025 × $2 = $2,050.",
+          "Answer: $2,050, paid by the seller. Distractors: $2,049.20 (no round-up), $2,048 (rounded down), $5,123 (1%)."
+        ]
+      }
+    },
+    {
+      "heading": "Title search, chain of title, and clouds",
+      "intro": "A **title search** of the public records confirms the seller owns what's being sold and finds liens and encumbrances.",
+      "points": [
+        "The **title report** (commitment) lists what must be paid off or cleared before closing and what the insurer won't cover.",
+        "**Chain of title** is the sequence of ownership transfers. An **abstract of title** is a condensed summary of every recorded instrument (deeds, mortgages, liens, easements). A missing link is a **gap**; any claim casting doubt on ownership is a **cloud**.",
+        "**Marketable title** is free from reasonable doubt, acceptable to a prudent, informed buyer. It's measured against the contract: an easement the buyer agreed to take subject to doesn't make title unmarketable.",
+        "Records can't reveal that a deed was forged, or rights created without any document (a **prescriptive easement**, adverse possession, someone in possession). Inspection, a survey, and title insurance fill those gaps."
+      ],
+      "table": {
+        "head": ["Problem", "Example", "Usual cure"],
+        "rows": [
+          ["Gap in the chain", "No recorded deed from Baker to Cole", "Record the missing deed, get a quitclaim, or sue to quiet title (a court ruling on ownership)"],
+          ["Unreleased mortgage", "Paid off, but no satisfaction recorded", "Record a satisfaction of mortgage"],
+          ["Possible outside claim", "An heir or ex-spouse might claim an interest", "Quitclaim from the claimant"],
+          ["Missing claimants", "Heirs can't be found to sign", "Quiet title action (RPAPL Article 15)"],
+          ["Clerical error", "Misspelled name or wrong lot number", "Correction deed"],
+          ["Adverse possessor's title", "10+ years of qualifying possession", "Quiet title judgment, then record it"]
+        ]
+      }
+    },
+    {
+      "heading": "Title insurance",
+      "intro": "**Title insurance** covers losses from title defects that existed on the policy date, except listed exceptions. The premium is paid once, at closing, and the Department of Financial Services regulates it (Insurance Law Article 64).",
+      "points": [
+        "**Covered:** forgery, a past grantor's incapacity, missing heirs, indexing errors. The insurer **defends the title** and pays covered losses up to the policy amount.",
+        "**Not covered** by a standard policy: defects arising **after** the policy date (a neighbor's shed built later), listed exceptions, and physical damage. An enhanced homeowner's policy adds a few post-closing risks, such as later forgery or a neighbor's later-built structure other than a fence or wall; unless a question says the policy is enhanced, apply the standard rule.",
+        "**Standard exceptions:** survey matters such as encroachments, and **parties in possession**. A **survey reading** compares a survey with the deed description and swaps the general survey exception for specific ones, so 'never covers encroachments' is too broad.",
+        "With a $500,000 price and a $400,000 loan, the lender's policy is $400,000 and protects only the bank. An owner's policy never passes to the next buyer."
+      ],
+      "table": {
+        "head": ["Feature", "Owner's policy", "Lender's policy"],
+        "rows": [
+          ["Protects", "Buyer and heirs", "Lender's lien only"],
+          ["Amount", "Usually the price", "The loan amount"],
+          ["Duration", "While insured or heirs hold an interest", "Shrinks with the loan; ends at payoff"],
+          ["Required?", "Optional", "Required by most lenders"],
+          ["Payer in NY", "Buyer, by custom (the contract controls)", "Buyer, by custom"]
+        ]
+      }
+    },
+    {
+      "heading": "Legal descriptions, surveys, and acreage",
+      "intro": "A **legal description** lets a surveyor find the exact parcel. New York deeds use metes and bounds, filed-map references, or both, often alongside tax map numbers.",
+      "points": [
+        "**Metes** are distances and **bounds** are directions. A description starts at the **point of beginning (POB)** and must **return** to it.",
+        "**Bearings** start at north or south and turn up to 90° toward east or west: S 30° W means face south, turn 30° west. Reverse a line by **flipping both letters**: N 60° E becomes S 60° W.",
+        "**Monuments** (an iron pipe, a stone wall, a stream) **control over distances**: 'north 200 feet to an iron pipe' with the pipe at 204 feet means the pipe wins.",
+        "A **filed plat** reference: 'Lot 14 on the map of Maple Ridge Estates, filed as Map No. 3127.' In NYC, 'Block 1450, Lot 22' comes from the **tax map**.",
+        "A **survey** by a licensed land surveyor locates boundaries, improvements, encroachments, and easements. A **datum** is the base level for elevations (such as mean sea level); a **benchmark** is a marker of known elevation.",
+        "Area: rectangle = length × width; triangle = ½ × base × height. **1 acre = 43,560 sq ft**; 1 square mile = 640 acres."
+      ],
+      "table": {
+        "head": ["Method", "How it works", "Used in NY?"],
+        "rows": [
+          ["Metes and bounds", "Courses and distances from a POB and back", "Yes, very common"],
+          ["Monuments", "Fixed natural or artificial markers", "Yes, within metes and bounds"],
+          ["Lot and block", "Lot on a subdivision map filed with the county clerk", "Yes"],
+          ["Tax map", "Section, block, and lot (borough, block, and lot in NYC)", "Yes, usually with a full description"],
+          ["Rectangular survey", "Meridians, base lines, townships, sections", "No; federal public-land states"],
+          ["Street address", "Mailing address", "Not a legal description"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: acreage of an irregular lot",
+        "steps": [
+          "A parcel is a 400 ft × 217.8 ft rectangle plus a right triangle with legs of 200 ft and 217.8 ft. Land sells for $36,000 per acre.",
+          "Step 1: Rectangle = 400 × 217.8 = 87,120 sq ft.",
+          "Step 2: Triangle = ½ × 200 × 217.8 = 21,780 sq ft.",
+          "Step 3: Total = 108,900 sq ft ÷ 43,560 = 2.5 acres.",
+          "Step 4: Value = 2.5 × $36,000 = $90,000.",
+          "Answer: 2.5 acres, worth $90,000."
+        ]
+      }
+    },
+    {
+      "heading": "Adverse possession in New York",
+      "intro": "**Adverse possession** gives title to someone who meets every element for **10 years** (CPLR 212(a); RPAPL Article 5). It's involuntary alienation, tightened in 2008.",
+      "points": [
+        "**2008 amendments** (effective July 7, 2008): someone who knowingly takes an identifiable neighbor's land has no claim of right, and minor encroachments and mowing are permissive. If the 10 years ended before that date, title already vested under the old law.",
+        "Paying **taxes** isn't required. **Tacking:** possessors in privity, such as seller and buyer, add their time together (6 + 5 = 11 years).",
+        "Title **vests automatically** at 10 years; a **quiet title** judgment (RPAPL Article 15) makes it recordable and marketable.",
+        "Government land held for a **public use** (streets, parks) can't be adversely possessed.",
+        "A **prescriptive easement** is a 10-year **use** right, such as driving across a side yard, not ownership, and it won't show up in a records search."
+      ],
+      "table": {
+        "head": ["Element", "Meaning", "NY detail"],
+        "rows": [
+          ["Claim of right", "Reasonable basis to believe you own it", "Excused if the owner can't be found in county records or by reasonable means (RPAPL §501(3))"],
+          ["Hostile", "No permission", "De minimis fences, hedges, shrubs, sheds, and mowing are permissive (RPAPL §543)"],
+          ["Actual", "Using the land as an owner would", "Building, enclosing, farming, living there"],
+          ["Open and notorious", "Visible to a diligent owner", "If not under a written instrument: acts open enough to notify a diligent owner, or a substantial enclosure (RPAPL §522)"],
+          ["Continuous", "Unbroken for 10 years", "Tacking allowed with privity"],
+          ["Exclusive", "Not shared with the owner", "Shared use defeats it"]
+        ]
+      }
+    },
+    {
+      "heading": "Transfers at death: wills, intestacy, and escheat",
+      "intro": "Property passes under a will (**testate**) or under the intestacy statute (**intestate**). In New York, the **Surrogate's Court** supervises both.",
+      "points": [
+        "**Testate:** **probate** proves the will, the court issues **letters testamentary** to the **executor** named in it, and the executor sells with an **executor's deed**. **Intestate:** the court appoints an **administrator**, issues **letters of administration**, and the administrator signs an **administrator's deed**.",
+        "A **testator** makes a will (testatrix, executrix, and administratrix are older female forms), and a **codicil** amends it. A **devise** is real property by will, to a **devisee**; a **bequest** or **legacy** is personal property. Heirs under intestacy are **distributees**, and they take **title by descent**.",
+        "**Executing a will (EPTL §§3-1.1, 3-2.1):** age **18+**, sound mind, in writing, **signed at the end**, declared to be the will, and **two attesting witnesses** who sign within one **30-day** period. No notary is needed.",
+        "**Holographic** (handwritten, unwitnessed) and oral wills are valid only for armed forces members in war or armed conflict, those accompanying them, and mariners at sea, and they expire (EPTL §3-2.2).",
+        "**Elective share** (EPTL §5-1.1-A): a disinherited spouse can elect the greater of **$50,000 or ⅓ of the net estate**. A $600,000 estate left to charity lets the wife elect $200,000.",
+        "**Escheat** happens only if **no distributee** survives; a first cousin still inherits. Books split on whether descent is voluntary or involuntary, but escheat is always involuntary."
+      ],
+      "table": {
+        "head": ["Survivors (intestate)", "Who takes (EPTL §4-1.1)"],
+        "rows": [
+          ["Spouse and issue (descendants)", "Spouse: $50,000 + ½ of the rest; issue: the balance"],
+          ["Spouse, no issue", "Spouse takes everything"],
+          ["Issue, no spouse", "Issue take everything"],
+          ["Parent(s), no spouse or issue", "Parents take everything"],
+          ["Siblings or their descendants (no one closer)", "Siblings and their descendants (nieces, nephews), by representation"],
+          ["Grandparents, aunts, uncles, first cousins (no one closer)", "Half to each side of the family (all to one side if the other has no one)"],
+          ["First cousins once removed (no one closer)", "Half to each side, per capita"],
+          ["No distributee", "Escheat to New York State"]
+        ]
+      },
+      "example": {
+        "title": "Worked example: intestate shares",
+        "steps": [
+          "A New Yorker dies intestate with a $450,000 net estate, a spouse, and two children.",
+          "Step 1: The spouse takes $50,000, leaving $400,000.",
+          "Step 2: The spouse takes half of that: $200,000.",
+          "Step 3: The children split $200,000: $100,000 each.",
+          "Answer: spouse $250,000, each child $100,000. With no children, the spouse takes all $450,000."
+        ]
+      }
+    },
+    {
+      "heading": "Voluntary and involuntary alienation",
+      "intro": "**Voluntary alienation** is a transfer the owner chooses; **involuntary alienation** happens by operation of law.",
+      "points": [
+        "**Eminent domain** is the power to take private property for **public use**; **condemnation** is the process. **Just compensation** (usually market value) is required (U.S. Const. 5th Amend.; NY Const. art. I §7; Eminent Domain Procedure Law), so it's involuntary but paid.",
+        "A partial taking pays for the part taken plus **severance damages** to the remainder. **Inverse condemnation** is the owner's suit when government effectively takes property, such as by repeated sewer flooding, without condemning it.",
+        "**PETE:** police power (zoning regulates use without compensation or title transfer), eminent domain, taxation, escheat.",
+        "**Accession:** **accretion** adds soil gradually (the soil is **alluvion**); **reliction** exposes land as water recedes; **avulsion** is a sudden loss to a flood or river change, but it generally leaves the legal boundary, and the owner's title, where they were.",
+        "**Quiet title** settles competing ownership claims; **partition** divides co-owned land or forces a sale."
+      ],
+      "table": {
+        "head": ["Transfer", "Type", "How"],
+        "rows": [
+          ["Sale or gift by deed", "Voluntary", "Owner delivers a deed"],
+          ["Will (devise)", "Voluntary", "Owner chose the devisee"],
+          ["Dedication", "Voluntary", "Gift of land to the public, such as subdivision streets; by deed, it's dedication by deed"],
+          ["Public grant", "Voluntary", "Government conveys land by a land patent"],
+          ["Eminent domain", "Involuntary", "Condemnation with just compensation"],
+          ["Escheat", "Involuntary", "No distributee survives"],
+          ["Foreclosure, tax sale", "Involuntary", "Court or tax-enforcement sale"],
+          ["Partition", "Involuntary", "Court divides co-owned land or orders a sale"],
+          ["Adverse possession", "Involuntary", "10 years of qualifying possession"],
+          ["Accession", "Involuntary (natural)", "Accretion or reliction adds land; gradual erosion removes it (a sudden avulsion doesn't move the boundary)"]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NYS DOS Real Estate Salesperson 77-hour syllabus: Deeds; Title Closing and Costs",
+    "NY Real Property Law §§253, 258, 290, 291, 298, 333(1-e)",
+    "NY General Obligations Law §§5-703, 5-705; NY Lien Law §13(5)",
+    "NY RPAPL Article 5 (§§501, 522, 543) and Article 15; CPLR 212(a)",
+    "NY EPTL §§3-1.1, 3-2.1, 3-2.2, 4-1.1, 5-1.1-A, 6-2.2; SCPA §103 (devise, bequest, executor)",
+    "NY Tax Law §§1402, 1402-a, 1402-b, 1404, 1409; Forms TP-584 and RP-5217 instructions",
+    "NY Insurance Law Article 64; ALTA Homeowner's Policy, Covered Risks 7 and 28; NY Eminent Domain Procedure Law; NY Const. art. I §7",
+    "NYC Department of Finance, City Register and ACRIS",
+    "Course cram sheet (official sources checked October 7, 2026)"
+  ]
+}

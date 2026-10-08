@@ -99,6 +99,15 @@ async function run(browser, device) {
   await shot('09-more');
   await page.goto(BASE + '/#/home');
   await shot('10-home-after');
+  await page.goto(BASE + '/#/study');
+  await page.waitForSelector('#chapters');
+  await shot('11-study');
+  await page.goto(BASE + '/#/study/math');
+  await page.waitForSelector('#cram');
+  await shot('12-study-cram');
+  await page.goto(BASE + '/#/study/math/notes');
+  await page.waitForSelector('#notes');
+  await shot('13-study-notes');
   await ctx.close();
   return shots;
 }

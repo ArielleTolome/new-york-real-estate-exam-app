@@ -1,0 +1,84 @@
+'use strict';
+// View: #/study (chapter list), #/study/<topic> (cram sheet), #/study/<topic>/notes (full notes).
+// Globals (state, helpers, guides(), rich()) come from app.js; called at render time.
+
+function vStudy(topicId, sub) {
+  const G = guides();
+  if (!G) return { top: header('Study guides'), main: '<p class="muted center">Loading study guides…</p>', bottom: tabs('study') };
+  return topicId ? studyChapter(G, topicId, sub === 'notes') : studyList(G);
+}
+
+function studyList(G) {
+  const ts = topicStats();
+  const rows = BANK.topics.map((t, i) => [t, i]).filter(([t]) => G[t.id]).map(([t, i]) => {
+    const s = ts[t.id];
+    const acc = s.n ? s.c / s.n : null;
+    const g = G[t.id];
+    return `<li><a class="st-row" href="#/study/${esc(t.id)}">${bullet(t.id)}
+      <span class="st-row-t"><strong>${esc(t.name)}</strong>
+        <small class="meta">Chapter ${i + 1}. ${g.sections.length} sections, ${s.total} questions${acc === null ? '' : `, ${pct(acc)}% right`}</small></span>
+      ${acc !== null && acc < PASS ? '<span class="badge bad">Weak</span>' : ''}${svg('chevron')}</a></li>`;
+  }).join('');
+  return {
+    top: header('Study guides', { sub: 'A cram sheet and full notes for every chapter' }),
+    main: `<ul class="st-list" id="chapters">${rows}</ul>`,
+    bottom: tabs('study'),
+  };
+}
+
+function studyChapter(G, id, notes) {
+  const g = G[id];
+  const idx = BANK.topics.findIndex((t) => t.id === id);
+  if (!g) {
+    return { top: header('Study guides'), main: '<p class="card">There is no study guide for this topic yet.</p>', bottom: tabs('study') };
+  }
+  const prev = BANK.topics[idx - 1], next = BANK.topics[idx + 1];
+  const nav = (t, label) => (t && G[t.id] ? `<a class="st-nav" href="#/study/${esc(t.id)}${notes ? '/notes' : ''}"><small class="meta">${label}</small>${topicLabel(t.id)}</a>` : '<span></span>');
+  return {
+    top: header(g.title, { sub: `Chapter ${idx + 1} of ${BANK.topics.length}`, right: '<a class="link" href="#/study">All chapters</a>' }),
+    main: `
+    <nav class="seg st-seg" aria-label="Guide view">
+      <a href="#/study/${esc(id)}" ${notes ? '' : 'aria-current="page"'}>Cram sheet</a>
+      <a href="#/study/${esc(id)}/notes" ${notes ? 'aria-current="page"' : ''}>Full notes</a>
+    </nav>
+    ${notes ? '' : `<section class="st-intro">${bullet(id)}<p>${rich(g.overview)}</p></section>`}
+    ${notes ? studyNotes(g) : studyCram(g)}
+    <div class="st-pager">${nav(prev, 'Previous chapter')}${nav(next, 'Next chapter')}</div>`,
+    bottom: `<div class="actionbar"><a class="btn" href="#/study">Chapters</a>
+      <button class="btn primary" data-action="practice-topic" data-id="${esc(id)}">Practice chapter</button></div>`,
+  };
+}
+
+function studyCram(g) {
+  const c = g.cram;
+  return `<div class="st-cram" id="cram">
+    <section><h2>Key numbers</h2><dl class="st-nums">${c.numbers.map((n) =>
+      `<div><dt class="num">${rich(n.value)}</dt><dd>${rich(n.label)}</dd></div>`).join('')}</dl></section>
+    <section><h2>Must know</h2><ol class="card st-must">${c.mustKnow.map((m) => `<li>${rich(m)}</li>`).join('')}</ol></section>
+    <section><h2>Exam traps</h2><ul class="st-traps">${c.traps.map((t) =>
+      `<li class="card"><p class="st-trap">${svg('x')}<span>${rich(t.trap)}</span></p><p class="st-truth">${svg('check')}<span>${rich(t.truth)}</span></p></li>`).join('')}</ul></section>
+    ${c.formulas?.length ? `<section><h2>Formulas</h2><ul class="st-formulas">${c.formulas.map((f) =>
+      `<li class="card"><strong>${rich(f.name)}</strong><code>${rich(f.formula)}</code>${f.example ? `<small class="meta">${rich(f.example)}</small>` : ''}</li>`).join('')}</ul></section>` : ''}
+    ${c.mnemonics?.length ? `<section><h2>Memory aids</h2><ul class="st-mnem">${c.mnemonics.map((m) =>
+      `<li class="card"><strong>${rich(m.name)}</strong><span>${rich(m.meaning)}</span></li>`).join('')}</ul></section>` : ''}
+  </div>`;
+}
+
+function studyNotes(g) {
+  const toc = g.sections.map((s, i) =>
+    `<li><button class="link" data-action="toc" data-target="sec-${i}">${i + 1}. ${rich(s.heading)}</button></li>`).join('');
+  const sections = g.sections.map((s, i) => `
+    <section class="card st-sec" id="sec-${i}"><h2>${i + 1}. ${rich(s.heading)}</h2>
+      ${s.intro ? `<p class="st-lead">${rich(s.intro)}</p>` : ''}
+      <ul class="st-points">${s.points.map((p) => `<li>${rich(p)}</li>`).join('')}</ul>
+      ${s.table ? `<div class="st-table" role="region" aria-label="${esc(s.heading)} table" tabindex="0"><table>
+        <thead><tr>${s.table.head.map((h) => `<th scope="col">${rich(h)}</th>`).join('')}</tr></thead>
+        <tbody>${s.table.rows.map((r) => `<tr>${r.map((cell) => `<td>${rich(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : ''}
+      ${s.example ? `<div class="st-example"><h3>${rich(s.example.title)}</h3><ol>${s.example.steps.map((st) => `<li>${rich(st)}</li>`).join('')}</ol></div>` : ''}
+    </section>`).join('');
+  return `<div class="st-notes" id="notes">
+    <nav class="card st-toc" aria-label="Sections"><h2>Sections</h2><ol>${toc}</ol></nav>
+    <div class="st-body">${sections}
+      <section class="st-sources"><h2>Sources</h2><ul>${g.sources.map((s) => `<li>${rich(s)}</li>`).join('')}</ul></section></div>
+  </div>`;
+}

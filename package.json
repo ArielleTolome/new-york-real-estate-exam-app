@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "build": "node scripts/build-questions.mjs",
+    "build": "node scripts/build-questions.mjs && node scripts/build-guides.mjs",
     "serve": "python3 -m http.server 8080",
     "test": "node test-e2e.js && node tests/chaos.js && node tests/visual.js"
   },

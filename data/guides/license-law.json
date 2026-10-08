@@ -1,0 +1,889 @@
+{
+  "topic": "license-law",
+  "title": "License Law & Article 12-A",
+  "overview": "This chapter covers New York's license law: Article 12-A of the Real Property Law (RPL), the Department of State's conduct rules in 19 NYCRR Part 175, Article 12-C for apartment information vendors, and the two seller disclosures the syllabus files under Subject 1 (the Property Condition Disclosure Act and RPL §242). It explains who needs a license and who is exempt, how salespersons, associate brokers, brokers and entities qualify, how licenses are renewed and kept active, and how client money, advertising, teams and unlicensed staff must be handled. License law gets only 3 of the 77 course hours and DOS publishes no exam weights, but its rules surface throughout the exam and overlap with agency and fair housing. The big themes: a salesperson acts and is paid only through her sponsoring broker, client money is never the broker's money, every ad must identify the broker, and violations bring administrative, criminal and civil consequences on separate tracks.",
+  "cram": {
+    "numbers": [
+      {
+        "value": "18",
+        "label": "Minimum age for a salesperson license"
+      },
+      {
+        "value": "20",
+        "label": "Minimum age for a broker or associate broker license"
+      },
+      {
+        "value": "77 hours",
+        "label": "Salesperson qualifying course (plus the school's final and the separate state exam)"
+      },
+      {
+        "value": "152 hours",
+        "label": "Broker education: the 77-hour course plus the 75-hour broker course"
+      },
+      {
+        "value": "3,500 / 5,250 points",
+        "label": "Broker experience: 2 years as a salesperson + 3,500 points, or 3 years general experience + 5,250 points"
+      },
+      {
+        "value": "2 years",
+        "label": "License term; life of a passed exam; window to renew an expired license (no practice meanwhile)"
+      },
+      {
+        "value": "8 years",
+        "label": "Life of an unused 77-hour course certificate"
+      },
+      {
+        "value": "22.5 hours",
+        "label": "CE per 2-year term (12.5 specified in a salesperson's first term, 11.5 after)"
+      },
+      {
+        "value": "3 business days",
+        "label": "Deadline to deposit client money in the special trust account (§175.1)"
+      },
+      {
+        "value": "3 years",
+        "label": "Keep §175.23 transaction records"
+      },
+      {
+        "value": "$2,000",
+        "label": "Maximum DOS fine (RPL §441-c); half goes to the anti-discrimination in housing fund"
+      },
+      {
+        "value": "1 year",
+        "label": "Wait after revocation before relicensing"
+      },
+      {
+        "value": "5 days",
+        "label": "Return license and pocket card after suspension or revocation; report a felony conviction after sentencing"
+      },
+      {
+        "value": "10 days",
+        "label": "Minimum written notice of charges before a DOS hearing"
+      },
+      {
+        "value": "120 + 120 days",
+        "label": "Executor's use of a deceased sole-proprietor broker's license, plus a good-cause extension"
+      },
+      {
+        "value": "1× to 4×",
+        "label": "Civil penalty range, based on the money the violator received (RPL §442-e)"
+      },
+      {
+        "value": "15 members",
+        "label": "State Board of Real Estate: Secretary of State, Superintendent of Financial Services, 13 appointees"
+      },
+      {
+        "value": "6-point type",
+        "label": "Minimum size of the exclusive-right-to-sell vs exclusive-agency explanation"
+      },
+      {
+        "value": "$65 / $185 / $15",
+        "label": "Salesperson application or renewal / broker application, renewal or branch license / state exam"
+      },
+      {
+        "value": "$15 and 10 days",
+        "label": "Article 12-C: most a vendor may keep from an advance fee, and the refund deadline after written notice"
+      }
+    ],
+    "mustKnow": [
+      "**Article 12-A** of the Real Property Law is the license law; the **Department of State (DOS)** licenses and disciplines, and **19 NYCRR Part 175** holds the conduct rules.",
+      "A license is needed to list, sell, buy, exchange, rent, negotiate or **collect rent for another and for a fee**; negotiating **non-residential mortgage loans** and **tenant relocation** count too.",
+      "**No license needed**: owners dealing with their own property (not acting 'for another'). **Exempt** (§442-f): **NY-admitted attorneys**, people acting under a **court order** and **public officers** on official duty. Exemptions don't cover anyone they hire.",
+      "An attorney needs a **broker license to employ salespersons**, because salespersons may be paid only by a licensed broker.",
+      "Salesperson: **18**, **77 hours**, the state exam and a **sponsoring NY broker**. Broker: **20**, **152 hours**, the broker exam and **2 years + 3,500 points** (or **3 years + 5,250**); time alone never qualifies.",
+      "An **associate broker** is broker-qualified but works under another broker, follows the salesperson rules for practice and pay, and may keep a separate broker license for her own firm.",
+      "Branches are supervised by the broker or an **office manager** (an associate broker active **2 of the past 4 years**), never by a salesperson.",
+      "Entities act through people: **each officer, partner or member who brokers needs a broker license**; a salesperson can't own voting stock in her brokerage corporation.",
+      "DOS currently has **no reciprocity** with any state; an **education waiver** still requires the NY exam and a NY sponsor. Nonresidents file an **irrevocable consent** naming the Secretary of State to accept legal papers.",
+      "**Salespersons and associate brokers are paid only by their own sponsoring broker** (§442-a). A client's 'gift' for a deal is compensation.",
+      "Brokers may share fees only with **their own licensees, other licensed brokers or brokers regularly in business in another state**; sharing a fee with an unlicensed helper is a **kickback**.",
+      "**Rebates to the buyer, seller, landlord or tenant** are legal if not paid for licensed work; cross-firm referral fees go **broker to broker**.",
+      "**§175.7**: make clear whom you represent; pay from more than one party needs your **client's full knowledge and consent**.",
+      "No lawsuit for a commission unless you were **licensed when the claim arose** (§442-d). A licensee's listing or commission agreement **needn't be in writing** to be enforced (GOL §5-701(a)(10) exempts licensed brokers and salespersons).",
+      "Client money goes into a **separate, special, federally insured account within 3 business days**, safeguarded until then. Mixing it in is **commingling**; using it is **conversion**.",
+      "Escrow interest stays out of the broker's pocket unless applied to an **earned commission with all parties' consent**; managers can't keep **secret vendor rebates** (§175.3).",
+      "**Net listings** are prohibited, exclusive listings can't **renew automatically**, and a broker can't buy its own listing without first making its **true position clear**.",
+      "Residential exclusives carry the DOS **exclusive-right-to-sell vs exclusive-agency** explanation in **6-point** type, signed or initialed by the homeowner.",
+      "Give signers copies of broker-prepared documents **immediately**; keep **§175.23 records 3 years** for 1–4 family, condo and co-op sales.",
+      "Never negotiate directly with an owner under another broker's **written exclusive**, and never **induce a party to break** a contract.",
+      "Supervision must be **regular, frequent and consistent**, whatever the salesperson's tax status.",
+      "**Only the broker places ads**; ads need the **owner's authorization** and must identify the broker. Hiding the broker makes a **blind ad**.",
+      "Banned titles: **'sales associate,' 'licensed sales agent,' 'broker' alone**. Nicknames need the full licensed name; extra phone numbers must be labeled.",
+      "**Team** names must say 'team' (not 'realty,' 'group' or 'associates'), can't include an unlicensed person's name, need 'at/of [brokerage]' unless members' full names are used, and all members share **one brokerage**.",
+      "Business cards need the **office phone**; agent websites need the required information on **every page**; only the **first email** to a person needs it.",
+      "Unlicensed assistants do **clerical** work for **hourly, per-task or salary** pay; showing, negotiating and **soliciting listings** need a license.",
+      "CE: **22.5 hours** per term including fair housing 3, agency 1 (**2 in a salesperson's first term**), ethics 2.5, recent legal matters 1, cultural competency 2, implicit bias 2, all **inside** the total; no carry-over.",
+      "Only **NY-admitted attorneys** are CE-exempt; the 15-year broker exemption ended **July 1, 2021**.",
+      "**No grace period**: renew within 2 years of expiration but don't practice until renewed; after 2 years, retake the exam and meet current education.",
+      "Carry the **pocket card** and show it **on demand**; each branch needs its own **license**; moving an office without notifying DOS **suspends** the license.",
+      "When a salesperson leaves, the **old broker files the termination** and the **new broker files the change of association**; no licensed work in between.",
+      "DOS may **reprimand, fine up to $2,000, suspend or revoke** after **10 days'** notice and a hearing; courts review by **Article 78**, even a refusal to discipline.",
+      "Violations are **misdemeanors** prosecuted by the **Attorney General**; the person aggrieved may recover **1 to 4 times** the money received. A broker's revocation **suspends its salespersons** until they change association.",
+      "**Article 12-C** vendors: 1-year license (**Nov 1–Oct 31**), fee capped at **one month's rent**, keep at most **$15** of an advance fee and refund the rest within **10 days** of written notice.",
+      "The **PCDS** goes to the buyer **before a binding contract** on 1–4 family sales (not condos or co-ops); the **$500 credit opt-out ended in 2024**. Known **uncapped gas wells** must be disclosed before contract (RPL §242)."
+    ],
+    "traps": [
+      {
+        "trap": "Required CE topics are added on top of the 22.5 hours.",
+        "truth": "They fit inside the 22.5: 12.5 specified plus 10 elective in a salesperson's first term, 11.5 plus 11 afterward."
+      },
+      {
+        "trap": "A thank-you check from a happy buyer is a personal gift.",
+        "truth": "It is compensation for licensed work, which a salesperson may accept only from her own broker (§442-a)."
+      },
+      {
+        "trap": "Parking a deposit in the operating account is fine if none of it is spent.",
+        "truth": "Mixing the funds is commingling; spending them would be conversion."
+      },
+      {
+        "trap": "'Three days to deposit' means calendar days, and the check can sit in a drawer meanwhile.",
+        "truth": "Three business days, and the money must be safeguarded in a secure place until deposited."
+      },
+      {
+        "trap": "An expired license has a grace period if the CE is done.",
+        "truth": "No licensed work until renewal; the 2-year window only avoids retesting."
+      },
+      {
+        "trap": "Two years as a salesperson automatically qualifies you for a broker license.",
+        "truth": "You also need 3,500 points, 152 hours and a passing broker exam."
+      },
+      {
+        "trap": "Brokers licensed 15+ years are CE-exempt.",
+        "truth": "That exemption ended July 1, 2021; only New York bar attorneys are exempt."
+      },
+      {
+        "trap": "Independent-contractor salespersons need no supervision.",
+        "truth": "Tax status doesn't matter; §175.21 requires regular, frequent and consistent supervision."
+      },
+      {
+        "trap": "An executor's or attorney's exemption covers the people they hire.",
+        "truth": "Exemptions are personal; hired help needs a license, and an attorney needs a broker license to employ salespersons."
+      },
+      {
+        "trap": "Crediting part of the commission to the buyer is an illegal split.",
+        "truth": "§442 allows rebates to the buyer, seller, landlord or tenant unless paid for licensed work."
+      },
+      {
+        "trap": "DOS can jail a licensee.",
+        "truth": "DOS can reprimand, fine, suspend, revoke or deny; jail requires a criminal conviction in court."
+      },
+      {
+        "trap": "Transaction records are kept 2 years, like the license term.",
+        "truth": "§175.23 requires 3 years."
+      },
+      {
+        "trap": "'Smith Realty Group' works as a team name.",
+        "truth": "Team names must use 'team'; 'realty,' 'group' and 'associates' are prohibited."
+      },
+      {
+        "trap": "Any salesperson violation costs the broker its license.",
+        "truth": "Only if the broker knew of it or kept the profits after notice (§442-c), though weak supervision is its own violation."
+      },
+      {
+        "trap": "Older textbook numbers ($1,000 fine, 75-hour course, 120 broker hours, reciprocity states, the $500 PCDS credit) still apply.",
+        "truth": "Now: $2,000 fine, 77 hours, 152 hours, no reciprocity, and the $500 credit is gone (2024)."
+      },
+      {
+        "trap": "A listing or commission agreement must be in writing to be enforceable.",
+        "truth": "GOL §5-701(a)(10)'s writing rule for brokerage fees exempts licensed brokers and salespersons, so an oral agreement with a licensee can be enforced. The real bar is §442-d: no license when the claim arose, no fee."
+      },
+      {
+        "trap": "New York has raised the broker requirement to 4 years as a salesperson.",
+        "truth": "S8870/A9518 would make it 4 consecutive years. It passed both houses on June 1, 2026, but as of October 8, 2026 it had not been delivered to or signed by the Governor (a 2025 version was vetoed), and it would take effect 180 days after becoming law. Answer with the current rule: 2 years + 3,500 points."
+      }
+    ],
+    "mnemonics": [
+      {
+        "name": "18/77 vs 20/152",
+        "meaning": "Salesperson: age 18 and 77 hours. Broker: age 20 and 152 hours (77 + 75)."
+      },
+      {
+        "name": "Deposit in 3, keep for 3",
+        "meaning": "Client money is deposited within 3 business days; transaction records are kept 3 years."
+      },
+      {
+        "name": "10 before, 5 after, 1 year out",
+        "meaning": "10 days' notice before a DOS hearing; return the license and pocket card within 5 days of suspension or revocation; wait 1 year after revocation."
+      },
+      {
+        "name": "Money moves broker to broker",
+        "meaning": "Pay for licensed work flows client to broker to that broker's own licensees, never to another firm's salesperson or an unlicensed helper."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "CE elective hours",
+        "formula": "Electives = 22.5 − specified hours (12.5 first term; 11.5 after)",
+        "example": "22.5 − 12.5 = 10; 22.5 − 11.5 = 11"
+      },
+      {
+        "name": "Broker experience points",
+        "formula": "Sum of (transactions × Part 179 point value); need 3,500 or 5,250",
+        "example": "10 sales × 250 + 50 exclusive sale listings × 10 + 20 rentals × 25 = 3,500"
+      },
+      {
+        "name": "Civil penalty (RPL §442-e)",
+        "formula": "From 1 × to 4 × the money received",
+        "example": "$9,500 → $9,500 to $38,000"
+      },
+      {
+        "name": "Advance-fee refund (Article 12-C)",
+        "formula": "Refund = advance fee − up to $15, within 10 days of written notice",
+        "example": "$250 − $15 = $235"
+      },
+      {
+        "name": "Article 12-C trust account",
+        "formula": "$5,000 + $2,500 × (offices − 1); sharing only: $2,500 + $1,250 × (offices − 1)",
+        "example": "3 offices: $10,000; sharing agent, 2 offices: $3,750"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Who regulates licensees in New York",
+      "intro": "In New York, real estate licensing is run by the state under Article 12-A and Department of State rules.",
+      "points": [
+        "**Purpose**: the license law protects the public from fraud and incompetence by requiring anyone who brokers real estate for others to meet education, exam and trustworthiness standards and to work under supervision.",
+        "**Article 12-A** of the Real Property Law (RPL §§440–443-a) covers definitions, licensing, fees, discipline, commissions, the Board of Real Estate and agency disclosure. **Article 12-C** separately licenses apartment information vendors.",
+        "The **Department of State (DOS)**, through its Division of Licensing Services, issues and renews licenses, investigates complaints (with subpoena power), holds hearings, disciplines licensees and enforces the law, including bringing prosecutions for unlicensed practice. The **Secretary of State** heads DOS and writes the 19 NYCRR regulations (Part 175 conduct rules, Part 177 CE, Part 179 experience points).",
+        "The **State Board of Real Estate** (RPL §442-i) has **15 members**: the Secretary of State (chair), the Superintendent of Financial Services and 13 appointees, at least five of them brokers with 10+ years in New York real estate and the rest public members. Appointees serve unpaid **2-year terms**, with a 10-year lifetime limit.",
+        "The board may adopt rules, set course and exam content and school-approval rules, and recommend legislation. Rules on **commingling, client accounts, managing property for clients, a broker buying listed property, inducing breach of contract, transaction records and clients' funds** are reserved to the **Secretary of State** (RPL §442-k).",
+        "The **Attorney General** prosecutes Article 12-A crimes; only a court can impose criminal punishment."
+      ],
+      "table": {
+        "head": [
+          "Body",
+          "Role",
+          "Exam angle"
+        ],
+        "rows": [
+          [
+            "Department of State",
+            "Licenses, investigates, disciplines, enforces",
+            "Answer to 'who issues licenses and enforces Article 12-A'"
+          ],
+          [
+            "Secretary of State",
+            "Heads DOS, writes Part 175, chairs the board",
+            "Sole rulemaker on client money, records, inducing breach"
+          ],
+          [
+            "State Board of Real Estate",
+            "Rules, course content, school-approval rules, advice",
+            "Not the licensing or disciplining agency"
+          ],
+          [
+            "Attorney General",
+            "Prosecutes Article 12-A misdemeanors",
+            "Criminal track, separate from DOS discipline"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What requires a license, and who is exempt",
+      "intro": "In New York, the test is whether someone performs a brokerage act **for another and for a fee**; any valuable consideration counts.",
+      "points": [
+        "**Broker activities (RPL §440)**: listing, selling (including at auction), buying, exchanging or renting real estate, or negotiating or attempting to; **collecting rent**; negotiating a mortgage loan **other than a residential mortgage loan**; and acting as a **tenant relocator** (organizing the relocation of tenants out of a building being demolished or altered).",
+        "**Business sales** count when the real estate transferred is **not merely incidental** to the deal (unless it's regulated as a securities sale); assigning only a lease doesn't. One prohibited act is a violation, though a fee is presumed only from repeated acts (§442-e).",
+        "**Related licenses**: residential (1–4 family) mortgage loans fall under the Banking Law, not a real estate license. **Appraisers** hold a separate DOS license or certification (Executive Law Article 6-E), so a comparative market analysis (CMA, an agent's price opinion from recent sales) may never be called an appraisal. **Home inspectors** are licensed under RPL Article 12-B.",
+        "**Outside the law or exempt**: owners dealing with their own property aren't brokers at all, since they don't act 'for another.' **RPL §442-f** exempts **attorneys admitted in New York**; receivers, referees, executors, administrators, guardians and others **appointed by or acting under a court order**; and **public officers** doing official duties. Tenant groups and nonprofits authorized by New York City to manage city-owned housing are also exempt (§440-a).",
+        "**Exemptions are personal**: the friend an executor pays to find a buyer needs a license, and a public employee's paid side deals aren't official duties. An attorney needs a **broker license to employ salespersons**, because salespersons may be paid only by a licensed broker.",
+        "An owner's own salaried employee, such as a resident superintendent showing units or taking rent for that employer, is generally treated as exempt. A management company that **collects rent or places tenants** for client-owners needs a broker license; one doing only **maintenance** doesn't. **REALTOR®** is a trade-association membership, not a license."
+      ],
+      "table": {
+        "head": [
+          "Person or activity",
+          "License needed?",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Homeowner selling her own house",
+            "No",
+            "Not acting for another"
+          ],
+          [
+            "Person paid by several owners to collect their rents",
+            "Yes",
+            "Collecting rent for others for a fee"
+          ],
+          [
+            "NY attorney negotiating a client's sale",
+            "No",
+            "Attorney exemption"
+          ],
+          [
+            "Person an executor pays to find a buyer",
+            "Yes",
+            "The executor's exemption doesn't extend to hired help"
+          ],
+          [
+            "Company relocating tenants from a building being demolished, for a fee",
+            "Yes",
+            "Tenant relocators are brokers"
+          ],
+          [
+            "Negotiating a mortgage on an office building, for a fee",
+            "Yes, broker (or salesperson under one)",
+            "Non-residential mortgage loan"
+          ],
+          [
+            "Negotiating a 1–4 family home mortgage",
+            "Banking Law (DFS) license or registration instead",
+            "Residential loans are excluded from §440"
+          ],
+          [
+            "Selling a restaurant whose building is most of the value",
+            "Yes",
+            "Real estate is not merely incidental"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "License types, entities and responsibilities",
+      "intro": "New York issues three categories of real estate license: broker, associate broker and salesperson.",
+      "points": [
+        "**Broker**: runs the brokerage, owns the listings, holds client money, and supervises, employs and pays its licensees. Its duties run to the public (honesty, accounting, disclosure) and to its licensees (supervision).",
+        "**Associate broker**: licensed as a broker but working under another broker's name and supervision. She follows the salesperson rules for practice and pay, yet keeps broker status and may also hold a separate broker license for her own firm (RPL §440(2)). She owes duties to her broker and the public.",
+        "**Salesperson**: a licensee **associated with** a broker who performs brokerage acts for that broker. She can't work independently or act while unassociated. 'Associated' describes the license link only, not employee status.",
+        "**Office manager** (RPL §440(6)): an associate broker who was active as one at least **2 of the 4 years** before appointment and carries a broker's supervisory duty. A branch must be directly supervised by the broker, a representative broker, an LLC manager or an office manager, never a salesperson.",
+        "**Entities**: corporations, partnerships and LLCs act through people. **Each officer, partner or member who will act as a broker needs a broker license** and must personally qualify. No salesperson license goes to an officer, partner or member of a licensed entity, and a salesperson may not own **voting stock** in her brokerage corporation (§175.22). Trade names need DOS approval and can't be confusingly similar to another broker's (§175.18).",
+        "**Dual licensure**: one person may hold several licenses, such as an associate broker license at one firm plus a broker license for her own. A salesperson working for two brokers needs an **additional salesperson license** for each."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Salesperson",
+          "Associate broker",
+          "Broker"
+        ],
+        "rows": [
+          [
+            "Minimum age",
+            "18",
+            "20",
+            "20"
+          ],
+          [
+            "Qualifying education",
+            "77 hours",
+            "152 hours",
+            "152 hours"
+          ],
+          [
+            "Experience",
+            "None",
+            "Broker-level years and points",
+            "Broker-level years and points"
+          ],
+          [
+            "May run a brokerage",
+            "No",
+            "Only under a separate broker license",
+            "Yes"
+          ],
+          [
+            "Paid by",
+            "Own sponsoring broker only",
+            "Own sponsoring broker only",
+            "Clients and cooperating brokers"
+          ],
+          [
+            "May supervise a branch",
+            "No",
+            "Yes, as appointed office manager",
+            "Yes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Getting licensed: education, exams and experience",
+      "intro": "In New York, the order is education, the school's exam, the state exam and a sponsoring broker. Only an issued license, associated with a broker, allows practice.",
+      "points": [
+        "**Salesperson**: at least **18**; the **77-hour** course, including the school's proctored final; the separate **DOS exam**; **sponsorship by a NYS broker**; a current NYS photo driver license or non-driver ID; and the **$65** fee. No college degree is needed.",
+        "**State exam**: multiple choice, **90 minutes** (2½ hours for brokers), **$15**, reported **pass/fail** only (DOS publishes no score, question count or cutoff), and a pass is good for **2 years**. Calculators must be silent, nonprinting and without an alphabetic keyboard.",
+        "**Time limits**: an unused 77-hour course is valid for **8 years**; once used for a license it never expires. Someone with only the old 75-hour course needs an approved 2-hour fair housing and/or implicit bias course.",
+        "**Applying**: online through eAccessNY; the sponsoring broker authorizes the application, and DOS mails the license to the business address. A criminal conviction isn't an automatic bar; DOS weighs it under Correction Law Article 23-A.",
+        "**Broker**: at least **20**; **152 hours** (the 77-hour course plus the 75-hour broker course); the broker exam; DOS approval of any business name; the **$185** fee; and experience.",
+        "**Experience = time plus points** (19 NYCRR Part 179): **2 years** as a licensed salesperson with **3,500 points**, or **3 years** of general real estate experience (such as managing an employer's buildings) or a combination, with **5,250 points**. Sample §179.3 values: a residential sale 250, an exclusive sale listing 10, a rental 25, a commercial sale 400. Full time means at least 35 hours a week, 50 weeks a year (§175.21(c)); false claims are grounds to deny or revoke.",
+        "**Reciprocity**: DOS currently has **none** with any state. An out-of-state **education waiver** still requires the NY exam and a NY sponsor. Each nonresident files an **irrevocable consent** naming the Secretary of State as agent to receive lawsuits and other legal papers (§442-g)."
+      ],
+      "example": {
+        "title": "Worked example: counting broker experience points",
+        "steps": [
+          "Step 1: Tomas has been a full-time licensed salesperson for 25 months, so he meets the 2-year rule.",
+          "Step 2: Using the Part 179 schedule: 10 residential sales × 250 = 2,500; 50 exclusive sale listings × 10 = 500 (an exclusive rental listing earns only 5); 20 rentals × 25 = 500.",
+          "Step 3: Total = 2,500 + 500 + 500 = 3,500 points, exactly the minimum.",
+          "Answer: He qualifies on experience but still needs 152 hours and the broker exam. With 2,100 points he wouldn't qualify, however long he'd worked."
+        ]
+      }
+    },
+    {
+      "heading": "Renewal and continuing education",
+      "intro": "Licenses run **2 years** and are renewed online. Renewal requires continuing education (CE) unless the licensee is exempt.",
+      "points": [
+        "**Renewal**: opens **3 months** before expiration ($65 salesperson, $185 broker). Salespersons and associate brokers need a sponsoring broker, who authorizes the renewal. Submitting isn't approval.",
+        "**CE**: **22.5 hours** of approved courses **within each 2-year term**, including fair housing **3**, agency **1** (**2** in a salesperson's first term), ethics **2.5**, recent legal matters **1**, cultural competency **2** and implicit bias **2**, all **inside** the 22.5. Sales meetings, motivation and exam-prep classes don't count.",
+        "**No carry-over** of extra hours. **Teaching** an approved course earns 2 hours per hour taught (§177.5). A salesperson who completes an approved **broker course** (with its final exam) during the term gets CE credit but must add 2.5 hours of ethics and 1 hour of recent legal matters.",
+        "**Exempt**: only **attorneys admitted to the New York bar**; the 15-consecutive-year broker exemption ended **July 1, 2021**. DOS may extend the deadline only for documented hardship (§177.6).",
+        "**Expired license**: **no grace period**. Renew within **2 years** after expiration (with CE and a sponsor), but no licensed work until renewed. After 2 years, meet **current** education and **pass the exam** again; CE isn't required for that. Military service that prevented renewal excuses the retest."
+      ],
+      "table": {
+        "head": [
+          "CE component",
+          "Salesperson's first term",
+          "Later terms (and brokers)"
+        ],
+        "rows": [
+          [
+            "Fair housing and/or discrimination",
+            "3",
+            "3"
+          ],
+          [
+            "Law of agency",
+            "2",
+            "1"
+          ],
+          [
+            "Ethical business practices",
+            "2.5",
+            "2.5"
+          ],
+          [
+            "Recent legal matters",
+            "1",
+            "1"
+          ],
+          [
+            "Cultural competency",
+            "2",
+            "2"
+          ],
+          [
+            "Implicit bias",
+            "2",
+            "2"
+          ],
+          [
+            "Total specified",
+            "12.5",
+            "11.5"
+          ],
+          [
+            "Other approved topics",
+            "10",
+            "11"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: elective CE hours",
+        "steps": [
+          "Step 1: First salesperson renewal: 3 + 2 + 2.5 + 1 + 2 + 2 = 12.5 specified; 22.5 − 12.5 = 10 elective.",
+          "Step 2: Later renewals: agency drops to 1, so 11.5 specified; 22.5 − 11.5 = 11 elective.",
+          "Answer: 10 hours, then 11. A choice saying required topics push the total past 22.5 is wrong."
+        ]
+      }
+    },
+    {
+      "heading": "Keeping a license active: offices, pocket cards and changes",
+      "intro": "Article 12-A attaches housekeeping duties to every license, and some lapses suspend a license automatically.",
+      "points": [
+        "**Office and sign**: each broker (a qualifying nonresident broker excepted, §442-g) keeps a definite place of business in New York with an outside sign, readable from the sidewalk, showing its name and 'licensed real estate broker' (in an office or apartment building, a directory listing; if lobby signs are banned, on or beside the unit door, §175.26).",
+        "**Display**: the broker's license hangs conspicuously in the principal office and each branch license in its branch. Salesperson licenses are mailed to the business address and needn't be displayed. Displaying an **expired, suspended or revoked** broker license is prohibited.",
+        "**Pocket card**: the DOS-issued photo ID shows the licensee's **photo, name and business address** and, for a salesperson, the **sponsoring broker's name and address**. Carry it and **show it on demand**; replace a lost or damaged card through DOS ($10 plus proof), never with a copy.",
+        "**Moving**: get DOS approval before relocating an office (§175.20(c)) and notify DOS for the broker and every associated licensee ($10 each). Moving without notice **suspends the license** until DOS vacates the suspension (§441-a(5)).",
+        "**Branches**: each extra office needs its own **branch office license** ($185), displayed there and **owned, maintained and operated only by the broker**; a salesperson can't fund and run one for her own profit (§175.20). A home isn't a branch just because its phone number is on business cards.",
+        "**Changing firms**: the **broker being left files the termination** (DOS policy: within 5 days; no fee), then the **new broker files a change of association** (a new record of association, $20); no new course or exam is needed. No licensed work in between (§442-b), and the departing salesperson turns over all listing information (§175.14).",
+        "**Broker's death**: with surrogate's court authorization, the executor or administrator may use a sole proprietor's license up to **120 days** from the date of death to finish pending deals; DOS may add up to **120 more** for good cause.",
+        "**Convictions**: a licensee convicted of a felony or specified sex offense sends DOS a certified copy of the judgment within **5 days** after sentencing."
+      ]
+    },
+    {
+      "heading": "Compensation, fee splitting and suing for a fee",
+      "intro": "In New York, pay for licensed work moves client to broker, broker to broker, and broker to its own licensees.",
+      "points": [
+        "**§442-a**: salespersons and associate brokers take pay for licensed work **only from their own sponsoring broker**. A buyer's thank-you check or another firm's payment must be declined or routed through the broker.",
+        "**§442**: a broker may share fees with its own licensees, any **licensed broker**, and a person **regularly in brokerage in another state** (no NY license needed). It may pay an unlicensed corporation or LLC only if **every** owner is a licensed associate of that broker. Giving an unlicensed person any part of a fee for helping with a deal is a **kickback**, whatever it's called; hourly or salary pay for clerical work is different.",
+        "**Rebates** to the buyer, seller, landlord or tenant, such as a closing credit, are allowed if they aren't pay for licensed work. Cross-firm referral fees go **broker to broker**: Broker A pays Broker B, which pays its salesperson.",
+        "**§175.7**: make clear which party you represent, and take pay from more than one party only with your **client's full knowledge and consent**, given in advance. DOS sets no commission rates, and competing firms may not agree on rates (antitrust).",
+        "**§442-l**: no after-the-fact referral fees for 'finding' a seller who already listed, a buyer whose offer was already accepted, or a property after a buyer-agency agreement is signed, absent reasonable cause.",
+        "**§442-d**: no one may sue for a brokerage fee without proving they were **licensed when the claim arose**; licensing later doesn't help, and an unlicensed finder can't collect even on a written promise. A salesperson's commission claim is against **her own broker**, not the seller.",
+        "**No writing needed (GOL §5-701(a)(10))**: the statute of frauds requires a signed writing for brokerage and finder's fees but exempts **licensed brokers and salespersons** (and attorneys and auctioneers), so a licensee's **oral** listing or commission agreement can be enforced. A signed agreement is still the best proof, and residential exclusives need the signed §175.24 explanation."
+      ],
+      "table": {
+        "head": [
+          "Payee",
+          "Can a NY broker pay part of its fee?",
+          "Basis"
+        ],
+        "rows": [
+          [
+            "Its own salesperson or associate broker",
+            "Yes",
+            "§442"
+          ],
+          [
+            "Another firm's salesperson, directly",
+            "No; pay her broker",
+            "§§442, 442-a"
+          ],
+          [
+            "Another licensed broker",
+            "Yes",
+            "§442"
+          ],
+          [
+            "Broker regularly in business in another state",
+            "Yes",
+            "§442"
+          ],
+          [
+            "Unlicensed LLC whose members are all its licensees",
+            "Yes",
+            "§442"
+          ],
+          [
+            "Unlicensed neighbor who refers buyers",
+            "No (kickback)",
+            "§442"
+          ],
+          [
+            "The buyer or seller, as a rebate",
+            "Yes, if not for licensed work",
+            "§442"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Client money, escrow and records",
+      "intro": "**Escrow** money is money held for others until conditions are met. In New York, entrusted money never becomes the broker's, even briefly.",
+      "points": [
+        "**§175.1**: keep a **separate, special account** used only for client money at a **federally insured bank**; deposit within **3 business days** and **safeguard** the money until then. Money-market funds, Treasury funds and other investments aren't allowed, even for a better yield.",
+        "**Commingling** is mixing client money with the broker's own (even 'just until closing,' even if unspent; a ledger entry doesn't cure it). **Conversion** is using client money for the broker's purposes, such as paying office rent, even with a plan to repay.",
+        "**Interest** on escrowed money can't benefit the broker unless it is applied to an **earned commission with all parties' consent**.",
+        "**§§175.2–175.3**: account to the client and **remit** unspent client money within a reasonable time. A managing broker can't take a rebate or profit on the owner's spending (a vendor's secret 10%) without the owner's **full knowledge and consent**, and handles tenant security deposits under General Obligations Law §7-103.",
+        "**§175.23 records, kept 3 years**, for sales of 1–4 family homes and condo or co-op units (not vacant land, larger buildings or commercial leases): seller and buyer names and addresses; the broker-prepared contract or binder (or else the price and any deposit the broker collected); the commission; the broker's profit if it bought for resale; documents Article 12-A requires; and the listing, commission or buyer-broker agreement. Lender files aren't required, and a broker isn't faulted for papers it never received."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "Label",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Deposit put in the operating account 'until closing'",
+            "Commingling",
+            "Client and broker money mixed"
+          ],
+          [
+            "Escrow money used for office rent, to be repaid",
+            "Conversion",
+            "Client money used for the broker"
+          ],
+          [
+            "Friday-night check kept in the office safe, deposited Tuesday",
+            "Proper",
+            "Safeguarded; within 3 business days"
+          ],
+          [
+            "Broker keeps $84 of escrow interest",
+            "Violation",
+            "Allowed only against an earned commission with everyone's consent"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: a commingling complaint, start to finish",
+        "steps": [
+          "Step 1: A buyer's $20,000 deposit isn't returned when her mortgage falls through. DOS investigates and subpoenas bank records showing the deposit sat in the operating account.",
+          "Step 2: DOS serves written charges at least 10 days before the hearing; the broker may appear with a lawyer.",
+          "Step 3: A DOS administrative law judge finds commingling and untrustworthiness. DOS may reprimand, fine up to $2,000, suspend or revoke; after a suspension or revocation the broker returns the license and pocket card within 5 days, and all its salespersons are suspended until they change association (or a suspension ends).",
+          "Step 4: After revocation the broker waits 1 year to reapply. The broker, or the buyer as a person aggrieved, may seek Article 78 review.",
+          "Answer: This administrative case is separate from any criminal case by the Attorney General and from the buyer's own lawsuit for her money."
+        ]
+      }
+    },
+    {
+      "heading": "Part 175 rules on listings, interests and dealings",
+      "intro": "19 NYCRR Part 175 turns fiduciary ideals into specific rules, and scenario questions often turn on one section.",
+      "points": [
+        "**§175.4**: no buying a listing, directly or indirectly (an LLC counts), without first making your **true position clearly known** to the owner; waiving the fee doesn't remove the duty. **§§175.5–175.6**: disclose your ownership interest, whatever its size, to **all parties** before buying that property for a client, and to the **buyer** before selling it.",
+        "**§§175.8–175.9**: don't negotiate directly with an owner you know has a **written exclusive** with another broker, and never **induce a party to break** a contract of sale or lease for a new principal, even for a higher price.",
+        "**§§175.10–175.12**: offer property only with the **owner's authorization**, place signs only with the owner's consent, and deliver copies of documents the broker prepared to each signer **immediately**.",
+        "**§§175.13–175.14**: don't use or reward another broker's salesperson without that broker's knowledge; a departing salesperson turns over all listing information.",
+        "**Listings**: no **automatic continuation** past the fixed end date; any extension needs the owner's separate agreement (§175.15), and **net listings** are prohibited (§175.19). Residential exclusives must carry the DOS explanation of **exclusive right to sell** (the owner pays even if the owner finds the buyer) versus **exclusive agency** (an owner who finds the buyer owes nothing), in at least **6-point type**, signed or initialed by the homeowner or the homeowner's agent (§175.24).",
+        "**Multiple listing service (MLS)**: a system where member brokers share listings and cooperate. An MLS member's residential exclusive must let the homeowner choose whether offers come through the listing broker or the selling broker (§175.24(c)).",
+        "**§175.17**: no **blockbusting** (urging owners to sell because a protected class is moving in), and no soliciting owners who asked in writing not to be solicited or who are on the DOS list in a **cease-and-desist zone**. A discrimination finding is presumptive evidence of untrustworthiness.",
+        "**§175.21**: supervision must be **regular, frequent and consistent** and cover ads and client money; an annual meeting isn't enough. §175.27 adds that Part 175 doesn't decide employee or contractor status.",
+        "**§§175.28–175.29**: give the DOS fair housing notice at first substantive contact, keep acknowledgments 3 years, and post the notice in offices, on website homepages and at open houses.",
+        "**Standardized operating procedures (RPL §442-h(4))**: since April 20, 2022, brokers must date-stamp, notarize and post on their websites and apps the steps prospective homebuyers must complete (at least whether ID, an exclusive buyer agreement and mortgage pre-approval are required), give copies on request at each office, archive each version, and post changes within 30 days."
+      ],
+      "example": {
+        "title": "Worked example: spotting a net listing",
+        "steps": [
+          "Step 1: The seller says, 'I need to net $380,000; anything over that is yours.' The home sells for $412,000.",
+          "Step 2: The broker would keep $412,000 − $380,000 = $32,000.",
+          "Answer: Prohibited net listing under §175.19, even though the seller proposed it. A lawful alternative is a negotiated rate (5% = $20,600) plus a separate estimate of the seller's net."
+        ]
+      }
+    },
+    {
+      "heading": "Advertising and teams",
+      "intro": "In New York, **advertising** is any promotion of licensed activity, from signs and business cards to websites and email (19 NYCRR §175.25).",
+      "points": [
+        "**Placement**: only the broker places ads. An associate broker, salesperson or team may advertise only property listed with or represented by their own broker, with that **broker's approval**, and every property ad needs the **owner's authorization**.",
+        "**Another broker's exclusive** needs the listing broker's permission and must name that broker right after a phrase like 'Listing courtesy of.' If the licensee pays a third party for the ad, **'advertisement'** must follow the advertiser's name. Another broker's photos need the copyright holder's written permission.",
+        "**Identification**: the broker or brokerage name plus its address or phone number, including whenever an agent or team is named. An ad that leaves it out, hiding that a licensee is advertising, is a **blind ad**.",
+        "**Names and titles**: use your licensed name (a nickname only with the full licensed name shown clearly) and state the license type accurately; **'sales associate,' 'licensed sales agent' and 'broker' alone are banned**. Extra phone numbers must be labeled (cell, home, desk), and an agent's logo must appear with the broker's name or logo.",
+        "**Honesty**: describe the property accurately, name the area where it **actually is**, and never **guarantee future profits**.",
+        "**Formats**: classified and multi-property ads must identify the broker or brokerage but may omit named agents' license types. **Business cards**: business address, license type, broker name and **office phone**. **Websites**: broker-authorized and supervised, required information on **every page** (search-results pages included), homepage link to the broker's site. **Email**: required in the **first** message to a person. Signs must identify the broker.",
+        "**Teams**: two or more people, at least one an associate broker or salesperson, at the **same brokerage**. The name must include **'team'**; 'realty,' 'group' and 'associates' are banned; no unlicensed person's name; and without the members' full names it must be followed by **'at/of [brokerage]'**. Team ads naming unlicensed people must say who is licensed."
+      ],
+      "table": {
+        "head": [
+          "Ad element",
+          "Compliant",
+          "Not compliant"
+        ],
+        "rows": [
+          [
+            "Team name",
+            "The Rivera Team at Hudson Realty",
+            "Rivera Realty Group"
+          ],
+          [
+            "Title",
+            "Real Estate Salesperson, or a clear abbreviation",
+            "Licensed Sales Agent; Sales Associate"
+          ],
+          [
+            "Nickname",
+            "Bobby Chen, with Robert Chen shown clearly",
+            "Bobby Chen alone"
+          ],
+          [
+            "Extra phone",
+            "Brokerage info plus a number marked 'cell'",
+            "A personal number with no brokerage"
+          ],
+          [
+            "Investment pitch",
+            "Accurate current rents",
+            "Guaranteed 12% annual return"
+          ],
+          [
+            "Location",
+            "In Village A, near Village B",
+            "'Village B area' for a Village A home"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Unlicensed assistants",
+      "intro": "DOS lets brokerages use unlicensed staff for clerical work; brokerage acts (showing, negotiating, soliciting, advising) stay with licensees.",
+      "points": [
+        "**Permitted (DOS list)**: phones and messages; scheduling appointments and showings for licensees; following up on loan commitments after a contract is negotiated; assembling closing documents; drafting ads and flyers for broker approval; typing forms; computing commission checks; placing signs; ordering repairs as directed; gathering CMA or appraisal data; monitoring licenses; typing and filing.",
+        "**Not permitted**: showing property, hosting open houses, negotiating or hinting at a seller's bottom line, explaining contract terms, recommending prices, and **soliciting listings**, even with a script and hourly pay.",
+        "**Pay**: by the broker or the salesperson, **hourly, per activity or by salary**. Pay per closed deal requires a salesperson license and payment by the broker. The broker supervises assistants, and assistant time doesn't count toward broker experience."
+      ],
+      "table": {
+        "head": [
+          "Task",
+          "Unlicensed assistant?"
+        ],
+        "rows": [
+          [
+            "Schedule a showing for a licensee",
+            "Yes"
+          ],
+          [
+            "Check on the loan commitment after the contract is signed",
+            "Yes"
+          ],
+          [
+            "Pull comparable sales for a CMA",
+            "Yes"
+          ],
+          [
+            "Show a listed home",
+            "No"
+          ],
+          [
+            "Hint that the seller would take $20,000 less",
+            "No (negotiating)"
+          ],
+          [
+            "Cold-call expired listings",
+            "No (soliciting)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Discipline, penalties and court review",
+      "intro": "One violation can start three separate tracks: DOS discipline, a criminal case and a civil penalty suit.",
+      "points": [
+        "**Grounds (§441-c)**: violating any part of Article 12-A; a material misstatement on the application; fraud; dishonest or misleading ads; untrustworthiness or incompetency; and Human Rights Law violations as a licensee. Low sales volume isn't misconduct. DOS also suspends licenses for unpaid child support on court order.",
+        "**Sanctions**: **reprimand, fine up to $2,000** (half to the anti-discrimination in housing fund), **suspension** or **revocation**, and denial of applications; never jail.",
+        "**Process (§441-e)**: written charges at least **10 days** before the hearing (served in person or by certified mail), the right to be heard in person or through a lawyer, and certified-mail notice to a salesperson's **broker**. DOS may suspend pending the hearing. An applicant facing denial has 30 days to request a hearing.",
+        "**After the decision**: return the license and pocket card within **5 days** of a suspension or revocation (or file an affidavit of loss). After **revocation**, no relicensing for **1 year**.",
+        "**Ripple effects**: a broker's revocation or suspension **suspends every associated salesperson** until each changes association or the broker's suspension ends (§441-d). A salesperson's violation is cause to discipline the broker only if the broker had **actual knowledge** or **kept the proceeds after notice** (§442-c), apart from the broker's own supervision duty.",
+        "**Article 78** (§441-f): the Civil Practice Law and Rules procedure for challenging a state or local agency's action in court. The applicant, the disciplined licensee or the **person aggrieved** may use it, even against a **refusal** to discipline, generally within **4 months** (CPLR §217).",
+        "**Criminal (§442-e)**: every violation is a **misdemeanor** (a crime below a felony); one act is enough, and the **Attorney General** prosecutes. Older books cite up to $1,000 and/or one year in jail; the Penal Law now caps a class A misdemeanor at 364 days.",
+        "**Civil penalty**: the person aggrieved may recover from a violator who was paid **at least the amount received and up to four times** it. Unlicensed people who break cease-and-desist rules face DOS fines of $150, $500, then $1,000.",
+        "**Common violations**: commingling or conversion, unlicensed or expired-license practice, paying unlicensed people, undisclosed dual pay, net listings, blind or unauthorized ads, inducing breach, weak supervision, discrimination or blockbusting, misrepresentation, and practicing law (drafting deeds, giving legal opinions)."
+      ],
+      "table": {
+        "head": [
+          "Track",
+          "Brought by",
+          "Outcome",
+          "Exam cue"
+        ],
+        "rows": [
+          [
+            "Administrative (§441-c)",
+            "DOS, after notice and hearing",
+            "Reprimand, fine up to $2,000, suspension, revocation",
+            "No jail; Article 78 review"
+          ],
+          [
+            "Criminal (§442-e)",
+            "Attorney General",
+            "Misdemeanor; court sets fine or jail",
+            "One act is enough"
+          ],
+          [
+            "Civil penalty (§442-e(3))",
+            "Person aggrieved",
+            "1× to 4× the money received",
+            "Separate from the $2,000 fine"
+          ],
+          [
+            "Fee suit bar (§442-d)",
+            "Anyone suing for a commission",
+            "Fails unless licensed when the claim arose",
+            "Late licensing doesn't help"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: an unlicensed finder collects $9,500",
+        "steps": [
+          "Step 1: Negotiating a sale for another for a fee is broker activity, so a license was required; the unlicensed brokering is a misdemeanor the Attorney General may prosecute.",
+          "Step 2: Civil penalty: at least $9,500 and at most 4 × $9,500 = $38,000, recoverable by the person aggrieved.",
+          "Step 3: Had the fee not been paid yet, §442-d would bar any suit to collect it.",
+          "Answer: $9,500 to $38,000. The $2,000 figure is DOS's administrative fine, a different remedy."
+        ]
+      }
+    },
+    {
+      "heading": "Article 12-C: apartment information vendors and sharing agents",
+      "intro": "Article 12-C separately licenses businesses that sell rental information rather than broker leases.",
+      "points": [
+        "**Apartment information vendor**: charges customers a fee for information on the **location and availability** of housing to rent, share or sublet. An **apartment sharing agent** arranges meetings, for a fee, between a customer and an occupant who wants to share. Tenant relocation, negotiating leases and collecting rent are broker activities instead.",
+        "**License**: issued by the Secretary of State; minimum age 18; a supplemental license for each branch; a **1-year term, November 1 to October 31**.",
+        "**Trust account**: interest-bearing, at a bank with a New York office, of at least **$5,000 plus $2,500 per additional office** ($2,500 plus $1,250 for a sharing-only business); withdrawals need the Secretary's certification.",
+        "**Fees**: a DOS-approved contract naming the vendor's sources, and a fee never above **one month's rent**. From an **advance fee** the vendor may keep at most **$15**; if the customer gives **written notice** that he didn't and won't rent through the vendor, the rest is refunded **within 10 days**. Any amount above one month's rent is refunded even if he rents. A **sharing-only** agent may keep the whole advance fee.",
+        "**Discipline**: failing to report a change of business address or name within **10 days** **forfeits** the license. DOS may fine up to **$5,000**, order refunds, suspend or revoke; violations are misdemeanors with the same 1×–4× civil penalty."
+      ],
+      "table": {
+        "head": [
+          "Feature",
+          "Article 12-A licensee",
+          "Article 12-C vendor"
+        ],
+        "rows": [
+          [
+            "License term",
+            "2 years",
+            "1 year (Nov 1–Oct 31)"
+          ],
+          [
+            "Money protection",
+            "Client funds in a special account within 3 business days",
+            "Trust account: $5,000 + $2,500 per extra office"
+          ],
+          [
+            "Maximum DOS fine",
+            "$2,000",
+            "$5,000"
+          ],
+          [
+            "Fee limit",
+            "Negotiable commission",
+            "One month's rent"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Worked example: refunds and trust accounts",
+        "steps": [
+          "Step 1: A customer pays a $250 advance fee, finds nothing, and gives written notice. Refund = $250 − $15 = $235, within 10 days.",
+          "Step 2: A full vendor with 3 offices needs $5,000 + (2 × $2,500) = $10,000 in trust.",
+          "Step 3: A sharing-only business with 2 offices needs $2,500 + $1,250 = $3,750.",
+          "Answer: $235; $10,000; $3,750. Charging $5,000 per office ($15,000) is the classic wrong answer."
+        ]
+      }
+    },
+    {
+      "heading": "Seller disclosures in Subject 1: the PCDA and RPL §242",
+      "intro": "The syllabus places two seller-disclosure laws in this unit; the contracts and environmental chapters cover them further.",
+      "points": [
+        "**Property Condition Disclosure Act (RPL Article 14)**: covers sales of **1–4 family homes** (including lease-options and installment contracts), but not vacant land, **condo or co-op units**, or HOA property the seller doesn't own outright.",
+        "**Seller's duty**: complete, sign and deliver the **Property Condition Disclosure Statement (PCDS)** to the buyer or buyer's agent **before the buyer signs a binding contract**; a copy signed by both is attached to the contract. Answers reflect the seller's **actual knowledge**; no inspection is required.",
+        "**Changes**: the **$500 credit opt-out was eliminated** effective March 20, 2024; the form added flood questions, and DOS's revised form (with a septic-system information note) has been required since July 1, 2025.",
+        "**Revisions and liability**: give a revised PCDS as soon as practicable if new knowledge makes it materially inaccurate (not required after closing or the buyer's occupancy). The seller owes **actual damages** only for a **willful** failure; other remedies remain.",
+        "**Exempt transfers** include court-ordered, foreclosure, fiduciary (estate, trust, guardianship), co-owner, family and divorce transfers, government and sheriff's sales, partitions, and **never-occupied new construction**.",
+        "**Agent's duty (§466)**: the listing agent tells the seller about the seller's obligations; the buyer's agent (or the seller's agent dealing with an unrepresented buyer) tells the buyer about the buyer's rights before a binding contract. Doing so ends the agent's PCDA liability; agents shouldn't fill out the form.",
+        "**RPL §242**: a seller who **knows** of **uncapped natural gas wells** on the property must tell the purchaser **before the contract**. Written notice is also required, before accepting an offer, if there's **no utility electric service**, a **utility surcharge** for a line extension, or a **Green Jobs–Green New York on-bill recovery charge**."
+      ],
+      "table": {
+        "head": [
+          "Disclosure",
+          "Covers",
+          "Deadline"
+        ],
+        "rows": [
+          [
+            "PCDS (RPL §462)",
+            "1–4 family homes; not condos, co-ops or vacant land",
+            "Before the buyer signs a binding contract"
+          ],
+          [
+            "Uncapped gas wells (RPL §242(3))",
+            "Property where the seller knows of such wells",
+            "Before entering into the contract"
+          ],
+          [
+            "No electric service, a utility surcharge or a Green Jobs–Green NY on-bill charge (RPL §242)",
+            "Real property offered for sale",
+            "Written notice before accepting an offer"
+          ]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "NY RPL Article 12-A, §§440–443-a",
+    "NY RPL Article 12-C, §§446-a–446-j",
+    "19 NYCRR Part 175; Part 177 (continuing education); Part 179 (broker experience points)",
+    "NY RPL §242; RPL Article 14, §§460–467 (Property Condition Disclosure Act)",
+    "NY General Obligations Law §5-701(a)(10)",
+    "NYS DOS, Real Estate License Law booklet (January 2024)",
+    "NYS DOS salesperson and broker licensing pages and FAQs (checked October 2026); Real Estate Broker Application DOS-0036 (Rev. 09/23), experience supplements",
+    "NYS DOS guidance: Unlicensed Real Estate Assistants; Standardized Operating Procedures",
+    "NY Senate bill status, S8870/A9518 (checked October 8, 2026)",
+    "NY CPLR Article 78 and §217",
+    "NYS DOS 77-hour salesperson syllabus, Subject 1 (License Law and Regulations)",
+    "ny-real-estate-cram-sheet.txt (checked October 7, 2026); ny-real-estate-study-guide.txt, Chapter 01"
+  ]
+}

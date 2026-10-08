@@ -188,7 +188,7 @@ async function pick(page, correct) {
       const c = await caches.open(names[0]);
       return (await c.keys()).map((r) => new URL(r.url).pathname);
     });
-    for (const p of ['/', '/index.html', '/app.js', '/app.css', '/questions.json', '/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png']) {
+    for (const p of ['/', '/index.html', '/app.js', '/app.css', '/questions.json', '/guides.json', '/views/study.js', '/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png']) {
       assert.ok(cached.includes(p), `not cached: ${p}`);
     }
     await ctx.setOffline(true);
@@ -197,6 +197,33 @@ async function pick(page, correct) {
     await page.click('[data-action="drill"]');
     await page.waitForSelector('.qcard');
     await ctx.setOffline(false);
+  });
+
+  await check('9. Study guides: every chapter, cram sheet, full notes, chapter practice', async () => {
+    await page.goto(BASE + '/#/study');
+    await page.waitForSelector('#chapters');
+    const topics = await page.evaluate(() => window.__app.bank.topics.length);
+    assert.equal(await page.locator('#chapters .st-row').count(), topics);
+    await page.click('a.st-row[href="#/study/agency"]');
+    await page.waitForSelector('#cram');
+    assert.ok((await page.locator('.st-nums > div').count()) >= 6, 'key numbers');
+    assert.ok((await page.locator('.st-must li').count()) >= 15, 'must-know list');
+    assert.ok((await page.locator('.st-traps li').count()) >= 6, 'traps');
+    assert.equal(await page.locator('strong:has-text("**")').count(), 0, 'bold markup rendered, not shown raw');
+    await page.click('.st-seg a[href="#/study/agency/notes"]');
+    await page.waitForSelector('#notes');
+    const n = await page.locator('.st-sec').count();
+    assert.ok(n >= 6, `only ${n} sections`);
+    assert.equal(await page.locator('.st-toc [data-action="toc"]').count(), n);
+    await page.click('[data-action="toc"][data-target="sec-3"]');
+    await page.waitForFunction(() => Math.abs(document.getElementById('sec-3').getBoundingClientRect().top) < 260, null, { timeout: 3000 });
+    assert.ok(!(await page.content()).includes('**'), 'no raw ** markup');
+    await page.click('[data-action="practice-topic"]');
+    await page.waitForSelector('.qcard');
+    const s = await state(page);
+    const qt = await page.evaluate((ids) => [...new Set(ids.map((id) => window.__app.bank.questions.find((q) => q.id === id).topic))], s.active.qids);
+    assert.deepEqual(qt, ['agency']);
+    assert.equal(s.active.qids.length, 25);
   });
 
   await check('No uncaught page errors during the run', async () => {
