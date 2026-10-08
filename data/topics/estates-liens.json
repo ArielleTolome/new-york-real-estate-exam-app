@@ -1,0 +1,310 @@
+[
+  {
+    "id": "estates-liens-001",
+    "topic": "estates-liens",
+    "q": "Which of the following is a freehold estate?",
+    "options": [
+      "Life estate",
+      "Estate for years",
+      "Periodic tenancy",
+      "Tenancy at sufferance"
+    ],
+    "answer": 0,
+    "explanation": "Freehold estates (fee simple and life estates) are ownership interests of indefinite duration. Estates for years, periodic tenancies, tenancies at will, and tenancies at sufferance are leasehold (less-than-freehold) estates.",
+    "citation": "NY EPTL Article 6 (estates in property)"
+  },
+  {
+    "id": "estates-liens-002",
+    "topic": "estates-liens",
+    "q": "A deed conveys land \"to the Town of Clifton so long as the land is used as a public park.\" If the town stops using it as a park, what happens?",
+    "options": [
+      "The grantor must first sue to exercise a right of re-entry",
+      "The town keeps title, because use conditions in deeds are void",
+      "Title automatically returns to the grantor (possibility of reverter)",
+      "The town's interest converts into a leasehold held from the grantor"
+    ],
+    "answer": 2,
+    "explanation": "Words of duration such as \"so long as\" or \"while\" create a fee simple determinable, which ends automatically when the condition is broken. A fee on condition subsequent (\"but if\") requires the grantor to act.",
+    "citation": "NY EPTL Article 6, Part 4 (future estates)"
+  },
+  {
+    "id": "estates-liens-003",
+    "topic": "estates-liens",
+    "q": "A deed conveys a lot to a buyer \"but if alcohol is ever sold on the premises, the grantor may re-enter and reclaim the property.\" Alcohol is later sold. What is the result?",
+    "options": [
+      "Title reverts to the grantor automatically on the sale",
+      "The buyer keeps title until the grantor acts to reclaim it",
+      "The deed is void from the date it was delivered",
+      "The buyer's estate becomes a leasehold estate"
+    ],
+    "answer": 1,
+    "explanation": "\"But if\" or \"provided that\" language creates a fee simple on condition subsequent. Breach gives the grantor a right of re-entry (reacquisition), but the estate does not end until the grantor exercises it.",
+    "citation": "NY EPTL Article 6, Part 4 (future estates)"
+  },
+  {
+    "id": "estates-liens-004",
+    "topic": "estates-liens",
+    "q": "An owner deeds a house \"to Beth for life, then to Carlos.\" What interest does Carlos hold while Beth is alive?",
+    "options": [
+      "A reversion",
+      "A life estate pur autre vie",
+      "A leasehold estate",
+      "A remainder"
+    ],
+    "answer": 3,
+    "explanation": "A future interest held by a third party who takes when the life estate ends is a remainder (Carlos is the remainderman). If the property were to return to the original grantor instead, the grantor's interest would be a reversion.",
+    "citation": "NY EPTL Article 6 (estates in property)"
+  },
+  {
+    "id": "estates-liens-005",
+    "topic": "estates-liens",
+    "q": "An owner deeds land \"to Dana for the life of Eli.\" Dana dies while Eli is still living. What happens to the estate?",
+    "options": [
+      "It passes to Dana's heirs or devisees until Eli dies",
+      "It ends immediately at Dana's death, since Dana was the holder",
+      "It reverts to the grantor at the moment of Dana's death",
+      "It becomes a fee simple absolute owned by Dana's heirs"
+    ],
+    "answer": 0,
+    "explanation": "A life estate pur autre vie is measured by the life of someone other than the holder (here Eli). It continues for Eli's lifetime, so it passes to Dana's estate if Dana dies first.",
+    "citation": "NY EPTL Article 6 (estates in property)"
+  },
+  {
+    "id": "estates-liens-006",
+    "topic": "estates-liens",
+    "q": "A residential tenant's one-year lease expired, and the tenant remains in possession without the landlord's consent. This tenant has a:",
+    "options": [
+      "Tenancy at will",
+      "Periodic (month-to-month) tenancy",
+      "Tenancy at sufferance",
+      "Estate for years"
+    ],
+    "answer": 2,
+    "explanation": "A tenancy at sufferance is a holdover after a lawful tenancy ends, without the landlord's consent; it is not a new agreed lease. A tenancy at will exists with the landlord's permission. Self-help eviction is still prohibited.",
+    "citation": "NY RPL § 228; NY RPAPL Article 7"
+  },
+  {
+    "id": "estates-liens-007",
+    "topic": "estates-liens",
+    "q": "Which of the following is a general lien?",
+    "options": [
+      "A mortgage",
+      "A docketed money judgment",
+      "A mechanic's lien",
+      "A real property tax lien"
+    ],
+    "answer": 1,
+    "explanation": "A general lien attaches to all of the debtor's property within its reach, such as a judgment lien on all real property in the county. Mortgages, mechanic's liens, and property tax liens are specific liens on one parcel.",
+    "citation": "NY CPLR § 5203"
+  },
+  {
+    "id": "estates-liens-008",
+    "topic": "estates-liens",
+    "q": "A creditor wins a money judgment and dockets it with the clerk of the county where the debtor owns two houses. What is the effect?",
+    "options": [
+      "It is a lien only on the specific property named in the lawsuit",
+      "It is a lien on the debtor's personal property, but not on real estate",
+      "It attaches to a house only when the debtor later tries to sell it",
+      "It is a lien on his real property in that county, generally for 10 years"
+    ],
+    "answer": 3,
+    "explanation": "A docketed judgment is a general lien on the debtor's real property in that county, generally for 10 years. It is involuntary and is not limited to a single parcel.",
+    "citation": "NY CPLR § 5203"
+  },
+  {
+    "id": "estates-liens-009",
+    "topic": "estates-liens",
+    "q": "A property has a mortgage recorded in 2019, a judgment lien docketed in 2021, and unpaid 2026 real property taxes. Which lien generally has first priority?",
+    "options": [
+      "The real property tax lien",
+      "The mortgage, because it was recorded first",
+      "The judgment lien, because it is a general lien",
+      "They share equally, in proportion to their amounts"
+    ],
+    "answer": 0,
+    "explanation": "Real property tax and special assessment liens generally take priority over other liens regardless of when those were recorded. \"First recorded wins\" does not override tax-lien priority.",
+    "citation": "NY Real Property Tax Law (tax lien priority)"
+  },
+  {
+    "id": "estates-liens-010",
+    "topic": "estates-liens",
+    "q": "A contractor finishes a kitchen renovation on an owner-occupied single-family house on March 1. Under the NY Lien Law, the notice of mechanic's lien must be filed within:",
+    "options": [
+      "8 months after completion of the work",
+      "30 days after completion of the work",
+      "4 months after completion of the work",
+      "1 year after completion of the work"
+    ],
+    "answer": 2,
+    "explanation": "For a single-family dwelling, a mechanic's lien must be filed within 4 months after the work is completed or the materials are last furnished. The 8-month period applies to other property.",
+    "citation": "NY Lien Law § 10"
+  },
+  {
+    "id": "estates-liens-011",
+    "topic": "estates-liens",
+    "q": "A supplier last delivered materials to an office building renovation on January 10. Under the NY Lien Law, the deadline to file a mechanic's lien is generally:",
+    "options": [
+      "4 months after the final furnishing of materials",
+      "8 months after the final furnishing of materials",
+      "90 days after the final furnishing of materials",
+      "2 years after the final furnishing of materials"
+    ],
+    "answer": 1,
+    "explanation": "For property other than a single-family dwelling, a mechanic's lien must be filed within 8 months after the final performance of work or final furnishing of materials. The 4-month period is only for single-family dwellings.",
+    "citation": "NY Lien Law § 10"
+  },
+  {
+    "id": "estates-liens-012",
+    "topic": "estates-liens",
+    "q": "A buyer's title search reveals a notice of pendency (lis pendens) filed against the property. What does it mean?",
+    "options": [
+      "A final judgment of foreclosure has already been entered against it",
+      "The property has unpaid real estate taxes that are now a lien",
+      "A neighbor holds a recorded easement over part of the lot",
+      "A lawsuit affecting title to or possession of the property is pending"
+    ],
+    "answer": 3,
+    "explanation": "A notice of pendency warns that litigation affecting the property is pending. Anyone who later acquires an interest takes subject to the outcome. It is a cloud on title, not a judgment or a tax lien.",
+    "citation": "NY CPLR Article 65 (§ 6501)"
+  },
+  {
+    "id": "estates-liens-013",
+    "topic": "estates-liens",
+    "q": "The owner of a rear lot has a recorded right-of-way over the driveway on the front lot. The front lot is sold. What happens to the right-of-way?",
+    "options": [
+      "It continues, and the new owner of the front lot takes subject to it",
+      "It ends, because easements are personal to the original parties",
+      "It continues only if the new owner signs a new easement agreement",
+      "It converts into a revocable license held by the rear owner"
+    ],
+    "answer": 0,
+    "explanation": "This is an easement appurtenant: the rear lot is the dominant tenement and the front lot is the servient tenement. Appurtenant easements run with the land when either parcel is sold.",
+    "citation": "NY common law of easements; NY RPL § 291 (recording)"
+  },
+  {
+    "id": "estates-liens-014",
+    "topic": "estates-liens",
+    "q": "An electric utility holds the right to run power lines across a farm. The utility owns no adjoining land. This right is best described as:",
+    "options": [
+      "An easement appurtenant",
+      "An easement by necessity",
+      "An easement in gross",
+      "A license"
+    ],
+    "answer": 2,
+    "explanation": "An easement in gross benefits a person or entity rather than a neighboring parcel, so there is no dominant tenement. Commercial easements in gross, like utility easements, are interests in land, unlike a revocable license.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (easements)"
+  },
+  {
+    "id": "estates-liens-015",
+    "topic": "estates-liens",
+    "q": "An owner sells the back half of his land, leaving the buyer's parcel with no access to any public road except across the seller's remaining land. What right does the law give the buyer?",
+    "options": [
+      "An easement in gross",
+      "An easement by necessity",
+      "A license coupled with an interest",
+      "An encroachment"
+    ],
+    "answer": 1,
+    "explanation": "When a parcel is landlocked as a result of dividing commonly owned land, the law implies an easement by necessity across the grantor's remaining land. It lasts as long as the necessity exists.",
+    "citation": "NY common law of easements"
+  },
+  {
+    "id": "estates-liens-016",
+    "topic": "estates-liens",
+    "q": "For 11 years, a neighbor has openly and continuously used a path across your land, without permission and without any claim from you. What has the neighbor most likely acquired?",
+    "options": [
+      "Title to the path by adverse possession",
+      "A license that you may revoke at any time",
+      "An easement in gross",
+      "An easement by prescription"
+    ],
+    "answer": 3,
+    "explanation": "Open, notorious, continuous, and hostile use for 10 years in NY creates a prescriptive easement, which is a right of use, not ownership. Adverse possession requires exclusive possession and transfers title.",
+    "citation": "NY common law of prescriptive easements (10-year period, CPLR § 212(a))"
+  },
+  {
+    "id": "estates-liens-017",
+    "topic": "estates-liens",
+    "q": "A homeowner verbally tells her neighbor he may fish in her pond whenever he likes. Which statement is true?",
+    "options": [
+      "It is a revocable personal permission, not an interest in land",
+      "It is an oral easement appurtenant that runs with the land",
+      "It becomes a permanent easement after one year of regular use",
+      "It is an easement in gross that the neighbor may sell to others"
+    ],
+    "answer": 0,
+    "explanation": "A license is personal permission to do something on another's land; it is not an interest in real property. It can generally be revoked and ends on the death of either party or the sale of the land.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (licenses)"
+  },
+  {
+    "id": "estates-liens-018",
+    "topic": "estates-liens",
+    "q": "A survey shows that a neighbor's garage extends two feet onto the buyer's lot. This is an example of:",
+    "options": [
+      "An easement appurtenant",
+      "A license",
+      "An encroachment",
+      "A lis pendens"
+    ],
+    "answer": 2,
+    "explanation": "An encroachment is an unauthorized intrusion of an improvement onto another's land. It is typically revealed by a survey, not a title search, and it is a common standard exception in title policies.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (encroachments)"
+  },
+  {
+    "id": "estates-liens-019",
+    "topic": "estates-liens",
+    "q": "Local zoning allows two-family houses, but a recorded deed restriction limits a lot to one single-family house. What may the owner build?",
+    "options": [
+      "A two-family house, because zoning overrides private restrictions",
+      "Only a single-family house, because the stricter restriction applies",
+      "A two-family house, if the owner obtains a building permit",
+      "Anything allowed by zoning once the deed is 10 years old"
+    ],
+    "answer": 1,
+    "explanation": "Private deed restrictions and public zoning both apply, so the owner must satisfy whichever is more restrictive. A building permit does not override a valid private restriction.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (deed restrictions and zoning)"
+  },
+  {
+    "id": "estates-liens-020",
+    "topic": "estates-liens",
+    "q": "In the MARIA test for whether an item is a fixture, the letters stand for:",
+    "options": [
+      "Market value, Age, Removability, Insurability, Appraisal method",
+      "Method of payment, Assessment, Rights, Inspection, Agreement",
+      "Material used, Attachment, Reasonableness, Improvement, Agreement",
+      "Method of annexation, Adaptability, Relationship, Intention, Agreement"
+    ],
+    "answer": 3,
+    "explanation": "Fixture analysis considers how the item is attached, whether it is adapted to the property, the relationship of the parties, their intention, and any agreement. A specific written agreement or exclusion carries great weight.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (fixtures)"
+  },
+  {
+    "id": "estates-liens-021",
+    "topic": "estates-liens",
+    "q": "A seller installed custom-fitted built-in bookcases and a dining room chandelier. The contract of sale is silent about them. At closing they:",
+    "options": [
+      "Pass to the buyer as fixtures, since the contract does not exclude them",
+      "Remain the seller's personal property, which the seller may remove",
+      "Pass to the buyer only if they were listed in the property advertisement",
+      "May be removed by the seller if they were paid for separately"
+    ],
+    "answer": 0,
+    "explanation": "Items permanently attached or adapted to the property are presumed fixtures that pass with the real property. A seller who wants to keep one should exclude it in the written contract before signing.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (fixtures)"
+  },
+  {
+    "id": "estates-liens-022",
+    "topic": "estates-liens",
+    "q": "A restaurant tenant bolted commercial ovens to the floor for its business. What are the tenant's rights at the end of the lease?",
+    "options": [
+      "They became the landlord's property when they were bolted down",
+      "It may remove them at any time, even years after the lease ends",
+      "It may remove them before the lease ends, repairing damage from removal",
+      "They must stay unless the landlord pays the tenant for them"
+    ],
+    "answer": 2,
+    "explanation": "Trade fixtures installed by a commercial tenant for its business remain the tenant's personal property and may be removed by the end of the lease, with any damage repaired. Items left behind may become the landlord's property by accession.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (trade fixtures)"
+  }
+]

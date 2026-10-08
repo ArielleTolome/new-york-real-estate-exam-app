@@ -1,0 +1,310 @@
+[
+  {
+    "id": "land-use-001",
+    "topic": "land-use",
+    "q": "Which governmental power is the legal basis for a municipality's zoning ordinance?",
+    "options": [
+      "Police power",
+      "Eminent domain",
+      "Escheat",
+      "Taxation"
+    ],
+    "answer": 0,
+    "explanation": "Zoning is an exercise of the police power: regulating private property use to protect public health, safety, morals and general welfare. Eminent domain takes property (with compensation); escheat transfers property of an owner who dies without heirs or a will.",
+    "citation": "NY Town Law § 261; NY Village Law § 7-700"
+  },
+  {
+    "id": "land-use-002",
+    "topic": "land-use",
+    "q": "A town downzones an area, reducing permitted density, and an owner's lot loses some market value. What is the general rule on compensation?",
+    "options": [
+      "Just compensation is always owed for any loss in market value caused by a zoning change",
+      "The town must buy the lot at its pre-rezoning appraised value whenever the owner demands",
+      "No compensation is owed for a valid regulation unless it goes so far as to be a taking",
+      "The owner may ignore the new zoning until compensation is paid in full"
+    ],
+    "answer": 2,
+    "explanation": "A valid police-power regulation does not require payment merely because it reduces value. Compensation is required for a taking under eminent domain, or where regulation is so severe that courts treat it as a regulatory taking.",
+    "citation": "U.S. Const. 5th Amendment; NY Const. Art. I § 7"
+  },
+  {
+    "id": "land-use-003",
+    "topic": "land-use",
+    "q": "The State acquires part of a farm by condemnation to widen a highway. Which pair of requirements must the taking satisfy?",
+    "options": [
+      "Owner consent and a fair hearing",
+      "Public use and just compensation",
+      "Public use and a majority vote of neighbors",
+      "A recorded deed and owner consent"
+    ],
+    "answer": 1,
+    "explanation": "Eminent domain lets government take private property without the owner's consent, but only for a public use and upon payment of just compensation. Consent is exactly what condemnation does not require.",
+    "citation": "U.S. Const. 5th Amendment; NY Const. Art. I § 7; NY Eminent Domain Procedure Law"
+  },
+  {
+    "id": "land-use-004",
+    "topic": "land-use",
+    "q": "In an eminent domain taking, just compensation is generally measured by:",
+    "options": [
+      "The owner's original purchase price plus the cost of any improvements made since",
+      "The assessed value currently shown for the property on the municipal tax roll",
+      "The cost the government expects to incur to build the planned public project",
+      "The fair market value of the property taken, considering its highest and best use"
+    ],
+    "answer": 3,
+    "explanation": "Just compensation is generally the property's fair market value at the time of the taking, considering its highest and best use. Purchase price and assessed value are not the measure.",
+    "citation": "NY Eminent Domain Procedure Law; NY Const. Art. I § 7"
+  },
+  {
+    "id": "land-use-005",
+    "topic": "land-use",
+    "q": "An owner in a residential-only district wants to open a retail store. Because retail is not a permitted use there, what must the owner show the zoning board of appeals to obtain relief?",
+    "options": [
+      "Practical difficulty balanced against detriment to the neighborhood",
+      "That the store would earn more than the house currently does",
+      "That a majority of adjoining owners signed letters of support",
+      "Unnecessary hardship, including no reasonable return from any permitted use"
+    ],
+    "answer": 3,
+    "explanation": "A use variance requires unnecessary hardship: no reasonable return under any permitted use (shown by competent financial evidence), a unique hardship, no change to neighborhood character, and a hardship that is not self-created. Merely wanting a more profitable use is insufficient.",
+    "citation": "NY Town Law § 267-b(2)"
+  },
+  {
+    "id": "land-use-006",
+    "topic": "land-use",
+    "q": "A homeowner wants to build a deck that would extend 6 feet into a required rear-yard setback. What type of relief is needed?",
+    "options": [
+      "A use variance",
+      "An area variance",
+      "A rezoning of the district",
+      "A nonconforming use certificate"
+    ],
+    "answer": 1,
+    "explanation": "A setback is a dimensional requirement, so relief is an area variance. The ZBA balances the benefit to the applicant against any detriment to the health, safety and welfare of the neighborhood.",
+    "citation": "NY Town Law § 267-b(3)"
+  },
+  {
+    "id": "land-use-007",
+    "topic": "land-use",
+    "q": "When deciding an area variance, how does New York law treat a difficulty that the applicant created?",
+    "options": [
+      "It is relevant but does not by itself preclude granting the variance",
+      "It automatically requires the board to deny the area variance request",
+      "It is irrelevant, and the board may not consider it in deciding the variance",
+      "It converts the request into a use variance with a stricter hardship test"
+    ],
+    "answer": 0,
+    "explanation": "For an area variance, self-created difficulty is one factor in the balancing test and does not necessarily bar relief. Trap: for a use variance, the hardship must not be self-created.",
+    "citation": "NY Town Law § 267-b(3)(b)"
+  },
+  {
+    "id": "land-use-008",
+    "topic": "land-use",
+    "q": "A town's zoning ordinance lists day-care centers as allowed in residential districts if specified conditions on parking and lot size are met. A provider seeking approval needs:",
+    "options": [
+      "A use variance",
+      "An area variance",
+      "A special use permit",
+      "A spot zoning amendment"
+    ],
+    "answer": 2,
+    "explanation": "A special use permit authorizes a use the ordinance already contemplates for the district, once its conditions are met. It is not a variance, because the use is not prohibited.",
+    "citation": "NY Town Law § 274-b"
+  },
+  {
+    "id": "land-use-009",
+    "topic": "land-use",
+    "q": "A gas station has operated legally on a corner since before the area was zoned residential. Under the new zoning, the station:",
+    "options": [
+      "May generally continue as a lawful nonconforming use",
+      "Must close immediately because it is now an illegal use",
+      "Automatically receives a use variance from the zoning board",
+      "May expand freely because it existed before the zoning"
+    ],
+    "answer": 0,
+    "explanation": "A use that was lawful before a zoning change may generally continue as a nonconforming use. That status does not authorize unlimited expansion, and it is not the same as an illegal use.",
+    "citation": "NY zoning law: nonconforming use doctrine (local zoning ordinance)"
+  },
+  {
+    "id": "land-use-010",
+    "topic": "land-use",
+    "q": "Which statement about a lawful nonconforming use is generally accurate?",
+    "options": [
+      "It may be enlarged or extended at any time without any approval from the town",
+      "It may be changed to any other nonconforming use without zoning board review",
+      "It may be lost if abandoned or discontinued for the period set by the ordinance",
+      "It automatically becomes a permitted use after ten years of continuous operation"
+    ],
+    "answer": 2,
+    "explanation": "Ordinances typically restrict expansion or change of a nonconforming use and terminate it if the use is discontinued or abandoned for a stated period. The goal is to phase nonconforming uses out over time.",
+    "citation": "NY zoning law: nonconforming use doctrine (local zoning ordinance)"
+  },
+  {
+    "id": "land-use-011",
+    "topic": "land-use",
+    "q": "A city council rezones one owner's small lot to commercial, solely for that owner's benefit, while all surrounding land stays residential and the change conflicts with the comprehensive plan. This is:",
+    "options": [
+      "Cluster zoning, which is generally valid",
+      "Spot zoning, which is generally invalid",
+      "Incentive zoning, which is generally valid",
+      "A lawful area variance by the council"
+    ],
+    "answer": 1,
+    "explanation": "Spot zoning singles out a small parcel for a classification different from the surrounding area, for private benefit and inconsistent with the comprehensive plan. Courts generally strike it down.",
+    "citation": "NY Town Law § 263 (zoning in accordance with comprehensive plan)"
+  },
+  {
+    "id": "land-use-012",
+    "topic": "land-use",
+    "q": "A developer groups homes on smaller lots and leaves the rest of the tract as permanent open space, without exceeding the density a conventional subdivision would allow. This is:",
+    "options": [
+      "Spot zoning",
+      "Downzoning",
+      "A use variance",
+      "Cluster zoning"
+    ],
+    "answer": 3,
+    "explanation": "Cluster development concentrates buildings to preserve open space while keeping overall density no greater than a conventional layout. The planning board may approve it when authorized by the town board.",
+    "citation": "NY Town Law § 278"
+  },
+  {
+    "id": "land-use-013",
+    "topic": "land-use",
+    "q": "A developer plans to divide a 40-acre parcel into 25 building lots. Before lots are sold, the developer generally must obtain:",
+    "options": [
+      "A use variance from the zoning board of appeals",
+      "A certificate of occupancy for each lot",
+      "A deed restriction approved by the assessor",
+      "Subdivision plat approval from the planning board"
+    ],
+    "answer": 3,
+    "explanation": "Subdivision regulations require planning board approval of the plat (lots, streets, utilities, drainage) before it is filed and lots are sold. Variances and COs address different issues.",
+    "citation": "NY Town Law § 276"
+  },
+  {
+    "id": "land-use-014",
+    "topic": "land-use",
+    "q": "Outside New York City, which code sets statewide minimum construction and fire-safety standards that local building departments enforce?",
+    "options": [
+      "The Real Property Actions and Proceedings Law",
+      "The Uniform Fire Prevention and Building Code",
+      "The State Environmental Quality Review Act",
+      "The Multiple Residence Law of New York"
+    ],
+    "answer": 1,
+    "explanation": "The Uniform Fire Prevention and Building Code sets minimum construction and fire-safety standards. Municipalities enforce it through permits and inspections; New York City has its own construction codes.",
+    "citation": "NY Executive Law Article 18"
+  },
+  {
+    "id": "land-use-015",
+    "topic": "land-use",
+    "q": "What does a certificate of occupancy (CO) indicate?",
+    "options": [
+      "The building was inspected and may be legally occupied for its stated use",
+      "The property has clear, marketable title insured against all defects",
+      "The owner has permission to begin construction on the lot",
+      "The building is free of every physical defect and needs no repairs"
+    ],
+    "answer": 0,
+    "explanation": "A CO is issued after completed work is found to comply with approved plans and applicable codes, allowing legal occupancy for the stated use. It does not guarantee title or the absence of every defect.",
+    "citation": "NY Executive Law Article 18; local building code"
+  },
+  {
+    "id": "land-use-016",
+    "topic": "land-use",
+    "q": "A contractor has just received a building permit for a new house. A buyer under contract asks whether they can move in once the walls are up. The best answer is:",
+    "options": [
+      "Yes; a building permit also authorizes occupancy once the framing inspection is passed",
+      "Yes; occupancy is legally allowed as soon as the buyer closes and takes title to the house",
+      "No; a permit only authorizes construction; occupancy generally needs a certificate of occupancy",
+      "No; occupancy additionally requires a new variance from the zoning board of appeals"
+    ],
+    "answer": 2,
+    "explanation": "A building permit is issued before work starts and authorizes construction. A certificate of occupancy (or equivalent) is issued after completion and inspection, and that is what allows legal occupancy.",
+    "citation": "NY Executive Law Article 18; local building code"
+  },
+  {
+    "id": "land-use-017",
+    "topic": "land-use",
+    "q": "Under New York's town zoning enabling law, zoning regulations must be adopted:",
+    "options": [
+      "In accordance with a comprehensive plan",
+      "Only after a vote of all property owners",
+      "Only with approval from the Department of State",
+      "In accordance with each owner's deed restrictions"
+    ],
+    "answer": 0,
+    "explanation": "Town Law requires zoning to be made in accordance with a comprehensive (master) plan, which guides long-term land use, transportation and community facilities.",
+    "citation": "NY Town Law §§ 263, 272-a"
+  },
+  {
+    "id": "land-use-018",
+    "topic": "land-use",
+    "q": "Under SEQR, the lead agency determines a proposed project may have a significant adverse environmental impact. What happens next?",
+    "options": [
+      "It issues a negative declaration and the project proceeds without further review",
+      "The project is automatically denied and may not be resubmitted",
+      "It issues a positive declaration and an environmental impact statement is required",
+      "The application is transferred to the Department of State for a decision"
+    ],
+    "answer": 2,
+    "explanation": "A positive declaration means an EIS must be prepared. A negative declaration means no significant adverse impact, so no EIS. Not every project requires an EIS.",
+    "citation": "NY ECL Article 8 (SEQR); 6 NYCRR Part 617"
+  },
+  {
+    "id": "land-use-019",
+    "topic": "land-use",
+    "q": "Under SEQR, an action classified as Type II:",
+    "options": [
+      "Is presumed likely to require an environmental impact statement",
+      "Has been determined not to require further environmental review",
+      "Must be reviewed by the Adirondack Park Agency",
+      "May proceed only after a positive declaration is issued"
+    ],
+    "answer": 1,
+    "explanation": "Type II actions (e.g., many routine actions and minor residential construction) are listed as not requiring SEQR review. Type I actions are more likely to require an EIS; unlisted actions get case-by-case review.",
+    "citation": "6 NYCRR § 617.5"
+  },
+  {
+    "id": "land-use-020",
+    "topic": "land-use",
+    "q": "A buyer plans to build a home on private land inside the Adirondack Park. In addition to local approvals, the buyer should check whether a permit is needed from:",
+    "options": [
+      "The New York State Board of Real Estate",
+      "The Federal Housing Administration",
+      "The county tax assessor's office",
+      "The Adirondack Park Agency"
+    ],
+    "answer": 3,
+    "explanation": "The Adirondack Park Agency regulates land use and development on private land within the Park through its own land-use plan and permit system, in addition to local rules.",
+    "citation": "NY Executive Law Article 27 (Adirondack Park Agency Act)"
+  },
+  {
+    "id": "land-use-021",
+    "topic": "land-use",
+    "q": "A buyer wants to fill and build on land near a freshwater wetland. Which statement is most accurate?",
+    "options": [
+      "Only local zoning applies, because wetlands are governed solely by the town or village",
+      "No wetland permit is needed once the buyer closes and holds a recorded deed to the land",
+      "Only federal law applies, because New York State does not regulate freshwater wetlands",
+      "State, federal and local rules may each apply; get a current jurisdictional determination"
+    ],
+    "answer": 3,
+    "explanation": "NYS DEC regulates freshwater wetlands under ECL Article 24 (including adjacent areas), the U.S. Army Corps of Engineers regulates fill under the Clean Water Act, and localities may add rules. Get a current determination rather than assuming.",
+    "citation": "NY ECL Article 24; Clean Water Act § 404"
+  },
+  {
+    "id": "land-use-022",
+    "topic": "land-use",
+    "q": "Zoning allows two-family homes in a district, but a recorded deed restriction on a lot limits it to one single-family home. Which rule controls?",
+    "options": [
+      "The zoning, because public law always overrides private covenants",
+      "The deed restriction, because the more restrictive rule governs",
+      "Neither, because the two conflict and cancel each other out",
+      "Whichever was recorded or enacted more recently"
+    ],
+    "answer": 1,
+    "explanation": "When zoning and a private deed restriction differ, the more restrictive one controls. An owner must satisfy both, so the single-family limit applies.",
+    "citation": "NY zoning law; restrictive covenants (deed restrictions)"
+  }
+]

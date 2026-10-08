@@ -1,0 +1,310 @@
+[
+  {
+    "id": "contracts-001",
+    "topic": "contracts",
+    "q": "Under New York's statute of frauds, which agreement must be in writing and signed by the party to be charged to be enforceable?",
+    "options": [
+      "A lease of an apartment for six months",
+      "An agreement for a salesperson to show a home on Saturday",
+      "A contract for the sale of a single-family house",
+      "A month-to-month rental of a garage space"
+    ],
+    "answer": 2,
+    "explanation": "GOL § 5-703 requires contracts for the sale of real property (and leases longer than one year) to be in a writing subscribed by the party to be charged. Leases of one year or less, like a six-month or month-to-month rental, may be oral.",
+    "citation": "NY GOL § 5-703"
+  },
+  {
+    "id": "contracts-002",
+    "topic": "contracts",
+    "q": "Before the tenant moves in, a landlord and tenant orally agree to a two-year lease of a store. The landlord then refuses to honor it. The oral lease is best described as:",
+    "options": [
+      "Unenforceable, because a lease for more than one year must be in writing",
+      "Void, because a lease can never be created orally",
+      "Fully enforceable, because both parties clearly agreed to it",
+      "Voidable only at the tenant's option because the tenant relied on it"
+    ],
+    "answer": 0,
+    "explanation": "A lease for more than one year falls within the statute of frauds, so this oral two-year lease cannot be enforced in court. Trap: it is unenforceable, not void — oral leases of one year or less are perfectly valid.",
+    "citation": "NY GOL § 5-703"
+  },
+  {
+    "id": "contracts-003",
+    "topic": "contracts",
+    "q": "Which of the following is NOT an essential element of a valid real estate contract?",
+    "options": [
+      "Competent parties who have legal capacity to contract",
+      "Consideration exchanged between the buyer and seller",
+      "A lawful object or purpose for the agreement",
+      "Recording in the county clerk's office"
+    ],
+    "answer": 3,
+    "explanation": "A valid contract needs competent parties, mutual assent (offer and acceptance), consideration, and a lawful object, and a real estate sale contract must also be in writing. Recording gives constructive notice to the public; it is not required for the contract to be valid between the parties.",
+    "citation": "General contract law; NY GOL § 5-703; NY RPL § 291 (recording)"
+  },
+  {
+    "id": "contracts-004",
+    "topic": "contracts",
+    "q": "A 17-year-old signs a contract to buy a vacant lot from an adult seller. The contract is:",
+    "options": [
+      "Void from the start because minors cannot sign contracts",
+      "Voidable at the minor's option",
+      "Voidable at the seller's option only",
+      "Valid and binding on both parties because both signed"
+    ],
+    "answer": 1,
+    "explanation": "In New York a person under 18 is a minor (infant). A minor's contract is generally voidable by the minor, who may disaffirm it, while the adult remains bound if the minor chooses to go through with it. Trap: voidable, not void.",
+    "citation": "CPLR § 105(j) (infant = under 18); general contract law (capacity)"
+  },
+  {
+    "id": "contracts-005",
+    "topic": "contracts",
+    "q": "Two parties sign a contract whose stated purpose is to sell a building to be used for an illegal gambling operation. The contract is:",
+    "options": [
+      "Void, because it lacks a lawful object",
+      "Voidable at the buyer's option",
+      "Valid but unenforceable until the buyer obtains a license",
+      "Valid, because transferring real property is itself legal"
+    ],
+    "answer": 0,
+    "explanation": "A contract for an illegal purpose lacks the essential element of a lawful object, so it is void — it has no legal effect, and neither party can enforce it. Voidable contracts (such as those induced by fraud or a minor's contract) are valid until one party disaffirms.",
+    "citation": "General contract law (lawful object)"
+  },
+  {
+    "id": "contracts-006",
+    "topic": "contracts",
+    "q": "A buyer and a seller sign a written purchase contract in which the buyer promises to pay $410,000 and the seller promises to convey title. This contract is best described as:",
+    "options": [
+      "Implied and unilateral",
+      "Express and unilateral",
+      "Express and bilateral",
+      "Implied and bilateral"
+    ],
+    "answer": 2,
+    "explanation": "It is express because the terms are stated in words (written or oral), and bilateral because each side exchanges a promise for a promise. An implied contract arises from conduct, and a unilateral contract is a promise given in exchange for an act.",
+    "citation": "General contract law"
+  },
+  {
+    "id": "contracts-007",
+    "topic": "contracts",
+    "q": "A seller tells area brokers she will pay a $5,000 bonus to whichever cooperating agent first brings a buyer who closes. No agent promises to do anything. This arrangement is best described as:",
+    "options": [
+      "A bilateral contract binding on every broker who hears it",
+      "An executed contract as soon as it is announced",
+      "A void contract for lack of any consideration",
+      "A unilateral contract, accepted only by performance"
+    ],
+    "answer": 3,
+    "explanation": "A unilateral contract is a promise in exchange for an act: only the seller is bound, and an agent accepts by actually producing the buyer who closes. No agent is obligated to try, which is why it is not bilateral.",
+    "citation": "General contract law"
+  },
+  {
+    "id": "contracts-008",
+    "topic": "contracts",
+    "q": "A purchase contract has been signed by both buyer and seller, and the closing is scheduled for next month. Right now the contract is:",
+    "options": [
+      "Executed, because both parties have signed it",
+      "Executory, because performance is still to come",
+      "Unilateral, because only the seller still has to act",
+      "Implied, because the closing terms are still pending"
+    ],
+    "answer": 1,
+    "explanation": "An executory contract has obligations still to be performed; it becomes executed only when both sides have fully performed (here, at closing). Trap: 'executed' does not mean 'signed.'",
+    "citation": "General contract law"
+  },
+  {
+    "id": "contracts-009",
+    "topic": "contracts",
+    "q": "A buyer offers $500,000. The seller replies, 'I'll take $520,000.' The buyer declines. The next day the seller says, 'Fine, I accept your $500,000 offer.' What is the legal status?",
+    "options": [
+      "No contract yet; the seller's statement is only a new offer the buyer may accept or reject",
+      "A binding contract at $500,000, because the seller accepted the buyer's exact original terms",
+      "A binding contract at $520,000, because that was the last price either party stated",
+      "A binding contract at $500,000, but the buyer may cancel within three days of the acceptance"
+    ],
+    "answer": 0,
+    "explanation": "A counteroffer is a rejection of the original offer and terminates it. The buyer's $500,000 offer no longer exists to be accepted, so the seller's later 'acceptance' is only a new offer that the buyer is free to accept or reject.",
+    "citation": "General contract law (offer and acceptance)"
+  },
+  {
+    "id": "contracts-010",
+    "topic": "contracts",
+    "q": "A buyer hands a salesperson a $20,000 earnest money check payable to the brokerage. What should the salesperson do?",
+    "options": [
+      "Deposit it in the salesperson's own personal account and hold it there until closing",
+      "Keep it safely in a locked desk drawer at the office until the closing date is near",
+      "Promptly turn it over to the supervising broker for deposit in a separate escrow account",
+      "Give it directly to the seller, since the earnest money belongs to the seller once signed"
+    ],
+    "answer": 2,
+    "explanation": "A salesperson must promptly turn over funds belonging to others to the supervising broker, who must keep them in a separate special (escrow) account. Mixing client money with personal or business money is commingling, and using it is conversion — both are prohibited.",
+    "citation": "19 NYCRR § 175.1"
+  },
+  {
+    "id": "contracts-011",
+    "topic": "contracts",
+    "q": "A buyer signs a binding purchase contract with no remaining contingencies, then changes her mind and refuses to close. She demands her earnest money back. Generally:",
+    "options": [
+      "She is automatically entitled to a full refund because the deal never actually closed",
+      "The broker must refund it to her within 30 days, as required by the license law",
+      "The broker may keep the full deposit as its earned commission on the failed sale",
+      "No automatic refund; the contract's default terms decide who gets the deposit"
+    ],
+    "answer": 3,
+    "explanation": "An earnest-money refund is not automatic just because the buyer changes her mind. Once contingencies are satisfied or have expired, the contract's default and liquidated damages terms decide who gets the deposit. The broker holds it in trust and cannot simply keep it as a commission.",
+    "citation": "General contract law; 19 NYCRR § 175.1 (trust funds)"
+  },
+  {
+    "id": "contracts-012",
+    "topic": "contracts",
+    "q": "A contract's mortgage contingency gives the buyer until June 1 to get a loan commitment. The buyer applies promptly and in good faith but is denied, and gives the seller written notice on May 25 as the contract requires. The buyer most likely may:",
+    "options": [
+      "Be forced to close with cash because loan denial is the buyer's risk",
+      "Cancel the contract and recover the deposit under the contingency",
+      "Cancel only if the seller agrees to waive the deadline",
+      "Keep the contract alive indefinitely until some loan is approved"
+    ],
+    "answer": 1,
+    "explanation": "A mortgage contingency lets a buyer who makes a good-faith application and is denied cancel and get the deposit back, as long as the buyer follows the clause's notice and deadline terms. Missing the deadline or not applying in good faith can lose that protection.",
+    "citation": "General contract law (mortgage contingency clause)"
+  },
+  {
+    "id": "contracts-013",
+    "topic": "contracts",
+    "q": "An upstate contract filled out by a salesperson has an attorney approval clause with a three-business-day review period. Neither party's attorney sends written disapproval within the period. What is the result?",
+    "options": [
+      "The contingency is deemed waived and the contract is binding",
+      "The contract automatically terminates for lack of approval",
+      "The salesperson's broker must approve the contract instead",
+      "The parties automatically get 30 more days to obtain approval"
+    ],
+    "answer": 0,
+    "explanation": "A standard attorney approval clause says the contingency is deemed waived unless an attorney sends written disapproval by the deadline. The clause lets licensees fill in a form contract without engaging in the unauthorized practice of law, while still giving each side's attorney a chance to review it.",
+    "citation": "NY Judiciary Law § 478 (unauthorized practice of law); standard attorney-approval clause"
+  },
+  {
+    "id": "contracts-014",
+    "topic": "contracts",
+    "q": "A contract says that if the buyer defaults, the seller may keep the buyer's 10% down payment as the seller's sole remedy. This provision is a(n):",
+    "options": [
+      "Specific performance clause",
+      "Rescission clause",
+      "Liquidated damages clause",
+      "Acceleration clause"
+    ],
+    "answer": 2,
+    "explanation": "Liquidated damages are an amount the parties agree to in advance as compensation for a breach — often the earnest money. Specific performance forces completion of the sale, rescission cancels the contract and restores both parties, and acceleration is a mortgage clause.",
+    "citation": "General contract law (remedies)"
+  },
+  {
+    "id": "contracts-015",
+    "topic": "contracts",
+    "q": "A seller signs a valid sale contract, then refuses to close because she got a higher offer. The buyer wants the property itself, not money. The buyer should sue for:",
+    "options": [
+      "Liquidated damages",
+      "Rescission",
+      "A deficiency judgment",
+      "Specific performance"
+    ],
+    "answer": 3,
+    "explanation": "Specific performance is an equitable remedy in which a court orders the breaching party to perform. Courts grant it in real estate cases because every parcel is unique. Rescission would cancel the deal, which is the opposite of what this buyer wants.",
+    "citation": "General contract law (equitable remedies)"
+  },
+  {
+    "id": "contracts-016",
+    "topic": "contracts",
+    "q": "After signing, a buyer discovers the seller knowingly lied about the house being connected to public sewer. The buyer wants to cancel and put both parties back where they were before the contract, including return of the deposit. This remedy is:",
+    "options": [
+      "Specific performance",
+      "Rescission",
+      "Novation",
+      "Liquidated damages"
+    ],
+    "answer": 1,
+    "explanation": "Fraud or misrepresentation makes a contract voidable by the injured party, who may seek rescission: the contract is canceled and each party is restored to its pre-contract position. Novation substitutes a new contract or party; it does not unwind the deal.",
+    "citation": "General contract law (rescission; misrepresentation)"
+  },
+  {
+    "id": "contracts-017",
+    "topic": "contracts",
+    "q": "Under an exclusive right to sell listing, the owner finds a buyer on her own (a coworker) and sells during the listing term without the broker's help. The broker is:",
+    "options": [
+      "Entitled to the commission, because the broker is paid no matter who sells",
+      "Not entitled to anything, because the owner found the buyer herself",
+      "Entitled to half the commission by law",
+      "Entitled only to reimbursement of advertising costs"
+    ],
+    "answer": 0,
+    "explanation": "Under an exclusive right to sell, the listing broker earns the agreed commission if the property sells during the term, no matter who finds the buyer — including the owner. That is the key difference from an exclusive agency listing.",
+    "citation": "19 NYCRR § 175.24 (exclusive listing definitions)"
+  },
+  {
+    "id": "contracts-018",
+    "topic": "contracts",
+    "q": "Which statement correctly distinguishes an exclusive agency listing from an exclusive right to sell listing?",
+    "options": [
+      "Under exclusive agency, the broker is paid even if the owner sells on her own",
+      "Exclusive agency lets the owner list with several brokers at the same time",
+      "Exclusive agency must be oral, while exclusive right to sell must be written",
+      "Under exclusive agency, the owner owes no commission if she finds the buyer herself"
+    ],
+    "answer": 3,
+    "explanation": "Exclusive agency names one broker but reserves the owner's right to sell on her own without owing a commission; under exclusive right to sell, the broker is paid regardless. Listing with several brokers at once is an open listing. NY regulations require exclusive listing agreements to include an explanation of this difference.",
+    "citation": "19 NYCRR § 175.24"
+  },
+  {
+    "id": "contracts-019",
+    "topic": "contracts",
+    "q": "An owner gives open listings to three brokers. Broker B is the procuring cause of the sale. Who earns a commission?",
+    "options": [
+      "All three brokers, split equally",
+      "The first broker who signed a listing",
+      "Only Broker B",
+      "No broker, because open listings cannot be enforced"
+    ],
+    "answer": 2,
+    "explanation": "In an open listing, only the broker who is the procuring cause of the sale earns the commission. If the owner sells the property herself, she owes no one.",
+    "citation": "General agency/listing law"
+  },
+  {
+    "id": "contracts-020",
+    "topic": "contracts",
+    "q": "A tenant's lease gives the tenant a right of first refusal to buy the building. Which statement is correct?",
+    "options": [
+      "The tenant can force the landlord to sell at a set price at any time during the lease",
+      "The tenant can match a bona fide offer the landlord is willing to accept, but cannot force a sale",
+      "The tenant is obligated to buy the building if the landlord decides to sell",
+      "A right of first refusal and an option to purchase are the same thing"
+    ],
+    "answer": 1,
+    "explanation": "A right of first refusal only lets the holder match terms if the owner decides to sell; it cannot force a sale. An option, by contrast, lets the optionee (who pays consideration) compel the sale at a set price within the option period — the optionor is bound, the optionee is not.",
+    "citation": "General contract law (options and rights of first refusal)"
+  },
+  {
+    "id": "contracts-021",
+    "topic": "contracts",
+    "q": "A buyer assigns her purchase contract to her brother with the seller's consent, but no agreement releasing the buyer is signed. If the brother fails to close:",
+    "options": [
+      "The original buyer is automatically released because the seller consented",
+      "The seller can sue only the brokerage",
+      "The contract is void because real estate contracts cannot be assigned",
+      "The original buyer generally remains liable, because only a novation releases her"
+    ],
+    "answer": 3,
+    "explanation": "In an assignment, the assignor generally stays secondarily liable if the assignee does not perform. A novation replaces the old contract or party with a new one and releases the original party. Consenting to an assignment is not the same as agreeing to a release.",
+    "citation": "General contract law (assignment vs. novation)"
+  },
+  {
+    "id": "contracts-022",
+    "topic": "contracts",
+    "q": "In parts of downstate New York, a licensee may prepare a binder. Which statement about a binder is most accurate?",
+    "options": [
+      "A written outline of key terms that can be enforceable if it contains all essential terms",
+      "It is the title insurance policy that the title company delivers to the buyer at closing",
+      "It can never be enforced, because only a contract prepared by an attorney is binding",
+      "It replaces the deed and transfers title to the buyer once all parties have signed it"
+    ],
+    "answer": 0,
+    "explanation": "A binder is a written outline of the main terms, often signed by the parties, after which attorneys draft the formal contract of sale. A binder may lack essential terms such as contingencies, but one that has all the required elements can be an enforceable contract.",
+    "citation": "General contract law; NY GOL § 5-703"
+  }
+]

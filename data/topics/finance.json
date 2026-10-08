@@ -1,0 +1,310 @@
+[
+  {
+    "id": "finance-001",
+    "topic": "finance",
+    "q": "A buyer signs a promissory note and a mortgage to finance her home purchase. Which statement is accurate?",
+    "options": [
+      "The buyer is the mortgagee, and the note pledges the property as security",
+      "The buyer is the mortgagor, and the mortgage is the security instrument that creates a lien",
+      "The lender is the mortgagor, and the mortgage is the buyer's personal promise to repay",
+      "The lender is the mortgagee, and recording the note is what creates the lien"
+    ],
+    "answer": 1,
+    "explanation": "The note is the borrower's personal promise to repay the debt; the mortgage is the security instrument that pledges the property. The borrower gives the mortgage and is the mortgagor; the lender receives it and is the mortgagee. Trap: the '-or' is the borrower.",
+    "citation": "General mortgage law"
+  },
+  {
+    "id": "finance-002",
+    "topic": "finance",
+    "q": "What is the main role of Fannie Mae and Freddie Mac in the secondary mortgage market?",
+    "options": [
+      "Making loans directly to homebuyers through their own retail bank branches",
+      "Insuring FHA loans against borrower default in exchange for a premium",
+      "Guaranteeing a portion of each VA loan made to an eligible veteran or service member",
+      "Buying conforming loans from lenders, replenishing lenders' funds for new loans"
+    ],
+    "answer": 3,
+    "explanation": "In the primary market, lenders originate loans directly with borrowers. In the secondary market, Fannie Mae and Freddie Mac buy conforming loans from those lenders and pool them into securities, which replenishes the lenders' funds. FHA insures loans and VA guarantees them.",
+    "citation": "Fannie Mae and Freddie Mac charters (12 U.S.C. § 1716 et seq.; 12 U.S.C. § 1451 et seq.)"
+  },
+  {
+    "id": "finance-003",
+    "topic": "finance",
+    "q": "Which statement best describes Ginnie Mae (GNMA)?",
+    "options": [
+      "A government-owned corporation within HUD that guarantees securities backed by FHA and VA loans",
+      "A private lender that originates jumbo conventional loans for high-income borrowers",
+      "A government-sponsored enterprise that buys conventional loans carrying private mortgage insurance",
+      "The federal agency that writes and enforces the Truth in Lending Act disclosure rules"
+    ],
+    "answer": 0,
+    "explanation": "Ginnie Mae is a wholly government-owned corporation within HUD. It guarantees timely payment on mortgage-backed securities backed by government-insured or government-guaranteed loans such as FHA and VA loans. Fannie Mae and Freddie Mac are the GSEs that buy conventional loans.",
+    "citation": "12 U.S.C. § 1717 (GNMA)"
+  },
+  {
+    "id": "finance-004",
+    "topic": "finance",
+    "q": "Which statement correctly distinguishes FHA and VA loans?",
+    "options": [
+      "FHA makes most of its loans directly to borrowers; VA only buys loans on the secondary market",
+      "Both are conventional loans that are protected by private mortgage insurance from the lender",
+      "FHA insures loans from approved lenders; VA guarantees part of loans to eligible veterans",
+      "VA loans always require 20% down, while FHA loans never require any down payment at all"
+    ],
+    "answer": 2,
+    "explanation": "FHA insures loans made by approved lenders and charges the borrower a mortgage insurance premium (MIP); its minimum down payment is generally 3.5%. VA guarantees a portion of loans made to eligible veterans, often with no down payment required. Neither is a conventional loan, and neither uses private mortgage insurance.",
+    "citation": "National Housing Act (FHA); 38 U.S.C. Chapter 37 (VA home loans)"
+  },
+  {
+    "id": "finance-005",
+    "topic": "finance",
+    "q": "A borrower has a conventional loan with private mortgage insurance on her principal residence and is current on her payments. Under the federal Homeowners Protection Act, PMI generally ends automatically when the balance is scheduled to reach what percentage of the home's original value?",
+    "options": [
+      "80%",
+      "78%",
+      "75%",
+      "90%"
+    ],
+    "answer": 1,
+    "explanation": "PMI ends automatically when the balance is scheduled to reach 78% of the original value. The borrower can request cancellation earlier, at 80%, if she meets the conditions. Trap: 80% is the borrower-request point. FHA's MIP follows different rules.",
+    "citation": "Homeowners Protection Act of 1998, 12 U.S.C. § 4901 et seq."
+  },
+  {
+    "id": "finance-006",
+    "topic": "finance",
+    "q": "A borrower misses several mortgage payments, and the lender declares the entire unpaid balance due immediately. Which clause allows this?",
+    "options": [
+      "Defeasance clause",
+      "Alienation clause",
+      "Prepayment clause",
+      "Acceleration clause"
+    ],
+    "answer": 3,
+    "explanation": "The acceleration clause lets the lender declare the entire balance due when the borrower defaults. The alienation clause can also make the loan due, but it is triggered by a transfer of the property, not by missed payments.",
+    "citation": "General mortgage law (acceleration clause)"
+  },
+  {
+    "id": "finance-007",
+    "topic": "finance",
+    "q": "A homeowner sells and lets the buyer take over her existing mortgage without the lender's approval. The lender demands full payment because of the transfer. The lender is relying on the:",
+    "options": [
+      "Alienation (due-on-sale) clause",
+      "Defeasance (release of lien) clause",
+      "Subordination (lien priority) clause",
+      "Escalation (rate increase) clause"
+    ],
+    "answer": 0,
+    "explanation": "An alienation (due-on-sale) clause lets the lender call the loan due when the property is sold or transferred without its consent, which prevents an unapproved assumption. Federal law exempts certain transfers, such as a transfer to a spouse or a transfer on the borrower's death.",
+    "citation": "Garn-St Germain Depository Institutions Act, 12 U.S.C. § 1701j-3"
+  },
+  {
+    "id": "finance-008",
+    "topic": "finance",
+    "q": "When a borrower pays off a mortgage loan in full, which clause requires the lender to release its lien, for example by delivering a satisfaction of mortgage?",
+    "options": [
+      "Acceleration clause",
+      "Prepayment penalty clause",
+      "Defeasance clause",
+      "Alienation clause"
+    ],
+    "answer": 2,
+    "explanation": "The defeasance clause defeats the lender's lien once the debt is paid in full, so the lender must provide a satisfaction of mortgage for recording. A prepayment penalty clause charges a fee for paying off the loan early; it does not release the lien.",
+    "citation": "General mortgage law; NY RPAPL § 1921 (satisfaction of mortgage)"
+  },
+  {
+    "id": "finance-009",
+    "topic": "finance",
+    "q": "A 30-year fixed-rate loan of $200,000 at 6% annual interest has a monthly principal-and-interest payment of $1,199.10. How much of the FIRST payment reduces the principal?",
+    "options": [
+      "$1,000.00",
+      "$199.10",
+      "$555.56",
+      "$1,199.10"
+    ],
+    "answer": 1,
+    "explanation": "First month's interest = $200,000 × 0.06 ÷ 12 = $1,000.00. Principal = $1,199.10 − $1,000.00 = $199.10. On an amortizing loan, early payments are mostly interest, and the principal portion grows with each payment.",
+    "citation": "Amortization math (NYS salesperson syllabus: real estate finance)"
+  },
+  {
+    "id": "finance-010",
+    "topic": "finance",
+    "q": "An adjustable-rate mortgage started at 4.50%. At the first adjustment the index is 4.10% and the margin is 2.75%. The caps are 2% per adjustment and 5% over the initial rate for the life of the loan. What is the new rate?",
+    "options": [
+      "6.85%",
+      "9.50%",
+      "7.25%",
+      "6.50%"
+    ],
+    "answer": 3,
+    "explanation": "Fully indexed rate = index 4.10% + margin 2.75% = 6.85%, but the periodic cap limits the change to 4.50% + 2% = 6.50%. The lifetime cap of 9.50% is not reached, so the new rate is 6.50%. Trap: the margin is added to the index, not to the old rate.",
+    "citation": "ARM terms (index, margin, caps); Regulation Z, 12 CFR Part 1026"
+  },
+  {
+    "id": "finance-011",
+    "topic": "finance",
+    "q": "A buyer purchases a home for $450,000 with a 90% loan-to-value loan and pays 1.5 discount points. How much do the points cost?",
+    "options": [
+      "$6,075",
+      "$6,750",
+      "$4,050",
+      "$607.50"
+    ],
+    "answer": 0,
+    "explanation": "Points are calculated on the loan amount, not the price. Loan = $450,000 × 0.90 = $405,000, and $405,000 × 1.5% = $6,075. Using the price would give $6,750, and using 1 point would give $4,050.",
+    "citation": "Points math (1 point = 1% of the loan amount)"
+  },
+  {
+    "id": "finance-012",
+    "topic": "finance",
+    "q": "Under Regulation Z, which phrase in a home-loan ad is a triggering term that requires additional disclosures?",
+    "options": [
+      "Annual percentage rate 6.25%",
+      "Easy monthly payments",
+      "Only $5,000 down",
+      "Low-cost financing available"
+    ],
+    "answer": 2,
+    "explanation": "Triggering terms are the down payment amount or percentage, the number of payments or repayment period, the amount of any payment, and the amount of any finance charge. Using one requires the ad to also state the down payment, the terms of repayment, and the APR. Stating the APR alone, or a general phrase like 'easy payments,' is not a trigger.",
+    "citation": "Truth in Lending Act / Regulation Z, 12 CFR § 1026.24"
+  },
+  {
+    "id": "finance-013",
+    "topic": "finance",
+    "q": "A title agency offers a salesperson $250 for every buyer she refers, calling it a 'marketing fee,' even though she performs no marketing services. Under RESPA, this payment is:",
+    "options": [
+      "Legal if it is disclosed to the buyer on the Closing Disclosure",
+      "Legal because it is labeled as a marketing fee in a written agreement",
+      "Legal if the salesperson's supervising broker approves it in writing",
+      "A prohibited kickback for referring settlement service business"
+    ],
+    "answer": 3,
+    "explanation": "RESPA Section 8 prohibits giving or accepting any fee or thing of value for referring settlement service business. A payment for services that are not actually performed is a kickback, no matter what it is called, and disclosing it or getting broker approval does not make it legal.",
+    "citation": "RESPA § 8, 12 U.S.C. § 2607"
+  },
+  {
+    "id": "finance-014",
+    "topic": "finance",
+    "q": "For a covered residential mortgage under the TRID rule, when must the borrower receive the Closing Disclosure?",
+    "options": [
+      "Within 3 business days after the loan application",
+      "At least 3 business days before consummation",
+      "At least 24 hours before the closing",
+      "At least 10 calendar days before consummation"
+    ],
+    "answer": 1,
+    "explanation": "The borrower must receive the Closing Disclosure at least 3 business days before consummation. Trap: 'within 3 business days after application' is the deadline for the Loan Estimate.",
+    "citation": "RESPA / TRID, 12 CFR § 1026.19(e)-(f)"
+  },
+  {
+    "id": "finance-015",
+    "topic": "finance",
+    "q": "Which basis is protected under the federal Equal Credit Opportunity Act but is NOT one of the seven protected classes in the federal Fair Housing Act?",
+    "options": [
+      "Marital status",
+      "Familial status",
+      "Disability",
+      "National origin"
+    ],
+    "answer": 0,
+    "explanation": "ECOA prohibits credit discrimination based on race, color, religion, national origin, sex, marital status, age (if the applicant can contract), receipt of public assistance income, or good-faith exercise of consumer credit rights. Familial status and disability are Fair Housing Act classes, not ECOA classes, and national origin appears in both laws. NY Executive Law § 296 separately covers marital status in housing.",
+    "citation": "Equal Credit Opportunity Act, 15 U.S.C. § 1691; Regulation B, 12 CFR Part 1002"
+  },
+  {
+    "id": "finance-016",
+    "topic": "finance",
+    "q": "How is a residential mortgage typically foreclosed in New York?",
+    "options": [
+      "By a nonjudicial power-of-sale auction with no court involvement",
+      "By the lender simply taking possession after one missed payment",
+      "By a judicial foreclosure action in court that ends in a court-ordered sale",
+      "By strict foreclosure, in which the lender automatically keeps any equity"
+    ],
+    "answer": 2,
+    "explanation": "New York is a judicial foreclosure state. The lender sues, files a lis pendens, gets a judgment of foreclosure and sale, and the property is sold at a court-ordered auction. Until that sale, the borrower keeps the equity of redemption — the right to pay the debt, interest, and costs and keep the property.",
+    "citation": "NY RPAPL Article 13"
+  },
+  {
+    "id": "finance-017",
+    "topic": "finance",
+    "q": "In a New York foreclosure, the borrower owes $300,000 including costs. The property sells at auction for $220,000, and the court determines its fair market value is $260,000. What is the maximum deficiency judgment?",
+    "options": [
+      "$80,000",
+      "$40,000",
+      "$0",
+      "$20,000"
+    ],
+    "answer": 1,
+    "explanation": "In New York, the deficiency is the debt minus the HIGHER of the sale price or the court-determined fair market value: $300,000 − $260,000 = $40,000. This keeps a lender from profiting on a low auction bid. Trap: $300,000 − $220,000 = $80,000 ignores the fair market value credit.",
+    "citation": "NY RPAPL § 1371"
+  },
+  {
+    "id": "finance-018",
+    "topic": "finance",
+    "q": "A seller agrees to finance part of the price by taking back a mortgage from the buyer at closing. This is a:",
+    "options": [
+      "Wraparound mortgage",
+      "Reverse annuity mortgage",
+      "Blanket mortgage",
+      "Purchase-money mortgage"
+    ],
+    "answer": 3,
+    "explanation": "A purchase-money mortgage secures part of the purchase price, and seller financing in which the seller 'takes back' a mortgage is the classic example. A wraparound loan wraps around an existing mortgage that stays in place; a blanket mortgage covers more than one parcel.",
+    "citation": "General mortgage law (purchase-money mortgage)"
+  },
+  {
+    "id": "finance-019",
+    "topic": "finance",
+    "q": "A developer finances 40 lots with one mortgage and wants to sell the lots individually as homes are completed. The developer should use a:",
+    "options": [
+      "Blanket mortgage with a partial release clause",
+      "Package mortgage with an acceleration clause",
+      "Reverse mortgage with a defeasance clause",
+      "Wraparound mortgage with a prepayment clause"
+    ],
+    "answer": 0,
+    "explanation": "A blanket mortgage covers more than one parcel. A partial release clause lets each lot be released from the lien when a specified amount is paid, so the developer can deliver clear title lot by lot.",
+    "citation": "General mortgage law (blanket mortgage; partial release)"
+  },
+  {
+    "id": "finance-020",
+    "topic": "finance",
+    "q": "A seller has an existing $150,000 mortgage. The buyer gives the seller a new $300,000 mortgage that includes the existing loan; the buyer pays the seller, and the seller keeps paying the original lender. This is a:",
+    "options": [
+      "Package mortgage",
+      "Blanket mortgage",
+      "Wraparound mortgage",
+      "Reverse annuity mortgage"
+    ],
+    "answer": 2,
+    "explanation": "A wraparound mortgage is a junior loan that wraps around an existing loan, which stays in place; the seller collects on the larger loan and keeps paying the underlying lender. An alienation clause in the existing mortgage can block this arrangement.",
+    "citation": "General mortgage law (wraparound mortgage)"
+  },
+  {
+    "id": "finance-021",
+    "topic": "finance",
+    "q": "A 70-year-old homeowner with significant equity wants to receive payments from a lender while continuing to live in her home, with no monthly loan payments. Which loan fits?",
+    "options": [
+      "Package mortgage",
+      "Blanket mortgage",
+      "Wraparound mortgage",
+      "Reverse mortgage"
+    ],
+    "answer": 3,
+    "explanation": "A reverse mortgage pays the owner from her equity. FHA's HECM program requires the borrower to be at least 62, and the loan is generally repaid when she sells, dies, or no longer lives there as a principal residence; she must still pay taxes and insurance. A package mortgage instead covers real property plus personal property such as appliances or furniture.",
+    "citation": "FHA Home Equity Conversion Mortgage program, 12 U.S.C. § 1715z-20"
+  },
+  {
+    "id": "finance-022",
+    "topic": "finance",
+    "q": "A lender keeps persuading an elderly homeowner to refinance every few months, charging new points and fees each time while giving her little or no real benefit. This predatory practice is called:",
+    "options": [
+      "Redlining",
+      "Loan flipping",
+      "Blockbusting",
+      "Steering"
+    ],
+    "answer": 1,
+    "explanation": "Loan flipping is repeated refinancing that strips equity through fees without giving the borrower a real benefit. New York Banking Law § 6-l restricts flipping for high-cost home loans. Redlining is refusing credit or services in certain areas, and blockbusting and steering are fair-housing violations.",
+    "citation": "NY Banking Law § 6-l"
+  }
+]

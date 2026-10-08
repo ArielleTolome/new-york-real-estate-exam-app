@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>NY RE Prep - Readiness Dashboard</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-error": "#690005",
+            "on-surface": "#dde2f6",
+            "tertiary-fixed": "#ffddb8",
+            "primary-container": "#10b981",
+            "on-background": "#dde2f6",
+            "primary-fixed": "#6ffbbe",
+            "tertiary": "#ffb95f",
+            "on-primary-fixed-variant": "#005236",
+            "on-primary": "#003824",
+            "surface-container-highest": "#2f3544",
+            "surface": "#0d1321",
+            "on-surface-variant": "#bbcabf",
+            "primary-fixed-dim": "#4edea3",
+            "secondary": "#c0c1ff",
+            "primary": "#4edea3",
+            "outline": "#86948a",
+            "on-secondary": "#1000a9",
+            "error-container": "#93000a",
+            "secondary-fixed": "#e1e0ff",
+            "surface-bright": "#333948",
+            "surface-dim": "#0d1321",
+            "surface-tint": "#4edea3",
+            "secondary-fixed-dim": "#c0c1ff",
+            "secondary-container": "#3131c0",
+            "tertiary-fixed-dim": "#ffb95f",
+            "background": "#0d1321",
+            "inverse-on-surface": "#2a303f",
+            "error": "#ffb4ab",
+            "outline-variant": "#3c4a42",
+            "inverse-primary": "#006c49",
+            "surface-container-low": "#151b29",
+            "inverse-surface": "#dde2f6",
+            "on-secondary-fixed-variant": "#2f2ebe",
+            "on-error-container": "#ffdad6",
+            "on-secondary-container": "#b0b2ff",
+            "on-tertiary-fixed-variant": "#653e00",
+            "surface-container": "#191f2e",
+            "on-primary-fixed": "#002113",
+            "on-tertiary-container": "#523200",
+            "surface-container-lowest": "#080e1c",
+            "surface-container-high": "#242a39",
+            "on-tertiary-fixed": "#2a1700",
+            "surface-variant": "#2f3544",
+            "on-tertiary": "#472a00",
+            "on-secondary-fixed": "#07006c",
+            "on-primary-container": "#00422b",
+            "tertiary-container": "#e29100"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            headline: ["Inter", "-apple-system", "sans-serif"],
+            display: ["Inter", "-apple-system", "sans-serif"],
+            body: ["Inter", "-apple-system", "sans-serif"],
+            label: ["Inter", "-apple-system", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-outlined[data-weight="fill"] {
+      font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    /* Safe-area handling */
+    .pt-safe {
+      padding-top: max(1rem, env(safe-area-inset-top));
+    }
+    .pb-safe {
+      padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface antialiased font-body min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary">
+<!-- Top App Bar (Shared Component) -->
+<header class="sticky top-0 w-full z-40 bg-background border-b border-outline-variant flat no shadows">
+<div class="flex justify-between items-center w-full px-4 h-14 max-w-md mx-auto pt-safe">
+<div class="font-headline text-base font-bold tracking-tight text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="gavel">gavel</span>
+<span class="font-headline text-lg font-bold tracking-tight text-on-surface">NY RE Prep</span>
+</div>
+<button aria-label="Settings" class="w-10 h-10 flex items-center justify-center rounded-lg text-on-surface-variant hover:text-primary transition-colors active:opacity-75 focus:outline-none">
+<span class="material-symbols-outlined text-xl" data-icon="settings">settings</span>
+</button>
+</div>
+</header>
+<!-- Main Scrollable Canvas (max-w-md for mobile-first PWA thumb ergonomics) -->
+<main class="w-full max-w-md mx-auto px-4 pt-4 pb-48 flex-1 flex flex-col gap-3">
+<!-- Greeting & Certification Profile -->
+<div class="flex items-center justify-between pt-1">
+<div>
+<p class="text-xs uppercase font-label tracking-wider text-on-surface-variant font-semibold">Dashboard</p>
+<h1 class="text-xl font-bold tracking-tight text-on-surface mt-0.5">Welcome back, Alex</h1>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high border border-outline-variant">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="text-xs font-semibold tracking-wide text-on-surface">Salesperson 77-Hr</span>
+</div>
+</div>
+<!-- Countdown Card -->
+<section class="bg-surface-container-low border border-outline-variant rounded-[14px] p-4 flex flex-col gap-2">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center border border-outline-variant text-on-surface">
+<span class="material-symbols-outlined text-lg" data-icon="calendar_today">calendar_today</span>
+</div>
+<div>
+<h2 class="text-sm font-bold text-on-surface leading-tight">Exam: Oct 14, 2026</h2>
+<p class="text-xs text-on-surface-variant font-medium">6 days remaining</p>
+</div>
+</div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-surface-container text-primary border border-outline-variant">
+          On Schedule
+        </span>
+</div>
+<div class="pt-2 border-t border-outline-variant flex items-center justify-between text-xs text-on-surface-variant">
+<span class="flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-sm" data-icon="format_list_bulleted">format_list_bulleted</span>
+          75 Questions
+        </span>
+<span class="flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-sm" data-icon="timer">timer</span>
+          2.5 hr proctored state exam
+        </span>
+</div>
+</section>
+<!-- Readiness Index Card -->
+<section class="bg-surface-container-low border border-outline-variant rounded-[14px] p-4 flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold uppercase tracking-wider text-on-surface">READINESS INDEX</span>
+<span class="text-[11px] font-medium text-on-surface-variant">DOS Benchmark</span>
+</div>
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container border border-outline-variant text-primary text-xs font-semibold">
+<span class="material-symbols-outlined text-xs" data-icon="check_circle" data-weight="fill">check_circle</span>
+          Pass line 70%
+        </div>
+</div>
+<!-- Circular Radial Gauge with 70% Threshold Marker -->
+<div class="flex items-center justify-center py-2 relative">
+<div class="relative w-44 h-44 flex items-center justify-center">
+<svg aria-hidden="true" class="w-44 h-44 -rotate-90 transform" viewbox="0 0 160 160">
+<!-- Background Ring (circumference = 2 * PI * 68 = 427.25) -->
+<circle cx="80" cy="80" fill="none" r="68" stroke="#191f2e" stroke-width="12"></circle>
+<!-- Progress Arc (64% = 0.64 * 427.25 = 273.44) -->
+<circle cx="80" cy="80" fill="none" r="68" stroke="#4edea3" stroke-dasharray="427.25" stroke-dashoffset="153.81" stroke-linecap="round" stroke-width="12"></circle>
+<!-- Statutory 70% Threshold Line Tick Marker: angle = 0.70 * 360 = 252 deg from top -->
+<!-- 252 deg: cos(252)=-0.3090, sin(252)=-0.9511. Center=(80,80). Inner r=60, Outer r=76 -->
+<line stroke="#e5e7eb" stroke-linecap="round" stroke-width="2.5" x1="55.28" x2="61.46" y1="3.91" y2="22.93"></line>
+</svg>
+<!-- Stat in Center -->
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center select-none pointer-events-none">
+<span class="text-4xl font-extrabold tracking-tight tabular-nums text-on-surface leading-none">64%</span>
+<span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider mt-1.5">Estimated Mastery</span>
+<span class="text-[11px] text-outline font-medium mt-0.5">Passing: 70%</span>
+</div>
+</div>
+</div>
+<!-- Gap Alert Banner -->
+<div class="bg-surface-container border border-outline-variant rounded-xl p-3 flex items-center justify-between gap-3">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center flex-shrink-0 text-tertiary">
+<span class="material-symbols-outlined text-base" data-icon="trending_up">trending_up</span>
+</div>
+<div>
+<div class="text-xs font-semibold text-on-surface">Δ 6% Gap to passing threshold</div>
+<div class="text-[11px] text-on-surface-variant font-medium">Focus on Real Property Law &amp; Agency</div>
+</div>
+</div>
+<div class="text-right flex-shrink-0">
+<span class="text-xs font-bold tabular-nums text-on-surface block">53 / 75</span>
+<span class="text-[10px] text-on-surface-variant uppercase">correct req.</span>
+</div>
+</div>
+</section>
+<!-- Compact Stat Row (Streak / Attempted / Accuracy) -->
+<section class="grid grid-cols-3 gap-3">
+<!-- Streak -->
+<div class="bg-surface-container-low border border-outline-variant rounded-[14px] p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-xs font-medium">Streak</span>
+<span class="material-symbols-outlined text-base text-tertiary" data-icon="local_fire_department" data-weight="fill">local_fire_department</span>
+</div>
+<div class="mt-2">
+<span class="text-lg font-bold text-on-surface tabular-nums">5</span>
+<span class="text-xs font-medium text-on-surface-variant ml-0.5">days</span>
+</div>
+</div>
+<!-- Attempted -->
+<div class="bg-surface-container-low border border-outline-variant rounded-[14px] p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-xs font-medium">Attempted</span>
+<span class="material-symbols-outlined text-base text-on-surface" data-icon="quiz">quiz</span>
+</div>
+<div class="mt-2">
+<span class="text-lg font-bold text-on-surface tabular-nums">412</span>
+<span class="text-xs font-medium text-on-surface-variant ml-0.5">q's</span>
+</div>
+</div>
+<!-- Accuracy -->
+<div class="bg-surface-container-low border border-outline-variant rounded-[14px] p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="text-xs font-medium">Accuracy</span>
+<span class="material-symbols-outlined text-base text-primary" data-icon="check_circle">check_circle</span>
+</div>
+<div class="mt-2">
+<span class="text-lg font-bold text-on-surface tabular-nums">68%</span>
+<span class="text-[11px] text-outline ml-0.5 font-medium">avg</span>
+</div>
+</div>
+</section>
+<!-- Statutory Focus Areas Card -->
+<section class="bg-surface-container-low border border-outline-variant rounded-[14px] p-4 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="text-xs font-bold uppercase tracking-wider text-on-surface">Statutory Focus Areas</h2>
+<p class="text-[11px] text-on-surface-variant font-medium">NY RPL &amp; Administrative Standards</p>
+</div>
+<span class="text-xs text-secondary font-semibold border border-outline-variant px-2 py-0.5 rounded-full bg-surface-container">RPL § 440</span>
+</div>
+<div class="flex flex-col gap-3.5 pt-1">
+<!-- Topic 1: Passing -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-baseline text-xs">
+<span class="font-semibold text-on-surface truncate pr-2">Article 12-A &amp; Real Property Law</span>
+<div class="flex items-center gap-1.5 flex-shrink-0">
+<span class="tabular-nums font-bold text-primary">78%</span>
+<span class="text-[10px] uppercase font-bold text-primary px-1.5 py-0.2 rounded bg-surface-container">Passing</span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full" style="width: 78%;"></div>
+</div>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>RPL § 440-a / 441 Licensing Rules</span>
+<span class="tabular-nums">62/80 correct</span>
+</div>
+</div>
+<!-- Topic 2: Needs Review -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-baseline text-xs">
+<span class="font-semibold text-on-surface truncate pr-2">Law of Agency &amp; Dual Agency Disclosure</span>
+<div class="flex items-center gap-1.5 flex-shrink-0">
+<span class="tabular-nums font-bold text-tertiary">62%</span>
+<span class="text-[10px] uppercase font-bold text-tertiary px-1.5 py-0.2 rounded bg-surface-container">Review</span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden flex">
+<div class="bg-tertiary h-full rounded-full" style="width: 62%;"></div>
+</div>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>RPL § 443 Mandatory Disclosure Form</span>
+<span class="tabular-nums">46/74 correct</span>
+</div>
+</div>
+<!-- Topic 3: Critical Weakness -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-baseline text-xs">
+<span class="font-semibold text-on-surface truncate pr-2">Estates, Interests, Liens &amp; Easements</span>
+<div class="flex items-center gap-1.5 flex-shrink-0">
+<span class="tabular-nums font-bold text-error">51%</span>
+<span class="text-[10px] uppercase font-bold text-error px-1.5 py-0.2 rounded bg-surface-container">Weak</span>
+</div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden flex">
+<div class="bg-error h-full rounded-full" style="width: 51%;"></div>
+</div>
+<div class="flex justify-between text-[10px] text-on-surface-variant">
+<span>19 NYCRR Title Regulations</span>
+<span class="tabular-nums">31/61 correct</span>
+</div>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant flex items-center gap-1.5 text-[11px] text-outline">
+<span class="material-symbols-outlined text-xs" data-icon="policy">policy</span>
+<span class="leading-tight">Official NY Department of State Division of Licensing Services Standard</span>
+</div>
+</section>
+</main>
+<!-- Sticky Thumb-Zone Action Cluster (Mounted above bottom tab bar) -->
+<div class="fixed bottom-14 left-0 w-full z-40 bg-background/95 backdrop-blur-sm border-t border-outline-variant px-4 py-2.5 max-w-md mx-auto inset-x-0">
+<div class="flex flex-col gap-2">
+<!-- Emerald Primary CTA Target (≥ 52px tall) -->
+<button class="w-full min-h-[52px] bg-primary-container text-on-primary font-bold rounded-[12px] flex items-center justify-center gap-2 hover:opacity-95 active:scale-[0.99] transition-all text-sm tracking-wide shadow-none focus:outline-none">
+<span class="material-symbols-outlined text-xl" data-icon="bolt" data-weight="fill">bolt</span>
+<span>Quick 10 Drill</span>
+</button>
+<!-- Two Bordered Secondary Action Buttons Side-by-Side (≥ 52px tall) -->
+<div class="grid grid-cols-2 gap-2">
+<button class="min-h-[52px] px-2 bg-surface-container-low border border-outline-variant rounded-[12px] text-on-surface font-semibold text-xs flex items-center justify-center gap-1.5 hover:text-primary hover:border-outline transition-colors active:scale-[0.99] focus:outline-none">
+<span class="material-symbols-outlined text-base" data-icon="assignment">assignment</span>
+<span>Mock 75 Exam</span>
+</button>
+<button class="min-h-[52px] px-2 bg-surface-container-low border border-outline-variant rounded-[12px] text-on-surface font-semibold text-xs flex items-center justify-center gap-1.5 hover:text-primary hover:border-outline transition-colors active:scale-[0.99] focus:outline-none">
+<span class="material-symbols-outlined text-base" data-icon="play_arrow">play_arrow</span>
+<span class="truncate">Resume (Q 14)</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Navigation Bar (Shared Component - Fixed docked bottom-0) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-2 py-2 max-w-md mx-auto inset-x-0 pb-safe bg-surface-container-lowest border-t border-outline-variant flat no shadows font-label text-xs">
+<!-- Tab 1: Home (ACTIVE - Maps to current screen) -->
+<a class="flex flex-col items-center justify-center text-primary font-semibold py-1 px-3 active:scale-95 transition-transform duration-150" href="#home">
+<span class="material-symbols-outlined text-xl" data-icon="home" data-weight="fill">home</span>
+<span class="text-[11px] mt-0.5 tracking-wide">Home</span>
+</a>
+<!-- Tab 2: Build -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-medium py-1 px-3 hover:text-primary transition-colors active:scale-95" href="#build">
+<span class="material-symbols-outlined text-xl" data-icon="tune">tune</span>
+<span class="text-[11px] mt-0.5 tracking-wide">Build</span>
+</a>
+<!-- Tab 3: History -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-medium py-1 px-3 hover:text-primary transition-colors active:scale-95" href="#history">
+<span class="material-symbols-outlined text-xl" data-icon="history">history</span>
+<span class="text-[11px] mt-0.5 tracking-wide">History</span>
+</a>
+<!-- Tab 4: Mistakes -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-medium py-1 px-3 hover:text-primary transition-colors active:scale-95" href="#mistakes">
+<span class="material-symbols-outlined text-xl" data-icon="error_outline">error_outline</span>
+<span class="text-[11px] mt-0.5 tracking-wide">Mistakes</span>
+</a>
+</nav>
+</body></html>

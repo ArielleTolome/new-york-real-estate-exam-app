@@ -1,0 +1,310 @@
+[
+  {
+    "id": "property-mgmt-001",
+    "topic": "property-mgmt",
+    "q": "A property manager handles leasing, rent collection, and repairs for an owner's apartment building under an ongoing management agreement. The manager is best described as a:",
+    "options": [
+      "Universal agent",
+      "Special agent",
+      "General agent",
+      "Dual agent"
+    ],
+    "answer": 2,
+    "explanation": "A manager with ongoing authority over a range of tasks for one business is a general agent. A universal agent can act on all of the principal's affairs (e.g., broad power of attorney), and a special agent is limited to one transaction, like a typical listing.",
+    "citation": "NY agency law; NY RPL Article 12-A"
+  },
+  {
+    "id": "property-mgmt-002",
+    "topic": "property-mgmt",
+    "q": "An unlicensed company offers, for a fee, to negotiate leases and collect rents for several building owners. Under New York law, the company:",
+    "options": [
+      "Needs no license because management is not a sale",
+      "Needs a real estate broker license, since this is brokerage activity",
+      "Needs only an assumed-name certificate from the county clerk",
+      "Needs a license only if it manages more than ten units"
+    ],
+    "answer": 1,
+    "explanation": "RPL § 440 defines brokerage to include negotiating rentals and collecting rent for another for compensation, so the company needs a broker license and its salespersons work under that broker. An owner managing his own property or a maintenance-only contractor is a different case.",
+    "citation": "NY RPL § 440"
+  },
+  {
+    "id": "property-mgmt-003",
+    "topic": "property-mgmt",
+    "q": "Which document creates the property manager's authority and should spell out the manager's fees, spending limits, reporting duties, and termination terms?",
+    "options": [
+      "Management proposal",
+      "Rent roll",
+      "Operating budget",
+      "Management agreement"
+    ],
+    "answer": 3,
+    "explanation": "The written management agreement creates the agency relationship and defines authority, compensation, budgets, spending limits, reporting, and termination. A management proposal only recommends a plan; the rent roll and budget are reports/tools used under the agreement.",
+    "citation": "NY RPL Article 12-A; property management agency principles"
+  },
+  {
+    "id": "property-mgmt-004",
+    "topic": "property-mgmt",
+    "q": "A management agreement lets the manager approve repairs up to $1,500 without owner consent, except in emergencies. A contractor quotes $14,000 to replace the building's aging but working boiler next spring. The manager should:",
+    "options": [
+      "Get the owner's approval before authorizing the replacement",
+      "Authorize it, since a general agent decides all building matters",
+      "Split the job into ten $1,400 invoices to stay under the limit",
+      "Pay from tenant security deposits and bill the owner later"
+    ],
+    "answer": 0,
+    "explanation": "A planned capital replacement above the agreed limit, with no emergency, needs the owner's approval; general-agent status does not override the agreement's spending terms. Splitting invoices evades the limit, and security deposits are tenant trust money, never operating cash.",
+    "citation": "Management agreement / agency law; NY GOL § 7-103"
+  },
+  {
+    "id": "property-mgmt-005",
+    "topic": "property-mgmt",
+    "q": "A plumbing contractor offers a property manager a $200 personal 'thank-you' rebate on each job billed to the owner. Under DOS rules, the manager may:",
+    "options": [
+      "Keep it, since it does not raise the owner's cost",
+      "Keep it if it is reported as personal income",
+      "Accept it only with the owner's full knowledge and consent",
+      "Accept it whenever the contractor is the lowest bidder"
+    ],
+    "answer": 2,
+    "explanation": "A broker managing property may not accept a commission, rebate, or profit on expenditures made for the owner without the owner's full knowledge and consent. Secretly pocketing it breaches the fiduciary duties of loyalty and disclosure even if the price is fair.",
+    "citation": "19 NYCRR § 175.3"
+  },
+  {
+    "id": "property-mgmt-006",
+    "topic": "property-mgmt",
+    "q": "An owner wants to set money aside each year for a roof replacement expected in six years. That planned set-aside belongs in the:",
+    "options": [
+      "Operating budget as a routine repair",
+      "Capital reserve budget",
+      "Rent roll as a tenant charge",
+      "Security deposit escrow account"
+    ],
+    "answer": 1,
+    "explanation": "A capital reserve budget plans for large, infrequent replacements and improvements like a roof. The operating budget covers recurring income and expenses; patching a small leak is operating, replacing the roof is capital.",
+    "citation": "Property management budgeting (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-007",
+    "topic": "property-mgmt",
+    "q": "A report listing each unit, the tenant, lease start and end dates, the monthly rent, and any balance owed is called a:",
+    "options": [
+      "Operating statement",
+      "Management proposal",
+      "Capital reserve schedule",
+      "Rent roll"
+    ],
+    "answer": 3,
+    "explanation": "A rent roll lists units, tenants, lease terms, scheduled rents, and arrears. It shows what is scheduled and owed — it is not proof that every scheduled dollar was actually collected.",
+    "citation": "Property management reporting (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-008",
+    "topic": "property-mgmt",
+    "q": "A building has potential gross rent of $180,000, a 5% vacancy and collection loss, $2,000 of laundry income, $70,000 of operating expenses, and $40,000 of annual mortgage payments. What is the net operating income?",
+    "options": [
+      "$103,000",
+      "$63,000",
+      "$112,000",
+      "$101,000"
+    ],
+    "answer": 0,
+    "explanation": "EGI = $180,000 × 0.95 + $2,000 = $171,000 + $2,000 = $173,000; NOI = $173,000 − $70,000 = $103,000. Mortgage debt service is not an operating expense, so subtracting it ($63,000) is the trap.",
+    "citation": "Income property analysis: NOI = effective gross income − operating expenses"
+  },
+  {
+    "id": "property-mgmt-009",
+    "topic": "property-mgmt",
+    "q": "Replacing furnace and air-conditioner filters on a fixed quarterly schedule, before any problem appears, is an example of:",
+    "options": [
+      "Corrective maintenance",
+      "Construction",
+      "Preventive maintenance",
+      "Cosmetic maintenance"
+    ],
+    "answer": 2,
+    "explanation": "Preventive maintenance is periodic servicing that prevents wear and failure, such as scheduled filter changes. Corrective maintenance fixes something already broken, like a leaky faucet a tenant reports.",
+    "citation": "Property management maintenance categories (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-010",
+    "topic": "property-mgmt",
+    "q": "Remodeling a vacant office suite to a new commercial tenant's specifications (tenant improvements) is classified as:",
+    "options": [
+      "Preventive maintenance",
+      "Corrective maintenance",
+      "Routine maintenance",
+      "Construction"
+    ],
+    "answer": 3,
+    "explanation": "Construction covers budgeted remodeling, tenant build-outs, and new capital improvements. Routine maintenance is day-to-day upkeep like cleaning common areas; corrective maintenance repairs a reported defect.",
+    "citation": "Property management maintenance categories (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-011",
+    "topic": "property-mgmt",
+    "q": "A property manager advises the owner to buy a general liability policy covering injuries in the building's common areas. Which risk management technique is this?",
+    "options": [
+      "Avoiding the risk",
+      "Transferring the risk",
+      "Retaining the risk",
+      "Controlling the risk"
+    ],
+    "answer": 1,
+    "explanation": "Buying insurance shifts the financial risk to the insurer, which is risk transfer. Insurance does not excuse leaving a known hazard unrepaired — control (inspections, repairs) still applies.",
+    "citation": "Property management risk management (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-012",
+    "topic": "property-mgmt",
+    "q": "Rather than face drowning liability, an owner decides to close and fill in the building's swimming pool. This risk management technique is:",
+    "options": [
+      "Avoiding the risk",
+      "Transferring the risk",
+      "Retaining the risk",
+      "Controlling the risk"
+    ],
+    "answer": 0,
+    "explanation": "Eliminating the activity that creates the risk is avoidance. Adding fencing or lifeguards would be control, buying insurance would be transfer, and self-insuring or carrying a large deductible would be retention.",
+    "citation": "Property management risk management (NYS 77-hr syllabus, Property Management)"
+  },
+  {
+    "id": "property-mgmt-013",
+    "topic": "property-mgmt",
+    "q": "A non-rent-regulated apartment in Rochester rents for $1,950 per month. At lease signing, what is the most the landlord may collect for the first month's rent plus security?",
+    "options": [
+      "$5,850 for first month, last month, and security",
+      "$1,950 for first month only, with no deposit",
+      "$3,900 for first month plus one month's security",
+      "$4,875 for first month plus 1.5 months' security"
+    ],
+    "answer": 2,
+    "explanation": "GOL § 7-108 caps any security deposit or advance at one month's rent: $1,950 first month + $1,950 security = $3,900. Demanding last month's rent on top of security is an extra advance and exceeds the cap.",
+    "citation": "NY GOL § 7-108"
+  },
+  {
+    "id": "property-mgmt-014",
+    "topic": "property-mgmt",
+    "q": "A tenant in a non-regulated apartment moves out on June 1. To keep any part of the security deposit for damage, the landlord must give an itemized statement and return the balance within:",
+    "options": [
+      "30 days after the tenant vacates",
+      "7 days after the tenant vacates",
+      "45 days after the scheduled lease end",
+      "14 days after the tenant vacates"
+    ],
+    "answer": 3,
+    "explanation": "GOL § 7-108 requires an itemized statement of deductions and return of the balance within 14 days after the tenant vacates; missing the deadline forfeits the right to keep any of the deposit. Deductions are limited to items like unpaid rent and damage beyond ordinary wear and tear.",
+    "citation": "NY GOL § 7-108"
+  },
+  {
+    "id": "property-mgmt-015",
+    "topic": "property-mgmt",
+    "q": "A landlord of a building with six or more apartments must keep tenants' security deposits in an interest-bearing New York bank account. How much of the interest may the landlord keep?",
+    "options": [
+      "An administrative fee of 1% per year of the deposit",
+      "All interest, because the landlord holds the account",
+      "Half of the interest, split with the tenant",
+      "None; all interest must be paid to the city"
+    ],
+    "answer": 0,
+    "explanation": "Under GOL § 7-103 the landlord may retain 1% per year of the deposit for administrative expenses; the rest of the interest belongs to the tenant (paid annually, applied to rent, or paid at lease end). The tenant must be told in writing the bank's name and address and the deposit amount.",
+    "citation": "NY GOL § 7-103"
+  },
+  {
+    "id": "property-mgmt-016",
+    "topic": "property-mgmt",
+    "q": "A property manager deposits tenants' security deposits into the management company's operating account to cover payroll until rent comes in. This is:",
+    "options": [
+      "Permitted if repaid within 30 days",
+      "Unlawful commingling of trust funds",
+      "Permitted if the owner verbally approves",
+      "Permitted in buildings with fewer than six units"
+    ],
+    "answer": 1,
+    "explanation": "Security deposits remain the tenant's money held in trust and may not be commingled with the landlord's or manager's funds, regardless of building size or owner approval. Broker rules separately require client funds to be kept in a separate special account.",
+    "citation": "NY GOL § 7-103; 19 NYCRR § 175.1"
+  },
+  {
+    "id": "property-mgmt-017",
+    "topic": "property-mgmt",
+    "q": "An owner tells the property manager, 'Don't rent the third-floor walk-up to families with kids — the stairs are too dangerous for children.' The manager should:",
+    "options": [
+      "Follow it, because the instruction protects children's safety on the stairs",
+      "Follow it only if the owner puts the instruction in writing and signs it",
+      "Refuse; a safety-based ban on children is familial status discrimination",
+      "Rent to families only if the parents sign a stair-injury liability waiver"
+    ],
+    "answer": 2,
+    "explanation": "Limiting units for families with children based on paternalistic safety concerns is familial status discrimination. A principal's instruction never authorizes a manager to discriminate; screening must use the same lawful criteria for everyone.",
+    "citation": "Federal Fair Housing Act, 42 U.S.C. § 3604; NY Executive Law § 296(5)"
+  },
+  {
+    "id": "property-mgmt-018",
+    "topic": "property-mgmt",
+    "q": "A property manager oversees an existing shopping center. Under Title III of the Americans with Disabilities Act, the manager must generally:",
+    "options": [
+      "Rebuild the whole center to new-construction standards at once",
+      "Wait until a customer with a disability files a complaint",
+      "Comply only if the center receives federal funding",
+      "Remove barriers where readily achievable, such as adding ramps"
+    ],
+    "answer": 3,
+    "explanation": "Existing places of public accommodation must remove architectural barriers where it is readily achievable (easily accomplished without much difficulty or expense). The duty is ongoing, applies without federal funding, and does not require an immediate full rebuild.",
+    "citation": "Americans with Disabilities Act, Title III, 42 U.S.C. § 12182"
+  },
+  {
+    "id": "property-mgmt-019",
+    "topic": "property-mgmt",
+    "q": "A tenant is two months behind on rent. The property manager changes the locks while the tenant is at work and puts the tenant's belongings on the curb. Under New York law this is:",
+    "options": [
+      "A lawful self-help remedy after 30 days of nonpayment",
+      "An unlawful eviction; a court summary proceeding is required",
+      "Lawful if the lease contains a lockout clause",
+      "Lawful if a 14-day rent demand was served first"
+    ],
+    "answer": 1,
+    "explanation": "Residential self-help (lockouts, utility shutoffs, removing belongings) is prohibited; possession must be recovered through a summary proceeding and a warrant executed by a marshal or sheriff. The 2019 HSTPA made unlawful eviction a crime, and a lease clause cannot waive these protections.",
+    "citation": "NY RPAPL § 768; RPAPL Article 7"
+  },
+  {
+    "id": "property-mgmt-020",
+    "topic": "property-mgmt",
+    "q": "Before starting a nonpayment summary proceeding against a residential tenant, the landlord must generally serve a written rent demand giving the tenant at least:",
+    "options": [
+      "14 days to pay",
+      "3 days to pay",
+      "5 days to pay",
+      "30 days to pay"
+    ],
+    "answer": 0,
+    "explanation": "The 2019 Housing Stability and Tenant Protection Act lengthened the rent demand from 3 days to 14 days. The 5-day figure is the separate late-rent notice/late-fee trigger, a common mix-up.",
+    "citation": "NY RPAPL § 711(2) (as amended by HSTPA 2019)"
+  },
+  {
+    "id": "property-mgmt-021",
+    "topic": "property-mgmt",
+    "q": "A tenant in a non-regulated New York apartment pays $1,800 per month and pays rent more than five days late. What is the maximum late fee the landlord may charge?",
+    "options": [
+      "$90",
+      "$100",
+      "$50",
+      "$180"
+    ],
+    "answer": 2,
+    "explanation": "The late fee may not exceed the lesser of $50 or 5% of monthly rent: 5% × $1,800 = $90, so the cap is $50. A fee may be charged only when rent is more than five days late.",
+    "citation": "NY RPL § 238-a(2)"
+  },
+  {
+    "id": "property-mgmt-022",
+    "topic": "property-mgmt",
+    "q": "In New York City, the maximum allowable rent increases for rent-stabilized lease renewals are set by the:",
+    "options": [
+      "NYC Rent Guidelines Board",
+      "NYS Department of State",
+      "Landlord, up to the Good Cause 5% + CPI cap",
+      "U.S. Department of HUD"
+    ],
+    "answer": 0,
+    "explanation": "The NYC Rent Guidelines Board votes annual renewal increases for stabilized apartments, and stabilized tenants have renewal rights. The Good Cause Eviction rent test applies to covered unregulated units, and the 2019 HSTPA ended high-rent/high-income deregulation.",
+    "citation": "NYC Rent Stabilization Law (NYC Admin. Code § 26-501 et seq.); HSTPA 2019"
+  }
+]

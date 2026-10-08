@@ -1,0 +1,22 @@
+# pigeonfi:/data/coolify/proxy/dynamic/nyrealestate.yaml (Cloudflare proxied, origin cert *.pfsend.com)
+http:
+  routers:
+    nyrealestate-https:
+      rule: Host(`nyrealestate.pfsend.com`) || Host(`nyrealestate.pigeonfi.com`)
+      entryPoints: [https]
+      service: nyrealestate
+      tls: {}
+    nyrealestate-http:
+      rule: Host(`nyrealestate.pfsend.com`) || Host(`nyrealestate.pigeonfi.com`)
+      entryPoints: [http]
+      middlewares: [nyrealestate-https-redirect]
+      service: nyrealestate
+  middlewares:
+    nyrealestate-https-redirect:
+      redirectScheme:
+        scheme: https
+  services:
+    nyrealestate:
+      loadBalancer:
+        servers:
+          - url: http://nyrealestate:80

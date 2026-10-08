@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>NYS Real Estate Exam Prep - Performance History</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "canvas": "#090d16",
+            "surface": "#121826",
+            "border": "#1f293d",
+            "text": "#e5e7eb",
+            "text-muted": "#94a3b8",
+            "correct": "#10b981",
+            "missed": "#ef4444",
+            "weak": "#f59e0b",
+            "citation": "#6366f1",
+            "tertiary-fixed": "#ffddb8",
+            "outline-variant": "#3c4a42",
+            "on-primary-container": "#00422b",
+            "surface-container-highest": "#2f3544",
+            "on-tertiary-container": "#523200",
+            "surface-bright": "#333948",
+            "secondary-fixed-dim": "#c0c1ff",
+            "primary-fixed": "#6ffbbe",
+            "inverse-primary": "#006c49",
+            "secondary-container": "#3131c0",
+            "secondary": "#c0c1ff",
+            "surface-variant": "#2f3544",
+            "on-tertiary": "#472a00",
+            "on-secondary-container": "#b0b2ff",
+            "primary": "#4edea3",
+            "error": "#ffb4ab",
+            "on-background": "#dde2f6",
+            "on-primary-fixed": "#002113",
+            "surface-container-low": "#151b29",
+            "inverse-surface": "#dde2f6",
+            "on-surface-variant": "#bbcabf",
+            "on-primary": "#003824",
+            "surface-dim": "#0d1321",
+            "primary-fixed-dim": "#4edea3",
+            "surface-container": "#191f2e",
+            "secondary-fixed": "#e1e0ff",
+            "on-error": "#690005",
+            "surface-container-high": "#242a39",
+            "tertiary-fixed-dim": "#ffb95f",
+            "tertiary": "#ffb95f",
+            "primary-container": "#10b981",
+            "on-secondary": "#1000a9",
+            "on-tertiary-fixed-variant": "#653e00",
+            "on-error-container": "#ffdad6",
+            "on-tertiary-fixed": "#2a1700",
+            "on-surface": "#dde2f6",
+            "background": "#0d1321",
+            "surface-tint": "#4edea3",
+            "tertiary-container": "#e29100",
+            "surface-container-lowest": "#080e1c",
+            "error-container": "#93000a",
+            "outline": "#86948a",
+            "on-secondary-fixed-variant": "#2f2ebe",
+            "on-secondary-fixed": "#07006c",
+            "on-primary-fixed-variant": "#005236",
+            "inverse-on-surface": "#2a303f"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "card": "14px",
+            "button": "12px",
+            "chip": "999px",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            headline: ["Inter", "-apple-system", "sans-serif"],
+            display: ["Inter", "-apple-system", "sans-serif"],
+            body: ["Inter", "-apple-system", "sans-serif"],
+            label: ["Inter", "-apple-system", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      background-color: #090d16;
+      color: #e5e7eb;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', Inter, 'Segoe UI', Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    .safe-top {
+      padding-top: env(safe-area-inset-top, 0px);
+    }
+    .safe-bottom {
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#090d16] text-[#e5e7eb] min-h-screen flex flex-col antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Shell -->
+<header class="sticky top-0 z-40 bg-[#121826] safe-top border-b border-[#1f293d]">
+<div class="max-w-md mx-auto px-4 h-14 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<button aria-label="Go back" class="min-h-[52px] min-w-[52px] -ml-2 flex items-center justify-center text-[#94a3b8] hover:text-[#e5e7eb] active:opacity-75 transition-opacity">
+<span class="material-symbols-outlined text-[24px]">arrow_back</span>
+</button>
+<div>
+<h1 class="text-[17px] font-bold leading-tight tracking-tight text-[#e5e7eb]">Performance</h1>
+<p class="text-[11px] font-medium leading-none text-[#94a3b8] tracking-normal">NYS Qualifying Exam Prep</p>
+</div>
+</div>
+<!-- Right filter dropdown pill -->
+<button class="min-h-[52px] flex items-center gap-1.5 px-3 py-1.5 my-auto rounded-[999px] bg-[#090d16] border border-[#1f293d] text-[12px] font-semibold text-[#e5e7eb] hover:border-[#3c4a42] active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[16px] text-[#94a3b8]">calendar_today</span>
+<span>Last 30 Days</span>
+<span class="material-symbols-outlined text-[16px] text-[#94a3b8]">expand_more</span>
+</button>
+</div>
+</header>
+<!-- Main Canvas Content -->
+<main class="flex-1 max-w-md mx-auto w-full px-4 pt-4 pb-36 space-y-6">
+<!-- Section 1: Overall Readiness Summary Card -->
+<section>
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-4 space-y-4">
+<!-- Readiness Header Status -->
+<div class="flex items-start justify-between">
+<div>
+<span class="text-[12px] uppercase font-semibold text-[#94a3b8] tracking-wider block">Passing Readiness</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="text-[34px] font-bold tracking-tight text-[#e5e7eb] tabular-nums">71%</span>
+<span class="text-[13px] font-semibold text-[#10b981] flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+                +1% above pass line
+              </span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-[#10b981]/15 border border-[#10b981] text-[#10b981] px-2.5 py-1 rounded-[999px] text-[11px] font-bold tracking-wide">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>PROBABLE PASS</span>
+</div>
+</div>
+<!-- Gauge Bar with 70% threshold -->
+<div class="space-y-1.5">
+<div class="flex justify-between text-[11px] font-medium text-[#94a3b8]">
+<span>Current: 71%</span>
+<span class="text-[#e5e7eb] font-semibold">State Requirement: 70%</span>
+</div>
+<div class="relative w-full h-4 bg-[#090d16] rounded-full border border-[#1f293d] overflow-visible">
+<!-- 70% pass threshold marker line (behind or overlaid) -->
+<div class="absolute top-0 bottom-0 left-[70%] w-[2px] bg-[#e5e7eb] z-20"></div>
+<!-- Target Callout Tag -->
+<div class="absolute -top-6 left-[70%] -translate-x-1/2 flex flex-col items-center z-20">
+<span class="text-[9px] font-bold px-1 py-0.5 rounded bg-[#e5e7eb] text-[#090d16] leading-none uppercase">Pass 70%</span>
+</div>
+<!-- Progress fill (71%) -->
+<div class="h-full bg-[#10b981] rounded-l-full relative z-10" style="width: 71%;"></div>
+</div>
+<div class="flex justify-between text-[10px] text-[#94a3b8] tabular-nums pt-0.5">
+<span>0%</span>
+<span class="text-amber-500/80">At Risk (&lt;70%)</span>
+<span class="text-[#10b981]">Passing Zone (70-100%)</span>
+<span>100%</span>
+</div>
+</div>
+<!-- Quick stat tiles in row -->
+<div class="grid grid-cols-3 gap-2 pt-2 border-t border-[#1f293d]">
+<div class="bg-[#090d16] border border-[#1f293d] p-2.5 rounded-[10px] text-center">
+<span class="text-[11px] text-[#94a3b8] block">Questions</span>
+<span class="text-[18px] font-bold text-[#e5e7eb] tabular-nums">840</span>
+</div>
+<div class="bg-[#090d16] border border-[#1f293d] p-2.5 rounded-[10px] text-center">
+<span class="text-[11px] text-[#94a3b8] block">Quizzes</span>
+<span class="text-[18px] font-bold text-[#e5e7eb] tabular-nums">12</span>
+</div>
+<div class="bg-[#090d16] border border-[#1f293d] p-2.5 rounded-[10px] text-center">
+<span class="text-[11px] text-[#94a3b8] block">Weak Topics</span>
+<span class="text-[18px] font-bold text-[#f59e0b] tabular-nums">3</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Recent Quizzes -->
+<section class="space-y-3">
+<div class="flex items-center justify-between">
+<h2 class="text-[16px] font-semibold text-[#e5e7eb] tracking-tight">Recent quizzes</h2>
+<a class="text-[13px] font-medium text-[#10b981] hover:underline flex items-center min-h-[44px]" href="#all-quizzes">
+          View all (12)
+        </a>
+</div>
+<div class="space-y-2">
+<!-- Row 1 -->
+<div class="min-h-[52px] bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex items-center justify-between hover:border-[#3c4a42] active:scale-[0.99] transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#10b981]/15 border border-[#10b981] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px] text-[#10b981]">assignment_turned_in</span>
+</div>
+<div>
+<p class="text-[14px] font-semibold text-[#e5e7eb] leading-tight">Mock Exam 4</p>
+<p class="text-[12px] text-[#94a3b8] leading-tight mt-0.5">Oct 24 · 56/75 questions</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-right">
+<span class="text-[14px] font-bold text-[#e5e7eb] tabular-nums">75%</span>
+</div>
+<span class="px-2 py-0.5 text-[11px] font-bold bg-[#10b981]/15 text-[#10b981] border border-[#10b981] rounded-[999px]">PASS</span>
+<span class="material-symbols-outlined text-[18px] text-[#94a3b8]">chevron_right</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="min-h-[52px] bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex items-center justify-between hover:border-[#3c4a42] active:scale-[0.99] transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#ef4444]/15 border border-[#ef4444] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px] text-[#ef4444]">assignment_late</span>
+</div>
+<div>
+<p class="text-[14px] font-semibold text-[#e5e7eb] leading-tight">Quick 10 - Finance</p>
+<p class="text-[12px] text-[#94a3b8] leading-tight mt-0.5">Oct 23 · 6/10 questions</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-right">
+<span class="text-[14px] font-bold text-[#e5e7eb] tabular-nums">60%</span>
+</div>
+<span class="px-2 py-0.5 text-[11px] font-bold bg-[#ef4444]/15 text-[#ef4444] border border-[#ef4444] rounded-[999px]">FAIL</span>
+<span class="material-symbols-outlined text-[18px] text-[#94a3b8]">chevron_right</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="min-h-[52px] bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex items-center justify-between hover:border-[#3c4a42] active:scale-[0.99] transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#ef4444]/15 border border-[#ef4444] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px] text-[#ef4444]">quiz</span>
+</div>
+<div>
+<p class="text-[14px] font-semibold text-[#e5e7eb] leading-tight">Custom Quiz</p>
+<p class="text-[12px] text-[#94a3b8] leading-tight mt-0.5">Oct 22 · 52/75 questions</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-right">
+<span class="text-[14px] font-bold text-[#e5e7eb] tabular-nums">69%</span>
+</div>
+<span class="px-2 py-0.5 text-[11px] font-bold bg-[#ef4444]/15 text-[#ef4444] border border-[#ef4444] rounded-[999px]">FAIL</span>
+<span class="material-symbols-outlined text-[18px] text-[#94a3b8]">chevron_right</span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="min-h-[52px] bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex items-center justify-between hover:border-[#3c4a42] active:scale-[0.99] transition-all cursor-pointer">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-[#10b981]/15 border border-[#10b981] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px] text-[#10b981]">assignment_turned_in</span>
+</div>
+<div>
+<p class="text-[14px] font-semibold text-[#e5e7eb] leading-tight">Mock Exam 3</p>
+<p class="text-[12px] text-[#94a3b8] leading-tight mt-0.5">Oct 20 · 58/75 questions</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div class="text-right">
+<span class="text-[14px] font-bold text-[#e5e7eb] tabular-nums">77%</span>
+</div>
+<span class="px-2 py-0.5 text-[11px] font-bold bg-[#10b981]/15 text-[#10b981] border border-[#10b981] rounded-[999px]">PASS</span>
+<span class="material-symbols-outlined text-[18px] text-[#94a3b8]">chevron_right</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Accuracy by Topic -->
+<section class="space-y-3">
+<div class="flex items-baseline justify-between">
+<div>
+<h2 class="text-[16px] font-semibold text-[#e5e7eb] tracking-tight">Accuracy by topic</h2>
+<p class="text-[12px] text-[#94a3b8]">Target: 70% statutory pass threshold</p>
+</div>
+<div class="flex items-center gap-1.5 text-[11px] text-[#94a3b8]">
+<div class="w-2.5 h-[2px] bg-[#e5e7eb]"></div>
+<span>70% Pass line</span>
+</div>
+</div>
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-4 space-y-4">
+<!-- Topic 1: License Law -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">License Law</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#6366f1] bg-[#6366f1]/15 border border-[#6366f1] rounded">RPL § 440</span>
+</div>
+<span class="font-bold text-[#10b981] tabular-nums">82%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#10b981] rounded-full" style="width: 82%;"></div>
+</div>
+</div>
+<!-- Topic 2: Agency -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Agency</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#6366f1] bg-[#6366f1]/15 border border-[#6366f1] rounded">RPL § 443</span>
+</div>
+<span class="font-bold text-[#10b981] tabular-nums">74%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#10b981] rounded-full" style="width: 74%;"></div>
+</div>
+</div>
+<!-- Topic 3: Fair Housing -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Fair Housing</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#6366f1] bg-[#6366f1]/15 border border-[#6366f1] rounded">NY Exec § 296</span>
+</div>
+<span class="font-bold text-[#10b981] tabular-nums">88%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#10b981] rounded-full" style="width: 88%;"></div>
+</div>
+</div>
+<!-- Topic 4: Finance (Weak) -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Finance</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#f59e0b] bg-[#f59e0b]/15 border border-[#f59e0b] rounded">Under Pass Line</span>
+</div>
+<span class="font-bold text-[#f59e0b] tabular-nums">61%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#f59e0b] rounded-full" style="width: 61%;"></div>
+</div>
+</div>
+<!-- Topic 5: Math (Weak) -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Real Estate Math</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#f59e0b] bg-[#f59e0b]/15 border border-[#f59e0b] rounded">Under Pass Line</span>
+</div>
+<span class="font-bold text-[#f59e0b] tabular-nums">55%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#f59e0b] rounded-full" style="width: 55%;"></div>
+</div>
+</div>
+<!-- Topic 6: Valuation (Weak) -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Valuation &amp; Appraisal</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#f59e0b] bg-[#f59e0b]/15 border border-[#f59e0b] rounded">Under Pass Line</span>
+</div>
+<span class="font-bold text-[#f59e0b] tabular-nums">66%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#f59e0b] rounded-full" style="width: 66%;"></div>
+</div>
+</div>
+<!-- Topic 7: Contracts -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between text-[13px]">
+<div class="flex items-center gap-2">
+<span class="font-medium text-[#e5e7eb]">Contracts</span>
+<span class="px-1.5 py-0.2 text-[10px] font-semibold text-[#6366f1] bg-[#6366f1]/15 border border-[#6366f1] rounded">GOL § 5-703</span>
+</div>
+<span class="font-bold text-[#10b981] tabular-nums">79%</span>
+</div>
+<div class="relative w-full h-2.5 bg-[#090d16] rounded-full border border-[#1f293d] overflow-hidden">
+<div class="absolute top-0 bottom-0 left-[70%] w-[1.5px] bg-[#e5e7eb] z-20"></div>
+<div class="h-full bg-[#10b981] rounded-full" style="width: 79%;"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Weak-Topic Heatmap -->
+<section class="space-y-3">
+<div>
+<h2 class="text-[16px] font-semibold text-[#e5e7eb] tracking-tight">Weak-topic heatmap</h2>
+<p class="text-[12px] text-[#94a3b8]">Focus study on amber and crimson risk areas</p>
+</div>
+<div class="grid grid-cols-2 gap-2.5">
+<!-- Tile 1: Math (Crimson) -->
+<div class="bg-[#121826] border border-[#ef4444] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Real Estate Math</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#ef4444]/15 text-[#ef4444] border border-[#ef4444] shrink-0">HIGH PRIORITY</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#ef4444] tabular-nums">55%</span>
+<span class="text-[11px] font-medium text-[#ef4444]">-15% pass</span>
+</div>
+</div>
+<!-- Tile 2: Finance (Amber) -->
+<div class="bg-[#121826] border border-[#f59e0b] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Mortgage Finance</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#f59e0b]/15 text-[#f59e0b] border border-[#f59e0b] shrink-0">NEEDS REVIEW</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#f59e0b] tabular-nums">61%</span>
+<span class="text-[11px] font-medium text-[#f59e0b]">-9% pass</span>
+</div>
+</div>
+<!-- Tile 3: Valuation (Amber) -->
+<div class="bg-[#121826] border border-[#f59e0b] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Valuation &amp; Appr.</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#f59e0b]/15 text-[#f59e0b] border border-[#f59e0b] shrink-0">NEEDS REVIEW</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#f59e0b] tabular-nums">66%</span>
+<span class="text-[11px] font-medium text-[#f59e0b]">-4% pass</span>
+</div>
+</div>
+<!-- Tile 4: Agency Relationships (Emerald) -->
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Agency Relations</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#10b981]/15 text-[#10b981] border border-[#10b981] shrink-0">SECURE</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#e5e7eb] tabular-nums">74%</span>
+<span class="text-[11px] font-medium text-[#10b981]">+4% pass</span>
+</div>
+</div>
+<!-- Tile 5: Contracts (Emerald) -->
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Contracts &amp; Close</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#10b981]/15 text-[#10b981] border border-[#10b981] shrink-0">SECURE</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#e5e7eb] tabular-nums">79%</span>
+<span class="text-[11px] font-medium text-[#10b981]">+9% pass</span>
+</div>
+</div>
+<!-- Tile 6: License Law (Emerald) -->
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">NYS License Law</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#10b981]/15 text-[#10b981] border border-[#10b981] shrink-0">MASTERY</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#e5e7eb] tabular-nums">82%</span>
+<span class="text-[11px] font-medium text-[#10b981]">+12% pass</span>
+</div>
+</div>
+<!-- Tile 7: Fair Housing (Emerald) -->
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Fair Housing Law</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#10b981]/15 text-[#10b981] border border-[#10b981] shrink-0">MASTERY</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#e5e7eb] tabular-nums">88%</span>
+<span class="text-[11px] font-medium text-[#10b981]">+18% pass</span>
+</div>
+</div>
+<!-- Tile 8: Land Use (Emerald) -->
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3 flex flex-col justify-between min-h-[104px]">
+<div class="flex items-start justify-between">
+<span class="text-[12px] font-semibold text-[#e5e7eb] leading-snug">Land Use &amp; Zoning</span>
+<span class="px-1.5 py-0.5 text-[9px] font-bold uppercase rounded-[999px] bg-[#10b981]/15 text-[#10b981] border border-[#10b981] shrink-0">SECURE</span>
+</div>
+<div class="mt-2 flex items-baseline justify-between">
+<span class="text-[20px] font-bold text-[#e5e7eb] tabular-nums">72%</span>
+<span class="text-[11px] font-medium text-[#10b981]">+2% pass</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Sticky Bottom Thumb-Zone Action Bar & Global Bottom Navigation -->
+<div class="fixed bottom-0 left-0 right-0 z-50 bg-[#090d16]/95 backdrop-blur-md border-t border-[#1f293d]">
+<div class="max-w-md mx-auto px-4 pt-2 pb-1">
+<!-- Retest Primary CTA Button (min height 52px, emerald primary) -->
+<button class="w-full min-h-[52px] bg-[#10b981] text-[#090d16] font-bold rounded-[12px] px-4 py-2.5 flex flex-col items-center justify-center shadow-lg active:scale-[0.98] transition-transform">
+<div class="flex items-center gap-1.5 text-[15px] font-bold leading-tight">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span>Retest Weak Areas (3 topics)</span>
+</div>
+<span class="text-[11px] font-semibold text-[#090d16]/80 leading-none mt-0.5">
+          Covers Finance, Math &amp; Valuation (45 questions)
+        </span>
+</button>
+</div>
+<!-- Bottom Navigation Bar from Shared Components JSON -->
+<nav aria-label="Main Navigation" class="max-w-md mx-auto flex justify-around items-center px-2 pb-safe">
+<!-- Item 1: Drill -->
+<a class="flex flex-col items-center justify-center text-[#94a3b8] min-h-[52px] flex-1 py-1 hover:text-[#e5e7eb] active:scale-95 transition-all" href="#drill">
+<span class="material-symbols-outlined text-[22px]">bolt</span>
+<span class="text-[11px] font-semibold mt-0.5">Drill</span>
+</a>
+<!-- Item 2: Analytics (Active State) -->
+<a class="flex flex-col items-center justify-center text-[#10b981] min-h-[52px] flex-1 py-1 active:scale-95 transition-all" href="#analytics">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">analytics</span>
+<span class="text-[11px] font-semibold mt-0.5">Analytics</span>
+</a>
+<!-- Item 3: Mistakes -->
+<a class="flex flex-col items-center justify-center text-[#94a3b8] min-h-[52px] flex-1 py-1 hover:text-[#e5e7eb] active:scale-95 transition-all" href="#mistakes">
+<span class="material-symbols-outlined text-[22px]">flag</span>
+<span class="text-[11px] font-semibold mt-0.5">Mistakes</span>
+</a>
+<!-- Item 4: Law RPL -->
+<a class="flex flex-col items-center justify-center text-[#94a3b8] min-h-[52px] flex-1 py-1 hover:text-[#e5e7eb] active:scale-95 transition-all" href="#law">
+<span class="material-symbols-outlined text-[22px]">gavel</span>
+<span class="text-[11px] font-semibold mt-0.5">Law RPL</span>
+</a>
+</nav>
+</div>
+</body></html>

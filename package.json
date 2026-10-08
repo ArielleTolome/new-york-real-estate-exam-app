@@ -1,0 +1,16 @@
+{
+  "name": "new-york-real-estate-exam-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first NYS Real Estate Salesperson exam practice PWA",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build-questions.mjs",
+    "serve": "python3 -m http.server 8080",
+    "test": "node test-e2e.js && node tests/chaos.js && node tests/visual.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

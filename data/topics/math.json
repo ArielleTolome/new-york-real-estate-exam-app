@@ -1,0 +1,308 @@
+[
+  {
+    "id": "math-001",
+    "topic": "math",
+    "q": "A home sells for $640,000 with a 5.5% commission. The listing and cooperating brokers split the commission 50/50, and the listing salesperson receives 60% of the listing broker's share. How much does the listing salesperson earn?",
+    "options": ["$21,120", "$7,040", "$10,560", "$17,600"],
+    "answer": 2,
+    "explanation": "Total commission = $640,000 × 5.5% = $35,200; listing broker's half = $35,200 × 50% = $17,600; salesperson = $17,600 × 60% = $10,560. Trap: $21,120 takes 60% of the whole commission and skips the co-broke split, and $17,600 stops at the broker's share.",
+    "citation": "NY RPL § 442-a (salesperson paid only through own broker); DOS Salesperson Syllabus Subject 10 (commissions)"
+  },
+  {
+    "id": "math-002",
+    "topic": "math",
+    "q": "A listing agreement calls for a commission of 6% on the first $500,000 of the sale price and 4% on any amount above $500,000. The property sells for $725,000. What is the total commission?",
+    "options": ["$39,000", "$43,500", "$29,000", "$36,250"],
+    "answer": 0,
+    "explanation": "6% × $500,000 = $30,000; the excess is $725,000 − $500,000 = $225,000, and 4% × $225,000 = $9,000; total = $30,000 + $9,000 = $39,000. Trap: applying one rate to the whole price ($43,500 at 6% or $29,000 at 4%) ignores the tiered terms.",
+    "citation": "Listing agreement terms (commission rates are negotiable); DOS Salesperson Syllabus Subject 10 (commissions)"
+  },
+  {
+    "id": "math-003",
+    "topic": "math",
+    "q": "A buyer's-side salesperson receives a $6,300 commission check. The total commission was 5% of the sale price, split equally between the listing and selling brokers, and she receives 70% of her broker's share. What was the sale price?",
+    "options": ["$180,000", "$252,000", "$840,000", "$360,000"],
+    "answer": 3,
+    "explanation": "Her share = price × 5% × 50% × 70% = price × 0.0175, so price = $6,300 ÷ 0.0175 = $360,000 (check: $360,000 × 5% = $18,000; ÷ 2 = $9,000; × 70% = $6,300). Trap: skipping the 50% co-broke split gives $180,000, and skipping her 70% split gives $252,000.",
+    "citation": "NY RPL § 442-a; DOS Salesperson Syllabus Subject 10 (commissions)"
+  },
+  {
+    "id": "math-004",
+    "topic": "math",
+    "q": "A seller accepts a $480,000 offer. The commission is 5%, the seller's mortgage payoff is $212,000, and the seller's other closing costs (transfer tax, attorney fee, etc.) total $6,800. What are the seller's net proceeds?",
+    "options": ["$261,200", "$237,200", "$247,800", "$250,800"],
+    "answer": 1,
+    "explanation": "Commission = $480,000 × 5% = $24,000; net = $480,000 − $24,000 − $212,000 − $6,800 = $237,200. Trap: the commission is figured on the full sale price, not on the seller's $268,000 equity (which would give $247,800).",
+    "citation": "DOS Salesperson Syllabus Subject 3 (closing costs and adjustments) and Subject 10 (percentages)"
+  },
+  {
+    "id": "math-005",
+    "topic": "math",
+    "q": "A seller wants to net $280,000 after paying a 6% commission, a $182,500 mortgage payoff, and $7,500 of other closing costs. What is the minimum sale price that achieves this?",
+    "options": ["$500,000", "$498,200", "$487,872", "$470,000"],
+    "answer": 0,
+    "explanation": "Price = (net + payoff + costs) ÷ (1 − commission rate) = ($280,000 + $182,500 + $7,500) ÷ 0.94 = $470,000 ÷ 0.94 = $500,000 (check: $500,000 − $30,000 − $182,500 − $7,500 = $280,000). Trap: adding 6% to $470,000 gives $498,200, which nets only $278,308 because the commission is charged on the price. This is only a pricing estimate — a net listing is prohibited in New York.",
+    "citation": "19 NYCRR § 175.19 (net listings prohibited); DOS Salesperson Syllabus Subject 10 (percentages)"
+  },
+  {
+    "id": "math-006",
+    "topic": "math",
+    "q": "A house outside New York City sells for $412,300, with no exemptions or continuing liens. What is the New York State real estate transfer tax?",
+    "options": ["$1,649.20", "$1,648.00", "$1,650.00", "$3,300.00"],
+    "answer": 2,
+    "explanation": "The tax is $2 for each $500 or fractional part: $412,300 ÷ $500 = 824.6, which rounds UP to 825 units; 825 × $2 = $1,650. Trap: the 0.4% shortcut ($1,649.20) or rounding down to 824 units ($1,648) ignores the fractional-part rule.",
+    "citation": "NY Tax Law § 1402"
+  },
+  {
+    "id": "math-007",
+    "topic": "math",
+    "q": "An Albany County seller sells a house for $540,000 and pays off a $200,000 mortgage at closing. Assuming no exemptions, what is the NYS real estate transfer tax, and who ordinarily pays it?",
+    "options": ["$1,360, ordinarily paid by the seller", "$2,160, ordinarily paid by the seller", "$2,160, ordinarily paid by the buyer", "$800, ordinarily paid by the seller"],
+    "answer": 1,
+    "explanation": "$540,000 ÷ $500 = 1,080 units × $2 = $2,160 (the same as $4 per $1,000), owed by the grantor (seller) unless the contract shifts it. Trap: a mortgage the seller pays off at closing does not reduce the taxable consideration, so $1,360 (tax on $340,000) is wrong.",
+    "citation": "NY Tax Law §§ 1402, 1404(a)"
+  },
+  {
+    "id": "math-008",
+    "topic": "math",
+    "q": "A Bronx condominium unit sells for exactly $500,000. Using the residential rates, what is the New York City Real Property Transfer Tax (RPTT)?",
+    "options": ["$7,125", "$2,000", "$7,000", "$5,000"],
+    "answer": 3,
+    "explanation": "NYC residential RPTT is 1% when the consideration is $500,000 or less and 1.425% when it exceeds $500,000: $500,000 × 1% = $5,000. Trap: exactly $500,000 is not over $500,000, so 1.425% ($7,125) does not apply, and $2,000 is the separate NYS transfer tax.",
+    "citation": "NYC Admin. Code § 11-2102 (NYC RPTT)"
+  },
+  {
+    "id": "math-009",
+    "topic": "math",
+    "q": "A one-family house in Queens sells for $640,000. What is the NYC Real Property Transfer Tax (RPTT)?",
+    "options": ["$9,120", "$6,400", "$6,995", "$1,995"],
+    "answer": 0,
+    "explanation": "Because $640,000 exceeds $500,000, the 1.425% residential rate applies to the entire consideration: $640,000 × 1.425% = $9,120. Trap: RPTT is not a marginal bracket, so $5,000 + 1.425% × $140,000 = $6,995 is wrong, and $6,400 uses the 1% rate.",
+    "citation": "NYC Admin. Code § 11-2102 (NYC RPTT)"
+  },
+  {
+    "id": "math-010",
+    "topic": "math",
+    "q": "A buyer purchases a one-family home in Westchester County for exactly $1,000,000. What is the NYS additional (\"mansion\") tax, and who ordinarily pays it?",
+    "options": ["$10,000, paid by the seller", "$0 (threshold not exceeded)", "$10,000, paid by the buyer", "$4,000, paid by the buyer"],
+    "answer": 2,
+    "explanation": "The mansion tax is 1% of the entire consideration for residential property at $1,000,000 or more, paid by the grantee: $1,000,000 × 1% = $10,000, paid by the buyer. Trap: the threshold is $1 million OR MORE, so exactly $1,000,000 is taxed; $4,000 ($1,000,000 ÷ $500 × $2) is the seller's separate basic transfer tax.",
+    "citation": "NY Tax Law § 1402-a"
+  },
+  {
+    "id": "math-011",
+    "topic": "math",
+    "q": "A Nassau County one-family home sells for $1,350,000 with no exemptions. How are the NYS basic transfer tax and the mansion tax ordinarily allocated?",
+    "options": ["Seller pays $13,500; buyer pays $5,400", "Seller pays $5,400; buyer pays $13,500", "Seller pays $5,400; buyer pays $3,500", "Seller pays $18,900; buyer pays $0"],
+    "answer": 1,
+    "explanation": "Basic transfer tax = $1,350,000 ÷ $500 = 2,700 units × $2 = $5,400, paid by the seller (grantor); mansion tax = $1,350,000 × 1% = $13,500, paid by the buyer (grantee). Trap: the mansion tax applies to the full price, not just the $350,000 above $1 million ($3,500).",
+    "citation": "NY Tax Law §§ 1402, 1402-a, 1404(a)"
+  },
+  {
+    "id": "math-012",
+    "topic": "math",
+    "q": "A buyer contracts to purchase a home for $450,000, but it appraises at $430,000. The lender will lend 80% of the lower of the price or the appraised value. Before closing costs, how much cash must the buyer bring toward the purchase price?",
+    "options": ["$90,000", "$86,000", "$110,000", "$106,000"],
+    "answer": 3,
+    "explanation": "Loan = 80% × $430,000 (the lower value) = $344,000; cash needed = $450,000 price − $344,000 loan = $106,000. Trap: 20% of the price ($90,000) or of the appraisal ($86,000) misses that the buyer also covers the $20,000 appraisal shortfall ($86,000 + $20,000 = $106,000).",
+    "citation": "DOS Salesperson Syllabus Subject 5 (Real Estate Finance) and Subject 10 (basic mortgage qualifying)"
+  },
+  {
+    "id": "math-013",
+    "topic": "math",
+    "q": "A buyer purchases a $400,000 home with a 90% loan and agrees to pay 2 discount points. How much do the points cost?",
+    "options": ["$7,200", "$8,000", "$800", "$720"],
+    "answer": 0,
+    "explanation": "One point = 1% of the LOAN amount: loan = $400,000 × 90% = $360,000, and 2 points = $360,000 × 2% = $7,200. Trap: $8,000 applies the points to the purchase price, and $720 treats 2 points as 0.2%.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (points)"
+  },
+  {
+    "id": "math-014",
+    "topic": "math",
+    "q": "A borrower originally borrowed $200,000; the current balance is $186,000 at 7.25% annual interest. Using the annual rate ÷ 12, how much interest will be charged for the next month?",
+    "options": ["$1,208.33", "$13,485.00", "$1,123.75", "$11,237.50"],
+    "answer": 2,
+    "explanation": "Monthly interest = current balance × annual rate ÷ 12 = $186,000 × 0.0725 ÷ 12 = $13,485 ÷ 12 = $1,123.75. Trap: interest accrues on the current balance, not the original $200,000 ($1,208.33), and $13,485 is a full year's interest.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (interest)"
+  },
+  {
+    "id": "math-015",
+    "topic": "math",
+    "q": "A $320,000, 30-year fixed-rate loan at 6% has a monthly principal-and-interest payment of $1,918.56. Using the annual rate ÷ 12, how much of the first payment goes to principal, and what is the new balance?",
+    "options": ["Principal $1,600.00; new balance $318,400.00", "Principal $318.56; new balance $319,681.44", "Principal $318.56; new balance $318,081.44", "Principal $1,918.56; new balance $318,081.44"],
+    "answer": 1,
+    "explanation": "First month's interest = $320,000 × 0.06 ÷ 12 = $1,600; principal = $1,918.56 − $1,600 = $318.56; new balance = $320,000 − $318.56 = $319,681.44. Trap: only the principal portion reduces the balance, so subtracting the whole payment ($318,081.44) or the interest ($318,400) is wrong.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (interest, principal)"
+  },
+  {
+    "id": "math-016",
+    "topic": "math",
+    "q": "A developer buys a 5-acre tract and must reserve 20% of the land for roads. How many building lots of 10,890 square feet each can be created from the remaining land?",
+    "options": ["20 lots", "24 lots", "4 lots", "16 lots"],
+    "answer": 3,
+    "explanation": "5 acres × 43,560 = 217,800 sq ft; usable land = 217,800 × 80% = 174,240 sq ft; 174,240 ÷ 10,890 = 16 lots. Trap: 20 lots ignores the road reservation, and 4 lots uses the 20% set aside for roads instead of the 80% remaining.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (acre = 43,560 sq ft)"
+  },
+  {
+    "id": "math-017",
+    "topic": "math",
+    "q": "An irregular lot consists of a rectangle 242 feet wide by 300 feet deep plus an adjoining triangular section with a 242-foot base (along the rectangle's rear line) and a 120-foot height. At $45,000 per acre, what is the lot worth?",
+    "options": ["$105,000", "$75,000", "$90,000", "$52,500"],
+    "answer": 2,
+    "explanation": "Rectangle = 242 × 300 = 72,600 sq ft; triangle = 242 × 120 ÷ 2 = 14,520 sq ft; total = 87,120 sq ft ÷ 43,560 = 2 acres × $45,000 = $90,000. Trap: forgetting to halve the triangle gives 101,640 sq ft ($105,000), and leaving the triangle out gives $75,000.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (irregular lot size, acre)"
+  },
+  {
+    "id": "math-018",
+    "topic": "math",
+    "q": "A commercial lot has 80 feet of street frontage and a depth of 150 feet. It sells for $2,250 per front foot. What is the sale price?",
+    "options": ["$180,000", "$337,500", "$517,500", "$360,000"],
+    "answer": 0,
+    "explanation": "Front-foot pricing uses only the street frontage: 80 front feet × $2,250 = $180,000. Trap: using the 150-ft depth ($337,500) or adding frontage and depth ($517,500) misapplies the unit.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (front foot)"
+  },
+  {
+    "id": "math-019",
+    "topic": "math",
+    "q": "An L-shaped one-story house measures 50 ft across the front and 55 ft from front to back at its deepest point. It consists of a front section 50 ft wide × 30 ft deep and a rear wing 20 ft wide × 25 ft deep. Similar homes sell for $280 per square foot. What is the indicated value?",
+    "options": ["$770,000", "$420,000", "$728,000", "$560,000"],
+    "answer": 3,
+    "explanation": "Split the L into rectangles: 50 × 30 = 1,500 sq ft plus 20 × 25 = 500 sq ft = 2,000 sq ft; 2,000 × $280 = $560,000. Trap: multiplying the outer dimensions (50 × 55 = 2,750 sq ft, $770,000) counts space that is not part of the house.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (square feet, price per square foot)"
+  },
+  {
+    "id": "math-020",
+    "topic": "math",
+    "q": "A house has a market value of $240,000 and a taxable assessed value of $180,000. The tax rate is 32.5 mills. What is the annual property tax?",
+    "options": ["$7,800", "$5,850", "$585", "$58,500"],
+    "answer": 1,
+    "explanation": "One mill is $1 per $1,000 (0.001), so tax = taxable assessed value × mills ÷ 1,000 = $180,000 × 32.5 ÷ 1,000 = $5,850. Trap: the rate applies to the assessed value, not the market value ($240,000 × 0.0325 = $7,800).",
+    "citation": "NY Real Property Tax Law; DOS Salesperson Syllabus Subject 10 (real property tax rate)"
+  },
+  {
+    "id": "math-021",
+    "topic": "math",
+    "q": "A town must raise a $6,300,000 property tax levy, and the total taxable assessed value in the town is $180,000,000. What is the tax rate, and what is the tax on a home assessed at $90,000?",
+    "options": ["35 mills; $3,150", "3.5 mills; $315", "28.57 mills; $2,571.43", "350 mills; $31,500"],
+    "answer": 0,
+    "explanation": "Tax rate = levy ÷ total assessed value = $6,300,000 ÷ $180,000,000 = 0.035 = 35 mills ($3.50 per $100); tax = $90,000 × 0.035 = $3,150. Trap: dividing assessed value by the levy inverts the formula (28.57), and misplacing the decimal gives 3.5 or 350 mills.",
+    "citation": "NY Real Property Tax Law (tax levy); DOS Salesperson Syllabus Subject 14 (Taxes and Assessments)"
+  },
+  {
+    "id": "math-022",
+    "topic": "math",
+    "q": "A town's equalization rate is 40%, meaning properties are assessed at 40% of full market value. A home's assessed value is $120,000. What is its estimated full market value?",
+    "options": ["$48,000", "$168,000", "$300,000", "$200,000"],
+    "answer": 2,
+    "explanation": "Full market value = assessed value ÷ equalization rate = $120,000 ÷ 0.40 = $300,000. Trap: multiplying by the rate ($120,000 × 0.40 = $48,000) goes the wrong direction, because the assessment is the smaller figure.",
+    "citation": "NY Real Property Tax Law (state equalization rates, NYS ORPTS); DOS Salesperson Syllabus Subject 14 (equalization)"
+  },
+  {
+    "id": "math-023",
+    "topic": "math",
+    "q": "Closing is June 15 of a non-leap year. The calendar-year property taxes of $9,125 are unpaid and will be paid in full by the buyer later in the year. Using a 365-day year with actual days, and with the buyer owning the day of closing, what is the tax proration?",
+    "options": ["Debit seller and credit buyer $4,150", "Credit seller and debit buyer $5,000", "Credit seller and debit buyer $4,125", "Debit seller and credit buyer $4,125"],
+    "answer": 3,
+    "explanation": "Daily rate = $9,125 ÷ 365 = $25; seller's days Jan 1–June 14 = 31 + 28 + 31 + 30 + 31 + 14 = 165; 165 × $25 = $4,125, debited to the seller and credited to the buyer because the buyer will pay the seller's share later. Trap: giving the seller the closing day (166 days) yields $4,150.",
+    "citation": "Contract of sale apportionment clause; DOS Salesperson Syllabus Subject 3 (arithmetic of prorations)"
+  },
+  {
+    "id": "math-024",
+    "topic": "math",
+    "q": "On September 1, the seller of a two-family house collected the tenant's $3,000 rent for September. Closing is September 21, and the seller is entitled to the rent for the day of closing. Prorating on the actual 30 days in September, what is the rent adjustment?",
+    "options": ["Credit seller and debit buyer $900", "Debit seller and credit buyer $900", "Debit seller and credit buyer $1,000", "Debit seller and credit buyer $2,100"],
+    "answer": 1,
+    "explanation": "Daily rent = $3,000 ÷ 30 = $100; the seller keeps Sept 1–21 (21 days), so the buyer is owed Sept 22–30 = 9 days × $100 = $900, debited to the seller and credited to the buyer. Trap: giving the buyer the closing day (10 days) yields $1,000, and $2,100 is the seller's own share.",
+    "citation": "Contract of sale apportionment clause; DOS Salesperson Syllabus Subject 3 (arithmetic of prorations)"
+  },
+  {
+    "id": "math-025",
+    "topic": "math",
+    "q": "The seller has already paid the $5,400 school tax for the fiscal year July 1 through June 30. Closing is October 11, and the buyer owns the day of closing. Using a 360-day year (30-day months), what is the proration?",
+    "options": ["Credit seller and debit buyer $3,900", "Debit seller and credit buyer $3,900", "Credit seller and debit buyer $1,200", "Credit seller and debit buyer $1,500"],
+    "answer": 0,
+    "explanation": "Daily rate = $5,400 ÷ 360 = $15; seller's days July 1–Oct 10 = 30 + 30 + 30 + 10 = 100, so the buyer's share is 360 − 100 = 260 days × $15 = $3,900, credited to the seller (who prepaid) and debited to the buyer. Trap: counting from January 1 instead of the July 1 fiscal year gives $1,200, and $1,500 is the seller's own share.",
+    "citation": "Contract of sale apportionment clause; DOS Salesperson Syllabus Subject 3 (arithmetic of prorations)"
+  },
+  {
+    "id": "math-026",
+    "topic": "math",
+    "q": "A buyer assumes the seller's $180,000 mortgage at 6% interest, which is paid in arrears; the seller's March 1 payment covered February's interest. Closing is March 16, and the seller owns the day of closing. Using a 360-day year, what is the interest proration?",
+    "options": ["Credit seller and debit buyer $480", "Debit seller and credit buyer $450", "Debit seller and credit buyer $480", "Debit seller and credit buyer $420"],
+    "answer": 2,
+    "explanation": "Daily interest = $180,000 × 0.06 ÷ 360 = $30, and the seller owes March 1–16 = 16 days × $30 = $480. Because the buyer will pay all of March's interest with the April 1 payment, debit the seller and credit the buyer $480; giving the buyer the closing day (15 days) would yield $450.",
+    "citation": "Contract of sale apportionment clause; DOS Salesperson Syllabus Subject 3 (arithmetic of prorations)"
+  },
+  {
+    "id": "math-027",
+    "topic": "math",
+    "q": "An apartment building has potential gross income of $240,000, 5% vacancy and collection loss, $6,000 of other income, $96,000 of operating expenses, and $60,000 of annual mortgage debt service. Using an 8% capitalization rate, what is the indicated value?",
+    "options": ["$975,000", "$1,875,000", "$1,650,000", "$1,725,000"],
+    "answer": 3,
+    "explanation": "EGI = $240,000 − $12,000 vacancy + $6,000 other income = $234,000; NOI = $234,000 − $96,000 = $138,000; value = $138,000 ÷ 0.08 = $1,725,000. Trap: debt service is not an operating expense, so subtracting it ($78,000 ÷ 0.08 = $975,000) confuses NOI with cash flow.",
+    "citation": "Income approach (value = NOI ÷ cap rate); DOS Salesperson Syllabus Subject 16 (valuation via capitalization)"
+  },
+  {
+    "id": "math-028",
+    "topic": "math",
+    "q": "An office building sells for $1,500,000. Its annual gross income is $165,000 and its annual operating expenses are $67,500. What capitalization rate does the sale indicate?",
+    "options": ["11.0%", "6.5%", "4.5%", "15.4%"],
+    "answer": 1,
+    "explanation": "NOI = $165,000 − $67,500 = $97,500; cap rate = NOI ÷ value = $97,500 ÷ $1,500,000 = 0.065 = 6.5%. Trap: dividing gross income by the price (11.0%) skips operating expenses.",
+    "citation": "Income approach (rate = NOI ÷ value); DOS Salesperson Syllabus Subject 16 (determining the cap rate)"
+  },
+  {
+    "id": "math-029",
+    "topic": "math",
+    "q": "A two-family house sold for $432,000 when its total monthly rent was $3,600. A similar two-family house rents for $3,250 per month. Using the monthly gross rent multiplier from the sale, what is the subject's indicated value?",
+    "options": ["$390,000", "$478,523", "$432,000", "$32,500"],
+    "answer": 0,
+    "explanation": "Monthly GRM = $432,000 ÷ $3,600 = 120; value = 120 × $3,250 = $390,000. Trap: the multiplier and the rent must use the same period, so an annual GRM of 10 ($432,000 ÷ $43,200) times monthly rent gives a meaningless $32,500.",
+    "citation": "Gross rent multiplier (price ÷ gross rent); DOS Salesperson Syllabus Subject 8 (income approach)"
+  },
+  {
+    "id": "math-030",
+    "topic": "math",
+    "q": "A retail lease requires base rent of $4,000 per month plus 5% of the tenant's annual gross sales above $600,000. This year's gross sales are $850,000. What is the total annual rent?",
+    "options": ["$90,500", "$16,500", "$42,500", "$60,500"],
+    "answer": 3,
+    "explanation": "Annual base rent = $4,000 × 12 = $48,000; percentage rent = 5% × ($850,000 − $600,000) = $12,500; total = $48,000 + $12,500 = $60,500. Trap: taking 5% of all sales ($42,500) on top of base gives $90,500, and forgetting to annualize the base gives $16,500.",
+    "citation": "Percentage lease terms; DOS Salesperson Syllabus Subject 16 (retail percentage lease)"
+  },
+  {
+    "id": "math-031",
+    "topic": "math",
+    "q": "Using the cost approach, a building's replacement cost new is $400,000, its effective age is 12 years, and its total economic life is 50 years (straight-line depreciation). The land is valued at $120,000. What is the indicated property value?",
+    "options": ["$520,000", "$395,200", "$424,000", "$304,000"],
+    "answer": 2,
+    "explanation": "Depreciation = 12 ÷ 50 = 24% × $400,000 = $96,000; depreciated building = $400,000 − $96,000 = $304,000; plus land: $304,000 + $120,000 = $424,000. Trap: land is not depreciated, so depreciating the $520,000 total (giving $395,200) is wrong, and $304,000 omits the land.",
+    "citation": "Cost approach; DOS Salesperson Syllabus Subject 8 (depreciation) and Subject 10 (appreciation and depreciation)"
+  },
+  {
+    "id": "math-032",
+    "topic": "math",
+    "q": "An investor buys a residential rental property for $440,000, of which $110,000 is allocated to land. Using straight-line depreciation over 27.5 years (ignoring the first-year mid-month convention), what is the annual depreciation deduction?",
+    "options": ["$16,000", "$12,000", "$8,461.54", "$11,282.05"],
+    "answer": 1,
+    "explanation": "Depreciable basis excludes land: $440,000 − $110,000 = $330,000; $330,000 ÷ 27.5 years = $12,000 per year. Trap: including land gives $16,000, and 39 years is the nonresidential period ($330,000 ÷ 39 = $8,461.54).",
+    "citation": "IRC § 168 (27.5-year residential rental property); DOS Salesperson Syllabus Subject 17 (straight-line depreciation)"
+  },
+  {
+    "id": "math-033",
+    "topic": "math",
+    "q": "A homeowner bought a house for $320,000, and it is now worth $384,000. By what percentage has it appreciated?",
+    "options": ["20%", "16.67%", "120%", "83.33%"],
+    "answer": 0,
+    "explanation": "Percent change = (new − original) ÷ original = ($384,000 − $320,000) ÷ $320,000 = $64,000 ÷ $320,000 = 20%. Trap: dividing by the new value ($64,000 ÷ $384,000 = 16.67%) uses the wrong base.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (appreciation and depreciation)"
+  },
+  {
+    "id": "math-034",
+    "topic": "math",
+    "q": "An investor bought a lot for $80,000, spent $20,000 on improvements, and sold the property for $125,000. What was the percentage of profit on the investor's total cost?",
+    "options": ["20%", "56.25%", "31.25%", "25%"],
+    "answer": 3,
+    "explanation": "Total cost = $80,000 + $20,000 = $100,000; profit = $125,000 − $100,000 = $25,000; $25,000 ÷ $100,000 = 25%. Trap: dividing by the sale price ($25,000 ÷ $125,000 = 20%) or ignoring the improvements ($45,000 ÷ $80,000 = 56.25%) uses the wrong figures.",
+    "citation": "DOS Salesperson Syllabus Subject 10 (percentages)"
+  }
+]

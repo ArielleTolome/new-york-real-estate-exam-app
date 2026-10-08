@@ -1,0 +1,310 @@
+[
+  {
+    "id": "condo-coop-001",
+    "topic": "condo-coop",
+    "q": "A buyer closes on the purchase of an apartment in a New York cooperative. What does the buyer actually acquire?",
+    "options": [
+      "A deed to the apartment plus an undivided interest in the common elements",
+      "Shares in the cooperative corporation plus a proprietary lease for the apartment",
+      "A recorded leasehold estate in the apartment plus a deed to a share of the land",
+      "Fee title to the apartment, with the corporation owning only the lobby and grounds"
+    ],
+    "answer": 1,
+    "explanation": "A co-op corporation owns the building (or its ground lease); the purchaser receives stock in the corporation and a proprietary lease giving occupancy rights. No deed to the unit is delivered; a deed plus an undivided common interest describes a condominium.",
+    "citation": "NY cooperative ownership (corporate shares and proprietary lease); contrast NY RPL Article 9-B"
+  },
+  {
+    "id": "condo-coop-002",
+    "topic": "condo-coop",
+    "q": "Which best describes what a condominium unit owner owns in New York?",
+    "options": [
+      "Stock in a corporation that owns the building, plus a lease for the unit",
+      "Fee title to the unit only, while the association separately owns all land and common areas",
+      "Fee title to the unit plus an appurtenant undivided percentage interest in the common elements",
+      "A long-term leasehold in the unit from the sponsor, renewable by the board of managers"
+    ],
+    "answer": 2,
+    "explanation": "A condo owner holds the unit as real property (commonly in fee simple) plus an undivided interest in the common elements, which can include the land. The common interest travels with the unit. An association owning all common areas describes a typical HOA, not a condo.",
+    "citation": "NY RPL Article 9-B (Condominium Act)"
+  },
+  {
+    "id": "condo-coop-003",
+    "topic": "condo-coop",
+    "q": "For legal purposes, how are the shares a co-op shareholder holds in the cooperative corporation classified?",
+    "options": [
+      "Real property, because they are tied to a specific apartment",
+      "A fixture, because the apartment is attached to the building",
+      "A real property interest conveyed by deed and recorded",
+      "Personal property"
+    ],
+    "answer": 3,
+    "explanation": "Co-op shares are personal property, even though they carry the right to occupy a specific apartment under the proprietary lease. That is why co-op sales use stock transfers and share loans rather than deeds and real-property mortgages.",
+    "citation": "NY cooperative ownership; NY UCC Article 9 (shares as personal property collateral)"
+  },
+  {
+    "id": "condo-coop-004",
+    "topic": "condo-coop",
+    "q": "How are real estate taxes handled for an individual condominium unit in New York?",
+    "options": [
+      "Each unit is separately assessed and taxed, and the owner receives the unit's own tax bill",
+      "The whole building is taxed as a single parcel, and the board pays the bill out of common charges",
+      "Taxes are paid by the sponsor until every unit in the building is sold",
+      "The unit owner pays a share of taxes through monthly maintenance to the corporation"
+    ],
+    "answer": 0,
+    "explanation": "Under the Condominium Act each unit, with its common interest, is a separate tax parcel billed to its owner. A single building tax paid through monthly maintenance describes a co-op, where the corporation owns the building.",
+    "citation": "NY RPL § 339-y"
+  },
+  {
+    "id": "condo-coop-005",
+    "topic": "condo-coop",
+    "q": "A co-op shareholder asks what the monthly maintenance payment covers. Which answer is most accurate?",
+    "options": [
+      "Only the shareholder's personal share-loan payment to the bank",
+      "A proportionate share of building operating costs, real estate taxes, and the underlying mortgage debt service",
+      "Only cleaning, staff, and utilities for the common areas, since each shareholder receives a separate tax bill",
+      "Installments of the flip tax owed to the city on each apartment"
+    ],
+    "answer": 1,
+    "explanation": "Maintenance funds the corporation's operations plus the shareholder's allocated share of the building's real estate taxes and any underlying (blanket) mortgage. A personal share loan is paid separately to the shareholder's own lender.",
+    "citation": "NY cooperative ownership (proprietary lease maintenance obligations)"
+  },
+  {
+    "id": "condo-coop-006",
+    "topic": "condo-coop",
+    "q": "A condo seller accepts a buyer's offer. The condominium's declaration and bylaws give the board of managers a right of first refusal. What must happen before closing?",
+    "options": [
+      "The board must interview the buyer and may then reject the purchase without stating any reason",
+      "The buyer must purchase shares in the condominium and sign a proprietary lease with the board of managers",
+      "The board must be offered the chance to buy on the same terms, or must waive that right in writing",
+      "Nothing, because New York condominiums cannot restrict a unit owner's resale"
+    ],
+    "answer": 2,
+    "explanation": "Where the governing documents create a right of first refusal, the board may elect to acquire the unit on the same terms or waive the right; a waiver is commonly delivered before closing. A co-op-style admission interview and shares belong to cooperatives, not condos.",
+    "citation": "Condominium declaration and bylaws; NY RPL Article 9-B"
+  },
+  {
+    "id": "condo-coop-007",
+    "topic": "condo-coop",
+    "q": "A co-op board reviewing a purchase application may NOT lawfully reject an applicant on which of these grounds?",
+    "options": [
+      "Liquid assets below the board's written post-closing reserve standard",
+      "An incomplete board package after repeated requests for documents",
+      "A debt-to-income ratio above the board's financial policy",
+      "The applicant's household includes two young children"
+    ],
+    "answer": 3,
+    "explanation": "Co-op boards have broad business-judgment discretion over financial qualifications and often need not state reasons, but they may not reject on a protected basis. Familial status (children under 18) is protected under both federal and New York fair housing law.",
+    "citation": "NY Executive Law § 296; Federal Fair Housing Act, 42 U.S.C. § 3604"
+  },
+  {
+    "id": "condo-coop-008",
+    "topic": "condo-coop",
+    "q": "Which government office reviews and accepts for filing the offering plans for new condominiums and co-op conversions in New York?",
+    "options": [
+      "The New York Attorney General's Real Estate Finance Bureau",
+      "The Department of State's Division of Licensing Services",
+      "New York State Homes and Community Renewal",
+      "The local building department that issues the certificate of occupancy"
+    ],
+    "answer": 0,
+    "explanation": "Under the Martin Act, sponsors offering condo or co-op interests to the public must file an offering plan with the Attorney General, whose Real Estate Finance Bureau reviews it. DOS licenses brokers and salespersons; it does not accept offering plans.",
+    "citation": "NY GBL § 352-e (Martin Act)"
+  },
+  {
+    "id": "condo-coop-009",
+    "topic": "condo-coop",
+    "q": "In a New York condo or co-op offering, what is the 'red herring'?",
+    "options": [
+      "The final offering plan as printed and distributed after the Attorney General accepts it for filing",
+      "A preliminary version of the offering plan that has not yet been accepted for filing",
+      "A notice the sponsor sends to purchasers when it abandons the offering plan before closing",
+      "A tenant's formal objection to a conversion plan"
+    ],
+    "answer": 1,
+    "explanation": "The red herring is the preliminary offering plan, named for the red legend stating it is not final and not yet accepted. Once accepted for filing, the plan is commonly called the black book.",
+    "citation": "NY GBL § 352-e (Martin Act); NY AG offering-plan regulations"
+  },
+  {
+    "id": "condo-coop-010",
+    "topic": "condo-coop",
+    "q": "A sponsor's salesperson tells a prospect: 'The Attorney General accepted our offering plan, so the state has confirmed these prices are a good investment.' Why is this statement wrong?",
+    "options": [
+      "The Attorney General accepts offering plans only for buildings outside New York City; NYC plans go to HPD",
+      "Offering plans are reviewed and accepted by the Department of State's Division of Licensing Services instead",
+      "Acceptance for filing reflects disclosure review only; it does not endorse the price or investment value",
+      "The Attorney General's acceptance certifies only that construction is free of defects, not that prices are fair"
+    ],
+    "answer": 2,
+    "explanation": "Acceptance for filing is a disclosure review under the Martin Act, not a government guarantee of fair price, value, profit, or construction quality. Representing it as an endorsement is misleading.",
+    "citation": "NY GBL § 352-e (Martin Act)"
+  },
+  {
+    "id": "condo-coop-011",
+    "topic": "condo-coop",
+    "q": "A sponsor has an accepted CPS-1 application to test the market for a new condo, but the offering plan has not yet been accepted. A prospect offers a $2,000 fully refundable payment to hold a unit. What may the sponsor do?",
+    "options": [
+      "Accept it, because a fully refundable payment is permitted during an accepted CPS-1 market-testing period",
+      "Accept it, as long as the money is held in a segregated escrow account by the sponsor's attorney",
+      "Take a nonbinding reservation without collecting money, then collect the deposit once the plan is accepted",
+      "Accept no deposit or reservation; it may only note the prospect's nonbinding indication of interest"
+    ],
+    "answer": 3,
+    "explanation": "Under CPS-1, no deposits and no reservations, binding or nonbinding, may be accepted until the offering plan is accepted for filing. Refundability or escrow does not cure the violation; only a nonbinding indication of interest is allowed.",
+    "citation": "NY AG Cooperative Policy Statement No. 1 (CPS-1)"
+  },
+  {
+    "id": "condo-coop-012",
+    "topic": "condo-coop",
+    "q": "A co-op contract says the seller will pay the 'flip tax.' What is a flip tax?",
+    "options": [
+      "A transfer fee imposed by the co-op corporation under its documents, usually paid by the seller",
+      "The New York State real estate transfer tax as it applies to transfers of co-op shares",
+      "A New York City surcharge imposed on investors who resell an apartment within one year of buying",
+      "A penalty the Attorney General imposes on sponsors who sell units too quickly"
+    ],
+    "answer": 0,
+    "explanation": "Despite its name, a flip tax is not a government tax; it is a charge the co-op corporation levies on transfers under its proprietary lease or bylaws, commonly paid by the seller and often credited to the building's reserves. Government transfer taxes are a separate item.",
+    "citation": "Co-op proprietary lease/bylaws (cooperative transfer fee)"
+  },
+  {
+    "id": "condo-coop-013",
+    "topic": "condo-coop",
+    "q": "In co-op financing, what is a recognition agreement?",
+    "options": [
+      "An agreement in which the buyer and seller formally recognize which broker was the procuring cause and earned the commission",
+      "An agreement among the share lender, the co-op corporation, and the shareholder acknowledging the lender's security interest",
+      "A letter from the Attorney General recognizing the offering plan as effective so the sponsor can begin closings",
+      "The board's written approval recognizing the purchaser as a shareholder after the admissions interview"
+    ],
+    "answer": 1,
+    "explanation": "The recognition agreement is signed by the share lender, the cooperative corporation, and the borrowing shareholder. It acknowledges the lender's security interest and sets duties such as notifying the lender of a maintenance default.",
+    "citation": "Co-op share financing; NY UCC Article 9"
+  },
+  {
+    "id": "condo-coop-014",
+    "topic": "condo-coop",
+    "q": "A co-op buyer financing the purchase asks whether the bank will record a mortgage against the apartment with the county clerk. What is the best answer?",
+    "options": [
+      "Yes; a co-op loan is recorded with the county clerk against the unit exactly like a house mortgage",
+      "No; the bank instead takes and holds a deed to the apartment until the loan is fully paid off",
+      "No; the loan is secured by the shares and proprietary lease, perfected by a UCC financing statement",
+      "No; the co-op corporation itself becomes the borrower and adds the loan to its underlying mortgage"
+    ],
+    "answer": 2,
+    "explanation": "Because co-op shares are personal property, the purchaser's financing is a share loan secured by the stock and proprietary lease, perfected through UCC filing. It is not a recorded real-property mortgage on an individual unit.",
+    "citation": "NY UCC Article 9 (secured transactions)"
+  },
+  {
+    "id": "condo-coop-015",
+    "topic": "condo-coop",
+    "q": "Which document submits a property to New York's Condominium Act and describes the units, common elements, and each unit's common interest?",
+    "options": [
+      "The proprietary lease",
+      "The preliminary offering plan",
+      "The house rules",
+      "The declaration"
+    ],
+    "answer": 3,
+    "explanation": "The recorded declaration creates the condominium regime and defines units, common elements, and percentage interests. Bylaws govern administration; a proprietary lease is a co-op document.",
+    "citation": "NY RPL Article 9-B (Condominium Act)"
+  },
+  {
+    "id": "condo-coop-016",
+    "topic": "condo-coop",
+    "q": "A condo unit owner stops paying common charges for six months. What remedy does the board of managers generally have?",
+    "options": [
+      "A lien on the unit for the unpaid common charges, which can be foreclosed",
+      "Cancellation of the owner's proprietary lease and forfeiture of the owner's shares",
+      "No remedy, because common charges are voluntary contributions",
+      "A complaint asking the Attorney General to fine the owner under the offering plan"
+    ],
+    "answer": 0,
+    "explanation": "Unpaid condo common charges become a lien on the unit that the board can enforce, including by foreclosure. Cancelling a proprietary lease is a co-op remedy because only co-ops use proprietary leases.",
+    "citation": "NY RPL § 339-z"
+  },
+  {
+    "id": "condo-coop-017",
+    "topic": "condo-coop",
+    "q": "A rental building is being converted to a co-op under a non-eviction plan. A tenant in occupancy decides not to buy. What is the tenant's status?",
+    "options": [
+      "The tenant must vacate when the plan is declared effective",
+      "The tenant may remain as a tenant and cannot be evicted for failing to buy",
+      "The tenant must buy within 90 days or lose the apartment",
+      "The tenant may be evicted one year after the plan is declared effective"
+    ],
+    "answer": 1,
+    "explanation": "A non-eviction plan does not permit eviction of non-purchasing tenants merely because they decline to buy; they remain tenants, subject to ordinary lawful grounds such as nonpayment. Eviction plans are a different, now heavily restricted category.",
+    "citation": "NY GBL §§ 352-eee and 352-eeee (conversion plans)"
+  },
+  {
+    "id": "condo-coop-018",
+    "topic": "condo-coop",
+    "q": "What is a 'condop'?",
+    "options": [
+      "A co-op whose bylaws permit unlimited subletting and no board interview, so it operates like a condo",
+      "A condo whose board interviews and approves every buyer the way a co-op does, although buyers still receive deeds",
+      "A condominium in which the residential portion is one unit owned by a co-op corporation, whose buyers receive shares",
+      "A townhouse community where owners hold their own lots and belong to a homeowners' association"
+    ],
+    "answer": 2,
+    "explanation": "In a true condop, the building is a condominium in which one unit (the residential part) is owned by a cooperative corporation, often with separately owned commercial units. Residential buyers get shares and a proprietary lease, not condo deeds; flexible rules alone do not make a co-op a condop.",
+    "citation": "NY RPL Article 9-B; cooperative ownership structure"
+  },
+  {
+    "id": "condo-coop-019",
+    "topic": "condo-coop",
+    "q": "In a typical homeowners' association (HOA) subdivision, what does each homeowner own?",
+    "options": [
+      "Shares in the association plus a proprietary lease for the home, as in a co-op building",
+      "An undivided percentage interest in all land in the community, including the clubhouse and roads",
+      "Nothing; the association owns the homes and leases them to residents",
+      "Fee title to the home and lot; the association owns the common areas, funded by assessments"
+    ],
+    "answer": 3,
+    "explanation": "HOA homeowners own their own lots and homes in fee; the association holds title to the common areas and charges assessments to maintain them. An undivided interest in common elements is the condo model.",
+    "citation": "Homeowners' association declaration; NY GBL § 352-e (HOA offerings)"
+  },
+  {
+    "id": "condo-coop-020",
+    "topic": "condo-coop",
+    "q": "Which homeowners insurance form is designed for a condominium unit owner to cover the unit's interior improvements, personal property, and liability?",
+    "options": [
+      "HO-6",
+      "HO-3",
+      "HO-4",
+      "HO-2"
+    ],
+    "answer": 0,
+    "explanation": "HO-6 is the unit-owner form used for condos (and commonly co-ops), complementing the association's master policy on the building. HO-4 is a renter's policy; HO-2 and HO-3 are for owners of whole houses.",
+    "citation": "Standard homeowners insurance forms (ISO HO-6)"
+  },
+  {
+    "id": "condo-coop-021",
+    "topic": "condo-coop",
+    "q": "An owner who bought a co-op apartment ten years ago is now reselling it. Must the owner file an offering plan with the Attorney General?",
+    "options": [
+      "Yes; every resale requires the seller to file an amendment to the building's offering plan",
+      "No; offering-plan filing applies to sponsor public offerings, not an ordinary owner's resale",
+      "Yes, but only if the price exceeds $1 million and the mansion tax applies",
+      "Only if the buyer is financing the purchase with a share loan"
+    ],
+    "answer": 1,
+    "explanation": "The Martin Act filing requirement covers public offerings by sponsors (and holders of unsold shares under the plan). An ordinary shareholder's resale of an apartment is not automatically a new public offering.",
+    "citation": "NY GBL § 352-e (Martin Act)"
+  },
+  {
+    "id": "condo-coop-022",
+    "topic": "condo-coop",
+    "q": "For federal income tax purposes, what may a tenant-stockholder in a qualifying cooperative generally deduct?",
+    "options": [
+      "Nothing, because co-op shares are personal property",
+      "The entire monthly maintenance payment, including the building's operating and staff costs",
+      "Their proportionate share of the corporation's real estate taxes and mortgage interest",
+      "Only the flip tax paid when they bought the apartment"
+    ],
+    "answer": 2,
+    "explanation": "IRC § 216 lets tenant-stockholders of a qualifying cooperative deduct their proportionate share of the corporation's real estate taxes and mortgage interest. Operating costs in maintenance are not deductible, and the corporation must meet § 216's tests.",
+    "citation": "26 U.S.C. § 216 (IRC § 216)"
+  }
+]

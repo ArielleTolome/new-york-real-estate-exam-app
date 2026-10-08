@@ -1,0 +1,4 @@
+node_modules/
+# Source study materials (copyrighted textbooks/PDF extracts) stay local.
+.corpus/
+.DS_Store

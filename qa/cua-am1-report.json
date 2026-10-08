@@ -1,0 +1,89 @@
+{
+  "window_id": 38280,
+  "audits": [
+    {
+      "screen": "home",
+      "controls": 9,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study",
+      "controls": 8,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXRadioButton"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study-answered",
+      "controls": 5,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXDisclosureTriangle"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "results",
+      "controls": 12,
+      "roles": [
+        "AXButton",
+        "AXDisclosureTriangle",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "stats",
+      "controls": 9,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "mistakes",
+      "controls": 29,
+      "roles": [
+        "AXButton",
+        "AXLink"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "build",
+      "controls": 35,
+      "roles": [
+        "AXButton",
+        "AXCheckBox",
+        "AXTextField"
+      ],
+      "issues": []
+    }
+  ],
+  "flow": [
+    "Q1: Never through that deed, because it was never de\u2026 -> Correct",
+    "Q2: Life estate\u2026 -> Correct",
+    "Q3: Steering\u2026 -> Incorrect",
+    "Q4: It issues a positive declaration and an environm\u2026 -> Correct",
+    "Q5: NJ licensees may practice in NY for one year bef\u2026 -> Incorrect",
+    "Q6: $270,000\u2026 -> Incorrect",
+    "Q7: Refuse to discuss value at all, because licensee\u2026 -> Incorrect",
+    "Q8: HO-8 modified coverage form\u2026 -> Incorrect",
+    "Q9: A rezoning of the district\u2026 -> Incorrect",
+    "Q10: Legal because the neighbor does no negotiating o\u2026 -> Incorrect"
+  ],
+  "result": [
+    "30%",
+    "FAIL",
+    "3 / 10 correct \u00b7 10 answered \u00b7 0:36"
+  ]
+}

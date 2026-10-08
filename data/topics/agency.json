@@ -1,0 +1,310 @@
+[
+  {
+    "id": "agency-001",
+    "topic": "agency",
+    "q": "Without being told to by the seller, a seller's agent declines to tell a buyer the lowest price the seller would accept. Which fiduciary duty is the agent fulfilling?",
+    "options": [
+      "Accounting",
+      "Obedience",
+      "Confidentiality",
+      "Reasonable care"
+    ],
+    "answer": 2,
+    "explanation": "Keeping the client's bargaining position private is confidentiality. Because the seller gave no instruction, obedience is not the duty involved.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-002",
+    "topic": "agency",
+    "q": "A listing agent promptly deposits a buyer's earnest money and keeps exact records of it. Which fiduciary duty does this best reflect?",
+    "options": [
+      "Accounting",
+      "Loyalty",
+      "Disclosure",
+      "Obedience"
+    ],
+    "answer": 0,
+    "explanation": "Accounting means safeguarding, recording, and accounting for money and property entrusted to the agent. Mishandling deposits violates both this duty and the escrow rules.",
+    "citation": "NY RPL § 443 (DOS-1736); 19 NYCRR § 175.1"
+  },
+  {
+    "id": "agency-003",
+    "topic": "agency",
+    "q": "A seller tells her listing agent not to show the house to any family with children. The agent should:",
+    "options": [
+      "Comply, because the duty of obedience is owed to the seller",
+      "Comply, but only if the seller puts the instruction in writing",
+      "Comply, because the seller may choose who enters her own home",
+      "Refuse, because obedience covers only lawful instructions"
+    ],
+    "answer": 3,
+    "explanation": "Obedience applies only to lawful instructions. Excluding families with children is familial-status discrimination, so the agent must refuse.",
+    "citation": "Federal Fair Housing Act, 42 U.S.C. § 3604; NY Executive Law § 296"
+  },
+  {
+    "id": "agency-004",
+    "topic": "agency",
+    "q": "A seller's agent is working with an unrepresented buyer (a customer). What does the agent owe that buyer?",
+    "options": [
+      "Undivided loyalty and confidentiality of the buyer's position",
+      "Honest, fair dealing and disclosure of known material facts",
+      "The same full fiduciary duties owed to the seller",
+      "Only the information the seller authorizes"
+    ],
+    "answer": 1,
+    "explanation": "Fiduciary duties go to the client (the seller). A customer is still owed honesty, fair dealing, and disclosure of known facts that materially affect the property's value or desirability.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-005",
+    "topic": "agency",
+    "q": "A seller tells his agent to keep quiet about a known basement leak that floods every spring. A buyer customer asks whether there are water problems. The agent should:",
+    "options": [
+      "Disclose the leak; confidentiality never covers hiding known defects",
+      "Stay silent, because the duty of confidentiality is owed to the seller",
+      "Say there are no problems, since the buyer is only a customer, not a client",
+      "Refer the buyer to the seller's attorney and say nothing further"
+    ],
+    "answer": 0,
+    "explanation": "Confidentiality protects the client's bargaining position. It never allows hiding a known material defect or making a false statement. An instruction to conceal is unlawful and must be refused.",
+    "citation": "NY RPL § 443 (DOS-1736); common-law misrepresentation"
+  },
+  {
+    "id": "agency-006",
+    "topic": "agency",
+    "q": "A buyer's agent will be paid through a split of the listing broker's fee, which comes from the seller's proceeds. Whom does the buyer's agent represent?",
+    "options": [
+      "The seller, because the seller's proceeds fund the commission",
+      "Both parties, as an automatic dual agent sharing one fee",
+      "The buyer, because who pays does not decide who is represented",
+      "Neither party, acting only as a neutral transaction facilitator"
+    ],
+    "answer": 2,
+    "explanation": "Representation depends on the agency relationship, not on who pays. Sharing a commission does not, by itself, create agency with the seller.",
+    "citation": "NY RPL § 443; 19 NYCRR § 175.7"
+  },
+  {
+    "id": "agency-007",
+    "topic": "agency",
+    "q": "A buyer signs the acknowledgment on the New York agency disclosure form. By doing so, the buyer has:",
+    "options": [
+      "Entered a binding buyer-agency agreement with the broker",
+      "Acknowledged receiving the disclosure, not hired the broker",
+      "Agreed to pay the broker's commission if a purchase closes",
+      "Automatically consented to any dual agency that may arise"
+    ],
+    "answer": 1,
+    "explanation": "The form states 'THIS IS NOT A CONTRACT.' Signing confirms only that the buyer received it. A representation agreement is a separate document.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-008",
+    "topic": "agency",
+    "q": "When must a listing agent give the agency disclosure form to the seller of a single-family home?",
+    "options": [
+      "At the first open house held for the property",
+      "When the first written offer arrives from a buyer",
+      "At or before the closing, with the other documents",
+      "Before entering into the listing agreement"
+    ],
+    "answer": 3,
+    "explanation": "A seller's agent must give the seller the disclosure before the listing agreement is signed. A buyer's agent must give it to the buyer before a buyer-agency agreement.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "agency-009",
+    "topic": "agency",
+    "q": "A seller's agent meets a prospective buyer at an open house and starts discussing the buyer's budget and housing needs. When must the agent give this buyer the disclosure form?",
+    "options": [
+      "Before the buyer makes a written offer",
+      "Only if the buyer asks for it",
+      "After the buyer signs a purchase contract",
+      "At this first substantive contact"
+    ],
+    "answer": 3,
+    "explanation": "The disclosure goes to the other party at the first substantive contact. A casual greeting doesn't count, but discussing the buyer's finances and needs does.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "agency-010",
+    "topic": "agency",
+    "q": "Which transaction is NOT covered by the RPL § 443 agency disclosure requirement?",
+    "options": [
+      "Sale of an owner-occupied two-family house",
+      "Sale of a vacant, unimproved building lot",
+      "Sale of a condominium unit in a high-rise",
+      "Sale of a cooperative apartment's shares"
+    ],
+    "answer": 1,
+    "explanation": "Section 443 covers 1-4 family residential property and condo/co-op units. It does not cover unimproved land. The agent's general agency and honesty duties still apply.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "agency-011",
+    "topic": "agency",
+    "q": "A licensee is helping a landlord rent out a residential apartment. Which agency disclosure form applies?",
+    "options": [
+      "DOS-1736, the buyer and seller disclosure form",
+      "DOS-2156, the fair housing notice",
+      "DOS-1735, the landlord and tenant disclosure form",
+      "The Property Condition Disclosure Statement"
+    ],
+    "answer": 2,
+    "explanation": "DOS-1735 covers landlord/tenant relationships and DOS-1736 covers buyers and sellers. The fair housing notice and the PCDS are separate documents and do not replace the agency disclosure.",
+    "citation": "NY RPL § 443; DOS-1735 disclosure form"
+  },
+  {
+    "id": "agency-012",
+    "topic": "agency",
+    "q": "A buyer refuses to sign the acknowledgment on the agency disclosure form. The licensee should:",
+    "options": [
+      "Make a written declaration of the refusal and keep it at least three years",
+      "Stop working with the buyer, since the form must be signed to proceed",
+      "Tell the broker verbally about the refusal; no written record is needed",
+      "Sign the buyer's name with the buyer's verbal permission and continue"
+    ],
+    "answer": 0,
+    "explanation": "A refusal does not cancel the disclosure duty. The licensee prepares a written declaration of the facts (under oath or affirmation) and keeps it, like signed acknowledgments, for at least three years.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "agency-013",
+    "topic": "agency",
+    "q": "A New York broker may act as a dual agent in a sale only if:",
+    "options": [
+      "The broker tells the buyer about the dual role orally",
+      "Both the buyer and the seller give informed written consent",
+      "The seller consents, since the seller pays the commission",
+      "Both clients are handled within the broker's own office"
+    ],
+    "answer": 1,
+    "explanation": "Dual agency requires informed consent in writing from both principals. Each side gives up the right to undivided loyalty, so oral or one-sided consent is not enough.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-014",
+    "topic": "agency",
+    "q": "Can a buyer or seller consent to dual agency before a specific dual-agency situation arises?",
+    "options": [
+      "No, consent is valid only after a specific property is chosen",
+      "No, dual agency is prohibited in New York sales",
+      "Yes, but only by telling the broker orally",
+      "Yes, advance informed consent can be given on the disclosure form"
+    ],
+    "answer": 3,
+    "explanation": "The DOS form has checkboxes for advance informed consent to dual agency, with or without designated sales agents. The agent should still explain the arrangement when it actually happens.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-015",
+    "topic": "agency",
+    "q": "With informed written consent, a dual-agent broker designates Salesperson A for the buyer and Salesperson B for the seller. Which statement is correct?",
+    "options": [
+      "The broker remains a dual agent; neither designee gives undivided loyalty",
+      "The broker stops being a dual agent once the sales agents are designated",
+      "Each designated agent gives full undivided loyalty to his or her client",
+      "The designated agents must be associated with different brokerages"
+    ],
+    "answer": 0,
+    "explanation": "Designated sales agents advocate for their assigned clients, but the broker is still a dual agent. The NY form says designated agents cannot provide undivided loyalty. Some other states treat this differently, but New York does not.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-016",
+    "topic": "agency",
+    "q": "Salesperson Kim of ABC Realty has a buyer-agency agreement with Lee. Lee wants to buy a house listed by another ABC Realty salesperson. What is ABC Realty's position?",
+    "options": [
+      "There is no conflict, because different salespersons handle each side",
+      "Kim may continue as Lee's agent with no further consent",
+      "ABC would be a dual agent and needs both parties' informed written consent",
+      "The listing salesperson automatically becomes Lee's agent"
+    ],
+    "answer": 2,
+    "explanation": "The agency relationship is with the brokerage, not the individual salesperson. A firm representing both sides is a dual agent no matter which associates handle each side, so written informed consent is required.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "agency-017",
+    "topic": "agency",
+    "q": "Without either party's written consent, a listing salesperson secretly advises the buyer on how low to offer. Which statement is correct?",
+    "options": [
+      "It is allowed if the seller ends up accepting the buyer's offer anyway",
+      "It is allowed because the buyer is only a customer, not a client",
+      "It is undisclosed dual agency, which a successful closing does not cure",
+      "It is designated agency, which requires no written consent from either party"
+    ],
+    "answer": 2,
+    "explanation": "Acting for both sides without informed written consent is undisclosed dual agency and a breach of loyalty to the seller. It can lead to DOS discipline and loss of the commission even if the sale closes.",
+    "citation": "NY RPL § 443; 19 NYCRR § 175.7"
+  },
+  {
+    "id": "agency-018",
+    "topic": "agency",
+    "q": "A listing agent engages a broker's agent from a different firm to help find a buyer. If the broker's agent misrepresents the property, who has liability for the broker's agent's acts, according to the NY disclosure form?",
+    "options": [
+      "The listing agent who directs the broker's agent",
+      "The seller, because the broker's agent works for the seller",
+      "The buyer, because the buyer relied on the statement",
+      "No one, because broker's agents owe no duties"
+    ],
+    "answer": 0,
+    "explanation": "The form says the seller cannot direct a broker's agent and has no vicarious liability for its acts. The listing agent who engages and directs the broker's agent carries that liability.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  },
+  {
+    "id": "agency-019",
+    "topic": "agency",
+    "q": "How does a seller's subagent differ from a broker's agent?",
+    "options": [
+      "A subagent represents the buyer; a broker's agent represents the seller",
+      "Only a subagent's acts can make the seller vicariously liable",
+      "A subagent must belong to the listing firm; a broker's agent need not",
+      "They are the same role, described under two interchangeable names"
+    ],
+    "answer": 1,
+    "explanation": "A subagent is the seller's agent through the listing broker, so the seller can be vicariously liable for its acts. A broker's agent answers to the engaging agent, and the seller has no vicarious liability for it.",
+    "citation": "Common-law agency principles; NY RPL § 443 (DOS-1736)"
+  },
+  {
+    "id": "agency-020",
+    "topic": "agency",
+    "q": "Which event terminates a listing agency relationship by operation of law?",
+    "options": [
+      "The listing being entered into the MLS",
+      "A buyer's agent showing the property",
+      "The seller hiring an attorney for closing",
+      "The death of the seller-principal"
+    ],
+    "answer": 3,
+    "explanation": "Death or incapacity of the principal (or destruction of the property) ends the agency by operation of law. The other events are ordinary parts of a transaction.",
+    "citation": "Common-law agency principles"
+  },
+  {
+    "id": "agency-021",
+    "topic": "agency",
+    "q": "A listing expires without a sale. A buyer then asks the former listing agent what the seller's bottom-line price was. The agent should:",
+    "options": [
+      "Disclose it, since all agency duties ended with the listing",
+      "Keep it confidential, because that duty survives the agency's end",
+      "Disclose it only if the buyer signs a buyer-agency agreement",
+      "Disclose it if the seller has not relisted the property"
+    ],
+    "answer": 1,
+    "explanation": "Confidentiality continues after the agency ends. The former agent may not use or reveal the ex-client's confidential bargaining information.",
+    "citation": "Common-law agency principles; NY RPL § 443 (DOS-1736)"
+  },
+  {
+    "id": "agency-022",
+    "topic": "agency",
+    "q": "A seller's agent helps an unrepresented buyer fill in an offer form and describes the home's features. Does this, by itself, make the agent the buyer's agent?",
+    "options": [
+      "Yes; helping fill in the offer form creates buyer agency",
+      "Yes; the agent automatically becomes a dual agent at that point",
+      "No; helping a customer does not by itself create buyer agency",
+      "No; but the agent must stop assisting the buyer immediately"
+    ],
+    "answer": 2,
+    "explanation": "A seller's agent may give an unrepresented buyer factual help and stay the seller's agent. To avoid accidentally creating agency, the agent should explain their role and not coach the buyer's negotiating strategy.",
+    "citation": "NY RPL § 443; DOS-1736 disclosure form"
+  }
+]

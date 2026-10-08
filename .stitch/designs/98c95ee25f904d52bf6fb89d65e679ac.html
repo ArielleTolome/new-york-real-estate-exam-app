@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Custom Quiz Builder - NY Real Estate Exam Prep</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-high": "#242a39",
+            "on-primary-fixed": "#002113",
+            "on-background": "#dde2f6",
+            "primary-fixed-dim": "#4edea3",
+            "primary-fixed": "#6ffbbe",
+            "on-secondary-fixed-variant": "#2f2ebe",
+            "on-primary-container": "#00422b",
+            "inverse-primary": "#006c49",
+            "surface-dim": "#0d1321",
+            "error": "#ffb4ab",
+            "tertiary-fixed": "#ffddb8",
+            "on-tertiary": "#472a00",
+            "on-error-container": "#ffdad6",
+            "on-secondary-fixed": "#07006c",
+            "error-container": "#93000a",
+            "outline": "#86948a",
+            "primary": "#4edea3",
+            "on-tertiary-container": "#523200",
+            "on-primary-fixed-variant": "#005236",
+            "on-surface": "#dde2f6",
+            "tertiary-fixed-dim": "#ffb95f",
+            "inverse-surface": "#dde2f6",
+            "on-tertiary-fixed": "#2a1700",
+            "on-tertiary-fixed-variant": "#653e00",
+            "on-secondary": "#1000a9",
+            "surface-container-low": "#151b29",
+            "secondary-container": "#3131c0",
+            "inverse-on-surface": "#2a303f",
+            "on-secondary-container": "#b0b2ff",
+            "tertiary-container": "#e29100",
+            "secondary": "#c0c1ff",
+            "secondary-fixed-dim": "#c0c1ff",
+            "on-primary": "#003824",
+            "surface-variant": "#2f3544",
+            "surface-container-highest": "#2f3544",
+            "on-surface-variant": "#bbcabf",
+            "on-error": "#690005",
+            "background": "#0d1321",
+            "surface-bright": "#333948",
+            "surface": "#0d1321",
+            "primary-container": "#10b981",
+            "surface-container-lowest": "#080e1c",
+            "tertiary": "#ffb95f",
+            "surface-tint": "#4edea3",
+            "outline-variant": "#3c4a42",
+            "surface-container": "#191f2e",
+            "secondary-fixed": "#e1e0ff"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            headline: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            display: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            body: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            label: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', Inter, 'Segoe UI', Roboto, sans-serif;
+      background-color: #090d16;
+      color: #e5e7eb;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .safe-top {
+      padding-top: env(safe-area-inset-top, 0px);
+    }
+    .safe-bottom {
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+    .custom-scroll::-webkit-scrollbar {
+      display: none;
+    }
+    .custom-scroll {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#090d16] text-[#e5e7eb] min-h-screen flex flex-col justify-between antialiased selection:bg-[#10b981] selection:text-[#090d16]">
+<!-- Top App Bar (Shared Component Anchor) -->
+<header class="sticky top-0 z-40 bg-[#090d16] safe-top px-4 h-14 w-full flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-3">
+<button aria-label="Go back" class="w-10 h-10 flex items-center justify-center rounded-xl text-[#94a3b8] hover:text-[#e5e7eb] hover:bg-[#121826] active:scale-95 transition-transform duration-150" type="button">
+<span class="material-symbols-outlined text-[24px]">arrow_back</span>
+</button>
+<h1 class="font-headline text-[18px] font-semibold tracking-tight text-[#e5e7eb]">Custom Quiz Builder</h1>
+</div>
+<button class="px-2.5 py-1.5 text-xs font-semibold text-[#94a3b8] hover:text-[#e5e7eb] rounded-lg transition-colors active:scale-95 duration-150" id="reset-btn" type="button">
+      RESET
+    </button>
+</header>
+<!-- Main Scrollable Canvas Area -->
+<main class="flex-1 w-full max-w-lg mx-auto px-4 pt-3 pb-36 space-y-6">
+<!-- Statutory / Metadata Exam Box -->
+<section class="bg-[#121826] border border-[#1f293d] rounded-[14px] p-3.5 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-[#6366f1]/15 text-[#6366f1] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+<div>
+<p class="text-xs font-semibold text-[#e5e7eb] tracking-wide">NY RPL Article 12-A weight: 35%</p>
+<p class="text-[11px] text-[#94a3b8] mt-0.5">Estimated completion time: 22 mins</p>
+</div>
+</div>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded-full bg-[#10b981]/15 text-[#10b981] border border-[#10b981]/30">
+        Pass: 70%
+      </span>
+</section>
+<!-- Section 1: Topics Multi-Select -->
+<section class="space-y-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<h2 class="text-[17px] font-semibold text-[#e5e7eb] tracking-tight">Topics</h2>
+<span class="text-[12px] font-medium text-[#94a3b8] bg-[#121826] border border-[#1f293d] px-2 py-0.5 rounded-full" id="topic-count-badge">
+            19 Available • 12 Selected
+          </span>
+</div>
+<button class="text-xs font-semibold text-[#10b981] hover:underline active:scale-95 transition-transform" id="toggle-all-topics" type="button">
+          Select all
+        </button>
+</div>
+<!-- Pill Chips Flex-Wrap -->
+<div class="flex flex-wrap gap-2.5 pt-0.5" id="topic-container">
+<!-- 12 Selected Chips -->
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>License Law</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Agency</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Title &amp; Deeds</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Estates &amp; Liens</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Contracts</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Finance</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Land Use</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Construction &amp; Env</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Valuation</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Fair Housing</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Math</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#10b981] bg-[#10b981]/10 text-[#10b981] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="true" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Municipal</span>
+</button>
+<!-- 7 Unselected Chips -->
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Insurance</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Taxes</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Condo &amp; Co-op</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Commercial</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Property Mgmt</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Rentals</span>
+</button>
+<button class="topic-chip h-[46px] px-3.5 rounded-full border border-[#1f293d] bg-[#121826] text-[#94a3b8] text-[13px] font-medium flex items-center gap-1.5 active:scale-95 transition-all" data-selected="false" type="button">
+<span class="material-symbols-outlined text-[16px] hidden">check</span>
+<span>Closing</span>
+</button>
+</div>
+</section>
+<!-- Section 2: Question Count -->
+<section class="space-y-3">
+<div class="flex items-center justify-between">
+<h2 class="text-[17px] font-semibold text-[#e5e7eb] tracking-tight">Question count</h2>
+<span class="text-xs font-medium text-[#94a3b8] flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+          Passing score: 70%
+        </span>
+</div>
+<div class="grid grid-cols-5 gap-2">
+<button class="count-pill h-[52px] rounded-[12px] bg-[#121826] border border-[#1f293d] text-[#e5e7eb] font-semibold text-sm flex items-center justify-center active:scale-95 transition-transform" data-count="10" type="button">
+          10
+        </button>
+<button class="count-pill h-[52px] rounded-[12px] bg-[#10b981] border border-[#10b981] text-[#090d16] font-bold text-sm flex items-center justify-center active:scale-95 transition-transform" data-count="25" type="button">
+          25
+        </button>
+<button class="count-pill h-[52px] rounded-[12px] bg-[#121826] border border-[#1f293d] text-[#e5e7eb] font-semibold text-sm flex items-center justify-center active:scale-95 transition-transform" data-count="50" type="button">
+          50
+        </button>
+<button class="count-pill h-[52px] rounded-[12px] bg-[#121826] border border-[#1f293d] text-[#e5e7eb] font-semibold text-sm flex items-center justify-center active:scale-95 transition-transform" data-count="75" type="button">
+          75
+        </button>
+<button class="count-pill h-[52px] rounded-[12px] bg-[#121826] border border-[#1f293d] text-[#e5e7eb] font-semibold text-sm flex items-center justify-center active:scale-95 transition-transform" data-count="custom" type="button">
+          Custom
+        </button>
+</div>
+</section>
+<!-- Section 3: Mode -->
+<section class="space-y-3">
+<h2 class="text-[17px] font-semibold text-[#e5e7eb] tracking-tight">Mode</h2>
+<div class="grid grid-cols-2 gap-3">
+<!-- Study Mode Card (Selected) -->
+<div class="mode-card bg-[#121826] border-2 border-[#10b981] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform" id="mode-study">
+<div class="flex items-start justify-between">
+<span class="text-base font-semibold text-[#e5e7eb]">Study</span>
+<div class="w-5 h-5 rounded-full border-2 border-[#10b981] flex items-center justify-center">
+<div class="w-2.5 h-2.5 rounded-full bg-[#10b981]"></div>
+</div>
+</div>
+<p class="text-xs text-[#94a3b8] leading-tight mt-2">Instant feedback &amp; explanations</p>
+</div>
+<!-- Timed Exam Mode Card (Unselected) -->
+<div class="mode-card bg-[#121826] border border-[#1f293d] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform" id="mode-timed">
+<div class="flex items-start justify-between">
+<span class="text-base font-semibold text-[#94a3b8]">Timed Exam</span>
+<div class="w-5 h-5 rounded-full border border-[#1f293d] flex items-center justify-center">
+<div class="w-2.5 h-2.5 rounded-full bg-transparent"></div>
+</div>
+</div>
+<p class="text-xs text-[#94a3b8] leading-tight mt-2">Official 2.5 hr simulator</p>
+</div>
+</div>
+</section>
+<!-- Section 4: Filter -->
+<section class="space-y-3">
+<h2 class="text-[17px] font-semibold text-[#e5e7eb] tracking-tight">Filter</h2>
+<div class="grid grid-cols-4 gap-2 bg-[#121826] p-1.5 rounded-[14px] border border-[#1f293d]">
+<button class="filter-tab h-[44px] rounded-[10px] bg-[#10b981] text-[#090d16] font-semibold text-xs flex items-center justify-center gap-1 active:scale-95 transition-transform" data-filter="all" type="button">
+<span>All</span>
+</button>
+<button class="filter-tab h-[44px] rounded-[10px] bg-transparent text-[#94a3b8] font-medium text-xs flex items-center justify-center gap-1 hover:text-[#e5e7eb] active:scale-95 transition-transform" data-filter="unseen" type="button">
+<span>Unseen</span>
+</button>
+<button class="filter-tab h-[44px] rounded-[10px] bg-transparent text-[#94a3b8] font-medium text-xs flex items-center justify-center gap-1.5 hover:text-[#e5e7eb] active:scale-95 transition-transform" data-filter="bookmarked" type="button">
+<span class="w-2 h-2 rounded-full bg-[#f59e0b] shrink-0"></span>
+<span>Saved</span>
+</button>
+<button class="filter-tab h-[44px] rounded-[10px] bg-transparent text-[#94a3b8] font-medium text-xs flex items-center justify-center gap-1.5 hover:text-[#e5e7eb] active:scale-95 transition-transform" data-filter="mistakes" type="button">
+<span class="w-2 h-2 rounded-full bg-[#ef4444] shrink-0"></span>
+<span>Mistakes</span>
+</button>
+</div>
+</section>
+<!-- Section 5: Options (Toggles) -->
+<section class="space-y-3">
+<h2 class="text-[17px] font-semibold text-[#e5e7eb] tracking-tight">Options</h2>
+<div class="bg-[#121826] border border-[#1f293d] rounded-[14px] divide-y divide-[#1f293d] overflow-hidden">
+<!-- Row 1: Shuffle questions -->
+<label class="flex items-center justify-between p-4 cursor-pointer hover:bg-[#151b29] transition-colors select-none">
+<div class="pr-4">
+<p class="text-sm font-semibold text-[#e5e7eb]">Shuffle questions</p>
+<p class="text-xs text-[#94a3b8] mt-0.5">Randomize question sequence</p>
+</div>
+<div class="relative inline-flex items-center">
+<input checked="" class="sr-only peer" id="toggle-shuffle-q" type="checkbox"/>
+<div class="w-12 h-7 bg-[#1f293d] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[3px] after:left-[4px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#10b981]"></div>
+</div>
+</label>
+<!-- Row 2: Shuffle answers -->
+<label class="flex items-center justify-between p-4 cursor-pointer hover:bg-[#151b29] transition-colors select-none">
+<div class="pr-4">
+<p class="text-sm font-semibold text-[#e5e7eb]">Shuffle answers</p>
+<p class="text-xs text-[#94a3b8] mt-0.5">Randomize multiple choice options</p>
+</div>
+<div class="relative inline-flex items-center">
+<input checked="" class="sr-only peer" id="toggle-shuffle-a" type="checkbox"/>
+<div class="w-12 h-7 bg-[#1f293d] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[3px] after:left-[4px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#10b981]"></div>
+</div>
+</label>
+</div>
+</section>
+</main>
+<!-- Sticky Bottom Action Bar (Thumb Zone) -->
+<aside class="fixed bottom-[58px] left-0 w-full z-30 bg-[#090d16]/95 backdrop-blur-md border-t border-[#1f293d] px-4 py-3">
+<div class="max-w-lg mx-auto">
+<button class="w-full h-[52px] bg-[#10b981] hover:bg-[#10b981]/90 text-[#090d16] font-bold text-base rounded-[12px] flex items-center justify-center gap-2 active:scale-[0.98] transition-transform duration-150 shadow-lg" id="start-quiz-btn" type="button">
+<span>Start 25 Questions</span>
+<span class="material-symbols-outlined text-[20px] font-bold">arrow_forward</span>
+</button>
+</div>
+</aside>
+<!-- BottomNavBar (Shared Component Anchor) -->
+<nav class="fixed bottom-0 left-0 w-full z-40 flex justify-around items-center px-4 py-1 pb-safe bg-[#151b29] min-h-[52px] border-t border-[#1f293d]">
+<!-- Drill -->
+<a class="flex flex-col items-center justify-center py-1 text-[#bbcabf] hover:text-[#4edea3] active:scale-95 transition-transform duration-100 flex-1" href="#">
+<span class="material-symbols-outlined text-[22px]">fitness_center</span>
+<span class="font-label text-[11px] font-semibold mt-0.5">Drill</span>
+</a>
+<!-- Custom Quiz (Active Match) -->
+<a class="flex flex-col items-center justify-center py-1 text-[#10b981] font-semibold active:scale-95 transition-transform duration-100 flex-1" href="#">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">quiz</span>
+<span class="font-label text-[11px] font-semibold mt-0.5">Custom Quiz</span>
+</a>
+<!-- Mistakes -->
+<a class="flex flex-col items-center justify-center py-1 text-[#bbcabf] hover:text-[#4edea3] active:scale-95 transition-transform duration-100 flex-1" href="#">
+<span class="material-symbols-outlined text-[22px]">rule</span>
+<span class="font-label text-[11px] font-semibold mt-0.5">Mistakes</span>
+</a>
+<!-- Stats -->
+<a class="flex flex-col items-center justify-center py-1 text-[#bbcabf] hover:text-[#4edea3] active:scale-95 transition-transform duration-100 flex-1" href="#">
+<span class="material-symbols-outlined text-[22px]">analytics</span>
+<span class="font-label text-[11px] font-semibold mt-0.5">Stats</span>
+</a>
+</nav>
+<!-- Micro-interactions JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Topic chips toggle
+      const chips = document.querySelectorAll('.topic-chip');
+      const badge = document.getElementById('topic-count-badge');
+      const toggleAllBtn = document.getElementById('toggle-all-topics');
+      const startBtn = document.getElementById('start-quiz-btn');
+
+      function updateTopicBadge() {
+        const selectedCount = document.querySelectorAll('.topic-chip[data-selected="true"]').length;
+        badge.textContent = `19 Available • ${selectedCount} Selected`;
+        if (selectedCount === 19) {
+          toggleAllBtn.textContent = 'Deselect all';
+        } else {
+          toggleAllBtn.textContent = 'Select all';
+        }
+      }
+
+      chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          const isSelected = chip.getAttribute('data-selected') === 'true';
+          const icon = chip.querySelector('.material-symbols-outlined');
+          
+          if (isSelected) {
+            chip.setAttribute('data-selected', 'false');
+            chip.classList.remove('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            chip.classList.add('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            if (icon) icon.classList.add('hidden');
+          } else {
+            chip.setAttribute('data-selected', 'true');
+            chip.classList.remove('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            chip.classList.add('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            if (icon) icon.classList.remove('hidden');
+          }
+          updateTopicBadge();
+        });
+      });
+
+      toggleAllBtn.addEventListener('click', () => {
+        const currentlySelected = document.querySelectorAll('.topic-chip[data-selected="true"]').length;
+        const targetState = currentlySelected < 19;
+        chips.forEach(chip => {
+          const icon = chip.querySelector('.material-symbols-outlined');
+          if (targetState) {
+            chip.setAttribute('data-selected', 'true');
+            chip.classList.remove('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            chip.classList.add('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            if (icon) icon.classList.remove('hidden');
+          } else {
+            chip.setAttribute('data-selected', 'false');
+            chip.classList.remove('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            chip.classList.add('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            if (icon) icon.classList.add('hidden');
+          }
+        });
+        updateTopicBadge();
+      });
+
+      // Question count selection
+      const countPills = document.querySelectorAll('.count-pill');
+      countPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          countPills.forEach(p => {
+            p.classList.remove('bg-[#10b981]', 'border-[#10b981]', 'text-[#090d16]', 'font-bold');
+            p.classList.add('bg-[#121826]', 'border-[#1f293d]', 'text-[#e5e7eb]', 'font-semibold');
+          });
+          pill.classList.remove('bg-[#121826]', 'border-[#1f293d]', 'text-[#e5e7eb]', 'font-semibold');
+          pill.classList.add('bg-[#10b981]', 'border-[#10b981]', 'text-[#090d16]', 'font-bold');
+          
+          const countVal = pill.getAttribute('data-count');
+          const btnLabel = countVal === 'custom' ? 'Start Custom Quiz' : `Start ${countVal} Questions`;
+          startBtn.querySelector('span:first-child').textContent = btnLabel;
+        });
+      });
+
+      // Mode switch
+      const modeStudy = document.getElementById('mode-study');
+      const modeTimed = document.getElementById('mode-timed');
+
+      modeStudy.addEventListener('click', () => {
+        modeStudy.className = 'mode-card bg-[#121826] border-2 border-[#10b981] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform';
+        modeStudy.querySelector('span').className = 'text-base font-semibold text-[#e5e7eb]';
+        modeStudy.querySelector('.w-5').className = 'w-5 h-5 rounded-full border-2 border-[#10b981] flex items-center justify-center';
+        modeStudy.querySelector('.w-2\\.5').className = 'w-2.5 h-2.5 rounded-full bg-[#10b981]';
+
+        modeTimed.className = 'mode-card bg-[#121826] border border-[#1f293d] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform';
+        modeTimed.querySelector('span').className = 'text-base font-semibold text-[#94a3b8]';
+        modeTimed.querySelector('.w-5').className = 'w-5 h-5 rounded-full border border-[#1f293d] flex items-center justify-center';
+        modeTimed.querySelector('.w-2\\.5').className = 'w-2.5 h-2.5 rounded-full bg-transparent';
+      });
+
+      modeTimed.addEventListener('click', () => {
+        modeTimed.className = 'mode-card bg-[#121826] border-2 border-[#10b981] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform';
+        modeTimed.querySelector('span').className = 'text-base font-semibold text-[#e5e7eb]';
+        modeTimed.querySelector('.w-5').className = 'w-5 h-5 rounded-full border-2 border-[#10b981] flex items-center justify-center';
+        modeTimed.querySelector('.w-2\\.5').className = 'w-2.5 h-2.5 rounded-full bg-[#10b981]';
+
+        modeStudy.className = 'mode-card bg-[#121826] border border-[#1f293d] rounded-[14px] p-3.5 flex flex-col justify-between min-h-[96px] cursor-pointer select-none active:scale-[0.98] transition-transform';
+        modeStudy.querySelector('span').className = 'text-base font-semibold text-[#94a3b8]';
+        modeStudy.querySelector('.w-5').className = 'w-5 h-5 rounded-full border border-[#1f293d] flex items-center justify-center';
+        modeStudy.querySelector('.w-2\\.5').className = 'w-2.5 h-2.5 rounded-full bg-transparent';
+      });
+
+      // Filter Segmented Control
+      const filterTabs = document.querySelectorAll('.filter-tab');
+      filterTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          filterTabs.forEach(t => {
+            t.className = 'filter-tab h-[44px] rounded-[10px] bg-transparent text-[#94a3b8] font-medium text-xs flex items-center justify-center gap-1.5 hover:text-[#e5e7eb] active:scale-95 transition-transform';
+          });
+          tab.className = 'filter-tab h-[44px] rounded-[10px] bg-[#10b981] text-[#090d16] font-semibold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition-transform';
+        });
+      });
+
+      // Reset Action
+      document.getElementById('reset-btn').addEventListener('click', () => {
+        // Reset topic chips to 12 selected
+        const defaultIndices = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+        chips.forEach((chip, idx) => {
+          const icon = chip.querySelector('.material-symbols-outlined');
+          if (defaultIndices.includes(idx)) {
+            chip.setAttribute('data-selected', 'true');
+            chip.classList.remove('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            chip.classList.add('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            if (icon) icon.classList.remove('hidden');
+          } else {
+            chip.setAttribute('data-selected', 'false');
+            chip.classList.remove('border-[#10b981]', 'bg-[#10b981]/10', 'text-[#10b981]');
+            chip.classList.add('border-[#1f293d]', 'bg-[#121826]', 'text-[#94a3b8]');
+            if (icon) icon.classList.add('hidden');
+          }
+        });
+        updateTopicBadge();
+        
+        // Reset count to 25
+        countPills[1].click();
+
+        // Reset to Study mode
+        modeStudy.click();
+
+        // Reset to All filter
+        filterTabs[0].click();
+      });
+    });
+  </script>
+</body></html>

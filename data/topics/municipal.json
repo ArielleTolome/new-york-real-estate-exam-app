@@ -1,0 +1,310 @@
+[
+  {
+    "id": "municipal-001",
+    "topic": "municipal",
+    "q": "An owner wants an entire neighborhood's zoning district changed from residential to commercial. In a New York town, which body has the power to amend the zoning ordinance and map?",
+    "options": [
+      "The town board",
+      "The zoning board of appeals",
+      "The planning board",
+      "The building inspector"
+    ],
+    "answer": 0,
+    "explanation": "Adopting and amending zoning is a legislative act of the town board (city council or village board of trustees). The ZBA grants variances and interprets the ordinance; it cannot rezone.",
+    "citation": "NY Town Law §§ 264-265"
+  },
+  {
+    "id": "municipal-002",
+    "topic": "municipal",
+    "q": "In a New York village, which elected body adopts the zoning law and the village budget?",
+    "options": [
+      "The zoning board of appeals",
+      "The planning board",
+      "The board of trustees",
+      "The board of assessment review"
+    ],
+    "answer": 2,
+    "explanation": "A village's legislative body is its board of trustees, which adopts local laws including zoning, plus the budget and tax rate. Appointed boards such as the planning board and ZBA do not.",
+    "citation": "NY Village Law § 7-700"
+  },
+  {
+    "id": "municipal-003",
+    "topic": "municipal",
+    "q": "Which statement about a town planning board is accurate?",
+    "options": [
+      "Its members are elected by town voters, and it grants use and area variances",
+      "Its members are appointed by the town board, and it reviews subdivision plats",
+      "Its members are appointed by the governor, and it collects town property taxes",
+      "Its members are elected by town voters, and it adopts the annual town budget"
+    ],
+    "answer": 1,
+    "explanation": "Planning board members are appointed by the legislative body. The board performs authorized land-use review such as subdivision plats and site plans, and advises on the comprehensive plan.",
+    "citation": "NY Town Law § 271"
+  },
+  {
+    "id": "municipal-004",
+    "topic": "municipal",
+    "q": "A company wants to build an office building on a lot where offices are a permitted use. The town requires review of the parking layout, lighting, drainage and landscaping. This is:",
+    "options": [
+      "A use variance hearing before the zoning board of appeals",
+      "A rezoning before the town board",
+      "A certificate of occupancy inspection",
+      "Site plan review, typically by the planning board"
+    ],
+    "answer": 3,
+    "explanation": "Site plan review examines how a permitted use is laid out on the parcel: parking, access, lighting, drainage and landscaping. No variance is needed because the use is allowed.",
+    "citation": "NY Town Law § 274-a"
+  },
+  {
+    "id": "municipal-005",
+    "topic": "municipal",
+    "q": "A building inspector denies a permit because he interprets a proposed garage apartment as a prohibited second dwelling. The owner believes the ordinance allows it. Where does the owner first appeal the interpretation?",
+    "options": [
+      "The town board of assessment review",
+      "The County Clerk",
+      "The Department of State",
+      "The zoning board of appeals"
+    ],
+    "answer": 3,
+    "explanation": "The ZBA hears appeals from orders, interpretations and determinations of the administrative official charged with enforcing the zoning ordinance. It acts as the ordinance's interpreter.",
+    "citation": "NY Town Law § 267-a"
+  },
+  {
+    "id": "municipal-006",
+    "topic": "municipal",
+    "q": "Which description of a zoning board of appeals is most accurate?",
+    "options": [
+      "A legislative body that rewrites the zoning map when owners request it",
+      "A quasi-judicial body that applies legal standards to appeals and variances",
+      "An elected body that sets the tax rate and adopts the budget",
+      "An advisory body whose decisions are never binding on applicants"
+    ],
+    "answer": 1,
+    "explanation": "The ZBA is administrative and quasi-judicial: it decides appeals, interpretations and variance requests under statutory standards. Rezoning is legislative and belongs to the governing board.",
+    "citation": "NY Town Law §§ 267, 267-a, 267-b"
+  },
+  {
+    "id": "municipal-007",
+    "topic": "municipal",
+    "q": "A property owner in a designated design district wants to replace a storefront facade and add a large sign. Which local body typically reviews exterior appearance, signs and fences where established?",
+    "options": [
+      "The architectural review board",
+      "The board of assessment review",
+      "The conservation advisory council",
+      "The county health department"
+    ],
+    "answer": 0,
+    "explanation": "An architectural review board reviews the effect of new construction or alterations on the surrounding area, especially exteriors, signs and fences. Its approval is separate from zoning and building-code compliance.",
+    "citation": "NY Town Law; NY Village Law (local architectural review law)"
+  },
+  {
+    "id": "municipal-008",
+    "topic": "municipal",
+    "q": "What is the primary role of a municipal conservation advisory council?",
+    "options": [
+      "To issue building permits for new homes proposed near wetlands",
+      "To grant area and use variances for building in environmental zones",
+      "To study and advise on the community's natural resources and open space",
+      "To set assessed values for undeveloped open land on the tax roll"
+    ],
+    "answer": 2,
+    "explanation": "A conservation advisory council is an appointed body that inventories and advises on natural resources and open space. It does not issue building permits, grant variances, or replace a DEC wetland permit.",
+    "citation": "NY General Municipal Law § 239-x"
+  },
+  {
+    "id": "municipal-009",
+    "topic": "municipal",
+    "q": "A buyer's agent wants to confirm that a finished basement was built with permits and passed inspection. Which local office should be contacted?",
+    "options": [
+      "The building department or code enforcement office",
+      "The receiver of taxes or the town assessor's office",
+      "The zoning board of appeals or the planning board",
+      "The town board clerk's election office"
+    ],
+    "answer": 0,
+    "explanation": "The building department issues building permits, conducts inspections, issues certificates of occupancy/completion and handles violations. It is the gatekeeper for construction activity.",
+    "citation": "NY Executive Law Article 18; local building code"
+  },
+  {
+    "id": "municipal-010",
+    "topic": "municipal",
+    "q": "A homeowner complains that her property tax bill is too high and asks who set the tax rate. Which statement is correct?",
+    "options": [
+      "The assessor sets both the assessed value and the tax rate",
+      "The receiver of taxes sets both the assessed value and the tax rate",
+      "The assessor values property; the legislative body sets the levy and tax rate",
+      "The planning board sets the tax rate as part of the master plan"
+    ],
+    "answer": 2,
+    "explanation": "The assessor estimates value for the assessment roll. The governing body adopts the budget and tax levy, from which the rate is derived, and the receiver of taxes collects. These roles are separate.",
+    "citation": "NY Real Property Tax Law"
+  },
+  {
+    "id": "municipal-011",
+    "topic": "municipal",
+    "q": "A buyer is purchasing a rural lot with no public sewer. Which agency typically must approve the design of a new septic system?",
+    "options": [
+      "The zoning board of appeals",
+      "The county health department",
+      "The architectural review board",
+      "The town assessor"
+    ],
+    "answer": 1,
+    "explanation": "Septic system design approval is typically handled by the county (or state) health department under sanitary code standards, not by zoning or design boards.",
+    "citation": "NY Public Health Law; county sanitary code"
+  },
+  {
+    "id": "municipal-012",
+    "topic": "municipal",
+    "q": "A town proposes rezoning a parcel within 500 feet of a state highway. Before final action, New York law generally requires the town to:",
+    "options": [
+      "Obtain approval from the State Department of Transportation",
+      "Hold a referendum of all town voters",
+      "Obtain a positive declaration under SEQR",
+      "Refer the proposal to the county planning agency for review"
+    ],
+    "answer": 3,
+    "explanation": "Certain zoning actions affecting property within 500 feet of a municipal boundary, state or county road, park or other listed facilities must be referred to the county planning agency. If the county recommends disapproval or modification, the local board can act contrary to it only by a vote of a majority plus one of all its members.",
+    "citation": "NY General Municipal Law § 239-m"
+  },
+  {
+    "id": "municipal-013",
+    "topic": "municipal",
+    "q": "An owner of a designated landmark building in New York City wants to replace its original windows. Which agency must approve the work?",
+    "options": [
+      "The Board of Standards and Appeals",
+      "The City Planning Commission",
+      "The local community board",
+      "The Landmarks Preservation Commission"
+    ],
+    "answer": 3,
+    "explanation": "NYC's Landmarks Preservation Commission designates landmarks and historic districts and regulates alterations to designated properties. Historic age alone is not landmark status.",
+    "citation": "NYC Administrative Code § 25-301 et seq. (Landmarks Law)"
+  },
+  {
+    "id": "municipal-014",
+    "topic": "municipal",
+    "q": "In New York City, which agency issues building permits and certificates of occupancy and enforces the construction codes?",
+    "options": [
+      "The City Planning Commission",
+      "The Department of Buildings",
+      "The Board of Standards and Appeals",
+      "The Department of Finance"
+    ],
+    "answer": 1,
+    "explanation": "The NYC Department of Buildings issues permits and COs, inspects work and enforces the construction codes and Zoning Resolution. CPC handles planning/zoning changes; BSA grants variances.",
+    "citation": "NYC Charter Chapter 26; NYC Construction Codes"
+  },
+  {
+    "id": "municipal-015",
+    "topic": "municipal",
+    "q": "An owner in New York City needs a zoning variance for a building that cannot meet a setback requirement because of the lot's irregular shape. Which body decides the variance?",
+    "options": [
+      "The Board of Standards and Appeals",
+      "The City Planning Commission",
+      "The NYC Department of Buildings",
+      "The local community board"
+    ],
+    "answer": 0,
+    "explanation": "In NYC, the Board of Standards and Appeals grants zoning variances and certain special permits and hears appeals from Department of Buildings determinations. It plays the role a ZBA plays elsewhere.",
+    "citation": "NYC Zoning Resolution § 72-21; NYC Charter"
+  },
+  {
+    "id": "municipal-016",
+    "topic": "municipal",
+    "q": "In New York City, which body votes on zoning map amendments during ULURP, after the community board and borough president have made recommendations?",
+    "options": [
+      "The Board of Standards and Appeals",
+      "The Department of Buildings",
+      "The City Planning Commission",
+      "The Landmarks Preservation Commission"
+    ],
+    "answer": 2,
+    "explanation": "Under ULURP, the City Planning Commission holds a hearing and votes after the community board and borough president review. Its approvals then go to the City Council for review.",
+    "citation": "NYC Charter § 197-c"
+  },
+  {
+    "id": "municipal-017",
+    "topic": "municipal",
+    "q": "Which is the correct order of review under NYC's Uniform Land Use Review Procedure (ULURP) after an application is certified complete?",
+    "options": [
+      "Community board, borough president, City Planning Commission, City Council",
+      "Borough president, community board, City Council, City Planning Commission",
+      "City Planning Commission, City Council, community board, borough president",
+      "Community board, City Council, borough president, City Planning Commission"
+    ],
+    "answer": 0,
+    "explanation": "ULURP runs: Department of City Planning certifies the application, then community board review, borough president review, City Planning Commission vote, and City Council review, with a possible mayoral veto.",
+    "citation": "NYC Charter § 197-c"
+  },
+  {
+    "id": "municipal-018",
+    "topic": "municipal",
+    "q": "Under ULURP, a community board votes to disapprove a proposed rezoning. What is the effect?",
+    "options": [
+      "The application is automatically denied and may not proceed",
+      "The application must be refiled with the Board of Standards and Appeals",
+      "The recommendation is advisory; the application continues to later review stages",
+      "The rezoning may proceed only if the mayor overrides the board"
+    ],
+    "answer": 2,
+    "explanation": "Community board and borough president recommendations are advisory. Binding decisions are made by the City Planning Commission and the City Council.",
+    "citation": "NYC Charter § 197-c"
+  },
+  {
+    "id": "municipal-019",
+    "topic": "municipal",
+    "q": "Under ULURP, how long does the community board have to hold a public hearing and submit its recommendation after receiving a certified application?",
+    "options": [
+      "30 days",
+      "60 days",
+      "50 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "The community board has 60 days, the borough president 30 days, the City Planning Commission 60 days, and the City Council 50 days. Don't mix up the 30-day borough president period.",
+    "citation": "NYC Charter § 197-c"
+  },
+  {
+    "id": "municipal-020",
+    "topic": "municipal",
+    "q": "Before a town zoning board of appeals decides a variance application, Town Law requires the board to:",
+    "options": [
+      "Obtain the town board's written consent",
+      "Get approval from the county clerk",
+      "Get a certificate of occupancy for the parcel",
+      "Hold a public hearing after giving public notice"
+    ],
+    "answer": 3,
+    "explanation": "The ZBA must fix a time for a public hearing, give public notice (including newspaper publication), and let interested parties be heard before deciding.",
+    "citation": "NY Town Law § 267-a"
+  },
+  {
+    "id": "municipal-021",
+    "topic": "municipal",
+    "q": "A neighbor believes the town ZBA wrongly granted a use variance next door. How is the decision generally challenged in court?",
+    "options": [
+      "An Article 78 proceeding, which may be brought at any time within six years after the decision",
+      "An appeal to the town board, which may reverse any decision of the zoning board of appeals",
+      "A complaint to the Department of State, which may revoke the variance",
+      "An Article 78 proceeding, generally within 30 days after the decision is filed with the town clerk"
+    ],
+    "answer": 3,
+    "explanation": "ZBA decisions are reviewed by an Article 78 proceeding in State Supreme Court. Town Law sets a short deadline: 30 days after the decision is filed in the town clerk's office. The town board does not sit as an appeals body over the ZBA.",
+    "citation": "NY Town Law § 267-c; CPLR Article 78"
+  },
+  {
+    "id": "municipal-022",
+    "topic": "municipal",
+    "q": "In an Article 78 proceeding challenging a planning board decision, what does the court generally decide?",
+    "options": [
+      "Whether the court itself would have voted the same way after holding a new hearing",
+      "Whether the decision was illegal, arbitrary and capricious, or lacked a rational basis",
+      "Whether the applicant's project would be the most profitable use of the property",
+      "Whether a majority of residents support the planning board's decision"
+    ],
+    "answer": 1,
+    "explanation": "Article 78 review is deferential. The court asks whether the agency acted lawfully and rationally (not arbitrarily or capriciously) and does not substitute its own judgment or rehear the application from scratch.",
+    "citation": "CPLR § 7803"
+  }
+]

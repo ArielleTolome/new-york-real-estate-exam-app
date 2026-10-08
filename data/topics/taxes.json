@@ -1,0 +1,310 @@
+[
+  {
+    "id": "taxes-001",
+    "topic": "taxes",
+    "q": "A real property tax described as \"ad valorem\" is one that is:",
+    "options": [
+      "Based on the value of the property",
+      "Charged at a flat amount per parcel",
+      "Based on the owner's annual income",
+      "Imposed only when the property is sold"
+    ],
+    "answer": 0,
+    "explanation": "Ad valorem means \"according to value\": the tax is the taxable assessed value times the tax rate. A flat per-parcel fee or a tax triggered by a sale (transfer tax) is a different kind of charge.",
+    "citation": "NY Real Property Tax Law (RPTL) § 102; § 300"
+  },
+  {
+    "id": "taxes-002",
+    "topic": "taxes",
+    "q": "A home has a taxable assessed value of $180,000 and the tax rate is 32 mills. What is the annual property tax?",
+    "options": [
+      "$576",
+      "$57,600",
+      "$5,760",
+      "$5,625"
+    ],
+    "answer": 2,
+    "explanation": "One mill is $1 per $1,000 (0.001). $180,000 × 32 ÷ 1,000 = $5,760. The trap is misplacing the decimal ($576 or $57,600).",
+    "citation": "NY RPTL (tax rate computation)"
+  },
+  {
+    "id": "taxes-003",
+    "topic": "taxes",
+    "q": "A school district needs a tax levy of $4,500,000. The total taxable assessed value in the district is $150,000,000. What is the tax rate?",
+    "options": [
+      "$3 per $1,000 of assessed value (3 mills)",
+      "$30 per $1,000 of assessed value (30 mills)",
+      "$300 per $1,000 of assessed value",
+      "$0.30 per $1,000 of assessed value"
+    ],
+    "answer": 1,
+    "explanation": "Tax rate = levy ÷ taxable assessed value: $4,500,000 ÷ $150,000,000 = 0.03, which is $30 per $1,000, or 30 mills.",
+    "citation": "NY RPTL (tax levy and rate)"
+  },
+  {
+    "id": "taxes-004",
+    "topic": "taxes",
+    "q": "In the municipal budget process, the property tax levy is best described as:",
+    "options": [
+      "The total approved budget, before state aid and fees are counted",
+      "The total assessed value of all taxable parcels in the municipality",
+      "The tax rate multiplied by a single parcel's full market value",
+      "The approved budget minus revenue from non-property-tax sources"
+    ],
+    "answer": 3,
+    "explanation": "The levy is what must be raised by real property taxes: total appropriations minus non-property-tax revenue (state aid, fees, etc.). The levy is then divided by the total taxable assessed value to set the rate.",
+    "citation": "NY RPTL (budget and levy process)"
+  },
+  {
+    "id": "taxes-005",
+    "topic": "taxes",
+    "q": "A town's equalization rate is 45%. A house in that town is assessed at $90,000. What is its estimated full market value?",
+    "options": [
+      "$40,500",
+      "$130,500",
+      "$190,000",
+      "$200,000"
+    ],
+    "answer": 3,
+    "explanation": "Full market value = assessed value ÷ equalization rate: $90,000 ÷ 0.45 = $200,000. Multiplying ($90,000 × 0.45 = $40,500) is the common trap.",
+    "citation": "NY RPTL Article 12 (State equalization rates)"
+  },
+  {
+    "id": "taxes-006",
+    "topic": "taxes",
+    "q": "Why does New York State calculate equalization rates for municipalities?",
+    "options": [
+      "To set each homeowner's individual tax bill directly from the state level",
+      "To fairly apportion taxes among towns that assess at different percentages of value",
+      "To determine the minimum opening bid for property sold at a county tax auction",
+      "To convert a property's market value into its replacement cost for insurance"
+    ],
+    "answer": 1,
+    "explanation": "New York municipalities may assess at a uniform percentage of value that differs from place to place. When a county or school district spans several municipalities, equalization rates put their assessments on a common full-value basis so the levy is apportioned fairly.",
+    "citation": "NY RPTL § 305; RPTL Article 12"
+  },
+  {
+    "id": "taxes-007",
+    "topic": "taxes",
+    "q": "A property has an assessed value of $200,000 and qualifies for a $30,000 exemption. The tax rate is 25 mills. What is the tax?",
+    "options": [
+      "$5,000",
+      "$750",
+      "$4,250",
+      "$4,750"
+    ],
+    "answer": 2,
+    "explanation": "Exemptions reduce the taxable assessed value: $200,000 − $30,000 = $170,000. Then $170,000 × 25 ÷ 1,000 = $4,250. Taxing the full $200,000 ($5,000) ignores the exemption.",
+    "citation": "NY RPTL (exemptions and taxable assessed value)"
+  },
+  {
+    "id": "taxes-008",
+    "topic": "taxes",
+    "q": "A village installs new sidewalks and charges only the owners whose lots front the new sidewalk. This charge is a:",
+    "options": [
+      "Special assessment",
+      "General ad valorem tax",
+      "Real estate transfer tax",
+      "Mortgage recording tax"
+    ],
+    "answer": 0,
+    "explanation": "A special assessment is levied only against the specific properties that benefit from a local improvement, and it becomes a specific lien on those parcels. A general ad valorem tax is spread over all taxable property.",
+    "citation": "NY RPTL (special ad valorem levies and special assessments)"
+  },
+  {
+    "id": "taxes-009",
+    "topic": "taxes",
+    "q": "A homeowner has a first mortgage recorded in 2019 and stops paying property taxes in 2026. Regarding lien priority, the unpaid real property tax lien generally:",
+    "options": [
+      "Takes priority over the mortgage even though the mortgage was recorded first",
+      "Is junior to the mortgage because the mortgage was recorded seven years earlier",
+      "Has equal priority with the mortgage, and the two share any sale proceeds pro rata",
+      "Does not become a lien on the property until the owner sells or refinances"
+    ],
+    "answer": 0,
+    "explanation": "Real property tax liens are given priority over private liens such as mortgages regardless of recording date. That is why lenders often escrow taxes. \"First in time, first in right\" does not apply to property tax liens.",
+    "citation": "NY RPTL (tax lien priority)"
+  },
+  {
+    "id": "taxes-010",
+    "topic": "taxes",
+    "q": "Which statement about the STAR program is correct?",
+    "options": [
+      "Basic STAR is available only to owner-occupants age 65 or older",
+      "STAR reduces county and town property taxes but never school taxes",
+      "Enhanced STAR is for seniors 65+ with income under a lower limit than Basic STAR",
+      "STAR is available for any rental or investment property the owner holds"
+    ],
+    "answer": 2,
+    "explanation": "STAR (School Tax Relief) reduces school taxes on an owner-occupied primary residence. Basic STAR has no age requirement. Enhanced STAR gives a larger benefit to income-qualified seniors age 65 and over.",
+    "citation": "NY RPTL § 425 (STAR)"
+  },
+  {
+    "id": "taxes-011",
+    "topic": "taxes",
+    "q": "A couple buys their first home in New York in 2026 and wants STAR school tax relief. How do new STAR applicants generally receive the benefit?",
+    "options": [
+      "As a seller credit against the purchase price applied at closing",
+      "As a STAR credit check from NYS after registering with Tax and Finance",
+      "As an itemized deduction claimed on their federal income tax return only",
+      "As an automatic exemption the assessor applies with no registration needed"
+    ],
+    "answer": 1,
+    "explanation": "Since 2016, new STAR applicants register with NYS Tax and Finance and receive a STAR credit check rather than a new exemption on the assessment roll. Existing exemption holders could keep the exemption.",
+    "citation": "NY RPTL § 425; NY Tax Law § 606(eee) (STAR credit)"
+  },
+  {
+    "id": "taxes-012",
+    "topic": "taxes",
+    "q": "An owner who is 70, lives in the home, and has limited income may qualify for a partial real property tax exemption of up to 50% under which program?",
+    "options": [
+      "The alternative veterans exemption",
+      "The agricultural assessment",
+      "The Basic STAR credit",
+      "The senior citizens exemption"
+    ],
+    "answer": 3,
+    "explanation": "The senior citizens exemption lets localities give owners 65 and over with limited income a partial exemption, up to 50% of assessed value. The veterans and agricultural programs have different eligibility rules.",
+    "citation": "NY RPTL § 467"
+  },
+  {
+    "id": "taxes-013",
+    "topic": "taxes",
+    "q": "A farmer's land in an agricultural district is valued for tax purposes on its farming value instead of its development value. This is called:",
+    "options": [
+      "A special assessment",
+      "An equalization adjustment",
+      "A tax certiorari",
+      "An agricultural assessment"
+    ],
+    "answer": 3,
+    "explanation": "The agricultural assessment program taxes qualifying farmland on its agricultural value. Land converted to non-farm use can owe payments for the taxes it was spared.",
+    "citation": "NY Agriculture and Markets Law § 305"
+  },
+  {
+    "id": "taxes-014",
+    "topic": "taxes",
+    "q": "A homeowner thinks her assessment is too high. What is generally her FIRST formal step to challenge it?",
+    "options": [
+      "File a Small Claims Assessment Review petition before the tentative roll is filed",
+      "File a grievance (complaint) with the Board of Assessment Review by Grievance Day",
+      "Start a tax certiorari proceeding in State Supreme Court",
+      "Stop paying taxes until the assessor reduces the value"
+    ],
+    "answer": 1,
+    "explanation": "Administrative review comes first: a written complaint to the Board of Assessment Review (BAR) by Grievance Day. SCAR or tax certiorari follow only after the BAR decides. Withholding taxes creates a tax lien and penalties.",
+    "citation": "NY RPTL §§ 512, 524"
+  },
+  {
+    "id": "taxes-015",
+    "topic": "taxes",
+    "q": "In most New York towns, Grievance Day, when the Board of Assessment Review hears complaints, falls on:",
+    "options": [
+      "The first Monday in January",
+      "March 1, the taxable status date",
+      "The fourth Tuesday in May",
+      "The last business day of December"
+    ],
+    "answer": 2,
+    "explanation": "In towns, the BAR generally meets on the fourth Tuesday in May. March 1 is the usual taxable status date, not Grievance Day. Dates can differ in cities, villages, and some counties, so owners should check locally.",
+    "citation": "NY RPTL § 512"
+  },
+  {
+    "id": "taxes-016",
+    "topic": "taxes",
+    "q": "Which owner may use Small Claims Assessment Review (SCAR)?",
+    "options": [
+      "An owner-occupant of a one- to three-family home who first filed a BAR grievance",
+      "The owner of a 40-unit apartment building who skipped the BAR grievance",
+      "Any commercial owner whose assessment exceeds $1 million after BAR review",
+      "A rent-stabilized tenant who disputes the annual increase set by the RGB"
+    ],
+    "answer": 0,
+    "explanation": "SCAR is an informal, low-cost review mainly for owner-occupied 1–3 family residential property, and it requires a prior BAR complaint. Commercial and larger properties challenge assessments through tax certiorari in Supreme Court.",
+    "citation": "NY RPTL Article 7, Title 1-A (§ 730)"
+  },
+  {
+    "id": "taxes-017",
+    "topic": "taxes",
+    "q": "A county takes title to a home through tax foreclosure for $12,000 in unpaid taxes and later sells it for $250,000. Under the U.S. Supreme Court's 2023 ruling, the former owner:",
+    "options": [
+      "Is entitled to the surplus value above the tax debt and allowed costs",
+      "Loses all equity because the taxes were unpaid",
+      "Receives only the original $12,000 back",
+      "Must pay the county the difference between the tax and the sale price"
+    ],
+    "answer": 0,
+    "explanation": "In Tyler v. Hennepin County (2023), the Court held that a government keeping surplus equity beyond the tax debt is an unconstitutional taking. New York amended its tax foreclosure law afterward to provide for surplus claims.",
+    "citation": "Tyler v. Hennepin County, 598 U.S. 631 (2023); NY RPTL Article 11"
+  },
+  {
+    "id": "taxes-018",
+    "topic": "taxes",
+    "q": "A homeowner who itemizes on her federal return may generally deduct which pair of items for her main home?",
+    "options": [
+      "Mortgage principal payments and homeowners insurance premiums on the home",
+      "Depreciation on the home and the cost of routine repairs and painting",
+      "Qualified mortgage interest and real property taxes, subject to the SALT cap",
+      "Real property taxes with no dollar cap, plus monthly HOA or condo dues"
+    ],
+    "answer": 2,
+    "explanation": "Itemizers can deduct qualified home mortgage interest and state and local taxes (including property taxes), but state and local taxes together are subject to an annual cap. Principal, insurance, repairs, and depreciation on a personal residence are not deductible.",
+    "citation": "IRC § 163(h); IRC § 164(b)(6)"
+  },
+  {
+    "id": "taxes-019",
+    "topic": "taxes",
+    "q": "A married couple filing jointly bought their home for $400,000, added $50,000 of capital improvements, lived there 6 years, and sold it for $1,050,000 with $50,000 of selling costs. How much gain is taxable after the home-sale exclusion?",
+    "options": [
+      "$550,000",
+      "$50,000",
+      "$150,000",
+      "$0"
+    ],
+    "answer": 1,
+    "explanation": "Amount realized = $1,050,000 − $50,000 = $1,000,000. Adjusted basis = $400,000 + $50,000 = $450,000. Gain = $550,000. Minus the $500,000 joint exclusion = $50,000 taxable.",
+    "citation": "IRC § 121"
+  },
+  {
+    "id": "taxes-020",
+    "topic": "taxes",
+    "q": "A single seller wants to exclude up to $250,000 of gain on the sale of her home. Which test must she generally meet?",
+    "options": [
+      "She owned the home for at least 5 consecutive years before the sale",
+      "She reinvests the proceeds in a more expensive home within 2 years",
+      "She is at least 55 years old and has never claimed the exclusion",
+      "She owned and lived in it as her main home 2 of the 5 years before sale"
+    ],
+    "answer": 3,
+    "explanation": "The § 121 exclusion ($250,000 single / $500,000 joint) requires ownership and use as a main home for 2 of the 5 years before sale. The old age-55 rule and \"roll-over into a pricier home\" rule were repealed in 1997.",
+    "citation": "IRC § 121"
+  },
+  {
+    "id": "taxes-021",
+    "topic": "taxes",
+    "q": "An investor sells a rental building and wants to defer gain with a Section 1031 exchange. Which statement is correct?",
+    "options": [
+      "She may exchange into a new personal residence she plans to live in",
+      "She may receive the cash proceeds directly and still defer all gain",
+      "The exchange permanently eliminates federal tax on the deferred gain",
+      "She must identify a replacement within 45 days and close within 180 days"
+    ],
+    "answer": 3,
+    "explanation": "A 1031 exchange applies to real property held for investment or business use and defers (does not eliminate) gain. Replacement property must be identified within 45 days and acquired within 180 days, and a qualified intermediary should hold the funds. Cash received (boot) is taxable.",
+    "citation": "IRC § 1031"
+  },
+  {
+    "id": "taxes-022",
+    "topic": "taxes",
+    "q": "An investor buys a residential rental for $350,000, of which $75,000 is land. Using simple straight-line depreciation over 27.5 years, the annual depreciation is:",
+    "options": [
+      "$12,727",
+      "$10,000",
+      "$2,727",
+      "$14,000"
+    ],
+    "answer": 1,
+    "explanation": "Land is not depreciable, so the basis is $350,000 − $75,000 = $275,000. $275,000 ÷ 27.5 = $10,000 per year. Using the full $350,000 gives $12,727, which is the trap. A personal residence cannot be depreciated at all.",
+    "citation": "IRC §§ 167, 168"
+  }
+]

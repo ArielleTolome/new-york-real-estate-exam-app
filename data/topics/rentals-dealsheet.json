@@ -1,0 +1,310 @@
+[
+  {
+    "id": "rentals-dealsheet-001",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord in Albany charges rental applicants a $50 application fee. The actual cost of the credit and background check is $35. What is the most the landlord may lawfully charge?",
+    "options": [
+      "$50",
+      "$35",
+      "$0",
+      "$20"
+    ],
+    "answer": 3,
+    "explanation": "RPL § 238-a caps the combined background/credit check charge at the actual cost or $20, whichever is less. The lesser of $35 and $20 is $20; no separate application or processing fee is allowed.",
+    "citation": "NY RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-002",
+    "topic": "rentals-dealsheet",
+    "q": "A rental applicant gives the landlord a credit and background check report obtained three weeks ago. What must the landlord do about the background-check fee?",
+    "options": [
+      "Waive the fee, because the applicant supplied a report from within the past 30 days",
+      "Charge the $20 fee anyway, since the landlord may always require and bill for its own report",
+      "Charge half the usual fee for verifying the applicant's report",
+      "Charge actual cost up to $50 for a fresh report"
+    ],
+    "answer": 0,
+    "explanation": "Under RPL § 238-a, the landlord must waive the fee when the applicant provides a background or credit check conducted within the past 30 days. Three weeks falls inside that window.",
+    "citation": "NY RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-003",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord of an ordinary (non-regulated) apartment renting for $2,600 per month asks the new tenant for first month's rent, last month's rent, and a two-month security deposit at lease signing. What is the most the landlord may collect at signing?",
+    "options": [
+      "$10,400",
+      "$5,200",
+      "$7,800",
+      "$2,600"
+    ],
+    "answer": 1,
+    "explanation": "GOL § 7-108 caps any deposit or advance at one month's rent, and a 'last month's rent' advance counts toward that cap. The landlord may collect first month's rent ($2,600) plus a deposit/advance of $2,600, for $5,200 total.",
+    "citation": "NY GOL § 7-108"
+  },
+  {
+    "id": "rentals-dealsheet-004",
+    "topic": "rentals-dealsheet",
+    "q": "After a tenant of an ordinary residential rental moves out, how long does the landlord have to return the security deposit with an itemized statement of any deductions?",
+    "options": [
+      "30 days",
+      "10 business days",
+      "14 days",
+      "60 days"
+    ],
+    "answer": 2,
+    "explanation": "GOL § 7-108 requires the landlord to provide an itemized statement and return any remaining deposit within 14 days after the tenant vacates. Missing the deadline forfeits the landlord's right to retain any portion.",
+    "citation": "NY GOL § 7-108"
+  },
+  {
+    "id": "rentals-dealsheet-005",
+    "topic": "rentals-dealsheet",
+    "q": "Which statement correctly describes a New York tenant's pre-move-out inspection right for an ordinary residential rental?",
+    "options": [
+      "The landlord inspects only after the tenant returns the keys, and no advance notice to the tenant is required",
+      "The landlord must inspect monthly during the final 90 days of the lease, on 24 hours' oral notice to the tenant each time",
+      "Inspection is required only at move-in; any later damage is settled from the deposit after the tenant leaves",
+      "On the tenant's request, inspect 1 to 2 weeks before move-out on 48 hours' written notice so the tenant can cure issues"
+    ],
+    "answer": 3,
+    "explanation": "GOL § 7-108 requires the landlord to tell the tenant of the right to request an inspection no earlier than two weeks and no later than one week before the tenancy ends, on at least 48 hours' written notice. The tenant may then cure the noted conditions before vacating.",
+    "citation": "NY GOL § 7-108"
+  },
+  {
+    "id": "rentals-dealsheet-006",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant's monthly rent is $1,400. Rent due on the 1st is paid on the 9th. What is the maximum late fee the landlord may charge?",
+    "options": [
+      "$50",
+      "$70",
+      "$140",
+      "$25"
+    ],
+    "answer": 0,
+    "explanation": "RPL § 238-a limits late fees to $50 or 5% of monthly rent, whichever is less. 5% × $1,400 = $70, so the $50 cap controls. Payment more than five days late allows a fee.",
+    "citation": "NY RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-007",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant's $900 rent is due on the 1st and is paid on the 4th. The lease provides a late fee. What may the landlord charge?",
+    "options": [
+      "$45, which is 5% of the monthly rent and less than the $50 statutory cap",
+      "No late fee, because the rent was paid within five days of the due date",
+      "$50, the statutory maximum, because the lease expressly provides a late fee",
+      "$9 per day for each day late, as long as the total stays under $50"
+    ],
+    "answer": 1,
+    "explanation": "Under RPL § 238-a, no late fee may be charged unless rent remains unpaid more than five days after it was due. Paid on the 4th, the rent is within the grace period, so no fee is allowed even though the lease provides one.",
+    "citation": "NY RPL § 238-a"
+  },
+  {
+    "id": "rentals-dealsheet-008",
+    "topic": "rentals-dealsheet",
+    "q": "A landlord of an ordinary rental tells an approved applicant to pay a $300 non-refundable 'move-in processing fee' in addition to first month's rent and a one-month security deposit. Is this lawful?",
+    "options": [
+      "Yes, as long as the fee is disclosed in writing in the lease and on the rental application",
+      "Yes, because a processing fee under 15% of one month's rent is allowed for approved applicants",
+      "No; aside from the capped background/credit check fee, no fee may be charged before or at lease start",
+      "No, but only because the fee is non-refundable; a refundable processing fee of that amount would be allowed"
+    ],
+    "answer": 2,
+    "explanation": "RPL § 238-a bars landlords from demanding any payment, fee, or charge for processing an application or before or at the beginning of a tenancy, other than the capped background/credit check fee. Labeling it refundable would not make an extra deposit lawful, because GOL § 7-108 caps deposits at one month.",
+    "citation": "NY RPL § 238-a; NY GOL § 7-108"
+  },
+  {
+    "id": "rentals-dealsheet-009",
+    "topic": "rentals-dealsheet",
+    "q": "A New York City landlord hires a broker to list and fill a vacant apartment. Under the FARE Act, who pays that broker's fee?",
+    "options": [
+      "The tenant, as long as the fee is clearly disclosed in the listing",
+      "The tenant and landlord split it equally",
+      "The tenant, unless the monthly rent exceeds a set luxury threshold",
+      "The landlord; the tenant cannot be charged for the landlord's agent"
+    ],
+    "answer": 3,
+    "explanation": "The NYC FARE Act (effective June 11, 2025) bars charging a tenant the fee of a broker who represents or was engaged by the landlord. Disclosure does not shift the fee to the tenant.",
+    "citation": "NYC FARE Act (Fairness in Apartment Rental Expenses Act), eff. June 11, 2025"
+  },
+  {
+    "id": "rentals-dealsheet-010",
+    "topic": "rentals-dealsheet",
+    "q": "In New York City, a tenant voluntarily signs an agreement hiring her own broker to find an apartment, agreeing to a fee of 12% of the first year's rent. She leases a unit at $3,000 per month. What is the result?",
+    "options": [
+      "She may pay her own broker $4,320",
+      "The fee is prohibited by the FARE Act, so she owes nothing",
+      "She owes $360, since fees are based on one month's rent",
+      "The landlord must pay her broker $4,320"
+    ],
+    "answer": 0,
+    "explanation": "The FARE Act stops tenants from paying the landlord's agent, but a tenant may still hire and pay her own broker. $3,000 × 12 = $36,000 annual rent; $36,000 × 12% = $4,320.",
+    "citation": "NYC FARE Act, eff. June 11, 2025"
+  },
+  {
+    "id": "rentals-dealsheet-011",
+    "topic": "rentals-dealsheet",
+    "q": "A salesperson is showing an apartment in a three-family house to a prospective tenant on behalf of the landlord. Which agency disclosure form must the salesperson provide?",
+    "options": [
+      "DOS-1736, the New York State Disclosure Form for Buyer and Seller",
+      "DOS-1735, the New York State Disclosure Form for Landlord and Tenant",
+      "The Property Condition Disclosure Statement",
+      "The FARE Act fee disclosure, which replaces the agency form"
+    ],
+    "answer": 1,
+    "explanation": "For rentals of 1-4 family residential property (and condo/co-op units), RPL § 443 requires the Landlord and Tenant disclosure form, DOS-1735. DOS-1736 is the buyer/seller version used for sales.",
+    "citation": "NY RPL § 443"
+  },
+  {
+    "id": "rentals-dealsheet-012",
+    "topic": "rentals-dealsheet",
+    "q": "What is the key difference between an assignment of a lease and a sublease?",
+    "options": [
+      "A sublease transfers the entire remaining term; an assignment transfers only part",
+      "An assignment requires no landlord involvement; a sublease always requires a new lease",
+      "In an assignment the tenant transfers the entire remaining interest; in a sublease the tenant transfers less and keeps an interest",
+      "An assignment ends the original tenant's liability automatically; a sublease creates a new landlord-tenant relationship with the owner"
+    ],
+    "answer": 2,
+    "explanation": "An assignment transfers the tenant's whole remaining leasehold, while a sublease transfers part of it and the original tenant keeps an interest. Neither one automatically releases the original tenant from contractual liability to the landlord.",
+    "citation": "NY RPL § 226-b; general landlord-tenant law"
+  },
+  {
+    "id": "rentals-dealsheet-013",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant in a 12-unit privately owned building (not rent-regulated) asks the landlord in writing for consent to sublet for six months. Under RPL § 226-b, how may the landlord respond?",
+    "options": [
+      "Refuse for any reason or no reason, since the lease bars subletting",
+      "Ignore the request, since only rent-stabilized tenants may sublet",
+      "Charge a sublet fee equal to one month's rent before considering it",
+      "Withhold consent only on reasonable grounds"
+    ],
+    "answer": 3,
+    "explanation": "In buildings with four or more residential units, RPL § 226-b lets a tenant sublet with the landlord's written consent, which may not be unreasonably withheld. The tenant must follow the statute's written request procedure.",
+    "citation": "NY RPL § 226-b"
+  },
+  {
+    "id": "rentals-dealsheet-014",
+    "topic": "rentals-dealsheet",
+    "q": "A lease clause says the tenant waives all warranty of habitability claims in exchange for a $100-per-month rent reduction. What is the effect of the clause?",
+    "options": [
+      "It is void; the warranty of habitability cannot be waived",
+      "It is enforceable because the tenant received consideration",
+      "It is enforceable only for leases longer than one year",
+      "It is valid unless the landlord fails to make repairs within 30 days"
+    ],
+    "answer": 0,
+    "explanation": "RPL § 235-b implies a warranty of habitability in every residential lease, and any agreement waiving it is void as against public policy. Consideration does not save the waiver.",
+    "citation": "NY RPL § 235-b"
+  },
+  {
+    "id": "rentals-dealsheet-015",
+    "topic": "rentals-dealsheet",
+    "q": "A tenant is two months behind on rent. While the tenant is at work, the landlord changes the locks and puts the tenant's belongings in storage. What is the best description of the landlord's action?",
+    "options": [
+      "Lawful, because two months of unpaid rent allows a residential landlord to retake possession of the apartment",
+      "An unlawful eviction; the landlord must go to court, and only a marshal or sheriff may execute a warrant",
+      "Lawful, as long as the landlord first served a 14-day written rent demand and waited it out",
+      "Lawful, because the tenant's belongings were safely stored rather than thrown away"
+    ],
+    "answer": 1,
+    "explanation": "New York prohibits residential self-help eviction. Removing a tenant by changing locks or removing possessions without a court order is unlawful eviction under RPAPL § 768; only a court-issued warrant executed by a marshal or sheriff can remove the tenant.",
+    "citation": "NY RPAPL § 768; NY RPAPL Article 7"
+  },
+  {
+    "id": "rentals-dealsheet-016",
+    "topic": "rentals-dealsheet",
+    "q": "In a New York City multiple dwelling, a landlord must install window guards in an apartment where a child of what age lives (or where the tenant requests them)?",
+    "options": [
+      "Under 6",
+      "Under 18",
+      "10 years old or younger",
+      "12 years old or younger"
+    ],
+    "answer": 2,
+    "explanation": "The NYC Health Code requires window guards in apartments where a child 10 or younger resides, and in any apartment whose tenant requests them. 'Under 6' is the threshold for the separate NYC lead paint rule.",
+    "citation": "NYC Health Code Article 131 (window guards)"
+  },
+  {
+    "id": "rentals-dealsheet-017",
+    "topic": "rentals-dealsheet",
+    "q": "Under New York City's lead paint law, the landlord's annual notice asks tenants in older buildings whether a child of what age lives in the apartment?",
+    "options": [
+      "10 years old or younger",
+      "Under 18",
+      "Under 12",
+      "Under 6"
+    ],
+    "answer": 3,
+    "explanation": "NYC Local Law 1 of 2004 targets children under 6, who are most vulnerable to lead poisoning; landlords must ask annually and perform required inspections and work where such a child resides. The 10-or-younger age belongs to the window guard rule.",
+    "citation": "NYC Local Law 1 of 2004 (Childhood Lead Poisoning Prevention Act)"
+  },
+  {
+    "id": "rentals-dealsheet-018",
+    "topic": "rentals-dealsheet",
+    "q": "For a rent-stabilized apartment in New York City, who sets the maximum allowable rent increase for a renewal lease?",
+    "options": [
+      "The NYC Rent Guidelines Board",
+      "The building owner, based on market rents",
+      "The NYS Department of State",
+      "The New York Attorney General"
+    ],
+    "answer": 0,
+    "explanation": "The Rent Guidelines Board votes each year on the maximum increases for one- and two-year renewal leases of rent-stabilized units, and the tenant chooses the term. NYS Homes and Community Renewal administers the program; DOS and the AG do not set rents.",
+    "citation": "NYC Rent Stabilization Law (NYC Admin Code Title 26, Chapter 4)"
+  },
+  {
+    "id": "rentals-dealsheet-019",
+    "topic": "rentals-dealsheet",
+    "q": "A buyer's offer on a house has just been accepted, and the office manager asks the salesperson for the deal sheet. Which set of information is essential to include?",
+    "options": [
+      "The MLS photos, listing remarks, number of showings, and feedback from every buyer who toured the home",
+      "The buyer's age, marital status, number of children, and place of employment for the seller's review",
+      "Price, deposit, mortgage amount, contingencies, closing date, broker compensation split, and both attorneys' contacts",
+      "Only the accepted price and the parties' names, since the attorneys will gather and negotiate every other term themselves"
+    ],
+    "answer": 2,
+    "explanation": "The deal sheet (memorandum of sale) summarizes the accepted terms so the attorneys can draft the contract: price, earnest money, financing, contingencies, closing date, listing/cooperating broker compensation, and contact details for both attorneys. Protected-class details are irrelevant and should not be recorded.",
+    "citation": "NY brokerage practice (memorandum of sale / deal sheet)"
+  },
+  {
+    "id": "rentals-dealsheet-020",
+    "topic": "rentals-dealsheet",
+    "q": "A deal sheet shows an accepted price of $640,000, a mortgage of 80% of the price, and a 10% contract deposit. Excluding closing costs, what are the mortgage amount and the remaining down payment due at closing?",
+    "options": [
+      "Mortgage $576,000; $64,000 due at closing",
+      "Mortgage $512,000; $128,000 due at closing",
+      "Mortgage $448,000; $64,000 due at closing",
+      "Mortgage $512,000; $64,000 due at closing"
+    ],
+    "answer": 3,
+    "explanation": "Mortgage = $640,000 × 0.80 = $512,000, so the down payment is $640,000 - $512,000 = $128,000. The deposit of $640,000 × 0.10 = $64,000 counts toward the down payment, leaving $128,000 - $64,000 = $64,000 due at closing.",
+    "citation": "Real estate math (loan amount and down payment)"
+  },
+  {
+    "id": "rentals-dealsheet-021",
+    "topic": "rentals-dealsheet",
+    "q": "On a $640,000 sale, the listing agreement provides a 5% commission, split 60% to the listing broker and 40% to the cooperating (selling) broker. How much does the cooperating broker receive?",
+    "options": [
+      "$12,800",
+      "$19,200",
+      "$16,000",
+      "$25,600"
+    ],
+    "answer": 0,
+    "explanation": "Total commission = $640,000 × 0.05 = $32,000. Cooperating broker's share = $32,000 × 0.40 = $12,800; the listing broker receives $32,000 × 0.60 = $19,200.",
+    "citation": "Real estate math (commission split)"
+  },
+  {
+    "id": "rentals-dealsheet-022",
+    "topic": "rentals-dealsheet",
+    "q": "After an accepted offer, the buyer asks whether the signed deal sheet means the seller can no longer accept another buyer. What is the best answer?",
+    "options": [
+      "Yes; the deal sheet becomes the binding contract of sale as soon as the office manager signs it",
+      "No; it summarizes terms for the attorneys, and the parties generally are not bound until both sign a contract",
+      "Yes, but only after the buyer's earnest money has been deposited in the listing broker's escrow account",
+      "No, because real estate offers in New York become binding only when they are made and accepted orally"
+    ],
+    "answer": 1,
+    "explanation": "In New York practice, the deal sheet is not the contract; the attorneys draft a contract of sale, and the deal is generally not binding until both parties sign it (the statute of frauds requires a signed writing for real property sales). Until then, the seller may still entertain other offers.",
+    "citation": "NY GOL § 5-703 (statute of frauds)"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "examFeedbackHidden": true,
+  "results": [
+    {
+      "screen": "home",
+      "controls": 9,
+      "roles": [
+        "button",
+        "link"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-exam",
+      "controls": 10,
+      "roles": [
+        "checkbox",
+        "button",
+        "radio",
+        "disclosuretriangle"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study",
+      "controls": 9,
+      "roles": [
+        "checkbox",
+        "button",
+        "radio"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "quiz-study-answered",
+      "controls": 10,
+      "roles": [
+        "checkbox",
+        "button",
+        "radio",
+        "disclosuretriangle"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "results",
+      "controls": 12,
+      "roles": [
+        "disclosuretriangle",
+        "button",
+        "link"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "stats",
+      "controls": 10,
+      "roles": [
+        "button",
+        "link"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "mistakes",
+      "controls": 17,
+      "roles": [
+        "button",
+        "link"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "more",
+      "controls": 7,
+      "roles": [
+        "button",
+        "link"
+      ],
+      "issues": []
+    },
+    {
+      "screen": "build",
+      "controls": 35,
+      "roles": [
+        "button",
+        "checkbox",
+        "textfield"
+      ],
+      "issues": []
+    }
+  ],
+  "flow": [
+    "Q1: \"Method of annexation, Adaptability, Relationship…\" → Correct",
+    "Q2: \"Preventive maintenance…\" → Correct",
+    "Q3: \"Only on listing agreements and leases for one-to…\" → Incorrect — answer: B",
+    "Q4: \"Only the information the seller authorizes…\" → Incorrect — answer: B",
+    "Q5: \"Regression…\" → Correct",
+    "Q6: \"$10,560…\" → Correct",
+    "Q7: \"$320,000…\" → Incorrect — answer: D",
+    "Q8: \"Lawful if the building has fewer than six units…\" → Incorrect — answer: D",
+    "Q9: \"A lawful object or purpose for the agreement…\" → Incorrect — answer: D",
+    "Q10: \"Withhold consent only on reasonable grounds…\" → Correct"
+  ],
+  "verdict": [
+    "50%",
+    "FAIL",
+    "5 / 10 correct · 10 answered · 0:02"
+  ],
+  "toggle": [
+    "- checkbox \"Shuffle question order\" [ref=e2774]: \"1\"",
+    "- checkbox \"Shuffle question order\" [ref=e2836]: \"0\""
+  ]
+}

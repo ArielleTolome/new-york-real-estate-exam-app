@@ -1,0 +1,310 @@
+[
+  {
+    "id": "title-deeds-001",
+    "topic": "title-deeds",
+    "q": "Which New York deed gives the grantee the greatest protection, containing covenants of seisin, quiet enjoyment, against encumbrances, further assurances, and warranty of title?",
+    "options": [
+      "Full covenant and warranty deed",
+      "Bargain and sale deed with covenant against grantor's acts",
+      "Quitclaim deed",
+      "Referee's deed"
+    ],
+    "answer": 0,
+    "explanation": "The full covenant and warranty deed carries all five statutory covenants and is the strongest deed for a grantee. A bargain and sale deed with covenants only promises the grantor did nothing to encumber the property.",
+    "citation": "NY RPL § 253 (construction of deed covenants)"
+  },
+  {
+    "id": "title-deeds-002",
+    "topic": "title-deeds",
+    "q": "In a typical New York residential sale, the seller's deed states only that the grantor has not done anything to encumber the property. Which deed is this?",
+    "options": [
+      "Full covenant and warranty deed",
+      "Bargain and sale deed without covenant against grantor's acts",
+      "Bargain and sale deed with covenant against grantor's acts",
+      "Quitclaim deed"
+    ],
+    "answer": 2,
+    "explanation": "The bargain and sale deed with covenant against grantor's acts implies the grantor holds title and promises only that the grantor has not encumbered it. It is the deed most commonly used in NY residential closings, but it gives no warranty against defects created by earlier owners.",
+    "citation": "NY RPL § 258 (statutory forms of deeds)"
+  },
+  {
+    "id": "title-deeds-003",
+    "topic": "title-deeds",
+    "q": "A title search shows a former owner's nephew may have a claim to a parcel. To clear the cloud, the nephew is asked to sign a deed giving up whatever interest he may have, with no warranties at all. Which deed fits?",
+    "options": [
+      "Full covenant and warranty deed",
+      "Quitclaim deed",
+      "Executor's deed",
+      "Bargain and sale deed with covenants"
+    ],
+    "answer": 1,
+    "explanation": "A quitclaim conveys only whatever interest the grantor actually has, if any, and makes no promises about title. That is why it is used to remove clouds on title; it does not guarantee clear title.",
+    "citation": "NY RPL § 258 (statutory forms of deeds)"
+  },
+  {
+    "id": "title-deeds-004",
+    "topic": "title-deeds",
+    "q": "After a court-ordered mortgage foreclosure sale, the deed to the successful bidder is signed by an officer appointed by the court. What type of deed is it?",
+    "options": [
+      "Executor's deed",
+      "Quitclaim deed",
+      "Full covenant and warranty deed",
+      "Referee's deed"
+    ],
+    "answer": 3,
+    "explanation": "In NY, foreclosure and partition sales are conducted by a court-appointed referee, who conveys by a referee's deed. The referee does not personally warrant title.",
+    "citation": "NY RPAPL Article 13 (mortgage foreclosure)"
+  },
+  {
+    "id": "title-deeds-005",
+    "topic": "title-deeds",
+    "q": "A homeowner dies leaving a will that names her brother to settle the estate. The brother sells the house to a buyer. What type of deed will he most likely use?",
+    "options": [
+      "Executor's deed",
+      "Referee's deed",
+      "Administrator's quitclaim deed",
+      "Full covenant and warranty deed"
+    ],
+    "answer": 0,
+    "explanation": "The person named in a will to handle the estate is the executor, who conveys estate real property by an executor's deed. An administrator is appointed by the court only when there is no will (or no executor able to serve).",
+    "citation": "NY RPL § 258 (statutory forms of deeds); NY EPTL"
+  },
+  {
+    "id": "title-deeds-006",
+    "topic": "title-deeds",
+    "q": "Which of the following is NOT required for a deed to be valid in New York?",
+    "options": [
+      "The grantor's signature",
+      "An adequate legal description",
+      "The grantee's signature",
+      "Delivery and acceptance"
+    ],
+    "answer": 2,
+    "explanation": "A conveyance of real property must be in writing and subscribed by the grantor; the grantee normally does not sign. The grantee must, however, accept the delivered deed.",
+    "citation": "NY General Obligations Law § 5-703"
+  },
+  {
+    "id": "title-deeds-007",
+    "topic": "title-deeds",
+    "q": "A seller signs and delivers a deed to a buyer, but the deed is never acknowledged before a notary. What is its status?",
+    "options": [
+      "Void, because acknowledgment is required for a deed to be valid",
+      "Valid between the parties, but it cannot be recorded until acknowledged",
+      "Valid and fully recordable as it stands, without any acknowledgment",
+      "Voidable at the option of the grantee only, until it is notarized"
+    ],
+    "answer": 1,
+    "explanation": "Acknowledgment is a requirement for recording, not for validity. An unacknowledged deed can transfer title between the parties but cannot be recorded, so it gives no constructive notice.",
+    "citation": "NY RPL § 291"
+  },
+  {
+    "id": "title-deeds-008",
+    "topic": "title-deeds",
+    "q": "A mother signs a deed conveying her house to her son, then locks it in her own safe-deposit box and keeps the only key. The son finds the deed after her death. When did title pass to the son?",
+    "options": [
+      "At the moment the mother signed and dated the deed",
+      "Automatically at the moment of the mother's death",
+      "When the son recorded the deed in the county clerk's office after finding it",
+      "Never through that deed, because it was never delivered"
+    ],
+    "answer": 3,
+    "explanation": "A deed transfers title only when it is delivered with present intent to pass title and accepted. Signing and keeping control of the deed is not delivery, and recording cannot cure a failure of delivery.",
+    "citation": "Common-law delivery and acceptance requirement; NY RPL Article 8"
+  },
+  {
+    "id": "title-deeds-009",
+    "topic": "title-deeds",
+    "q": "What is the main legal effect of recording a deed with the county clerk?",
+    "options": [
+      "It gives constructive notice of the grantee's interest to the world",
+      "It makes an otherwise invalid or undelivered deed valid",
+      "It is the legal act that transfers title to the grantee",
+      "It guarantees that the title is free of all defects, liens, and claims"
+    ],
+    "answer": 0,
+    "explanation": "Recording protects the grantee by giving constructive notice to later purchasers and lenders. Title passes on delivery and acceptance; recording does not validate a defective deed or guarantee title.",
+    "citation": "NY RPL § 291"
+  },
+  {
+    "id": "title-deeds-010",
+    "topic": "title-deeds",
+    "q": "An owner sells a lot to Ana, who does not record. The owner then sells the same lot to Ben, who pays value, knows nothing of Ana's deed, and records first. Who prevails under New York's recording act?",
+    "options": [
+      "Ana, because her deed was delivered and accepted first",
+      "Ana and Ben, who become tenants in common of the lot",
+      "Ben, as a good-faith purchaser for value who recorded first",
+      "Ana, because a deed is valid between parties without recording"
+    ],
+    "answer": 2,
+    "explanation": "NY is a race-notice state: an unrecorded conveyance is void against a later good-faith purchaser for value whose deed is recorded first. Ana's remedy is against the seller.",
+    "citation": "NY RPL § 291"
+  },
+  {
+    "id": "title-deeds-011",
+    "topic": "title-deeds",
+    "q": "Under New York's recording act, a later buyer who records first will NOT defeat an earlier unrecorded deed if the later buyer:",
+    "options": [
+      "Financed the purchase with a mortgage",
+      "Knew of the earlier conveyance when buying",
+      "Received a bargain and sale deed",
+      "Closed without ordering a survey of the parcel"
+    ],
+    "answer": 1,
+    "explanation": "Recording-act protection goes only to purchasers in good faith for value. A buyer with actual knowledge of the prior deed is not in good faith, even if that buyer records first.",
+    "citation": "NY RPL § 291"
+  },
+  {
+    "id": "title-deeds-012",
+    "topic": "title-deeds",
+    "q": "A buyer finances a purchase and the lender requires a lender's (mortgagee's) title policy. Which statement is accurate?",
+    "options": [
+      "The lender's policy protects both the lender and the buyer for the full price",
+      "Every lender requires the buyer to also purchase a separate owner's policy",
+      "The owner's policy must be renewed and repaid each year to stay in force",
+      "The lender's policy protects only the lender; an owner's policy protects the buyer"
+    ],
+    "answer": 3,
+    "explanation": "A lender's policy insures the lender's lien, and its coverage generally declines as the loan is paid down. An owner's policy is optional, is paid once at closing, and protects the owner (and heirs) for as long as they hold title.",
+    "citation": "NY Insurance Law Article 64 (title insurance)"
+  },
+  {
+    "id": "title-deeds-013",
+    "topic": "title-deeds",
+    "q": "A standard owner's title policy issued without a survey reading would most likely exclude coverage for:",
+    "options": [
+      "An encroachment that an accurate survey would have revealed",
+      "A forged deed from an earlier owner in the chain of title",
+      "A recorded judgment lien that the title searcher missed",
+      "A deed signed years ago by a prior owner who was a minor"
+    ],
+    "answer": 0,
+    "explanation": "Title insurance covers specified title risks such as forgery, missed recorded liens, and incapacity of prior grantors. Survey matters like encroachments are standard exceptions unless a survey is provided and the exception is removed.",
+    "citation": "NY Insurance Law Article 64 (title insurance)"
+  },
+  {
+    "id": "title-deeds-014",
+    "topic": "title-deeds",
+    "q": "A condensed history summarizing every recorded deed, mortgage, lien, and other instrument affecting a parcel is called:",
+    "options": [
+      "The chain of title",
+      "A certificate of occupancy",
+      "An abstract of title",
+      "A title insurance policy"
+    ],
+    "answer": 2,
+    "explanation": "An abstract of title is a summary of all recorded documents affecting the property. The chain of title is narrower: the sequence of ownership transfers from owner to owner. Distinguish the two.",
+    "citation": "NY RPL Article 9 (recording)"
+  },
+  {
+    "id": "title-deeds-015",
+    "topic": "title-deeds",
+    "q": "A title search shows a recorded deed from Adams to Baker and a recorded deed from Cole to Diaz, but no recorded deed from Baker to Cole. This is best described as:",
+    "options": [
+      "An encroachment revealed by the public record of the deeds",
+      "A gap in the chain of title that must be cured before closing",
+      "A lis pendens that has been filed against the property",
+      "A normal record that requires no further action by the buyer"
+    ],
+    "answer": 1,
+    "explanation": "A missing link between owners is a gap (break) in the chain of title. It is typically cured by obtaining and recording the missing deed, a quitclaim, or a court action to quiet title.",
+    "citation": "NY RPAPL Article 15 (action to determine claims to real property)"
+  },
+  {
+    "id": "title-deeds-016",
+    "topic": "title-deeds",
+    "q": "A legal description begins at a fixed point, runs along stated directions and distances, and must return to that same starting point. Which method is this?",
+    "options": [
+      "Rectangular (government) survey",
+      "Lot and block",
+      "Street address",
+      "Metes and bounds"
+    ],
+    "answer": 3,
+    "explanation": "Metes and bounds describes boundaries by courses and distances from a point of beginning and must close back at that point. It is widely used in New York, often along with tax map or lot-and-block references.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (legal descriptions)"
+  },
+  {
+    "id": "title-deeds-017",
+    "topic": "title-deeds",
+    "q": "Which method of legal description is NOT used for land in New York?",
+    "options": [
+      "The rectangular (government) survey system",
+      "Metes and bounds",
+      "Lot and block on a filed subdivision map",
+      "Tax map section, block, and lot"
+    ],
+    "answer": 0,
+    "explanation": "The rectangular survey system of townships and sections is used in federal public-land states, not in New York. NY relies on metes and bounds and on references to filed maps and tax maps.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (legal descriptions)"
+  },
+  {
+    "id": "title-deeds-018",
+    "topic": "title-deeds",
+    "q": "For how long must a claimant's possession continue before title may be acquired by adverse possession in New York?",
+    "options": [
+      "5 years",
+      "15 years",
+      "10 years",
+      "20 years"
+    ],
+    "answer": 2,
+    "explanation": "NY requires actual, open and notorious, exclusive, continuous, and hostile possession under a claim of right for 10 years. Long use alone is not enough; every element must be proven.",
+    "citation": "NY RPAPL § 501; NY CPLR § 212(a)"
+  },
+  {
+    "id": "title-deeds-019",
+    "topic": "title-deeds",
+    "q": "For 12 years, a neighbor's hedge and a small fence have stood 18 inches over the boundary line. Can the neighbor claim that strip by adverse possession in New York?",
+    "options": [
+      "Yes, because the 10-year statutory period has already run",
+      "No; fences and hedges are de minimis encroachments deemed permissive",
+      "Yes, but only after the neighbor records a notice of the adverse claim",
+      "No, because adverse possession in New York requires 20 years"
+    ],
+    "answer": 1,
+    "explanation": "Since 2008, NY law treats de minimis non-structural encroachments such as fences, hedges, and shrubbery as permissive and not adverse. Simply passing the 10-year mark does not create title.",
+    "citation": "NY RPAPL § 543"
+  },
+  {
+    "id": "title-deeds-020",
+    "topic": "title-deeds",
+    "q": "Which of the following is an example of voluntary alienation of real property?",
+    "options": [
+      "The state takes the land for a highway through eminent domain",
+      "A lender forecloses after the owner defaults",
+      "Land passes to the state by escheat",
+      "An owner deeds her house to her daughter as a gift"
+    ],
+    "answer": 3,
+    "explanation": "Voluntary alienation is a transfer the owner chooses, such as by deed or will. Eminent domain, foreclosure, escheat, and adverse possession are involuntary transfers.",
+    "citation": "NYS DOS Real Estate Salesperson 77-hr syllabus (voluntary and involuntary alienation)"
+  },
+  {
+    "id": "title-deeds-021",
+    "topic": "title-deeds",
+    "q": "In a will, a gift of real property is called a:",
+    "options": [
+      "Devise",
+      "Bequest",
+      "Legacy",
+      "Codicil"
+    ],
+    "answer": 0,
+    "explanation": "A devise is a gift of real property by will, made to a devisee. A bequest or legacy is a gift of personal property, and a codicil is an amendment to a will.",
+    "citation": "NY Estates, Powers and Trusts Law (EPTL) — wills"
+  },
+  {
+    "id": "title-deeds-022",
+    "topic": "title-deeds",
+    "q": "A New York resident dies intestate, survived by a spouse and two children. How is the estate distributed?",
+    "options": [
+      "The spouse receives the entire estate; the children receive nothing",
+      "The children share the entire estate equally; the spouse takes nothing",
+      "Spouse receives $50,000 plus half the balance; the children share the rest",
+      "The spouse and each of the two children receive one-third of the estate"
+    ],
+    "answer": 2,
+    "explanation": "Under NY intestacy rules, a surviving spouse with issue takes $50,000 plus one-half of the residue, and the issue take the remainder. The spouse takes everything only when there are no surviving issue.",
+    "citation": "NY EPTL § 4-1.1"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "projectId": "4757606690862138931",
+  "title": "ny-real-estate-exam-app",
+  "designSystem": "assets/6532455365017850931",
+  "lastSync": "2026-10-08T05:16:17.332909Z",
+  "screens": [
+    {
+      "id": "c8ea8a5d4f6a41c6bdd848e859ea4662",
+      "title": "Home / Readiness Dashboard",
+      "deviceType": "MOBILE",
+      "assets": {
+        "html": ".stitch/designs/c8ea8a5d4f6a41c6bdd848e859ea4662.html",
+        "png": ".stitch/designs/c8ea8a5d4f6a41c6bdd848e859ea4662.png"
+      }
+    },
+    {
+      "id": "98c95ee25f904d52bf6fb89d65e679ac",
+      "title": "Custom Quiz Builder",
+      "deviceType": "MOBILE",
+      "assets": {
+        "html": ".stitch/designs/98c95ee25f904d52bf6fb89d65e679ac.html",
+        "png": ".stitch/designs/98c95ee25f904d52bf6fb89d65e679ac.png"
+      }
+    },
+    {
+      "id": "47b21e8d880342e2801af06ac01171c0",
+      "title": "NY RE Exam - Active Quiz",
+      "deviceType": "MOBILE",
+      "assets": {
+        "html": ".stitch/designs/47b21e8d880342e2801af06ac01171c0.html",
+        "png": ".stitch/designs/47b21e8d880342e2801af06ac01171c0.png"
+      }
+    },
+    {
+      "id": "aa4cfbf3cccd4b9b87792d7eb84cc4b6",
+      "title": "Performance History",
+      "deviceType": "MOBILE",
+      "assets": {
+        "html": ".stitch/designs/aa4cfbf3cccd4b9b87792d7eb84cc4b6.html",
+        "png": ".stitch/designs/aa4cfbf3cccd4b9b87792d7eb84cc4b6.png"
+      }
+    },
+    {
+      "id": "ac7ba400f7bf43bf86f21f92d28884ee",
+      "title": "Mistake Bank",
+      "deviceType": "MOBILE",
+      "assets": {
+        "html": ".stitch/designs/ac7ba400f7bf43bf86f21f92d28884ee.html",
+        "png": ".stitch/designs/ac7ba400f7bf43bf86f21f92d28884ee.png"
+      }
+    }
+  ]
+}

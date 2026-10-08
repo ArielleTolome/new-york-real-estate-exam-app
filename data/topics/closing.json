@@ -1,0 +1,310 @@
+[
+  {
+    "id": "closing-001",
+    "topic": "closing",
+    "q": "Under RESPA Section 8, which payment is prohibited?",
+    "options": [
+      "A title agent paying a salesperson $200 for each buyer referred to the title agent",
+      "A buyer paying the closing attorney's fee for legal services actually performed",
+      "A seller paying the listing broker's agreed commission",
+      "A lender paying an appraiser for an appraisal actually completed"
+    ],
+    "answer": 0,
+    "explanation": "RESPA § 8 bans kickbacks and fees for referrals of settlement business in federally related mortgage loans. Payment for goods or services actually performed is allowed. Calling a referral fee \"marketing\" does not fix it.",
+    "citation": "RESPA § 8, 12 U.S.C. § 2607; Regulation X, 12 CFR § 1024.14"
+  },
+  {
+    "id": "closing-002",
+    "topic": "closing",
+    "q": "A brokerage owns part of a title agency and wants to refer its buyers there. Under RESPA, this affiliated business arrangement is lawful only if the brokerage:",
+    "options": [
+      "Requires all its buyers to use the affiliate so it can keep closing costs low and consistent",
+      "Is paid a flat fee by the affiliate for each referral that closes, as long as the fee is disclosed",
+      "Discloses the relationship and estimated charges, does not require its use, and receives only an ownership return",
+      "Tells the buyer about its ownership interest in the title agency verbally, but only after the closing has been completed"
+    ],
+    "answer": 2,
+    "explanation": "An affiliated business arrangement needs written disclosure at or before the referral, no required use (with narrow exceptions), and nothing of value to the referrer beyond a return on the ownership interest.",
+    "citation": "RESPA § 8(c)(4), 12 U.S.C. § 2607(c)(4); 12 CFR § 1024.15"
+  },
+  {
+    "id": "closing-003",
+    "topic": "closing",
+    "q": "A seller insists, as a condition of the sale, that the buyer purchase title insurance from a particular title company. Under RESPA, this is:",
+    "options": [
+      "Allowed, as long as the requirement is clearly written into the contract of sale that both parties sign",
+      "Prohibited, because a seller may not require the buyer to use a particular title insurer",
+      "Allowed, if the seller agrees to pay half of the title insurance premium",
+      "Required, because the seller chooses the title insurer"
+    ],
+    "answer": 1,
+    "explanation": "RESPA § 9 bars a seller from requiring, directly or indirectly, as a condition of sale that the buyer buy title insurance from a particular company in a federally related mortgage transaction.",
+    "citation": "RESPA § 9, 12 U.S.C. § 2608"
+  },
+  {
+    "id": "closing-004",
+    "topic": "closing",
+    "q": "Under TRID, when must the lender deliver or mail the Loan Estimate?",
+    "options": [
+      "At least 3 business days before consummation of the loan",
+      "Within 10 business days after the lender's appraisal of the property has been completed",
+      "At the closing table, along with the note and the mortgage",
+      "Within 3 business days after receiving the consumer's loan application"
+    ],
+    "answer": 3,
+    "explanation": "The Loan Estimate is due within 3 business days after the creditor receives an application (the six items: name, income, SSN, property address, estimated value, loan amount). The 3-days-before-consummation rule applies to the Closing Disclosure.",
+    "citation": "TILA-RESPA Integrated Disclosure rule, 12 CFR § 1026.19(e)"
+  },
+  {
+    "id": "closing-005",
+    "topic": "closing",
+    "q": "Under TRID, the borrower must receive the Closing Disclosure:",
+    "options": [
+      "Within 3 business days after receiving the loan application",
+      "At least 3 business days after consummation of the loan",
+      "On the day of closing, before signing",
+      "At least 3 business days before consummation of the loan"
+    ],
+    "answer": 3,
+    "explanation": "The Closing Disclosure must be received at least 3 business days before consummation so the borrower can compare it with the Loan Estimate. Mixing it up with the Loan Estimate timing is the classic trap.",
+    "citation": "12 CFR § 1026.19(f)"
+  },
+  {
+    "id": "closing-006",
+    "topic": "closing",
+    "q": "A borrower receives her Closing Disclosure on a Monday. No federal holidays fall that week. Under TRID, the earliest day the loan may be consummated is:",
+    "options": [
+      "Monday",
+      "Thursday",
+      "Tuesday",
+      "the following Monday"
+    ],
+    "answer": 1,
+    "explanation": "The CD must be received at least 3 business days before consummation. Counting Monday, Tuesday, and Wednesday as the three days, consummation may occur Thursday.",
+    "citation": "12 CFR § 1026.19(f)(1)(ii)"
+  },
+  {
+    "id": "closing-007",
+    "topic": "closing",
+    "q": "After the Closing Disclosure is delivered, which change requires a corrected CD AND a new 3-business-day waiting period?",
+    "options": [
+      "The seller agrees to a $1,000 credit to the buyer for a repair",
+      "The recording fee rises by $15",
+      "The loan product changes from a fixed-rate to an adjustable-rate loan",
+      "The closing time is moved from the morning to the afternoon of the same day"
+    ],
+    "answer": 2,
+    "explanation": "Only three changes restart the waiting period: the APR becomes inaccurate beyond tolerance, the loan product changes, or a prepayment penalty is added. Other changes need a corrected CD at or before closing, but no new wait.",
+    "citation": "12 CFR § 1026.19(f)(2)(ii)"
+  },
+  {
+    "id": "closing-008",
+    "topic": "closing",
+    "q": "Which statement best describes a typical residential closing in New York?",
+    "options": [
+      "Buyer and seller usually each have an attorney, who attend the closing with or for their clients",
+      "A neutral escrow company closes the sale by mail, and attorneys are rarely involved",
+      "The listing salesperson prepares the deed and conducts the closing on behalf of both parties",
+      "The county clerk conducts the closing at the clerk's office and transfers title"
+    ],
+    "answer": 0,
+    "explanation": "New York is an attorney-closing state: buyer's and seller's attorneys, the lender's attorney, and often a title closer attend. Salespersons may attend but cannot draft deeds or give legal advice. The county clerk only records documents afterward.",
+    "citation": "NY Judiciary Law § 478 (practice of law); NY RPL Article 12-A"
+  },
+  {
+    "id": "closing-009",
+    "topic": "closing",
+    "q": "At closing, the buyer's $40,000 earnest money deposit held in escrow is entered on the closing statement as a:",
+    "options": [
+      "Credit to the buyer only",
+      "Debit to the buyer only",
+      "Credit to the seller and debit to the buyer",
+      "Debit to the seller only"
+    ],
+    "answer": 0,
+    "explanation": "The deposit is money the buyer already paid toward the price, so the buyer is credited. It is not a seller credit because the purchase price (seller credit) already includes it.",
+    "citation": "Closing statement practice (debits and credits)"
+  },
+  {
+    "id": "closing-010",
+    "topic": "closing",
+    "q": "On a closing statement, the purchase price is shown as:",
+    "options": [
+      "A credit to the buyer and a debit to the seller",
+      "A debit to both the buyer and the seller",
+      "A debit to the buyer and a credit to the seller",
+      "A credit to both the buyer and the seller"
+    ],
+    "answer": 2,
+    "explanation": "The buyer owes the price (debit), and the seller receives it (credit). Most items are double entries like this; the buyer's new loan and the seller's loan payoff are single entries.",
+    "citation": "Closing statement practice (debits and credits)"
+  },
+  {
+    "id": "closing-011",
+    "topic": "closing",
+    "q": "At closing, the seller's existing mortgage balance of $210,000 is paid off. On the closing statement this is a:",
+    "options": [
+      "Credit to the seller only",
+      "Debit to the seller only",
+      "Debit to the buyer only",
+      "Debit to the seller and credit to the buyer"
+    ],
+    "answer": 1,
+    "explanation": "The payoff is the seller's obligation, paid out of the seller's proceeds, so it is a seller debit. The buyer is not involved, so it is a single entry. The buyer's new loan, by contrast, is a buyer credit only.",
+    "citation": "Closing statement practice (debits and credits)"
+  },
+  {
+    "id": "closing-012",
+    "topic": "closing",
+    "q": "Annual property taxes of $7,300 are paid in arrears and have not been paid for the current calendar year. Closing is May 1; the buyer owns the closing day. Using a 365-day year, what is the proration?",
+    "options": [
+      "$2,400 credit to the seller, debit to the buyer",
+      "$4,900 debit to the seller, credit to the buyer",
+      "$2,420 debit to the seller, credit to the buyer",
+      "$2,400 debit to the seller, credit to the buyer"
+    ],
+    "answer": 3,
+    "explanation": "$7,300 ÷ 365 = $20 per day. Seller's days: Jan 1–Apr 30 = 31 + 28 + 31 + 30 = 120. $20 × 120 = $2,400. The seller used those days but has not paid, and the buyer will pay the bill later, so seller debit/buyer credit.",
+    "citation": "Closing statement practice (tax prorations)"
+  },
+  {
+    "id": "closing-013",
+    "topic": "closing",
+    "q": "The seller paid the full $3,650 calendar-year tax bill in advance. Closing is October 1; the buyer owns the closing day. Using a 365-day year, what is the proration?",
+    "options": [
+      "$920 debit to the seller, credit to the buyer",
+      "$2,730 credit to the seller, debit to the buyer",
+      "$910 credit to the seller, debit to the buyer",
+      "$920 credit to the seller, debit to the buyer"
+    ],
+    "answer": 3,
+    "explanation": "$3,650 ÷ 365 = $10 per day. Buyer's days: Oct 1–Dec 31 = 31 + 30 + 31 = 92. $10 × 92 = $920. The seller prepaid the buyer's share, so the buyer reimburses: seller credit/buyer debit.",
+    "citation": "Closing statement practice (tax prorations)"
+  },
+  {
+    "id": "closing-014",
+    "topic": "closing",
+    "q": "A house outside New York City sells for $425,000. What is the New York State real estate transfer tax, and who normally pays it?",
+    "options": [
+      "$1,700, paid by the buyer",
+      "$1,700, paid by the seller",
+      "$4,250, paid by the seller",
+      "$850, paid by the seller"
+    ],
+    "answer": 1,
+    "explanation": "The rate is $2 for each $500 (or fraction) of consideration: $425,000 ÷ 500 = 850 units × $2 = $1,700. The grantor (seller) normally pays; the buyer is secondarily liable if the seller does not pay.",
+    "citation": "NY Tax Law § 1402; § 1404"
+  },
+  {
+    "id": "closing-015",
+    "topic": "closing",
+    "q": "A buyer purchases a single-family home for $1,200,000. The additional 1% (\"mansion\") tax is:",
+    "options": [
+      "$2,000, paid by the buyer",
+      "$12,000, paid by the seller",
+      "$12,000, paid by the buyer",
+      "$2,000, paid by the seller"
+    ],
+    "answer": 2,
+    "explanation": "The mansion tax is 1% of the full consideration when residential consideration is $1 million or more, and the grantee (buyer) pays: $1,200,000 × 1% = $12,000. Taxing only the $200,000 above $1 million is the trap.",
+    "citation": "NY Tax Law § 1402-a"
+  },
+  {
+    "id": "closing-016",
+    "topic": "closing",
+    "q": "Who customarily pays New York's mortgage recording tax on a buyer's new purchase-money mortgage?",
+    "options": [
+      "The borrower (buyer), based on the amount of the mortgage debt",
+      "The seller, based on the full purchase price of the property",
+      "The broker, out of the commission",
+      "The county clerk, as an expense of recording the mortgage"
+    ],
+    "answer": 0,
+    "explanation": "The mortgage recording tax is calculated on the secured debt, not the sale price, and is generally paid by the borrower. On some residential loans the lender pays a portion, but the borrower bears the main charge.",
+    "citation": "NY Tax Law Article 11 (§ 253)"
+  },
+  {
+    "id": "closing-017",
+    "topic": "closing",
+    "q": "A title search shows an old, unpaid judgment against the seller. Before closing, the seller's attorney should generally:",
+    "options": [
+      "Have the judgment paid or otherwise cleared so the title company removes the exception",
+      "Ignore it, since a judgment lien is automatically released when the property is sold",
+      "Ask the buyer to take title subject to the judgment as part of the purchase price",
+      "Have the listing salesperson sign an affidavit stating that the judgment is invalid"
+    ],
+    "answer": 0,
+    "explanation": "Title exceptions such as judgments, open mortgages, and liens must be cleared (paid at closing, satisfied, or bonded) to deliver the marketable, insurable title the contract requires. A sale does not wipe out a recorded judgment lien.",
+    "citation": "NY CPLR § 5203 (judgment liens); title insurance practice"
+  },
+  {
+    "id": "closing-018",
+    "topic": "closing",
+    "q": "A new survey shows the neighbor's garage extends two feet onto the seller's lot. This finding is an example of:",
+    "options": [
+      "A special assessment the buyer must pay",
+      "An easement in gross held by the utility company",
+      "An encroachment that may affect marketable title",
+      "A defect that title insurance always covers without exception"
+    ],
+    "answer": 2,
+    "explanation": "A survey shows boundaries, improvements, and encroachments. An encroachment can make title unmarketable, and title policies often take a survey exception unless a survey is provided.",
+    "citation": "NY RPL (marketable title); title insurance practice"
+  },
+  {
+    "id": "closing-019",
+    "topic": "closing",
+    "q": "The buyer's final walk-through just before closing is mainly meant to:",
+    "options": [
+      "Start a new inspection period that allows the buyer to cancel the contract for any reason before closing",
+      "Confirm the property is in the agreed condition and that required repairs or vacancy are complete",
+      "Measure the home's rooms so the lender's appraiser can finish the appraisal report",
+      "Let the salesperson and the buyer renegotiate the final purchase price before signing"
+    ],
+    "answer": 1,
+    "explanation": "The walk-through checks that the property is in the condition the contract requires (repairs done, fixtures left, broom-clean, vacant) as of closing. It does not create a new contingency.",
+    "citation": "Contract of sale practice"
+  },
+  {
+    "id": "closing-020",
+    "topic": "closing",
+    "q": "After a New York closing outside NYC, the deed is recorded with the county clerk along with the transfer tax return (TP-584) and the real property transfer report (RP-5217). Recording the deed primarily:",
+    "options": [
+      "Transfers title, since a New York deed is void until it is recorded",
+      "Lets the buyer avoid the transfer tax",
+      "Replaces the need for title insurance",
+      "Gives constructive notice of the buyer's ownership to everyone"
+    ],
+    "answer": 3,
+    "explanation": "Title passes on delivery and acceptance of the deed. Recording protects the buyer by giving public (constructive) notice and priority under New York's race-notice recording act.",
+    "citation": "NY RPL § 291 (recording act); NY Tax Law § 1409 (TP-584)"
+  },
+  {
+    "id": "closing-021",
+    "topic": "closing",
+    "q": "Who is generally responsible for filing IRS Form 1099-S to report the gross proceeds of a real estate sale?",
+    "options": [
+      "The buyer's homeowners insurance company, which insures the property",
+      "The listing salesperson personally, as the licensee who procured the buyer and earned the commission",
+      "The local assessor, which records the sale on the assessment roll",
+      "The person responsible for closing, such as the settlement or closing attorney"
+    ],
+    "answer": 3,
+    "explanation": "IRC § 6045(e) requires the \"real estate reporting person\", usually the person responsible for closing, to report the seller's gross proceeds on Form 1099-S. Some main-home sales are exempt when the seller certifies they qualify.",
+    "citation": "IRC § 6045(e); IRS Form 1099-S"
+  },
+  {
+    "id": "closing-022",
+    "topic": "closing",
+    "q": "A foreign seller sells a New York investment property for $1,500,000. No reduced rate or exemption applies. Under FIRPTA, how much must the buyer withhold?",
+    "options": [
+      "$150,000",
+      "$225,000",
+      "$45,000",
+      "$0, because the seller's broker handles the tax"
+    ],
+    "answer": 1,
+    "explanation": "FIRPTA makes the buyer the withholding agent. The standard rate is 15% of the amount realized: $1,500,000 × 15% = $225,000. The buyer can be liable if it fails to withhold.",
+    "citation": "FIRPTA, IRC § 1445"
+  }
+]
