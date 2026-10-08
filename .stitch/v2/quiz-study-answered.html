@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>NY RE Exam — Wayfinding Study Experience</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-secondary-fixed-variant": "#2f3aa3",
+            "on-primary-fixed-variant": "#005236",
+            "inverse-surface": "#dfe2ef",
+            "surface-container-highest": "#31353f",
+            "surface-variant": "#31353f",
+            "surface-container": "#1c1f29",
+            "error-container": "#93000a",
+            "tertiary": "#ffb95f",
+            "secondary": "#bdc2ff",
+            "surface-container-high": "#262a34",
+            "inverse-on-surface": "#2c303a",
+            "surface-dim": "#0f131c",
+            "on-background": "#dfe2ef",
+            "inverse-primary": "#006c49",
+            "on-secondary": "#131e8c",
+            "primary-fixed": "#6ffbbe",
+            "tertiary-fixed": "#ffddb8",
+            "on-tertiary": "#472a00",
+            "on-primary": "#003824",
+            "secondary-fixed-dim": "#bdc2ff",
+            "on-secondary-fixed": "#000767",
+            "background": "#0f131c",
+            "surface": "#0f131c",
+            "on-error-container": "#ffdad6",
+            "error": "#ffb4ab",
+            "on-surface-variant": "#bbcabf",
+            "tertiary-container": "#e29100",
+            "primary": "#4edea3",
+            "tertiary-fixed-dim": "#ffb95f",
+            "on-primary-fixed": "#002113",
+            "surface-container-lowest": "#0a0e17",
+            "primary-container": "#10b981",
+            "outline-variant": "#3c4a42",
+            "outline": "#86948a",
+            "on-surface": "#dfe2ef",
+            "secondary-fixed": "#e0e0ff",
+            "secondary-container": "#2f3aa3",
+            "surface-container-low": "#181b25",
+            "primary-fixed-dim": "#4edea3",
+            "surface-tint": "#4edea3",
+            "surface-bright": "#353943",
+            "on-secondary-container": "#a8afff",
+            "on-tertiary-container": "#523200",
+            "on-primary-container": "#00422b",
+            "on-tertiary-fixed": "#2a1700",
+            "on-error": "#690005",
+            "on-tertiary-fixed-variant": "#653e00"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            headline: ["Helvetica Neue", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            display: ["Helvetica Neue", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+            body: ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Helvetica Neue", "sans-serif"],
+            label: ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    body {
+      background-color: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#090d16] text-[#f1f5f9] flex justify-center min-h-screen select-none">
+<!-- iPhone 15 / 16 Container (393px width fixed frame simulation) -->
+<div class="w-full max-w-[393px] min-h-screen bg-[#090d16] flex flex-col relative pb-[94px]">
+<!-- 1. iOS Status Bar -->
+<header class="pt-3 px-6 pb-2 flex justify-between items-center text-[15px] font-semibold tracking-tight text-[#f1f5f9] z-40 bg-[#090d16]">
+<span class="tabular-nums tracking-normal">9:41</span>
+<div class="flex items-center gap-1.5 text-[#f1f5f9]">
+<span class="material-symbols-outlined text-[17px]">signal_cellular_4_bar</span>
+<span class="material-symbols-outlined text-[17px]">wifi</span>
+<div class="w-5 h-2.5 border border-[#f1f5f9] rounded-sm p-0.5 flex items-center ml-0.5 relative">
+<div class="h-full w-full bg-[#f1f5f9] rounded-[1px]"></div>
+<div class="absolute -right-1 top-0.5 bottom-0.5 w-0.5 bg-[#f1f5f9] rounded-r-xs"></div>
+</div>
+</div>
+</header>
+<!-- 2. Sticky Wayfinding Header & Subway Progress Track -->
+<section class="sticky top-0 z-30 bg-[#090d16] border-b border-[rgba(148,163,184,0.16)] px-4 pt-1 pb-3 flex flex-col gap-2.5">
+<!-- Row 1: Shared Component TopAppBar Semantics -->
+<div class="flex items-center justify-between min-h-[44px]">
+<div class="flex items-baseline gap-2">
+<span class="font-headline font-bold text-[17px] tracking-tight text-[#f1f5f9] tabular-nums">Q 14 of 75</span>
+<span class="text-[13px] text-[#a3b1c6] font-normal">14 answered</span>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Flag station" class="w-10 h-10 flex items-center justify-center rounded-full text-[#a3b1c6] active:bg-[#182033] transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+<button class="h-9 px-3 flex items-center justify-center text-[15px] font-medium text-[#818cf8] active:opacity-75 transition-opacity" type="button">
+            End
+          </button>
+</div>
+</div>
+<!-- Row 2: Subway Line Progress with Station Bullets -->
+<div class="w-full py-1">
+<div class="relative w-full h-[18px] flex items-center">
+<!-- Continuous Subway Track line -->
+<div class="absolute left-1 right-1 h-[4px] bg-[#182033] rounded-full"></div>
+<!-- Station Markers along the Line -->
+<div class="relative w-full flex justify-between items-center px-1">
+<!-- Passed Station 1 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#10b981] ring-2 ring-[#090d16] z-10"></span>
+<!-- Passed Station 2 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#10b981] ring-2 ring-[#090d16] z-10"></span>
+<!-- Passed Station 3 (Amber / Flagged) -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#f59e0b] ring-2 ring-[#090d16] z-10" title="Flagged question"></span>
+<!-- Passed Station 4 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#10b981] ring-2 ring-[#090d16] z-10"></span>
+<!-- Passed Station 5 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#10b981] ring-2 ring-[#090d16] z-10"></span>
+<!-- Current Station Q14 (Ringed Station) -->
+<div class="relative flex items-center justify-center z-10">
+<span class="w-4 h-4 rounded-full bg-[#090d16] border-2 border-[#10b981] flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+</span>
+</div>
+<!-- Upcoming Station 7 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#090d16] border border-[#a3b1c6]/40 z-10"></span>
+<!-- Upcoming Station 8 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#090d16] border border-[#a3b1c6]/40 z-10"></span>
+<!-- Upcoming Station 9 -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#090d16] border border-[#a3b1c6]/40 z-10"></span>
+<!-- Terminal Station (75) -->
+<span class="w-2.5 h-2.5 rounded-full bg-[#090d16] border border-[#a3b1c6]/40 z-10"></span>
+</div>
+</div>
+</div>
+<!-- Row 3: MTA Topic Route Bullet -->
+<div class="flex items-center gap-2.5 pt-0.5">
+<div aria-hidden="true" class="w-[26px] h-[26px] rounded-full bg-[#00843D] flex items-center justify-center font-headline font-bold text-white text-[14px] shrink-0">
+          4
+        </div>
+<span class="text-[15px] font-medium text-[#a3b1c6] tracking-tight">Real estate finance</span>
+</div>
+</section>
+<!-- Main Content Canvas -->
+<main class="px-4 pt-4 flex flex-col gap-5">
+<!-- 3. Question Prompt on Raw OLED Canvas -->
+<article>
+<h1 class="font-headline font-bold text-[22px] leading-[1.3] text-[#f1f5f9] tracking-[-0.02em]">
+          Under New York Real Property Law, how is the statutory mortgage recording tax calculated on a residential purchase financed with an institutional lender in New York City?
+        </h1>
+</article>
+<!-- 4. Stack of Option Rows (14px radius, 10px stack gap) -->
+<section aria-label="Answer options" class="flex flex-col gap-2.5">
+<!-- Option A (Dimmed Neutral) -->
+<button class="w-full text-left bg-[#111725] rounded-[14px] p-3.5 min-h-[60px] flex items-start gap-3.5 border border-transparent opacity-65 active:scale-[0.98] transition-all" type="button">
+<div class="w-8 h-8 rounded-lg bg-[#182033] text-[#a3b1c6] flex items-center justify-center font-headline font-bold text-[15px] shrink-0 mt-0.5">
+            A
+          </div>
+<div class="flex-1">
+<p class="text-[16px] text-[#f1f5f9] leading-snug">
+              A flat state transfer surcharge of $500 plus 0.5% of the total loan commitment.
+            </p>
+</div>
+</button>
+<!-- Option B (CORRECT: Emerald Highlight Tint) -->
+<div class="w-full text-left bg-[#10b981]/[0.14] border-[1.5px] border-[#10b981] rounded-[14px] p-3.5 min-h-[60px] flex items-start gap-3.5">
+<div class="w-8 h-8 rounded-lg bg-[#10b981] text-[#090d16] flex items-center justify-center font-headline font-bold text-[15px] shrink-0 mt-0.5">
+            B
+          </div>
+<div class="flex-1">
+<p class="text-[16px] text-[#f1f5f9] leading-snug font-normal">
+              2.05% of the mortgage amount on loans under $500,000, or 2.175% for loans of $500,000 or greater.
+            </p>
+<div class="mt-2 flex items-center gap-1.5 text-[#10b981] text-[13px] font-bold tracking-tight">
+<span>✓ Correct answer</span>
+</div>
+</div>
+</div>
+<!-- Option C (Dimmed Neutral) -->
+<button class="w-full text-left bg-[#111725] rounded-[14px] p-3.5 min-h-[60px] flex items-start gap-3.5 border border-transparent opacity-65 active:scale-[0.98] transition-all" type="button">
+<div class="w-8 h-8 rounded-lg bg-[#182033] text-[#a3b1c6] flex items-center justify-center font-headline font-bold text-[15px] shrink-0 mt-0.5">
+            C
+          </div>
+<div class="flex-1">
+<p class="text-[16px] text-[#f1f5f9] leading-snug">
+              1.0% paid exclusively by the mortgagor at initial commitment.
+            </p>
+</div>
+</button>
+<!-- Option D (USER PICK: Stop Red Tint) -->
+<div class="w-full text-left bg-[#ef4444]/[0.14] border-[1.5px] border-[#ef4444] rounded-[14px] p-3.5 min-h-[60px] flex items-start gap-3.5">
+<div class="w-8 h-8 rounded-lg bg-[#ef4444] text-white flex items-center justify-center font-headline font-bold text-[15px] shrink-0 mt-0.5">
+            D
+          </div>
+<div class="flex-1">
+<p class="text-[16px] text-[#f1f5f9] leading-snug">
+              Exempt from county and city recording duties if under $750,000.
+            </p>
+<div class="mt-2 flex items-center gap-1.5 text-[#ef4444] text-[13px] font-bold tracking-tight">
+<span>✕ Your answer</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Immediate Feedback Line -->
+<div class="pt-0.5 flex items-center text-[15px] tracking-tight">
+<p>
+<span class="text-[#ef4444] font-bold mr-1.5">Incorrect.</span>
+<span class="text-[#a3b1c6]">The correct answer is B.</span>
+</p>
+</div>
+<!-- 6. Legal Citation Drawer Sheet -->
+<section class="bg-[#111725] rounded-[18px] border-l-[3px] border-[#818cf8] p-4 flex flex-col gap-2.5">
+<div class="flex items-center justify-between cursor-pointer">
+<h2 class="font-headline font-bold text-[16px] text-[#f1f5f9] tracking-tight">
+            Legal Citation &amp; Rationale
+          </h2>
+<span class="material-symbols-outlined text-[#818cf8] text-[20px]">keyboard_arrow_up</span>
+</div>
+<p class="text-[14px] font-bold text-[#818cf8] tracking-tight">
+          NY Tax Law § 253 &amp; NYC Admin. Code § 11-2601
+        </p>
+<p class="text-[15px] leading-relaxed text-[#a3b1c6]">
+          Mortgage recording tax in New York City includes both the NYS basic tax and local NYC surcharges. For 1-to-3 family residential dwellings, mortgages under $500,000 are taxed at 2.05%, while larger loans trigger the 2.175% rate.
+        </p>
+</section>
+</main>
+<!-- 7. Bottom Thumb-Zone Action Bar (Quiz Destination Control Dock) -->
+<footer class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[393px] bg-[#090d16] border-t border-[rgba(148,163,184,0.16)] px-4 pt-3 pb-safe z-50">
+<div class="h-14 flex items-center justify-between gap-3">
+<!-- Previous Button -->
+<button class="h-12 px-4 rounded-[14px] bg-[#182033] text-[#f1f5f9] font-medium text-[15px] active:scale-[0.98] transition-transform flex items-center justify-center" type="button">
+          Previous
+        </button>
+<!-- Flag Button -->
+<button class="h-12 px-3.5 rounded-[14px] bg-[#182033] text-[#f1f5f9] font-medium text-[15px] active:scale-[0.98] transition-transform flex items-center justify-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px] text-[#f59e0b]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+<span>Flag</span>
+</button>
+<!-- Dominant Next Button (No arrows, emerald #10b981) -->
+<button class="flex-1 h-12 rounded-[14px] bg-[#10b981] text-[#090d16] font-headline font-bold text-[16px] tracking-tight active:scale-[0.98] transition-transform flex items-center justify-center" type="button">
+          Next
+        </button>
+</div>
+<!-- iOS Home Indicator -->
+<div class="w-full flex justify-center pt-3 pb-1.5">
+<div class="w-[134px] h-[5px] bg-[#f1f5f9]/30 rounded-full"></div>
+</div>
+</footer>
+</div>
+</body></html>

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Custom quiz — NY RE Exam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#090d16',
+            surface: '#111725',
+            raised: '#182033',
+            hairline: 'rgba(148,163,184,0.16)',
+            'primary-text': '#f1f5f9',
+            'secondary-text': '#a3b1c6',
+            'go-green': '#10b981',
+            'caution-amber': '#f59e0b',
+            'line-red': '#DA291C',
+            'line-green': '#00843D',
+            'line-blue': '#0039A6',
+            'line-orange': '#FF6319',
+            'line-yellow': '#FCCC0A',
+            'line-purple': '#9B2A92',
+            'line-lime': '#6CBE45'
+          },
+          fontFamily: {
+            heading: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'system-ui', 'sans-serif']
+          },
+          borderRadius: {
+            sheet: '24px',
+            card: '18px',
+            control: '14px'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 0;
+      padding: 0;
+    }
+    .font-heading {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      letter-spacing: -0.02em;
+    }
+    .num-tabular {
+      font-feature-settings: "tnum" 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .subway-track {
+      position: absolute;
+      left: 27px;
+      top: 22px;
+      bottom: 22px;
+      width: 4px;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+    /* iOS switch simulation */
+    .ios-switch {
+      position: relative;
+      width: 51px;
+      height: 31px;
+      border-radius: 9999px;
+      transition: background-color 0.2s ease;
+    }
+    .ios-switch-knob {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 27px;
+      height: 27px;
+      background-color: #ffffff;
+      border-radius: 9999px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ios-switch.on {
+      background-color: #10b981;
+    }
+    .ios-switch.on .ios-switch-knob {
+      transform: translateX(20px);
+    }
+    .ios-switch.off {
+      background-color: #1e293b;
+    }
+    .ios-switch.off .ios-switch-knob {
+      transform: translateX(0);
+    }
+  </style>
+</head>
+<body class="bg-canvas text-primary-text min-h-screen flex justify-center selection:bg-go-green selection:text-black">
+  <div class="w-full max-w-[393px] min-h-[852px] relative flex flex-col pb-36 pt-4 px-4 bg-canvas overflow-x-hidden">
+
+    <!-- Top: Compact Large-Title Header -->
+    <header class="pt-8 pb-5">
+      <h1 class="font-heading font-bold text-[28px] leading-tight text-primary-text tracking-[-0.02em]">
+        Custom quiz
+      </h1>
+      <p class="text-secondary-text text-[15px] mt-1 font-normal num-tabular">
+        286 questions match
+      </p>
+    </header>
+
+    <!-- Main Form / Settings -->
+    <main class="flex flex-col gap-5">
+
+      <!-- Section: Topics -->
+      <section class="flex flex-col gap-2.5">
+        <div class="flex items-baseline justify-between px-0.5">
+          <div class="flex items-baseline gap-2">
+            <h2 class="font-heading font-bold text-[17px] text-primary-text">Topics</h2>
+            <span class="text-secondary-text text-[15px] font-normal num-tabular">12 of 19</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <button type="button" class="text-secondary-text text-[15px] hover:text-primary-text active:opacity-70 transition-colors">All</button>
+            <span class="w-[1px] h-3 bg-hairline"></span>
+            <button type="button" class="text-secondary-text text-[15px] hover:text-primary-text active:opacity-70 transition-colors">None</button>
+          </div>
+        </div>
+
+        <!-- Strip-map List Card -->
+        <div class="bg-surface rounded-card p-3 border border-hairline flex flex-col gap-3">
+
+          <!-- LINE: RED (#DA291C) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-red"></div>
+            
+            <!-- Station 1 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-red text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  1
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">License Law & Article 12-A</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">128</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station 2 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-red text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  2
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Law of Agency</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">114</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station 3 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-red text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  3
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Human Rights & Fair Housing</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">56</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- LINE: GREEN (#00843D) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-green"></div>
+            
+            <!-- Station 4 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-green text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  4
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Real Estate Finance</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">94</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station 5 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-green text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  5
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Valuation & Market Analysis</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">52</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station 6 (UNSELECTED) -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <!-- Hollow ring in line color -->
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-green bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  6
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Real Estate Math</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">38</span>
+              <!-- No checkmark -->
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+          </div>
+
+          <!-- LINE: BLUE (#0039A6) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-blue"></div>
+            
+            <!-- Station A -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-blue text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  A
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Legal Issues & Land Title</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">48</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station C -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-blue text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  C
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Estates & Encumbrances</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">86</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station E -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-blue text-white font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  E
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Real Estate Contracts</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">102</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- LINE: ORANGE (#FF6319) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-orange"></div>
+            
+            <!-- Station B -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-orange text-black font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  B
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Land Use Regulations</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">40</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station D -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-orange text-black font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  D
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Municipal Agencies</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">34</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station F -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-orange text-black font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  F
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Construction & Environment</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">45</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+
+            <!-- Station M -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-orange text-black font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  M
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Property Insurance</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">31</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- LINE: YELLOW (#FCCC0A) (ENTIRE LINE UNSELECTED) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-yellow opacity-40"></div>
+            
+            <!-- Station N -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-yellow bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  N
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Taxes & Assessments</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">42</span>
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+
+            <!-- Station Q -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-yellow bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  Q
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Closing & Settlement</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">29</span>
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+
+            <!-- Station R -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-yellow bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  R
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Commercial Real Estate</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">36</span>
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+
+            <!-- Station W -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-yellow bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  W
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Property Management</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">25</span>
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+          </div>
+
+          <!-- LINE: PURPLE (#9B2A92) (UNSELECTED) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-purple opacity-40"></div>
+            
+            <!-- Station 7 -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer opacity-75">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full border-2 border-line-purple bg-surface text-secondary-text font-heading font-bold text-[14px] flex items-center justify-center">
+                  7
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-secondary-text flex-1 truncate">Condos & Co-ops</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">37</span>
+              <div class="w-5 h-5 shrink-0"></div>
+            </div>
+          </div>
+
+          <!-- LINE: LIME (#6CBE45) -->
+          <div class="relative flex flex-col">
+            <div class="subway-track bg-line-lime"></div>
+            
+            <!-- Station G -->
+            <div class="relative z-10 flex items-center h-[44px] px-1 group cursor-pointer">
+              <div class="w-[30px] flex items-center justify-center shrink-0">
+                <div class="w-[26px] h-[26px] rounded-full bg-line-lime text-black font-heading font-bold text-[14px] flex items-center justify-center shadow-sm">
+                  G
+                </div>
+              </div>
+              <span class="ml-3.5 text-[15px] font-normal text-primary-text flex-1 truncate">Rentals & Deal Sheets</span>
+              <span class="text-secondary-text text-[13px] num-tabular mr-3">27</span>
+              <svg class="w-5 h-5 text-go-green shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section: Questions (Trip Length) -->
+      <section class="flex flex-col gap-2.5">
+        <h2 class="font-heading font-bold text-[17px] text-primary-text px-0.5">Questions</h2>
+        
+        <div class="flex items-center gap-2">
+          <!-- iOS Segmented Control on #182033 -->
+          <div class="flex-1 bg-raised p-1 rounded-control flex items-center border border-hairline">
+            <button type="button" class="flex-1 py-2 text-center text-[15px] font-medium text-secondary-text hover:text-primary-text transition-colors num-tabular">10</button>
+            <button type="button" class="flex-1 py-2 text-center text-[15px] font-medium text-secondary-text hover:text-primary-text transition-colors num-tabular">25</button>
+            <button type="button" class="flex-1 py-2 text-center text-[15px] font-medium text-secondary-text hover:text-primary-text transition-colors num-tabular">50</button>
+            <!-- 75 Selected -->
+            <button type="button" class="flex-1 py-2 text-center text-[15px] font-bold text-primary-text bg-[#232d46] rounded-[10px] shadow-sm num-tabular">75</button>
+          </div>
+
+          <!-- Compact 72px Custom Input -->
+          <div class="w-[72px] bg-raised border border-hairline rounded-control px-2.5 py-1.5 flex flex-col justify-center">
+            <span class="text-[11px] text-secondary-text font-normal leading-none mb-0.5">Custom</span>
+            <input type="number" placeholder="--" class="w-full bg-transparent text-primary-text font-heading font-bold text-[15px] leading-tight focus:outline-none placeholder:text-secondary-text/50 num-tabular">
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Mode (How you ride) -->
+      <section class="flex flex-col gap-2.5">
+        <h2 class="font-heading font-bold text-[17px] text-primary-text px-0.5">Mode</h2>
+
+        <div class="grid grid-cols-2 gap-3">
+          
+          <!-- Tutor Card (Unselected) -->
+          <div class="bg-surface rounded-card p-3.5 border border-hairline min-h-[128px] flex flex-col justify-between cursor-pointer hover:border-secondary-text/30 transition-colors">
+            <div class="flex items-center justify-between">
+              <svg class="w-5 h-5 text-secondary-text" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-[16px] text-primary-text leading-tight mb-1">Tutor</h3>
+              <p class="text-secondary-text text-[13px] leading-snug">
+                Instant feedback with the legal citation after every answer
+              </p>
+            </div>
+          </div>
+
+          <!-- Timed exam Card (Selected: 2px go-green ring, go-green corner check) -->
+          <div class="bg-surface rounded-card p-3.5 border-2 border-go-green min-h-[128px] flex flex-col justify-between relative cursor-pointer shadow-[0_0_15px_rgba(16,185,129,0.12)]">
+            <div class="flex items-center justify-between">
+              <svg class="w-5 h-5 text-go-green" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <!-- Filled go-green check badge in corner -->
+              <div class="w-5 h-5 rounded-full bg-go-green flex items-center justify-center">
+                <svg class="w-3.5 h-3.5 text-black" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-heading font-bold text-[16px] text-primary-text leading-tight mb-1">Timed exam</h3>
+              <p class="text-secondary-text text-[13px] leading-snug">
+                Answers hidden until you submit, 90:00 on the clock
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section: Question pool -->
+      <section class="flex flex-col gap-2.5">
+        <h2 class="font-heading font-bold text-[17px] text-primary-text px-0.5">Question pool</h2>
+
+        <!-- Four-segment control with label and count on second line -->
+        <div class="bg-raised p-1 rounded-control grid grid-cols-4 gap-1 border border-hairline">
+          
+          <!-- All 286 (Selected) -->
+          <button type="button" class="bg-[#232d46] rounded-[10px] py-2 px-1 flex flex-col items-center justify-center shadow-sm">
+            <span class="text-[13px] font-bold text-primary-text leading-tight">All</span>
+            <span class="text-[12px] text-secondary-text font-normal num-tabular leading-tight mt-0.5">286</span>
+          </button>
+
+          <!-- Unseen 214 -->
+          <button type="button" class="py-2 px-1 flex flex-col items-center justify-center rounded-[10px] hover:bg-surface/50 transition-colors">
+            <span class="text-[13px] font-medium text-secondary-text leading-tight">Unseen</span>
+            <span class="text-[12px] text-secondary-text/80 font-normal num-tabular leading-tight mt-0.5">214</span>
+          </button>
+
+          <!-- Bookmarked 6 -->
+          <button type="button" class="py-2 px-1 flex flex-col items-center justify-center rounded-[10px] hover:bg-surface/50 transition-colors">
+            <span class="text-[13px] font-medium text-secondary-text leading-tight">Bookmarked</span>
+            <span class="text-[12px] text-caution-amber font-normal num-tabular leading-tight mt-0.5">6</span>
+          </button>
+
+          <!-- Mistakes 14 -->
+          <button type="button" class="py-2 px-1 flex flex-col items-center justify-center rounded-[10px] hover:bg-surface/50 transition-colors">
+            <span class="text-[13px] font-medium text-secondary-text leading-tight">Mistakes</span>
+            <span class="text-[12px] text-secondary-text/80 font-normal num-tabular leading-tight mt-0.5">14</span>
+          </button>
+
+        </div>
+      </section>
+
+      <!-- Section: Settings / Toggles (Grouped card with two iOS switches) -->
+      <section class="mb-4">
+        <div class="bg-surface rounded-card border border-hairline px-4 flex flex-col">
+          
+          <!-- Switch 1: Shuffle question order -->
+          <div class="flex items-center justify-between py-3.5">
+            <span class="text-[15px] font-normal text-primary-text">Shuffle question order</span>
+            <div class="ios-switch on cursor-pointer">
+              <div class="ios-switch-knob"></div>
+            </div>
+          </div>
+
+          <!-- Hairline separator -->
+          <div class="w-full h-[1px] bg-hairline"></div>
+
+          <!-- Switch 2: Shuffle answer positions (A–D) -->
+          <div class="flex items-center justify-between py-3.5">
+            <span class="text-[15px] font-normal text-primary-text">Shuffle answer positions (A–D)</span>
+            <div class="ios-switch on cursor-pointer">
+              <div class="ios-switch-knob"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom: Sticky Thumb-Zone Action Bar on Translucent Blurred Canvas -->
+    <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[393px] px-4 pt-3 pb-8 bg-canvas/85 backdrop-blur-xl border-t border-hairline z-50 flex items-center gap-3">
+      
+      <!-- Raised pill with clock icon and 90:00 -->
+      <div class="h-14 px-4 bg-raised border border-hairline rounded-full flex items-center gap-2 shrink-0">
+        <svg class="w-5 h-5 text-secondary-text" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9"/>
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 3"/>
+        </svg>
+        <span class="font-heading font-bold text-[16px] text-primary-text tracking-tight num-tabular">
+          90:00
+        </span>
+      </div>
+
+      <!-- 56px Go-Green Button "Start 75-question exam" (14px radius, dark text, no arrows) -->
+      <button type="button" class="flex-1 h-14 bg-go-green hover:bg-[#0ea372] active:scale-[0.98] transition-all rounded-control flex items-center justify-center px-4 font-heading font-bold text-[16px] text-black tracking-tight">
+        Start 75-question exam
+      </button>
+
+    </div>
+
+  </div>
+</body>
+</html>

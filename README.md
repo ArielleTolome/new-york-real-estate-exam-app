@@ -19,6 +19,12 @@ Open the live URL in Safari → Share → **Add to Home Screen**. After the firs
 
 No build step for the app. Plain HTML, CSS, and JS.
 
+- `app.js`: state, quiz logic, router, and the shared UI helpers (`header`, `bullet`/`topicLabel` route bullets, `lineProgress`, `gauge`, `bar`, `svg` icons).
+- `views/<screen>.js`: one global `vX()` per screen that returns `{ top, main, bottom }` HTML. Each is loaded before `app.js`.
+- `app.css`: the design tokens and shared components. `styles/<screen>.css` holds styles scoped to a single screen.
+- Design: the "Wayfinding" direction lives in `.stitch/v2/DESIGN.md`, with the Google Stitch mockups in `.stitch/v2/*.png|html`. Each topic is an NYC-style route bullet, and progress is drawn as a line with stations.
+- `node tests/shot.js <home|build|quiz-study|quiz-study-answered|quiz-exam|results|history|mistakes|more> out.png [--full]` screenshots a single screen with realistic seeded progress.
+
 ```bash
 npm run serve          # http://localhost:8080
 npm run build          # validate data/topics/*.json and regenerate questions.json

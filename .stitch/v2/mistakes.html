@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+  <title>Mistakes — NY RE Exam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#090d16',
+            surface: '#111725',
+            control: '#182033',
+            'mta-red': '#ee352e',
+            'mta-blue': '#0039a6',
+            'mta-orange': '#ff6319',
+            'mta-yellow': '#fccc0a',
+            'mta-green': '#00933c',
+            emerald: {
+              accent: '#10b981',
+            },
+          },
+          fontFamily: {
+            headline: ['"Helvetica Neue"', 'Helvetica', 'Arial', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'Helvetica', 'Arial', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    body {
+      background-color: #090d16;
+      color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+</head>
+<body class="bg-[#090d16] text-[#f1f5f9] flex justify-center min-h-screen select-none antialiased">
+  <!-- iPhone 15 / 16 frame container: exactly 393px width -->
+  <div class="w-full max-w-[393px] min-h-[852px] bg-[#090d16] flex flex-col relative pb-32">
+    
+    <!-- iOS Status Bar -->
+    <header class="pt-3 px-6 pb-2 flex justify-between items-center text-[15px] font-semibold tracking-tight text-[#f1f5f9] z-30">
+      <span class="tabular-nums tracking-normal">9:41</span>
+      <div class="flex items-center gap-1.5 text-[#f1f5f9]">
+        <span class="material-symbols-outlined text-[17px]">signal_cellular_4_bar</span>
+        <span class="material-symbols-outlined text-[17px]">wifi</span>
+        <div class="w-5 h-2.5 border border-[#f1f5f9] rounded-sm p-0.5 flex items-center ml-0.5 relative">
+          <div class="h-full w-full bg-[#f1f5f9] rounded-[1px]"></div>
+          <div class="absolute -right-1 top-0.5 bottom-0.5 w-0.5 bg-[#f1f5f9] rounded-r-xs"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Compact Large Title Header (28px title) -->
+    <div class="px-5 pt-3 pb-4 flex items-baseline justify-between">
+      <h1 class="font-headline font-bold text-[28px] leading-tight tracking-tight text-[#f1f5f9]">
+        Mistakes
+      </h1>
+      <span class="text-[13px] font-normal text-[#94a3b8] tracking-tight">
+        NY RPL § 440
+      </span>
+    </div>
+
+    <!-- Main Content Flow -->
+    <main class="px-4 flex flex-col gap-4">
+
+      <!-- Top Summary Card: #111725, radius 18px -->
+      <section class="bg-[#111725] rounded-[18px] p-5 flex flex-col border border-[rgba(255,255,255,0.04)]">
+        <div class="flex items-baseline gap-2.5">
+          <span class="font-headline font-bold text-[44px] leading-none text-[#f1f5f9] tabular-nums tracking-tight">
+            6
+          </span>
+          <div class="flex flex-col">
+            <span class="text-[17px] font-semibold text-[#f1f5f9] tracking-tight">
+              questions to clear
+            </span>
+            <span class="text-[12px] font-medium text-[#10b981] tracking-tight">
+              Exam standard: 70% required
+            </span>
+          </div>
+        </div>
+
+        <p class="text-[14px] text-[#94a3b8] mt-3 leading-snug">
+          Answer one correctly twice in a row to clear it.
+        </p>
+
+        <!-- Dominant full-width green 56px Review mistakes button (no arrows, radius 14) -->
+        <button type="button" class="mt-4 w-full h-[56px] rounded-[14px] bg-[#10b981] text-[#090d16] font-headline font-bold text-[17px] tracking-tight flex items-center justify-center active:scale-[0.98] transition-transform">
+          Review mistakes
+        </button>
+      </section>
+
+      <!-- Section Label -->
+      <div class="px-1 pt-1 flex items-center justify-between">
+        <h2 class="text-[13px] font-semibold text-[#94a3b8] tracking-wide">
+          Queued for review
+        </h2>
+        <span class="text-[12px] text-[#64748b] tabular-nums">
+          4 of 6 shown
+        </span>
+      </div>
+
+      <!-- Missed Question Cards List -->
+      <section class="flex flex-col gap-3" aria-label="Missed questions">
+        
+        <!-- Card 1: Route 1 (Red), Missed 3x, Progress 1 of 2 -->
+        <article class="bg-[#111725] rounded-[18px] p-4 flex flex-col gap-2.5 border border-[rgba(255,255,255,0.04)]">
+          <!-- Row 1: Route Bullet + Topic Name + Badge -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-[22px] h-[22px] rounded-full bg-[#ee352e] text-white flex items-center justify-center font-headline font-bold text-[13px] shrink-0 leading-none">
+                1
+              </span>
+              <span class="text-[15px] font-semibold text-[#f1f5f9] tracking-tight">
+                License law and regulations
+              </span>
+            </div>
+            <span class="px-2 py-0.5 rounded-[6px] bg-[#ee352e]/15 text-[#ee352e] text-[11px] font-semibold tracking-tight">
+              Missed 3x
+            </span>
+          </div>
+
+          <!-- Row 2: Question text clamped to 2 lines -->
+          <p class="text-[14px] leading-[1.38] text-[#cbd5e1] line-clamp-2">
+            Under Article 12-A of New York Real Property Law, what is the maximum duration an unlicensed assistant may manage branch deposit logs without broker oversight?
+          </p>
+
+          <!-- Row 3: 2-station line progress + Clear text action -->
+          <div class="flex items-center justify-between pt-1">
+            <div class="flex items-center gap-2.5">
+              <!-- Subway 2-station progress line: 1 of 2 completed -->
+              <div class="flex items-center relative w-8 h-4">
+                <!-- Track -->
+                <div class="absolute left-1.5 right-1.5 h-[3px] bg-[#182033] rounded-full"></div>
+                <!-- Track filled portion to first dot -->
+                <div class="absolute left-1.5 w-2.5 h-[3px] bg-[#10b981]"></div>
+                <!-- Station 1 (cleared: filled green) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+                <div class="flex-1"></div>
+                <!-- Station 2 (pending: dark ring) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+              </div>
+              <span class="text-[12px] font-medium text-[#94a3b8] tabular-nums">
+                1 of 2
+              </span>
+            </div>
+
+            <!-- Quiet text Clear action -->
+            <button type="button" class="text-[13px] font-medium text-[#64748b] hover:text-[#94a3b8] active:text-[#f1f5f9] transition-colors py-1 px-2 -mr-2">
+              Clear
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Route A (Blue), Progress 0 of 2 -->
+        <article class="bg-[#111725] rounded-[18px] p-4 flex flex-col gap-2.5 border border-[rgba(255,255,255,0.04)]">
+          <!-- Row 1: Route Bullet + Topic Name -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-[22px] h-[22px] rounded-full bg-[#0039a6] text-white flex items-center justify-center font-headline font-bold text-[13px] shrink-0 leading-none">
+                A
+              </span>
+              <span class="text-[15px] font-semibold text-[#f1f5f9] tracking-tight">
+                Law of agency
+              </span>
+            </div>
+          </div>
+
+          <!-- Row 2: Question text clamped to 2 lines -->
+          <p class="text-[14px] leading-[1.38] text-[#cbd5e1] line-clamp-2">
+            At what exact legal milestone must a buyer's agent present the mandatory New York State Disclosure Form for Buyer and Seller to an unrepresented purchaser?
+          </p>
+
+          <!-- Row 3: 2-station line progress + Clear text action -->
+          <div class="flex items-center justify-between pt-1">
+            <div class="flex items-center gap-2.5">
+              <!-- Subway 2-station progress line: 0 of 2 completed -->
+              <div class="flex items-center relative w-8 h-4">
+                <!-- Track -->
+                <div class="absolute left-1.5 right-1.5 h-[3px] bg-[#182033] rounded-full"></div>
+                <!-- Station 1 (pending) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+                <div class="flex-1"></div>
+                <!-- Station 2 (pending) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+              </div>
+              <span class="text-[12px] font-medium text-[#94a3b8] tabular-nums">
+                0 of 2
+              </span>
+            </div>
+
+            <!-- Quiet text Clear action -->
+            <button type="button" class="text-[13px] font-medium text-[#64748b] hover:text-[#94a3b8] active:text-[#f1f5f9] transition-colors py-1 px-2 -mr-2">
+              Clear
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Route B (Orange), Progress 1 of 2 -->
+        <article class="bg-[#111725] rounded-[18px] p-4 flex flex-col gap-2.5 border border-[rgba(255,255,255,0.04)]">
+          <!-- Row 1: Route Bullet + Topic Name -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-[22px] h-[22px] rounded-full bg-[#ff6319] text-white flex items-center justify-center font-headline font-bold text-[13px] shrink-0 leading-none">
+                B
+              </span>
+              <span class="text-[15px] font-semibold text-[#f1f5f9] tracking-tight">
+                Estates and interests
+              </span>
+            </div>
+          </div>
+
+          <!-- Row 2: Question text clamped to 2 lines -->
+          <p class="text-[14px] leading-[1.38] text-[#cbd5e1] line-clamp-2">
+            In New York State conveyance law, which joint freehold estate creates an automatic right of survivorship between married spouses without explicit declaration in the deed?
+          </p>
+
+          <!-- Row 3: 2-station line progress + Clear text action -->
+          <div class="flex items-center justify-between pt-1">
+            <div class="flex items-center gap-2.5">
+              <!-- Subway 2-station progress line: 1 of 2 completed -->
+              <div class="flex items-center relative w-8 h-4">
+                <!-- Track -->
+                <div class="absolute left-1.5 right-1.5 h-[3px] bg-[#182033] rounded-full"></div>
+                <div class="absolute left-1.5 w-2.5 h-[3px] bg-[#10b981]"></div>
+                <!-- Station 1 (cleared) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+                <div class="flex-1"></div>
+                <!-- Station 2 (pending) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+              </div>
+              <span class="text-[12px] font-medium text-[#94a3b8] tabular-nums">
+                1 of 2
+              </span>
+            </div>
+
+            <!-- Quiet text Clear action -->
+            <button type="button" class="text-[13px] font-medium text-[#64748b] hover:text-[#94a3b8] active:text-[#f1f5f9] transition-colors py-1 px-2 -mr-2">
+              Clear
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: Route Q (Yellow), Progress 0 of 2 -->
+        <article class="bg-[#111725] rounded-[18px] p-4 flex flex-col gap-2.5 border border-[rgba(255,255,255,0.04)]">
+          <!-- Row 1: Route Bullet + Topic Name -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="w-[22px] h-[22px] rounded-full bg-[#fccc0a] text-black flex items-center justify-center font-headline font-bold text-[13px] shrink-0 leading-none">
+                Q
+              </span>
+              <span class="text-[15px] font-semibold text-[#f1f5f9] tracking-tight">
+                Real estate finance
+              </span>
+            </div>
+          </div>
+
+          <!-- Row 2: Question text clamped to 2 lines -->
+          <p class="text-[14px] leading-[1.38] text-[#cbd5e1] line-clamp-2">
+            How is statutory mortgage recording tax calculated in counties within New York City when financing a single-family residence with a mortgage over $500,000?
+          </p>
+
+          <!-- Row 3: 2-station line progress + Clear text action -->
+          <div class="flex items-center justify-between pt-1">
+            <div class="flex items-center gap-2.5">
+              <!-- Subway 2-station progress line: 0 of 2 completed -->
+              <div class="flex items-center relative w-8 h-4">
+                <!-- Track -->
+                <div class="absolute left-1.5 right-1.5 h-[3px] bg-[#182033] rounded-full"></div>
+                <!-- Station 1 (pending) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+                <div class="flex-1"></div>
+                <!-- Station 2 (pending) -->
+                <div class="relative z-10 w-3 h-3 rounded-full bg-[#182033] border border-[#475569] ring-2 ring-[#111725]"></div>
+              </div>
+              <span class="text-[12px] font-medium text-[#94a3b8] tabular-nums">
+                0 of 2
+              </span>
+            </div>
+
+            <!-- Quiet text Clear action -->
+            <button type="button" class="text-[13px] font-medium text-[#64748b] hover:text-[#94a3b8] active:text-[#f1f5f9] transition-colors py-1 px-2 -mr-2">
+              Clear
+            </button>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <!-- Floating Translucent Glass Capsule Tab Bar (Inset 12px, 5 tabs, active Mistakes tab with small green pill) -->
+    <div class="fixed bottom-6 inset-x-0 mx-auto w-[calc(393px-24px)] max-w-[369px] z-50 pointer-events-auto">
+      <nav aria-label="Main Navigation" class="bg-[#111725]/85 backdrop-blur-xl border border-[rgba(255,255,255,0.08)] rounded-[26px] h-[64px] px-3 shadow-2xl shadow-black/60 flex items-center justify-around">
+        
+        <!-- Tab 1: Home -->
+        <button type="button" class="flex flex-col items-center justify-center gap-1 w-14 h-full text-[#94a3b8] active:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">home</span>
+          <span class="text-[11px] font-medium tracking-tight">Home</span>
+        </button>
+
+        <!-- Tab 2: Build -->
+        <button type="button" class="flex flex-col items-center justify-center gap-1 w-14 h-full text-[#94a3b8] active:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">tune</span>
+          <span class="text-[11px] font-medium tracking-tight">Build</span>
+        </button>
+
+        <!-- Tab 3: Stats -->
+        <button type="button" class="flex flex-col items-center justify-center gap-1 w-14 h-full text-[#94a3b8] active:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">analytics</span>
+          <span class="text-[11px] font-medium tracking-tight">Stats</span>
+        </button>
+
+        <!-- Tab 4: Mistakes (ACTIVE TAB) with small green pill -->
+        <button type="button" class="flex flex-col items-center justify-center w-14 h-full text-[#10b981] relative">
+          <!-- Active highlight container / icon -->
+          <div class="relative flex flex-col items-center">
+            <span class="material-symbols-outlined text-[21px]" style="font-variation-settings: 'FILL' 1;">error</span>
+            <span class="text-[11px] font-semibold tracking-tight text-[#10b981]">Mistakes</span>
+            <!-- Small green indicator pill below -->
+            <div class="w-1.5 h-1.5 rounded-full bg-[#10b981] mt-0.5 shadow-[0_0_8px_#10b981]"></div>
+          </div>
+        </button>
+
+        <!-- Tab 5: More -->
+        <button type="button" class="flex flex-col items-center justify-center gap-1 w-14 h-full text-[#94a3b8] active:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">more_horiz</span>
+          <span class="text-[11px] font-medium tracking-tight">More</span>
+        </button>
+
+      </nav>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -72,13 +72,16 @@ function indexBank(base) {
 
 /* ---------- progress ---------- */
 
+const yesterday = () => { const y = new Date(); y.setDate(y.getDate() - 1); return today(y); };
+
 function bumpStreak() {
   const t = today();
   if (S.streak.day === t) return;
-  const y = new Date();
-  y.setDate(y.getDate() - 1);
-  S.streak = { day: t, count: S.streak.day === today(y) ? S.streak.count + 1 : 1 };
+  S.streak = { day: t, count: S.streak.day === yesterday() ? S.streak.count + 1 : 1 };
 }
+
+// Current streak for display: a streak whose last day is before yesterday has lapsed.
+const streakNow = () => (S.streak.day === today() || S.streak.day === yesterday() ? S.streak.count : 0);
 
 function record(qid, correct) {
   const a = (S.attempts[qid] ||= { n: 0, c: 0 });
@@ -205,12 +208,30 @@ function cfgGet() {
 /* ---------- rendering helpers ---------- */
 
 const icon = {
-  home: '<path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',
-  build: '<path d="M4 6h16M4 12h10M4 18h6"/><circle cx="18" cy="16" r="3"/>',
-  chart: '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
-  bank: '<path d="M12 3l9 4-9 4-9-4 9-4zM3 12l9 4 9-4M3 17l9 4 9-4"/>',
-  more: '<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>',
-  star: '<path d="M12 3l2.8 5.8 6.2.9-4.5 4.4 1 6.2L12 17.4 6.5 20.3l1-6.2L3 9.7l6.2-.9z"/>',
+  home: '<path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',
+  build: '<path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/>',
+  chart: '<path d="M4 20V11M10 20V5M16 20v-6M2 20h20"/>',
+  bank: '<path d="m12 3 9 4.5-9 4.5-9-4.5z"/><path d="m3 12 9 4.5 9-4.5M3 16.5 12 21l9-4.5"/>',
+  more: '<circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>',
+  star: '<path d="m12 3 2.8 5.8 6.2.9-4.5 4.4 1 6.2-5.5-2.9-5.5 2.9 1-6.2L3 9.7l6.2-.9z"/>',
+  flag: '<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
+  x: '<path d="M6 6l12 12M18 6 6 18"/>',
+  bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+  book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M8 7h7"/>',
+  play: '<path d="M7 4v16l13-8z"/>',
+  refresh: '<path d="M20 11a8 8 0 0 0-14.9-3M4 4v4h4M4 13a8 8 0 0 0 14.9 3M20 20v-4h-4"/>',
+  download: '<path d="M12 4v11m-5-5 5 5 5-5M4 20h16"/>',
+  upload: '<path d="M12 16V5m-5 5 5-5 5 5M4 20h16"/>',
+  trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',
+  share: '<path d="M12 3v12M8 7l4-4 4 4M5 12v8h14v-8"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/>',
+  chevron: '<path d="m9 6 6 6-6 6"/>',
+  compass: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+  plusSquare: '<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8.5v7M8.5 12h7"/>',
+  filePlus: '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11.5v6M9 14.5h6"/>',
 };
 const svg = (name, extra = '') => `<svg class="ic ${extra}" viewBox="0 0 24 24" aria-hidden="true">${icon[name]}</svg>`;
 
@@ -220,13 +241,46 @@ function tabs(active) {
     `<a href="#/${r}" class="tab${active === r ? ' on' : ''}"${active === r ? ' aria-current="page"' : ''}>${svg(ic)}<span>${label}</span></a>`).join('')}</nav>`;
 }
 
-const brand = (title) => `<div class="brand"><img src="icons/logo.svg" alt="" width="28" height="28"><h1>${esc(title)}</h1></div>`;
+// Large-title header. opts: { sub: plain-text subtitle, right: trusted HTML (e.g. a button), logo: bool }
+function header(title, { sub = '', right = '', logo = false } = {}) {
+  return `<div class="hdr">${logo ? '<img class="hdr-logo" src="icons/logo.svg" alt="" width="32" height="32">' : ''}
+    <div class="hdr-t"><h1>${esc(title)}</h1>${sub ? `<p>${esc(sub)}</p>` : ''}</div>${right}</div>`;
+}
+
+// Topic identity as NYC-style route bullets (see .stitch/v2/DESIGN.md). dark = dark glyph on light bullet.
+const LINE = { red: ['#DA291C'], green: ['#00843D'], blue: ['#0039A6'], orange: ['#FF6319', 1], yellow: ['#FCCC0A', 1], purple: ['#9B2A92'], lime: ['#6CBE45', 1] };
+const TOPIC_LINE = Object.fromEntries(Object.entries({
+  'license-law': ['1', 'red'], agency: ['2', 'red'], 'fair-housing': ['3', 'red'],
+  finance: ['4', 'green'], valuation: ['5', 'green'], math: ['6', 'green'],
+  'title-deeds': ['A', 'blue'], 'estates-liens': ['C', 'blue'], contracts: ['E', 'blue'],
+  'land-use': ['B', 'orange'], municipal: ['D', 'orange'], 'construction-env': ['F', 'orange'], insurance: ['M', 'orange'],
+  taxes: ['N', 'yellow'], closing: ['Q', 'yellow'], commercial: ['R', 'yellow'], 'property-mgmt': ['W', 'yellow'],
+  'condo-coop': ['7', 'purple'], 'rentals-dealsheet': ['G', 'lime'],
+}).map(([id, [code, line]]) => [id, { code, line, color: LINE[line][0], dark: !!LINE[line][1] }]));
+
+function bullet(topicId) {
+  const t = TOPIC_LINE[topicId] || { code: '•', color: '#64748b' };
+  return `<span class="bullet${t.dark ? ' dark' : ''}" style="--b:${t.color}" aria-hidden="true">${t.code}</span>`;
+}
+const topicLabel = (topicId) => `<span class="topic">${bullet(topicId)}<span>${esc(topicName[topicId] || topicId)}</span></span>`;
+
+// Line-with-stations progress. states[i]: '' | 'done' | 'flag'. Over 15 stations they shrink to beads (.dense);
+// over 40 only the current and flagged stations are drawn.
+function lineProgress(total, current, states = []) {
+  const at = (i) => (total > 1 ? (i / (total - 1)) * 100 : 0);
+  const dots = total <= 40 ? states.map((s, i) => `<b class="st ${s}${i === current ? ' cur' : ''}" style="left:${at(i)}%"></b>`).join('')
+    : states.map((s, i) => (s === 'flag' || i === current ? `<b class="st ${s}${i === current ? ' cur' : ''}" style="left:${at(i)}%"></b>` : '')).join('');
+  return `<div class="line${total > 15 ? ' dense' : ''}" role="progressbar" aria-label="Question ${current + 1} of ${total}" aria-valuemin="1" aria-valuemax="${total}" aria-valuenow="${current + 1}">
+    <i class="line-fill" style="width:${at(current)}%"></i>${dots}</div>`;
+}
 
 function fmtDur(ms) {
   if (ms <= 0) return 'Exam day';
   const d = Math.floor(ms / 864e5), h = Math.floor(ms / 36e5) % 24, m = Math.floor(ms / 6e4) % 60;
   return `${d}d ${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m`;
 }
+// Same text as fmtDur, with each number wrapped in <b> so the home board can size digits vs units.
+const fmtDurHtml = (ms) => fmtDur(ms).replace(/\d+/g, '<b>$&</b>');
 
 function fmtClock(s) {
   s = Math.max(0, Math.ceil(s));
@@ -239,203 +293,12 @@ function gauge(v) {
   const px = 60 + r * Math.cos((passAngle * Math.PI) / 180), py = 60 + r * Math.sin((passAngle * Math.PI) / 180);
   return `<svg class="gauge" viewBox="0 0 120 120" role="img" aria-label="Readiness ${pct(v)} percent; pass line 70 percent">
     <circle cx="60" cy="60" r="${r}" class="g-track"/>
-    <circle cx="60" cy="60" r="${r}" class="g-val ${v >= PASS ? 'ok' : 'low'}" stroke-dasharray="${C * v} ${C}" transform="rotate(-90 60 60)"/>
+    ${v > 0 ? `<circle cx="60" cy="60" r="${r}" class="g-val ${v >= PASS ? 'ok' : 'low'}" stroke-dasharray="${C * v} ${C}" transform="rotate(-90 60 60)"/>` : ''}
     <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="4" class="g-pass"/>
     <text x="60" y="58" class="g-num">${pct(v)}%</text><text x="60" y="76" class="g-lbl">readiness</text></svg>`;
 }
 
 const bar = (v, n) => `<div class="bar" role="img" aria-label="${n ? pct(v) + ' percent' : 'no attempts'}"><i class="${!n ? '' : v >= PASS ? 'ok' : 'low'}" style="width:${n ? pct(v) : 0}%"></i></div>`;
-
-/* ---------- views ---------- */
-
-function vHome() {
-  const o = overall();
-  const A = S.active;
-  return {
-    top: brand('NY RE Exam'),
-    main: `
-    <section class="card hero" aria-labelledby="cd-h">
-      <p class="eyebrow" id="cd-h">NYS Salesperson Exam · Oct 14 &amp; 15</p>
-      <p class="countdown" id="countdown">${fmtDur(EXAM_AT - Date.now())}</p>
-      <p class="muted">75 questions · 90 minutes · pass at 70% (53/75)</p>
-    </section>
-    <section class="card readiness">
-      ${gauge(o.readiness)}
-      <dl class="stats">
-        <div><dt>Study streak</dt><dd id="st-streak">${S.streak.count} day${S.streak.count === 1 ? '' : 's'}</dd></div>
-        <div><dt>Questions seen</dt><dd id="st-seen">${o.seen} / ${BANK.questions.length}</dd></div>
-        <div><dt>Accuracy</dt><dd id="st-acc">${o.n ? pct(o.acc) + '%' : '—'}</dd></div>
-      </dl>
-    </section>
-    <section class="actions">
-      ${A ? `<button class="btn primary" data-action="resume">Resume ${esc(A.title)} · Q ${A.i + 1} of ${A.qids.length}</button>` : ''}
-      <button class="btn ${A ? '' : 'primary'}" data-action="drill">Quick 10-Question Drill</button>
-      <button class="btn" data-action="mock">Mock 75-Question NYS State Exam</button>
-      <a class="btn" href="#/build">Custom Quiz Builder</a>
-      ${weakTopics().length ? `<button class="btn warn" data-action="weak">Retest Weak Areas (${weakTopics().length})</button>` : ''}
-    </section>`,
-    bottom: tabs('home'),
-  };
-}
-
-function vBuild() {
-  const c = cfgGet();
-  const avail = pool(c).length;
-  const n = Math.min(c.count, avail);
-  const ts = topicStats();
-  const seg = (key, opts) => `<div class="seg" role="group">${opts.map(([v, label]) =>
-    `<button data-action="set" data-key="${key}" data-val="${v}" aria-pressed="${String(c[key]) === String(v)}">${label}</button>`).join('')}</div>`;
-  const filterCount = (f) => BANK.questions.filter((q) => c.topics.includes(q.topic) && FILTERS[f](q)).length;
-  return {
-    top: brand('Custom Quiz Builder'),
-    main: `
-    <section class="card">
-      <div class="row"><h2>Topics <span class="muted">(${c.topics.length}/${BANK.topics.length})</span></h2>
-        <span><button class="link" data-action="topics-all">All</button> · <button class="link" data-action="topics-none">None</button></span></div>
-      <div class="chips" role="group" aria-label="Topics">${BANK.topics.map((t) =>
-        `<button class="chip" data-action="topic" data-id="${esc(t.id)}" aria-pressed="${c.topics.includes(t.id)}">${esc(t.name)} <small>${ts[t.id].total}</small></button>`).join('')}</div>
-    </section>
-    <section class="card">
-      <h2>Questions</h2>
-      ${seg('count', [[10, '10'], [25, '25'], [50, '50'], [75, '75 · Full']])}
-      <label class="field">Custom count <input id="count" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" value="${c.count}" data-action="count"></label>
-    </section>
-    <section class="card">
-      <h2>Mode</h2>
-      ${seg('mode', [['study', 'Tutor / Study'], ['exam', 'Exam / Timed']])}
-      <p class="muted small">${c.mode === 'study' ? 'Instant feedback with the legal citation after every answer.' : `Answers hidden until you submit. ${fmtClock(Math.max(1, n) * SECS_PER_Q)} clock (90:00 for 75 questions).`}</p>
-    </section>
-    <section class="card">
-      <h2>Question pool</h2>
-      ${seg('filter', [['all', `All ${filterCount('all')}`], ['unseen', `Unseen ${filterCount('unseen')}`], ['bookmarked', `Bookmarked ${filterCount('bookmarked')}`], ['mistakes', `Mistakes ${filterCount('mistakes')}`]])}
-      <label class="switch"><input type="checkbox" data-action="toggle" data-key="shuffleQ" ${c.shuffleQ ? 'checked' : ''}><span>Shuffle question order</span></label>
-      <label class="switch"><input type="checkbox" data-action="toggle" data-key="shuffleO" ${c.shuffleO ? 'checked' : ''}><span>Shuffle answer positions (A–D)</span></label>
-    </section>`,
-    bottom: `<div class="actionbar"><button class="btn primary grow" id="start" data-action="start" ${n ? '' : 'disabled'}>${n ? `Start ${n}-question ${c.mode === 'exam' ? 'exam' : 'quiz'}` : 'No questions match'}</button></div>`,
-  };
-}
-
-function vQuiz() {
-  const A = S.active;
-  if (!A) return go('home');
-  const q = byId.get(A.qids[A.i]);
-  if (!q) { S.active = null; save(); return go('home'); }
-  const chosen = A.answers[A.i];
-  const revealed = A.mode === 'study' && chosen !== undefined;
-  const last = A.i === A.qids.length - 1;
-  const opts = A.perm[A.i].map((orig, d) => {
-    let cls = '';
-    if (revealed) cls = orig === q.answer ? 'correct' : orig === chosen ? 'wrong' : 'dim';
-    else if (orig === chosen) cls = 'selected';
-    return `<button class="opt ${cls}" role="radio" data-action="answer" data-d="${d}" aria-checked="${orig === chosen}" ${revealed ? 'aria-disabled="true"' : ''}>
-      <b>${LETTERS[d]}</b><span>${esc(q.options[orig])}${cls === 'correct' ? '<small class="tag">✓ Correct answer</small>' : cls === 'wrong' ? '<small class="tag">✕ Your answer</small>' : ''}</span></button>`;
-  }).join('');
-  const answered = Object.keys(A.answers).length;
-  return {
-    top: `<div class="qtop">
-      <div class="row"><strong id="qpos">Q ${A.i + 1} of ${A.qids.length}</strong>
-        ${A.mode === 'exam' ? `<span class="timer" id="timer" role="timer" aria-label="Time remaining">${fmtClock((A.deadline - Date.now()) / 1000)}</span>` : `<span class="muted small">${answered} answered</span>`}
-        <button class="iconbtn${S.bookmarks[q.id] ? ' on' : ''}" data-action="bookmark" aria-pressed="${!!S.bookmarks[q.id]}" aria-label="Bookmark question">${svg('star')}</button>
-        <button class="link" data-action="end">${A.mode === 'exam' ? 'Submit' : 'End'}</button></div>
-      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${A.qids.length}" aria-valuenow="${A.i + 1}"><i style="width:${((A.i + 1) / A.qids.length) * 100}%"></i></div>
-      <span class="badge">${esc(topicName[q.topic] || q.topic)}</span>${A.flags[A.i] ? ' <span class="badge warn">Flagged</span>' : ''}</div>`,
-    main: `
-    <article class="card qcard"><p class="qtext" id="qtext">${esc(q.q)}</p></article>
-    <div class="opts" role="radiogroup" aria-label="Answer choices" aria-describedby="qtext">${opts}</div>
-    ${revealed ? `<p class="feedback ${chosen === q.answer ? 'ok' : 'bad'}" id="feedback">${chosen === q.answer ? 'Correct' : `Incorrect — answer: ${LETTERS[A.perm[A.i].indexOf(q.answer)]}`}</p>
-    <details class="drawer" open><summary>Legal Citation &amp; Rationale</summary>
-      <p class="cite" id="cite">${esc(q.citation || 'General NYS real estate principle')}</p><p>${esc(q.explanation || '')}</p></details>` : ''}
-    ${A.mode === 'exam' ? `<details class="card qmap"><summary>Question map · ${answered}/${A.qids.length} answered</summary><div class="grid">${A.qids.map((_, i) =>
-      `<button data-action="jump" data-i="${i}" class="${A.answers[i] !== undefined ? 'done' : ''}${A.flags[i] ? ' flag' : ''}${i === A.i ? ' cur' : ''}" aria-label="Question ${i + 1}">${i + 1}</button>`).join('')}</div></details>` : ''}`,
-    bottom: `<div class="actionbar">
-      <button class="btn" data-action="prev" ${A.i ? '' : 'disabled'}>Previous</button>
-      <button class="btn${A.flags[A.i] ? ' warn' : ''}" data-action="flag" aria-pressed="${!!A.flags[A.i]}">${A.flags[A.i] ? 'Flagged' : 'Flag'}</button>
-      <button class="btn primary" data-action="${last ? 'end' : 'next'}" id="next">${last ? (A.mode === 'exam' ? 'Submit Exam' : 'Finish') : 'Next'}</button></div>`,
-  };
-}
-
-function vResults(id) {
-  const h = S.history.find((x) => x.id === id);
-  if (!h) return go('history');
-  const missed = h.qids.filter((qid, i) => h.answers[i] !== byId.get(qid)?.answer);
-  return {
-    top: brand('Results'),
-    main: `
-    <section class="card hero center">
-      <p class="eyebrow">${esc(h.title)} · ${h.mode === 'exam' ? 'Exam mode' : 'Study mode'}</p>
-      <p class="score" id="score">${pct(h.score)}%</p>
-      <span class="badge big ${h.passed ? 'ok' : 'bad'}" id="verdict">${h.passed ? 'PASS' : 'FAIL'}</span>
-      <p class="muted">${h.correct} / ${h.total} correct · ${h.answered} answered · ${fmtClock(h.secs)}</p>
-    </section>
-    <section class="card"><h2>By topic</h2>${Object.entries(h.byTopic).map(([t, s]) =>
-      `<div class="trow"><span>${esc(topicName[t] || t)}</span><span class="muted">${s.c}/${s.t}</span>${bar(s.c / s.t, s.t)}</div>`).join('')}</section>
-    <section class="card"><h2>Review</h2>${h.qids.map((qid, i) => {
-      const q = byId.get(qid);
-      if (!q) return '';
-      const ok = h.answers[i] === q.answer;
-      return `<details class="review ${ok ? 'ok' : 'bad'}"><summary>${i + 1}. ${esc(q.q)}</summary>
-        <p>Your answer: ${h.answers[i] === undefined ? '<em>none</em>' : esc(q.options[h.answers[i]])}</p>
-        <p class="ok-t">Correct: ${esc(q.options[q.answer])}</p><p class="cite">${esc(q.citation || '')}</p><p class="muted">${esc(q.explanation || '')}</p></details>`;
-    }).join('')}</section>`,
-    bottom: `<div class="actionbar">${missed.length ? `<button class="btn warn grow" data-action="retest" data-id="${esc(h.id)}">Retest ${missed.length} missed</button>` : ''}<a class="btn grow" href="#/home">Home</a></div>`,
-  };
-}
-
-function vHistory() {
-  const ts = topicStats();
-  const rows = BANK.topics.map((t) => ({ ...t, ...ts[t.id], acc: ts[t.id].n ? ts[t.id].c / ts[t.id].n : 0 }));
-  const weak = weakTopics();
-  return {
-    top: brand('Performance'),
-    main: `
-    <section class="card"><h2>Weak topic heatmap</h2><p class="muted small">Red &lt; 70% · Green ≥ 70% · Gray not attempted</p>
-      <div class="heat" id="heatmap">${rows.map((r) =>
-        `<div class="cell ${!r.n ? 'none' : r.acc >= PASS ? 'ok' : 'low'}" title="${esc(r.name)}"><span>${esc(r.name)}</span><b>${r.n ? pct(r.acc) + '%' : '—'}</b></div>`).join('')}</div>
-      <button class="btn warn block" data-action="weak" ${weak.length ? '' : 'disabled'}>${weak.length ? `Retest Weak Areas (${weak.length} topics)` : 'No weak topics yet'}</button></section>
-    <section class="card"><h2>Accuracy by topic</h2>${[...rows].sort((a, b) => (b.n ? 1 : 0) - (a.n ? 1 : 0) || a.acc - b.acc).map((r) =>
-      `<div class="trow"><span>${esc(r.name)}</span><span class="muted">${r.n ? `${r.c}/${r.n}` : '—'}</span>${bar(r.acc, r.n)}</div>`).join('')}</section>
-    <section class="card"><h2>Quiz log</h2>${S.history.length ? `<ul class="log" id="log">${S.history.map((h) =>
-      `<li><a href="#/results/${esc(h.id)}"><span><strong>${esc(h.title)}</strong><small class="muted">${new Date(h.date).toLocaleString()} · ${h.mode === 'exam' ? 'Exam' : 'Study'} · ${h.correct}/${h.total}</small></span>
-        <span class="badge ${h.passed ? 'ok' : 'bad'}">${pct(h.score)}% ${h.passed ? 'PASS' : 'FAIL'}</span></a></li>`).join('')}</ul>` : '<p class="muted">No quizzes yet.</p>'}</section>`,
-    bottom: tabs('history'),
-  };
-}
-
-function vMistakes() {
-  const items = Object.entries(S.mistakes).filter(([id]) => byId.has(id)).sort((a, b) => b[1].at - a[1].at);
-  return {
-    top: brand('Mistake Bank'),
-    main: `
-    <section class="card"><p>${items.length} question${items.length === 1 ? '' : 's'} to fix. Answer one correctly <strong>twice in a row</strong> to clear it.</p>
-      <button class="btn primary block" data-action="review-mistakes" ${items.length ? '' : 'disabled'}>Review mistakes</button></section>
-    <ul class="mlist" id="mlist">${items.map(([id, m]) => {
-      const q = byId.get(id);
-      return `<li class="card"><span class="badge">${esc(topicName[q.topic] || q.topic)}</span><p>${esc(q.q)}</p>
-        <div class="row"><span class="dots" aria-label="${m.streak} of 2 correct">${[0, 1].map((k) => `<i class="${k < m.streak ? 'on' : ''}"></i>`).join('')} <small class="muted">${m.streak}/2</small></span>
-        <button class="link" data-action="clear-mistake" data-id="${esc(id)}">Clear</button></div></li>`;
-    }).join('')}</ul>`,
-    bottom: tabs('mistakes'),
-  };
-}
-
-function vMore() {
-  const ts = topicStats();
-  return {
-    top: brand('More'),
-    main: `
-    <section class="card"><h2>Install on iPhone</h2><p class="muted">Open in Safari → Share → <strong>Add to Home Screen</strong>. Works fully offline after the first load.</p></section>
-    <section class="card"><h2>Your data</h2>
-      <button class="btn block" data-action="export">Export study history (JSON)</button>
-      <label class="btn block file">Import study history<input type="file" accept="application/json,.json" data-action="import-progress" hidden></label>
-      <label class="btn block file">Import question batch (JSON)<input type="file" accept="application/json,.json" data-action="import-questions" hidden></label>
-      <p class="muted small">Question batch format: array of {id, topic, q, options[4], answer 0-3, explanation, citation}. ${S.imported.length} imported.</p>
-      <button class="btn bad block" data-action="reset">Reset all progress</button></section>
-    <section class="card"><h2>Question bank · ${BANK.questions.length}</h2>${BANK.topics.map((t) =>
-      `<div class="trow"><span>${esc(t.name)}</span><span class="muted">${ts[t.id].total}</span></div>`).join('')}</section>
-    <p class="muted small center">Independent study aid. Not affiliated with NYS DOS.</p>`,
-    bottom: tabs('more'),
-  };
-}
 
 /* ---------- router ---------- */
 
@@ -455,8 +318,9 @@ function render() {
   $('#view').innerHTML = v.main;
   $('#bottom').innerHTML = v.bottom;
   document.body.dataset.route = name || 'home';
-  const route = location.hash;
-  if (route !== lastRoute) { window.scrollTo(0, 0); lastRoute = route; }
+  // Scroll to top on a new route or a new question (Next/Prev/jump re-render the same route).
+  const at = location.hash + (name === 'quiz' && S.active ? `/${S.active.id}/${S.active.i}` : '');
+  if (at !== lastRoute) { window.scrollTo(0, 0); lastRoute = at; }
 }
 
 /* ---------- events ---------- */
@@ -507,7 +371,18 @@ const ACTIONS = {
     const id = S.active.qids[S.active.i];
     if (S.bookmarks[id]) delete S.bookmarks[id]; else S.bookmarks[id] = 1;
   },
-  end: submit,
+  end: (el) => {
+    // A stray tap on the top-bar Submit must not end a timed exam: first tap arms, second submits.
+    if (el.dataset.confirm && !el.dataset.armed) {
+      el.dataset.armed = '1';
+      el.textContent = el.dataset.confirm;
+      toast('Tap again to submit your exam.');
+      setTimeout(() => { if (el.isConnected) { delete el.dataset.armed; el.textContent = 'Submit'; } }, 4000);
+      return;
+    }
+    $('#toast').classList.remove('show'); // drop the "tap again" hint once the exam is submitted
+    submit();
+  },
   retest: (el) => {
     const h = S.history.find((x) => x.id === el.dataset.id);
     startQuiz({ title: 'Missed Questions Retest', mode: 'study', qids: h.qids.filter((qid, i) => h.answers[i] !== byId.get(qid)?.answer) });
@@ -577,7 +452,7 @@ document.addEventListener('keydown', (e) => {
 
 setInterval(() => {
   const cd = $('#countdown');
-  if (cd) cd.textContent = fmtDur(EXAM_AT - Date.now());
+  if (cd) cd.innerHTML = fmtDurHtml(EXAM_AT - Date.now());
   const A = S.active;
   if (A?.deadline) {
     const left = (A.deadline - Date.now()) / 1000;

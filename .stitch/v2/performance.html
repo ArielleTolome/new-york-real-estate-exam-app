@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Performance - Stats Tab</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts for Material Symbols & Inter/Helvetica fallback -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            oled: '#090d16',
+            surface1: '#111725',
+            surface2: '#182033',
+            ink: '#f1f5f9',
+            'ink-secondary': '#a3b1c6',
+            go: '#10b981',
+            stop: '#ef4444',
+            caution: '#f59e0b',
+            statute: '#818cf8',
+            mtaRed: '#DA291C',
+            mtaGreen: '#00843D',
+            mtaBlue: '#0039A6',
+            mtaOrange: '#FF6319',
+            mtaYellow: '#FCCC0A',
+            mtaPurple: '#9B2A92',
+            mtaLime: '#6CBE45'
+          },
+          fontFamily: {
+            sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Tabular figures for data display */
+    .tabular {
+      font-variant-numeric: tabular-nums;
+    }
+    /* Hide scrollbars for clean mobile feel */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #090d16;
+      color: #f1f5f9;
+      font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, sans-serif;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .material-symbols-outlined.fill {
+      font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+</head>
+<body class="bg-oled min-h-screen text-ink flex justify-center selection:bg-go/30 selection:text-ink">
+  <!-- Mobile Screen Container: 393px iPhone viewport -->
+  <div class="w-full max-w-[393px] min-h-screen flex flex-col relative pb-32">
+
+    <!-- Top Status Bar & Safe Area Header -->
+    <header class="pt-3 px-4 pb-2 sticky top-0 bg-oled/90 backdrop-blur-md z-30 flex items-center justify-between border-b border-white/5">
+      <div class="flex items-center gap-1.5 text-xs text-ink-secondary tracking-tight">
+        <span class="inline-block w-2 h-2 rounded-full bg-go"></span>
+        <span class="font-medium text-ink">NYS Qualifying Exam</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-xs px-2.5 py-0.5 rounded-full bg-surface2 text-ink-secondary font-medium border border-white/5">Exam: Oct 14–15</span>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="px-4 pt-4 flex flex-col gap-5">
+      <!-- Title Block -->
+      <section>
+        <h1 class="text-[28px] leading-tight font-bold tracking-tight text-ink">Performance</h1>
+        <p class="text-sm text-ink-secondary mt-0.5">412 answers across 9 quizzes</p>
+      </section>
+
+      <!-- Section 1: Subway Service Status Board (System Map) -->
+      <section class="bg-surface1 rounded-[24px] p-4 border border-white/5">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-go animate-pulse"></span>
+            <h2 class="text-base font-bold tracking-tight text-ink">Syllabus service status</h2>
+          </div>
+          <span class="text-xs text-ink-secondary tabular">19 topics active</span>
+        </div>
+
+        <!-- 3-Column Grid of 19 Syllabus Topics -->
+        <div class="grid grid-cols-3 gap-2">
+          <!-- 1. License law (84%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaRed text-white flex items-center justify-center font-bold text-xs shrink-0">1</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">License law</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">84%</div>
+            </div>
+          </div>
+
+          <!-- 2. Agency (62%, Weak) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-stop/60 bg-stop/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaBlue text-white flex items-center justify-center font-bold text-xs shrink-0">A</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stop"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Agency</div>
+              <div class="text-base font-bold tabular text-stop mt-0.5">62%</div>
+            </div>
+          </div>
+
+          <!-- 3. Fair housing (91%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaRed text-white flex items-center justify-center font-bold text-xs shrink-0">2</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Fair housing</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">91%</div>
+            </div>
+          </div>
+
+          <!-- 4. Finance (58%, Weak) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-stop/60 bg-stop/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaOrange text-black flex items-center justify-center font-bold text-xs shrink-0">B</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stop"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Finance</div>
+              <div class="text-base font-bold tabular text-stop mt-0.5">58%</div>
+            </div>
+          </div>
+
+          <!-- 5. Valuation (64%, Weak) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-stop/60 bg-stop/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaGreen text-white flex items-center justify-center font-bold text-xs shrink-0">4</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stop"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Valuation</div>
+              <div class="text-base font-bold tabular text-stop mt-0.5">64%</div>
+            </div>
+          </div>
+
+          <!-- 6. Math (52%, Weak) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-stop/60 bg-stop/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-xs shrink-0">N</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stop"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Math</div>
+              <div class="text-base font-bold tabular text-stop mt-0.5">52%</div>
+            </div>
+          </div>
+
+          <!-- 7. Condos and co-ops (76%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaBlue text-white flex items-center justify-center font-bold text-xs shrink-0">C</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Condos &amp; co-op</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">76%</div>
+            </div>
+          </div>
+
+          <!-- 8. Title and deeds (80%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaOrange text-black flex items-center justify-center font-bold text-xs shrink-0">D</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Title &amp; deeds</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">80%</div>
+            </div>
+          </div>
+
+          <!-- 9. Land use (72%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaGreen text-white flex items-center justify-center font-bold text-xs shrink-0">5</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Land use</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">72%</div>
+            </div>
+          </div>
+
+          <!-- 10. Estates and liens (48%, Weak) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-stop/60 bg-stop/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-xs shrink-0">Q</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-stop"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Estates &amp; liens</div>
+              <div class="text-base font-bold tabular text-stop mt-0.5">48%</div>
+            </div>
+          </div>
+
+          <!-- 11. Municipal (70%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaPurple text-white flex items-center justify-center font-bold text-xs shrink-0">7</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Municipal</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">70%</div>
+            </div>
+          </div>
+
+          <!-- 12. Contracts (78%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaBlue text-white flex items-center justify-center font-bold text-xs shrink-0">E</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Contracts</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">78%</div>
+            </div>
+          </div>
+
+          <!-- 13. Construction (82%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaLime text-black flex items-center justify-center font-bold text-xs shrink-0">G</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Construction</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">82%</div>
+            </div>
+          </div>
+
+          <!-- 14. Rentals (75%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaOrange text-black flex items-center justify-center font-bold text-xs shrink-0">F</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Rentals</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">75%</div>
+            </div>
+          </div>
+
+          <!-- 15. Insurance (73%, Passed) -->
+          <div class="bg-surface2 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 relative">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaRed text-white flex items-center justify-center font-bold text-xs shrink-0">3</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-go"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink line-clamp-1">Insurance</div>
+              <div class="text-base font-bold tabular text-go mt-0.5">73%</div>
+            </div>
+          </div>
+
+          <!-- 16. Taxes (Untested) -->
+          <div class="bg-surface2/50 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 opacity-60">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaGreen/80 text-white flex items-center justify-center font-bold text-xs shrink-0">6</span>
+              <span class="w-1.5 h-1.5 rounded-full border border-ink-secondary/60"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink-secondary line-clamp-1">Taxes</div>
+              <div class="text-base font-bold tabular text-ink-secondary mt-0.5">—</div>
+            </div>
+          </div>
+
+          <!-- 17. Closing (Untested) -->
+          <div class="bg-surface2/50 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 opacity-60">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow/80 text-black flex items-center justify-center font-bold text-xs shrink-0">R</span>
+              <span class="w-1.5 h-1.5 rounded-full border border-ink-secondary/60"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink-secondary line-clamp-1">Closing</div>
+              <div class="text-base font-bold tabular text-ink-secondary mt-0.5">—</div>
+            </div>
+          </div>
+
+          <!-- 18. Commercial (Untested) -->
+          <div class="bg-surface2/50 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 opacity-60">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaOrange/80 text-black flex items-center justify-center font-bold text-xs shrink-0">M</span>
+              <span class="w-1.5 h-1.5 rounded-full border border-ink-secondary/60"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink-secondary line-clamp-1">Commercial</div>
+              <div class="text-base font-bold tabular text-ink-secondary mt-0.5">—</div>
+            </div>
+          </div>
+
+          <!-- 19. Property mgmt (Untested) -->
+          <div class="bg-surface2/50 rounded-xl p-2.5 flex flex-col justify-between h-[84px] border border-white/5 opacity-60">
+            <div class="flex items-center justify-between">
+              <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow/80 text-black flex items-center justify-center font-bold text-xs shrink-0">W</span>
+              <span class="w-1.5 h-1.5 rounded-full border border-ink-secondary/60"></span>
+            </div>
+            <div>
+              <div class="text-[11px] leading-tight font-medium text-ink-secondary line-clamp-1">Property mgmt</div>
+              <div class="text-base font-bold tabular text-ink-secondary mt-0.5">—</div>
+            </div>
+          </div>
+
+          <!-- Quick Stat Badge to balance 3x7 grid visually -->
+          <div class="col-span-2 bg-oled/50 border border-white/5 rounded-xl p-2.5 flex items-center justify-around">
+            <div class="text-center">
+              <div class="text-[10px] text-ink-secondary">Passing standard</div>
+              <div class="text-xs font-bold text-ink tabular mt-0.5">70% statutory</div>
+            </div>
+            <div class="w-px h-6 bg-white/10"></div>
+            <div class="text-center">
+              <div class="text-[10px] text-stop">5 weak topics</div>
+              <div class="text-xs font-bold text-ink tabular mt-0.5">4 not started</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- System Map Legend -->
+        <div class="flex items-center justify-between text-[11px] text-ink-secondary pt-3 mt-3 border-t border-white/5">
+          <div class="flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-go"></span>
+            <span>70% and up</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-stop"></span>
+            <span>Weak, under 70%</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full border border-ink-secondary/70"></span>
+            <span>Not tested</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Primary Action CTA Button (56px height, no arrows) -->
+      <button class="w-full h-14 bg-go hover:bg-emerald-400 active:scale-[0.99] transition-all rounded-[14px] flex items-center justify-center gap-2.5 px-4 font-bold text-oled text-base shadow-sm">
+        <span>Retest weak areas</span>
+        <span class="bg-black/15 text-oled text-xs font-bold px-2 py-0.5 rounded-full tabular">5 topics</span>
+      </button>
+
+      <!-- Section 2: Accuracy by Topic (Weakest First) -->
+      <section class="bg-surface1 rounded-[24px] p-4 border border-white/5 flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <h2 class="text-base font-bold tracking-tight text-ink">Accuracy by topic</h2>
+          <span class="text-xs text-ink-secondary">Weakest first</span>
+        </div>
+
+        <div class="flex flex-col gap-3.5 pt-1">
+          <!-- 1. Estates and liens (48%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-xs shrink-0">Q</span>
+                <span class="text-sm font-bold text-ink">Estates and liens</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stop tabular">48%</span>
+                <span class="text-xs text-ink-secondary tabular">12/25</span>
+              </div>
+            </div>
+            <!-- 6px Progress Bar with 70% Tick -->
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-stop rounded-full" style="width: 48%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 2. Math (52%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-xs shrink-0">N</span>
+                <span class="text-sm font-bold text-ink">Math</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stop tabular">52%</span>
+                <span class="text-xs text-ink-secondary tabular">14/27</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-stop rounded-full" style="width: 52%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 3. Finance (58%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaOrange text-black flex items-center justify-center font-bold text-xs shrink-0">B</span>
+                <span class="text-sm font-bold text-ink">Finance</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stop tabular">58%</span>
+                <span class="text-xs text-ink-secondary tabular">21/36</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-stop rounded-full" style="width: 58%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 4. Agency (62%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaBlue text-white flex items-center justify-center font-bold text-xs shrink-0">A</span>
+                <span class="text-sm font-bold text-ink">Agency</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stop tabular">62%</span>
+                <span class="text-xs text-ink-secondary tabular">31/50</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-stop rounded-full" style="width: 62%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 5. Valuation (64%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaGreen text-white flex items-center justify-center font-bold text-xs shrink-0">4</span>
+                <span class="text-sm font-bold text-ink">Valuation</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stop tabular">64%</span>
+                <span class="text-xs text-ink-secondary tabular">18/28</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-stop rounded-full" style="width: 64%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 6. Municipal (70% - At pass line) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaPurple text-white flex items-center justify-center font-bold text-xs shrink-0">7</span>
+                <span class="text-sm font-bold text-ink">Municipal</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-go tabular">70%</span>
+                <span class="text-xs text-ink-secondary tabular">14/20</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-go rounded-full" style="width: 70%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 7. Land use (72%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaGreen text-white flex items-center justify-center font-bold text-xs shrink-0">5</span>
+                <span class="text-sm font-bold text-ink">Land use</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-go tabular">72%</span>
+                <span class="text-xs text-ink-secondary tabular">18/25</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-go rounded-full" style="width: 72%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 8. License law (84%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaRed text-white flex items-center justify-center font-bold text-xs shrink-0">1</span>
+                <span class="text-sm font-bold text-ink">License law</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-go tabular">84%</span>
+                <span class="text-xs text-ink-secondary tabular">54/64</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-go rounded-full" style="width: 84%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- 9. Fair housing (91%) -->
+          <div class="flex flex-col gap-1.5">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="w-[26px] h-[26px] rounded-full bg-mtaRed text-white flex items-center justify-center font-bold text-xs shrink-0">2</span>
+                <span class="text-sm font-bold text-ink">Fair housing</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-go tabular">91%</span>
+                <span class="text-xs text-ink-secondary tabular">32/35</span>
+              </div>
+            </div>
+            <div class="w-full h-1.5 bg-surface2 rounded-full relative overflow-hidden">
+              <div class="h-full bg-go rounded-full" style="width: 91%;"></div>
+              <div class="absolute top-0 bottom-0 w-[1.5px] bg-white/50 z-10" style="left: 70%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dimmed Untested Topics List at End -->
+        <div class="mt-2 pt-3 border-t border-white/5">
+          <div class="text-[11px] font-medium text-ink-secondary mb-2">Untested topics</div>
+          <div class="grid grid-cols-2 gap-2 opacity-60">
+            <div class="flex items-center justify-between text-xs py-1">
+              <div class="flex items-center gap-2">
+                <span class="w-[22px] h-[22px] rounded-full bg-mtaGreen text-white flex items-center justify-center font-bold text-[10px]">6</span>
+                <span class="text-ink-secondary">Taxes</span>
+              </div>
+              <span class="text-[11px] text-ink-secondary tabular">0 answered</span>
+            </div>
+            <div class="flex items-center justify-between text-xs py-1">
+              <div class="flex items-center gap-2">
+                <span class="w-[22px] h-[22px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-[10px]">R</span>
+                <span class="text-ink-secondary">Closing</span>
+              </div>
+              <span class="text-[11px] text-ink-secondary tabular">0 answered</span>
+            </div>
+            <div class="flex items-center justify-between text-xs py-1">
+              <div class="flex items-center gap-2">
+                <span class="w-[22px] h-[22px] rounded-full bg-mtaOrange text-black flex items-center justify-center font-bold text-[10px]">M</span>
+                <span class="text-ink-secondary">Commercial</span>
+              </div>
+              <span class="text-[11px] text-ink-secondary tabular">0 answered</span>
+            </div>
+            <div class="flex items-center justify-between text-xs py-1">
+              <div class="flex items-center gap-2">
+                <span class="w-[22px] h-[22px] rounded-full bg-mtaYellow text-black flex items-center justify-center font-bold text-[10px]">W</span>
+                <span class="text-ink-secondary">Property mgmt</span>
+              </div>
+              <span class="text-[11px] text-ink-secondary tabular">0 answered</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Quiz Log (Grouped list with hairline dividers) -->
+      <section class="bg-surface1 rounded-[24px] p-4 border border-white/5 flex flex-col gap-2">
+        <div class="flex items-center justify-between mb-1">
+          <h2 class="text-base font-bold tracking-tight text-ink">Quiz log</h2>
+          <span class="text-xs text-ink-secondary">Newest first</span>
+        </div>
+
+        <div class="divide-y divide-white/5">
+          <!-- Item 1: Mock exam (Pass 77%) -->
+          <div class="py-3 flex items-center justify-between group active:bg-white/5 transition-colors rounded-xl px-1">
+            <div class="flex items-center gap-3">
+              <span class="px-2 py-0.5 rounded-full text-[11px] font-bold tracking-wide bg-go/15 text-go border border-go/20">PASS</span>
+              <div>
+                <div class="text-sm font-bold text-ink">Mock exam</div>
+                <div class="text-xs text-ink-secondary mt-0.5">Oct 24, timed exam, 58/75</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-base font-bold tabular text-go">77%</span>
+              <span class="material-symbols-outlined text-ink-secondary text-base">chevron_right</span>
+            </div>
+          </div>
+
+          <!-- Item 2: Weak areas retest (Fail 65%) -->
+          <div class="py-3 flex items-center justify-between group active:bg-white/5 transition-colors rounded-xl px-1">
+            <div class="flex items-center gap-3">
+              <span class="px-2 py-0.5 rounded-full text-[11px] font-bold tracking-wide bg-stop/15 text-stop border border-stop/20">FAIL</span>
+              <div>
+                <div class="text-sm font-bold text-ink">Weak areas retest</div>
+                <div class="text-xs text-ink-secondary mt-0.5">Oct 22, study drill, 26/40</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-base font-bold tabular text-stop">65%</span>
+              <span class="material-symbols-outlined text-ink-secondary text-base">chevron_right</span>
+            </div>
+          </div>
+
+          <!-- Item 3: Quick drill (Fail 60%) -->
+          <div class="py-3 flex items-center justify-between group active:bg-white/5 transition-colors rounded-xl px-1">
+            <div class="flex items-center gap-3">
+              <span class="px-2 py-0.5 rounded-full text-[11px] font-bold tracking-wide bg-stop/15 text-stop border border-stop/20">FAIL</span>
+              <div>
+                <div class="text-sm font-bold text-ink">Quick drill</div>
+                <div class="text-xs text-ink-secondary mt-0.5">Oct 21, agency and law, 6/10</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-base font-bold tabular text-stop">60%</span>
+              <span class="material-symbols-outlined text-ink-secondary text-base">chevron_right</span>
+            </div>
+          </div>
+
+          <!-- Item 4: Mock exam (Pass 72%) -->
+          <div class="py-3 flex items-center justify-between group active:bg-white/5 transition-colors rounded-xl px-1">
+            <div class="flex items-center gap-3">
+              <span class="px-2 py-0.5 rounded-full text-[11px] font-bold tracking-wide bg-go/15 text-go border border-go/20">PASS</span>
+              <div>
+                <div class="text-sm font-bold text-ink">Mock exam</div>
+                <div class="text-xs text-ink-secondary mt-0.5">Oct 19, timed exam, 54/75</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-base font-bold tabular text-go">72%</span>
+              <span class="material-symbols-outlined text-ink-secondary text-base">chevron_right</span>
+            </div>
+          </div>
+
+          <!-- Item 5: Quick drill (Pass 90%) -->
+          <div class="py-3 flex items-center justify-between group active:bg-white/5 transition-colors rounded-xl px-1">
+            <div class="flex items-center gap-3">
+              <span class="px-2 py-0.5 rounded-full text-[11px] font-bold tracking-wide bg-go/15 text-go border border-go/20">PASS</span>
+              <div>
+                <div class="text-sm font-bold text-ink">Quick drill</div>
+                <div class="text-xs text-ink-secondary mt-0.5">Oct 17, license law, 9/10</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-base font-bold tabular text-go">90%</span>
+              <span class="material-symbols-outlined text-ink-secondary text-base">chevron_right</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Glass Capsule Tab Bar (Inset 12px, 5 tabs, Stats active) -->
+    <nav class="fixed bottom-4 left-0 right-0 max-w-[393px] mx-auto px-3 z-40">
+      <div class="bg-surface1/80 backdrop-blur-xl border border-white/10 rounded-full h-[62px] px-2 shadow-[0_8px_32px_rgba(0,0,0,0.6)] flex items-center justify-between">
+        
+        <!-- Tab 1: Home -->
+        <a href="#" class="flex flex-col items-center justify-center flex-1 py-1 text-ink-secondary hover:text-ink transition-colors">
+          <span class="material-symbols-outlined text-[20px]">home</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Home</span>
+        </a>
+
+        <!-- Tab 2: Build -->
+        <a href="#" class="flex flex-col items-center justify-center flex-1 py-1 text-ink-secondary hover:text-ink transition-colors">
+          <span class="material-symbols-outlined text-[20px]">tune</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Build</span>
+        </a>
+
+        <!-- Tab 3: Stats (Active) -->
+        <a href="#" class="flex flex-col items-center justify-center flex-1 py-1 text-ink relative">
+          <span class="material-symbols-outlined fill text-[20px] text-go">query_stats</span>
+          <span class="text-[10px] font-bold tracking-tight text-ink mt-0.5">Stats</span>
+          <!-- Active go-green pill indicator below label -->
+          <span class="w-1.5 h-1.5 rounded-full bg-go mt-0.5"></span>
+        </a>
+
+        <!-- Tab 4: Mistakes -->
+        <a href="#" class="flex flex-col items-center justify-center flex-1 py-1 text-ink-secondary hover:text-ink transition-colors">
+          <span class="material-symbols-outlined text-[20px]">error_outline</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Mistakes</span>
+        </a>
+
+        <!-- Tab 5: More -->
+        <a href="#" class="flex flex-col items-center justify-center flex-1 py-1 text-ink-secondary hover:text-ink transition-colors">
+          <span class="material-symbols-outlined text-[20px]">more_horiz</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">More</span>
+        </a>
+
+      </div>
+    </nav>
+  </div>
+</body>
+</html>

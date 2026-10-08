@@ -1,0 +1,94 @@
+/* Quiz screen (#/quiz, study + exam). Design: .stitch/v2/DESIGN.md; mockups .stitch/v2/quiz-*.png.
+   Test hooks (.qcard .qtext .opts .opt .drawer .qmap) are quiz-only; shared classes are scoped under qz-* wrappers. */
+
+/* ---------- slim sticky bar: position, clock or count, bookmark, end, line progress ---------- */
+body[data-route="quiz"] .topbar { padding-top: calc(var(--st) + 4px); padding-bottom: 12px; border-bottom: 1px solid var(--hairline); }
+.qz-bar { display: flex; align-items: center; gap: 4px; min-height: 44px; margin-bottom: 8px; }
+.qz-pos { font: 700 17px/1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.qz-count { margin: 1px auto 0 8px; white-space: nowrap; }
+.qz-clock {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px 0 10px; border-radius: 99px;
+  background: var(--raised); font: 700 15px/1 var(--font-display); font-variant-numeric: tabular-nums; letter-spacing: -.01em;
+}
+.qz-clock .ic { width: 16px; height: 16px; stroke-width: 2; color: var(--ink-2); }
+.qz-clock:has(.low) { background: var(--stop-soft); color: #fca5a5; }
+.qz-clock:has(.low) .ic { color: currentColor; }
+.qz-bar .iconbtn:not([aria-pressed="true"]) { background: transparent; }
+.qz-bar .link { padding: 8px 2px 8px 8px; font-size: 17px; }
+
+/* ---------- question ---------- */
+.qcard { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
+.qz-topic { margin: 0; font-size: 15px; color: var(--ink-2); }
+.qtext { margin: 0; font: 700 22px/1.3 var(--font-display); letter-spacing: -.02em; text-wrap: pretty; }
+
+/* ---------- options: neutral, selected (exam), correct / wrong / dim (study reveal) ---------- */
+.opts { display: flex; flex-direction: column; gap: 10px; }
+.opt {
+  display: flex; align-items: flex-start; gap: 14px; width: 100%; min-height: 60px; padding: 14px; border: 0;
+  border-radius: var(--r-ctl); background: var(--surface); box-shadow: inset 0 0 0 1px var(--hairline);
+  color: var(--ink); text-align: left; font-size: 17px; line-height: 1.4; cursor: pointer;
+  transition: transform 90ms ease, background-color 140ms ease, box-shadow 140ms ease;
+}
+.opt:active:not([aria-disabled="true"]) { transform: scale(.98); }
+.opt[aria-disabled="true"] { cursor: default; }
+.opt b {
+  flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px;
+  background: var(--raised); color: var(--ink-2); font: 700 15px/1 var(--font-display);
+}
+.opt > span { flex: 1; min-width: 0; padding-top: 4px; text-wrap: pretty; }
+.opt .tag { display: block; margin-top: 6px; font-size: 13px; font-weight: 700; letter-spacing: .01em; }
+.opt.selected { background: var(--statute-soft); box-shadow: inset 0 0 0 1.5px var(--statute); }
+.opt.selected b { background: var(--statute); color: var(--canvas); }
+.opt.correct { background: var(--go-soft); box-shadow: inset 0 0 0 1.5px var(--go); }
+.opt.correct b { background: var(--go); color: var(--go-ink); }
+.opt.correct .tag { color: #34d399; }
+.opt.wrong { background: var(--stop-soft); box-shadow: inset 0 0 0 1.5px var(--stop); }
+.opt.wrong b { background: var(--stop); color: var(--canvas); }
+.opt.wrong .tag { color: #f87171; }
+.opt.dim { opacity: .5; }
+
+/* ---------- study reveal: verdict line + citation sheet ---------- */
+.qz-fb { margin: 0; font-size: 15px; color: var(--ink-2); }
+.qz-fb strong { margin-right: 2px; font: 700 17px/1 var(--font-display); letter-spacing: -.01em; }
+.qz-fb.ok strong { color: var(--go); }
+.qz-fb.bad strong { color: var(--stop); }
+
+.qz-sheet { background: var(--surface); border-radius: var(--r-card); padding: 0 16px; }
+.qz-sheet[open] { padding-bottom: 16px; }
+.qz-sheet summary {
+  display: flex; align-items: center; gap: 8px; min-height: 56px; list-style: none; cursor: pointer;
+  font: 700 17px/1.2 var(--font-display); letter-spacing: -.01em;
+}
+.qz-sheet summary::-webkit-details-marker { display: none; }
+.qz-sheet summary .ic { margin-left: auto; width: 20px; height: 20px; color: var(--ink-2); transform: rotate(90deg); transition: transform .2s ease; }
+.qz-sheet[open] summary .ic { transform: rotate(-90deg); }
+.qz-law { border-left: 3px solid var(--statute); }
+.qz-law summary .ic { color: var(--statute); }
+.qz-law .cite { margin: 0 0 8px; color: var(--statute); font-size: 15px; font-weight: 700; line-height: 1.4; }
+.qz-why { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-2); }
+
+/* ---------- exam: question map ---------- */
+.qmap summary .meta { font-family: var(--font-ui); font-weight: 400; letter-spacing: 0; }
+.qz-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 6px; }
+.qz-grid button {
+  min-width: 0; min-height: 44px; padding: 0; border: 0; border-radius: 10px; background: transparent; box-shadow: inset 0 0 0 1px var(--hairline);
+  color: var(--ink-2); font: 700 15px/1 var(--font-display); font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.qz-grid .done { background: var(--raised); color: var(--ink); box-shadow: none; }
+.qz-grid .flag { box-shadow: inset 0 0 0 1.5px var(--caution); color: var(--caution); }
+.qz-grid .cur { box-shadow: inset 0 0 0 2px var(--go); color: var(--ink); }
+.qz-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 14px 0 0; font-size: 13px; color: var(--ink-2); }
+.qz-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.qz-legend span::before { content: ""; width: 12px; height: 12px; border-radius: 4px; }
+.qz-legend .done::before { background: var(--raised-2); }
+.qz-legend .flag::before { box-shadow: inset 0 0 0 1.5px var(--caution); }
+.qz-legend .cur::before { box-shadow: inset 0 0 0 2px var(--go); }
+
+/* ---------- thumb bar: back (icon), flag toggle, dominant Next ---------- */
+.qz-actions .btn { min-height: var(--tap-lg); padding: 0 16px; font-size: 16px; }
+.qz-actions .qz-prev { flex: none; width: var(--tap-lg); padding: 0; }
+.qz-actions .qz-prev .ic { transform: scaleX(-1); }
+.qz-actions .qz-flag { flex: none; min-width: 116px; gap: 6px; }
+.qz-actions .qz-flag .ic { width: 20px; height: 20px; }
+.qz-actions .qz-flag[aria-pressed="true"] .ic { fill: currentColor; }
+.qz-actions .btn.primary { flex: 1; font: 700 17px/1 var(--font-display); letter-spacing: -.01em; }

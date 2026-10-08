@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>NY RE Exam</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-error": "#690005",
+            "error-container": "#93000a",
+            "secondary": "#b5c4ff",
+            "on-secondary-container": "#a1b5ff",
+            "secondary-fixed": "#dce1ff",
+            "on-tertiary": "#690000",
+            "primary-fixed-dim": "#4edea3",
+            "background": "#0d1321",
+            "tertiary-fixed": "#ffdad4",
+            "tertiary-fixed-dim": "#ffb4a8",
+            "surface-tint": "#4edea3",
+            "tertiary": "#ffb4a8",
+            "on-secondary-fixed": "#00164e",
+            "on-tertiary-fixed-variant": "#930001",
+            "surface-container-high": "#242a39",
+            "on-tertiary-container": "#790001",
+            "inverse-on-surface": "#2a303f",
+            "on-surface": "#dde2f6",
+            "on-error-container": "#ffdad6",
+            "error": "#ffb4ab",
+            "on-background": "#dde2f6",
+            "on-primary-container": "#00422b",
+            "surface": "#0d1321",
+            "surface-variant": "#2f3544",
+            "secondary-fixed-dim": "#b5c4ff",
+            "tertiary-container": "#ff7b68",
+            "surface-dim": "#0d1321",
+            "inverse-primary": "#006c49",
+            "inverse-surface": "#dde2f6",
+            "on-primary-fixed-variant": "#005236",
+            "outline-variant": "#3c4a42",
+            "on-tertiary-fixed": "#410000",
+            "on-primary": "#003824",
+            "on-secondary": "#00287c",
+            "surface-container": "#191f2e",
+            "on-secondary-fixed-variant": "#093da9",
+            "surface-container-low": "#151b2a",
+            "primary": "#4edea3",
+            "outline": "#86948a",
+            "surface-bright": "#333948",
+            "primary-container": "#10b981",
+            "surface-container-lowest": "#080e1c",
+            "secondary-container": "#0f3fac",
+            "primary-fixed": "#6ffbbe",
+            "on-primary-fixed": "#002113",
+            "on-surface-variant": "#bbcabf",
+            "surface-container-highest": "#2f3544"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "space-xl": "2.25rem",
+            "margin-desktop": "3rem",
+            "gutter": "1rem",
+            "margin-tablet": "2rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "gutter-tablet": "1.5rem"
+          },
+          "fontFamily": {
+            "tabular-stats": ["Hanken Grotesk"],
+            "title-sm": ["Hanken Grotesk"],
+            "bullet-symbol": ["Hanken Grotesk"],
+            "body-md": ["Hanken Grotesk"],
+            "headline-xl": ["Hanken Grotesk"],
+            "caption": ["Hanken Grotesk"],
+            "body-lg": ["Hanken Grotesk"],
+            "body-sm": ["Hanken Grotesk"],
+            "headline-xl-mobile": ["Hanken Grotesk"],
+            "headline-lg": ["Hanken Grotesk"],
+            "headline-md": ["Hanken Grotesk"]
+          },
+          "fontSize": {
+            "tabular-stats": ["19px", {"lineHeight": "24px", "letterSpacing": "0.02em", "fontWeight": "700"}],
+            "title-sm": ["17px", {"lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+            "bullet-symbol": ["14px", {"lineHeight": "14px", "letterSpacing": "0em", "fontWeight": "800"}],
+            "body-md": ["15px", {"lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "headline-xl": ["36px", {"lineHeight": "42px", "letterSpacing": "-0.03em", "fontWeight": "800"}],
+            "caption": ["11px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600"}],
+            "body-lg": ["17px", {"lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+            "body-sm": ["13px", {"lineHeight": "18px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "headline-xl-mobile": ["28px", {"lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+            "headline-lg": ["24px", {"lineHeight": "30px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "headline-md": ["20px", {"lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700"}]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    body {
+      background-color: #090d16;
+      color: #dde2f6;
+      font-feature-settings: "tnum" 1;
+      -webkit-font-smoothing: antialiased;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#090d16] text-on-surface antialiased min-h-screen flex justify-center selection:bg-primary-container selection:text-on-primary-container">
+<!-- Mobile Viewport Frame (393px width lock for standard iPhone canvas) -->
+<div class="w-full max-w-[393px] min-h-screen flex flex-col relative pb-28 pt-3 bg-[#090d16] shadow-2xl border-x border-[#191f2e]">
+<!-- Pinned Top Ambient Transit Line Indicator (Active Domain Bar) -->
+<div class="h-[3px] w-full bg-primary-container fixed top-0 max-w-[393px] z-50"></div>
+<!-- Main Scrollable Flow -->
+<main class="flex-1 px-4 space-y-5 mt-2 custom-scroll">
+<!-- 1. Header (Compact large-title with subway token app icon) -->
+<header class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-[10px] bg-[#182033] border border-[#232d46] flex items-center justify-center shadow-sm">
+<span class="w-6 h-6 rounded-full bg-primary-container text-[#090d16] flex items-center justify-center font-bullet-symbol text-bullet-symbol font-extrabold tracking-tighter">
+              NY
+            </span>
+</div>
+<div>
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-white tracking-tight leading-none">
+              NY RE Exam
+            </h1>
+</div>
+</div>
+<button aria-label="Settings" class="w-9 h-9 rounded-full bg-[#182033] border border-[#232d46] flex items-center justify-center text-on-surface-variant hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</header>
+<!-- 2. Hero - NYC Subway Arrival Board -->
+<section class="rounded-[24px] bg-[#111725] border border-[#232d46] p-4 shadow-[0px_4px_16px_rgba(0,0,0,0.45)]">
+<!-- Inset Board Container -->
+<div class="bg-[#05080f] p-4 rounded-2xl border border-white/5 space-y-4">
+<!-- Board Header Row -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="w-7 h-7 rounded-full bg-primary-container text-[#090d16] flex items-center justify-center font-bullet-symbol text-bullet-symbol font-black">
+                RE
+              </span>
+<span class="font-title-sm text-title-sm font-bold text-white tracking-tight">
+                NYS salesperson exam
+              </span>
+</div>
+<span class="font-caption text-caption text-[#a3b1c6] font-medium tracking-normal">
+              Oct 14 &amp; 15
+            </span>
+</div>
+<!-- Tabular Countdown Digits -->
+<div class="grid grid-cols-3 gap-2.5">
+<div class="bg-[#0b101b] border border-white/10 rounded-xl p-3 text-center flex flex-col items-center justify-center">
+<span class="font-tabular-stats text-[44px] leading-none font-bold text-white tracking-tight">
+                6
+              </span>
+<span class="font-caption text-caption text-[#a3b1c6] mt-1.5 lowercase">
+                days
+              </span>
+</div>
+<div class="bg-[#0b101b] border border-white/10 rounded-xl p-3 text-center flex flex-col items-center justify-center">
+<span class="font-tabular-stats text-[44px] leading-none font-bold text-white tracking-tight">
+                07
+              </span>
+<span class="font-caption text-caption text-[#a3b1c6] mt-1.5 lowercase">
+                hours
+              </span>
+</div>
+<div class="bg-[#0b101b] border border-white/10 rounded-xl p-3 text-center flex flex-col items-center justify-center">
+<span class="font-tabular-stats text-[44px] leading-none font-bold text-white tracking-tight">
+                05
+              </span>
+<span class="font-caption text-caption text-[#a3b1c6] mt-1.5 lowercase">
+                minutes
+              </span>
+</div>
+</div>
+</div>
+<!-- Quiet Regulatory Guideline -->
+<p class="font-body-sm text-[12px] text-[#a3b1c6] text-center mt-3 tracking-normal">
+          75 questions in 90 minutes, pass with 53 correct
+        </p>
+</section>
+<!-- 3. Readiness Card -->
+<section class="rounded-[18px] bg-[#111725] border border-[#232d46] p-4 flex items-center justify-between gap-4">
+<!-- Circular Ring Gauge -->
+<div class="relative w-24 h-24 flex items-center justify-center flex-shrink-0">
+<svg class="w-24 h-24 -rotate-90" viewbox="0 0 96 96">
+<!-- Background track -->
+<circle cx="48" cy="48" fill="transparent" r="40" stroke="#182033" stroke-width="7"></circle>
+<!-- 64% Value Progress (2 * pi * 40 ≈ 251.32. Offset = 251.32 * (1 - 0.64) = 90.47) -->
+<circle cx="48" cy="48" fill="transparent" r="40" stroke="#f59e0b" stroke-dasharray="251.32" stroke-dashoffset="90.47" stroke-linecap="round" stroke-width="7"></circle>
+<!-- 70% Pass Mark Tick Indicator (252 deg from 12 o'clock) -->
+<!-- 70% of 360 is 252 degrees. Rotated by -90: 162 deg from horizontal. -->
+<line stroke="#ffffff" stroke-linecap="round" stroke-width="2.5" transform="rotate(252 48 48)" x1="48" x2="48" y1="8" y2="15"></line>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-tabular-stats text-[22px] font-bold text-white leading-none">
+              64%
+            </span>
+<span class="font-caption text-[11px] text-[#a3b1c6] mt-0.5 lowercase">
+              ready
+            </span>
+</div>
+</div>
+<!-- Station Readiness Metrics -->
+<div class="flex-1 space-y-2 border-l border-[#232d46] pl-4">
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-[#a3b1c6]">Study streak</span>
+<span class="font-tabular-stats text-[15px] font-bold text-white">4 days</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-[#a3b1c6]">Questions seen</span>
+<span class="font-tabular-stats text-[15px] font-bold text-white">212 / 430</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-[#a3b1c6]">Accuracy</span>
+<span class="font-tabular-stats text-[15px] font-bold text-white">71%</span>
+</div>
+</div>
+</section>
+<!-- 4. Resume Card with Subway Line Station Dots -->
+<section class="rounded-[18px] bg-[#111725] border border-[#232d46] p-4 space-y-3.5">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-[16px] font-bold text-white leading-tight">
+              Resume quiz
+            </h2>
+<p class="font-body-sm text-body-sm text-[#a3b1c6] mt-0.5">
+              Study mode, question 7 of 10
+            </p>
+</div>
+<button class="bg-[#10b981] text-[#090d16] font-title-sm text-[13px] font-bold px-4 py-1.5 rounded-full hover:bg-primary transition-colors active:scale-95 duration-150">
+            Resume
+          </button>
+</div>
+<!-- Station Stops Line Graphic (10 Stations: 6 cleared, 1 current/ringed, 3 queued) -->
+<div class="relative py-2 px-1">
+<!-- Continuous 4px Rail line -->
+<div class="absolute left-2 right-2 top-1/2 -translate-y-1/2 h-[4px] bg-[#182033] rounded-full"></div>
+<!-- Completed line segment -->
+<div class="absolute left-2 top-1/2 -translate-y-1/2 h-[4px] bg-[#10b981] rounded-full w-[60%]"></div>
+<div class="relative flex justify-between items-center z-10">
+<!-- 1 to 6: Filled signal green -->
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#10b981] ring-2 ring-[#111725]"></div>
+<!-- 7: Active Station Dot (Ringed/Glowing) -->
+<div class="w-4 h-4 rounded-full bg-[#090d16] border-2 border-[#10b981] ring-2 ring-[#10b981]/30 flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+</div>
+<!-- 8 to 10: Unfilled Muted Dots -->
+<div class="w-3.5 h-3.5 rounded-full bg-[#182033] border border-[#334155]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#182033] border border-[#334155]"></div>
+<div class="w-3.5 h-3.5 rounded-full bg-[#182033] border border-[#334155]"></div>
+</div>
+</div>
+</section>
+<!-- 5. Actions Section -->
+<section class="space-y-2.5">
+<!-- Express Primary Button -->
+<button class="w-full h-14 bg-primary-container text-[#090d16] font-title-sm text-[16px] font-bold rounded-2xl flex items-center justify-center shadow-lg active:scale-[0.98] transition-transform duration-150">
+          Quick 10-Question Drill
+        </button>
+<!-- Secondary Dispatch Rows -->
+<div class="space-y-2">
+<!-- Row 1: Full State Simulation -->
+<div class="w-full bg-[#182033] border border-[#232d46] rounded-[14px] p-3.5 flex items-center gap-3 active:scale-[0.99] transition-transform duration-150 cursor-pointer">
+<div class="w-9 h-9 rounded-xl bg-[#111725] border border-[#232d46] flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="font-title-sm text-[14px] font-bold text-white leading-tight truncate">
+                Mock 75-Question NYS State Exam
+              </div>
+<div class="font-body-sm text-[12px] text-[#a3b1c6] leading-normal mt-0.5 truncate">
+                75 questions, 90 minutes, timed
+              </div>
+</div>
+</div>
+<!-- Row 2: Custom Quiz Builder -->
+<div class="w-full bg-[#182033] border border-[#232d46] rounded-[14px] p-3.5 flex items-center gap-3 active:scale-[0.99] transition-transform duration-150 cursor-pointer">
+<div class="w-9 h-9 rounded-xl bg-[#111725] border border-[#232d46] flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">handyman</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="font-title-sm text-[14px] font-bold text-white leading-tight truncate">
+                Custom Quiz Builder
+              </div>
+<div class="font-body-sm text-[12px] text-[#a3b1c6] leading-normal mt-0.5 truncate">
+                Pick topics, length and mode
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Weakest Lines Section -->
+<section class="space-y-3">
+<h2 class="font-headline-md text-[20px] font-bold text-[#f1f5f9] tracking-tight">
+          Weakest lines
+        </h2>
+<!-- Grouped List Container -->
+<div class="rounded-[18px] bg-[#111725] border border-[#232d46] overflow-hidden divide-y divide-white/[0.08]">
+<!-- Line 1: Agency (Red MTA Line 2) -->
+<div class="p-3.5 flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0 flex-1">
+<span class="w-7 h-7 rounded-full bg-[#DA291C] text-white flex items-center justify-center font-bullet-symbol text-bullet-symbol font-extrabold flex-shrink-0">
+                2
+              </span>
+<div class="min-w-0 flex-1">
+<span class="font-title-sm text-[14px] font-bold text-white leading-tight block truncate">
+                  Agency
+                </span>
+<div class="w-full bg-[#182033] h-1.5 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-[#ef4444] h-full rounded-full" style="width: 48%"></div>
+</div>
+</div>
+</div>
+<span class="font-tabular-stats text-[15px] font-bold text-[#ef4444] pl-2 flex-shrink-0">
+              48%
+            </span>
+</div>
+<!-- Line 2: Estates & liens (Blue 8th Ave Line C) -->
+<div class="p-3.5 flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0 flex-1">
+<span class="w-7 h-7 rounded-full bg-[#0039A6] text-white flex items-center justify-center font-bullet-symbol text-bullet-symbol font-extrabold flex-shrink-0">
+                C
+              </span>
+<div class="min-w-0 flex-1">
+<span class="font-title-sm text-[14px] font-bold text-white leading-tight block truncate">
+                  Estates &amp; liens
+                </span>
+<div class="w-full bg-[#182033] h-1.5 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-[#ef4444] h-full rounded-full" style="width: 55%"></div>
+</div>
+</div>
+</div>
+<span class="font-tabular-stats text-[15px] font-bold text-[#ef4444] pl-2 flex-shrink-0">
+              55%
+            </span>
+</div>
+<!-- Line 3: Taxes & assessments (Yellow Broadway Line N) -->
+<div class="p-3.5 flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0 flex-1">
+<span class="w-7 h-7 rounded-full bg-[#FCCC0A] text-[#090d16] flex items-center justify-center font-bullet-symbol text-bullet-symbol font-extrabold flex-shrink-0">
+                N
+              </span>
+<div class="min-w-0 flex-1">
+<span class="font-title-sm text-[14px] font-bold text-white leading-tight block truncate">
+                  Taxes &amp; assessments
+                </span>
+<div class="w-full bg-[#182033] h-1.5 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-[#ef4444] h-full rounded-full" style="width: 62%"></div>
+</div>
+</div>
+</div>
+<span class="font-tabular-stats text-[15px] font-bold text-[#ef4444] pl-2 flex-shrink-0">
+              62%
+            </span>
+</div>
+</div>
+<!-- Full-Width Tonal Action Button -->
+<button class="w-full bg-[#182033] border border-[#232d46] rounded-[14px] py-3.5 text-center text-white font-title-sm text-[14px] font-medium hover:bg-[#242a39] active:scale-[0.98] transition-all duration-150">
+          Retest Weak Areas
+        </button>
+</section>
+</main>
+<!-- 7. Floating Glass Capsule Tab Bar (Shared BottomNavBar Anchor) -->
+<nav aria-label="Bottom Navigation" class="fixed bottom-3 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[369px] z-50 rounded-full bg-[#111725]/85 backdrop-blur-lg border border-white/10 shadow-[0px_4px_16px_rgba(0,0,0,0.45)] px-2 py-1.5 flex justify-around items-center">
+<!-- Home (Active) -->
+<a class="flex flex-col items-center justify-center text-primary font-bold py-1 px-3 rounded-full bg-primary/10 transition-transform active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-caption text-[10px] tracking-normal mt-0.5">Home</span>
+</a>
+<!-- Build -->
+<a class="flex flex-col items-center justify-center text-[#a3b1c6] hover:text-white py-1 px-3 transition-transform active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">handyman</span>
+<span class="font-caption text-[10px] tracking-normal mt-0.5">Build</span>
+</a>
+<!-- Stats -->
+<a class="flex flex-col items-center justify-center text-[#a3b1c6] hover:text-white py-1 px-3 transition-transform active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+<span class="font-caption text-[10px] tracking-normal mt-0.5">Stats</span>
+</a>
+<!-- Mistakes -->
+<a class="flex flex-col items-center justify-center text-[#a3b1c6] hover:text-white py-1 px-3 transition-transform active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">error_outline</span>
+<span class="font-caption text-[10px] tracking-normal mt-0.5">Mistakes</span>
+</a>
+<!-- More -->
+<a class="flex flex-col items-center justify-center text-[#a3b1c6] hover:text-white py-1 px-3 transition-transform active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+<span class="font-caption text-[10px] tracking-normal mt-0.5">More</span>
+</a>
+</nav>
+<!-- iOS Home Indicator Accent -->
+<div class="fixed bottom-0.5 left-1/2 -translate-x-1/2 w-32 h-1 bg-white/20 rounded-full pointer-events-none z-50"></div>
+</div>
+</body></html>

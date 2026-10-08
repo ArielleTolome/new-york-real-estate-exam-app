@@ -15,6 +15,11 @@
   <link rel="icon" href="icons/logo.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/build.css">
+  <link rel="stylesheet" href="styles/quiz.css">
+  <link rel="stylesheet" href="styles/stats.css">
+  <link rel="stylesheet" href="styles/bank.css">
 </head>
 <body>
   <div id="app">
@@ -24,6 +29,14 @@
   </div>
   <div id="toast" role="status" aria-live="polite"></div>
   <noscript>This app needs JavaScript.</noscript>
+  <!-- Views first: they declare global vX() functions that app.js routes to. -->
+  <script src="views/home.js" defer></script>
+  <script src="views/build.js" defer></script>
+  <script src="views/quiz.js" defer></script>
+  <script src="views/results.js" defer></script>
+  <script src="views/history.js" defer></script>
+  <script src="views/mistakes.js" defer></script>
+  <script src="views/more.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>

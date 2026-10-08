@@ -70,6 +70,7 @@ const rnd = (n) => Math.floor(Math.random() * n);
   for (let i = 0; i < 74; i++) await page.click('[data-action="prev"]');
   if ((await page.textContent('#qpos')) !== 'Q 1 of 75') errors.push('navigation burst did not return to Q 1');
   log['nav burst clicks'] = 148;
+  await page.click('[data-action="end"]'); // exam Submit needs a confirming second tap
   await page.click('[data-action="end"]');
   await page.waitForSelector('#score');
 

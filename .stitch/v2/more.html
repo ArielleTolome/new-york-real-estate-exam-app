@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>More — NY RE Exam Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            canvas: '#090d16',
+            surface: '#111725',
+            control: '#182033',
+            emerald: {
+              DEFAULT: '#10b981',
+              dim: '#064e3b'
+            },
+            danger: '#ef4444',
+            subway: {
+              red: '#EE352E',
+              blue: '#0039A6',
+              orange: '#FF6319',
+              yellow: '#FCCC0A',
+              green: '#00933C',
+              purple: '#B933AD'
+            }
+          },
+          fontFamily: {
+            heading: ['"Helvetica Neue"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            body: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Text"', '"SF Pro Display"', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    .tabular-nums {
+      font-variant-numeric: tabular-nums;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 450, 'GRAD' 0, 'opsz' 22;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    body {
+      background-color: #090d16;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* Subway Bullet Typography */
+    .subway-bullet {
+      font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: 800;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .glass-tab-bar {
+      background: rgba(17, 23, 37, 0.78);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+    }
+  </style>
+</head>
+<body class="bg-[#090d16] text-[#e2e8f0] flex justify-center min-h-screen select-none antialiased">
+  <!-- iPhone 15 / 16 Container (393px width fixed frame simulation) -->
+  <div class="w-full max-w-[393px] min-h-screen bg-[#090d16] flex flex-col relative pb-[104px]">
+    
+    <!-- 1. iOS Status Bar -->
+    <header class="pt-3 px-6 pb-1 flex justify-between items-center text-[15px] font-semibold tracking-tight text-[#f1f5f9] z-40 bg-[#090d16]">
+      <span class="tabular-nums tracking-normal">9:41</span>
+      <div class="flex items-center gap-1.5 text-[#f1f5f9]">
+        <span class="material-symbols-outlined text-[17px]">signal_cellular_4_bar</span>
+        <span class="material-symbols-outlined text-[17px]">wifi</span>
+        <div class="w-5 h-2.5 border border-[#f1f5f9] rounded-sm p-0.5 flex items-center ml-0.5 relative">
+          <div class="h-full w-full bg-[#f1f5f9] rounded-[1px]"></div>
+          <div class="absolute -right-1 top-0.5 bottom-0.5 w-0.5 bg-[#f1f5f9] rounded-r-xs"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Compact 28px Large-Title Header -->
+    <div class="px-5 pt-3 pb-2 flex items-baseline justify-between">
+      <h1 class="font-heading text-[28px] font-bold text-[#f8fafc] tracking-tight leading-none">More</h1>
+      <span class="text-[12px] font-medium text-[#64748b] tracking-normal">NY RPL § 440</span>
+    </div>
+
+    <!-- Main Content Stream -->
+    <main class="px-4 flex flex-col gap-6 pt-2">
+
+      <!-- Section 1: Install on iPhone -->
+      <section aria-labelledby="install-heading">
+        <h2 id="install-heading" class="text-[13px] font-medium text-[#94a3b8] px-1 mb-2">Install on iPhone</h2>
+        <div class="bg-[#111725] rounded-[18px] p-4 border border-[rgba(255,255,255,0.04)]">
+          <div class="grid grid-cols-3 gap-2.5">
+            <!-- Step 1 -->
+            <div class="bg-[#182033] rounded-[14px] p-3 flex flex-col items-center text-center">
+              <div class="w-8 h-8 rounded-full bg-[#111725] flex items-center justify-center text-[#10b981] mb-2">
+                <span class="material-symbols-outlined text-[18px]">explore</span>
+              </div>
+              <span class="text-[11px] font-medium text-[#64748b] leading-tight">Step 1</span>
+              <span class="text-[13px] font-medium text-[#f1f5f9] leading-snug mt-0.5">Open in Safari</span>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-[#182033] rounded-[14px] p-3 flex flex-col items-center text-center">
+              <div class="w-8 h-8 rounded-full bg-[#111725] flex items-center justify-center text-[#10b981] mb-2">
+                <span class="material-symbols-outlined text-[18px]">ios_share</span>
+              </div>
+              <span class="text-[11px] font-medium text-[#64748b] leading-tight">Step 2</span>
+              <span class="text-[13px] font-medium text-[#f1f5f9] leading-snug mt-0.5">Tap Share</span>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-[#182033] rounded-[14px] p-3 flex flex-col items-center text-center">
+              <div class="w-8 h-8 rounded-full bg-[#111725] flex items-center justify-center text-[#10b981] mb-2">
+                <span class="material-symbols-outlined text-[18px]">add_box</span>
+              </div>
+              <span class="text-[11px] font-medium text-[#64748b] leading-tight">Step 3</span>
+              <span class="text-[13px] font-medium text-[#f1f5f9] leading-snug mt-0.5">Add to Home</span>
+            </div>
+          </div>
+
+          <!-- Offline notice -->
+          <div class="mt-3.5 pt-3 border-t border-[rgba(255,255,255,0.06)] flex items-start gap-2 text-[#94a3b8] text-[12px] leading-relaxed">
+            <span class="material-symbols-outlined text-[16px] text-[#10b981] shrink-0 mt-0.5">offline_pin</span>
+            <span>Works offline after the first load for reliable subway studying without cellular connection.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Your data -->
+      <section aria-labelledby="data-heading">
+        <h2 id="data-heading" class="text-[13px] font-medium text-[#94a3b8] px-1 mb-2">Your data</h2>
+        
+        <!-- iOS Grouped List Inside One Card -->
+        <div class="bg-[#111725] rounded-[18px] border border-[rgba(255,255,255,0.04)] overflow-hidden">
+          <!-- Row 1: Export study history -->
+          <div class="h-[52px] px-4 flex items-center justify-between active:bg-[#182033] transition-colors cursor-pointer">
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-[8px] bg-[#182033] flex items-center justify-center text-[#94a3b8]">
+                <span class="material-symbols-outlined text-[18px]">download</span>
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Export study history</span>
+            </div>
+            <span class="text-[13px] font-medium text-[#64748b]">JSON</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-14"></div>
+
+          <!-- Row 2: Import study history -->
+          <div class="h-[52px] px-4 flex items-center justify-between active:bg-[#182033] transition-colors cursor-pointer">
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-[8px] bg-[#182033] flex items-center justify-center text-[#94a3b8]">
+                <span class="material-symbols-outlined text-[18px]">upload</span>
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Import study history</span>
+            </div>
+            <span class="text-[13px] font-medium text-[#64748b]">Restore</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-14"></div>
+
+          <!-- Row 3: Import question batch -->
+          <div class="h-[52px] px-4 flex items-center justify-between active:bg-[#182033] transition-colors cursor-pointer">
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-[8px] bg-[#182033] flex items-center justify-center text-[#94a3b8]">
+                <span class="material-symbols-outlined text-[18px]">note_add</span>
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Import question batch</span>
+            </div>
+            <span class="text-[13px] font-medium text-[#64748b]">Custom</span>
+          </div>
+        </div>
+
+        <!-- Small secondary caption under the group -->
+        <p class="text-[12px] text-[#64748b] px-2 mt-2 leading-relaxed">
+          Custom question batches support standard JSON schema with topic, statutory citation, and explanation fields.
+        </p>
+
+        <!-- Quiet row "Reset all progress" in red text (no filled red button) -->
+        <div class="mt-2 bg-[#111725] rounded-[18px] border border-[rgba(255,255,255,0.04)] overflow-hidden">
+          <button type="button" class="w-full h-[52px] px-4 flex items-center justify-center gap-2 active:bg-[#182033] transition-colors">
+            <span class="material-symbols-outlined text-[18px] text-[#ef4444]">delete_outline</span>
+            <span class="text-[15px] font-medium text-[#ef4444]">Reset all progress</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 3: Question bank -->
+      <section aria-labelledby="question-bank-heading">
+        <div class="flex items-center justify-between px-1 mb-2">
+          <h2 id="question-bank-heading" class="text-[13px] font-medium text-[#94a3b8]">Question bank</h2>
+          <span class="text-[12px] text-[#64748b] tabular-nums font-medium">620 questions</span>
+        </div>
+
+        <!-- Grouped List with NYC Subway Route Bullets -->
+        <div class="bg-[#111725] rounded-[18px] border border-[rgba(255,255,255,0.04)] overflow-hidden">
+          
+          <!-- Topic 1: License law and regulations (Red 1) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#EE352E] text-white text-[13px]">
+                1
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">License law and regulations</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">128</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 2: Law of agency (Blue A) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#0039A6] text-white text-[13px]">
+                A
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Law of agency</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">114</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 3: Estates and interests (Orange B) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#FF6319] text-white text-[13px]">
+                B
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Estates and interests</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">86</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 4: Real estate finance (Yellow Q) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#FCCC0A] text-black text-[13px]">
+                Q
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Real estate finance</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">94</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 5: Contracts and leases (Green 4) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#00933C] text-white text-[13px]">
+                4
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Contracts and leases</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">102</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 6: Fair housing regulations (Red 1) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#EE352E] text-white text-[13px]">
+                1
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Fair housing regulations</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">56</span>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(255,255,255,0.05)] ml-13"></div>
+
+          <!-- Topic 7: Land use and zoning (Blue A) -->
+          <div class="h-[52px] px-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="subway-bullet w-[24px] h-[24px] rounded-full bg-[#0039A6] text-white text-[13px]">
+                A
+              </div>
+              <span class="text-[15px] font-normal text-[#f1f5f9]">Land use and zoning</span>
+            </div>
+            <span class="text-[14px] text-[#94a3b8] tabular-nums font-medium">40</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Small disclaimer text in secondary color -->
+      <footer class="px-2 pt-1 pb-4">
+        <p class="text-[11px] leading-relaxed text-[#64748b]">
+          NYS Real Estate Salesperson qualifying exam preparation tool. References Article 12-A Real Property Law and NY DOS licensing specifications. Not affiliated with or endorsed by the New York Department of State.
+        </p>
+      </footer>
+
+    </main>
+
+    <!-- Floating Translucent Glass Capsule Tab Bar (Inset 12px, 5 tabs) -->
+    <nav aria-label="Main Navigation" class="fixed bottom-3 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[369px] z-50">
+      <div class="glass-tab-bar h-[64px] rounded-[32px] px-2 flex items-center justify-between">
+        <!-- Tab 1: Home -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center gap-1 text-[#64748b] hover:text-[#94a3b8] transition-colors py-1">
+          <span class="material-symbols-outlined text-[20px]">home</span>
+          <span class="text-[11px] font-medium leading-none">Home</span>
+        </button>
+
+        <!-- Tab 2: Build -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center gap-1 text-[#64748b] hover:text-[#94a3b8] transition-colors py-1">
+          <span class="material-symbols-outlined text-[20px]">tune</span>
+          <span class="text-[11px] font-medium leading-none">Build</span>
+        </button>
+
+        <!-- Tab 3: Stats -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center gap-1 text-[#64748b] hover:text-[#94a3b8] transition-colors py-1">
+          <span class="material-symbols-outlined text-[20px]">bar_chart</span>
+          <span class="text-[11px] font-medium leading-none">Stats</span>
+        </button>
+
+        <!-- Tab 4: Mistakes -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center gap-1 text-[#64748b] hover:text-[#94a3b8] transition-colors py-1">
+          <span class="material-symbols-outlined text-[20px]">error_outline</span>
+          <span class="text-[11px] font-medium leading-none">Mistakes</span>
+        </button>
+
+        <!-- Tab 5: More (Active with small green pill indicator) -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center gap-1 text-[#f8fafc] py-1 relative">
+          <span class="material-symbols-outlined text-[20px] text-[#10b981]">more_horiz</span>
+          <span class="text-[11px] font-medium text-[#10b981] leading-none">More</span>
+          <!-- Active Small Green Pill Indicator -->
+          <span class="w-1.5 h-1.5 rounded-full bg-[#10b981] mt-0.5"></span>
+        </button>
+      </div>
+    </nav>
+
+  </div>
+</body>
+</html>

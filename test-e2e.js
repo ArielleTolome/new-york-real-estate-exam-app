@@ -124,6 +124,9 @@ async function pick(page, correct) {
     }
     examMissed = s0.active.qids.slice(3, 5);
     await page.waitForFunction(() => /^89:[45]\d$/.test(document.querySelector('#timer').textContent), null, { timeout: 5000 });
+    await page.click('[data-action="end"]'); // first tap only arms the top-bar Submit in exam mode
+    assert.equal(await page.textContent('[data-action="end"]'), 'Confirm');
+    assert.equal(await page.locator('#score').count(), 0);
     await page.click('[data-action="end"]');
     await page.waitForSelector('#score');
     assert.equal(await page.textContent('#score'), `${Math.round((3 / 75) * 100)}%`);

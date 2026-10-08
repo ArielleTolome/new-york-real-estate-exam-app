@@ -81,6 +81,7 @@ const audit = () => {
   await page.click('.opt[data-d="2"]');
   await page.click('[data-action="flag"]');
   await shot('06-quiz-exam');
+  await page.click('[data-action="end"]'); // exam Submit needs a confirming second tap
   await page.click('[data-action="end"]');
   await page.goto(BASE + '/#/history');
   await shot('07-history');
