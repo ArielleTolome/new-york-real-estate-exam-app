@@ -37,7 +37,7 @@ No build step for the app. Plain HTML, CSS, and JS.
 npm run serve          # http://localhost:8080
 npm run build          # validate data/topics/*.json + data/guides/*.json, regenerate questions.json + guides.json
 npm install && npx playwright install chromium
-npm test               # E2E (11 checks, incl. a way back to Home from every screen) + chaos (100+ random actions) + visual QA on phone and iPad
+npm test               # E2E (16 checks: core flows, study guides, flashcards, search, listen, Today's plan, exam day, a way back from every screen) + chaos + visual QA on phone and iPad
 ```
 
 | Test tier | File | What it proves |
