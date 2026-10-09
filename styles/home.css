@@ -29,6 +29,45 @@
 .hm-panel:has(.hm-cd:not(:has(b))) { padding-bottom: 16px; }
 .hm-spec { margin: 14px 4px 0; text-align: center; font-size: 15px; color: var(--ink-2); }
 
+/* Today's plan: a segmented 0/n bar, then each task is a station on one vertical line.
+   Done stations fill green with a check; the next stop is ringed. Each <li> draws its own upper half
+   (green when the task above is done) and lower half (green when its own task is done). */
+.td-plan { padding: 16px 12px 10px; }
+.td-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 6px; }
+.td-head h2 { margin: 0; font: 700 17px/1.3 var(--font-display); letter-spacing: -.01em; }
+.td-head .meta { font-variant-numeric: tabular-nums; }
+.td-segs { display: flex; gap: 4px; margin: 10px 6px 6px; }
+.td-segs i { flex: 1; height: 4px; border-radius: 2px; background: var(--line-2); }
+.td-segs i.on { background: var(--go); }
+.td-fin { margin: 8px 6px 2px; font-size: 15px; color: var(--ink-2); }
+.td-list { list-style: none; margin: 4px 0 0; padding: 0; }
+.td-list li { position: relative; }
+.td-list li::before, .td-list li::after { content: ""; position: absolute; left: 18.5px; width: 3px; height: 50%; background: var(--line-2); }
+.td-list li::before { top: 0; }
+.td-list li::after { bottom: 0; }
+.td-list li:first-child::before, .td-list li:last-child::after { display: none; }
+.td-list li:has(> .done)::after, .td-list li:has(> .done) + li::before { background: var(--go); }
+.td-item {
+  position: relative; z-index: 1; display: flex; align-items: center; gap: 12px; width: 100%; min-height: var(--tap);
+  padding: 8px 8px; border: 0; border-radius: var(--r-ctl); background: none; text-align: left; text-decoration: none; cursor: pointer;
+}
+.td-item:active { background: var(--raised); }
+.td-st {
+  display: grid; place-items: center; flex: none; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--surface); box-shadow: inset 0 0 0 2px var(--ink-2), 0 0 0 4px var(--surface);
+}
+.td-item.next .td-st { box-shadow: inset 0 0 0 2px var(--ink), 0 0 0 4px var(--surface); }
+.td-item.next .td-st::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--go); }
+.td-item.done .td-st { background: var(--go); box-shadow: 0 0 0 4px var(--surface); color: var(--go-ink); }
+.td-st .ic { width: 15px; height: 15px; stroke-width: 2.8; }
+.td-txt { flex: 1; min-width: 0; }
+.td-t, .td-s { display: block; }
+.td-t { font-weight: 600; line-height: 1.3; }
+.td-s { margin-top: 2px; font-size: 13px; line-height: 1.3; color: var(--ink-2); }
+.td-item.done .td-t { font-weight: 500; color: var(--ink-2); }
+.td-item.done .bullet { opacity: .55; }
+.td-chev { width: 16px; height: 16px; color: var(--ink-2); opacity: .7; }
+
 /* Readiness: ring vs the 70% pass line; the ring draws in once per visit. */
 .hm-ready { display: flex; align-items: center; gap: 16px; }
 .hm-ready .gauge { width: 112px; height: 112px; }
@@ -82,6 +121,7 @@
 @media (min-width: 700px) {
   .hm-grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--section); }
   .hm-resume, .hm-actions, .hm-lines { grid-column: 1 / -1; }
+  .td-plan { grid-column: 1 / -1; grid-row: 2; }
 
   /* The board fills its row; the split-flap tiles grow and stay centred in the panel. */
   .hm-board { display: flex; flex-direction: column; padding: 14px 14px 18px; }
@@ -114,6 +154,7 @@
 @media (min-width: 1100px) {
   .hm-grid { grid-auto-flow: dense; }
   .hm-resume, .hm-actions { grid-column: 1; }
+  .td-plan { grid-column: 1; }
   .hm-lines { grid-column: 2; grid-row: span 2; }
   .hm-ready { flex-direction: row; }
   .hm-cd b, .hm-cd:not(:has(b)) { font-size: 72px; }
@@ -130,4 +171,5 @@
 }
 @media (hover: hover) and (pointer: fine) {
   .hm-resume-btn:hover { background: rgba(16, 185, 129, .24); }
+  .td-item:hover { background: var(--raised); }
 }

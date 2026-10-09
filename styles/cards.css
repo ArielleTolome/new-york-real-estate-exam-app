@@ -1,0 +1,129 @@
+/* Flashcards: #/cards hub and #/cards/<deck> review session (scoped with fc- prefixes; mockups .stitch/v3/flashcards-*.png).
+   The flip is a CSS transform: card-flip toggles .on, both faces stay visible while the card turns, and afterwards the
+   hidden face is visibility:hidden so screen readers only read the side that shows. */
+
+/* ---------- hub: due hero, Leitner boxes as a line with stations, chapters ---------- */
+.fc-hub { display: flex; flex-direction: column; gap: var(--section); }
+.fc-hero { border-radius: var(--r-sheet); padding: 20px; }
+.fc-due { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.fc-due h2 { margin: 0 0 2px; }
+.fc-due p { margin: 0; }
+.fc-due-n { font-size: 52px; line-height: .95; }
+.fc-ok { flex: none; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--go-soft); color: var(--go); }
+.fc-ok .ic { width: 26px; height: 26px; stroke-width: 2.4; }
+.fc-two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+.fc-two .btn { padding: 12px; }
+
+/* Stations: count above the dot, stop name below. The track runs between the first and last dot centers (10%..90%);
+   its last stretch, from the 4 day stop (75% along the track) on, is green: that is where cards count as learned. */
+.fc-stops { position: relative; list-style: none; margin: 22px 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.fc-stops::before { content: ""; position: absolute; left: 10%; right: 10%; top: 28px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, var(--line-2) 75%, var(--go) 75%); }
+.fc-stops li { position: relative; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.fc-stops li::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); box-shadow: inset 0 0 0 3px var(--ink-2); }
+.fc-stops .fc-b1::before, .fc-stops .fc-b2::before { box-shadow: inset 0 0 0 3px var(--caution); }
+.fc-stops .fc-b3::before, .fc-stops .fc-b4::before { background: var(--go); box-shadow: none; }
+.fc-stops b { order: -1; font: 700 17px/1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.fc-stops span { font-size: 13px; line-height: 1.2; color: var(--ink-2); white-space: nowrap; }
+.fc-learned { margin: 16px 0 0; line-height: 1.45; }
+.fc-learned strong { color: var(--ink); font-weight: 650; }
+
+.fc-chs { scroll-margin-top: calc(var(--st) + 130px); }
+.fc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.fc-row { display: flex; align-items: center; gap: 12px; min-height: 72px; padding: 12px 14px; border-radius: var(--r-card); background: var(--surface); color: var(--ink); text-decoration: none; }
+.fc-row:active { background: var(--raised); }
+.fc-row-t { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.fc-row-t strong { font-size: 17px; font-weight: 650; line-height: 1.25; }
+.fc-row-t .bar { display: block; height: 4px; }
+.fc-row-t .meta { line-height: 1.2; }
+.fc-row > .ic { width: 18px; height: 18px; color: var(--ink-2); }
+
+/* ---------- session: slim bar, one card, rating bar ---------- */
+.topbar:has(.fc-bar) { padding-top: calc(var(--st) + 4px); padding-bottom: 12px; border-bottom: 1px solid var(--hairline); }
+.fc-bar { display: grid; grid-template-columns: 44px 1fr 44px; align-items: center; min-height: 44px; }
+.fc-close { margin-left: -10px; background: transparent; color: var(--ink); }
+.fc-pos { text-align: center; font: 700 17px/1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.fc-line { margin-top: 8px; }
+
+.fc-session { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
+.fc-card { display: block; width: 100%; max-width: 560px; padding: 0; border: 0; border-radius: var(--r-sheet); background: none; text-align: left; cursor: pointer; perspective: 1600px; }
+.fc-card:focus-visible { outline-offset: 4px; border-radius: var(--r-sheet); }
+.fc-inner { display: grid; min-height: clamp(320px, 54dvh, 560px); transform-style: preserve-3d; transition: transform .5s cubic-bezier(.3, .7, .2, 1); }
+.fc-card.on .fc-inner { transform: rotateY(180deg); }
+/* Both faces share one grid cell, so the card is as tall as its longer side and does not jump when it turns. */
+.fc-face {
+  grid-area: 1 / 1; display: flex; flex-direction: column; gap: 16px; padding: 20px;
+  border-radius: var(--r-sheet); background: var(--surface); box-shadow: inset 0 0 0 1px var(--hairline);
+  -webkit-backface-visibility: hidden; backface-visibility: hidden; transition: visibility .5s;
+}
+.fc-back { transform: rotateY(180deg); visibility: hidden; }
+.fc-card.on .fc-front { visibility: hidden; }
+.fc-card.on .fc-back { visibility: visible; }
+.fc-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 14px; color: var(--ink-2); }
+.fc-head .badge { flex: none; }
+.fc-body { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+.fc-kick { font-size: 15px; font-weight: 650; color: var(--caution); }
+.fc-q { font: 700 23px/1.35 var(--font-display); letter-spacing: -.015em; text-wrap: pretty; }
+.fc-p { padding-bottom: 14px; border-bottom: 1px solid var(--hairline); font-size: 15px; line-height: 1.5; color: var(--ink-2); }
+.fc-a { font-size: 19px; line-height: 1.55; text-wrap: pretty; }
+.fc-a strong { color: var(--go); }
+.fc-a .fc-false { color: var(--stop); }
+.fc-big { display: block; font-size: 44px; line-height: 1.1; color: var(--go); }
+.fc-formula { display: block; font: 600 20px/1.45 var(--font-display); color: var(--statute); }
+.fc-ex { display: block; margin-top: 10px; font-size: 15px; color: var(--ink-2); }
+.fc-blank { color: var(--go); font-weight: 700; }
+.fc-foot { font-size: 13px; color: var(--ink-2); }
+.fc-keys { display: none; }
+
+.fc-actions .btn { min-height: var(--tap-lg); font-size: 17px; }
+.fc-actions .btn.primary { flex: 1; font: 700 17px/1 var(--font-display); letter-spacing: -.01em; }
+.fc-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--stop); }
+
+/* Session summary (also the empty "All caught up" state). */
+.fc-done { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 18px; padding: 24px 20px; border-radius: var(--r-sheet); }
+.fc-done h1 { font-size: 26px; }
+.fc-done p { margin: 0; }
+.fc-tally { margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.fc-tally div { display: flex; flex-direction: column; gap: 6px; padding: 14px 12px; border-radius: var(--r-ctl); background: var(--raised); }
+.fc-tally dt { font-size: 13px; line-height: 1.25; color: var(--ink-2); }
+.fc-tally dd { order: -1; margin: 0; font-size: 30px; line-height: 1; }
+.fc-tally .ok dd { color: var(--go); }
+.fc-tally .warn dd { color: var(--caution); }
+.fc-next { display: flex; align-items: center; gap: 10px; font-size: 15px; color: var(--ink-2); }
+.fc-next .ic { width: 20px; height: 20px; }
+.fc-next strong { color: var(--ink); font-weight: 650; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fc-inner, .fc-face { transition: none; }
+  .fc-card.on .fc-inner, .fc-back { transform: none; }
+}
+
+/* Trackpad / mouse: hover feedback, plus the keyboard legend under the card (keys handled in views/cards.js). */
+@media (hover: hover) and (pointer: fine) {
+  .fc-row:hover, .fc-close:hover { background: var(--raised); }
+  .fc-keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin: 0; font-size: 14px; color: var(--ink-2); }
+  .fc-keys span { display: inline-flex; align-items: center; gap: 6px; }
+  .fc-keys kbd {
+    min-width: 24px; height: 24px; padding: 0 6px; border-radius: 6px; background: var(--raised); box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .35);
+    display: inline-grid; place-items: center; color: var(--ink); font: 600 13px/1 var(--font-ui);
+  }
+}
+
+/* Tablet: two-column chapter list; the session becomes a centered 720px column with larger type. */
+@media (min-width: 700px) {
+  .fc-hero { padding: 24px 28px; }
+  .fc-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .topbar:has(.fc-bar) { padding-top: calc(var(--st) + 10px); padding-left: max(var(--gutter), 50% - 360px); padding-right: max(var(--gutter), 50% - 360px); }
+  .fc-pos { font-size: 20px; }
+  .fc-card, .fc-done { max-width: 720px; }
+  .fc-face { gap: 20px; padding: 28px 32px; }
+  .fc-head { font-size: 15px; }
+  .fc-q { font-size: 30px; }
+  .fc-a { font-size: 22px; }
+  .fc-p, .fc-kick, .fc-ex { font-size: 17px; }
+  .fc-big { font-size: 60px; }
+  .fc-formula { font-size: 24px; }
+}
+/* Wide (iPad landscape): hero on the left, chapters on the right. */
+@media (min-width: 1100px) {
+  .fc-hub { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 28px; align-items: start; }
+}

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Law of Agency — Cram Sheet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    :root {
+      --canvas: #090d16;
+      --surface: #111725;
+      --raised: #182033;
+      --hairline: rgba(148, 163, 184, 0.16);
+      --ink: #f1f5f9;
+      --ink-secondary: #a3b1c6;
+      --go: #10b981;
+      --stop: #ef4444;
+      --caution: #f59e0b;
+      --statute: #818cf8;
+      
+      /* Subway bullets */
+      --mta-red: #DA291C;
+      --mta-blue: #0039A6;
+      --mta-green: #00843D;
+      --mta-orange: #FF6319;
+      --mta-yellow: #FCCC0A;
+      --mta-purple: #9B2A92;
+      --mta-lime: #6CBE45;
+    }
+
+    body {
+      background-color: var(--canvas);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .font-helvetica {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      letter-spacing: -0.02em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+      vertical-align: middle;
+    }
+    .material-symbols-filled {
+      font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+      vertical-align: middle;
+    }
+
+    /* Glass pill elements */
+    .glass-surface {
+      background: rgba(17, 23, 37, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--hairline);
+    }
+    
+    .glass-player {
+      background: rgba(24, 32, 51, 0.92);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.7);
+    }
+
+    .audio-wave {
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      height: 14px;
+    }
+    .audio-bar {
+      width: 2.5px;
+      background-color: var(--go);
+      border-radius: 9999px;
+      animation: bounce-bar 1.2s ease-in-out infinite;
+    }
+    .audio-bar:nth-child(1) { height: 6px; animation-delay: 0.1s; }
+    .audio-bar:nth-child(2) { height: 14px; animation-delay: 0.3s; }
+    .audio-bar:nth-child(3) { height: 9px; animation-delay: 0.15s; }
+    .audio-bar:nth-child(4) { height: 12px; animation-delay: 0.4s; }
+
+    @keyframes bounce-bar {
+      0%, 100% { transform: scaleY(0.4); }
+      50% { transform: scaleY(1); }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex justify-center bg-[#05070d] p-0 sm:py-6 selection:bg-[#10b981]/30">
+
+  <!-- Mobile Frame (393pt standard iPhone width) -->
+  <div class="relative w-full max-w-[393px] min-h-screen bg-[#090d16] text-[#f1f5f9] flex flex-col shadow-2xl overflow-x-hidden sm:rounded-[44px] border-x sm:border border-[rgba(148,163,184,0.14)]">
+
+    <!-- iOS Status Bar -->
+    <header class="pt-3 px-7 flex justify-between items-center text-xs text-[#a3b1c6] font-medium tracking-tight select-none z-30">
+      <span class="font-helvetica font-bold text-sm text-[#f1f5f9]">9:41</span>
+      <div class="flex items-center gap-1.5 text-[11px]">
+        <span class="material-symbols-outlined text-[15px]">signal_cellular_alt</span>
+        <span class="text-[11px] font-semibold">5G</span>
+        <span class="material-symbols-outlined text-[18px]">battery_full</span>
+      </div>
+    </header>
+
+    <!-- Top Navigation & Header -->
+    <nav class="px-5 pt-3 pb-2 z-20">
+      <a href="#" class="inline-flex items-center gap-1 text-[15px] text-[#10b981] font-medium active:opacity-60 transition-opacity min-h-[44px] -ml-1">
+        <span class="material-symbols-outlined text-[20px]">chevron_left</span>
+        <span>Study guides</span>
+      </a>
+
+      <!-- Title & Wayfinding Route Bullet -->
+      <div class="mt-1 flex items-start justify-between gap-3">
+        <div>
+          <div class="flex items-center gap-2 mb-1.5">
+            <!-- Red '2' bullet for Law of Agency -->
+            <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#DA291C] text-white font-helvetica font-bold text-xs tracking-tight shadow-sm shrink-0">2</span>
+            <span class="text-xs text-[#a3b1c6] font-medium tracking-normal">Chapter 2 of 19</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.16)] text-[#818cf8] font-medium">NYS Article 12-A</span>
+          </div>
+          <h1 class="text-[28px] font-helvetica font-bold text-[#f1f5f9] leading-[1.12]">Law of Agency</h1>
+        </div>
+        <button class="w-11 h-11 flex items-center justify-center rounded-[14px] bg-[#111725] border border-[rgba(148,163,184,0.16)] text-[#a3b1c6] active:text-[#f1f5f9] active:bg-[#182033] transition-colors" aria-label="Bookmark chapter">
+          <span class="material-symbols-outlined text-[20px]">bookmark</span>
+        </button>
+      </div>
+
+      <!-- Segmented Control: "Cram sheet" / "Full notes" -->
+      <div class="mt-4 p-1 rounded-[14px] bg-[#111725] border border-[rgba(148,163,184,0.16)] grid grid-cols-2 gap-1 text-sm font-medium">
+        <button class="py-2 rounded-[11px] bg-[#182033] text-[#f1f5f9] font-semibold text-center shadow-sm min-h-[38px] flex items-center justify-center">
+          Cram sheet
+        </button>
+        <button class="py-2 rounded-[11px] text-[#a3b1c6] hover:text-[#f1f5f9] active:bg-[#182033]/50 transition-colors text-center min-h-[38px] flex items-center justify-center">
+          Full notes
+        </button>
+      </div>
+    </nav>
+
+    <!-- Transit Wayfinding Line Progress Header -->
+    <section class="px-5 pt-3 pb-3">
+      <div class="p-3.5 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex flex-col gap-2.5">
+        <div class="flex items-center justify-between text-xs">
+          <div class="flex items-center gap-2">
+            <span class="font-helvetica font-bold text-[#f1f5f9] text-sm">Express syllabus line</span>
+            <span class="text-[11px] text-[#a3b1c6]">Station 4 of 35</span>
+          </div>
+          <span class="font-helvetica font-bold text-xs text-[#10b981] bg-[#10b981]/10 px-2 py-0.5 rounded-full border border-[#10b981]/20">11% listened</span>
+        </div>
+
+        <!-- Subway track with station dots -->
+        <div class="relative py-2 px-1 flex items-center">
+          <!-- Background track -->
+          <div class="absolute left-2 right-2 h-1.5 bg-[#182033] rounded-full"></div>
+          <!-- Completed track in line red #DA291C -->
+          <div class="absolute left-2 w-[24%] h-1.5 bg-[#DA291C] rounded-full"></div>
+
+          <!-- Station Dots -->
+          <div class="relative w-full flex justify-between items-center z-10">
+            <!-- Stn 1 -->
+            <div class="flex flex-col items-center">
+              <div class="w-3.5 h-3.5 rounded-full bg-[#DA291C] border-2 border-[#111725] flex items-center justify-center">
+                <span class="w-1.5 h-1.5 bg-white rounded-full"></span>
+              </div>
+            </div>
+            <!-- Stn 2 -->
+            <div class="flex flex-col items-center">
+              <div class="w-3.5 h-3.5 rounded-full bg-[#DA291C] border-2 border-[#111725] flex items-center justify-center">
+                <span class="w-1.5 h-1.5 bg-white rounded-full"></span>
+              </div>
+            </div>
+            <!-- Stn 3 -->
+            <div class="flex flex-col items-center">
+              <div class="w-3.5 h-3.5 rounded-full bg-[#DA291C] border-2 border-[#111725] flex items-center justify-center">
+                <span class="w-1.5 h-1.5 bg-white rounded-full"></span>
+              </div>
+            </div>
+            <!-- Stn 4 (Active station being read) -->
+            <div class="flex flex-col items-center">
+              <div class="w-5 h-5 rounded-full bg-[#10b981] border-2 border-[#090d16] flex items-center justify-center ring-4 ring-[#10b981]/25">
+                <span class="w-2 h-2 bg-white rounded-full"></span>
+              </div>
+            </div>
+            <!-- Stn 5 -->
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-[#182033] border-2 border-[#111725]"></div>
+            </div>
+            <!-- Stn 6 -->
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-[#182033] border-2 border-[#111725]"></div>
+            </div>
+            <!-- Terminus -->
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-[#182033] border-2 border-[#111725]"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center text-[11px] text-[#a3b1c6] pt-0.5">
+          <span>Stn 1 Fiduciary duty</span>
+          <span class="text-[#10b981] font-medium">Reading stn 4 Disclosure timing</span>
+          <span>Stn 35 Terminus</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content: "Must know" list card -->
+    <main class="flex-1 px-5 pt-1 pb-44 space-y-3">
+      
+      <div class="flex items-center justify-between px-1">
+        <div class="flex items-center gap-2">
+          <h2 class="font-helvetica font-bold text-lg text-[#f1f5f9]">Must know statutory points</h2>
+          <span class="text-xs px-2 py-0.5 rounded-full bg-[#182033] text-[#a3b1c6] font-medium">35 items</span>
+        </div>
+        <div class="flex items-center gap-1.5 text-xs text-[#10b981] font-medium">
+          <span class="material-symbols-outlined text-[16px]">headphones</span>
+          <span>Audio synced</span>
+        </div>
+      </div>
+
+      <!-- Item 1 (Normal) -->
+      <article class="p-4 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex items-start gap-3.5 transition-all">
+        <div class="w-8 h-8 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-sm font-helvetica font-bold text-[#a3b1c6] shrink-0 mt-0.5">
+          1
+        </div>
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">OLD CAR fiduciary framework</h3>
+            <span class="text-[11px] text-[#818cf8] font-medium">NYS standard</span>
+          </div>
+          <p class="text-[13px] text-[#a3b1c6] leading-relaxed">
+            An agent owes obedience, loyalty, disclosure, confidentiality, accountability, and reasonable care to their client. Confidentiality survives contract closing indefinitely.
+          </p>
+        </div>
+      </article>
+
+      <!-- Item 2 (Normal) -->
+      <article class="p-4 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex items-start gap-3.5 transition-all">
+        <div class="w-8 h-8 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-sm font-helvetica font-bold text-[#a3b1c6] shrink-0 mt-0.5">
+          2
+        </div>
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">Creation of agency relationship</h3>
+            <span class="text-[11px] text-[#818cf8] font-medium">RPL § 443</span>
+          </div>
+          <p class="text-[13px] text-[#a3b1c6] leading-relaxed">
+            Agency is determined by mutual consent and fiduciary delegation, never by who pays the brokerage commission fee.
+          </p>
+        </div>
+      </article>
+
+      <!-- Item 3 (Normal) -->
+      <article class="p-4 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex items-start gap-3.5 transition-all">
+        <div class="w-8 h-8 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-sm font-helvetica font-bold text-[#a3b1c6] shrink-0 mt-0.5">
+          3
+        </div>
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">Dual agency with designated agents</h3>
+            <span class="text-[11px] text-[#818cf8] font-medium">DOS form 1754-a</span>
+          </div>
+          <p class="text-[13px] text-[#a3b1c6] leading-relaxed">
+            Permissible only with written informed consent of both principals. Inherent conflict neutralizes individual loyalty unless designated sales agents are appointed by the supervising broker.
+          </p>
+        </div>
+      </article>
+
+      <!-- Item 4 (CURRENTLY BEING READ ALOUD: Highlighted with subtle green left border & soft green tint) -->
+      <article class="p-4 rounded-[18px] bg-[#10b981]/[0.08] border-y border-r border-[rgba(148,163,184,0.2)] border-l-[4px] border-l-[#10b981] flex items-start gap-3.5 transition-all relative overflow-hidden">
+        <!-- Subtle pulsing background accent -->
+        <div class="absolute inset-0 bg-gradient-to-r from-[#10b981]/10 via-transparent to-transparent pointer-events-none"></div>
+
+        <!-- Highlighted bullet with sound indicator -->
+        <div class="w-8 h-8 rounded-full bg-[#10b981] flex items-center justify-center text-sm font-helvetica font-bold text-[#090d16] shrink-0 mt-0.5 shadow-md">
+          4
+        </div>
+        
+        <div class="flex-1 space-y-1.5 relative z-10">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">Statutory disclosure form presentation</h3>
+              <div class="audio-wave ml-1" title="Reading aloud">
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+                <div class="audio-bar"></div>
+              </div>
+            </div>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-[#10b981]/20 text-[#10b981] font-semibold">Reading now</span>
+          </div>
+          
+          <p class="text-[14px] text-[#f1f5f9] font-normal leading-relaxed">
+            Under NY Real Property Law § 443, licensees must provide the New York State Disclosure Form at the <span class="text-[#10b981] font-semibold underline decoration-[#10b981]/40 underline-offset-2">first substantive contact</span> prior to discussing financial qualifications or confidential property motivations.
+          </p>
+
+          <!-- Citation badge -->
+          <div class="pt-1 flex items-center gap-2 text-xs text-[#a3b1c6]">
+            <span class="inline-flex items-center gap-1 font-mono text-[11px] text-[#818cf8] bg-[#182033] px-2 py-0.5 rounded-md border border-[rgba(148,163,184,0.16)]">
+              NY RPL § 443(3)(a)
+            </span>
+            <span class="text-[11px]">Exam test frequency: <strong class="text-[#f1f5f9]">Very high</strong></span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Item 5 (Normal) -->
+      <article class="p-4 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex items-start gap-3.5 transition-all">
+        <div class="w-8 h-8 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-sm font-helvetica font-bold text-[#a3b1c6] shrink-0 mt-0.5">
+          5
+        </div>
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">Refusal to sign disclosure declaration</h3>
+            <span class="text-[11px] text-[#818cf8] font-medium">19 NYCRR § 175.7</span>
+          </div>
+          <p class="text-[13px] text-[#a3b1c6] leading-relaxed">
+            If a prospective buyer or seller refuses to sign the statutory acknowledgment, the licensee must prepare an affidavit detailing the date, time, and circumstances of refusal, retaining it for 3 years.
+          </p>
+        </div>
+      </article>
+
+      <!-- Item 6 (Normal) -->
+      <article class="p-4 rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] flex items-start gap-3.5 transition-all">
+        <div class="w-8 h-8 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.2)] flex items-center justify-center text-sm font-helvetica font-bold text-[#a3b1c6] shrink-0 mt-0.5">
+          6
+        </div>
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9]">Brokerage vicarious liability</h3>
+            <span class="text-[11px] text-[#818cf8] font-medium">RPL § 442-c</span>
+          </div>
+          <p class="text-[13px] text-[#a3b1c6] leading-relaxed">
+            A broker is vicariously liable for unlawful conduct of affiliated salespersons only if the broker had actual knowledge or retained illegal profits after notice.
+          </p>
+        </div>
+      </article>
+
+    </main>
+
+    <!-- FLOATING BOTTOM CONTROLS STACK (Fixed over main content) -->
+    <div class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[393px] px-3.5 pb-2 pt-2 pointer-events-none z-50 flex flex-col gap-2">
+
+      <!-- NOW PLAYING COMPACT GLASS CAPSULE (Above tab bar) -->
+      <div class="pointer-events-auto w-full rounded-full glass-player px-3 py-2 flex items-center justify-between gap-2 shadow-2xl">
+        <!-- Route Bullet & Topic info -->
+        <div class="flex items-center gap-2.5 min-w-0 flex-1 pl-1">
+          <!-- Route bullet: red "2" -->
+          <div class="w-8 h-8 rounded-full bg-[#DA291C] text-white flex items-center justify-center font-helvetica font-bold text-sm tracking-tight shrink-0 shadow-sm">
+            2
+          </div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-1.5">
+              <span class="text-[13px] font-helvetica font-bold text-[#f1f5f9] truncate">Must know 4 of 35</span>
+            </div>
+            <p class="text-[11px] text-[#a3b1c6] truncate">Law of Agency</p>
+          </div>
+        </div>
+
+        <!-- Playback Controls -->
+        <div class="flex items-center gap-1 shrink-0 pr-0.5">
+          <!-- Previous button -->
+          <button class="w-9 h-9 flex items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all" aria-label="Previous item">
+            <span class="material-symbols-outlined text-[22px]">skip_previous</span>
+          </button>
+
+          <!-- Large Play/Pause Circle Button (Green #10b981) -->
+          <button class="w-11 h-11 rounded-full bg-[#10b981] text-[#090d16] flex items-center justify-center shadow-md active:scale-95 hover:brightness-105 transition-all" aria-label="Pause audio">
+            <span class="material-symbols-filled text-[26px]">pause</span>
+          </button>
+
+          <!-- Next button -->
+          <button class="w-9 h-9 flex items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all" aria-label="Next item">
+            <span class="material-symbols-outlined text-[22px]">skip_next</span>
+          </button>
+
+          <!-- Speed chip "1.25x" -->
+          <button class="ml-1 px-2.5 py-1 rounded-full bg-[#111725] border border-[rgba(148,163,184,0.2)] text-[12px] font-helvetica font-bold text-[#f1f5f9] hover:bg-[#182033] active:scale-95 transition-all" aria-label="Playback speed">
+            1.25x
+          </button>
+        </div>
+      </div>
+
+      <!-- FLOATING GLASS CAPSULE TAB BAR (6 tabs: Home, Study, Build, Stats, Mistakes, More) -->
+      <nav class="pointer-events-auto w-full rounded-full glass-surface px-2 py-1.5 flex items-center justify-between shadow-2xl">
+        
+        <!-- Tab 1: Home -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">home</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Home</span>
+        </a>
+
+        <!-- Tab 2: Study (Active) -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#10b981] transition-colors relative">
+          <span class="material-symbols-filled text-[20px]">menu_book</span>
+          <span class="text-[10px] font-semibold tracking-tight mt-0.5">Study</span>
+          <!-- Active tiny station dot indicator -->
+          <span class="w-1 h-1 rounded-full bg-[#10b981] mt-0.5"></span>
+        </a>
+
+        <!-- Tab 3: Build -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">handyman</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Build</span>
+        </a>
+
+        <!-- Tab 4: Stats -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">analytics</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Stats</span>
+        </a>
+
+        <!-- Tab 5: Mistakes -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">error_outline</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">Mistakes</span>
+        </a>
+
+        <!-- Tab 6: More -->
+        <a href="#" class="flex-1 flex flex-col items-center justify-center py-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+          <span class="material-symbols-outlined text-[20px]">more_horiz</span>
+          <span class="text-[10px] font-medium tracking-tight mt-0.5">More</span>
+        </a>
+
+      </nav>
+
+      <!-- Home Indicator bar on iOS -->
+      <div class="w-32 h-1 bg-white/20 rounded-full mx-auto mt-0.5 mb-0.5"></div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

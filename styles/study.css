@@ -10,6 +10,11 @@
 .st-row-t { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
 .st-row-t strong { font-size: 17px; font-weight: 650; }
 .st-row .ic { color: var(--ink-2); width: 18px; height: 18px; }
+.st-fc { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); min-height: 72px; box-shadow: inset 0 0 0 1px rgba(16, 185, 129, .35); }
+.st-fc > .ic:first-child { color: var(--go); width: 26px; height: 26px; }
+.st-fc-t { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.st-fc-t strong { font-size: 17px; }
+.st-fc > .ic:last-child { color: var(--ink-2); width: 18px; height: 18px; }
 
 /* Chapter header bits */
 body[data-route="study"] .hdr h1 { font-size: 28px; line-height: 1.12; }

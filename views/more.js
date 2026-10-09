@@ -9,6 +9,7 @@ function vMore() {
   return {
     top: header('More'),
     main: `<div class="bk-layout"><div class="bk-col">
+    <div class="bk-list"><a class="bk-row ed-more" href="#/examday"><span class="bk-row-ic">${svg('calendar')}</span><span class="bk-row-t">Exam day guide</span><span class="meta">${EXAM_AT.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>${svg('chevron')}</a></div>
     <section><h2>Install on iPhone or iPad</h2>
       <div class="card bk-install"><ol class="bk-steps">
         ${step(1, svg('compass'), 'Open in Safari')}${step(2, svg('share'), 'Tap Share')}${step(3, svg('plusSquare'), 'Add to Home Screen')}</ol>

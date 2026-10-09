@@ -1,0 +1,59 @@
+/* Listen mode: Listen button beside the guide toggle, floating mini player above the tab bar, current-item highlight. */
+.ls-bar { display: flex; align-items: center; gap: 8px; }
+.ls-bar > .seg { flex: 1; min-width: 0; }
+.ls-btn {
+  flex: none; min-height: 52px; padding: 0 16px; font-size: 15px;
+  background: var(--go-soft); box-shadow: inset 0 0 0 1px rgba(16, 185, 129, .4); color: #6ee7b7;
+}
+.ls-btn .ic { width: 20px; height: 20px; }
+
+/* Current item: tinted text block, or a green ring on card-like items. Side-only shadows widen the tint without touching neighbours. */
+.ls-now:not(.card, .st-nums > div) { background-color: var(--go-soft); box-shadow: -8px 0 0 var(--go-soft), 8px 0 0 var(--go-soft); border-radius: 4px; }
+.ls-now:is(.card, .st-nums > div) { background: linear-gradient(var(--go-soft), var(--go-soft)), var(--surface); box-shadow: inset 0 0 0 1.5px var(--go); }
+
+/* Phone: caption row on top, controls below; sits 8px above the tab bar. */
+.ls-player {
+  position: fixed; z-index: 6; left: 12px; right: 12px; margin: 0 auto; max-width: 616px;
+  bottom: calc(var(--sb) + 10px + var(--tabbar) + 8px);
+  display: grid; grid-template-columns: auto 1fr auto auto auto 1fr auto auto; align-items: center; gap: 4px 6px;
+  grid-template-areas: "txt txt txt txt txt txt txt txt" "bul . prev play next . rate close";
+  padding: 8px 8px 6px 12px; border: 1px solid var(--hairline); border-radius: 22px;
+  background: rgba(24, 32, 51, .92); backdrop-filter: saturate(160%) blur(20px); -webkit-backdrop-filter: saturate(160%) blur(20px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .45);
+}
+.ls-player > .bullet { grid-area: bul; }
+.ls-txt { grid-area: txt; min-width: 0; margin: 0; display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
+.ls-pos { flex: none; font: 700 15px/1.3 var(--font-display); letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+.ls-title { min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: 13px; color: var(--ink-2); }
+.ls-player .iconbtn { background: transparent; color: var(--ink); }
+.ls-prev { grid-area: prev; }
+.ls-next { grid-area: next; }
+.ls-player .ls-close { grid-area: close; color: var(--ink-2); }
+.ls-play {
+  grid-area: play; width: 52px; height: 52px; flex: none; border: 0; border-radius: 50%; cursor: pointer;
+  display: grid; place-items: center; background: var(--go); color: var(--go-ink);
+  transition: transform 90ms ease;
+}
+.ls-play:active { transform: scale(.96); }
+.ls-play .ic { width: 24px; height: 24px; fill: currentColor; stroke-width: 2.6; }
+.ls-rate { grid-area: rate; min-width: 56px; justify-content: center; padding: 0 10px; color: var(--ink); font: 700 15px var(--font-display); font-variant-numeric: tabular-nums; }
+
+/* Keep the last lines of the chapter and the toast clear of the player. */
+body:has(#ls-player) main { padding-bottom: calc(var(--sb) + var(--tabbar) + 150px); }
+body:has(#ls-player) #toast { bottom: calc(var(--sb) + var(--tabbar) + 120px); }
+
+@media (hover: hover) and (pointer: fine) {
+  .ls-player .iconbtn:hover, .ls-rate:hover { background: var(--raised); }
+}
+
+/* Tablet: one row, caption beside the bullet. */
+@media (min-width: 700px) {
+  .ls-player {
+    max-width: 700px; bottom: calc(var(--sb) + 16px + var(--tabbar) + 8px); padding: 6px 8px 6px 14px;
+    grid-template-columns: auto minmax(0, 1fr) auto auto auto auto auto; grid-template-areas: "bul txt prev play next rate close"; gap: 6px;
+  }
+  .ls-txt { flex-direction: column; align-items: flex-start; gap: 2px; margin-left: 6px; }
+  .ls-title { max-width: 100%; }
+  body:has(#ls-player) main { padding-bottom: calc(var(--sb) + var(--tabbar) + 110px); }
+  body:has(#ls-player) #toast { bottom: calc(var(--sb) + var(--tabbar) + 100px); }
+}

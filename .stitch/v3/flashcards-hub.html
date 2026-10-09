@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NY RE Exam — Flashcards Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --canvas: #090d16;
+      --surface: #111725;
+      --raised: #182033;
+      --hairline: rgba(148, 163, 184, 0.16);
+      --ink: #f1f5f9;
+      --secondary-ink: #a3b1c6;
+      --go: #10b981;
+      --stop: #ef4444;
+      --caution: #f59e0b;
+      --statute: #818cf8;
+      
+      /* MTA Subway Palette */
+      --mta-red: #DA291C;
+      --mta-blue: #0039A6;
+      --mta-green: #00843D;
+      --mta-orange: #FF6319;
+      --mta-yellow: #FCCC0A;
+      --mta-purple: #9B2A92;
+      --mta-lime: #6CBE45;
+    }
+    body {
+      background-color: var(--canvas);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .font-wayfinding {
+      font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, sans-serif;
+      letter-spacing: -0.02em;
+      font-feature-settings: "tnum" 1;
+    }
+    .hairline-border {
+      border: 1px solid var(--hairline);
+    }
+    .hairline-bottom {
+      border-bottom: 1px solid var(--hairline);
+    }
+    .hairline-top {
+      border-top: 1px solid var(--hairline);
+    }
+    /* Safe-area insets */
+    .pt-safe {
+      padding-top: max(16px, env(safe-area-inset-top));
+    }
+    .pb-tab-space {
+      padding-bottom: calc(88px + env(safe-area-inset-bottom, 24px));
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#090d16] text-[#f1f5f9] flex justify-center">
+
+  <!-- iPhone frame container (393px wide target standard) -->
+  <main class="w-full max-w-[393px] min-h-screen flex flex-col relative px-4 pt-safe pb-tab-space">
+
+    <!-- Top Status / Navigation Bar -->
+    <header class="flex items-center justify-between pt-2 pb-1">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#111725] hairline-border text-[11px] font-bold text-[#a3b1c6] font-wayfinding">
+          NY
+        </span>
+        <span class="text-xs font-medium tracking-tight text-[#a3b1c6]">Salesperson 77-hour cram</span>
+      </div>
+      <div class="flex items-center space-x-2">
+        <button type="button" aria-label="Search cards" class="w-11 h-11 min-w-[44px] min-h-[44px] rounded-full flex items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] hover:bg-[#111725] active:scale-95 transition-all">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- 1. Large Title Header -->
+    <section class="mt-3 mb-5">
+      <h1 class="text-[34px] leading-[40px] font-bold text-[#f1f5f9] font-wayfinding">Flashcards</h1>
+      <p class="text-[15px] text-[#a3b1c6] mt-1 font-normal">1,128 cards from the 19 cram sheets</p>
+    </section>
+
+    <!-- 2. Hero Card (Radius 24) -->
+    <section class="bg-[#111725] rounded-[24px] p-5 hairline-border mb-6 relative overflow-hidden">
+      <!-- Glow ambient background -->
+      <div class="absolute -top-12 -right-12 w-44 h-44 bg-[#10b981]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Top Row: Due Today & Count -->
+      <div class="flex items-start justify-between">
+        <div>
+          <div class="flex items-center space-x-2">
+            <span class="w-2 h-2 rounded-full bg-[#10b981] animate-pulse"></span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-[#10b981]">Daily spaced repetition</span>
+          </div>
+          <h2 class="text-lg font-bold text-[#f1f5f9] font-wayfinding mt-1">Due today</h2>
+        </div>
+        <div class="text-right">
+          <span class="text-[52px] leading-[48px] font-bold text-[#f1f5f9] font-wayfinding tracking-tight">86</span>
+          <span class="block text-[11px] text-[#a3b1c6] mt-0.5 font-medium">scheduled</span>
+        </div>
+      </div>
+
+      <!-- Full-width Green Primary Button (No arrows, no emoji, radius 14, min 44pt) -->
+      <button type="button" class="w-full h-12 min-h-[44px] mt-5 bg-[#10b981] hover:bg-[#0ea372] active:bg-[#0c8a60] active:scale-[0.99] text-[#090d16] font-wayfinding font-bold text-[16px] rounded-[14px] flex items-center justify-center transition-all shadow-[0_2px_12px_rgba(16,185,129,0.25)]">
+        Review 86 cards
+      </button>
+
+      <!-- Leitner Box Line as Subway Route Map -->
+      <div class="mt-6 pt-5 hairline-top">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-medium text-[#a3b1c6]">Spaced repetition schedule</span>
+          <span class="text-xs font-bold text-[#10b981] font-wayfinding">Stage 1 of 4</span>
+        </div>
+
+        <!-- Track with 4 Stations -->
+        <div class="relative px-2 py-2">
+          <!-- Rail Line Track -->
+          <div class="absolute left-4 right-4 top-[17px] h-[3px] bg-[#182033] rounded-full"></div>
+          <!-- Active Line segment -->
+          <div class="absolute left-4 w-1/4 top-[17px] h-[3px] bg-[#10b981] rounded-full"></div>
+
+          <div class="relative flex justify-between items-start">
+            
+            <!-- Station 1: New 640 -->
+            <div class="flex flex-col items-center">
+              <div class="w-7 h-7 rounded-full bg-[#111725] hairline-border flex items-center justify-center z-10">
+                <div class="w-4 h-4 rounded-full bg-[#10b981] ring-2 ring-[#10b981]/30"></div>
+              </div>
+              <span class="mt-2 text-[12px] font-bold text-[#f1f5f9] font-wayfinding">New 640</span>
+              <span class="text-[10px] text-[#a3b1c6]">box 1</span>
+            </div>
+
+            <!-- Station 2: 1 day 210 -->
+            <div class="flex flex-col items-center">
+              <div class="w-7 h-7 rounded-full bg-[#111725] hairline-border flex items-center justify-center z-10">
+                <div class="w-3.5 h-3.5 rounded-full bg-[#818cf8]"></div>
+              </div>
+              <span class="mt-2 text-[12px] font-bold text-[#f1f5f9] font-wayfinding">1 day 210</span>
+              <span class="text-[10px] text-[#a3b1c6]">box 2</span>
+            </div>
+
+            <!-- Station 3: 3 days 180 -->
+            <div class="flex flex-col items-center">
+              <div class="w-7 h-7 rounded-full bg-[#111725] hairline-border flex items-center justify-center z-10">
+                <div class="w-3 h-3 rounded-full bg-[#a3b1c6]"></div>
+              </div>
+              <span class="mt-2 text-[12px] font-bold text-[#f1f5f9] font-wayfinding">3 days 180</span>
+              <span class="text-[10px] text-[#a3b1c6]">box 3</span>
+            </div>
+
+            <!-- Station 4: 7 days 98 -->
+            <div class="flex flex-col items-center">
+              <div class="w-7 h-7 rounded-full bg-[#111725] hairline-border flex items-center justify-center z-10">
+                <div class="w-2.5 h-2.5 rounded-full bg-[#64748b]"></div>
+              </div>
+              <span class="mt-2 text-[12px] font-bold text-[#f1f5f9] font-wayfinding">7 days 98</span>
+              <span class="text-[10px] text-[#a3b1c6]">box 4</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Segmented Control: "By chapter" / "Card type" -->
+    <section class="mb-4">
+      <div class="bg-[#111725] p-1 rounded-[14px] hairline-border flex items-center h-11">
+        <button type="button" class="flex-1 h-9 rounded-[10px] bg-[#182033] text-[#f1f5f9] font-wayfinding font-bold text-[14px] shadow-sm flex items-center justify-center transition-all">
+          By chapter
+        </button>
+        <button type="button" class="flex-1 h-9 rounded-[10px] text-[#a3b1c6] hover:text-[#f1f5f9] font-medium text-[14px] flex items-center justify-center transition-all">
+          Card type
+        </button>
+      </div>
+    </section>
+
+    <!-- Section Header for Chapters -->
+    <div class="flex items-center justify-between mb-2.5 px-1">
+      <span class="text-[13px] font-semibold text-[#a3b1c6] tracking-tight">Active chapters</span>
+      <span class="text-[12px] text-[#a3b1c6]">6 of 19 shown</span>
+    </div>
+
+    <!-- 4. Grouped List of Chapters (Radius 18, Hairline Dividers) -->
+    <section class="bg-[#111725] rounded-[18px] hairline-border overflow-hidden mb-6 divide-y divide-[rgba(148,163,184,0.16)]">
+
+      <!-- Row 1: License Law & Article 12-A (Red "1") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Red #DA291C "1" -->
+        <div class="w-8 h-8 rounded-full bg-[#DA291C] flex items-center justify-center text-white font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          1
+        </div>
+        
+        <!-- Content -->
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">License Law &amp; Article 12-A</h3>
+          </div>
+          <!-- Progress bar & mastery label -->
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#10b981] rounded-full" style="width: 69%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">42 of 61 learned</span>
+          </div>
+        </div>
+
+        <!-- Chevron (no arrow text, SVG icon) -->
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+      <!-- Row 2: Law of Agency (Red "2") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Red #DA291C "2" -->
+        <div class="w-8 h-8 rounded-full bg-[#DA291C] flex items-center justify-center text-white font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          2
+        </div>
+        
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">Law of Agency</h3>
+          </div>
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#10b981] rounded-full" style="width: 54%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">31 of 57 learned</span>
+          </div>
+        </div>
+
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+      <!-- Row 3: Real Estate Math (Green "6") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Green #00843D "6" -->
+        <div class="w-8 h-8 rounded-full bg-[#00843D] flex items-center justify-center text-white font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          6
+        </div>
+        
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">Real Estate Math</h3>
+          </div>
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#f59e0b] rounded-full" style="width: 38%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">18 of 48 learned</span>
+          </div>
+        </div>
+
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+      <!-- Row 4: Real Estate Finance (Green "4") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Green #00843D "4" -->
+        <div class="w-8 h-8 rounded-full bg-[#00843D] flex items-center justify-center text-white font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          4
+        </div>
+        
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">Real Estate Finance</h3>
+          </div>
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#10b981] rounded-full" style="width: 61%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">35 of 57 learned</span>
+          </div>
+        </div>
+
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+      <!-- Row 5: Human Rights & Fair Housing (Blue "A") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Blue #0039A6 "A" -->
+        <div class="w-8 h-8 rounded-full bg-[#0039A6] flex items-center justify-center text-white font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          A
+        </div>
+        
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">Human Rights &amp; Fair Housing</h3>
+          </div>
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#10b981] rounded-full" style="width: 82%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">45 of 55 learned</span>
+          </div>
+        </div>
+
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+      <!-- Row 6: Closing & Settlement (Yellow #FCCC0A with dark text "N") -->
+      <div role="button" tabindex="0" class="flex items-center px-4 py-3.5 min-h-[58px] hover:bg-[#182033]/60 active:bg-[#182033] transition-colors cursor-pointer group">
+        <!-- Route Bullet: Yellow #FCCC0A with dark text "N" -->
+        <div class="w-8 h-8 rounded-full bg-[#FCCC0A] flex items-center justify-center text-[#090d16] font-bold text-[16px] font-wayfinding flex-shrink-0 shadow-sm">
+          N
+        </div>
+        
+        <div class="ml-3.5 flex-1 min-w-0 pr-2">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-[15px] font-bold text-[#f1f5f9] truncate font-wayfinding">Closing &amp; Settlement</h3>
+          </div>
+          <div class="mt-1.5 flex items-center space-x-3">
+            <div class="flex-1 h-1 bg-[#182033] rounded-full overflow-hidden">
+              <div class="h-full bg-[#f59e0b] rounded-full" style="width: 44%;"></div>
+            </div>
+            <span class="text-[12px] font-medium text-[#a3b1c6] flex-shrink-0 font-wayfinding">20 of 45 learned</span>
+          </div>
+        </div>
+
+        <svg class="w-4 h-4 text-[#a3b1c6] group-hover:text-[#f1f5f9] flex-shrink-0 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </div>
+
+    </section>
+
+    <!-- Quick Subway Cram Hint / Offline Banner -->
+    <div class="bg-[#111725] rounded-[18px] p-3.5 hairline-border mb-4 flex items-center space-x-3">
+      <div class="w-8 h-8 rounded-full bg-[#182033] flex items-center justify-center text-[#10b981] flex-shrink-0">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+      </div>
+      <div class="flex-1 text-xs">
+        <span class="font-bold text-[#f1f5f9] font-wayfinding">Subway offline sync active.</span>
+        <span class="text-[#a3b1c6]">All 1,128 flashcards cached for offline commute studying.</span>
+      </div>
+    </div>
+
+    <!-- 5. Floating Glass Capsule Tab Bar (6 tabs: Home, Study, Build, Stats, Mistakes, More) -->
+    <!-- Study active with green pill indicator -->
+    <nav class="fixed bottom-3 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[369px] z-50">
+      <div class="bg-[#111725]/85 backdrop-blur-xl hairline-border rounded-full px-2 py-1.5 shadow-[0_8px_30px_rgba(0,0,0,0.6)] flex items-center justify-between">
+        
+        <!-- Tab 1: Home -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all">
+          <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+          </svg>
+          <span class="text-[10px] font-medium leading-none">Home</span>
+        </button>
+
+        <!-- Tab 2: Study (ACTIVE) -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#10b981] active:scale-95 transition-all relative">
+          <div class="bg-[#10b981]/15 px-3 py-1 rounded-full flex flex-col items-center">
+            <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            <span class="text-[10px] font-bold leading-none">Study</span>
+          </div>
+        </button>
+
+        <!-- Tab 3: Build -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all">
+          <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+          </svg>
+          <span class="text-[10px] font-medium leading-none">Build</span>
+        </button>
+
+        <!-- Tab 4: Stats -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all">
+          <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+          </svg>
+          <span class="text-[10px] font-medium leading-none">Stats</span>
+        </button>
+
+        <!-- Tab 5: Mistakes -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all">
+          <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+          </svg>
+          <span class="text-[10px] font-medium leading-none">Mistakes</span>
+        </button>
+
+        <!-- Tab 6: More -->
+        <button type="button" class="flex-1 flex flex-col items-center justify-center min-h-[44px] py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-all">
+          <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+          </svg>
+          <span class="text-[10px] font-medium leading-none">More</span>
+        </button>
+
+      </div>
+    </nav>
+
+  </main>
+
+</body>
+</html>

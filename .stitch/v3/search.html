@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NY RE Exam — Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <style>
+    :root {
+      --canvas: #090d16;
+      --surface: #111725;
+      --raised: #182033;
+      --hairline: rgba(148, 163, 184, 0.16);
+      --ink: #f1f5f9;
+      --secondary-ink: #a3b1c6;
+      --go: #10b981;
+      --stop: #ef4444;
+      --caution: #f59e0b;
+      --statute-indigo: #818cf8;
+      
+      /* NYC Transit Route Colors */
+      --mta-red: #DA291C;
+      --mta-blue: #0039A6;
+      --mta-green: #00843D;
+      --mta-orange: #FF6319;
+      --mta-yellow: #FCCC0A;
+      --mta-purple: #9B2A92;
+      --mta-lime: #6CBE45;
+    }
+
+    body {
+      background-color: var(--canvas);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Inter, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-helvetica {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-feature-settings: "tnum" on, "lnum" on;
+      letter-spacing: -0.02em;
+    }
+
+    .tnum {
+      font-feature-settings: "tnum" on, "lnum" on;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Subtly styled custom scrollbars */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tap-target {
+      min-height: 44px;
+      min-width: 44px;
+    }
+
+    .glass-tab-bar {
+      background: rgba(17, 23, 37, 0.82);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[#090d16] text-[#f1f5f9] flex justify-center pb-28 select-none">
+  <!-- iPhone 15 / 16 (393pt target container) -->
+  <main class="w-full max-w-[393px] min-h-screen bg-[#090d16] relative flex flex-col px-4 pt-2">
+
+    <!-- iOS Status Bar Simulation -->
+    <header class="flex justify-between items-center pt-2 pb-1 text-xs font-semibold tracking-tight text-[#f1f5f9]">
+      <span class="font-helvetica text-[15px] font-bold tracking-tight pl-1">9:41</span>
+      <div class="flex items-center space-x-2 text-[13px] pr-1">
+        <!-- Cellular Signal -->
+        <svg class="w-4 h-3.5 fill-current" viewBox="0 0 17 12">
+          <rect x="0" y="8" width="2.6" height="4" rx="0.7"/>
+          <rect x="4" y="5.5" width="2.6" height="6.5" rx="0.7"/>
+          <rect x="8" y="3" width="2.6" height="9" rx="0.7"/>
+          <rect x="12" y="0.5" width="2.6" height="11.5" rx="0.7"/>
+        </svg>
+        <!-- Wifi -->
+        <svg class="w-4 h-3.5 fill-current" viewBox="0 0 16 12">
+          <path d="M8 2.5C10.5 2.5 12.8 3.5 14.5 5.2L15.6 4C13.6 2 10.9 0.8 8 0.8C5.1 0.8 2.4 2 0.4 4L1.5 5.2C3.2 3.5 5.5 2.5 8 2.5ZM8 6.5C9.7 6.5 11.2 7.2 12.4 8.3L13.5 7.1C12 5.7 10.1 4.8 8 4.8C5.9 4.8 4 5.7 2.5 7.1L3.6 8.3C4.8 7.2 6.3 6.5 8 6.5ZM8 10C8.8 10 9.5 10.7 9.5 11.5C9.5 12.3 8.8 13 8 13C7.2 13 6.5 12.3 6.5 11.5C6.5 10.7 7.2 10 8 10Z"/>
+        </svg>
+        <!-- Battery -->
+        <div class="w-6 h-3 rounded-[4px] border border-[#f1f5f9] p-0.5 flex items-center">
+          <div class="h-full w-4 bg-[#f1f5f9] rounded-[1.5px]"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Navigation / Sub-headline branding -->
+    <div class="flex items-center justify-between pt-2 pb-1">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#10b981] text-black font-helvetica font-black text-xs">
+          NY
+        </span>
+        <span class="text-xs font-medium text-[#a3b1c6] tracking-tight">NYS Salesperson 2,060-Bank</span>
+      </div>
+      <div class="inline-flex items-center px-2 py-0.5 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.16)] text-[11px] font-medium text-[#10b981]">
+        Live index
+      </div>
+    </div>
+
+    <!-- iOS Large Title: "Search" -->
+    <h1 class="font-helvetica font-bold text-[34px] leading-tight text-[#f1f5f9] mt-1 mb-3 tracking-[-0.03em]">
+      Search
+    </h1>
+
+    <!-- 48pt Tall Rounded Search Field -->
+    <div class="w-full h-12 bg-[#182033] rounded-[14px] border border-[rgba(148,163,184,0.16)] px-3.5 flex items-center justify-between gap-2.5 focus-within:border-[#10b981] transition-colors">
+      <div class="flex items-center gap-3 flex-1 min-w-0">
+        <!-- Search Magnifier Icon -->
+        <svg class="w-5 h-5 text-[#a3b1c6] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        <span class="font-helvetica text-[17px] font-semibold text-[#f1f5f9] tracking-tight">
+          habendum
+        </span>
+      </div>
+      <!-- Clear (x) button - at least 44pt target wrapper -->
+      <button type="button" aria-label="Clear search" class="tap-target flex items-center justify-center -mr-2 text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors">
+        <div class="w-5 h-5 rounded-full bg-[#111725] border border-[rgba(148,163,184,0.2)] flex items-center justify-center">
+          <svg class="w-3 h-3 text-[#f1f5f9]" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <line x1="3" y1="3" x2="9" y2="9"/>
+            <line x1="9" y1="3" x2="3" y2="9"/>
+          </svg>
+        </div>
+      </button>
+    </div>
+
+    <!-- Filter Chips Row -->
+    <div class="flex items-center gap-2 mt-3 mb-5 overflow-x-auto py-0.5">
+      <!-- Selected Chip: All 23 (Green Tint) -->
+      <button type="button" class="tap-target inline-flex items-center px-4 py-2 rounded-full bg-[rgba(16,185,129,0.14)] border border-[#10b981] text-[#10b981] font-helvetica font-bold text-[13px] tracking-tight">
+        <span>All</span>
+        <span class="ml-1.5 font-normal text-xs tnum bg-[#10b981] text-[#090d16] px-1.5 py-0.5 rounded-full font-bold">23</span>
+      </button>
+
+      <!-- Study guides 9 -->
+      <button type="button" class="tap-target inline-flex items-center px-3.5 py-2 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.16)] text-[#a3b1c6] hover:text-[#f1f5f9] font-helvetica font-medium text-[13px] tracking-tight transition-colors">
+        <span>Study guides</span>
+        <span class="ml-1.5 text-xs text-[#a3b1c6] tnum font-semibold">9</span>
+      </button>
+
+      <!-- Questions 14 -->
+      <button type="button" class="tap-target inline-flex items-center px-3.5 py-2 rounded-full bg-[#182033] border border-[rgba(148,163,184,0.16)] text-[#a3b1c6] hover:text-[#f1f5f9] font-helvetica font-medium text-[13px] tracking-tight transition-colors">
+        <span>Questions</span>
+        <span class="ml-1.5 text-xs text-[#a3b1c6] tnum font-semibold">14</span>
+      </button>
+    </div>
+
+    <!-- Section 1: Study guides Results -->
+    <div class="mb-6">
+      <div class="flex items-center justify-between mb-2.5 px-0.5">
+        <h2 class="font-helvetica font-bold text-sm tracking-tight text-[#a3b1c6]">
+          Study guides
+        </h2>
+        <span class="text-xs text-[#a3b1c6] font-medium tnum">9 matches</span>
+      </div>
+
+      <div class="space-y-2.5">
+        <!-- Result Card 1: Primary Hit -->
+        <article class="bg-[#111725] rounded-[18px] p-4 border border-[rgba(148,163,184,0.16)] hover:bg-[#182033] transition-colors">
+          <!-- Wayfinding Route Header -->
+          <div class="flex items-center justify-between mb-2">
+            <div class="flex items-center space-x-2.5">
+              <!-- Subway Bullet A (Blue #0039A6) -->
+              <span class="w-6 h-6 rounded-full bg-[#0039A6] text-white font-helvetica font-black text-xs flex items-center justify-center shadow-sm">
+                A
+              </span>
+              <span class="text-xs font-semibold text-[#a3b1c6] tracking-tight">Legal Issues & Land Title</span>
+            </div>
+            <!-- Progress Line with Station Dots -->
+            <div class="flex items-center space-x-1" title="Station progression">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+              <span class="w-4 h-[2px] bg-[#10b981]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+              <span class="w-4 h-[2px] bg-[rgba(148,163,184,0.3)]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[rgba(148,163,184,0.4)]"></span>
+            </div>
+          </div>
+
+          <!-- Section Name in bold -->
+          <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9] leading-snug mb-1.5">
+            Deed clauses and their wording
+          </h3>
+
+          <!-- Two-line snippet with matched word highlighted in green tinted pill -->
+          <p class="text-[13px] leading-relaxed text-[#a3b1c6]">
+            The <span class="inline-block px-1.5 py-0.5 bg-[rgba(16,185,129,0.2)] text-[#10b981] font-bold rounded-md border border-[rgba(16,185,129,0.35)]">habendum</span> clause ('to have and to hold') defines the estate granted, clarifying whether fee simple or life estate conveyance is created.
+          </p>
+
+          <!-- NY Statutory Citation Badge -->
+          <div class="mt-3 pt-2.5 border-t border-[rgba(148,163,184,0.1)] flex items-center justify-between text-[11px]">
+            <span class="text-[#818cf8] font-medium font-helvetica">NYS RPL § 258 Schedule G</span>
+            <span class="text-[#a3b1c6]">Chapter 5 • Read 4 min</span>
+          </div>
+        </article>
+
+        <!-- Result Card 2: Secondary Guide Hit -->
+        <article class="bg-[#111725] rounded-[18px] p-4 border border-[rgba(148,163,184,0.16)] hover:bg-[#182033] transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <div class="flex items-center space-x-2.5">
+              <!-- Subway Bullet E (Blue #0039A6) -->
+              <span class="w-6 h-6 rounded-full bg-[#0039A6] text-white font-helvetica font-black text-xs flex items-center justify-center shadow-sm">
+                E
+              </span>
+              <span class="text-xs font-semibold text-[#a3b1c6] tracking-tight">Real Estate Contracts</span>
+            </div>
+            <!-- Progress Line with Station Dots -->
+            <div class="flex items-center space-x-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+              <span class="w-4 h-[2px] bg-[#10b981]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[rgba(148,163,184,0.3)]"></span>
+              <span class="w-4 h-[2px] bg-[rgba(148,163,184,0.3)]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[rgba(148,163,184,0.4)]"></span>
+            </div>
+          </div>
+
+          <h3 class="font-helvetica font-bold text-[15px] text-[#f1f5f9] leading-snug mb-1.5">
+            Essential elements of conveyance and execution
+          </h3>
+
+          <p class="text-[13px] leading-relaxed text-[#a3b1c6]">
+            Where language in the granting clause conflicts directly with the <span class="inline-block px-1.5 py-0.5 bg-[rgba(16,185,129,0.2)] text-[#10b981] font-bold rounded-md border border-[rgba(16,185,129,0.35)]">habendum</span>, New York precedent generally upholds the premises clause.
+          </p>
+
+          <div class="mt-3 pt-2.5 border-t border-[rgba(148,163,184,0.1)] flex items-center justify-between text-[11px]">
+            <span class="text-[#818cf8] font-medium font-helvetica">NYS RPL § 240</span>
+            <span class="text-[#a3b1c6]">Chapter 9 • Read 6 min</span>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Section 2: Questions Results -->
+    <div class="mb-4">
+      <div class="flex items-center justify-between mb-2.5 px-0.5">
+        <h2 class="font-helvetica font-bold text-sm tracking-tight text-[#a3b1c6]">
+          Questions
+        </h2>
+        <span class="text-xs text-[#a3b1c6] font-medium tnum">14 matches in bank</span>
+      </div>
+
+      <div class="space-y-2.5">
+        <!-- Question Item 1 -->
+        <article class="bg-[#111725] rounded-[18px] p-3.5 border border-[rgba(148,163,184,0.16)] flex flex-col gap-2.5">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1.5">
+                <!-- Bullet A (Legal Issues) -->
+                <span class="w-5 h-5 rounded-full bg-[#0039A6] text-white font-helvetica font-black text-[11px] flex items-center justify-center flex-shrink-0">
+                  A
+                </span>
+                <span class="text-[11px] text-[#a3b1c6] font-medium truncate">Legal Issues & Land Title</span>
+                <span class="text-[10px] text-[#818cf8] font-mono px-1 py-0.2 bg-[#182033] rounded">Q 412</span>
+              </div>
+              <p class="text-[13px] leading-snug text-[#f1f5f9] font-medium">
+                Under New York conveyancing law, what is the legal effect if the granting clause grants a fee simple but the <span class="inline-block px-1.5 py-0.2 bg-[rgba(16,185,129,0.2)] text-[#10b981] font-bold rounded border border-[rgba(16,185,129,0.35)]">habendum</span> specifies a life estate?
+              </p>
+            </div>
+
+            <!-- "Practice" pill button on the right (min 44pt tap target container) -->
+            <button type="button" class="tap-target flex-shrink-0 flex items-center justify-center self-center pl-1">
+              <span class="px-3 py-1.5 rounded-full bg-[#182033] border border-[rgba(16,185,129,0.4)] text-[#10b981] font-helvetica font-bold text-xs hover:bg-[#10b981] hover:text-[#090d16] active:scale-95 transition-all">
+                Practice
+              </span>
+            </button>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-[#a3b1c6] pt-1.5 border-t border-[rgba(148,163,184,0.08)]">
+            <span>Missed by 38% of test takers</span>
+            <span class="text-[#10b981] font-medium">Standard syllabus</span>
+          </div>
+        </article>
+
+        <!-- Question Item 2 -->
+        <article class="bg-[#111725] rounded-[18px] p-3.5 border border-[rgba(148,163,184,0.16)] flex flex-col gap-2.5">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1.5">
+                <!-- Bullet B (Orange #FF6319) - Estates & Interests -->
+                <span class="w-5 h-5 rounded-full bg-[#FF6319] text-white font-helvetica font-black text-[11px] flex items-center justify-center flex-shrink-0">
+                  B
+                </span>
+                <span class="text-[11px] text-[#a3b1c6] font-medium truncate">Estates & Interests</span>
+                <span class="text-[10px] text-[#818cf8] font-mono px-1 py-0.2 bg-[#182033] rounded">Q 884</span>
+              </div>
+              <p class="text-[13px] leading-snug text-[#f1f5f9] font-medium">
+                Which specific Latin-derived terminology in an executed deed's <span class="inline-block px-1.5 py-0.2 bg-[rgba(16,185,129,0.2)] text-[#10b981] font-bold rounded border border-[rgba(16,185,129,0.35)]">habendum</span> initiates the phrase meaning "to have and to hold"?
+              </p>
+            </div>
+
+            <button type="button" class="tap-target flex-shrink-0 flex items-center justify-center self-center pl-1">
+              <span class="px-3 py-1.5 rounded-full bg-[#182033] border border-[rgba(16,185,129,0.4)] text-[#10b981] font-helvetica font-bold text-xs hover:bg-[#10b981] hover:text-[#090d16] active:scale-95 transition-all">
+                Practice
+              </span>
+            </button>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-[#a3b1c6] pt-1.5 border-t border-[rgba(148,163,184,0.08)]">
+            <span>High repetition in mock exams</span>
+            <span class="text-[#10b981] font-medium">RPL § 258</span>
+          </div>
+        </article>
+
+        <!-- Question Item 3 -->
+        <article class="bg-[#111725] rounded-[18px] p-3.5 border border-[rgba(148,163,184,0.16)] flex flex-col gap-2.5">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1.5">
+                <!-- Bullet 4 (Green #00843D) - Real Estate Finance -->
+                <span class="w-5 h-5 rounded-full bg-[#00843D] text-white font-helvetica font-black text-[11px] flex items-center justify-center flex-shrink-0">
+                  4
+                </span>
+                <span class="text-[11px] text-[#a3b1c6] font-medium truncate">Real Estate Finance</span>
+                <span class="text-[10px] text-[#818cf8] font-mono px-1 py-0.2 bg-[#182033] rounded">Q 1,209</span>
+              </div>
+              <p class="text-[13px] leading-snug text-[#f1f5f9] font-medium">
+                In residential mortgage financing, does a defect in the deed's <span class="inline-block px-1.5 py-0.2 bg-[rgba(16,185,129,0.2)] text-[#10b981] font-bold rounded border border-[rgba(16,185,129,0.35)]">habendum</span> affect the enforceability of an institutional lender's lien?
+              </p>
+            </div>
+
+            <button type="button" class="tap-target flex-shrink-0 flex items-center justify-center self-center pl-1">
+              <span class="px-3 py-1.5 rounded-full bg-[#182033] border border-[rgba(16,185,129,0.4)] text-[#10b981] font-helvetica font-bold text-xs hover:bg-[#10b981] hover:text-[#090d16] active:scale-95 transition-all">
+                Practice
+              </span>
+            </button>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-[#a3b1c6] pt-1.5 border-t border-[rgba(148,163,184,0.08)]">
+            <span>Appeared in Oct 2024 exam session</span>
+            <span class="text-[#10b981] font-medium">Mortgage lien priority</span>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Subway Route Bullets Legend (Subtle footer info) -->
+    <div class="mt-2 mb-20 p-3 rounded-[14px] bg-[#111725] border border-[rgba(148,163,184,0.12)]">
+      <div class="text-[11px] font-semibold text-[#a3b1c6] mb-2 font-helvetica">
+        Syllabus routes index
+      </div>
+      <div class="flex items-center justify-between gap-1">
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#DA291C] text-white font-helvetica font-black text-[10px] flex items-center justify-center">1</span>
+          <span class="w-5 h-5 rounded-full bg-[#DA291C] text-white font-helvetica font-black text-[10px] flex items-center justify-center">2</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#0039A6] text-white font-helvetica font-black text-[10px] flex items-center justify-center">A</span>
+          <span class="w-5 h-5 rounded-full bg-[#0039A6] text-white font-helvetica font-black text-[10px] flex items-center justify-center">C</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#00843D] text-white font-helvetica font-black text-[10px] flex items-center justify-center">4</span>
+          <span class="w-5 h-5 rounded-full bg-[#00843D] text-white font-helvetica font-black text-[10px] flex items-center justify-center">6</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#FF6319] text-white font-helvetica font-black text-[10px] flex items-center justify-center">B</span>
+          <span class="w-5 h-5 rounded-full bg-[#FF6319] text-white font-helvetica font-black text-[10px] flex items-center justify-center">D</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#FCCC0A] text-[#090d16] font-helvetica font-black text-[10px] flex items-center justify-center">N</span>
+          <span class="w-5 h-5 rounded-full bg-[#FCCC0A] text-[#090d16] font-helvetica font-black text-[10px] flex items-center justify-center">R</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <span class="w-5 h-5 rounded-full bg-[#9B2A92] text-white font-helvetica font-black text-[10px] flex items-center justify-center">7</span>
+          <span class="w-5 h-5 rounded-full bg-[#6CBE45] text-white font-helvetica font-black text-[10px] flex items-center justify-center">G</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Glass Capsule Tab Bar (6 Tabs: Home, Study, Build, Stats, Mistakes, More) -->
+    <!-- Study is Active -->
+    <nav aria-label="Main Navigation" class="fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[369px] z-50 glass-tab-bar rounded-[24px] px-2 py-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.65)]">
+      <ul class="flex items-center justify-between">
+        <!-- 1. Home -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors py-1">
+            <svg class="w-5 h-5 stroke-current fill-none" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 9.75L12 3l9 6.75V20.25a.75.75 0 01-.75.75H15v-6h-6v6H3.75A.75.75 0 013 20.25V9.75z"/>
+            </svg>
+            <span class="text-[10px] font-medium mt-0.5 tracking-tight">Home</span>
+          </button>
+        </li>
+
+        <!-- 2. Study (ACTIVE) -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#10b981] font-semibold py-1 relative">
+            <div class="w-8 h-8 rounded-full bg-[rgba(16,185,129,0.16)] flex items-center justify-center -mb-1">
+              <svg class="w-5 h-5 stroke-current fill-none" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
+              </svg>
+            </div>
+            <span class="text-[10px] font-bold mt-1 tracking-tight text-[#10b981]">Study</span>
+            <span class="w-1 h-1 rounded-full bg-[#10b981] absolute -bottom-0.5"></span>
+          </button>
+        </li>
+
+        <!-- 3. Build -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors py-1">
+            <svg class="w-5 h-5 stroke-current fill-none" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"/>
+            </svg>
+            <span class="text-[10px] font-medium mt-0.5 tracking-tight">Build</span>
+          </button>
+        </li>
+
+        <!-- 4. Stats -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors py-1">
+            <svg class="w-5 h-5 stroke-current fill-none" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/>
+            </svg>
+            <span class="text-[10px] font-medium mt-0.5 tracking-tight">Stats</span>
+          </button>
+        </li>
+
+        <!-- 5. Mistakes -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors py-1">
+            <svg class="w-5 h-5 stroke-current fill-none" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+            </svg>
+            <span class="text-[10px] font-medium mt-0.5 tracking-tight">Mistakes</span>
+          </button>
+        </li>
+
+        <!-- 6. More -->
+        <li class="flex-1">
+          <button type="button" class="tap-target w-full flex flex-col items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] transition-colors py-1">
+            <svg class="w-5 h-5 stroke-current fill-none" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/>
+            </svg>
+            <span class="text-[10px] font-medium mt-0.5 tracking-tight">More</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- iOS Home Indicator -->
+    <div class="fixed bottom-1 left-1/2 -translate-x-1/2 w-32 h-1 bg-white/30 rounded-full pointer-events-none z-50"></div>
+
+  </main>
+</body>
+</html>

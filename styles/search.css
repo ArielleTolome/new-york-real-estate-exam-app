@@ -1,0 +1,60 @@
+/* Search (#/search): pill field in the sticky top bar, filter chips, grouped hits with highlighted terms. */
+.sr-field { position: relative; display: flex; align-items: center; margin-top: 12px; }
+.sr-field > .ic { position: absolute; left: 16px; width: 20px; height: 20px; color: var(--ink-2); pointer-events: none; }
+#sr-input {
+  width: 100%; height: 48px; padding: 0 52px 0 46px; border: 0; border-radius: 999px; -webkit-appearance: none; appearance: none;
+  background: var(--raised); box-shadow: inset 0 0 0 1px var(--hairline); color: var(--ink); font-size: 17px; /* >=16px: no iOS zoom */
+}
+#sr-input::placeholder { color: var(--ink-2); }
+#sr-input:focus-visible { border-radius: 999px; outline-offset: 0; box-shadow: inset 0 0 0 1px var(--statute); }
+#sr-input::-webkit-search-cancel-button, #sr-input::-webkit-search-decoration { -webkit-appearance: none; }
+.sr-clear { position: absolute; right: 2px; background: transparent; border-radius: 999px; }
+.sr-clear[hidden] { display: none; }
+
+/* One scrollable row that bleeds to the screen edges (Outlook-style); fits all three chips at 393px. */
+.sr-filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: -3px calc(-1 * var(--gutter)); padding: 3px var(--gutter); }
+.sr-filters::-webkit-scrollbar { display: none; }
+.sr-filters .chip { flex: none; padding: 8px 12px; gap: 6px; }
+.sr-n { font: 700 13px/1 var(--font-display); font-variant-numeric: tabular-nums; padding: 4px 7px; border-radius: 99px; background: var(--raised); color: var(--ink); }
+.sr-filters .chip[aria-pressed="true"] .sr-n { background: var(--go); color: var(--go-ink); }
+#sr-results { display: flex; flex-direction: column; gap: var(--section); }
+
+.sr-ghead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.sr-ghead h2 { margin: 0; }
+.sr-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.sr-more { margin-top: 10px; }
+
+.sr-row, .sr-qrow { display: flex; flex-direction: column; gap: 6px; color: var(--ink); text-decoration: none; text-align: left; }
+.sr-row { min-height: 44px; }
+.sr-row:active, .sr-q:has(.sr-qrow:active) { background: var(--raised); } /* whole card, not just the toggle button */
+.sr-sec { font: 700 16px/1.3 var(--font-display); letter-spacing: -.01em; }
+.sr-snip { font-size: 15px; line-height: 1.45; color: var(--ink-2); overflow-wrap: anywhere; }
+.sr-snip .meta { display: block; }
+.sr-hit { background: var(--go-soft); color: #d1fae5; box-shadow: inset 0 0 0 1px rgba(16, 185, 129, .45); border-radius: 4px; padding: 0 2px; }
+.sr-row .topic, .sr-qrow .topic { font-size: 14px; color: var(--ink-2); font-weight: 600; }
+.sr-row .bullet, .sr-qrow .bullet { width: 22px; height: 22px; font-size: 12px; }
+
+.sr-q { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; align-items: start; padding: 0; }
+.sr-qrow { border: 0; background: none; padding: 16px 0 16px 16px; border-radius: var(--r-card); cursor: pointer; min-height: 44px; }
+.sr-qtext { font-size: 16px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.sr-practice { margin: 12px 12px 0 0; min-height: 52px; padding: 8px 16px; font-size: 15px; background: var(--go-soft); color: #6ee7b7; }
+.sr-ans { grid-column: 1 / -1; margin: 0 16px 16px; padding-top: 12px; border-top: 1px solid var(--hairline); font-size: 15px; }
+.sr-ans p:last-child { margin-bottom: 0; }
+.sr-key { display: flex; gap: 8px; align-items: flex-start; font-weight: 650; color: #6ee7b7; }
+.sr-key .ic { width: 20px; height: 20px; flex: none; margin-top: 2px; color: var(--go); }
+
+.sr-empty .chips { margin-top: 12px; }
+.sr-none { margin: 0; }
+
+@media (hover: hover) and (pointer: fine) {
+  .sr-row:hover, .sr-q:has(.sr-qrow:hover) { background: var(--raised); }
+  .sr-practice:hover:not(:disabled) { background: var(--go); color: var(--go-ink); }
+}
+@media (min-width: 700px) {
+  .sr-qrow { padding: 20px 0 20px 22px; }
+  .sr-practice { margin: 16px 16px 0 0; }
+  .sr-ans { margin: 0 22px 22px; }
+}
+@media (min-width: 1100px) {
+  .sr-list { grid-template-columns: 1fr 1fr; }
+}

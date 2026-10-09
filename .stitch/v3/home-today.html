@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>NY RE Exam — Wayfinding Home</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface": "#0f131c",
+            "surface-variant": "#31353f",
+            "surface-container-high": "#262a34",
+            "secondary-fixed-dim": "#bdc2ff",
+            "on-tertiary": "#472a00",
+            "on-secondary-fixed": "#000767",
+            "inverse-surface": "#dfe2ef",
+            "tertiary-container": "#e29100",
+            "on-primary-container": "#00422b",
+            "primary-container": "#10b981",
+            "outline": "#86948a",
+            "on-background": "#dfe2ef",
+            "surface-bright": "#353943",
+            "on-secondary-fixed-variant": "#2f3aa3",
+            "secondary-container": "#2f3aa3",
+            "primary-fixed": "#6ffbbe",
+            "on-error": "#690005",
+            "tertiary": "#ffb95f",
+            "primary-fixed-dim": "#4edea3",
+            "surface-dim": "#0f131c",
+            "surface-container-lowest": "#0a0e17",
+            "error": "#ffb4ab",
+            "secondary-fixed": "#e0e0ff",
+            "inverse-on-surface": "#2c303a",
+            "on-tertiary-fixed-variant": "#653e00",
+            "background": "#0f131c",
+            "inverse-primary": "#006c49",
+            "tertiary-fixed-dim": "#ffb95f",
+            "on-surface": "#dfe2ef",
+            "surface-container-low": "#181b25",
+            "tertiary-fixed": "#ffddb8",
+            "on-primary-fixed": "#002113",
+            "on-tertiary-fixed": "#2a1700",
+            "on-primary-fixed-variant": "#005236",
+            "error-container": "#93000a",
+            "surface-container-highest": "#31353f",
+            "on-secondary": "#131e8c",
+            "on-primary": "#003824",
+            "outline-variant": "#3c4a42",
+            "on-secondary-container": "#a8afff",
+            "secondary": "#bdc2ff",
+            "on-tertiary-container": "#523200",
+            "surface-container": "#1c1f29",
+            "on-error-container": "#ffdad6",
+            "on-surface-variant": "#bbcabf",
+            "surface-tint": "#4edea3",
+            "primary": "#4edea3"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            headline: ["-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Inter", "sans-serif"],
+            display: ["-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Inter", "sans-serif"],
+            body: ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Inter", "sans-serif"],
+            label: ["-apple-system", "BlinkMacSystemFont", "SF Pro Text", "Inter", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      line-height: 1;
+    }
+    .tabular-digits {
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.03em;
+    }
+    /* Hide scrollbars cleanly */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    * {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#090d16] text-[#f1f5f9] min-h-screen font-body antialiased selection:bg-[#10b981] selection:text-[#090d16] flex justify-center">
+<!-- iPhone Canvas Container: fixed mobile 393px viewport feel -->
+<main class="w-full max-w-[393px] bg-[#090d16] min-h-screen relative flex flex-col pb-32">
+<!-- 1. iOS Native Status Bar -->
+<header class="w-full h-11 px-6 pt-3 flex justify-between items-center text-[14px] font-semibold tracking-tight text-[#f1f5f9] select-none z-50">
+<span class="tabular-digits font-headline">9:41</span>
+<div class="flex items-center space-x-2 text-[#f1f5f9]">
+<!-- Cellular Signal -->
+<svg class="w-4 h-3.5 fill-current" viewbox="0 0 17 12">
+<rect height="3" rx="0.5" width="3" x="0" y="9"></rect>
+<rect height="6" rx="0.5" width="3" x="4.5" y="6"></rect>
+<rect height="9" rx="0.5" width="3" x="9" y="3"></rect>
+<rect height="12" rx="0.5" width="3" x="13.5" y="0"></rect>
+</svg>
+<!-- Wifi -->
+<svg class="w-4 h-3.5 fill-current" viewbox="0 0 16 12">
+<path d="M8 2.5C10.8 2.5 13.3 3.7 15.1 5.6L16 4.7C13.9 2.5 11.1 1.2 8 1.2C4.9 1.2 2.1 2.5 0 4.7L0.9 5.6C2.7 3.7 5.2 2.5 8 2.5ZM8 6.5C9.7 6.5 11.3 7.3 12.4 8.6L13.3 7.7C11.9 6.1 9.9 5.1 8 5.1C6.1 5.1 4.1 6.1 2.7 7.7L3.6 8.6C4.7 7.3 6.3 6.5 8 6.5ZM8 10.2C8.8 10.2 9.5 10.8 9.5 11.6C9.5 12.4 8.8 13 8 13C7.2 13 6.5 12.4 6.5 11.6C6.5 10.8 7.2 10.2 8 10.2Z"></path>
+</svg>
+<!-- Battery Pill -->
+<div class="w-6 h-3 rounded-[4px] border border-[#f1f5f9] p-0.5 flex items-center relative">
+<div class="w-full h-full bg-[#f1f5f9] rounded-[1.5px]"></div>
+<div class="absolute -right-1 top-0.5 bottom-0.5 w-0.5 bg-[#f1f5f9] rounded-r-sm"></div>
+</div>
+</div>
+</header>
+<!-- Navigation Header (from Shared Components JSON: TopAppBar) -->
+<nav class="h-14 px-4 flex items-center justify-between border-b border-[rgba(148,163,184,0.16)] bg-[#090d16]/90 backdrop-blur-md sticky top-0 z-40">
+<div class="flex items-center space-x-2.5">
+<!-- Subway icon / route symbol -->
+<div aria-label="Route RE" class="w-7 h-7 rounded-full bg-[#10b981] text-[#090d16] flex items-center justify-center font-bold text-xs tracking-tighter">
+          RE
+        </div>
+<span class="text-[19px] font-bold tracking-tight text-[#f1f5f9] font-headline">NY RE Exam</span>
+</div>
+<!-- Right actions: tune / options -->
+<button aria-label="Settings and filters" class="w-11 h-11 flex items-center justify-center text-[#a3b1c6] hover:text-[#f1f5f9] rounded-full active:bg-[#182033] transition-colors">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+</button>
+</nav>
+<!-- Content Canvas -->
+<div class="px-4 pt-4 space-y-5 flex-1">
+<!-- 2. Countdown Transit Board (24px radius, #182033 border, #111725 bg) -->
+<section class="rounded-[24px] bg-[#111725] border border-[#182033] p-3.5">
+<div class="bg-[#090d16] rounded-2xl p-4 border border-[rgba(148,163,184,0.12)]">
+<!-- Card Header line -->
+<div class="flex items-center justify-between pb-3.5 border-b border-[rgba(148,163,184,0.12)]">
+<div class="flex items-center space-x-2">
+<span class="w-6 h-6 rounded-full bg-[#00843D] text-white font-headline font-bold text-[11px] flex items-center justify-center tracking-normal select-none">
+                NY
+              </span>
+<span class="text-[14px] font-semibold text-[#f1f5f9] tracking-tight">NYS salesperson exam</span>
+</div>
+<span class="text-[13px] font-medium text-[#a3b1c6] tracking-tight">Oct 14 &amp; 15</span>
+</div>
+<!-- Flip / Digital Tabular Countdown Cells -->
+<div class="grid grid-cols-3 gap-2.5 my-4">
+<!-- Days -->
+<div class="bg-[#182033] rounded-[14px] py-3 px-2 flex flex-col items-center justify-center border border-[rgba(148,163,184,0.08)]">
+<span class="text-[34px] font-bold text-[#f1f5f9] leading-none tabular-digits font-headline">05</span>
+<span class="text-[12px] font-medium text-[#a3b1c6] mt-1.5 tracking-tight">days</span>
+</div>
+<!-- Hours -->
+<div class="bg-[#182033] rounded-[14px] py-3 px-2 flex flex-col items-center justify-center border border-[rgba(148,163,184,0.08)]">
+<span class="text-[34px] font-bold text-[#f1f5f9] leading-none tabular-digits font-headline">19</span>
+<span class="text-[12px] font-medium text-[#a3b1c6] mt-1.5 tracking-tight">hours</span>
+</div>
+<!-- Minutes -->
+<div class="bg-[#182033] rounded-[14px] py-3 px-2 flex flex-col items-center justify-center border border-[rgba(148,163,184,0.08)]">
+<span class="text-[34px] font-bold text-[#f1f5f9] leading-none tabular-digits font-headline">41</span>
+<span class="text-[12px] font-medium text-[#a3b1c6] mt-1.5 tracking-tight">minutes</span>
+</div>
+</div>
+<!-- Exam Spec Subtitle -->
+<div class="pt-1 flex items-center justify-center text-center">
+<p class="text-[13px] font-medium text-[#a3b1c6] tracking-tight">
+              75 questions in 90 minutes, pass with 53 correct
+            </p>
+</div>
+</div>
+</section>
+<!-- 3. "Today's plan" Transit Line Station Card (18px radius) -->
+<section class="rounded-[18px] bg-[#111725] border border-[rgba(148,163,184,0.16)] p-4">
+<!-- Header -->
+<div class="flex items-center justify-between mb-3 px-1">
+<h2 class="text-[17px] font-bold text-[#f1f5f9] tracking-tight font-headline">Today's plan</h2>
+<span class="text-[13px] font-medium text-[#a3b1c6] tabular-digits">2 of 4 done</span>
+</div>
+<!-- Vertical Transit Trunk Line & Station Stops -->
+<div class="relative pl-1">
+<!-- Continuous Vertical Subway Trunk Line -->
+<div class="absolute left-[13px] top-4 bottom-5 w-[3px] bg-[#182033] rounded-full -translate-x-1/2">
+<!-- Active/Completed Trunk Section up to Station 2 -->
+<div class="w-full h-[38%] bg-[#10b981] rounded-full"></div>
+</div>
+<!-- Station List Items -->
+<div class="space-y-1">
+<!-- Station 1: Completed -->
+<div class="relative flex items-center min-h-[52px] py-2 px-2 rounded-[14px] active:bg-[#182033] transition-colors cursor-pointer group" role="button" tabindex="0">
+<!-- Station Dot: Completed Node -->
+<div class="relative z-10 w-[24px] h-[24px] rounded-full bg-[#10b981] flex items-center justify-center shrink-0 mr-3.5 ring-4 ring-[#111725]">
+<svg class="w-3.5 h-3.5 text-[#090d16] stroke-current stroke-[2.5]" fill="none" viewbox="0 0 24 24">
+<path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Content Row -->
+<div class="flex-1 min-w-0 pr-2">
+<div class="flex items-baseline space-x-1.5">
+<span class="text-[15px] font-medium text-[#a3b1c6] line-through decoration-[rgba(148,163,184,0.4)] truncate">
+                    Review 86 due flashcards
+                  </span>
+<span class="text-[12px] text-[#a3b1c6]/70 shrink-0">12 min</span>
+</div>
+</div>
+<!-- Status Badge & Chevron -->
+<div class="flex items-center space-x-2 shrink-0">
+<span class="text-[11px] font-semibold text-[#10b981] bg-[#10b981]/10 px-2 py-0.5 rounded-full">Done</span>
+<svg class="w-4 h-4 text-[#a3b1c6]/60 group-active:text-[#f1f5f9] transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+<!-- Station 2: Completed with Route Bullet 4 -->
+<div class="relative flex items-center min-h-[52px] py-2 px-2 rounded-[14px] active:bg-[#182033] transition-colors cursor-pointer group" role="button" tabindex="0">
+<!-- Station Dot: Completed Node -->
+<div class="relative z-10 w-[24px] h-[24px] rounded-full bg-[#10b981] flex items-center justify-center shrink-0 mr-3.5 ring-4 ring-[#111725]">
+<svg class="w-3.5 h-3.5 text-[#090d16] stroke-current stroke-[2.5]" fill="none" viewbox="0 0 24 24">
+<path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<!-- Content Row -->
+<div class="flex-1 min-w-0 pr-2 flex items-center space-x-2">
+<span class="text-[15px] font-medium text-[#a3b1c6] line-through decoration-[rgba(148,163,184,0.4)] truncate">
+                  Drill weakest line: Real Estate Finance
+                </span>
+<!-- Route Bullet 4 (Green) -->
+<span class="w-[20px] h-[20px] rounded-full bg-[#00843D] text-white font-headline font-bold text-[11px] flex items-center justify-center shrink-0">
+                  4
+                </span>
+</div>
+<!-- Status Badge & Chevron -->
+<div class="flex items-center space-x-2 shrink-0">
+<span class="text-[11px] font-semibold text-[#10b981] bg-[#10b981]/10 px-2 py-0.5 rounded-full">Done</span>
+<svg class="w-4 h-4 text-[#a3b1c6]/60 group-active:text-[#f1f5f9] transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+<!-- Station 3: To Do with Route Bullet N (Next stop / Highlighted) -->
+<div class="relative flex items-center min-h-[52px] py-2 px-2 rounded-[14px] active:bg-[#182033] transition-colors cursor-pointer group" role="button" tabindex="0">
+<!-- Station Dot: Hollow Ringed Node with Subtle Glow -->
+<div class="relative z-10 w-[24px] h-[24px] rounded-full bg-[#111725] border-2 border-[#f1f5f9] flex items-center justify-center shrink-0 mr-3.5 ring-4 ring-[#111725]">
+<div class="w-2 h-2 rounded-full bg-[#10b981]"></div>
+</div>
+<!-- Content Row -->
+<div class="flex-1 min-w-0 pr-2 flex items-center space-x-2">
+<span class="text-[15px] font-semibold text-[#f1f5f9] truncate">
+                  Read Taxes &amp; Assessments cram sheet
+                </span>
+<!-- Route Bullet N (Yellow, dark text) -->
+<span class="w-[20px] h-[20px] rounded-full bg-[#FCCC0A] text-[#111725] font-headline font-bold text-[11px] flex items-center justify-center shrink-0">
+                  N
+                </span>
+</div>
+<!-- Chevron -->
+<div class="flex items-center shrink-0">
+<svg class="w-4 h-4 text-[#a3b1c6] group-active:text-[#f1f5f9] transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+<!-- Station 4: To Do -->
+<div class="relative flex items-center min-h-[52px] py-2 px-2 rounded-[14px] active:bg-[#182033] transition-colors cursor-pointer group" role="button" tabindex="0">
+<!-- Station Dot: Hollow Ringed Node -->
+<div class="relative z-10 w-[24px] h-[24px] rounded-full bg-[#111725] border-2 border-[rgba(148,163,184,0.4)] flex items-center justify-center shrink-0 mr-3.5 ring-4 ring-[#111725]">
+</div>
+<!-- Content Row -->
+<div class="flex-1 min-w-0 pr-2">
+<div class="text-[15px] font-semibold text-[#f1f5f9] truncate">
+                  Take a timed mock exam
+                </div>
+<div class="text-[12px] font-medium text-[#a3b1c6]">
+                  Last mock: 3 days ago
+                </div>
+</div>
+<!-- Chevron -->
+<div class="flex items-center shrink-0">
+<svg class="w-4 h-4 text-[#a3b1c6] group-active:text-[#f1f5f9] transition-colors" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Primary Action Button: "Quick 10-Question Drill" -->
+<div>
+<button class="w-full h-14 rounded-[14px] bg-[#10b981] hover:bg-[#0fa070] active:scale-[0.98] transition-transform duration-150 flex items-center justify-center text-[#090d16] font-headline font-bold text-[17px] tracking-tight">
+          Quick 10-Question Drill
+        </button>
+</div>
+<!-- Quick Topic Lines Wayfinding Carousel -->
+<section class="pt-1">
+<div class="flex items-center justify-between mb-2.5 px-1">
+<span class="text-[13px] font-bold text-[#a3b1c6] tracking-tight">Focus lines</span>
+<span class="text-[12px] font-medium text-[#a3b1c6]">All 14 topics</span>
+</div>
+<div class="grid grid-cols-4 gap-2">
+<!-- Bullet 1: License Law -->
+<div class="bg-[#111725] border border-[rgba(148,163,184,0.12)] p-2.5 rounded-[14px] flex flex-col items-center text-center space-y-1.5 active:bg-[#182033] transition-colors cursor-pointer">
+<span class="w-7 h-7 rounded-full bg-[#DA291C] text-white font-headline font-bold text-xs flex items-center justify-center">1</span>
+<span class="text-[11px] font-semibold text-[#f1f5f9] truncate w-full">License</span>
+</div>
+<!-- Bullet A: Title & Deeds -->
+<div class="bg-[#111725] border border-[rgba(148,163,184,0.12)] p-2.5 rounded-[14px] flex flex-col items-center text-center space-y-1.5 active:bg-[#182033] transition-colors cursor-pointer">
+<span class="w-7 h-7 rounded-full bg-[#0039A6] text-white font-headline font-bold text-xs flex items-center justify-center">A</span>
+<span class="text-[11px] font-semibold text-[#f1f5f9] truncate w-full">Title</span>
+</div>
+<!-- Bullet B: Land Use -->
+<div class="bg-[#111725] border border-[rgba(148,163,184,0.12)] p-2.5 rounded-[14px] flex flex-col items-center text-center space-y-1.5 active:bg-[#182033] transition-colors cursor-pointer">
+<span class="w-7 h-7 rounded-full bg-[#FF6319] text-[#111725] font-headline font-bold text-xs flex items-center justify-center">B</span>
+<span class="text-[11px] font-semibold text-[#f1f5f9] truncate w-full">Land Use</span>
+</div>
+<!-- Bullet 7: Condos & Co-ops -->
+<div class="bg-[#111725] border border-[rgba(148,163,184,0.12)] p-2.5 rounded-[14px] flex flex-col items-center text-center space-y-1.5 active:bg-[#182033] transition-colors cursor-pointer">
+<span class="w-7 h-7 rounded-full bg-[#9B2A92] text-white font-headline font-bold text-xs flex items-center justify-center">7</span>
+<span class="text-[11px] font-semibold text-[#f1f5f9] truncate w-full">Condos</span>
+</div>
+</div>
+</section>
+</div>
+<!-- 5. Floating Glass Capsule Tab Bar (Shared Component: BottomNavBar with exact tokens & wayfinding polish) -->
+<nav class="fixed bottom-3 left-1/2 -translate-x-1/2 w-[calc(393px-24px)] max-w-[calc(100%-24px)] h-[62px] bg-[#111725]/90 backdrop-blur-xl border border-[rgba(148,163,184,0.16)] rounded-full z-50 px-2 flex items-center justify-around shadow-[0px_8px_32px_rgba(0,0,0,0.6)]">
+<!-- Tab 1: Home (ACTIVE - exact match) -->
+<a aria-label="Home" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#10b981] active:scale-95 transition-transform" href="#home">
+<span class="material-symbols-outlined text-[21px]" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-[10px] font-bold tracking-tight mt-0.5">Home</span>
+</a>
+<!-- Tab 2: Study -->
+<a aria-label="Study" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-transform" href="#study">
+<span class="material-symbols-outlined text-[21px]">menu_book</span>
+<span class="text-[10px] font-medium tracking-tight mt-0.5">Study</span>
+</a>
+<!-- Tab 3: Build -->
+<a aria-label="Build" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-transform" href="#build">
+<span class="material-symbols-outlined text-[21px]">handyman</span>
+<span class="text-[10px] font-medium tracking-tight mt-0.5">Build</span>
+</a>
+<!-- Tab 4: Stats -->
+<a aria-label="Stats" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-transform" href="#stats">
+<span class="material-symbols-outlined text-[21px]">analytics</span>
+<span class="text-[10px] font-medium tracking-tight mt-0.5">Stats</span>
+</a>
+<!-- Tab 5: Mistakes -->
+<a aria-label="Mistakes" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-transform" href="#mistakes">
+<span class="material-symbols-outlined text-[21px]">error_outline</span>
+<span class="text-[10px] font-medium tracking-tight mt-0.5">Mistakes</span>
+</a>
+<!-- Tab 6: More -->
+<a aria-label="More" class="flex flex-col items-center justify-center flex-1 h-full py-1 text-[#a3b1c6] hover:text-[#f1f5f9] active:scale-95 transition-transform" href="#more">
+<span class="material-symbols-outlined text-[21px]">more_horiz</span>
+<span class="text-[10px] font-medium tracking-tight mt-0.5">More</span>
+</a>
+</nav>
+<!-- iOS Home Indicator Pill -->
+<div class="fixed bottom-1 left-1/2 -translate-x-1/2 w-32 h-1 bg-[#f1f5f9]/20 rounded-full pointer-events-none z-50"></div>
+</main>
+<script>
+    // Lightweight tactile feedback for station tap simulation
+    document.querySelectorAll('[role="button"]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.add('bg-[#182033]');
+        setTimeout(() => {
+          btn.classList.remove('bg-[#182033]');
+        }, 180);
+      });
+    });
+  </script>
+</body></html>

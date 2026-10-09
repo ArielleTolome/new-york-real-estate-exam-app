@@ -1,0 +1,94 @@
+/* Exam day guide (#/examday) and its More row. Scoped by ed- classes (mockup .stitch/v3/exam-day.png). */
+
+/* Arrival board strip: the start-time rule, the site, and #countdown (ticked every second by app.js). */
+.ed-arrive { padding: 14px 16px 16px; }
+.ed-arrive-top { display: flex; align-items: center; gap: 10px; }
+.ed-arrive-top > b { flex: 1; min-width: 0; font: 700 17px/1.25 var(--font-display); letter-spacing: -.01em; }
+.ed-dot { width: 10px; height: 10px; flex: none; border-radius: 50%; background: var(--caution); box-shadow: 0 0 0 4px var(--caution-soft); }
+.ed-cd {
+  flex: none; padding: 4px 10px; border-radius: 10px; background: var(--raised); box-shadow: inset 0 0 0 1px var(--hairline);
+  font: 500 13px/1.4 var(--font-display); font-variant-numeric: tabular-nums; color: var(--ink-2); white-space: nowrap;
+}
+.ed-cd b { font-weight: 700; color: var(--ink); }
+.ed-arrive p { margin: 8px 0 0 20px; font-size: 15px; line-height: 1.45; color: var(--ink-2); }
+
+.ed-layout { display: contents; } /* phones: cards are plain children of <main>; tablets flow them into columns */
+.ed-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+.ed-head h2 { margin: 0; font-size: 18px; }
+
+/* Rows: icon tile (or round checkbox) beside a title and a secondary line. */
+.ed-rows { list-style: none; margin: 0; padding: 0; }
+.ed-rows > li + li { border-top: 1px solid var(--hairline); }
+.ed-row, .ed-item { display: flex; align-items: flex-start; gap: 14px; min-height: 44px; padding: 12px 0; }
+.ed-rows b, .ed-links b, .ed-line b { display: block; font-size: 16px; font-weight: 600; line-height: 1.3; }
+.ed-rows small, .ed-links small, .ed-line small { display: block; margin-top: 2px; font-size: 15px; line-height: 1.4; color: var(--ink-2); }
+.ed-ic { flex: none; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 12px; background: var(--raised); color: var(--ink-2); }
+.ed-ic .ic { width: 20px; height: 20px; }
+.ed-ic.go { color: var(--go); background: var(--go-soft); }
+.ed-ic.stop { color: var(--stop); background: var(--stop-soft); }
+.ed-ic.caution { color: var(--caution); background: var(--caution-soft); }
+.ed-ic.statute { color: var(--statute); background: var(--statute-soft); }
+
+/* Packing checklist: a visually hidden real checkbox drives the round box; packed rows go muted. */
+.ed-item { position: relative; cursor: pointer; }
+.ed-box {
+  flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+  box-shadow: inset 0 0 0 2px var(--ink-2); transition: transform 90ms ease, background-color 140ms ease;
+}
+.ed-box .ic { width: 16px; height: 16px; stroke-width: 3; color: var(--go-ink); opacity: 0; }
+.ed-cb:checked + .ed-box { background: var(--go); box-shadow: none; }
+.ed-cb:checked + .ed-box .ic { opacity: 1; }
+.ed-cb:checked ~ span b { color: var(--ink-2); }
+.ed-cb:focus-visible + .ed-box { outline: 2px solid var(--statute); outline-offset: 2px; }
+.ed-item:active .ed-box { transform: scale(.92); }
+
+/* Last-hour cram: raised link rows led by route bullets. */
+.ed-links { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.ed-link {
+  display: flex; align-items: center; gap: 12px; min-height: 60px; padding: 10px 12px; border-radius: var(--r-ctl);
+  background: var(--raised); color: var(--ink); text-decoration: none; transition: transform 90ms ease, background-color 140ms ease;
+}
+.ed-link:active { transform: scale(.98); background: var(--raised-2); }
+.ed-link .bullet { width: 32px; height: 32px; font-size: 16px; }
+.ed-fc { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--go-soft); color: var(--go); }
+.ed-fc .ic { width: 18px; height: 18px; }
+.ed-t { flex: 1; min-width: 0; }
+.ed-link > .ic { width: 18px; height: 18px; color: var(--ink-2); }
+.ed-link > .badge { align-self: center; }
+
+/* After you pass: a vertical line; each stop draws its dot and the segment down to the next dot. */
+.ed-line { list-style: none; margin: 12px 0 0; padding: 0 0 0 30px; display: grid; gap: 18px; }
+.ed-line li { position: relative; }
+.ed-line li::before {
+  content: ""; position: absolute; z-index: 1; left: -26px; top: 3px; width: 14px; height: 14px; border-radius: 50%;
+  background: var(--surface); box-shadow: 0 0 0 3px var(--go);
+}
+.ed-line li:last-child::before { background: var(--go); }
+.ed-line li:not(:last-child)::after { content: ""; position: absolute; left: -21px; top: 10px; bottom: -28px; width: 4px; background: var(--go); }
+.ed-note { margin: 16px 0 0; padding-top: 12px; border-top: 1px solid var(--hairline); line-height: 1.5; }
+
+/* Sources */
+.ed-src { list-style: none; margin: 0; padding-block: 4px; }
+.ed-src li + li { border-top: 1px solid var(--hairline); }
+.ed-src li > * { display: block; min-height: 44px; padding: 10px 0; text-decoration: none; }
+.ed-src b { display: block; font-size: 15px; font-weight: 600; line-height: 1.35; }
+.ed-src a b { color: var(--statute); }
+.ed-src small { display: block; margin-top: 2px; font-size: 13px; color: var(--ink-2); }
+
+/* More: the guide's entry row (bk-row is styled for buttons and labels). */
+.ed-more { text-decoration: none; }
+.ed-more:active { background: var(--raised); }
+.ed-more > .ic:last-child { width: 18px; height: 18px; color: var(--ink-2); }
+
+/* ---------- tablet: cards, sources last, flow down two balanced columns in reading order ---------- */
+@media (min-width: 700px) {
+  .ed-layout { display: block; columns: 2; column-gap: var(--section); margin-bottom: calc(-1 * var(--section)); }
+  .ed-layout > * { break-inside: avoid; margin-bottom: var(--section); }
+  .ed-head h2 { font-size: 20px; }
+  .ed-arrive { padding: 18px 22px; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .ed-link:hover { background: var(--raised-2); }
+  .ed-more:hover { background: var(--raised); }
+  .ed-src a:hover b { text-decoration: underline; }
+}

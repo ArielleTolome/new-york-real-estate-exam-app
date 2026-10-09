@@ -232,16 +232,86 @@ async function pick(page, correct) {
     await page.waitForSelector('[data-action="resume"]');
     assert.ok((await state(page)).active, 'quiz was discarded on exit');
     const resultsId = (await state(page)).history[0].id;
-    for (const r of ['home', 'study', 'study/agency', 'study/agency/notes', 'build', 'quiz', 'history', 'mistakes', 'more', `results/${resultsId}`]) {
+    for (const r of ['home', 'study', 'study/agency', 'study/agency/notes', 'build', 'quiz', 'history', 'mistakes', 'more', `results/${resultsId}`,
+      'cards', 'cards/due', 'search', 'examday']) {
       await page.goto(BASE + '/#/' + r);
       await page.waitForSelector('#view > *:not(.muted)');
-      const ways = page.locator('#bottom a[href="#/home"], .hdr-back, [data-action="exit"]').filter({ visible: true });
+      const ways = page.locator('#bottom a[href="#/home"], .hdr-back, [data-action="exit"], #fc-close').filter({ visible: true });
       assert.ok((await ways.count()) > 0, `no way back from #/${r}`);
     }
     await page.goto(BASE + '/#/build');
     await page.waitForSelector('#start');
     const [start, tabs] = await Promise.all([page.locator('#start').boundingBox(), page.locator('#bottom .tabs').boundingBox()]);
     assert.ok(start.y + start.height <= tabs.y, 'Start bar overlaps the tab bar');
+  });
+
+  const day = () => page.evaluate(() => new Date().toLocaleDateString('en-CA'));
+
+  await check("11. Today's plan lists concrete tasks that navigate", async () => {
+    await page.goto(BASE + '/#/home');
+    await page.waitForSelector('#td-plan .td-item');
+    assert.ok((await page.locator('#td-plan .td-item').count()) >= 3, 'fewer than 3 plan items');
+    await page.click('#td-plan a.td-item[href="#/cards/due"]');
+    await page.waitForSelector('#fc-card');
+  });
+
+  await check('12. Flashcards: flip, rate, schedule, and the due count drops', async () => {
+    const before = await page.evaluate(() => cardsSummary(window.__app.guides).due);
+    assert.ok(before > 0, 'no cards due on a fresh day');
+    assert.ok(await page.locator('#fc-got').isDisabled(), 'rating allowed before the flip');
+    await page.click('#fc-card');
+    await page.waitForSelector('#fc-card.on');
+    await page.click('#fc-got');
+    await page.waitForFunction(() => /Card 2 of/.test(document.getElementById('fc-pos')?.textContent));
+    const s = await state(page);
+    const [id, c] = Object.entries(s.cards)[0];
+    assert.equal(c.b, 1, `box after Got it: ${c.b} (${id})`);
+    assert.ok(c.due > await day(), 'Got it did not schedule the card for a later day');
+    assert.equal(s.cardLog[await day()], 1);
+    assert.equal(await page.evaluate(() => cardsSummary(window.__app.guides).due), before - 1);
+    await page.click('#fc-close');
+    await page.waitForSelector('#fc-hub');
+  });
+
+  await check('13. Search finds guide and question hits, highlights safely, and jumps to the section', async () => {
+    await page.goto(BASE + '/#/search');
+    await page.fill('#sr-input', '<img src=x onerror=alert(1)>');
+    await page.waitForTimeout(150);
+    assert.equal(await page.locator('#sr-results img').count(), 0, 'query was injected as HTML');
+    await page.fill('#sr-input', 'habendum');
+    await page.waitForSelector('mark.sr-hit');
+    assert.ok(await page.locator('.sr-qrow').count() > 0, 'no question hits');
+    const row = page.locator('a.sr-row[data-target^="sec-"]').first();
+    const target = await row.getAttribute('data-target');
+    await row.click();
+    await page.waitForSelector('#notes');
+    await page.waitForFunction((t) => { const r = document.getElementById(t).getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight / 2; }, target);
+  });
+
+  await check('14. Listen mode: player appears on a chapter, steps through items, and leaves with the page', async () => {
+    await page.goto(BASE + '/#/study/agency');
+    await page.waitForSelector('#cram');
+    if (!(await page.locator('.ls-btn').count())) return; // speechSynthesis missing in this browser: button is hidden by design
+    await page.click('.ls-btn');
+    await page.waitForSelector('#ls-player');
+    const pos = await page.textContent('#ls-player .ls-pos');
+    await page.click('#ls-player .ls-next');
+    await page.waitForFunction((p) => document.querySelector('#ls-player .ls-pos').textContent !== p, pos);
+    assert.equal(await page.locator('#view .ls-now').count(), 1, 'current item not highlighted');
+    await page.goto(BASE + '/#/home');
+    await page.waitForSelector('#td-plan');
+    assert.equal(await page.locator('#ls-player').count(), 0, 'player survived navigation');
+  });
+
+  await check('15. Exam day guide: confirmed date, persistent checklist, marks itself read', async () => {
+    await page.goto(BASE + '/#/examday');
+    await page.waitForSelector('.ed-cb');
+    assert.match(await page.textContent('.hdr-t p'), /Oct 15/);
+    await page.locator('label.ed-item').first().click(); // the checkbox is visually hidden behind a custom box
+    await page.reload();
+    await page.waitForSelector('.ed-cb');
+    assert.ok(await page.locator('.ed-cb').first().isChecked(), 'checklist did not persist');
+    assert.equal((await state(page)).read.examday, await day());
   });
 
   await check('No uncaught page errors during the run', async () => {

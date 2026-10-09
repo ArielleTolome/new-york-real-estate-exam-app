@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Exam day guide — NY RE Exam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <style>
+    :root {
+      --canvas: #090d16;
+      --surface: #111725;
+      --raised: #182033;
+      --hairline: rgba(148, 163, 184, 0.16);
+      --ink: #f1f5f9;
+      --secondary-ink: #a3b1c6;
+      --go: #10b981;
+      --stop: #ef4444;
+      --caution: #f59e0b;
+      --statute: #818cf8;
+      
+      /* Subway MTA Route Bullet Colors */
+      --mta-red: #DA291C;
+      --mta-blue: #0039A6;
+      --mta-green: #00843D;
+      --mta-orange: #FF6319;
+      --mta-yellow: #FCCC0A;
+      --mta-purple: #9B2A92;
+      --mta-lime: #6CBE45;
+    }
+    
+    body {
+      background-color: var(--canvas);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .font-wayfinding {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      letter-spacing: -0.02em;
+      font-feature-settings: "tnum" 1, "cv05" 1;
+    }
+
+    /* iOS safe areas */
+    .pt-safe {
+      padding-top: max(16px, env(safe-area-inset-top));
+    }
+    .pb-safe {
+      padding-bottom: max(96px, calc(env(safe-area-inset-bottom) + 80px));
+    }
+
+    /* Custom Checkbox toggle */
+    .check-input:checked + .check-circle {
+      background-color: var(--go);
+      border-color: var(--go);
+    }
+    .check-input:checked + .check-circle svg {
+      opacity: 1;
+      transform: scale(1);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex justify-center bg-[#090d16] selection:bg-emerald-500 selection:text-white">
+
+  <!-- iPhone frame container (393px reference) -->
+  <main class="w-full max-w-[393px] min-h-screen flex flex-col relative px-4 pt-safe pb-safe overflow-x-hidden">
+
+    <!-- Top status & Back Nav -->
+    <header class="pt-2 pb-4">
+      <a href="#" class="inline-flex items-center gap-1.5 text-[15px] font-medium text-[#10b981] active:opacity-60 transition-opacity min-h-[44px] -ml-1 pl-1 pr-3">
+        <svg class="w-4 h-4 text-[#10b981]" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path>
+        </svg>
+        <span>Home</span>
+      </a>
+
+      <div class="mt-1">
+        <h1 class="text-[32px] leading-[1.1] font-bold font-wayfinding text-[#f1f5f9] tracking-tight">
+          Exam day guide
+        </h1>
+        <p class="text-[15px] font-medium text-[#a3b1c6] mt-1.5 font-wayfinding">
+          Wednesday, Oct 14
+        </p>
+      </div>
+    </header>
+
+    <!-- 1. Compact arrival-board style strip -->
+    <section class="mb-4">
+      <div class="bg-[#111725] border border-[rgba(148,163,184,0.16)] rounded-[18px] px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-2.5 h-2.5 rounded-full bg-[#f59e0b] animate-pulse"></div>
+          <div>
+            <div class="text-[15px] font-semibold text-[#f1f5f9] font-wayfinding">
+              Arrive 30 minutes early
+            </div>
+            <div class="text-[13px] text-[#a3b1c6]">
+              PSI test center
+            </div>
+          </div>
+        </div>
+        <div class="text-right">
+          <span class="inline-block px-2.5 py-1 rounded-[10px] bg-[#182033] border border-[rgba(148,163,184,0.16)] text-[12px] font-medium text-[#f1f5f9] font-wayfinding">
+            8:30 AM check-in
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Checklist card: "What to bring" -->
+    <section class="mb-5">
+      <div class="bg-[#111725] border border-[rgba(148,163,184,0.16)] rounded-[18px] p-4">
+        <div class="flex items-center justify-between mb-3.5">
+          <h2 class="text-[17px] font-bold font-wayfinding text-[#f1f5f9]">
+            What to bring
+          </h2>
+          <span class="text-[12px] text-[#a3b1c6] font-wayfinding">
+            Required entry
+          </span>
+        </div>
+
+        <div class="space-y-3">
+          <!-- Row 1 -->
+          <label class="flex items-start gap-3.5 cursor-pointer group min-h-[44px] py-1">
+            <input type="checkbox" checked class="sr-only check-input">
+            <div class="check-circle w-6 h-6 rounded-full border-2 border-[rgba(148,163,184,0.3)] flex-shrink-0 flex items-center justify-center transition-colors bg-[#182033] group-active:scale-95">
+              <svg class="w-3.5 h-3.5 text-black stroke-[3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+              </svg>
+            </div>
+            <span class="text-[14px] leading-snug text-[#f1f5f9] pt-0.5">
+              Government photo ID that matches your eAccessNY name
+            </span>
+          </label>
+
+          <div class="h-[1px] bg-[rgba(148,163,184,0.1)]"></div>
+
+          <!-- Row 2 -->
+          <label class="flex items-start gap-3.5 cursor-pointer group min-h-[44px] py-1">
+            <input type="checkbox" checked class="sr-only check-input">
+            <div class="check-circle w-6 h-6 rounded-full border-2 border-[rgba(148,163,184,0.3)] flex-shrink-0 flex items-center justify-center transition-colors bg-[#182033] group-active:scale-95">
+              <svg class="w-3.5 h-3.5 text-black stroke-[3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+              </svg>
+            </div>
+            <span class="text-[14px] leading-snug text-[#f1f5f9] pt-0.5">
+              Silent, nonprinting calculator (no alphabet keys)
+            </span>
+          </label>
+
+          <div class="h-[1px] bg-[rgba(148,163,184,0.1)]"></div>
+
+          <!-- Row 3 -->
+          <label class="flex items-start gap-3.5 cursor-pointer group min-h-[44px] py-1">
+            <input type="checkbox" class="sr-only check-input">
+            <div class="check-circle w-6 h-6 rounded-full border-2 border-[rgba(148,163,184,0.3)] flex-shrink-0 flex items-center justify-center transition-colors bg-[#182033] group-active:scale-95">
+              <svg class="w-3.5 h-3.5 text-black stroke-[3] opacity-0 transition-opacity scale-75" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+              </svg>
+            </div>
+            <span class="text-[14px] leading-snug text-[#f1f5f9] pt-0.5">
+              Your exam appointment confirmation
+            </span>
+          </label>
+
+          <div class="h-[1px] bg-[rgba(148,163,184,0.1)]"></div>
+
+          <!-- Row 4 -->
+          <label class="flex items-start gap-3.5 cursor-pointer group min-h-[44px] py-1">
+            <input type="checkbox" class="sr-only check-input">
+            <div class="check-circle w-6 h-6 rounded-full border-2 border-[rgba(148,163,184,0.3)] flex-shrink-0 flex items-center justify-center transition-colors bg-[#182033] group-active:scale-95">
+              <svg class="w-3.5 h-3.5 text-black stroke-[3] opacity-0 transition-opacity scale-75" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+              </svg>
+            </div>
+            <span class="text-[14px] leading-snug text-[#f1f5f9] pt-0.5">
+              Nothing else: phones and notes stay in a locker
+            </span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Section: "During the exam" -->
+    <section class="mb-5">
+      <div class="bg-[#111725] border border-[rgba(148,163,184,0.16)] rounded-[18px] p-4">
+        <h2 class="text-[17px] font-bold font-wayfinding text-[#f1f5f9] mb-3">
+          During the exam
+        </h2>
+
+        <div class="space-y-3">
+          <!-- Item 1: Clock -->
+          <div class="flex items-center gap-3.5 py-1 min-h-[44px]">
+            <div class="w-9 h-9 rounded-[14px] bg-[#182033] border border-[rgba(148,163,184,0.16)] flex items-center justify-center flex-shrink-0 text-[#10b981]">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path stroke-linecap="round" d="M12 7v5l3 2"></path>
+              </svg>
+            </div>
+            <div class="text-[14px] text-[#f1f5f9]">
+              90 minutes, 75 multiple-choice questions
+            </div>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(148,163,184,0.1)]"></div>
+
+          <!-- Item 2: Flag -->
+          <div class="flex items-center gap-3.5 py-1 min-h-[44px]">
+            <div class="w-9 h-9 rounded-[14px] bg-[#182033] border border-[rgba(148,163,184,0.16)] flex items-center justify-center flex-shrink-0 text-[#f59e0b]">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 21v-4m0 0V5a2 2 0 012-2h11l-2 5 2 5H5a2 2 0 00-2 2zm0 0h18"></path>
+              </svg>
+            </div>
+            <div class="text-[14px] text-[#f1f5f9]">
+              Skip and come back; answer every question
+            </div>
+          </div>
+
+          <div class="h-[1px] bg-[rgba(148,163,184,0.1)]"></div>
+
+          <!-- Item 3: Target -->
+          <div class="flex items-center gap-3.5 py-1 min-h-[44px]">
+            <div class="w-9 h-9 rounded-[14px] bg-[#182033] border border-[rgba(148,163,184,0.16)] flex items-center justify-center flex-shrink-0 text-[#818cf8]">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9"></circle>
+                <circle cx="12" cy="12" r="5"></circle>
+                <circle cx="12" cy="12" r="1"></circle>
+              </svg>
+            </div>
+            <div class="text-[14px] text-[#f1f5f9]">
+              Pass mark 70% <span class="text-[#a3b1c6] font-wayfinding">(53 correct)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Section: "Last-hour cram" -->
+    <section class="mb-5">
+      <div class="bg-[#111725] border border-[rgba(148,163,184,0.16)] rounded-[18px] p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-[17px] font-bold font-wayfinding text-[#f1f5f9]">
+            Last-hour cram
+          </h2>
+          <span class="text-[12px] text-[#a3b1c6] font-wayfinding">
+            Quick revision
+          </span>
+        </div>
+
+        <div class="space-y-2">
+          <!-- Cram 1: License law numbers (MTA Red "1") -->
+          <a href="#" class="flex items-center justify-between p-2.5 rounded-[14px] bg-[#182033] hover:bg-[#1e2840] active:scale-[0.98] transition-all min-h-[48px]">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-[#DA291C] text-white font-bold font-wayfinding flex items-center justify-center text-[17px] leading-none flex-shrink-0 shadow-sm">
+                1
+              </span>
+              <div>
+                <div class="text-[14px] font-semibold text-[#f1f5f9] font-wayfinding">
+                  License law numbers
+                </div>
+                <div class="text-[12px] text-[#a3b1c6]">
+                  Article 12-A critical limits & terms
+                </div>
+              </div>
+            </div>
+            <span class="text-[12px] font-medium text-[#10b981] px-2 py-0.5 rounded-full bg-[rgba(16,185,129,0.12)]">
+              4 min
+            </span>
+          </a>
+
+          <!-- Cram 2: Agency disclosure (MTA Blue "A") -->
+          <a href="#" class="flex items-center justify-between p-2.5 rounded-[14px] bg-[#182033] hover:bg-[#1e2840] active:scale-[0.98] transition-all min-h-[48px]">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-[#0039A6] text-white font-bold font-wayfinding flex items-center justify-center text-[17px] leading-none flex-shrink-0 shadow-sm">
+                A
+              </span>
+              <div>
+                <div class="text-[14px] font-semibold text-[#f1f5f9] font-wayfinding">
+                  Agency disclosure
+                </div>
+                <div class="text-[12px] text-[#a3b1c6]">
+                  RPL § 443 fiduciary duties
+                </div>
+              </div>
+            </div>
+            <span class="text-[12px] font-medium text-[#10b981] px-2 py-0.5 rounded-full bg-[rgba(16,185,129,0.12)]">
+              3 min
+            </span>
+          </a>
+
+          <!-- Cram 3: Math formulas (MTA Green "4") -->
+          <a href="#" class="flex items-center justify-between p-2.5 rounded-[14px] bg-[#182033] hover:bg-[#1e2840] active:scale-[0.98] transition-all min-h-[48px]">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-[#00843D] text-white font-bold font-wayfinding flex items-center justify-center text-[17px] leading-none flex-shrink-0 shadow-sm">
+                4
+              </span>
+              <div>
+                <div class="text-[14px] font-semibold text-[#f1f5f9] font-wayfinding">
+                  Math formulas
+                </div>
+                <div class="text-[12px] text-[#a3b1c6]">
+                  Transfer tax, points & prorations
+                </div>
+              </div>
+            </div>
+            <span class="text-[12px] font-medium text-[#10b981] px-2 py-0.5 rounded-full bg-[rgba(16,185,129,0.12)]">
+              5 min
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Section: "After you pass" (Vertical subway line with 3 stations) -->
+    <section class="mb-6">
+      <div class="bg-[#111725] border border-[rgba(148,163,184,0.16)] rounded-[18px] p-4">
+        <h2 class="text-[17px] font-bold font-wayfinding text-[#f1f5f9] mb-4">
+          After you pass
+        </h2>
+
+        <div class="relative pl-7 space-y-6">
+          <!-- Vertical Subway Line track -->
+          <div class="absolute left-[11px] top-2 bottom-3 w-[4px] bg-[#00843D] rounded-full"></div>
+
+          <!-- Station 1 -->
+          <div class="relative flex flex-col justify-center min-h-[44px]">
+            <!-- Station dot -->
+            <div class="absolute -left-[23px] top-1.5 w-[14px] h-[14px] rounded-full bg-[#090d16] border-[3px] border-[#00843D] ring-2 ring-[#111725]"></div>
+            <div class="text-[15px] font-semibold text-[#f1f5f9] font-wayfinding">
+              Results on screen
+            </div>
+            <div class="text-[13px] text-[#a3b1c6] mt-0.5">
+              Score shown immediately upon submission
+            </div>
+          </div>
+
+          <!-- Station 2 -->
+          <div class="relative flex flex-col justify-center min-h-[44px]">
+            <!-- Station dot -->
+            <div class="absolute -left-[23px] top-1.5 w-[14px] h-[14px] rounded-full bg-[#090d16] border-[3px] border-[#00843D] ring-2 ring-[#111725]"></div>
+            <div class="text-[15px] font-semibold text-[#f1f5f9] font-wayfinding">
+              Sponsoring broker applies in eAccessNY
+            </div>
+            <div class="text-[13px] text-[#a3b1c6] mt-0.5">
+              Broker affirms association with license number
+            </div>
+          </div>
+
+          <!-- Station 3 -->
+          <div class="relative flex flex-col justify-center min-h-[44px]">
+            <!-- Terminal station dot (filled terminal pill) -->
+            <div class="absolute -left-[23px] top-1.5 w-[14px] h-[14px] rounded-full bg-[#10b981] border-[3px] border-[#090d16] ring-2 ring-[#10b981]"></div>
+            <div class="text-[15px] font-semibold text-[#f1f5f9] font-wayfinding">
+              License issued
+            </div>
+            <div class="text-[13px] text-[#a3b1c6] mt-0.5">
+              Digital certificate active via DOS Division
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floating glass capsule tab bar at the bottom with 6 tabs -->
+    <nav aria-label="Bottom Navigation" class="fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-24px)] max-w-[369px] bg-[#111725]/90 backdrop-blur-xl border border-[rgba(148,163,184,0.18)] rounded-full px-2 py-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.6)] z-50 flex items-center justify-between">
+      
+      <!-- Tab 1: Home (Active) -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#10b981] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"></path>
+          <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.432z"></path>
+        </svg>
+        <span class="text-[10px] font-semibold mt-0.5 tracking-tight font-wayfinding">Home</span>
+      </a>
+
+      <!-- Tab 2: Study -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path>
+        </svg>
+        <span class="text-[10px] font-medium mt-0.5 tracking-tight font-wayfinding">Study</span>
+      </a>
+
+      <!-- Tab 3: Build -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"></path>
+        </svg>
+        <span class="text-[10px] font-medium mt-0.5 tracking-tight font-wayfinding">Build</span>
+      </a>
+
+      <!-- Tab 4: Stats -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"></path>
+        </svg>
+        <span class="text-[10px] font-medium mt-0.5 tracking-tight font-wayfinding">Stats</span>
+      </a>
+
+      <!-- Tab 5: Mistakes -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"></path>
+        </svg>
+        <span class="text-[10px] font-medium mt-0.5 tracking-tight font-wayfinding">Mistakes</span>
+      </a>
+
+      <!-- Tab 6: More -->
+      <a href="#" class="flex flex-col items-center justify-center flex-1 min-h-[44px] text-[#a3b1c6] hover:text-[#f1f5f9] group">
+        <svg class="w-5 h-5 transition-transform group-active:scale-90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="5" cy="12" r="1.5"></circle>
+          <circle cx="12" cy="12" r="1.5"></circle>
+          <circle cx="19" cy="12" r="1.5"></circle>
+        </svg>
+        <span class="text-[10px] font-medium mt-0.5 tracking-tight font-wayfinding">More</span>
+      </a>
+
+    </nav>
+
+  </main>
+</body>
+</html>

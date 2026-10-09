@@ -1,6 +1,7 @@
 'use strict';
 
-const EXAM_AT = new Date('2026-10-14T08:30:00-04:00');
+// Ariel's sitting per her eAccessNY confirmation: NYC exam site, 123 William St, Thu Oct 15 2026, 9:00 AM.
+const EXAM_AT = new Date('2026-10-15T09:00:00-04:00');
 const PASS = 0.7;
 const SECS_PER_Q = 72; // 75 questions -> 90 minutes, same pace as the state exam
 const KEY = 'nyre.v1';
@@ -30,6 +31,10 @@ const fresh = () => ({
   active: null,
   imported: [],
   config: null,
+  cards: {}, // flashcard id -> {b: Leitner box 0-4, due: 'YYYY-MM-DD'}; see views/cards.js
+  cardLog: {}, // 'YYYY-MM-DD' -> flashcards reviewed that day
+  read: {}, // guide topic id (or 'examday') -> 'YYYY-MM-DD' last opened
+  plan: null, // Today's plan picks for one day, {date, ...}; see views/home.js
 });
 
 function load() {
@@ -222,6 +227,11 @@ const icon = {
   target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
   book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M8 7h7"/>',
   play: '<path d="M7 4v16l13-8z"/>',
+  pause: '<path d="M8 5v14M16 5v14"/>',
+  search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',
+  cards: '<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>',
+  speaker: '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/>',
+  calendar: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
   refresh: '<path d="M20 11a8 8 0 0 0-14.9-3M4 4v4h4M4 13a8 8 0 0 0 14.9 3M20 20v-4h-4"/>',
   download: '<path d="M12 4v11m-5-5 5 5 5-5M4 20h16"/>',
   upload: '<path d="M12 16V5m-5 5 5-5 5 5M4 20h16"/>',
@@ -321,7 +331,9 @@ const bar = (v, n) => `<div class="bar" role="img" aria-label="${n ? pct(v) + ' 
 
 /* ---------- router ---------- */
 
-const ROUTES = { home: vHome, study: vStudy, build: vBuild, quiz: vQuiz, results: vResults, history: vHistory, mistakes: vMistakes, more: vMore };
+// Feature modules (views/cards.js, search.js, examday.js) declare their view functions as globals like the core views.
+const ROUTES = { home: vHome, study: vStudy, build: vBuild, quiz: vQuiz, results: vResults, history: vHistory, mistakes: vMistakes, more: vMore,
+  cards: vCards, search: vSearch, examday: vExamDay };
 
 function go(route) {
   if (location.hash === '#/' + route) render();
@@ -329,9 +341,11 @@ function go(route) {
 }
 
 let lastRoute = '';
+// A view or action may set SCROLL_TO to an element id; render() scrolls it into view once, after drawing.
+let SCROLL_TO = null;
 function render() {
-  const [name, arg, sub] = location.hash.replace(/^#\/?/, '').split('/');
-  const v = (ROUTES[name] || vHome)(arg, sub);
+  const [name, arg, sub, extra] = location.hash.replace(/^#\/?/, '').split('/');
+  const v = (ROUTES[name] || vHome)(arg, sub, extra);
   if (!v) return;
   $('#top').innerHTML = v.top;
   $('#view').innerHTML = v.main;
@@ -340,6 +354,7 @@ function render() {
   // Scroll to top on a new route or a new question (Next/Prev/jump re-render the same route).
   const at = location.hash + (name === 'quiz' && S.active ? `/${S.active.id}/${S.active.i}` : '');
   if (at !== lastRoute) { window.scrollTo(0, 0); lastRoute = at; }
+  if (SCROLL_TO) { document.getElementById(SCROLL_TO)?.scrollIntoView({ block: 'start' }); SCROLL_TO = null; }
 }
 
 /* ---------- events ---------- */
@@ -422,6 +437,8 @@ const ACTIONS = {
     S = fresh();
     indexBank(BANK.base);
   },
+  // Feature modules contribute their own actions; an action returning false skips the save + re-render.
+  ...CARDS_ACTIONS, ...SEARCH_ACTIONS, ...LISTEN_ACTIONS, ...TODAY_ACTIONS,
 };
 
 const ASYNC_SKIP = new Set(['answer', 'end', 'exit', 'drill', 'mock', 'weak', 'start', 'retest', 'review-mistakes', 'resume', 'export', 'practice-topic', 'toc']);
@@ -433,8 +450,8 @@ document.addEventListener('click', (e) => {
   const fn = ACTIONS[name];
   if (!fn) return;
   e.preventDefault();
-  fn(el);
-  if (!ASYNC_SKIP.has(name)) { save(); render(); }
+  const r = fn(el);
+  if (r !== false && !ASYNC_SKIP.has(name)) { save(); render(); }
 });
 
 document.addEventListener('change', async (e) => {

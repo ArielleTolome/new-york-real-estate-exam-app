@@ -108,6 +108,20 @@ async function run(browser, device) {
   await page.goto(BASE + '/#/study/math/notes');
   await page.waitForSelector('#notes');
   await shot('13-study-notes');
+  await page.goto(BASE + '/#/cards');
+  await page.waitForSelector('#fc-hub');
+  await shot('14-cards');
+  await page.goto(BASE + '/#/cards/due');
+  await page.waitForSelector('#fc-card');
+  await page.click('#fc-card');
+  await page.waitForSelector('#fc-card.on');
+  await shot('15-cards-back');
+  await page.goto(BASE + '/#/search/habendum');
+  await page.waitForSelector('mark.sr-hit');
+  await shot('16-search');
+  await page.goto(BASE + '/#/examday');
+  await page.waitForSelector('.ed-cb');
+  await shot('17-examday');
   await ctx.close();
   return shots;
 }
