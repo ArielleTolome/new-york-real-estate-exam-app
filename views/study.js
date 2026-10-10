@@ -46,7 +46,7 @@ function studyChapter(G, id, notes) {
     <div class="ls-bar"><nav class="seg st-seg" aria-label="Guide view">
       <a href="#/study/${esc(id)}" ${notes ? '' : 'aria-current="page"'}>Cram sheet</a>
       <a href="#/study/${esc(id)}/notes" ${notes ? 'aria-current="page"' : ''}>Full notes</a>
-    </nav>${lsButton()}</div>
+    </nav>${lsButton()}${lsSaveButton()}</div>
     ${notes ? studyNotes(g) : studyCram(g, id)}
     <button class="btn primary block st-practice" data-action="practice-topic" data-id="${esc(id)}">Practice this chapter: 25 questions</button>
     <div class="st-pager">${nav(prev, 'Previous chapter')}${nav(next, 'Next chapter')}</div>`,

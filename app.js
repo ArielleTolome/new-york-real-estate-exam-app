@@ -527,4 +527,6 @@ window.addEventListener('hashchange', render);
   window.__app = { get state() { return S; }, get bank() { return BANK; }, get guides() { return GUIDES; } };
   render();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  // Ask the browser not to evict the offline copy (and saved audio) under storage pressure; Safari grants installed PWAs.
+  navigator.storage?.persist?.().catch(() => {});
 })();

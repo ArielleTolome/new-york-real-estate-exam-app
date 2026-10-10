@@ -6,6 +6,14 @@
   background: var(--go-soft); box-shadow: inset 0 0 0 1px rgba(16, 185, 129, .4); color: #6ee7b7;
 }
 .ls-btn .ic { width: 20px; height: 20px; }
+.ls-save { flex: none; width: 52px; height: 52px; border-radius: 14px; }
+.ls-save.on { color: var(--go); background: var(--go-soft); }
+.ls-save:disabled { opacity: .55; }
+.ls-voice { flex: none; margin-left: auto; font-size: 12px; color: var(--ink-2); }
+.ls-offline { display: flex; flex-direction: column; gap: 10px; }
+.ls-offline .meta { margin: 0; }
+.ls-offline > .bk-note:first-child { margin: 0; padding: 0; border: 0; }
+.ls-offline .bk-list { margin-top: 4px; }
 
 /* Current item: tinted text block, or a green ring on card-like items. Side-only shadows widen the tint without touching neighbours. */
 .ls-now:not(.card, .st-nums > div) { background-color: var(--go-soft); box-shadow: -8px 0 0 var(--go-soft), 8px 0 0 var(--go-soft); border-radius: 4px; }

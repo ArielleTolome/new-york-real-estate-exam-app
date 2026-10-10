@@ -36,6 +36,7 @@ p { margin: 0 0 8px; }
 .num { font-family: var(--font-display); font-variant-numeric: tabular-nums; font-weight: 700; letter-spacing: -.02em; }
 .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+[hidden] { display: none !important; } /* components set display, which would otherwise override the attribute */
 :focus-visible { outline: 2px solid var(--statute); outline-offset: 2px; border-radius: 6px; }
 
 /* ---------- chrome ---------- */

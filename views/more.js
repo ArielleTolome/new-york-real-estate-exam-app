@@ -14,6 +14,17 @@ function vMore() {
       <div class="card bk-install"><ol class="bk-steps">
         ${step(1, svg('compass'), 'Open in Safari')}${step(2, svg('share'), 'Tap Share')}${step(3, svg('plusSquare'), 'Add to Home Screen')}</ol>
         <p class="bk-note">${svg('check')}<span>Works fully offline after the first load, so you can study underground.</span></p></div></section>
+    <section><h2>Offline</h2>
+      <div class="card ls-offline" id="ls-offline">
+        <p class="bk-note">${svg('check')}<span>Questions, study guides, flashcards and search are saved on this device.</span></p>
+        <p class="meta ls-off-audio">Checking narrated audio…</p>
+        <p class="meta ls-off-store"></p>
+        <div class="bk-list">
+          <button class="bk-row" data-action="ls-save-all" hidden><span class="bk-row-ic">${svg('download')}</span><span class="bk-row-t">Save all chapter audio for offline</span><span class="meta"></span></button>
+          <button class="bk-row bk-danger" data-action="ls-unsave" hidden><span class="bk-row-ic">${svg('trash')}</span><span class="bk-row-t">Remove saved audio</span></button>
+        </div>
+        <p class="meta bk-caption">Each chapter can also be saved from its page with the download button next to Listen.</p>
+      </div></section>
     <section><h2>Your data</h2>
       <div class="bk-list">
         <button class="bk-row" data-action="export"><span class="bk-row-ic">${svg('download')}</span><span class="bk-row-t">Export study history</span><span class="meta">JSON</span></button>

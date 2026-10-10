@@ -288,22 +288,47 @@ async function pick(page, correct) {
     await page.waitForFunction((t) => { const r = document.getElementById(t).getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight / 2; }, target);
   });
 
-  await check('14. Listen mode: player appears on a chapter, steps through items, and leaves with the page', async () => {
+  await check('14. Listen mode plays the ElevenLabs narration, skips by item, and leaves with the page', async () => {
     await page.goto(BASE + '/#/study/agency');
     await page.waitForSelector('#cram');
-    if (!(await page.locator('.ls-btn').count())) return; // speechSynthesis missing in this browser: button is hidden by design
+    await page.waitForFunction(() => LS_AUDIO.manifest); // audio/audio.json
     await page.click('.ls-btn');
     await page.waitForSelector('#ls-player');
-    const pos = await page.textContent('#ls-player .ls-pos');
+    assert.equal(await page.textContent('#ls-player .ls-voice'), 'Narrated');
+    await page.waitForFunction(() => LS_AUDIO.el.currentTime > 0.5, null, { timeout: 15000 }); // actually playing
     await page.click('#ls-player .ls-next');
-    await page.waitForFunction((p) => document.querySelector('#ls-player .ls-pos').textContent !== p, pos);
+    const [i, t, mark] = await page.evaluate(() => [LS.i, LS_AUDIO.el.currentTime, LS.marks[LS.i]]);
+    assert.equal(i, 1);
+    assert.ok(Math.abs(t - mark) < 1, `next seeked to ${t}s, item starts at ${mark}s`);
     assert.equal(await page.locator('#view .ls-now').count(), 1, 'current item not highlighted');
     await page.goto(BASE + '/#/home');
     await page.waitForSelector('#td-plan');
     assert.equal(await page.locator('#ls-player').count(), 0, 'player survived navigation');
+    assert.ok(await page.evaluate(() => LS_AUDIO.el.paused), 'audio kept playing after leaving the chapter');
   });
 
-  await check('15. Exam day guide: confirmed date, persistent checklist, marks itself read', async () => {
+  await check('15. A saved chapter plays its narration offline, served from the audio cache with byte ranges', async () => {
+    await page.goto(BASE + '/#/study/agency');
+    await page.waitForSelector('.ls-save:not([hidden])');
+    await page.click('.ls-save');
+    await page.waitForSelector('.ls-save.on', { timeout: 60000 });
+    await ctx.setOffline(true);
+    await page.reload();
+    await page.waitForSelector('#cram');
+    await page.waitForFunction(() => LS_AUDIO.manifest);
+    await page.click('.ls-btn');
+    await page.waitForFunction(() => LS_AUDIO.el.currentTime > 0.5, null, { timeout: 15000 });
+    await page.click('#ls-player .ls-next'); // a seek: needs a 206 from the service worker
+    await page.waitForTimeout(800);
+    const [mode, err, t, mark] = await page.evaluate(() => [LS.mode, LS_AUDIO.el.error, LS_AUDIO.el.currentTime, LS.marks[1]]);
+    assert.equal(mode, 'mp3');
+    assert.equal(err, null);
+    assert.ok(t >= mark - 0.5, `offline seek landed at ${t}s, wanted ${mark}s`);
+    await page.click('#ls-player .ls-close');
+    await ctx.setOffline(false);
+  });
+
+  await check('16. Exam day guide: confirmed date, persistent checklist, marks itself read', async () => {
     await page.goto(BASE + '/#/examday');
     await page.waitForSelector('.ed-cb');
     assert.match(await page.textContent('.hdr-t p'), /Oct 15/);
